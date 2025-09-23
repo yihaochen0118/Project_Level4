@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://8q8c5tuhw3px"]
+
+[ext_resource type="Texture2D" uid="uid://dq6dmtojct8ad" path="res://images/Chara/Aldric.jpg" id="1_4xs4n"]
+[ext_resource type="Script" uid="uid://hyep6b8od4nl" path="res://Script/aldric.gd" id="1_wktjp"]
+
+[node name="Aldric" type="Node2D"]
+script = ExtResource("1_wktjp")
+
+[node name="Aldric" type="Sprite2D" parent="."]
+z_index = 1
+position = Vector2(319, 170)
+scale = Vector2(0.173, 0.175)
+texture = ExtResource("1_4xs4n")

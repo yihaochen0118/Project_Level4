@@ -1,0 +1,18 @@
+[gd_scene load_steps=6 format=3 uid="uid://danrnq4g7mdxc"]
+
+[ext_resource type="Script" uid="uid://cc0x6hcykq3na" path="res://Script/main.gd" id="1_jjvhh"]
+[ext_resource type="PackedScene" uid="uid://bjxdwln1xd4ol" path="res://Scenes/Background/back_ground.tscn" id="2_8gbba"]
+[ext_resource type="PackedScene" uid="uid://cwb22crnumyys" path="res://Scenes/ui/ui.tscn" id="3_jjvhh"]
+[ext_resource type="PackedScene" uid="uid://da43pxlskcksh" path="res://Scenes/Characters/charact.tscn" id="4_jjvhh"]
+[ext_resource type="Script" uid="uid://5a300jkaax8b" path="res://Script/charact.gd" id="5_kry3j"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_jjvhh")
+
+[node name="backGround" parent="." instance=ExtResource("2_8gbba")]
+
+[node name="UI" parent="." instance=ExtResource("3_jjvhh")]
+z_index = 2
+
+[node name="Charact" parent="." instance=ExtResource("4_jjvhh")]
+script = ExtResource("5_kry3j")

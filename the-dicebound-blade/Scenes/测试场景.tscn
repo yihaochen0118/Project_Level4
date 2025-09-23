@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://crp28fjrk0eep"]
+
+[ext_resource type="PackedScene" uid="uid://cwcy08qmopjty" path="res://Scenes/Background/Tavern.tscn" id="1_eihmu"]
+[ext_resource type="PackedScene" uid="uid://8q8c5tuhw3px" path="res://Scenes/Characters/Aldric.tscn" id="2_4txri"]
+[ext_resource type="PackedScene" uid="uid://c4l8ahbm14vqt" path="res://Scenes/ui/OptionUI.tscn" id="3_eihmu"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="tavern" parent="." instance=ExtResource("1_eihmu")]
+
+[node name="Aldric" parent="." instance=ExtResource("2_4txri")]
+position = Vector2(216, 0)
+
+[node name="ChoiceUi" parent="." instance=ExtResource("3_eihmu")]

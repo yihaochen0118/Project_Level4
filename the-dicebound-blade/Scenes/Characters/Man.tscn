@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bl6a7n23m3fhr"]
+
+[ext_resource type="Texture2D" uid="uid://dkayvajhotbgr" path="res://images/Chara/Man.jpg" id="1_p0s4s"]
+
+[node name="Man" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(319, 170)
+scale = Vector2(0.173, 0.173)
+texture = ExtResource("1_p0s4s")

@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://cwcqiwlhvphxr"]
+
+[ext_resource type="Texture2D" uid="uid://dc722hejt0u0l" path="res://images/else/talkKuang.png" id="1_ldsgi"]
+[ext_resource type="Script" uid="uid://dw75r2aeahrx7" path="res://Script/UI.gd" id="1_ypu5u"]
+
+[node name="talk_ui" type="Node2D"]
+z_index = 2
+script = ExtResource("1_ypu5u")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+z_index = 2
+offset_left = 71.0
+offset_top = 255.0
+offset_right = 564.0
+offset_bottom = 338.0
+texture = ExtResource("1_ldsgi")
+patch_margin_left = 10
+patch_margin_top = 2
+patch_margin_right = 10
+patch_margin_bottom = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="NinePatchRect"]
+z_index = 2
+layout_mode = 0
+offset_left = 84.0
+offset_top = 22.0
+offset_right = 413.0
+offset_bottom = 57.0

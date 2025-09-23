@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cwcy08qmopjty"]
+
+[ext_resource type="Texture2D" uid="uid://febpj6ugdh21" path="res://images/background/tavern.jpg" id="1_1svwl"]
+
+[node name="tavern" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(320, 180)
+scale = Vector2(0.19937497, 0.20089284)
+texture = ExtResource("1_1svwl")

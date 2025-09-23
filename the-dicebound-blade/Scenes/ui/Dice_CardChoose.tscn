@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://bfbtritij63y1"]
+
+[node name="Node2D" type="Node2D"]
+z_index = 2
+
+[node name="card" type="CanvasLayer" parent="."]
+
+[node name="DICE" type="HBoxContainer" parent="card"]
+z_index = 2
+offset_left = 131.0
+offset_top = 275.0
+offset_right = 513.0
+offset_bottom = 351.0
+
+[node name="Button" type="Button" parent="card/DICE"]
+z_index = 2
+layout_mode = 2
+text = "D8(TEMP)"
+
+[node name="Button2" type="Button" parent="card/DICE"]
+z_index = 2
+layout_mode = 2
+text = "D10(TEMP)"
+
+[node name="Button3" type="Button" parent="card/DICE"]
+z_index = 2
+layout_mode = 2
+text = "D12(TEMP)"
+
+[node name="Button4" type="Button" parent="card/DICE"]
+z_index = 2
+layout_mode = 2
+text = "D20(TEMP)"
