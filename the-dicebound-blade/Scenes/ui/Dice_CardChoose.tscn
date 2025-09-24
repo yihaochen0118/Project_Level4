@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bfbtritij63y1"]
 
-[ext_resource type="Script" uid="uid://dikoi2x8hgg14" path="res://Script/Dice_CardChoose.gd.gd" id="1_ygpwn"]
+[ext_resource type="Script" uid="uid://dikoi2x8hgg14" path="res://Script/Dice_CardChoose.gd" id="1_ygpwn"]
 
 [node name="Control" type="Control"]
 z_index = 2

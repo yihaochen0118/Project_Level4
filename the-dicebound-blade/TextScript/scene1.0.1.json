@@ -1,4 +1,0 @@
-[
-  { "text": "Enter branch 1.0.1" },
-  { "event": { "action": "change_scene", "target": "scene1.1" } }
-]
