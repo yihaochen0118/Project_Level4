@@ -12,31 +12,45 @@ script = ExtResource("1_ygpwn")
 
 [node name="DICE" type="HBoxContainer" parent="card"]
 z_index = 2
-offset_left = 579.0
-offset_top = 662.0
-offset_right = 1391.0
-offset_bottom = 1002.0
+offset_left = 476.0
+offset_top = 643.0
+offset_right = 1492.0
+offset_bottom = 983.0
 
 [node name="D6" type="Button" parent="card/DICE"]
 z_index = 2
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
-text = "D8(TEMP)"
+text = "D6(TEMP)"
 
 [node name="D8" type="Button" parent="card/DICE"]
 z_index = 2
 custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
-text = "D10(TEMP)"
+text = "D8(TEMP)"
 
 [node name="D10" type="Button" parent="card/DICE"]
 z_index = 2
 custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
-text = "D12(TEMP)"
+text = "D10(TEMP)"
 
 [node name="D12" type="Button" parent="card/DICE"]
 z_index = 2
 custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
+text = "D12(TEMP)"
+
+[node name="D20" type="Button" parent="card/DICE"]
+z_index = 2
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
 text = "D20(TEMP)"
+
+[node name="ResultLabel" type="Label" parent="card"]
+offset_left = 680.0
+offset_top = 263.0
+offset_right = 1176.0
+offset_bottom = 455.0
+horizontal_alignment = 1
+vertical_alignment = 1

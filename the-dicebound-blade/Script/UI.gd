@@ -38,18 +38,33 @@ func load_dialogues(path: String):
 
 # =============== 确保对话框存在 ===============
 func ensure_dialogue_box():
-	if dialogue_box == null:
-		var path = ResMgr.get_ui("talk_ui")  # 通过资源管理器拿路径
-		if path != "":
-			var scene = load(path) as PackedScene
-			dialogue_box = scene.instantiate()
-			var ui_root = get_tree().current_scene.get_node("UI")
-			ui_root.add_child(dialogue_box)
+	if dialogue_box != null and is_instance_valid(dialogue_box):
+		return  # 已经存在并且有效
 
-			# 找文本节点
-			label = dialogue_box.get_node("NinePatchRect/RichTextLabel") as RichTextLabel
-		else:
-			push_error("找不到 talk_ui 场景资源")
+	# 先去树里找是否有 talk_ui 节点
+	var ui_root = get_tree().current_scene.get_node("UI")
+	if ui_root.has_node("talk_ui"):
+		dialogue_box = ui_root.get_node("talk_ui")
+		label = dialogue_box.get_node("NinePatchRect/RichTextLabel") as RichTextLabel
+		return
+
+	# 否则实例化新的
+	var path = ResMgr.get_ui("talk_ui")  # 通过资源管理器拿路径
+	if path != "":
+		var scene = load(path) as PackedScene
+		if scene == null:
+			push_error("加载 talk_ui 失败: %s" % path)
+			return
+
+		dialogue_box = scene.instantiate()
+		dialogue_box.name = "talk_ui"  # 保证下次能找到
+		ui_root.add_child(dialogue_box)
+
+		# 找文本节点
+		label = dialogue_box.get_node("NinePatchRect/RichTextLabel") as RichTextLabel
+	else:
+		push_error("找不到 talk_ui 场景资源")
+
 			
 # =============== 确保选择框存在 ===============
 func ensure_option_box():
@@ -177,28 +192,31 @@ func spawn_choice_ui(options: Array, callback: Callable):
 
 	return choice_ui
 # ================== 供 ChoiceUi 调用 ================== 这才是当玩家选择完后的外部链接
-func on_option_selected(index: int, text: String):
-	print("玩家选择了: %s (索引 %d)" % [text, index])
+func on_option_selected(index: int, text: String, dc: int):
+	print("玩家选择了: %s (索引 %d, DC=%d)" % [text, index, dc])
 	is_waiting_choice = false
 
-	# 如果选的是 index=3（第三个按钮），直接进入对应分支
-	if index == 2:
+	if dc == 0:
+		# 直接跳转分支
 		var branch_name = "%s.%d" % [current_scene_name, index + 1]
-		_change_scene(branch_name)
+		EventMgr._change_scene(branch_name)
 		return
 
-	# 其他选项需要投骰子
+	# 有 DC → 投骰子
 	roll_dice(func(sides: int, result: int):
-		print("骰子结果: D%d = %d" % [sides, result])
+		print("骰子结果: D%d = %d, DC=%d" % [sides, result, dc])
+		var success = 0
+		if result >= dc:
+			success = 1
 
 		var branch_name = "%s.%d.%d" % [
 			current_scene_name,
 			index + 1,
-			result_success(result)  # 0 = 失败，1 = 成功
+			success
 		]
-		_change_scene(branch_name)
+		EventMgr._change_scene(branch_name)
 	)
-	
+
 
 # 判断是否成功（你可以自己定义成功条件）
 func result_success(result: int) -> int:

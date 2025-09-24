@@ -1,29 +1,28 @@
 extends Control
-
 @onready var vbox = $VBoxContainer
 
-signal option_selected(index: int, text: String)
+signal option_selected(index: int, text: String, dc: int)
 
-# 动态设置选项
 func set_options(options: Array):
 	var buttons = vbox.get_children()
 
-	# 设置按钮文本 & 显示状态
 	for i in range(buttons.size()):
 		if i < options.size():
-			buttons[i].text = str(options[i])
+			var option_data = options[i]   # { "text": "...", "dc": 12 }
+			buttons[i].text = option_data["text"]
 			buttons[i].show()
+
+			# 清理旧连接
+			for c in buttons[i].get_signal_connection_list("pressed"):
+				buttons[i].disconnect("pressed", c.callable)
+
+			# 绑定新连接
+			var callable = Callable(self, "_on_button_pressed").bind(i, option_data["text"], option_data.get("dc", 0))
+			buttons[i].connect("pressed", callable)
 		else:
 			buttons[i].hide()
 
-	# 绑定点击事件（先断开旧的）
-	for i in range(min(buttons.size(), options.size())):
-		var callable = Callable(self, "_on_button_pressed").bind(i, options[i])
-		if buttons[i].is_connected("pressed", callable):
-			buttons[i].disconnect("pressed", callable)
-		buttons[i].connect("pressed", callable)
-
-# 按钮点击时触发
-func _on_button_pressed(index: int, text: String):
-	hide()  # 选择完隐藏
-	emit_signal("option_selected", index, text)  # 发信号
+func _on_button_pressed(index: int, text: String, dc: int):
+	print("玩家选择了：%s (索引 %d, DC=%d)" % [text, index, dc])
+	hide()
+	emit_signal("option_selected", index, text, dc)

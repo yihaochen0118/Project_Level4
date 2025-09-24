@@ -108,7 +108,7 @@ func _show_option_ui(ui_root: Node, event: Dictionary) -> void:
 	if options.size() > 0 and option_ui.has_method("set_options"):
 		option_ui.set_options(options)
 
-		# 绑定信号（可选）
+		# 绑定信号，把 dc 一起传回去
 		var callable = Callable(ui_root, "on_option_selected")
 		if option_ui.is_connected("option_selected", callable):
 			option_ui.disconnect("option_selected", callable)

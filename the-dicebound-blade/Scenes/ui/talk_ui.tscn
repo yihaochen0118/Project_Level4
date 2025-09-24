@@ -1,12 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://cwcqiwlhvphxr"]
+[gd_scene load_steps=2 format=3 uid="uid://cwcqiwlhvphxr"]
 
 [ext_resource type="Texture2D" uid="uid://dc722hejt0u0l" path="res://images/else/talkKuang.png" id="1_ldsgi"]
-[ext_resource type="Script" uid="uid://dw75r2aeahrx7" path="res://Script/UI.gd" id="1_ypu5u"]
 
 [node name="talk_ui" type="Node2D"]
 z_index = 2
 position = Vector2(244, 420)
-script = ExtResource("1_ypu5u")
 
 [node name="NinePatchRect" type="NinePatchRect" parent="."]
 z_index = 2

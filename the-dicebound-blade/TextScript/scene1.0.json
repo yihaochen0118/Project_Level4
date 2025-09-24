@@ -5,5 +5,18 @@
 	{ "text": "壮汉A：老家伙！喝酒没钱付账？敢耍我们？","event": [{ "target": "Aldric", "action": "shake" },{ "target": "Man", "action": "shake" }]},
 	{ "text": "壮汉B：要不今天就把你扔到街上喂狗！"},
 	{ "text": "老者（虚弱）：等我……等我找到那东西，一定会还你们……"},
-	{ "event": [{"action":"show_option_ui","options": ["选项 A：上前劝阻     【魅力对抗 难度：中（DC 12）】","选项 B：偷偷溜到后面     【敏捷对抗 难度：困难（DC16）（因为人多注意力高）】","选项 C：静观其变，向神秘女法师寻求帮助     【魅力鉴定 难度：简单（DC8）】"]},{ "action": "hide_talk_ui" }]},
+	{
+  "event": [
+	{
+	  "action": "show_option_ui",
+	  "options": [
+		{ "text": "选项 A：上前劝阻 【魅力对抗 难度：中（DC 5）】", "dc": 5 },
+		{ "text": "选项 B：偷偷溜到后面 【敏捷对抗 难度：困难（DC 9）（因为人多注意力高）】", "dc": 9 },
+		{ "text": "选项 C：静观其变，向神秘女法师寻求帮助", "dc": 0 }
+	  ]
+	},
+	{ "action": "hide_talk_ui" }
+  ]
+}
+
 ]
