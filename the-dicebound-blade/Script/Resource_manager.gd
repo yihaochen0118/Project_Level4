@@ -1,5 +1,9 @@
 extends Node
 class_name ResourceManager
+var dialogues = {}
+
+func _ready():
+	autoLoad_Dialogue()
 
 # 背景场景路径
 var backgrounds = {
@@ -19,14 +23,17 @@ var ui = {
 	"Option_ui":"res://Scenes/ui/OptionUI.tscn",
 }
 
-# 对话脚本路径
-var dialogues = {
-	"scene1.0": "res://TextScript/scene1.0.json",
-	"scene1.0.1": "res://TextScript/scene1.0.1.json",
-	"scene1.0.2": "res://TextScript/scene1.0.2.json",
-	"scene1.0.3": "res://TextScript/scene1.0.3.json",
-	"scene1.1": "res://TextScript/scene1.1.json"
-}
+func autoLoad_Dialogue():
+	var dir = DirAccess.open("res://TextScript")
+	if dir:
+		dir.list_dir_begin()
+		var file_name = dir.get_next()
+		while file_name != "":
+			if file_name.ends_with(".json"):
+				var scene_key = file_name.replace(".json", "")
+				dialogues[scene_key] = "res://TextScript/%s" % file_name
+			file_name = dir.get_next()
+
 
 # 获取背景
 func get_background(name: String) -> String:
@@ -38,7 +45,8 @@ func get_character(name: String) -> String:
 
 func get_ui(name: String) -> String:
 	return ui.get(name, "")
-
-# 获取对话脚本
-func get_dialogue(name: String) -> String:
-	return dialogues.get(name, "")
+	
+func get_dialogue(scene_name: String) -> String:
+	if dialogues.has(scene_name):
+		return dialogues[scene_name]
+	return ""

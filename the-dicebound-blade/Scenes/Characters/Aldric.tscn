@@ -8,6 +8,6 @@ script = ExtResource("1_wktjp")
 
 [node name="Aldric" type="Sprite2D" parent="."]
 z_index = 1
-position = Vector2(319, 170)
-scale = Vector2(0.173, 0.175)
+position = Vector2(1036.874, 536.75)
+scale = Vector2(0.6, 0.543)
 texture = ExtResource("1_4xs4n")

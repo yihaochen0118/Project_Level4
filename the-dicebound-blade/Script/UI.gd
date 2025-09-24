@@ -13,7 +13,7 @@ var is_waiting_choice = false  # 是否在等玩家选择
 var dialogue_box = null   # 实例化的对话框
 var option_box= null      #实例化的选项框
 var label = null          # RichTextLabel
-signal dialogue_event(event_data: Dictionary)   # 新增信号
+signal dialogue_event(event_data: Dictionary)# 新增信号
 var current_scene_name = ""  # 记录当前对话脚本名
 
 func _ready():
@@ -181,11 +181,30 @@ func on_option_selected(index: int, text: String):
 	print("玩家选择了: %s (索引 %d)" % [text, index])
 	is_waiting_choice = false
 
-	# 拼接分支名
-	var branch_name = "%s.%d" % [current_scene_name, index + 1]
+	# 如果选的是 index=3（第三个按钮），直接进入对应分支
+	if index == 2:
+		var branch_name = "%s.%d" % [current_scene_name, index + 1]
+		_change_scene(branch_name)
+		return
 
-	# 尝试加载分支
-	_change_scene(branch_name)
+	# 其他选项需要投骰子
+	roll_dice(func(sides: int, result: int):
+		print("骰子结果: D%d = %d" % [sides, result])
+
+		var branch_name = "%s.%d.%d" % [
+			current_scene_name,
+			index + 1,
+			result_success(result)  # 0 = 失败，1 = 成功
+		]
+		_change_scene(branch_name)
+	)
+	
+
+# 判断是否成功（你可以自己定义成功条件）
+func result_success(result: int) -> int:
+	# 比如 >= 5 才算成功
+	return 1 if result >= 5 else 0
+
 
 # 内部函数：切换对话脚本
 func _change_scene(scene_name: String):
@@ -195,6 +214,36 @@ func _change_scene(scene_name: String):
 		show_next_line()
 	else:
 		push_error("找不到对话脚本: %s" % scene_name)
+
+func roll_dice(callback: Callable):
+	var ui_root = get_tree().current_scene.get_node("UI")
+	if not ui_root:
+		push_error("未找到 UI 节点")
+		return
+
+	# 从资源管理器获取路径
+	var path = ResMgr.get_ui("Dice_CardChoose")
+	if path == "":
+		push_error("找不到 Dice_CardChoose 场景资源")
+		return
+
+	var scene = load(path) as PackedScene
+	if scene == null:
+		push_error("Dice_CardChoose 资源加载失败: %s" % path)
+		return
+
+	# 实例化并挂到 UI
+	var dice_ui = scene.instantiate()
+	ui_root.add_child(dice_ui)
+
+	# 绑定选择后的回调
+	dice_ui.dice_chosen.connect(func(sides: int, result: int):
+		print("最终投掷: D%d = %d" % [sides, result])
+		if callback != null:
+			callback.call(sides, result)
+	)
+
+
 		
 # UI 接口：处理输入（供 main.gd 调用）
 func handle_input():

@@ -1,33 +1,42 @@
-[gd_scene format=3 uid="uid://bfbtritij63y1"]
+[gd_scene load_steps=2 format=3 uid="uid://bfbtritij63y1"]
 
-[node name="Node2D" type="Node2D"]
+[ext_resource type="Script" uid="uid://dikoi2x8hgg14" path="res://Script/Dice_CardChoose.gd.gd" id="1_ygpwn"]
+
+[node name="Control" type="Control"]
 z_index = 2
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_ygpwn")
 
 [node name="card" type="CanvasLayer" parent="."]
 
 [node name="DICE" type="HBoxContainer" parent="card"]
 z_index = 2
-offset_left = 131.0
-offset_top = 275.0
-offset_right = 513.0
-offset_bottom = 351.0
+offset_left = 579.0
+offset_top = 662.0
+offset_right = 1391.0
+offset_bottom = 1002.0
 
-[node name="Button" type="Button" parent="card/DICE"]
+[node name="D6" type="Button" parent="card/DICE"]
 z_index = 2
+custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 text = "D8(TEMP)"
 
-[node name="Button2" type="Button" parent="card/DICE"]
+[node name="D8" type="Button" parent="card/DICE"]
 z_index = 2
+custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
 text = "D10(TEMP)"
 
-[node name="Button3" type="Button" parent="card/DICE"]
+[node name="D10" type="Button" parent="card/DICE"]
 z_index = 2
+custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
 text = "D12(TEMP)"
 
-[node name="Button4" type="Button" parent="card/DICE"]
+[node name="D12" type="Button" parent="card/DICE"]
 z_index = 2
+custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
 text = "D20(TEMP)"

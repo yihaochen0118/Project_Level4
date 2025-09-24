@@ -5,14 +5,15 @@
 
 [node name="talk_ui" type="Node2D"]
 z_index = 2
+position = Vector2(244, 420)
 script = ExtResource("1_ypu5u")
 
 [node name="NinePatchRect" type="NinePatchRect" parent="."]
 z_index = 2
-offset_left = 71.0
-offset_top = 255.0
-offset_right = 564.0
-offset_bottom = 338.0
+offset_left = -125.0
+offset_top = 271.0
+offset_right = 1532.0
+offset_bottom = 613.0
 texture = ExtResource("1_ldsgi")
 patch_margin_left = 10
 patch_margin_top = 2
@@ -22,7 +23,7 @@ patch_margin_bottom = 2
 [node name="RichTextLabel" type="RichTextLabel" parent="NinePatchRect"]
 z_index = 2
 layout_mode = 0
-offset_left = 84.0
-offset_top = 22.0
-offset_right = 413.0
-offset_bottom = 57.0
+offset_left = 264.0
+offset_top = 90.0
+offset_right = 1403.0
+offset_bottom = 257.0

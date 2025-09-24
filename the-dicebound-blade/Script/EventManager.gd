@@ -45,23 +45,7 @@ func handle_event(event: Dictionary) -> void:
 		
 		# ====== 选项框 ======
 		"show_option_ui":
-			if ui_root and ui_root.has_node("OptionUI"):
-				var option_ui = ui_root.get_node("OptionUI")
-				option_ui.show()
-
-				var options = []
-				if event.has("options") and typeof(event["options"]) == TYPE_ARRAY:
-					options = event["options"]
-
-				if options.size() > 0 and option_ui.has_method("set_options"):
-					option_ui.set_options(options)
-					# 绑定信号（可选）
-					var callable = Callable(ui_root, "on_option_selected")
-
-					if option_ui.is_connected("option_selected", callable):
-						option_ui.disconnect("option_selected", callable)
-					option_ui.connect("option_selected", callable)
-				ui_root.is_waiting_choice = true
+			_show_option_ui(ui_root, event)
 
 		# ========== 扩展 ==========
 		"change_scene":
@@ -109,3 +93,25 @@ func _change_scene(scene_name: String) -> void:
 	if ui:
 		ui.load_dialogues(path)
 		ui.show_next_line()
+		
+func _show_option_ui(ui_root: Node, event: Dictionary) -> void:
+	if not ui_root or not ui_root.has_node("OptionUI"):
+		return
+
+	var option_ui = ui_root.get_node("OptionUI")
+	option_ui.show()
+
+	var options = []
+	if event.has("options") and typeof(event["options"]) == TYPE_ARRAY:
+		options = event["options"]
+
+	if options.size() > 0 and option_ui.has_method("set_options"):
+		option_ui.set_options(options)
+
+		# 绑定信号（可选）
+		var callable = Callable(ui_root, "on_option_selected")
+		if option_ui.is_connected("option_selected", callable):
+			option_ui.disconnect("option_selected", callable)
+		option_ui.connect("option_selected", callable)
+
+	ui_root.is_waiting_choice = true
