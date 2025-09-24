@@ -9,6 +9,7 @@ var typing = false
 var typing_speed = 0.03
 var typing_index = 0
 var is_waiting_choice = false  # 是否在等玩家选择
+var dc_value=0 #当前dc value
 
 var dialogue_box = null   # 实例化的对话框
 var option_box= null      #实例化的选项框
@@ -191,11 +192,16 @@ func spawn_choice_ui(options: Array, callback: Callable):
 		push_warning("choice_ui 未实现 set_options 方法")
 
 	return choice_ui
-# ================== 供 ChoiceUi 调用 ================== 这才是当玩家选择完后的外部链接
+# ================== 供 optionUi 调用 ================== 这才是当玩家选择完后的外部链接
 func on_option_selected(index: int, text: String, dc: int):
+	dc_value=dc
 	print("玩家选择了: %s (索引 %d, DC=%d)" % [text, index, dc])
 	is_waiting_choice = false
+	result_success(index,dc)
 
+
+# 判断是否成功（你可以自己定义成功条件）
+func result_success(index: int, dc: int):
 	if dc == 0:
 		# 直接跳转分支
 		var branch_name = "%s.%d" % [current_scene_name, index + 1]
@@ -214,14 +220,9 @@ func on_option_selected(index: int, text: String, dc: int):
 			index + 1,
 			success
 		]
+		
 		EventMgr._change_scene(branch_name)
 	)
-
-
-# 判断是否成功（你可以自己定义成功条件）
-func result_success(result: int) -> int:
-	# 比如 >= 5 才算成功
-	return 1 if result >= 5 else 0
 
 
 # 内部函数：切换对话脚本
@@ -232,7 +233,7 @@ func _change_scene(scene_name: String):
 		show_next_line()
 	else:
 		push_error("找不到对话脚本: %s" % scene_name)
-
+  
 func roll_dice(callback: Callable):
 	var ui_root = get_tree().current_scene.get_node("UI")
 	if not ui_root:
@@ -253,16 +254,13 @@ func roll_dice(callback: Callable):
 	# 实例化并挂到 UI
 	var dice_ui = scene.instantiate()
 	ui_root.add_child(dice_ui)
-
+	dice_ui._fix_rightPanel(dc_value)
 	# 绑定选择后的回调
 	dice_ui.dice_chosen.connect(func(sides: int, result: int):
-		print("最终投掷: D%d = %d" % [sides, result])
 		if callback != null:
 			callback.call(sides, result)
 	)
 
-
-		
 # UI 接口：处理输入（供 main.gd 调用）
 func handle_input():
 	if is_waiting_choice:

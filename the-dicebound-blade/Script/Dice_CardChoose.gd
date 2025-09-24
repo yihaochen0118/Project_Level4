@@ -7,6 +7,7 @@ signal dice_chosen(sides: int, result: int)
 @onready var btn_d10: Button = $card/DICE/D10
 @onready var btn_d12: Button = $card/DICE/D12
 @onready var btn_d20: Button = $card/DICE/D20
+@onready var Dc_value: Label = $rightPanel/DC
 @onready var result_label: Label = $card/ResultLabel
 @onready var card_container: Control = $card/DICE   # 按钮所在的容器
 
@@ -19,12 +20,12 @@ func _ready():
 
 func _roll_dice(sides: int):
 	var result = randi_range(1, sides)
-
 	# 立即隐藏卡牌按钮
 	card_container.hide()
 
 	# 显示结果
 	_result_feedback(sides,result)
+	
 
 	# 发信号（告诉外部结果）
 	emit_signal("dice_chosen", sides, result)
@@ -37,3 +38,7 @@ func _roll_dice(sides: int):
 func _result_feedback(sides:int,result:int):
 	result_label.text = "你投出了 %d (D%d)" % [result, sides]
 	result_label.show()
+	
+func _fix_rightPanel(value:int):
+	print(1)
+	Dc_value.text="%d"% value

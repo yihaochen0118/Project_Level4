@@ -12,20 +12,3 @@ scale = Vector2(0.60015625, 0.6036551)
 texture = ExtResource("1_gflek")
 
 [node name="UI" type="CanvasLayer" parent="."]
-
-[node name="rightPanel2" type="VBoxContainer" parent="UI"]
-z_index = 2
-offset_left = 1355.0
-offset_top = 1.0
-offset_right = 1918.0
-offset_bottom = 174.0
-
-[node name="NEED AT LEAST" type="Label" parent="UI/rightPanel2"]
-layout_mode = 2
-text = "NEED AT LEAST"
-horizontal_alignment = 2
-
-[node name="LP" type="Label" parent="UI/rightPanel2"]
-layout_mode = 2
-text = "d10"
-horizontal_alignment = 2
