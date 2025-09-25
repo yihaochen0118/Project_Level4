@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=3 uid="uid://cecoqv6x60h5n"]
+
+[ext_resource type="Script" uid="uid://d1kamu45amq44" path="res://Script/player_statu.gd" id="1_y243a"]
+
+[node name="PlayerStatu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_y243a")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 2.0
+offset_right = 151.0
+offset_bottom = 774.0
+
+[node name="StrengthLabel" type="Label" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+
+[node name="DexterityLabel" type="Label" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+
+[node name="ConstitutionLabel" type="Label" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+
+[node name="CharismaLabel" type="Label" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2

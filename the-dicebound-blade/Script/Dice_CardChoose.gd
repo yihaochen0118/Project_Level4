@@ -2,6 +2,7 @@ extends Control
 
 signal dice_chosen(sides: int, result: int)
 
+var check:String =""
 @onready var btn_d6: Button = $card/DICE/D6
 @onready var btn_d8: Button = $card/DICE/D8
 @onready var btn_d10: Button = $card/DICE/D10
@@ -20,25 +21,35 @@ func _ready():
 
 func _roll_dice(sides: int):
 	var result = randi_range(1, sides)
-	# 立即隐藏卡牌按钮
 	card_container.hide()
 
-	# 显示结果
-	_result_feedback(sides,result)
-	
+	# 显示结果（用自身保存的 check）
+	_result_feedback(sides, result, check)
 
-	# 发信号（告诉外部结果）
 	emit_signal("dice_chosen", sides, result)
 
-	# 两秒后隐藏结果并移除整个节点
-	await get_tree().create_timer(2.0).timeout
+	await get_tree().create_timer(3.0).timeout
+	
 	result_label.hide()
 	queue_free()
-	
-func _result_feedback(sides:int,result:int):
-	result_label.text = "你投出了 %d (D%d)" % [result, sides]
+
+func _result_feedback(sides: int, result: int, check: String = ""):
+	var modifier = 0
+	if check != "":
+		modifier = PlayerData.get_stat(check)
+
+	var total = result + modifier
+
+	# 拼接提示文本
+	if check != "":
+		result_label.text = "你投出了 %d (D%d) + %d (%s修正) = %d" % [
+			result, sides, modifier, check, total
+		]
+	else:
+		result_label.text = "你投出了 %d (D%d)" % [result, sides]
+
 	result_label.show()
+
 	
 func _fix_rightPanel(value:int):
-	print(1)
 	Dc_value.text="%d"% value

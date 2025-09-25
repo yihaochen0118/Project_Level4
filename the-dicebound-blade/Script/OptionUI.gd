@@ -17,12 +17,17 @@ func set_options(options: Array):
 				buttons[i].disconnect("pressed", c.callable)
 
 			# 绑定新连接
-			var callable = Callable(self, "_on_button_pressed").bind(i, option_data["text"], option_data.get("dc", 0))
+			var callable = Callable(self, "_on_button_pressed").bind(
+	i, 
+	option_data["text"], 
+	option_data.get("dc", 0), 
+	option_data.get("check", "")
+)
+
 			buttons[i].connect("pressed", callable)
 		else:
 			buttons[i].hide()
 
-func _on_button_pressed(index: int, text: String, dc: int):
-	print("玩家选择了：%s (索引 %d, DC=%d)" % [text, index, dc])
+func _on_button_pressed(index: int, text: String, dc: int, check: String):
 	hide()
-	emit_signal("option_selected", index, text, dc)
+	emit_signal("option_selected", index, text, dc, check)

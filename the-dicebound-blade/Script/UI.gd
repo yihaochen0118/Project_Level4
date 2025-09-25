@@ -193,37 +193,37 @@ func spawn_choice_ui(options: Array, callback: Callable):
 
 	return choice_ui
 # ================== 供 optionUi 调用 ================== 这才是当玩家选择完后的外部链接
-func on_option_selected(index: int, text: String, dc: int):
-	dc_value=dc
-	print("玩家选择了: %s (索引 %d, DC=%d)" % [text, index, dc])
+func on_option_selected(index: int, text: String, dc: int, check: String):
+	dc_value = dc
+	print("玩家选择了: %s (索引 %d, DC=%d, 检定=%s)" % [text, index, dc, check])
 	is_waiting_choice = false
-	result_success(index,dc)
-
+	result_success(index, dc, check)
 
 # 判断是否成功（你可以自己定义成功条件）
-func result_success(index: int, dc: int):
+func result_success(index: int, dc: int, check: String = ""):
 	if dc == 0:
-		# 直接跳转分支
 		var branch_name = "%s.%d" % [current_scene_name, index + 1]
 		EventMgr._change_scene(branch_name)
 		return
 
-	# 有 DC → 投骰子
 	roll_dice(func(sides: int, result: int):
-		print("骰子结果: D%d = %d, DC=%d" % [sides, result, dc])
+		var modifier = PlayerData.get_stat(check)
+		var total = result + modifier
+
 		var success = 0
-		if result >= dc:
+		if total >= dc:
 			success = 1
 
-		var branch_name = "%s.%d.%d" % [
-			current_scene_name,
-			index + 1,
-			success
-		]
-		
-		EventMgr._change_scene(branch_name)
-	)
+		var outcome_text = "失败"
+		if success == 1:
+			outcome_text = "成功"
 
+		print("骰子结果: d%d=%d + %d (%s修正) = %d vs DC %d → %s" %
+			[sides, result, modifier, check, total, dc, outcome_text])
+
+		var branch_name = "%s.%d.%d" % [current_scene_name, index + 1, success]
+		EventMgr._change_scene(branch_name)
+	, check) # ⚡ 这里把 check 传进 roll_dice
 
 # 内部函数：切换对话脚本
 func _change_scene(scene_name: String):
@@ -234,13 +234,12 @@ func _change_scene(scene_name: String):
 	else:
 		push_error("找不到对话脚本: %s" % scene_name)
   
-func roll_dice(callback: Callable):
+func roll_dice(callback: Callable, check: String = ""):
 	var ui_root = get_tree().current_scene.get_node("UI")
 	if not ui_root:
 		push_error("未找到 UI 节点")
 		return
 
-	# 从资源管理器获取路径
 	var path = ResMgr.get_ui("Dice_CardChoose")
 	if path == "":
 		push_error("找不到 Dice_CardChoose 场景资源")
@@ -251,12 +250,17 @@ func roll_dice(callback: Callable):
 		push_error("Dice_CardChoose 资源加载失败: %s" % path)
 		return
 
-	# 实例化并挂到 UI
 	var dice_ui = scene.instantiate()
 	ui_root.add_child(dice_ui)
+
+	# ⚡ 把 check 传进去
+	dice_ui.check = check
+	print(check)
 	dice_ui._fix_rightPanel(dc_value)
+
 	# 绑定选择后的回调
 	dice_ui.dice_chosen.connect(func(sides: int, result: int):
+		dice_ui._result_feedback(sides, result, check)  # 显示时带上修正
 		if callback != null:
 			callback.call(sides, result)
 	)

@@ -1,4 +1,4 @@
 [
   { "event": [{ "action": "set_background", "target": "battle" },{"action": "hide_talk_ui"}]},
-  { "event":{ "action": "show_talk_ui" },"text": "Branch confluence" },
+  { "event":{ "action": "show_talk_ui" },"text": "Branch confluence。Right now is S1.1" },
 ]
