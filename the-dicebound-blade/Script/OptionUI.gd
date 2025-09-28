@@ -21,9 +21,8 @@ func set_options(options: Array):
 	i, 
 	option_data["text"], 
 	option_data.get("dc", 0), 
-	option_data.get("check", "")
+	option_data.get("check", "") 
 )
-
 			buttons[i].connect("pressed", callable)
 		else:
 			buttons[i].hide()

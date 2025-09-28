@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://cwcy08qmopjty" path="res://Scenes/Background/Tavern.tscn" id="1_eihmu"]
 [ext_resource type="PackedScene" uid="uid://8q8c5tuhw3px" path="res://Scenes/Characters/Aldric.tscn" id="2_4txri"]
-[ext_resource type="PackedScene" uid="uid://c4l8ahbm14vqt" path="res://Scenes/ui/OptionUI.tscn" id="3_eihmu"]
+[ext_resource type="PackedScene" uid="uid://c4l8ahbm14vqt" path="res://Scenes/ui/Option_ui.tscn" id="3_eihmu"]
 [ext_resource type="PackedScene" uid="uid://cwcqiwlhvphxr" path="res://Scenes/ui/talk_ui.tscn" id="4_4txri"]
 
 [node name="Node2D" type="Node2D"]

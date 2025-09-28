@@ -19,7 +19,7 @@ var characters = {
 var ui = {
 	"Dice_CardChoose": "res://Scenes/ui/Dice_CardChoose.tscn",
 	"talk_ui": "res://Scenes/ui/talk_ui.tscn",
-	"Option_ui":"res://Scenes/ui/OptionUI.tscn",
+	"Option_ui":"res://Scenes/ui/Option_ui.tscn",
 	"PlayerStatu":"res://Scenes/ui/PlayerStatu.tscn"
 }
 

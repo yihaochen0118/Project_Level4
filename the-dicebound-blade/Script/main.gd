@@ -8,9 +8,8 @@ func _ready():
 	# 游戏开始，加载 tavern 背景，第一幕对话
 	UI.connect("dialogue_event", Callable(self, "_on_dialogue_event"))
 	load_scene("tavern", "scene1.0")
-
 	init_player_info()
-	
+
 func load_scene(bg_name: String, dialogue_name: String):
 	# 1. 设置背景
 	var bg_scene = ResMgr.get_background(bg_name)
@@ -27,7 +26,7 @@ func _on_dialogue_event(event_data: Dictionary):
 	# 交给 charact.gd 或其他管理器处理
 	if event_data.has("action") and event_data.has("target"):
 		charact.play_action(event_data["target"], event_data["action"], event_data.get("args", []))
-		
+
 # 全局输入监听
 func _input(event):
 	# 鼠标左键
@@ -37,7 +36,7 @@ func _input(event):
 	# 空格键
 	elif event is InputEventKey and event.pressed and event.keycode == KEY_SPACE:
 		UI.handle_input()
-		
+
 func init_player_info():
 	if not UI.has_node("PlayerStatu"):
 		var path = ResMgr.get_ui("PlayerStatu")
