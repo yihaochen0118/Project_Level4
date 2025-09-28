@@ -34,6 +34,15 @@ func handle_event(event: Dictionary) -> void:
 		"shake":
 			_shake_character(target)
 			
+		"hp_lost":
+			if event.has("amount"):
+				PlayerData.change_hp(-event["amount"])
+
+		"hp_gain":
+			if event.has("amount"):
+				PlayerData.change_hp(event["amount"])
+
+			
 		# ========== UI ==========
 		"show_talk_ui":
 			if ui_root and ui_root.has_node("talk_ui"):
