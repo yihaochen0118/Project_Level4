@@ -3,6 +3,7 @@ extends Node2D
 var dialogues = []
 var dialogue_index = 0
 
+
 var full_text = ""
 var current_text = ""
 var typing = false
@@ -199,13 +200,20 @@ func on_option_selected(index: int, text: String, dc: int, check: String):
 	is_waiting_choice = false
 	result_success(index, dc, check)
 
-# 判断是否成功（你可以自己定义成功条件）
+
+# 判断是否成功
 func result_success(index: int, dc: int, check: String = ""):
 	if dc == 0:
 		var branch_name = "%s.%d" % [current_scene_name, index + 1]
 		EventMgr._change_scene(branch_name)
 		return
 
+	# ⚡ 分离出去，保持 result_success 简洁
+	perform_check(index, dc, check)
+
+
+# 处理骰子检定逻辑
+func perform_check(index: int, dc: int, check: String):
 	roll_dice(func(sides: int, result: int):
 		var modifier = PlayerData.get_stat(check)
 		var total = result + modifier
@@ -223,7 +231,8 @@ func result_success(index: int, dc: int, check: String = ""):
 
 		var branch_name = "%s.%d.%d" % [current_scene_name, index + 1, success]
 		EventMgr._change_scene(branch_name)
-	, check) # ⚡ 这里把 check 传进 roll_dice
+	, check)
+
 
 # 内部函数：切换对话脚本
 func _change_scene(scene_name: String):

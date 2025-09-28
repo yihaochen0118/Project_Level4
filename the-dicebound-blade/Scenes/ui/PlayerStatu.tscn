@@ -40,5 +40,5 @@ offset_right = 631.0
 offset_bottom = 49.0
 
 [node name="HpBar" type="ProgressBar" parent="HP"]
-custom_minimum_size = Vector2(100, 50)
+custom_minimum_size = Vector2(400, 50)
 layout_mode = 2

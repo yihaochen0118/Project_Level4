@@ -1,0 +1,5 @@
+[
+  { "event": [{ "action": "set_background", "target": "battle" }]},
+  { "event":{ "action": "show_talk_ui" },"text": "Branch confluence。Right now is S1.1" },
+  { "event": { "action": "change_scene", "target": "scene2.0" } }
+]
