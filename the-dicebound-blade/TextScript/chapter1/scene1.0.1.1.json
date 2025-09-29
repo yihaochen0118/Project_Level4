@@ -1,11 +1,11 @@
 [
-{ "event":{ "action": "remove_character", "target": "Aldric" }},
-{ "text": "你走上前去，挡在老者与壮汉之间。你平静却坚定地说："},
-{ "text": "你：住手。他已经够可怜了，不值得你们这样羞辱。"},
-{ "text": "壮汉们互相看了一眼，虽然嘴里骂骂咧咧，但还是退后一步。"},
-{ "text": "壮汉A：哼，小子算你走运！"},
-{ "text": "老者颤抖着抬头，看向你，眼神中透出一丝感激。"},
-{ "event":{ "action": "remove_character", "target": "Man" }},
-{ "text": "Enter branch 1.0.1.1"},
-{ "event": { "action": "change_scene", "target": "scene1.1" } }
+  { "event": { "action": "remove_character", "target": "Aldric" }},
+  { "text": "You step forward, placing yourself between the old man and the burly men. You speak calmly but firmly:"},
+  { "text": "You: Stop. He’s pitiful enough already, he doesn’t deserve this humiliation."},
+  { "text": "The burly men exchange glances. Though they curse under their breath, they step back."},
+  { "text": "Burly Man A: Hmph, kid, consider yourself lucky!"},
+  { "text": "The old man trembles as he raises his head to look at you, a trace of gratitude in his eyes."},
+  { "event": { "action": "remove_character", "target": "Man" }},
+  { "text": "Enter branch 1.0.1.1"},
+  { "event": { "action": "change_scene", "target": "scene1.1" }}
 ]

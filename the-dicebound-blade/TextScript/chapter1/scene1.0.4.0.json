@@ -1,9 +1,13 @@
 [
-{ "text": "你怒吼一声，直接冲向壮汉，挥拳而上！"},
-{ "event": { "target": "Man", "action": "shake" }},
-{ "text": "壮汉A稳稳接下你的拳头，反手将你推倒在地。"},
-{ "text": "酒馆里爆发出一阵哄笑。"},
-{ "text": "你虽狼狈，但这份鲁莽让酒馆里的某些人暗自记下了你的勇气。"},
-{ "event":{ "action": "remove_character", "target": "Aldric" }},
-{ "event": { "action": "change_scene", "target": "scene1.1" } }
+  { "text": "With a roar, you charge straight at the burly man and swing your fist!" },
+  { "text": "You lost 10 hp","event": [
+	  { "target": "Man", "action": "shake" },
+	  { "action": "hp_lost", "amount": 10 }
+	]
+  },
+  { "text": "Burly Man A catches your punch steadily and shoves you to the ground." },
+  { "text": "The tavern erupts in loud laughter." },
+  { "text": "Though you look disheveled, your reckless act makes some in the tavern secretly take note of your courage." },
+  { "event": { "action": "remove_character", "target": "Aldric" }},
+  { "event": { "action": "change_scene", "target": "scene1.1" }}
 ]

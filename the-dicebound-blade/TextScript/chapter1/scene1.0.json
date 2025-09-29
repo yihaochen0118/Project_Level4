@@ -1,23 +1,36 @@
 [
-	{ "event": [{ "action": "hide_talk_ui" },{ "action": "set_background","target":"tavern"}]},
-	{ "event": { "action": "show_talk_ui" },"text": "夜幕下的酒馆里，酒精的气味混杂着嘈杂的笑声。" },
-	{ "text": "在角落里，一个衣衫褴褛的老者正被两个壮汉推搡。","event": [{ "target": "Aldric", "pos": [560, 45], "action": "spawn_character" },{ "target": "Man", "pos": [-560, 45], "action": "spawn_character" }] },
-	{ "text": "壮汉A：老家伙！喝酒没钱付账？敢耍我们？","event": [{ "target": "Aldric", "action": "shake" },{ "target": "Man", "action": "shake" }]},
-	{ "text": "壮汉B：要不今天就把你扔到街上喂狗！"},
-	{ "text": "老者（虚弱）：等我……等我找到那东西，一定会还你们……"},
-	{
-  "event": [
-	{
-	  "action": "show_option_ui",
-	  "options": [
-		{ "text": "选项 A：上前劝阻 【魅力对抗 （DC 5）】", "dc": 5,"check":"charisma" },
-		{ "text": "选项 B：偷偷溜到后面 【敏捷对抗 （DC 9）】", "dc": 9,"check":"dexterity" },
-		{ "text": "选项 C：静观其变，向神秘女法师寻求帮助", "dc": 0,"check":"constitution" },
-		{ "text": "选项 D：直接殴打（武力对抗）", "dc": 11,"check":"strength" }
-	  ]
-	},
-	{ "action": "hide_talk_ui" }
-  ]
-}
-
+  { "event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "set_background","target":"tavern"}
+	]
+  },
+  { "event": { "action": "show_talk_ui" }, "text": "Under the night sky, the tavern is filled with the scent of alcohol mixed with rowdy laughter." },
+  { "text": "In the corner, a ragged old man is being shoved around by two burly men.",
+	"event": [
+	  { "target": "Aldric", "pos": [560, 45], "action": "spawn_character" },
+	  { "target": "Man", "pos": [-560, 45], "action": "spawn_character" }
+	]
+  },
+  { "text": "Burly Man A: Old geezer! Drinking without paying? Daring to mess with us?",
+	"event": [
+	  { "target": "Aldric", "action": "shake" },
+	  { "target": "Man", "action": "shake" }
+	]
+  },
+  { "text": "Burly Man B: Maybe tonight we’ll just throw you out on the street to feed the dogs!" },
+  { "text": "Old Man (weakly): Once I... once I find that thing, I’ll surely repay you..." },
+  {
+	"event": [
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  { "text": "Option A: Step forward to intervene (Charisma Check DC 5)]", "dc": 5, "check": "charisma" },
+		  { "text": "Option B: Sneak to the back (Dexterity Check DC 9)", "dc": 9, "check": "dexterity" },
+		  { "text": "Option C: Wait and seek help from the mysterious sorceress", "dc": 0, "check": "constitution" },
+		  { "text": "Option D: Strike directly (Strength Check DC11)", "dc": 11, "check": "strength" }
+		]
+	  },
+	  { "action": "hide_talk_ui" }
+	]
+  }
 ]

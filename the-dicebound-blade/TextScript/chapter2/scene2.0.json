@@ -1,8 +1,8 @@
 [
-	{ "event": [{ "action": "hide_talk_ui" },{ "action": "set_background","target":"tavern"}]},
-	{ "event": { "action": "show_talk_ui" },"text": "夜幕下的酒馆里，酒精的气味混杂着嘈杂的笑声。" },
-	{ "text": "在角落里，一个衣衫褴褛的老者正被两个壮汉推搡。","event": [{ "target": "Aldric", "pos": [560, 45], "action": "spawn_character" },{ "target": "Man", "pos": [-560, 45], "action": "spawn_character" }] },
-	{ "text": "壮汉A：老家伙！喝酒没钱付账？敢耍我们？","event": [{ "target": "Aldric", "action": "shake" },{ "target": "Man", "action": "shake" }]},
-	{ "text": "壮汉B：要不今天就把你扔到街上喂狗！"},
-	{ "text": "老者（虚弱）：等我……等我找到那东西，一定会还你们……"}
+  { "event": [{ "action": "hide_talk_ui" },{ "action": "set_background","target":"tavern"}]},
+  { "event": { "action": "show_talk_ui" }, "text": "Under the night sky, the tavern smells of alcohol mixed with raucous laughter." },
+  { "text": "In the corner, a ragged old man is being shoved around by two burly men.", "event": [{ "target": "Aldric", "pos": [560, 45], "action": "spawn_character" },{ "target": "Man", "pos": [-560, 45], "action": "spawn_character" }] },
+  { "text": "Burly Man A: Old man! Drinking without paying? Think you can fool us?", "event": [{ "target": "Aldric", "action": "shake" },{ "target": "Man", "action": "shake" }]},
+  { "text": "Burly Man B: Maybe tonight we’ll toss you out into the street to feed the dogs!" },
+  { "text": "Old Man (weakly): Wait... once I find that thing, I will repay you..." }
 ]

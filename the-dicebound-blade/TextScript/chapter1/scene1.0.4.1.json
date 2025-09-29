@@ -1,9 +1,9 @@
 [
-{ "text": "你怒吼一声，直接冲向壮汉，挥拳而上！"},
-{ "event": { "target": "Man", "action": "shake" }},
-{ "text": "你一拳将壮汉A打退，酒馆瞬间安静。"},
-{ "text": "壮汉B见状迟疑不前，拖着同伴狼狈逃走。"},
-{ "text": "老者虚弱地抓住你的手：年轻人……我欠你一条命。"},
-{ "event":{ "action": "remove_character", "target": "Aldric" }},
-{ "event": { "action": "change_scene", "target": "scene1.1" } }
+  { "text": "With a roar, you charge straight at the burly man and swing your fist!"},
+  { "event": [{ "target": "Man", "action": "shake" },{"action":"hp_lost","amount":1}]},
+  { "text": "Your punch sends Burly Man A stumbling back, and the tavern falls silent."},
+  { "text": "Seeing this, Burly Man B hesitates, then drags his companion away in a hasty retreat."},
+  { "text": "The old man weakly grasps your hand: 'Young one... I owe you my life.'"},
+  { "event": { "action": "remove_character", "target": "Aldric" }},
+  { "event": { "action": "change_scene", "target": "scene1.1" }}
 ]

@@ -42,11 +42,11 @@ func _result_feedback(sides: int, result: int, check: String = ""):
 
 	# 拼接提示文本
 	if check != "":
-		result_label.text = "你投出了 %d (D%d) + %d (%s修正) = %d" % [
+		result_label.text = "You rolled %d (D%d) + %d (%s modifier) = %d" % [
 			result, sides, modifier, check, total
 		]
 	else:
-		result_label.text = "你投出了 %d (D%d)" % [result, sides]
+		result_label.text = "You rolled %d (D%d)" % [result, sides]
 
 	result_label.show()
 

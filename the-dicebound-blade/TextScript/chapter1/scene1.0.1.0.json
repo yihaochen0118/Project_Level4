@@ -1,10 +1,10 @@
 [
-{ "event":{ "action": "remove_character", "target": "Aldric" }},
-{ "text": "你走上前去，挡在老者与壮汉之间。你平静却坚定地说："},
-{ "text": "你：住手。他已经够可怜了，不值得你们这样羞辱。"},
-{ "text": "壮汉们大笑。"},
-{ "text": "壮汉B：劝架？你算老几？"},
-{ "text": "壮汉A一拳朝你挥来！"},
-{ "event":{ "action": "remove_character", "target": "Man" }},
-{ "event": { "action": "change_scene", "target": "scene1.1" } }
+  { "event": { "action": "remove_character", "target": "Aldric" }},
+  { "text": "You step forward, placing yourself between the old man and the burly men. You speak calmly but firmly:"},
+  { "text": "You: Stop. He’s pitiful enough already, he doesn’t deserve this humiliation."},
+  { "text": "The burly men burst into laughter."},
+  { "text": "Burly Man B: Trying to play mediator? Who do you think you are?"},
+  { "text": "Burly Man A swings a punch at you!"},
+  { "event": { "action": "remove_character", "target": "Man" }},
+  { "event": { "action": "change_scene", "target": "scene1.1" }}
 ]

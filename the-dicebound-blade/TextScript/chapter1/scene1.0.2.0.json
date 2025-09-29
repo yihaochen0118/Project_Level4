@@ -1,8 +1,12 @@
 [
-{ "text": "你悄悄贴着人群的阴影，试图绕到酒馆后面，寻找更好的观察点。"},
-{ "text": "你在穿过人群时，不小心撞翻了一杯啤酒。"},
-{ "text": "酒客们大喊：“喂！小子想偷东西吗？"},
-{ "text": "被逼回酒馆中央，反而引起壮汉们的注意。"},
-{ "event":[{ "action": "remove_character", "target": "Aldric" },{ "action": "remove_character", "target": "Man" }]},
-{ "event": { "action": "change_scene", "target": "scene1.1" } }
+  { "text": "You slip quietly along the shadows of the crowd, trying to circle around to the back of the tavern for a better vantage point."},
+  { "text": "As you weave through the crowd, you accidentally knock over a mug of beer."},
+  { "text": "The drinkers shout: 'Hey! Kid, are you trying to steal something?'"},
+  { "text": "Forced back into the center of the tavern, you end up drawing the attention of the burly men."},
+  { "event": [
+	  { "action": "remove_character", "target": "Aldric" },
+	  { "action": "remove_character", "target": "Man" }
+	]
+  },
+  { "event": { "action": "change_scene", "target": "scene1.1" }}
 ]
