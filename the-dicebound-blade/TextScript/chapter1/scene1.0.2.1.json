@@ -1,5 +1,7 @@
 [
-  { "event":[{ "action": "remove_character", "target": "Aldric" },{ "action": "remove_character", "target": "Man" }]},
-  { "text": "Enter branch 1.0.2.1"},
+{ "text": "你悄悄贴着人群的阴影，试图绕到酒馆后面，寻找更好的观察点。"},
+{ "text": "你顺利地溜到后面，发现墙边有一扇半掩的小门。"},
+{ "text": "你靠近时，听见门内传来女声低语：“……今晚必须行动，否则遗物会落入他们手中。"},
+{ "event":[{ "action": "remove_character", "target": "Aldric" },{ "action": "remove_character", "target": "Man" }]},
 { "event": { "action": "change_scene", "target": "scene1.1" } }
 ]

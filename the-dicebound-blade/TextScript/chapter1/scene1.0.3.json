@@ -1,5 +1,8 @@
 [
-  { "event":[{ "action": "remove_character", "target": "Aldric" },{ "action": "remove_character", "target": "Man" }]},
-  { "text": "Enter branch 1.0.3"},
+{ "text": "你没有立刻介入，而是注意到吧台边坐着一名身着深紫色斗篷的女法师。她正冷冷注视着这一切，似乎在等待什么。"},
+{ "text": "你悄声靠近，向她说明情况。"},
+{ "text": "女法师淡淡一笑：你眼光不错，那个老者……和‘遗物’有关。"},
+{ "text": "她轻轻一挥手，壮汉们突然像被无形之力压制，动弹不得。"},
+{ "event":{ "action": "remove_character", "target": "Aldric" }},
 { "event": { "action": "change_scene", "target": "scene1.1" } }
 ]
