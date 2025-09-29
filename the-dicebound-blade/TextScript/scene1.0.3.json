@@ -1,5 +1,0 @@
-[
-  { "event":[{ "action": "remove_character", "target": "Aldric" },{ "action": "remove_character", "target": "Man" }]},
-  { "text": "Enter branch 1.0.3"},
-{ "event": { "action": "change_scene", "target": "scene1.1" } }
-]
