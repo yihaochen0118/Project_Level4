@@ -1,0 +1,199 @@
+[gd_scene load_steps=4 format=3 uid="uid://c4nckernkjv7w"]
+
+[ext_resource type="Script" uid="uid://dtunue8fwp36r" path="res://Script/setting.gd" id="1_wwgp7"]
+[ext_resource type="Texture2D" uid="uid://cnjxio2d8esan" path="res://images/else/gear.png" id="2_rreyv"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rreyv"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[node name="Setting" type="Control"]
+z_index = 6
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_wwgp7")
+
+[node name="Setting" type="Button" parent="."]
+z_index = 7
+custom_minimum_size = Vector2(75, 75)
+layout_mode = 0
+offset_left = 1792.0
+offset_top = 6.000001
+offset_right = 3000.0
+offset_bottom = 1214.0
+scale = Vector2(0.1, 0.1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_rreyv")
+icon = ExtResource("2_rreyv")
+
+[node name="Panel" type="Panel" parent="."]
+z_index = 5
+layout_mode = 0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 1919.0
+offset_bottom = 1076.0
+
+[node name="TabContainer" type="TabContainer" parent="Panel"]
+z_index = 5
+custom_minimum_size = Vector2(1920, 0)
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+theme_override_font_sizes/font_size = 35
+current_tab = 0
+
+[node name="Save" type="Control" parent="Panel/TabContainer"]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel/TabContainer/Save"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 1
+offset_right = 1918.0
+offset_bottom = 1022.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/TabContainer/Save/ScrollContainer"]
+custom_minimum_size = Vector2(1920, 0)
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="Button" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "1"
+
+[node name="Button2" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "2"
+
+[node name="Button3" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "3"
+
+[node name="Button4" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "4"
+
+[node name="Button5" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "5"
+
+[node name="Button6" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "6"
+
+[node name="Button7" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "7"
+
+[node name="Button8" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "8"
+
+[node name="Button9" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "9"
+
+[node name="Load" type="Control" parent="Panel/TabContainer"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel/TabContainer/Load"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 0
+offset_right = 1918.0
+offset_bottom = 1022.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/TabContainer/Load/ScrollContainer"]
+custom_minimum_size = Vector2(1920, 0)
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="Button" type="Button" parent="Panel/TabContainer/Load/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "1"
+
+[node name="Button2" type="Button" parent="Panel/TabContainer/Load/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "2"
+
+[node name="Button3" type="Button" parent="Panel/TabContainer/Load/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "3"
+
+[node name="Button4" type="Button" parent="Panel/TabContainer/Load/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "4"
+
+[node name="Button5" type="Button" parent="Panel/TabContainer/Load/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "5"
+
+[node name="Button6" type="Button" parent="Panel/TabContainer/Load/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "6"
+
+[node name="Button7" type="Button" parent="Panel/TabContainer/Load/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "7"
+
+[node name="Button8" type="Button" parent="Panel/TabContainer/Load/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "8"
+
+[node name="Button9" type="Button" parent="Panel/TabContainer/Load/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "9"
+
+[node name="Music" type="Control" parent="Panel/TabContainer"]
+visible = false
+z_index = 6
+custom_minimum_size = Vector2(400, 400)
+layout_mode = 2
+metadata/_tab_index = 2
+
+[node name="QuitButton" type="Button" parent="Panel"]
+z_index = 5
+layout_mode = 0
+offset_left = 1767.0
+offset_top = 11.0
+offset_right = 1903.0
+offset_bottom = 42.0
+text = "Quit Game"
+
+[node name="CloseButton" type="Button" parent="Panel"]
+z_index = 5
+layout_mode = 0
+offset_left = 1618.0
+offset_top = 11.0
+offset_right = 1754.0
+offset_bottom = 42.0
+text = "Close page"
+
+[node name="ClearButton" type="Button" parent="Panel"]
+z_index = 5
+layout_mode = 0
+offset_left = 1464.0
+offset_top = 12.0
+offset_right = 1600.0
+offset_bottom = 43.0
+text = "Clear all save"
+
+[node name="ConfirmDialog" type="ConfirmationDialog" parent="Panel"]

@@ -41,8 +41,7 @@ func handle_event(event: Dictionary) -> void:
 		"hp_gain":
 			if event.has("amount"):
 				PlayerData.change_hp(event["amount"])
-
-			
+		
 		# ========== UI ==========
 		"show_talk_ui":
 			if ui_root and ui_root.has_node("talk_ui"):
@@ -97,11 +96,18 @@ func _change_scene(scene_name: String) -> void:
 		push_error("找不到对话脚本: %s" % scene_name)
 		return
 
-	var ui = get_tree().current_scene.get_node("UI")
-	print(scene_name)
+	var root = get_tree().current_scene
+	if root.has_node("Charact"):
+		var char_root = root.get_node("Charact")
+		for node in char_root.get_children():
+			node.queue_free()
+		print("🗑️ 切换到 %s 前清空所有立绘" % scene_name)
+
+	var ui = root.get_node("UI") if root.has_node("UI") else null
 	if ui:
 		ui.load_dialogues(path)
 		ui.show_next_line()
+
 		
 func _show_option_ui(ui_root: Node, event: Dictionary) -> void:
 	if not ui_root or not ui_root.has_node("OptionUI"):

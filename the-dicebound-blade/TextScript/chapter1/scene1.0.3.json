@@ -1,4 +1,9 @@
 [
+{ "event": [
+	  { "target": "Aldric", "pos": [560, 45], "action": "spawn_character" },
+	  { "target": "Man", "pos": [-560, 45], "action": "spawn_character" }
+	]
+  },
   { "text": "You don’t intervene right away. Instead, you notice a woman in a deep purple cloak sitting by the bar. She watches coldly, as if waiting for something."},
   { "text": "You quietly approach her and explain the situation."},
   { "text": "The sorceress gives a faint smile: 'You have a good eye. That old man... is connected to the relic.'"},

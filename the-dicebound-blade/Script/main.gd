@@ -9,6 +9,7 @@ func _ready():
 	UI.connect("dialogue_event", Callable(self, "_on_dialogue_event"))
 	load_scene("tavern", "scene1.0")
 	init_player_info()
+	
 
 func load_scene(bg_name: String, dialogue_name: String):
 	# 1. 设置背景
@@ -36,6 +37,8 @@ func _input(event):
 	# 空格键
 	elif event is InputEventKey and event.pressed and event.keycode == KEY_SPACE:
 		UI.handle_input()
+
+	
 
 func init_player_info():
 	if not UI.has_node("PlayerStatu"):

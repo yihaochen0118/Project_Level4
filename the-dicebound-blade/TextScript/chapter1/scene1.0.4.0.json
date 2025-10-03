@@ -1,4 +1,8 @@
-[
+[{ "event": [
+	  { "target": "Aldric", "pos": [560, 45], "action": "spawn_character" },
+	  { "target": "Man", "pos": [-560, 45], "action": "spawn_character" }
+	]
+  },
   { "text": "With a roar, you charge straight at the burly man and swing your fist!" },
   { "text": "You lost 10 hp","event": [
 	  { "target": "Man", "action": "shake" },

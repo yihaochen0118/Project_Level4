@@ -1,5 +1,9 @@
 [
-  { "event": { "action": "remove_character", "target": "Aldric" }},
+{ "event": [{ "action": "set_background","target":"tavern"},
+	  { "target": "Aldric", "pos": [560, 45], "action": "spawn_character" },
+	  { "target": "Man", "pos": [-560, 45], "action": "spawn_character" }
+	]
+  },
   { "text": "You step forward, placing yourself between the old man and the burly men. You speak calmly but firmly:"},
   { "text": "You: Stop. He’s pitiful enough already, he doesn’t deserve this humiliation."},
   { "text": "The burly men burst into laughter."},

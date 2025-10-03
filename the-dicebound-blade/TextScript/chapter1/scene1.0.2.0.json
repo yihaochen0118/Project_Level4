@@ -1,4 +1,8 @@
-[
+[{ "event": [
+	  { "target": "Aldric", "pos": [560, 45], "action": "spawn_character" },
+	  { "target": "Man", "pos": [-560, 45], "action": "spawn_character" }
+	]
+  },
   { "text": "You slip quietly along the shadows of the crowd, trying to circle around to the back of the tavern for a better vantage point."},
   { "text": "As you weave through the crowd, you accidentally knock over a mug of beer."},
   { "text": "The drinkers shout: 'Hey! Kid, are you trying to steal something?'"},

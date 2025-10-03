@@ -1,4 +1,8 @@
-[
+[{ "event": [
+	  { "target": "Aldric", "pos": [560, 45], "action": "spawn_character" },
+	  { "target": "Man", "pos": [-560, 45], "action": "spawn_character" }
+	]
+  },
   { "text": "With a roar, you charge straight at the burly man and swing your fist!"},
   { "event": [{ "target": "Man", "action": "shake" },{"action":"hp_lost","amount":1}]},
   { "text": "Your punch sends Burly Man A stumbling back, and the tavern falls silent."},

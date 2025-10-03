@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://d1kamu45amq44" path="res://Script/player_statu.gd" id="1_y243a"]
 
 [node name="PlayerStatu" type="Control"]
+z_index = 3
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_y243a")
@@ -35,10 +36,12 @@ layout_mode = 2
 text = "4"
 
 [node name="HP" type="HBoxContainer" parent="."]
+z_index = 3
 layout_mode = 0
 offset_right = 631.0
 offset_bottom = 49.0
 
 [node name="HpBar" type="ProgressBar" parent="HP"]
+z_index = 3
 custom_minimum_size = Vector2(400, 50)
 layout_mode = 2

@@ -30,7 +30,7 @@
 		  { "text": "Option D: Strike directly (Strength Check DC11)", "dc": 11, "check": "strength" }
 		]
 	  },
-	  { "action": "hide_talk_ui" }
+	{ "action": "hide_talk_ui" },
 	]
   }
 ]

@@ -20,6 +20,7 @@ config/icon="res://icon.svg"
 ResMgr="*res://Script/Resource_manager.gd"
 EventMgr="*res://Script/EventManager.gd"
 PlayerData="*res://Script/playerData.gd"
+SaveMgr="*res://Script/SaveManager.gd"
 
 [display]
 

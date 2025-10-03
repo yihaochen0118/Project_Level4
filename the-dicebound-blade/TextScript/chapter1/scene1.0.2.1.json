@@ -1,4 +1,8 @@
-[
+[{ "event": [
+	  { "target": "Aldric", "pos": [560, 45], "action": "spawn_character" },
+	  { "target": "Man", "pos": [-560, 45], "action": "spawn_character" }
+	]
+  },
   { "text": "You slip quietly along the shadows of the crowd, trying to circle around to the back of the tavern for a better vantage point."},
   { "text": "You manage to sneak around successfully and discover a half-ajar door by the wall."},
   { "text": "As you approach, you hear a woman’s voice whispering from inside: '...We must act tonight, or the relic will fall into their hands.'"},

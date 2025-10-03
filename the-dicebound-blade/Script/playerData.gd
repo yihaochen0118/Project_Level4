@@ -29,3 +29,12 @@ func change_hp(amount: int):
 	hp = clamp(hp + amount, 0, max_hp)
 	print("当前 HP: %d / %d" % [hp, max_hp])
 	emit_signal("hp_changed", hp, max_hp)
+	
+func load_from_dict(data: Dictionary):
+	hp = data.get("hp", 100)
+	max_hp = max(hp, max_hp)
+	stats = data.get("stats", stats)
+	emit_signal("stats_changed")
+	emit_signal("hp_changed", hp, max_hp)
+
+	

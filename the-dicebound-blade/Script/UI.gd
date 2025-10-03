@@ -12,6 +12,7 @@ var typing_index = 0
 var is_waiting_choice = false  # 是否在等玩家选择
 var dc_value=0 #当前dc value
 
+var setting_ui: Control = null
 var dialogue_box = null   # 实例化的对话框
 var option_box= null      #实例化的选项框
 var label = null          # RichTextLabel
@@ -19,7 +20,7 @@ signal dialogue_event(event_data: Dictionary)# 新增信号
 var current_scene_name = ""  # 记录当前对话脚本名
 
 func _ready():
-	pass
+	ensure_setting()
 
 # =============== 加载 JSON 对话 ===============
 func load_dialogues(path: String):
@@ -273,16 +274,50 @@ func roll_dice(callback: Callable, check: String = ""):
 		if callback != null:
 			callback.call(sides, result)
 	)
+	
+func ensure_setting():
+	if setting_ui and is_instance_valid(setting_ui):
+		return  # 已经加载过
 
-# UI 接口：处理输入（供 main.gd 调用）
+	# 通过资源管理器获取路径（假设你在 ResMgr 里登记过 Setting）
+	var path = ResMgr.get_ui("Setting")
+	if path == "":
+		push_error("找不到 Setting.tscn")
+		return
+
+	var scene = load(path) as PackedScene
+	if scene == null:
+		push_error("加载 Setting 失败: %s" % path)
+		return
+
+	# 实例化 Setting.tscn
+	setting_ui = scene.instantiate()
+	setting_ui.name = "Setting"
+	add_child(setting_ui)
+
 func handle_input():
+	# 如果在等选择，禁用继续
 	if is_waiting_choice:
-		return  # 如果在等选项，禁用继续
+		return  
+
+	# 如果 Setting 面板可见，禁用剧情点击
+	if setting_ui and setting_ui.has_node("Panel") and setting_ui.get_node("Panel").visible:
+		return  
+
+	# ⚡ 如果鼠标正好点在一个 Control（按钮等）上 → 不要推进剧情
+	var hovered = get_viewport().gui_get_hovered_control()
+	if hovered and hovered is Button:
+		return  
+
 	if typing:
 		label.text = full_text
 		typing = false
 	else:
 		show_next_line()
+
+
+
+
 		
 # =============== 事件处理 ===============
 # talkUI.gd
