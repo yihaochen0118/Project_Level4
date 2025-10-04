@@ -12,7 +12,7 @@ var backgrounds = {
 
 # 角色场景路径
 var characters = {
-	"Aldric": "res://Scenes/Characters/Aldric.tscn",
+	"Alicia": "res://Scenes/Characters/Alicia.tscn",
 	"Man": "res://Scenes/Characters/Man.tscn",
 }
 

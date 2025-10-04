@@ -162,12 +162,19 @@ custom_minimum_size = Vector2(0, 200)
 layout_mode = 2
 text = "9"
 
-[node name="Music" type="Control" parent="Panel/TabContainer"]
+[node name="Game Tree" type="Control" parent="Panel/TabContainer"]
 visible = false
 z_index = 6
 custom_minimum_size = Vector2(400, 400)
 layout_mode = 2
 metadata/_tab_index = 2
+
+[node name="Music" type="Control" parent="Panel/TabContainer"]
+visible = false
+z_index = 6
+custom_minimum_size = Vector2(400, 400)
+layout_mode = 2
+metadata/_tab_index = 3
 
 [node name="QuitButton" type="Button" parent="Panel"]
 z_index = 5

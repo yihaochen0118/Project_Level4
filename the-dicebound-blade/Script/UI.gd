@@ -2,6 +2,7 @@ extends Node2D
 
 var dialogues = []
 var dialogue_index = 0
+var name_label: Label = null  # 新增，用于显示说话人名字
 
 
 var full_text = ""
@@ -46,10 +47,6 @@ func ensure_dialogue_box():
 
 	# 先去树里找是否有 talk_ui 节点
 	var ui_root = get_tree().current_scene.get_node("UI")
-	if ui_root.has_node("talk_ui"):
-		dialogue_box = ui_root.get_node("talk_ui")
-		label = dialogue_box.get_node("NinePatchRect/RichTextLabel") as RichTextLabel
-		return
 
 	# 否则实例化新的
 	var path = ResMgr.get_ui("talk_ui")  # 通过资源管理器拿路径
@@ -65,6 +62,7 @@ func ensure_dialogue_box():
 
 		# 找文本节点
 		label = dialogue_box.get_node("NinePatchRect/RichTextLabel") as RichTextLabel
+		name_label = dialogue_box.get_node("NinePatchRect/NameLabel") as Label
 	else:
 		push_error("找不到 talk_ui 场景资源")
 
@@ -137,8 +135,16 @@ func show_next_line():
 
 		var entry = dialogues[dialogue_index]
 		dialogue_index += 1
+# 显示说话人名字
+		if name_label != null:
+			if entry.has("speaker"):
+				name_label.text = str(entry["speaker"])+":"
+				name_label.show()
+			else:
+				name_label.text = ""
+				name_label.hide()
 
-		# 如果有事件，执行事件（事件就是这一行的内容，不会跳过）
+		# 事件执行
 		if entry.has("event"):
 			if typeof(entry["event"]) == TYPE_DICTIONARY:
 				EventMgr.handle_event(entry["event"])
@@ -147,7 +153,7 @@ func show_next_line():
 					if typeof(ev) == TYPE_DICTIONARY:
 						EventMgr.handle_event(ev)
 
-		# 如果有文字，就进入打字机效果
+		# 打字机文本
 		if entry.has("text"):
 			full_text = entry["text"]
 			typing_index = 0
@@ -155,17 +161,16 @@ func show_next_line():
 			label.text = ""
 			typing = true
 		else:
-			# 没有文字的事件行：显示完直接等下一次点击
 			full_text = ""
 			current_text = ""
 			label.text = ""
 			typing = false
 	else:
-		# 脚本结束
 		if dialogue_box:
 			dialogue_box.hide()
 			dialogue_box = null
 			label = null
+
 			
 
 func spawn_choice_ui(options: Array, callback: Callable):

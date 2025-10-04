@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cqla8tg4qxfl0"]
+
+[node name="GameTree" type="Node2D"]
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = 495.0
+offset_top = 116.0
+offset_right = 1328.0
+offset_bottom = 923.0
+
+[node name="1" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 374.0
+offset_top = 42.0
+offset_right = 425.0
+offset_bottom = 92.0

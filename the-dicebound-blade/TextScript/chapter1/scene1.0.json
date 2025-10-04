@@ -4,21 +4,25 @@
 	  { "action": "set_background","target":"tavern"}
 	]
   },
-  { "event": { "action": "show_talk_ui" }, "text": "Under the night sky, the tavern is filled with the scent of alcohol mixed with rowdy laughter." },
-  { "text": "In the corner, a ragged old man is being shoved around by two burly men.",
-	"event": [
-	  { "target": "Aldric", "pos": [560, 45], "action": "spawn_character" },
-	  { "target": "Man", "pos": [-560, 45], "action": "spawn_character" }
-	]
-  },
-  { "text": "Burly Man A: Old geezer! Drinking without paying? Daring to mess with us?",
-	"event": [
-	  { "target": "Aldric", "action": "shake" },
-	  { "target": "Man", "action": "shake" }
-	]
-  },
-  { "text": "Burly Man B: Maybe tonight we’ll just throw you out on the street to feed the dogs!" },
-  { "text": "Old Man (weakly): Once I... once I find that thing, I’ll surely repay you..." },
+{ "event": { "action": "show_talk_ui" }, "text": "风从北境吹来，带着雪的气息." },
+{"text": "冬季的空气中有一种迟滞的味道，就像时间也被冻住了."},
+{"text": "你靠在旅店的柜台后，听着壁炉的火轻轻劈啪作响。"},
+{"text": "这一切安静得像一幅画，直到门被推开。"},
+{"text": "那一刻，风和雪一起闯进来，还有她。"},
+
+{ "text": "——银发的女勇者。","event": [{ "target": "Alicia", "pos": [560, 45], "action": "spawn_character" }]},
+
+  { "text": "她披着被风卷起的斗篷，盔甲上沾着泥和血。"},
+  { "speaker":"Alicia","text": "早安，又见面了。" },
+{ "speaker":"Alicia","text": "今天的汤，还和上次一样吗" },
+{ "speaker":"main character","text": "……上次？" },
+{ "speaker":"Alicia","text": "啊，对不起。也许我记混了。" },
+  { "text": "你笑了笑，没有追问，只是转身去后厨"},
+  { "text": "锅里的热汤正冒着气泡，汤面反射着火光。" },
+  { "text": "你看着那层光晕，忽然有种莫名的眩晕——" },
+  { "text": "端汤回来时，她正静静地看着窗外的雪。" },
+  { "text": "那裂痕像伤口，也像时间留下的印记。" },
+  { "speaker":"main character","text": "您是旅人？" },
   {
 	"event": [
 	  {
