@@ -2,6 +2,7 @@
 extends Node
 signal stats_changed
 signal hp_changed(new_hp: int, max_hp: int)
+var choice_history: Array = []
 
 var hp: int = 100
 var max_hp: int = 100
@@ -34,6 +35,7 @@ func load_from_dict(data: Dictionary):
 	hp = data.get("hp", 100)
 	max_hp = max(hp, max_hp)
 	stats = data.get("stats", stats)
+	choice_history = data.get("choices", [])
 	emit_signal("stats_changed")
 	emit_signal("hp_changed", hp, max_hp)
 

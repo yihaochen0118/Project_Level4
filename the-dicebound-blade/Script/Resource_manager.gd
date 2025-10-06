@@ -22,7 +22,8 @@ var ui = {
 	"talk_ui": "res://Scenes/ui/talk_ui.tscn",
 	"Option_ui":"res://Scenes/ui/Option_ui.tscn",
 	"PlayerStatu":"res://Scenes/ui/PlayerStatu.tscn",
-	"Setting":"res://Scenes/ui/Setting.tscn"
+	"Setting":"res://Scenes/ui/Setting.tscn",
+	"loadUi":"res://Scenes/ui/loadUi.tscn"
 }
 
 func autoLoad_Dialogue(base_path: String):

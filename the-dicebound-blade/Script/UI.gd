@@ -1,5 +1,6 @@
 extends Node2D
 
+
 var dialogues = []
 var dialogue_index = 0
 var name_label: Label = null  # 新增，用于显示说话人名字
@@ -24,7 +25,7 @@ func _ready():
 	ensure_setting()
 
 # =============== 加载 JSON 对话 ===============
-func load_dialogues(path: String):
+func load_dialogues(path: String, start_index: int = 0):
 	var file = FileAccess.open(path, FileAccess.READ)
 	if file:
 		var content = file.get_as_text()
@@ -33,12 +34,34 @@ func load_dialogues(path: String):
 			push_error("JSON 解析失败: %s" % path)
 			dialogues = []
 		else:
-			# 保存场景名（去掉路径）
 			for key in ResMgr.dialogues.keys():
 				if ResMgr.dialogues[key] == path:
 					current_scene_name = key
 					break
-	dialogue_index = 0
+	dialogue_index = start_index
+	
+func replay_state_until(index: int):
+	# 防御性判断
+	if dialogues.size() == 0 or index <= 0:
+		return
+
+	for i in range(index):
+		var entry = dialogues[i]
+		if entry.has("event"):
+			if typeof(entry["event"]) == TYPE_DICTIONARY:
+				_replay_if_state_event(entry["event"])
+			elif typeof(entry["event"]) == TYPE_ARRAY:
+				for ev in entry["event"]:
+					if typeof(ev) == TYPE_DICTIONARY:
+						_replay_if_state_event(ev)
+						
+func _replay_if_state_event(event: Dictionary):
+	var action = event.get("action", "")
+	match action:
+		"set_background", "spawn_character", "hide_talk_ui", "show_talk_ui":
+			EventMgr.handle_event(event)
+		_: # 忽略其他类型（如 text, play_sound, move_camera 等）
+			pass
 
 # =============== 确保对话框存在 ===============
 func ensure_dialogue_box():
@@ -204,6 +227,15 @@ func on_option_selected(index: int, text: String, dc: int, check: String):
 	dc_value = dc
 	print("玩家选择了: %s (索引 %d, DC=%d, 检定=%s)" % [text, index, dc, check])
 	is_waiting_choice = false
+
+	# ✅ 记录选择历史
+	PlayerData.choice_history.append({
+		"scene": current_scene_name,
+		"index": index,
+		"text": text,
+		"time": Time.get_datetime_string_from_system()
+	})
+
 	result_success(index, dc, check)
 
 
@@ -319,7 +351,10 @@ func handle_input():
 		typing = false
 	else:
 		show_next_line()
-
+		
+func _set_dialogue_index(value):
+	dialogue_index = value
+	PlayerData.dialogue_index = value  # 让 PlayerData 也记录下来
 
 
 

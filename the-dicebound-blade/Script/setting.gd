@@ -8,6 +8,7 @@ extends Control
 @onready var close_button = $Panel/CloseButton
 @onready var clear_button = $Panel/ClearButton
 @onready var confirm_dialog = $Panel/ConfirmDialog
+@onready var back_to_menu_button = $Panel/BackToMenuButton  # 新增
 
 var pending_action: String = ""  # "save" / "load" / "clear"
 var pending_slot: int = -1
@@ -21,6 +22,7 @@ func _ready():
 	quit_button.pressed.connect(_on_quit_pressed)
 	close_button.pressed.connect(_on_close_pressed)
 	clear_button.pressed.connect(_on_clear_pressed)
+	back_to_menu_button.pressed.connect(_on_back_to_menu_pressed)  # ✅ 新增
 	confirm_dialog.confirmed.connect(_on_confirmed)
 
 	for i in range(save_buttons.size()):
@@ -64,19 +66,33 @@ func _on_load_pressed(slot: int):
 	confirm_dialog.dialog_text = "确定要读取存档槽 %d 吗？" % slot
 	confirm_dialog.popup_centered()
 
+func _on_back_to_menu_pressed():
+	pending_action = "back_to_menu"
+	confirm_dialog.dialog_text = "确定要返回主菜单吗？\n（当前进度将不会保留）"
+	confirm_dialog.popup_centered()
+
 func _on_confirmed():
 	match pending_action:
-		"quit":	
+		"quit":
 			print("👋 确认退出游戏")
 			get_tree().quit()
-		"save": _do_save(pending_slot)
-		"load": _do_load(pending_slot)
+		"save":
+			_do_save(pending_slot)
+		"load":
+			_do_load(pending_slot)
 		"clear":
 			SaveMgr.clear_all()
 			_refresh_save_buttons()
 			_refresh_load_buttons()
+		"back_to_menu":
+			_back_to_menu()  # ✅ 新增
 	pending_action = ""
 	pending_slot = -1
+
+func _back_to_menu():
+	print("🏠 返回主菜单")
+	get_tree().change_scene_to_file("res://Scenes/start.tscn")
+
 
 func _do_save(slot: int):
 	var ui_root = get_tree().current_scene.get_node("UI")
@@ -84,9 +100,10 @@ func _do_save(slot: int):
 		return
 	var data = {
 		"chapter": ui_root.current_scene_name,
-		"dialogue_index": ui_root.dialogue_index,
+		"dialogue_index": max(ui_root.dialogue_index - 1, 0),
 		"hp": PlayerData.hp,
 		"stats": PlayerData.stats,
+		"choices": PlayerData.choice_history,  # ✅ 新增
 		"time": Time.get_datetime_string_from_system()
 	}
 	SaveMgr.save_game(slot, data)
@@ -95,34 +112,12 @@ func _do_save(slot: int):
 	_refresh_load_buttons()
 
 func _do_load(slot: int):
-	var rel_path = "user://save_%d.json" % slot
-	var abs_path = ProjectSettings.globalize_path(rel_path)
-	print("📂 正在读取存档路径: ", abs_path)
-	
+	print("📂 从槽 %d 读取存档" % slot)
 	var data = SaveMgr.load_game(slot)
-	print(data)
 	if data.size() == 0:
 		print("⚠️ 槽 %d 没有存档" % slot)
 		return
-
-	# 还原玩家数据
-	PlayerData.load_from_dict(data)
-	# ✅ 清理角色节点
-	var char_root = get_tree().current_scene.get_node("Charact")
-	if char_root:
-		for child in char_root.get_children():
-			child.queue_free()
-		print("🗑️ 已清理角色节点")
-
-	# 再还原 UI 状态
-	var ui_root = get_tree().current_scene.get_node("UI")
-	if ui_root:
-		ui_root.current_scene_name = data.get("chapter", "")
-		ui_root.dialogue_index = data.get("dialogue_index", 0)
-		ui_root.load_dialogues(ResMgr.get_dialogue(ui_root.current_scene_name))
-		ui_root.show_next_line()
-
-	print("📂 已读取存档槽 %d" % slot)
+	await SaveMgr.restore_game(data)
 
 
 func _refresh_save_buttons():
