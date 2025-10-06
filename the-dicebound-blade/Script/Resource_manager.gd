@@ -7,7 +7,8 @@ func _ready():
 # 背景场景路径
 var backgrounds = {
 	"tavern": "res://Scenes/Background/tavern.tscn",
-	"battle": "res://Scenes/Background/battle.tscn"
+	"battle": "res://Scenes/Background/battle.tscn",
+	"mainPage": "res://Scenes/Background/mainPage.tscn"
 }
 
 # 角色场景路径

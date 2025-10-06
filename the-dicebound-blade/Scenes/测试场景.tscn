@@ -9,8 +9,8 @@
 
 [node name="tavern" parent="." instance=ExtResource("1_eihmu")]
 
-[node name="Aldric" parent="." instance=ExtResource("2_4txri")]
-position = Vector2(560, -45)
+[node name="Alicia" parent="." instance=ExtResource("2_4txri")]
+position = Vector2(443, -35)
 
 [node name="ChoiceUi" parent="." instance=ExtResource("3_eihmu")]
 

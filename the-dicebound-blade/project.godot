@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="The Dicebound Blade"
-run/main_scene="uid://danrnq4g7mdxc"
+run/main_scene="uid://dpo6pv4jbf27w"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 
