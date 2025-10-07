@@ -97,19 +97,49 @@ func _back_to_menu():
 func _do_save(slot: int):
 	var ui_root = get_tree().current_scene.get_node("UI")
 	if not ui_root:
+		push_warning("⚠️ 无法获取 UI 根节点，存档失败")
 		return
+
+	# ✅ 记录 UI 的原始显示状态
+	var setting_was_visible := false
+	var option_was_visible := false
+
+	# ✅ 隐藏 Setting
+	if ui_root.has_node("Setting"):
+		setting_was_visible = ui_root.get_node("Setting").visible
+		ui_root.get_node("Setting").hide()
+
+
+	# ✅ 等待一帧，确保隐藏生效
+	await get_tree().process_frame
+	await get_tree().process_frame
+
+	# ✅ 截图保存
+	var screenshot_path = SaveMgr.capture_screenshot(slot)
+
+	# ✅ 截图完成后恢复 UI
+	if ui_root.has_node("Setting") and setting_was_visible:
+		ui_root.get_node("Setting").show()
+
+
+	# ✅ 存档数据
 	var data = {
 		"chapter": ui_root.current_scene_name,
 		"dialogue_index": max(ui_root.dialogue_index - 1, 0),
 		"hp": PlayerData.hp,
 		"stats": PlayerData.stats,
-		"choices": PlayerData.choice_history,  # ✅ 新增
+		"choices": PlayerData.choice_history,
+		"screenshot": screenshot_path,
 		"time": Time.get_datetime_string_from_system()
 	}
 	SaveMgr.save_game(slot, data)
-	print("✅ 存档到槽 %d" % slot)
+
+	print("✅ 存档到槽 %d（含截图 %s）" % [slot, screenshot_path])
 	_refresh_save_buttons()
 	_refresh_load_buttons()
+
+
+
 
 func _do_load(slot: int):
 	print("📂 从槽 %d 读取存档" % slot)
@@ -121,21 +151,78 @@ func _do_load(slot: int):
 
 
 func _refresh_save_buttons():
-	for i in range(save_buttons.size()):
-		var data = SaveMgr.load_game(i)
-		if data.size() > 0:
-			save_buttons[i].text = "存档槽 %d\n时间: %s" % [i, data.get("time", "无时间")]
-		else:
-			save_buttons[i].text = "存档槽 %d\n<空>" % i
+	_refresh_slot_buttons("save")
 
 func _refresh_load_buttons():
-	for i in range(load_buttons.size()):
+	_refresh_slot_buttons("load")
+
+
+# =====================================
+# ✅ 通用函数：生成存档槽按钮
+# =====================================
+func _refresh_slot_buttons(mode: String):
+	var vbox_path = "Panel/TabContainer/%s/ScrollContainer/VBoxContainer" % (mode.capitalize())
+	var vbox = get_node(vbox_path)
+
+	for c in vbox.get_children():
+		c.queue_free()
+
+	for i in range(9):
 		var data = SaveMgr.load_game(i)
-		if data.size() > 0:
-			load_buttons[i].text = "存档槽 %d\n时间: %s" % [i, data.get("time", "无时间")]
-			load_buttons[i].show()
+		var button = TextureButton.new()
+		button.custom_minimum_size = Vector2(400, 225)
+		button.stretch_mode = TextureButton.STRETCH_SCALE
+		button.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
+
+		# ✅ 如果是 load 模式，空槽直接跳过
+		if mode == "load" and data.size() == 0:
+			continue
+
+		# ✅ 设置截图 / 默认图片
+		if data.has("screenshot") and FileAccess.file_exists(data["screenshot"]):
+			var img = Image.new()
+			img.load(data["screenshot"])
+			var tex = ImageTexture.create_from_image(img)
+			button.texture_normal = tex
 		else:
-			load_buttons[i].hide()
+			button.texture_normal = preload("res://icon.svg")  # 或 res://assets/default_slot.png
+
+		# ✅ 槽编号
+		var slot_label = Label.new()
+		slot_label.text = "存档槽 %d" % i
+		slot_label.add_theme_font_size_override("font_size", 20)
+		slot_label.add_theme_color_override("font_color", Color.WHITE)
+		slot_label.add_theme_constant_override("outline_size", 3)
+		slot_label.add_theme_color_override("font_outline_color", Color(0, 0, 0))
+		slot_label.position = Vector2(10, 10)
+		button.add_child(slot_label)
+
+		# ✅ 时间显示（仅有存档时）
+		if data.size() > 0:
+			var time_label = Label.new()
+			time_label.text = data.get("time", "无时间")
+			time_label.add_theme_font_size_override("font_size", 16)
+			time_label.add_theme_color_override("font_color", Color(0.9, 0.9, 0.9))
+			time_label.add_theme_constant_override("outline_size", 3)
+			time_label.add_theme_color_override("font_outline_color", Color(0, 0, 0))
+			time_label.position = Vector2(10, 190)
+			button.add_child(time_label)
+
+		# ✅ 点击事件
+		button.pressed.connect(func():
+			pending_action = mode
+			pending_slot = i
+			if mode == "save":
+				confirm_dialog.dialog_text = "是否要覆盖存档槽 %d？" % i
+			else:
+				confirm_dialog.dialog_text = "确定要读取存档槽 %d 吗？" % i
+			confirm_dialog.popup_centered()
+		)
+
+		vbox.add_child(button)
+		UiAnimator.apply_button_effects(button)
+
+
 
 
 func clear_ui():

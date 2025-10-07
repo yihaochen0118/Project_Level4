@@ -118,3 +118,27 @@ func restore_game(data: Dictionary) -> void:
 		print("✅ 对话恢复到第 %d 行（章节 %s）" % [start_index, ui_root.current_scene_name])
 	else:
 		push_error("⚠️ 当前场景缺少 UI 节点")
+
+func capture_screenshot(slot: int) -> String:
+	var img := get_viewport().get_texture().get_image()
+	if img:
+		# 目标尺寸
+		var target_size = Vector2i(480, 270)
+
+		# ✅ resize 在原图上操作，不返回新对象
+		img.resize(target_size.x, target_size.y, Image.INTERPOLATE_LANCZOS)
+
+		# 确保存档目录存在
+		var dir_path := "user://save"
+		if not DirAccess.dir_exists_absolute(dir_path):
+			DirAccess.make_dir_absolute(dir_path)
+
+		# 保存路径
+		var path := "%s/slot_%d.png" % [dir_path, slot]
+		img.save_png(path)
+
+		print("📸 截图已保存到: ", path, "（大小: %dx%d）" % [target_size.x, target_size.y])
+		return path
+	else:
+		push_warning("⚠️ 截图失败")
+		return ""

@@ -54,52 +54,52 @@ offset_bottom = 1022.0
 [node name="VBoxContainer" type="VBoxContainer" parent="Panel/TabContainer/Save/ScrollContainer"]
 custom_minimum_size = Vector2(1920, 0)
 layout_mode = 2
-theme_override_constants/separation = 4
+theme_override_constants/separation = 10
 
-[node name="Button" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+[node name="Button9" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
 custom_minimum_size = Vector2(0, 200)
 layout_mode = 2
-text = "1"
-
-[node name="Button2" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 200)
-layout_mode = 2
-text = "2"
-
-[node name="Button3" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 200)
-layout_mode = 2
-text = "3"
-
-[node name="Button4" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 200)
-layout_mode = 2
-text = "4"
-
-[node name="Button5" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 200)
-layout_mode = 2
-text = "5"
-
-[node name="Button6" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 200)
-layout_mode = 2
-text = "6"
-
-[node name="Button7" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 200)
-layout_mode = 2
-text = "7"
+text = "9"
 
 [node name="Button8" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
 custom_minimum_size = Vector2(0, 200)
 layout_mode = 2
 text = "8"
 
-[node name="Button9" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+[node name="Button7" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
 custom_minimum_size = Vector2(0, 200)
 layout_mode = 2
-text = "9"
+text = "7"
+
+[node name="Button6" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "6"
+
+[node name="Button5" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "5"
+
+[node name="Button4" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "4"
+
+[node name="Button3" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "3"
+
+[node name="Button2" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "2"
+
+[node name="Button" type="Button" parent="Panel/TabContainer/Save/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+text = "1"
 
 [node name="Load" type="Control" parent="Panel/TabContainer"]
 visible = false
@@ -115,7 +115,7 @@ offset_bottom = 1022.0
 [node name="VBoxContainer" type="VBoxContainer" parent="Panel/TabContainer/Load/ScrollContainer"]
 custom_minimum_size = Vector2(1920, 0)
 layout_mode = 2
-theme_override_constants/separation = 4
+theme_override_constants/separation = 10
 
 [node name="Button" type="Button" parent="Panel/TabContainer/Load/ScrollContainer/VBoxContainer"]
 custom_minimum_size = Vector2(0, 200)
