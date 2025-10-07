@@ -1,9 +1,13 @@
-[gd_scene load_steps=5 format=3 uid="uid://crp28fjrk0eep"]
+[gd_scene load_steps=9 format=3 uid="uid://crp28fjrk0eep"]
 
 [ext_resource type="PackedScene" uid="uid://cwcy08qmopjty" path="res://Scenes/Background/Tavern.tscn" id="1_eihmu"]
 [ext_resource type="PackedScene" uid="uid://8q8c5tuhw3px" path="res://Scenes/Characters/Alicia.tscn" id="2_4txri"]
 [ext_resource type="PackedScene" uid="uid://c4l8ahbm14vqt" path="res://Scenes/ui/Option_ui.tscn" id="3_eihmu"]
 [ext_resource type="PackedScene" uid="uid://cwcqiwlhvphxr" path="res://Scenes/ui/talk_ui.tscn" id="4_4txri"]
+[ext_resource type="PackedScene" uid="uid://dpo6pv4jbf27w" path="res://Scenes/Start.tscn" id="5_4sfak"]
+[ext_resource type="PackedScene" uid="uid://nppoilchca2v" path="res://Scenes/ui/loadUi.tscn" id="6_3ycm5"]
+[ext_resource type="PackedScene" uid="uid://cecoqv6x60h5n" path="res://Scenes/ui/PlayerStatu.tscn" id="7_e120r"]
+[ext_resource type="PackedScene" uid="uid://ral7obqpv7j7" path="res://Scenes/Background/battle.tscn" id="8_luoyv"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -13,5 +17,21 @@
 position = Vector2(443, -35)
 
 [node name="ChoiceUi" parent="." instance=ExtResource("3_eihmu")]
+visible = false
 
 [node name="talk_ui" parent="." instance=ExtResource("4_4txri")]
+
+[node name="Start" parent="." instance=ExtResource("5_4sfak")]
+offset_left = 2074.0
+offset_right = 2074.0
+
+[node name="Control" parent="." instance=ExtResource("6_3ycm5")]
+offset_left = 2138.0
+offset_top = 1123.0
+offset_right = 2138.0
+offset_bottom = 1123.0
+
+[node name="PlayerStatu" parent="." instance=ExtResource("7_e120r")]
+
+[node name="Node2D" parent="." instance=ExtResource("8_luoyv")]
+position = Vector2(-27, 1132)

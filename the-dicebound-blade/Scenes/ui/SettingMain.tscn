@@ -1,0 +1,219 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkf2es77hon46"]
+
+[ext_resource type="Script" uid="uid://c4rs5roh022k1" path="res://Script/setting_main.gd" id="1_i04h7"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_i04h7")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1921.0
+offset_bottom = 1077.0
+color = Color(1, 1, 1, 0.23137255)
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 113.0
+offset_top = 52.0
+offset_right = 1844.0
+offset_bottom = 1010.0
+
+[node name="BackButton" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 1563.0
+offset_top = 888.0
+offset_right = 1725.0
+offset_bottom = 953.0
+text = "返回"
+
+[node name="TabContainer" type="TabContainer" parent="Panel"]
+layout_mode = 0
+offset_left = 118.0
+offset_top = 40.0
+offset_right = 1584.0
+offset_bottom = 851.0
+theme_override_font_sizes/font_size = 30
+current_tab = 1
+
+[node name="文本设置" type="Control" parent="Panel/TabContainer"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel/TabContainer/文本设置"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 24.0
+offset_right = 1498.0
+offset_bottom = 804.0
+
+[node name="Language" type="Control" parent="Panel/TabContainer/文本设置/ScrollContainer"]
+layout_mode = 2
+
+[node name="button" type="Control" parent="Panel/TabContainer/文本设置/ScrollContainer/Language"]
+anchors_preset = 0
+offset_right = 1401.0
+offset_bottom = 715.0
+
+[node name="English" type="CheckButton" parent="Panel/TabContainer/文本设置/ScrollContainer/Language/button"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 137.0
+offset_right = 195.0
+offset_bottom = 212.0
+text = "English
+"
+
+[node name="Chinese" type="CheckButton" parent="Panel/TabContainer/文本设置/ScrollContainer/Language/button"]
+layout_mode = 0
+offset_left = 39.0
+offset_top = 21.0
+offset_right = 194.0
+offset_bottom = 96.0
+text = "中文"
+
+[node name="界面设置" type="Control" parent="Panel/TabContainer"]
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel/TabContainer/界面设置"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 24.0
+offset_right = 1498.0
+offset_bottom = 804.0
+
+[node name="Interface" type="Control" parent="Panel/TabContainer/界面设置/ScrollContainer"]
+layout_mode = 2
+
+[node name="button" type="Control" parent="Panel/TabContainer/界面设置/ScrollContainer/Interface"]
+anchors_preset = 0
+offset_left = -21.0
+offset_top = 2.0
+offset_right = 1378.0
+offset_bottom = 704.0
+
+[node name="CGShow" type="CheckButton" parent="Panel/TabContainer/界面设置/ScrollContainer/Interface/button"]
+layout_mode = 0
+offset_left = 39.0
+offset_top = 21.0
+offset_right = 194.0
+offset_bottom = 96.0
+text = "CG演出启用"
+
+[node name="BGMname" type="CheckButton" parent="Panel/TabContainer/界面设置/ScrollContainer/Interface/button"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 137.0
+offset_right = 195.0
+offset_bottom = 212.0
+text = "BGM名字显示
+"
+
+[node name="fullScreen" type="CheckButton" parent="Panel/TabContainer/界面设置/ScrollContainer/Interface/button"]
+layout_mode = 0
+offset_left = 376.0
+offset_top = 139.0
+offset_right = 531.0
+offset_bottom = 214.0
+text = "全屏模式
+"
+
+[node name="windows" type="CheckButton" parent="Panel/TabContainer/界面设置/ScrollContainer/Interface/button"]
+layout_mode = 0
+offset_left = 378.0
+offset_top = 22.0
+offset_right = 533.0
+offset_bottom = 97.0
+text = "画面窗口化
+"
+
+[node name="声音设置" type="Control" parent="Panel/TabContainer"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel/TabContainer/声音设置"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 24.0
+offset_right = 1498.0
+offset_bottom = 804.0
+
+[node name="Music" type="Control" parent="Panel/TabContainer/声音设置/ScrollContainer"]
+layout_mode = 2
+
+[node name="GlobalSound" type="Control" parent="Panel/TabContainer/声音设置/ScrollContainer/Music"]
+anchors_preset = 0
+offset_left = 214.0
+offset_top = 10.0
+offset_right = 1222.0
+offset_bottom = 132.0
+
+[node name="GlobalShow" type="Label" parent="Panel/TabContainer/声音设置/ScrollContainer/Music/GlobalSound"]
+layout_mode = 0
+offset_left = 933.0
+offset_top = 51.0
+offset_right = 985.0
+offset_bottom = 93.0
+text = "0%"
+
+[node name="Global" type="Label" parent="Panel/TabContainer/声音设置/ScrollContainer/Music/GlobalSound"]
+layout_mode = 0
+offset_left = 432.0
+offset_top = 8.0
+offset_right = 544.0
+offset_bottom = 50.0
+text = "全局音量控制："
+
+[node name="MainSound" type="HSlider" parent="Panel/TabContainer/声音设置/ScrollContainer/Music/GlobalSound"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 30.0
+offset_right = 906.0
+offset_bottom = 100.0
+
+[node name="button" type="Control" parent="Panel/TabContainer/声音设置/ScrollContainer/Music"]
+anchors_preset = 0
+offset_left = -27.0
+offset_top = 147.0
+offset_right = 1371.0
+offset_bottom = 736.0
+
+[node name="SoundEffects" type="CheckButton" parent="Panel/TabContainer/声音设置/ScrollContainer/Music/button"]
+layout_mode = 0
+offset_left = 373.0
+offset_top = 40.0
+offset_right = 528.0
+offset_bottom = 115.0
+text = "音效启用
+
+"
+
+[node name="CharacterVoice" type="CheckButton" parent="Panel/TabContainer/声音设置/ScrollContainer/Music/button"]
+layout_mode = 0
+offset_left = 51.0
+offset_top = 37.0
+offset_right = 206.0
+offset_bottom = 112.0
+text = "人物语音启用"
+
+[node name="BGM" type="CheckButton" parent="Panel/TabContainer/声音设置/ScrollContainer/Music/button"]
+layout_mode = 0
+offset_left = 670.0
+offset_top = 36.0
+offset_right = 825.0
+offset_bottom = 111.0
+text = "BGM启用"
+
+[node name="快捷键设置" type="Control" parent="Panel/TabContainer"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 3
+
+[node name="其他设置" type="Control" parent="Panel/TabContainer"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 4
