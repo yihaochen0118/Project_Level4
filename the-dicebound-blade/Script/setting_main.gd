@@ -88,13 +88,11 @@ func _value_to_db(value: float) -> float:
 # 🖥️ 窗口 / 全屏控制
 # ===============================
 func _init_window_mode_buttons():
-	# 获取当前窗口模式
 	var is_fullscreen = DisplayServer.window_get_mode() == DisplayServer.WINDOW_MODE_FULLSCREEN
 
 	fullscreen_button.button_pressed = is_fullscreen
 	window_button.button_pressed = not is_fullscreen
 
-	# 绑定信号
 	fullscreen_button.toggled.connect(_on_fullscreen_toggled)
 	window_button.toggled.connect(_on_window_toggled)
 
@@ -102,6 +100,12 @@ func _init_window_mode_buttons():
 		print("🖥️ 当前模式: 全屏")
 	else:
 		print("🖥️ 当前模式: 窗口")
+		# 🚀 自动调整窗口大小与位置
+		var screen_size: Vector2i = DisplayServer.screen_get_size()
+		var window_size: Vector2i = (screen_size * 0.765).floor()
+		DisplayServer.window_set_size(window_size)
+		DisplayServer.window_set_position(screen_size / 2 - window_size / 2)
+		print("📐 已自动将窗口设为屏幕 80%% 并居中")
 
 
 func _on_fullscreen_toggled(pressed: bool) -> void:
@@ -122,7 +126,15 @@ func _on_window_toggled(pressed: bool) -> void:
 	if pressed:
 		fullscreen_button.button_pressed = false
 		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)
-		print("✅ 切换到窗口模式")
+
+		# 🔧 自动检测屏幕分辨率，并设置窗口为屏幕的 80%
+		var screen_size: Vector2i = DisplayServer.screen_get_size()
+		var window_size: Vector2i = (screen_size * 0.765).floor()  # 向下取整避免小数像素
+
+		DisplayServer.window_set_size(window_size)
+		DisplayServer.window_set_position(screen_size / 2 - window_size / 2)
+
+		print("✅ 切换到窗口模式（自动缩放至 %.0f%% 屏幕）" % [0.8 * 100])
 	else:
 		if not fullscreen_button.button_pressed:
 			fullscreen_button.button_pressed = true

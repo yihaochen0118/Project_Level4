@@ -25,7 +25,7 @@ UiAnimator="*res://Script/UIAnimator.gd"
 
 [display]
 
-window/size/viewport_width=1920
+window/size/viewport_width=1960
 window/size/viewport_height=1080
 window/stretch/mode="viewport"
 window/stretch/aspect="expand"
