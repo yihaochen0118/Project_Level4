@@ -10,6 +10,7 @@ extends Control
 @onready var confirm_dialog = $Panel/ConfirmDialog
 @onready var back_to_menu_button = $Panel/BackToMenuButton  # 新增
 
+var _option_was_visible := false  # 用来记录 OptionUI 打开前的状态
 var pending_action: String = ""  # "save" / "load" / "clear"
 var pending_slot: int = -1
 
@@ -36,12 +37,19 @@ func _ready():
 func _on_button_pressed():
 	panel.visible = not panel.visible
 	settingButton.visible = not settingButton.visible
-	if panel.visible:
+
+	var is_open = panel.visible
+	if is_open:
 		clear_ui()
+		_set_option_active(false)  # 🚫 禁用 OptionUI 输入
+	else:
+		restore_ui()
+		_set_option_active(true)   # ✅ 恢复 OptionUI 输入
 
 func _on_close_pressed():
 	panel.hide()
 	restore_ui()
+	_set_option_active(true)
 	settingButton.visible = true
 
 func _on_quit_pressed():
@@ -221,8 +229,31 @@ func _refresh_slot_buttons(mode: String):
 
 		vbox.add_child(button)
 		UiAnimator.apply_button_effects(button)
+# ===========================================================
+# ✅ 控制 OptionUI 的输入激活 / 禁用
+# ===========================================================
+func _set_option_active(state: bool) -> void:
+	var ui_root = get_tree().current_scene.get_node("UI")
+	if not ui_root:
+		return
+	if not ui_root.has_node("OptionUI"):
+		return
 
+	var option_ui = ui_root.get_node("OptionUI")
 
+	if not state:
+		# 打开 Setting → 记录当前状态再隐藏
+		_option_was_visible = option_ui.visible
+		if option_ui.visible:
+			option_ui.hide()
+			print("🚫 OptionUI 已隐藏（原本可见）")
+	else:
+		# 关闭 Setting → 仅当原本是显示时才恢复
+		if _option_was_visible:
+			option_ui.show()
+			print("✅ OptionUI 已恢复显示")
+		else:
+			print("⚙️ OptionUI 原本隐藏，保持隐藏")
 
 
 func clear_ui():
@@ -237,5 +268,6 @@ func restore_ui():
 
 func _input(event):
 	if event is InputEventKey and event.pressed and event.keycode == KEY_ESCAPE:
+		# 如果 Setting 面板当前是打开的
 		if panel.visible:
 			_on_close_pressed()

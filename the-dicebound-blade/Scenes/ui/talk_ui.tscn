@@ -25,6 +25,7 @@ offset_left = 264.0
 offset_top = 90.0
 offset_right = 1403.0
 offset_bottom = 257.0
+mouse_filter = 2
 
 [node name="NameLabel" type="Label" parent="NinePatchRect"]
 layout_mode = 0

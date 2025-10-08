@@ -8,13 +8,13 @@ func _ready():
 var backgrounds = {
 	"tavern": "res://Scenes/Background/tavern.tscn",
 	"battle": "res://Scenes/Background/battle.tscn",
-	"mainPage": "res://Scenes/Background/mainPage.tscn"
 }
 
 # 角色场景路径
 var characters = {
 	"Alicia": "res://Scenes/Characters/Alicia.tscn",
 	"Man": "res://Scenes/Characters/Man.tscn",
+	"Junker": "res://Scenes/Characters/Junker.tscn",
 }
 
 var ui = {

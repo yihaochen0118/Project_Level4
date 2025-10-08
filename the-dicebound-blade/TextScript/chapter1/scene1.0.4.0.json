@@ -1,17 +1,19 @@
-[{ "event": [
-	  { "target": "Aldric", "pos": [560, 45], "action": "spawn_character" },
-	  { "target": "Man", "pos": [-560, 45], "action": "spawn_character" }
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
 	]
   },
-  { "text": "With a roar, you charge straight at the burly man and swing your fist!" },
-  { "text": "You lost 10 hp","event": [
-	  { "target": "Man", "action": "shake" },
-	  { "action": "hp_lost", "amount": 10 }
-	]
-  },
-  { "text": "Burly Man A catches your punch steadily and shoves you to the ground." },
-  { "text": "The tavern erupts in loud laughter." },
-  { "text": "Though you look disheveled, your reckless act makes some in the tavern secretly take note of your courage." },
-  { "event": { "action": "remove_character", "target": "Aldric" }},
-  { "event": { "action": "change_scene", "target": "scene1.1" }}
+  { "text": "我缓缓移手去摸短剑，却没料到，剑鞘在腰间轻轻碰撞出一声‘铮’。" },
+  { "text": "醉汉猛地转头，血丝遍布的眼瞪向我。“你想干什么？！”" },
+  { "text": "他的怒火一下子被点燃，拳头重重砸在桌上，酒水四溅。" },
+  { "text": "我下意识后退一步，手还没完全握紧剑柄，空气里已经充满火药味。" },
+  { "text": "就在他迈出那一步时，一阵风声忽起——那不是风，而是剑鸣。" },
+  { "text": "Alicia 已经起身，斗篷掠过炉火，银光一闪而过。" },
+  { "text": "没有人看清她做了什么，下一刻醉汉就被压在地上，脸埋进了自己的酒里。" },
+  { "text": "“够了。”她的声音冷静，像冰化开的声音。" },
+  { "text": "我怔怔地看着她。那一刻，我终于意识到——自己根本没必要拔剑。" },
+  { "text": "她收回剑，火光照在那裂开的剑纹上，微微闪动。" },
+  { "event": [{ "action": "change_scene", "target": "scene1.1" }] }
 ]

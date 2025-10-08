@@ -1,16 +1,22 @@
-[{ "event": [
-	  { "target": "Aldric", "pos": [560, 45], "action": "spawn_character" },
-	  { "target": "Man", "pos": [-560, 45], "action": "spawn_character" }
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
 	]
   },
-  { "text": "You slip quietly along the shadows of the crowd, trying to circle around to the back of the tavern for a better vantage point."},
-  { "text": "As you weave through the crowd, you accidentally knock over a mug of beer."},
-  { "text": "The drinkers shout: 'Hey! Kid, are you trying to steal something?'"},
-  { "text": "Forced back into the center of the tavern, you end up drawing the attention of the burly men."},
-  { "event": [
-	  { "action": "remove_character", "target": "Aldric" },
-	  { "action": "remove_character", "target": "Man" }
-	]
-  },
-  { "event": { "action": "change_scene", "target": "scene1.1" }}
+  { "text": "我选择沉默，只是紧握柜台，观察着事态。醉汉的情绪却像被火浇上了油。" },
+  { "text": "他猛地抓起酒瓶，狠狠摔在地上，碎片和酒液一起飞溅，我被一股冲击逼得连退两步。" },
+  { "text": "人群惊叫，炉火被震得一抖。那股酒味混着灰尘扑面而来，呛得我咳嗽。" },
+  { "text": "醉汉的拳头已经举起——" },
+  { "text": "就在那一瞬，门外的风忽然怒吼着灌入，吹灭了一半火光。" },
+  { "text": "寒气裹着雪雾卷进屋中，一个银白斗篷的身影随之出现。她的存在让空气瞬间冻结。" },
+  { "text": "斗篷女子的眼神冷静而锐利，抬手间，碎片与风都停在了半空。" },
+  { "text": "她的声音穿透风声，干净而有力：“够了。”" },
+  { "text": "醉汉僵在原地，脸色煞白，喉咙发出一声沙哑的喘息。他转身，踉跄着逃出门外。" },
+  { "text": "我仍然靠在柜台边，胸口起伏不定，手背上被碎片划出一道浅口，血迹被火光映得发亮。" },
+  { "text": "她看了我一眼，那目光像风一样轻，却带着让人难以直视的力量。" },
+  { "text": "“下次别等太久。”她轻声说。" },
+  { "text": "我还来不及回应，她已经转身，雪雾在她身后散开。" },
+  { "event": [{ "action": "change_scene", "target": "scene1.1" }] }
 ]

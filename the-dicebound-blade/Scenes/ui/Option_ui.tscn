@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://bq8wgyxkpm4y7" path="res://Script/OptionUI.gd" id="1_52tpn"]
 
 [node name="OptionUI" type="Control"]
-z_index = 4
+z_index = 1
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_52tpn")
@@ -15,6 +15,7 @@ offset_left = 224.0
 offset_top = 576.0
 offset_right = 1690.0
 offset_bottom = 1024.0
+mouse_filter = 0
 
 [node name="Button" type="Button" parent="VBoxContainer"]
 custom_minimum_size = Vector2(100, 100)

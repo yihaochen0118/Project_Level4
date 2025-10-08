@@ -1,15 +1,20 @@
-[{ "event": [
-	  { "target": "Aldric", "pos": [560, 45], "action": "spawn_character" },
-	  { "target": "Man", "pos": [-560, 45], "action": "spawn_character" }
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
 	]
   },
-  { "text": "You slip quietly along the shadows of the crowd, trying to circle around to the back of the tavern for a better vantage point."},
-  { "text": "You manage to sneak around successfully and discover a half-ajar door by the wall."},
-  { "text": "As you approach, you hear a woman’s voice whispering from inside: '...We must act tonight, or the relic will fall into their hands.'"},
-  { "event": [
-	  { "action": "remove_character", "target": "Aldric" },
-	  { "action": "remove_character", "target": "Man" }
-	]
-  },
-  { "event": { "action": "change_scene", "target": "scene1.1" }}
+  { "text": "我没有立刻开口，只是盯着那醉汉的动作。炉火闪烁，他的影子在墙上乱晃。" },
+  { "text": "空气里全是酒气和压抑的燥热。我能感到自己的心跳在喉咙口，却强迫自己不要动。" },
+  { "text": "醉汉咬着牙，似乎还想再吼，却忽然像泄了气似的，嘴角抽搐几下，把酒瓶放回桌上。" },
+  { "text": "他低声骂了一句，晃晃荡荡地朝门口走去。那一刻，风从门缝钻进来，带着一阵雪雾。" },
+  { "text": "他骂骂咧咧地推门离开，门外的风声把余音卷走。" },
+  { "text": "酒馆重新安静下来，只剩火焰在噼啪燃烧。" },
+  { "text": "我松了一口气，感觉掌心的汗已经把杯布浸湿。" },
+  { "text": "斗篷女子的目光扫过空荡的酒馆，又落在我身上，像是在确认什么。" },
+  { "text": "“镇上的人还真容易起冲突。”她轻声笑道，语气中带着淡淡的讽意。" },
+  { "text": "我回以一笑：“在风雪天，人也容易发疯。”" },
+  { "text": "她轻轻点头，走到柜台边坐下。炉火的光映在她的发丝上，像雪中落下的金线。" },
+  { "event": [{ "action": "change_scene", "target": "scene1.1" }] }
 ]

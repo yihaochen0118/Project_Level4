@@ -1,13 +1,19 @@
-[{ "event": [
-	  { "target": "Aldric", "pos": [560, 45], "action": "spawn_character" },
-	  { "target": "Man", "pos": [-560, 45], "action": "spawn_character" }
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
 	]
   },
-  { "text": "With a roar, you charge straight at the burly man and swing your fist!"},
-  { "event": [{ "target": "Man", "action": "shake" },{"action":"hp_lost","amount":1}]},
-  { "text": "Your punch sends Burly Man A stumbling back, and the tavern falls silent."},
-  { "text": "Seeing this, Burly Man B hesitates, then drags his companion away in a hasty retreat."},
-  { "text": "The old man weakly grasps your hand: 'Young one... I owe you my life.'"},
-  { "event": { "action": "remove_character", "target": "Aldric" }},
-  { "event": { "action": "change_scene", "target": "scene1.1" }}
+  { "text": "我缓缓把手移到腰间，指尖掠过那柄短剑的剑柄。" },
+  { "text": "醉汉的脚步逼近，桌上几只杯子被震得颤动，我能听见他粗重的呼吸声。" },
+  { "text": "剑从鞘中轻轻滑出一寸，冷光在火光中一闪。" },
+  { "text": "那声音极轻，却像割破了空气的寂静——醉汉顿了顿，眼神忽然有些迟疑。" },
+  { "text": "他皱着眉，似乎在犹豫要不要再靠近一步。周围的人屏住呼吸。" },
+  { "text": "Alicia 没有出声，只是看了我一眼。那一眼像是在确认：我已经准备好了。" },
+  { "text": "我微微点头，手指仍稳稳地搭在剑柄上。" },
+  { "text": "最终，醉汉只是骂了几句，甩开手，摇摇晃晃地退到一边。" },
+  { "text": "火光重新稳住，空气中那股压抑的味道也慢慢散开。" },
+  { "text": "我缓缓收回短剑，呼出一口气。炉火映在剑刃上，像是一场还没开始的战斗。" },
+  { "event": [{ "action": "change_scene", "target": "scene1.1" }] }
 ]
