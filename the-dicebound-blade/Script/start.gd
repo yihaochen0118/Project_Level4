@@ -6,10 +6,30 @@ extends Control
 @onready var setting_button = $VBoxContainer/gamesetting
 
 func _ready():
+	# 🚀 启动时自动初始化窗口模式
+	_init_window_mode()
+
+	# 按钮信号绑定
 	start_button.pressed.connect(_on_start_pressed)
 	quit_button.pressed.connect(_on_quit_pressed)
 	load_button.pressed.connect(_on_load_pressed)
-	setting_button.pressed.connect(_on_setting_pressed)  # ✅ 绑定设置按钮
+	setting_button.pressed.connect(_on_setting_pressed)
+
+# ===============================
+# 🪟 初始化窗口模式
+# ===============================
+func _init_window_mode():
+	var is_fullscreen = DisplayServer.window_get_mode() == DisplayServer.WINDOW_MODE_FULLSCREEN
+
+	if is_fullscreen:
+		print("🖥️ 启动时检测到全屏模式")
+	else:
+		print("🖥️ 启动时检测到窗口模式")
+		var screen_size: Vector2i = DisplayServer.screen_get_size()
+		var window_size: Vector2i = (screen_size * 0.765).floor()  # 屏幕 80%
+		DisplayServer.window_set_size(window_size)
+		DisplayServer.window_set_position(screen_size / 2 - window_size / 2)
+		print("📐 已自动将窗口设为屏幕 80%% 并居中显示")
 
 # ===============================
 # 🎮 开始游戏
@@ -49,7 +69,6 @@ func _on_load_pressed():
 func _on_setting_pressed():
 	print("⚙️ 打开设置界面")
 
-	# ✅ 直接加载设置界面
 	var path = "res://Scenes/ui/SettingMain.tscn"
 	var scene = load(path) as PackedScene
 	if scene == null:

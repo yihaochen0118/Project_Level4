@@ -89,23 +89,11 @@ func _value_to_db(value: float) -> float:
 # ===============================
 func _init_window_mode_buttons():
 	var is_fullscreen = DisplayServer.window_get_mode() == DisplayServer.WINDOW_MODE_FULLSCREEN
-
 	fullscreen_button.button_pressed = is_fullscreen
 	window_button.button_pressed = not is_fullscreen
 
 	fullscreen_button.toggled.connect(_on_fullscreen_toggled)
 	window_button.toggled.connect(_on_window_toggled)
-
-	if is_fullscreen:
-		print("🖥️ 当前模式: 全屏")
-	else:
-		print("🖥️ 当前模式: 窗口")
-		# 🚀 自动调整窗口大小与位置
-		var screen_size: Vector2i = DisplayServer.screen_get_size()
-		var window_size: Vector2i = (screen_size * 0.765).floor()
-		DisplayServer.window_set_size(window_size)
-		DisplayServer.window_set_position(screen_size / 2 - window_size / 2)
-		print("📐 已自动将窗口设为屏幕 80%% 并居中")
 
 
 func _on_fullscreen_toggled(pressed: bool) -> void:
