@@ -1,10 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://bh38bsresmbjl"]
+[gd_scene load_steps=2 format=3 uid="uid://bh38bsresmbjl"]
 
-[ext_resource type="Script" uid="uid://hyep6b8od4nl" path="res://Script/aldric.gd" id="1_ps5nu"]
 [ext_resource type="Texture2D" uid="uid://4xegiryl0616" path="res://images/Chara/junker.png" id="2_ps5nu"]
 
 [node name="Junker" type="Node2D"]
-script = ExtResource("1_ps5nu")
 
 [node name="Junker" type="Sprite2D" parent="."]
 z_index = 1

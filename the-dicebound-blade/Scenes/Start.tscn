@@ -10,10 +10,8 @@ script = ExtResource("1_og4jd")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
-offset_left = -5.0
-offset_top = 3.0
-offset_right = 3195.0
-offset_bottom = 1795.0
+offset_right = 3266.6665
+offset_bottom = 1800.0
 scale = Vector2(0.6, 0.6)
 texture = ExtResource("2_nt0jr")
 

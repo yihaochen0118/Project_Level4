@@ -1,0 +1,14 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	]
+  },
+  { "text": "艾莉西亚先是一愣，随即轻轻一笑。", "event": [{ "action": "show_name", "target": "Alicia" }] },
+  { "text": "“你可真敢说。”她摇了摇头，嘴角藏不住笑意，“放心，我们不会打扰你的生意。”" },
+  { "text": "露西亚听懂了玩笑，咯咯笑出声", "event": [{ "action": "show_name", "target": "Lucia" }] },
+  { "text": "艾莉西亚假装咳了一声，伸手拎起药篮：“去楼上。”" },
+  { "text": "她回头看了我一眼，那一眼不再冷淡，而是带着一点温柔与戏谑的光。", "event": [{ "action": "hide_name" }] },
+  { "event": [{ "action": "change_scene", "target": "scene1.3" }] }
+]

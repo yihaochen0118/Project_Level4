@@ -1,0 +1,62 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
+	]
+  },
+  {
+	"text": "我缓缓移手去摸短剑，却没料到，剑鞘在腰间轻轻碰撞出一声‘铮’。"
+  },
+  {
+	"text": "醉汉猛地转头，血丝遍布的眼瞪向我。",
+  },
+  {
+	"text": "“你想干什么？！”",
+	"event": [{ "action": "show_name", "target": "Junker" }]
+  },
+  {
+	"text": "他的怒火一下子被点燃，拳头重重砸在桌上，酒水四溅。"
+  },
+  {
+	"text": "“敢拔剑？！”",
+	"event": [{ "action": "show_name", "target": "Junker" }]
+  },
+  {
+	"text": "我下意识后退一步，手还没完全握紧剑柄，空气里已经充满火药味。"
+  },
+  {
+	"text": "就在他迈出那一步时，一阵风声忽起——那不是风，而是剑鸣。"
+  },
+  {
+	"text": "Alicia 已经起身，斗篷掠过炉火，银光一闪而过。",
+	"event": [{ "action": "show_name", "target": "Alicia" }]
+  },
+  {
+	"text": "没有人看清她做了什么，下一刻醉汉就被压在地上，脸埋进了自己的酒里。"
+  },
+  {
+	"text": "“够了。”",
+	"event": [
+	  { "action": "show_name", "target": "Alicia" },
+	  { "action": "remove_character", "target": "Junker" }
+	]
+  },
+  {
+	"text": "我怔怔地看着她。那一刻，我终于意识到——自己根本没必要拔剑。"
+  },
+  {
+	"text": "她收回剑，火光照在那裂开的剑纹上，微微闪动。"
+  },
+  {
+	"text": "“你可真会威胁人。”",
+	"event": [{ "action": "show_name", "target": "Alicia" }]
+  },
+  {
+	"text": "“那得看对象。”我笑了笑，放下了还未拔出的剑。",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.1" }]
+  }
+]

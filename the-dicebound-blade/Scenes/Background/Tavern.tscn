@@ -5,6 +5,6 @@
 [node name="tavern" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(962.00006, 539.5)
-scale = Vector2(0.60062504, 0.6021206)
+position = Vector2(980.4999, 539.99994)
+scale = Vector2(0.61218745, 0.6026786)
 texture = ExtResource("1_1svwl")

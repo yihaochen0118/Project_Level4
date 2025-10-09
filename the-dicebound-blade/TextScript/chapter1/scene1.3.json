@@ -1,0 +1,11 @@
+[
+
+  {
+	"text": "真好啊",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  {
+	"text": "真好啊",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  }
+]

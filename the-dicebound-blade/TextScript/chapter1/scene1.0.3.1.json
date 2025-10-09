@@ -1,0 +1,43 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
+	]
+  },
+  { "text": "醉汉的脚步一步步逼近，桌上的杯子被震得轻颤，空气里的酒气越来越浓。" },
+  { "text": "我没有后退，只是缓缓将手放在短剑的剑柄上，指尖微微用力。" },
+  { "text": "“你最好停下。”",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  { "text": "醉汉愣了愣，嘴角抽搐了一下，似乎没把我放在眼里，继续往前跨了一步。" },
+  { "text": "剑光一闪——我已经拔剑，寒气贴着他的喉咙划过，薄薄的皮肤被剑锋掠起一线白痕。" },
+  { "text": "他呼吸一滞，整个人僵在原地，连眼珠都不敢转动。" },
+  { "text": "“再动一下，我就喊镇守卫。”",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  { "text": "醉汉艰难地咽了口唾沫，脖子在剑下轻轻颤抖。",
+"event": [{ "action": "shake", "target": "Junker" }]},
+  { "text": "“你……你开玩笑的吧？”",
+	"event": [{ "action": "show_name", "target": "Junker" }]
+  },
+  { "text": "我没有回答，只是让剑锋又贴近了一寸，冷光映在他脸上，连汗都冻结了似的。" },
+  { "text": "空气里只有火焰的爆裂声和他急促的呼吸声。" },
+  { "text": "Alicia 站在一旁，神情平静地看着我，眼底闪过一丝赞许。" },
+  { "text": "“退下。”",
+	"event": [{ "action": "show_name", "target": "Alicia" }]
+  },
+  { "text": "醉汉脚步踉跄地往后退，几乎是连滚带爬地冲出门外，撞开了风雪。" },
+   {
+	"text": "“砰”的一声，门被风拍上，炉火轻轻一晃。",
+	"event": [{ "action": "remove_character", "target": "Junker" }]
+  },
+  { "text": "我收回短剑，剑刃在火光中闪着微弱的亮光，像一条静止的闪电。" },
+  { "text": "“你可真会威胁人。”",
+	"event": [{ "action": "show_name", "target": "Alicia" }]
+  },
+  { "text": "“总得有人动手。”我苦笑着，把剑重新入鞘。",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  { "event": [{ "action": "change_scene", "target": "scene1.1" }] }
+]

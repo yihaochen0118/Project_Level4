@@ -3,10 +3,10 @@
 [ext_resource type="Script" uid="uid://hyep6b8od4nl" path="res://Script/aldric.gd" id="1_wktjp"]
 [ext_resource type="Texture2D" uid="uid://dr4mduk0wreb7" path="res://images/Chara/tempAlicia.jpg" id="2_5orks"]
 
-[node name="Aldric" type="Node2D"]
+[node name="Alicia" type="Node2D"]
 script = ExtResource("1_wktjp")
 
-[node name="Aldric" type="Sprite2D" parent="."]
+[node name="Alicia" type="Sprite2D" parent="."]
 z_index = 1
 position = Vector2(1008.53705, 550.075)
 scale = Vector2(0.5367478, 0.52634376)

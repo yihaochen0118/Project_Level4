@@ -15,6 +15,7 @@ var characters = {
 	"Alicia": "res://Scenes/Characters/Alicia.tscn",
 	"Man": "res://Scenes/Characters/Man.tscn",
 	"Junker": "res://Scenes/Characters/Junker.tscn",
+	"Lucia": "res://Scenes/Characters/Lucia.tscn",
 }
 
 var ui = {

@@ -1,0 +1,32 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	]
+  },
+
+  { "text": "我打开账本，问道：“你是要给露西亚也订一间房吗？”", "event": [{ "action": "show_name", "target": "Player" }] },
+  { "text": "“是的，”她回答，“她今晚要帮我整理药材。”", "event": [{ "action": "show_name", "target": "Alicia" }] },
+  { "text": "我递上两把钥匙：“隔壁的房间安静，风声不大。”", "event": [{ "action": "show_name", "target": "Player" }] },
+  { "text": "艾莉西亚接过钥匙时，目光在我指尖停了一瞬，神情柔和而奇异。", "event": [{ "action": "show_name", "target": "Alicia" }] },
+  { "text": "露西亚没察觉气氛变化，欢快地抱着药篮往楼上跑：“师父！我去收拾啦！”", "event": [{ "action": "show_name", "target": "Lucia" }] },
+  { "text": "“别碰窗台！”", "event": [{ "action": "show_name", "target": "Alicia" }] },
+  { "text": "艾莉西亚看着露西亚的背影，轻叹了口气。" },
+  { "text": "我顺势开口：“你的徒弟挺可爱的。”", "event": [{ "action": "show_name", "target": "Player" }] },
+  { "text": "“她是个好孩子。”她顿了顿，笑中带一丝疲惫，“比我幸运得多。”", "event": [{ "action": "show_name", "target": "Alicia" }] },
+  { "text": "我没听懂。想问，她却已转身。阳光从窗户照进来，她的头发泛着银光。" },
+  { "text": "“我得去休息了。”她说，“今天的空气感觉有点湿，晚上恐怕又要下雪。”", "event": [{ "action": "show_name", "target": "Alicia" }] },
+  { "text": "“晚餐我给你们留着。”", "event": [{ "action": "show_name", "target": "Player" }] },
+  { "text": "“谢谢。”她停顿了一下，露出一个几乎察觉不到的微笑，“我总觉得，这地方让我有种……似曾相识的感觉。”", "event": [{ "action": "show_name", "target": "Alicia" }] },
+  { "text": "她上楼的脚步极轻。" },
+  { "text": "我望着那背影，有一种莫名的心悸。" },
+  { "text": "我低头，看见黄铜骰静静躺在柜台上。" },
+  { "text": "它又自己滚动了一下，这次停在「7」。" },
+  { "text": "——我没掷它。" },
+  { "text": "窗外的风掠过屋檐，带来远处教堂的钟声。" },
+  { "text": "那一刻我忽然有种错觉：时间好像在微微晃动，像是有人在幕后用力拨动了什么齿轮。"},
+{
+	"event": [{ "action": "change_scene", "target": "scene1.3" }]
+  }
+]
