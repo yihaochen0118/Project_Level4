@@ -138,7 +138,8 @@ func _do_save(slot: int):
 		"stats": PlayerData.stats,
 		"choices": PlayerData.choice_history,
 		"screenshot": screenshot_path,
-		"time": Time.get_datetime_string_from_system()
+		"time": Time.get_datetime_string_from_system(),
+		"flags": PlayerData.flags,
 	}
 	SaveMgr.save_game(slot, data)
 

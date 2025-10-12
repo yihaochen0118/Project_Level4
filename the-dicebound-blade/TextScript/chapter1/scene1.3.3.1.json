@@ -1,0 +1,17 @@
+[
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“那你呢？你会想改变什么？”我反问。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "她怔了一瞬，似乎没想到我会这样问。随后轻轻一笑。"
+  },
+  {
+	"text": "“也许我早该问自己同样的问题。”她说，“只是，每次想改写什么，世界都会提醒我——我已经没有资格。”"
+  },
+  {
+	"text": "她的语气温柔，却藏着几分决绝。我第一次看到她眼里那一丝悲伤的光。"
+  },
+  { "event": [{ "action": "change_scene", "target": "scene1.4" }] }
+]

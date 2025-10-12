@@ -1,0 +1,17 @@
+[
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“我会尝试改变命运。”我说。声音平静，却比想象中更坚定。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "她看了我一眼，像是在评估什么。火光映在她的眼底，闪过一瞬柔和的笑意。"
+  },
+  {
+	"text": "“也许你真能做到。”她轻声说，“有些人能与命运谈判，而不是被它牵着走。”"
+  },
+  {
+	"text": "她放下酒杯，语气比刚才更轻：“如果真有那一天……希望你别后悔。”"
+  },
+  { "event": [{ "action": "change_scene", "target": "scene1.4" }] }
+]

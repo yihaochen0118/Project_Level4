@@ -5,6 +5,7 @@
 	  { "action": "set_background", "target": "tavern" }
 	]
   },
+{ "event": { "action": "set_flag", "flag": "helped_alicia", "value": true } },
   {
 	"event": { "action": "show_talk_ui" },
 	"text": "晨雾从远山滑下来，沿着石砖街道弥散进镇中心。旅店内的空气中有淡淡的木灰味。"

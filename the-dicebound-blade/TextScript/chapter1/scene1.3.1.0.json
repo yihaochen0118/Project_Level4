@@ -1,0 +1,17 @@
+[
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“我会尝试改变命运。”我答得有点仓促。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "艾莉西亚笑了笑，眼神却有些悲哀：“很多人都这么说。”"
+  },
+  {
+	"text": "她低头看向杯底的酒光：“但命运不是骰子。它不会因为意志改变点数。”"
+  },
+  {
+	"text": "那一刻我忽然觉得，她似乎在说自己的事。空气有种说不出的冷意。"
+  },
+  { "event": [{ "action": "change_scene", "target": "scene1.4" }] }
+]

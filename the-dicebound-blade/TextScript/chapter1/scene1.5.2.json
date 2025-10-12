@@ -1,0 +1,45 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_market_day" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "街头的摊位排成两行，烤鱼、香料、花束混着炊烟的香气。铁匠铺的锤声有节奏地响着。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“想不到你走得挺快。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“我只是饿了。”我抬头望着街边的烤鱼摊，“那香味太过分了。”"
+  },
+  {
+	"text": "艾莉西亚无奈地叹了口气，却还是跟我一起走到摊前。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“两串鱼。”她掏出几枚硬币，“一串给他。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“这次我请。”我抢先付了钱。"
+  },
+  {
+	"text": "摊主笑着把烤鱼递过来，炭火的香气在空气里弥漫。艾莉西亚怔了怔，接过那串鱼，看了我一眼。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“你什么时候开始学得这么殷勤？”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“上次有人救了我一命，总得还点什么。”"
+  },
+  {
+	"text": "她轻笑一声，没有再说什么。阳光落在她侧脸上，鱼香混着风声，像某种短暂却真实的平静。"
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.6" }]
+  }
+]

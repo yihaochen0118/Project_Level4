@@ -5,6 +5,7 @@ signal stats_changed
 signal hp_changed(new_hp: int, max_hp: int)
 
 var choice_history: Array = []
+var flags: Dictionary = {}
 
 var hp: int = 100
 var max_hp: int = 100
@@ -60,5 +61,21 @@ func load_from_dict(data: Dictionary):
 	max_hp = max(hp, max_hp)
 	stats = data.get("stats", stats)
 	choice_history = data.get("choices", [])
+	flags = data.get("flags", {})
 	emit_signal("stats_changed")
 	emit_signal("hp_changed", hp, max_hp)
+
+# ✅ 设置 flag 值
+func set_flag(flag_name: String, value: bool = true):
+	flags[flag_name] = value
+	print("🏳️ 设置Flag：%s = %s" % [flag_name, str(value)])
+
+# ✅ 读取 flag 值（默认为 false）
+func get_flag(flag_name: String) -> bool:
+	return flags.get(flag_name, false)
+
+# ✅ 清除一个 flag（例如剧情重置时）
+func clear_flag(flag_name: String):
+	if flags.has(flag_name):
+		flags.erase(flag_name)
+		print("🧹 已清除Flag：%s" % flag_name)

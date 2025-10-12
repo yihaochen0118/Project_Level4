@@ -1,0 +1,17 @@
+[
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“那你呢？你会想改变什么？”我反问。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "她只是静静看着我，没有回答。"
+  },
+  {
+	"text": "那双灰蓝的眼像结了霜，隔着火光，仿佛什么都照不进去。"
+  },
+  {
+	"text": "“有些问题，问出来就已经太迟了。”她低声说，然后轻轻移开目光。"
+  },
+  { "event": [{ "action": "change_scene", "target": "scene1.4" }] }
+]

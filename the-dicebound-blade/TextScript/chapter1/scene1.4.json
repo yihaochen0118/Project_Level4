@@ -1,0 +1,78 @@
+[
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "set_background", "target": "tavern_morning" },
+	  { "action": "play_bgm", "target": "morning_breeze" }
+	]
+  },
+  {
+	"event": { "action": "show_talk_ui" },
+	"text": "阳光透过木质窗棂，洒在柜台上。空气里还有昨夜炉火残留的温度。"
+  },
+  { "text": "我正数着昨晚没结的账，门口传来敲门声。" },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“早安。”"
+  },
+  { "text": "是艾莉西亚。她脱下战甲，只穿着一身轻便的棕色行装，腰间那柄裂痕的剑仍挂在那儿。" },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“今天是周日吧？旅店休息？”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "我点点头。"
+  },
+  { "text": "“那正好，”她笑了笑，“陪我去镇集买点东西。”" },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“我？”我愣了一下。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“当然是你。”她侧头笑着，“你不是说没出过镇北吗？去走走吧。”"
+  },
+  { "text": "我犹豫片刻，还是脱下围裙，拿起外套。——这是我第一次离开旅店。" },
+  {
+	"event": { "action": "set_background", "target": "forest_path" },
+	"text": "从镇口往东是一条蜿蜒的石路，两边是刚解冻的松林。空气带着湿意，远处传来溪水声。"
+  },
+  { "text": "艾莉西亚走在前面，步伐轻快，却时不时回头看我。" },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“你每次都走这条路？”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“是啊。”她笑了笑，“我去过很多地方，但这条路总记得。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“为什么？”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“可能因为它每次看起来都不太一样吧。”"
+  },
+  { "text": "她语气平淡，像在随口感慨。" },
+  { "text": "就在这时，前方树林忽然传来一阵低吼。" },
+  {
+	"event": { "action": "set_background", "target": "forest_battle" },
+	"text": "地面猛地一震，一头浑身长着石质外壳的野兽从土里钻出，眼睛发着绿光。"
+  },
+  { "text": "我还没反应过来，它已经朝我们扑来！" },
+  {
+	"event": [
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  { "text": "选项 A：迅速闪避 【敏捷检定（DEX DC 7）】", "dc": 7, "check": "dexterity" },
+		  { "text": "选项 B：试着拿出随身携带的背包来抵御魔兽进攻 【力量检定（STR DC 8）】", "dc": 8, "check": "strength" },
+		  { "text": "选项 C：观察怪物的弱点提醒艾莉西亚 【智力检定（INT DC 6）】", "dc": 6, "check": "intelligence" }
+		]
+	  },
+	  { "action": "hide_talk_ui" }
+	]
+  },
+]
