@@ -110,13 +110,11 @@ func _do_save(slot: int):
 
 	# ✅ 记录 UI 的原始显示状态
 	var setting_was_visible := false
-	var option_was_visible := false
 
 	# ✅ 隐藏 Setting
 	if ui_root.has_node("Setting"):
 		setting_was_visible = ui_root.get_node("Setting").visible
 		ui_root.get_node("Setting").hide()
-
 
 	# ✅ 等待一帧，确保隐藏生效
 	await get_tree().process_frame
@@ -129,7 +127,6 @@ func _do_save(slot: int):
 	if ui_root.has_node("Setting") and setting_was_visible:
 		ui_root.get_node("Setting").show()
 
-
 	# ✅ 存档数据
 	var data = {
 		"chapter": ui_root.current_scene_name,
@@ -140,12 +137,18 @@ func _do_save(slot: int):
 		"screenshot": screenshot_path,
 		"time": Time.get_datetime_string_from_system(),
 		"flags": PlayerData.flags,
+
+		# 🎲 新增：保存骰子使用次数
+		"dice_uses": PlayerData.dice_uses,
+		"dice_max_uses": PlayerData.dice_max_uses,
 	}
+
 	SaveMgr.save_game(slot, data)
 
-	print("✅ 存档到槽 %d（含截图 %s）" % [slot, screenshot_path])
+	print("✅ 存档到槽 %d（含骰子次数）" % slot)
 	_refresh_save_buttons()
 	_refresh_load_buttons()
+
 
 
 

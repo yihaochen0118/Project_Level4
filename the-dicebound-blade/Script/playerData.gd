@@ -64,8 +64,21 @@ func load_from_dict(data: Dictionary):
 	stats = data.get("stats", stats)
 	choice_history = data.get("choices", [])
 	flags = data.get("flags", {})
+
+	# 🎲 新增：加载骰子次数
+	if data.has("dice_uses"):
+		dice_uses.clear()
+		for k in data["dice_uses"].keys():
+			dice_uses[int(k)] = data["dice_uses"][k]
+
+	if data.has("dice_max_uses"):
+		dice_max_uses.clear()
+		for k in data["dice_max_uses"].keys():
+			dice_max_uses[int(k)] = data["dice_max_uses"][k]
+
 	emit_signal("stats_changed")
 	emit_signal("hp_changed", hp, max_hp)
+
 
 # ✅ 设置 flag 值
 func set_flag(flag_name: String, value: bool = true):

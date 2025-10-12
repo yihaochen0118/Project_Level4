@@ -1,6 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://bfbtritij63y1"]
+[gd_scene load_steps=9 format=3 uid="uid://bfbtritij63y1"]
 
 [ext_resource type="Script" uid="uid://dikoi2x8hgg14" path="res://Script/Dice_CardChoose.gd" id="1_ygpwn"]
+[ext_resource type="Texture2D" uid="uid://d1o3eciehucvi" path="res://images/else/6.jpg" id="2_o4v50"]
+[ext_resource type="Texture2D" uid="uid://1b8o2gw2sedd" path="res://images/else/BGrunes.jpg" id="3_owvrb"]
+[ext_resource type="Texture2D" uid="uid://o1nc1jydfwog" path="res://images/else/吱吱设计素材 (4).png" id="3_ttxbh"]
+[ext_resource type="Texture2D" uid="uid://d21pjycplqwd3" path="res://images/else/8.jpg" id="5_s71pj"]
+[ext_resource type="Texture2D" uid="uid://bu4wid1o0rjdf" path="res://images/else/10shi.jpg" id="6_nqid1"]
+[ext_resource type="Texture2D" uid="uid://b1858lbucrvcm" path="res://images/else/12.jpg" id="7_tmf71"]
+[ext_resource type="Texture2D" uid="uid://dgnuceue1em5w" path="res://images/else/20.jpg" id="9_8eou1"]
 
 [node name="Control" type="Control"]
 z_index = 2
@@ -10,31 +17,57 @@ script = ExtResource("1_ygpwn")
 
 [node name="card" type="CanvasLayer" parent="."]
 
-[node name="DICE" type="HBoxContainer" parent="card"]
+[node name="DICE" type="Control" parent="card"]
 z_index = 2
-offset_left = 476.0
-offset_top = 643.0
-offset_right = 1492.0
-offset_bottom = 983.0
+layout_mode = 3
+anchors_preset = 0
+offset_left = 465.0
+offset_top = 369.00003
+offset_right = 1179.533
+offset_bottom = 875.23706
+rotation = 0.0015061875
+scale = Vector2(1.5, 1.5)
 
 [node name="D6" type="Button" parent="card/DICE"]
-z_index = 2
 custom_minimum_size = Vector2(200, 200)
-layout_mode = 2
-text = "D6(TEMP)"
+layout_mode = 0
+offset_left = 60.74433
+offset_top = 148.65833
+offset_right = 260.74432
+offset_bottom = 488.65833
+rotation = -0.47973016
+icon = ExtResource("2_o4v50")
+flat = true
+expand_icon = true
+
+[node name="吱吱设计素材(4)" type="Sprite2D" parent="card/DICE/D6"]
+visible = false
+position = Vector2(97.6228, 171.03056)
+rotation = -0.0035910308
+scale = Vector2(0.057666525, 0.058163192)
+texture = ExtResource("3_ttxbh")
 
 [node name="CountLabel" type="Label" parent="card/DICE/D6"]
 layout_mode = 0
-offset_left = 151.0
-offset_top = 5.0
-offset_right = 191.0
-offset_bottom = 28.0
+offset_left = 153.10585
+offset_top = 22.200726
+offset_right = 193.10585
+offset_bottom = 45.200726
+text = "X5"
 
 [node name="D8" type="Button" parent="card/DICE"]
-z_index = 2
+z_index = 1
 custom_minimum_size = Vector2(200, 0)
-layout_mode = 2
-text = "D8(TEMP)"
+layout_mode = 0
+offset_left = 159.95102
+offset_top = 64.5088
+offset_right = 359.95102
+offset_bottom = 404.5088
+rotation = -0.13952678
+theme_override_icons/icon = ExtResource("3_owvrb")
+icon = ExtResource("5_s71pj")
+flat = true
+expand_icon = true
 
 [node name="CountLabel" type="Label" parent="card/DICE/D8"]
 layout_mode = 0
@@ -42,12 +75,21 @@ offset_left = 152.0
 offset_top = 9.0
 offset_right = 192.0
 offset_bottom = 32.0
+text = "X5"
 
 [node name="D10" type="Button" parent="card/DICE"]
 z_index = 2
 custom_minimum_size = Vector2(200, 0)
-layout_mode = 2
-text = "D10(TEMP)"
+layout_mode = 0
+offset_left = 261.91174
+offset_top = 38.3552
+offset_right = 461.91174
+offset_bottom = 378.3552
+rotation = -0.00052406266
+theme_override_icons/icon = ExtResource("3_owvrb")
+icon = ExtResource("6_nqid1")
+flat = true
+expand_icon = true
 
 [node name="CountLabel" type="Label" parent="card/DICE/D10"]
 layout_mode = 0
@@ -55,12 +97,21 @@ offset_left = 148.0
 offset_top = 9.0
 offset_right = 188.0
 offset_bottom = 32.0
+text = "X5"
 
 [node name="D12" type="Button" parent="card/DICE"]
-z_index = 2
+z_index = 3
 custom_minimum_size = Vector2(200, 0)
-layout_mode = 2
-text = "D12(TEMP)"
+layout_mode = 0
+offset_left = 404.57022
+offset_top = 32.807
+offset_right = 604.5702
+offset_bottom = 372.807
+rotation = 0.28915477
+theme_override_icons/icon = ExtResource("3_owvrb")
+icon = ExtResource("7_tmf71")
+flat = true
+expand_icon = true
 
 [node name="CountLabel" type="Label" parent="card/DICE/D12"]
 layout_mode = 0
@@ -68,19 +119,28 @@ offset_left = 149.0
 offset_top = 10.0
 offset_right = 189.0
 offset_bottom = 33.0
+text = "X5"
 
 [node name="D20" type="Button" parent="card/DICE"]
-z_index = 2
+z_index = 4
 custom_minimum_size = Vector2(200, 0)
-layout_mode = 2
-text = "D20(TEMP)"
+layout_mode = 0
+offset_left = 537.29
+offset_top = 67.940445
+offset_right = 737.29
+offset_bottom = 407.94043
+rotation = 0.5606518
+theme_override_icons/icon = ExtResource("9_8eou1")
+flat = true
+expand_icon = true
 
 [node name="CountLabel" type="Label" parent="card/DICE/D20"]
 layout_mode = 0
-offset_left = 154.0
-offset_top = 9.0
-offset_right = 194.0
-offset_bottom = 32.0
+offset_left = 153.0
+offset_top = 8.0
+offset_right = 193.0
+offset_bottom = 31.0
+text = "X5"
 
 [node name="ResultLabel" type="Label" parent="card"]
 offset_left = 680.0
@@ -107,3 +167,11 @@ horizontal_alignment = 2
 layout_mode = 2
 text = "10"
 horizontal_alignment = 2
+
+[node name="DimOverlay" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -1.0
+offset_top = -6.0
+offset_right = 1959.0
+offset_bottom = 1070.0
+color = Color(0, 0, 0, 0.5294118)

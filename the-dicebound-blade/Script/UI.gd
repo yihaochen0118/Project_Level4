@@ -1,11 +1,9 @@
 extends Node2D
 
-
 var dialogues = []
 var dialogue_index = 0
 var name_label: Label = null  # 新增，用于显示说话人名字
 var skip_next_line: bool = false
-
 
 var full_text = ""
 var current_text = ""
