@@ -6,6 +6,8 @@ signal hp_changed(new_hp: int, max_hp: int)
 
 var choice_history: Array = []
 var flags: Dictionary = {}
+var dice_max_uses = {6:5, 8:4, 10:3, 12:2, 20:1}
+var dice_uses = dice_max_uses.duplicate(true)
 
 var hp: int = 100
 var max_hp: int = 100

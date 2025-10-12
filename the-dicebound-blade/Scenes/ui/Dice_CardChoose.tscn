@@ -23,11 +23,25 @@ custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 text = "D6(TEMP)"
 
+[node name="CountLabel" type="Label" parent="card/DICE/D6"]
+layout_mode = 0
+offset_left = 151.0
+offset_top = 5.0
+offset_right = 191.0
+offset_bottom = 28.0
+
 [node name="D8" type="Button" parent="card/DICE"]
 z_index = 2
 custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
 text = "D8(TEMP)"
+
+[node name="CountLabel" type="Label" parent="card/DICE/D8"]
+layout_mode = 0
+offset_left = 152.0
+offset_top = 9.0
+offset_right = 192.0
+offset_bottom = 32.0
 
 [node name="D10" type="Button" parent="card/DICE"]
 z_index = 2
@@ -35,17 +49,38 @@ custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
 text = "D10(TEMP)"
 
+[node name="CountLabel" type="Label" parent="card/DICE/D10"]
+layout_mode = 0
+offset_left = 148.0
+offset_top = 9.0
+offset_right = 188.0
+offset_bottom = 32.0
+
 [node name="D12" type="Button" parent="card/DICE"]
 z_index = 2
 custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
 text = "D12(TEMP)"
 
+[node name="CountLabel" type="Label" parent="card/DICE/D12"]
+layout_mode = 0
+offset_left = 149.0
+offset_top = 10.0
+offset_right = 189.0
+offset_bottom = 33.0
+
 [node name="D20" type="Button" parent="card/DICE"]
 z_index = 2
 custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
 text = "D20(TEMP)"
+
+[node name="CountLabel" type="Label" parent="card/DICE/D20"]
+layout_mode = 0
+offset_left = 154.0
+offset_top = 9.0
+offset_right = 194.0
+offset_bottom = 32.0
 
 [node name="ResultLabel" type="Label" parent="card"]
 offset_left = 680.0
