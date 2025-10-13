@@ -94,3 +94,13 @@ func clear_flag(flag_name: String):
 	if flags.has(flag_name):
 		flags.erase(flag_name)
 		print("🧹 已清除Flag：%s" % flag_name)
+
+func add_dice_uses(sides: int, amount: int = 1):
+	if not dice_uses.has(sides):
+		push_warning("⚠️ 未知的骰子类型: D%d" % sides)
+		return
+	
+	dice_uses[sides] += amount
+	print("🎲 D%d 使用次数增加 %d → 当前次数: %d" % [sides, amount, dice_uses[sides]])
+
+	emit_signal("stats_changed")  # 如果你有UI更新监听

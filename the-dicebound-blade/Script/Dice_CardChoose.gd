@@ -11,7 +11,7 @@ var check: String = ""
 @onready var Dc_value: Label = $rightPanel/DC
 @onready var result_label: Label = $card/ResultLabel
 @onready var card_container: Control = $card/DICE   # 按钮所在容器
-@onready var dim_overlay: ColorRect = $"../DimOverlay"
+@onready var dim_overlay: ColorRect = $DimOverlay
 var original_z_index = {}
 var original_position = {}
 

@@ -109,7 +109,9 @@ func handle_event(event: Dictionary) -> void:
 		# ========== 场景切换 ==========
 		"change_scene":
 			_change_scene(target)
-
+			
+		"add_dice":
+			_handle_add_dice(event)
 		_:
 			push_warning("未知事件: %s" % action)
 
@@ -240,3 +242,11 @@ func _else_flag(ui_root: Node) -> void:
 		ui_root.skip_next_line = false
 	else:
 		ui_root.skip_next_line = true
+
+func _handle_add_dice(event: Dictionary):
+	var sides = event.get("sides", 6)
+	var amount = event.get("amount", 1)
+	
+	PlayerData.add_dice_uses(sides, amount)
+	
+	print("🪄 事件触发：为 D%d 增加 %d 次使用次数" % [sides, amount])
