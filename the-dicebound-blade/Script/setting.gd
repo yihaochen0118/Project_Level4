@@ -33,6 +33,7 @@ func _ready():
 	for i in range(load_buttons.size()):
 		var btn = load_buttons[i]
 		btn.pressed.connect(func(): _on_load_pressed(i))
+	_update_ui_texts()
 
 func _on_button_pressed():
 	panel.visible = not panel.visible
@@ -54,29 +55,29 @@ func _on_close_pressed():
 
 func _on_quit_pressed():
 	pending_action = "quit"
-	confirm_dialog.dialog_text = "确定要退出游戏吗？"
+	confirm_dialog.dialog_text = tr("确定要退出游戏吗？")
 	confirm_dialog.popup_centered()
 
 func _on_clear_pressed():
 	pending_action = "clear"
-	confirm_dialog.dialog_text = "确定要清除所有存档吗？"
+	confirm_dialog.dialog_text = tr("确定要清除所有存档吗？")
 	confirm_dialog.popup_centered()
 
 func _on_save_pressed(slot: int):
 	pending_action = "save"
 	pending_slot = slot
-	confirm_dialog.dialog_text = "确定要覆盖存档槽 %d 吗？" % slot
+	confirm_dialog.dialog_text = tr("确定要覆盖存档槽 %d 吗？") % slot
 	confirm_dialog.popup_centered()
 
 func _on_load_pressed(slot: int):
 	pending_action = "load"
 	pending_slot = slot
-	confirm_dialog.dialog_text = "确定要读取存档槽 %d 吗？" % slot
+	confirm_dialog.dialog_text = tr("确定要读取存档槽 %d 吗？") % slot
 	confirm_dialog.popup_centered()
 
 func _on_back_to_menu_pressed():
 	pending_action = "back_to_menu"
-	confirm_dialog.dialog_text = "确定要返回主菜单吗？\n（当前进度将不会保留）"
+	confirm_dialog.dialog_text = tr("确定要返回主菜单吗？\\n当前进度将不会保留")
 	confirm_dialog.popup_centered()
 
 func _on_confirmed():
@@ -225,9 +226,9 @@ func _refresh_slot_buttons(mode: String):
 			pending_action = mode
 			pending_slot = i
 			if mode == "save":
-				confirm_dialog.dialog_text = "是否要覆盖存档槽 %d？" % i
+				confirm_dialog.dialog_text = tr("确定要覆盖存档槽 %d 吗？") % i
 			else:
-				confirm_dialog.dialog_text = "确定要读取存档槽 %d 吗？" % i
+				confirm_dialog.dialog_text = tr("确定要读取存档槽 %d 吗？") % i
 			confirm_dialog.popup_centered()
 		)
 
@@ -259,7 +260,27 @@ func _set_option_active(state: bool) -> void:
 		else:
 			print("⚙️ OptionUI 原本隐藏，保持隐藏")
 
+func _update_ui_texts():
+	# 顶部 Tab 名称（按顺序）
+	$Panel/TabContainer.set_tab_title(0, tr("保存"))
+	$Panel/TabContainer.set_tab_title(1, tr("读取"))
+	$Panel/TabContainer.set_tab_title(2, tr("游戏树"))
+	$Panel/TabContainer.set_tab_title(3, tr("音乐"))
 
+	# 右上角按钮
+	$Panel/ClearButton.text = tr("清除所有存档")
+	$Panel/BackToMenuButton.text = tr("返回主菜单")
+	$Panel/CloseButton.text = tr("关闭页面")
+	$Panel/QuitButton.text = tr("退出游戏")
+
+	# 确认对话框的标题
+	if $Panel.has_node("ConfirmDialog"):
+		$Panel/ConfirmDialog.dialog_text = tr("确定执行此操作吗？")
+
+	print("✅ Setting UI 已根据语言更新 ->", TranslationServer.get_locale())
+	
+	
+	
 func clear_ui():
 	var ui_root = get_tree().current_scene.get_node("UI")
 	if ui_root and ui_root.has_node("PlayerStatu"):

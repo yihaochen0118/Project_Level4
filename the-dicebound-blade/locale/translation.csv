@@ -1,0 +1,35 @@
+﻿keys,zh,en
+文本设置,文本设置,Text Settings
+界面设置,界面设置,Interface Settings
+声音设置,声音设置,Sound Settings
+快捷键设置,快捷键设置,Shortcut key settings
+其他设置,其他设置,Other settings
+主音量,主音量,Master volume
+全屏模式,全屏模式,Full screen
+画面窗口化,画面窗口化,Windowed Mode
+返回,返回,Back
+CG显示,CG显示,CG Show
+人物语音启用,人物语音启用,Character voice activation
+音效启用,音效启用,Sound Effects
+,,
+全局音量,全局音量,Global volume control
+背景音乐名,背景音乐名,BGM name display
+BGM启用,BGM启用,BGM enabled
+保存,保存,Save
+读取,读取,Load
+游戏树,游戏树,Game Tree
+音乐,音乐,Music
+清除所有存档,清除所有存档,Clear all saves
+返回主菜单,返回主菜单,Back to menu
+关闭页面,关闭页面,Close page
+退出游戏,退出游戏,Quit Game
+确定执行此操作吗？,确定执行此操作吗？,Are you sure to perform this action?
+确定要退出游戏吗？,确定要退出游戏吗？,Are you sure to quit the game?
+确定要清除所有存档吗？,确定要清除所有存档吗？,Are you sure to delete all saves?
+确定要返回主菜单吗？\n当前进度将不会保留,确定要返回主菜单吗？\\n当前进度将不会保留,Are you sure to return to main menu?\n(Current progress will not be saved)
+确定要覆盖存档槽 %d 吗？,确定要覆盖存档槽 %d 吗？,Overwrite slot %d?
+确定要读取存档槽 %d 吗？,确定要读取存档槽 %d 吗？,Load from slot %d?
+开始游戏,开始游戏,Start the game
+读取存档,读取存档,Loading a Save
+游戏设置,游戏设置,Game Settings
+画廊鉴赏,画廊鉴赏,CG Appreciation

@@ -35,10 +35,9 @@ offset_top = 40.0
 offset_right = 1584.0
 offset_bottom = 851.0
 theme_override_font_sizes/font_size = 30
-current_tab = 1
+current_tab = 0
 
 [node name="文本设置" type="Control" parent="Panel/TabContainer"]
-visible = false
 layout_mode = 2
 metadata/_tab_index = 0
 
@@ -75,6 +74,7 @@ offset_bottom = 96.0
 text = "中文"
 
 [node name="界面设置" type="Control" parent="Panel/TabContainer"]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 1
 

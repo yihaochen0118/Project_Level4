@@ -6,14 +6,47 @@ extends Control
 @onready var setting_button = $VBoxContainer/gamesetting
 
 func _ready():
-	# 🚀 启动时自动初始化窗口模式
-	_init_window_mode()
+	# ✅ 启动时先加载语言（非常重要）
+	_init_language()
 
+	# 🚀 初始化窗口模式
+	_init_window_mode()
+	
 	# 按钮信号绑定
 	start_button.pressed.connect(_on_start_pressed)
 	quit_button.pressed.connect(_on_quit_pressed)
 	load_button.pressed.connect(_on_load_pressed)
 	setting_button.pressed.connect(_on_setting_pressed)
+
+	print("🌍 启动完成，当前语言:", TranslationServer.get_locale())
+
+
+# ===================================
+# 🌐 初始化语言设置
+# ===================================
+func _init_language():
+	var cfg = ConfigFile.new()
+	var lang = "zh"
+	if cfg.load("user://config.cfg") == OK:
+		lang = cfg.get_value("settings", "language", "zh")
+
+	TranslationServer.set_locale(lang)
+	print("✅ 已加载语言设置:", lang)
+
+	# ✅ 立即更新主菜单文字
+	_update_ui_texts(lang)
+
+
+# ===================================
+# 🈶 主菜单文字翻译
+# ===================================
+func _update_ui_texts(lang_code: String) -> void:
+	start_button.text = tr("开始游戏")
+	load_button.text = tr("读取存档")
+	setting_button.text = tr("游戏设置")
+	quit_button.text = tr("退出游戏")
+	print("🈶 主菜单界面文字已更新 →", lang_code)
+
 
 # ===============================
 # 🪟 初始化窗口模式

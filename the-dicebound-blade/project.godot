@@ -52,6 +52,10 @@ down={
 ]
 }
 
+[internationalization]
+
+locale/translations=PackedStringArray("res://locale/translation.en.translation", "res://locale/translation.zh.translation")
+
 [rendering]
 
 textures/canvas_textures/default_texture_filter=3
