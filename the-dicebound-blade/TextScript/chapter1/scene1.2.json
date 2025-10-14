@@ -8,7 +8,7 @@
   { "text": "门铃轻响。" },
   { "text": "艾莉西亚走进来，盔甲上的霜迹还未化开，怀里抱着一篮子瓶瓶罐罐，颜色各异，像一堆被光封存的露珠。", 
 	"event": [
-	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "Alicia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ", "pos": [-450, 0] },
 	]},
   { "text": "在她身后，跟着一个年纪不大的女孩，栗发扎成短辫，眼神灵动。", "event":{ "action": "spawn_character", "target": "Lucia", "pos": [450, 0] }, },
   { "text": "“老板，今天给你带点小东西。”艾莉西亚笑着放下药篮，“这些是治疗药水和解毒剂。听说你这儿常有醉鬼摔伤。”", "event": [{ "action": "show_name", "target": "Alicia" }] },

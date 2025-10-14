@@ -215,7 +215,7 @@ func spawn_choice_ui(options: Array, callback: Callable):
 	ui_root.add_child(choice_ui)
 
 	# 初始化选项（choice_ui.gd 需要实现 set_options）
-	if choice_ui.has_method("set_options"):
+	if choice_ui.has_method("set_options"): 
 		choice_ui.set_options(options, callback)
 	else:
 		push_warning("choice_ui 未实现 set_options 方法")

@@ -38,8 +38,6 @@ func _input(event):
 	elif event is InputEventKey and event.pressed and event.keycode == KEY_SPACE:
 		UI.handle_input()
 
-	
-
 func init_player_info():
 	if not UI.has_node("PlayerStatu"):
 		var path = ResMgr.get_ui("PlayerStatu")
