@@ -103,6 +103,7 @@ func _set_language(lang_code: String) -> void:
 	TranslationServer.set_locale(lang_code)
 	print("✅ 当前语言代码:", lang_code)
 	print(tr("文本设置"))
+	ResMgr.set_language(lang_code)  # ✅ 通知资源管理器更新
 	_update_ui_texts(lang_code)
 	_save_language(lang_code)
 	for node in get_tree().root.get_children():

@@ -1,0 +1,82 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	]
+  },
+  {
+	"text": "我上前一步，声音尽量温和：“朋友，她只是个旅人——”",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  {
+	"text": "话音未落，醉汉怒目瞪来，一把推开我。酒洒了一地，他的拳头砸在柜台上，木头发出低沉的裂响。",
+	"event": [{ "action": "show_name", "target": "Junker" }]
+  },
+  {
+	"text": "我被逼得连连后退，几只杯子从架上跌落，碎裂声在寂静的酒馆里格外刺耳。"
+  },
+  {
+	"text": "“少装好人！”他吼道，满嘴酒气扑面，“这镇上所有人都看不起我，是不是？！”",
+	"event": [{ "action": "show_name", "target": "Junker" }]
+  },
+  {
+	"text": "他的眼神混沌而疯狂，像被困兽般的怒气燃烧着，步步逼近。"
+  },
+  {
+	"text": "我举起手，想再开口，却听到外头的风突然加大，门板被拍得‘砰’地一声作响。",
+	"event": [{ "action": "shake", "target": "Junker" }]
+  },
+  {
+	"text": "炉火被风压得低伏，火光在空气里剧烈闪烁。所有人都屏住呼吸。"
+  },
+  {
+	"text": "门口的寒气裹挟着光涌入，带着雪的冷意与金属的气息。"
+  },
+  {
+	"text": "斗篷女子的目光落在醉汉身上，平静，却比寒风更锋利。",
+	"event": [{ "action": "show_name", "target": "Alicia" }]
+  },
+  {
+	"text": "醉汉张嘴，想骂，却像被什么无形的力量掐住了喉咙。空气凝滞。"
+  },
+  {
+	"text": "我心头一阵发紧。炉火重新燃起，光影跳动，她银色的头发在火光中闪烁，像刀的反光。",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  {
+	"text": "她抬起手指，微微一弹。酒瓶离开醉汉的手，在空中划出一条冷弧，稳稳落在她的掌心。",
+	"event": [{ "action": "shake", "target": "Junker" }]
+  },
+  {
+	"text": "一切安静下来。连醉汉自己都怔住，像突然被抽离了怒气。"
+  },
+  {
+	"text": "那一刻，我才发现，整个酒馆的空气都静止了——连火焰都不再摇曳。"
+  },
+  {
+	"text": "她的声音轻轻响起：“够了。”"
+  },
+  {
+	"text": "醉汉的喉结动了动，嘴唇颤了几下，却什么也说不出。他后退一步，脚下一滑，几乎跌倒。",
+	"event": [{ "action": "show_name", "target": "Junker" }]
+  },
+  {
+	"text": "他喘着气，低声咒骂，最后一把推开门，踉跄着走进风雪中。",
+	"event": [{ "action": "remove_character", "target": "Junker" }]
+  },
+  {
+	"text": "门在他身后砰地合上，雪尘随风飘散。酒馆重新归于寂静。"
+  },
+  {
+	"text": "我深吸一口气，胸口还在发烫。她的目光轻轻扫过我，眼底没有责备，只有一丝若有若无的怜惜。",
+	"event": [{ "action": "show_name", "target": "Alicia" }]
+  },
+  {
+	"text": "我张了张嘴，却一句话也说不出。炉火重新跳动，光映在她的眼里，像一汪深不见底的雪湖。",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.1" }]
+  }
+]

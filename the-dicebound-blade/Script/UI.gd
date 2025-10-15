@@ -34,9 +34,12 @@ func load_dialogues(path: String, start_index: int = 0):
 			dialogues = []
 		else:
 			for key in ResMgr.dialogues.keys():
-				if ResMgr.dialogues[key] == path:
-					current_scene_name = key
-					break
+				var entry = ResMgr.dialogues[key]
+				if typeof(entry) == TYPE_DICTIONARY:
+					for lang in entry.keys():
+						if entry[lang] == path:
+							current_scene_name = key
+							break
 	dialogue_index = start_index
 	
 func replay_state_until(index: int):

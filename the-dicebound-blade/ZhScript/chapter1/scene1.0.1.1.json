@@ -1,0 +1,83 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
+	]
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "我深吸一口气，稳住声音：“朋友，她只是路过的旅人。你要喝，我请。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Junker" },
+	"text": "醉汉愣了愣，手里那只破酒瓶晃了两下，酒液顺着瓶口流下，滴在柜台上。"
+  },
+  {
+	"event": { "action": "hide_name" },
+	"text": "他的目光在我和那女子之间游移，眼神犹豫，嘴角的怒意慢慢散去，只剩酒后的疲惫。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "我叹了口气：“要是再闹事，我可真得去喊镇守卫了。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Junker" },
+	"text": "“哼……穷酒馆。”他低声咒骂了一句，却终究没再发作。"
+  },
+  {
+	"event": { "action": "hide_name" },
+	"text": "他踉跄着往门口走去，鞋跟在地板上拖出刺耳的摩擦声。外头的风钻了进来，带着冷雪的气息。"
+  },
+	{
+  "event": [
+	{ "action": "remove_character", "target": "Junker" }
+  ],
+  "text": "门被他一脚踹开，又重重关上，震得窗框微微发颤。片刻后，只剩雪声。酒馆重新归于寂静。"
+	},
+  {
+	"text": "我呼出一口气，才发现背后的衬衫已经被冷汗浸湿。炉火噼啪作响，光影重新回到墙上。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "她站在原地，目光静静地落在我身上。那是一种难以言喻的神情——既像赞许，又像打量。"
+  },
+  {
+	"text": "“你可真会威胁人。”她轻声道，声音平静而清亮。火光映在她的眼里，仿佛两点星光。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "我笑了笑，擦去桌上的酒渍：“只是怕麻烦罢了。”"
+  },
+  {
+	"event": { "action": "hide_name" },
+	"text": "她轻轻一笑，那一刻炉火的光似乎柔和了几分。她的笑不带挑衅，也没有矫饰，只是自然的温暖。"
+  },
+  {
+	"text": "我注意到她的手——那是一双不该属于旅人的手，指节细长，却带着微不可察的薄茧。"
+  },
+  {
+	"text": "我有些好奇，却没有多问。空气重新流动，像什么都没发生过一样，只剩木柴燃烧的声响。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "她的目光轻轻掠过门口，随后收回：“谢谢。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "我摇摇头：“谢就留到下次喝一杯的时候吧。”"
+  },
+  {
+	"event": { "action": "hide_name" },
+	"text": "她微微点头，没有多说什么，只在炉火旁坐下，取下斗篷，雪花顺着衣角滑落。"
+  },
+  {
+	"text": "她靠在椅背上，闭上眼片刻，长呼出一口气——那一刻，她看起来不再像个旅人，更像个疲惫的人类。"
+  },
+  {
+	"text": "我望着她，忽然有种奇怪的感觉：这场意外，好像本就该发生在今天。"
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.1" }]
+  }
+]

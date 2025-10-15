@@ -1,0 +1,8 @@
+[
+  { "event": [{ "action": "hide_talk_ui" },{ "action": "set_background","target":"tavern"}]},
+  { "event": { "action": "show_talk_ui" }, "text": "Under the night sky, the tavern smells of alcohol mixed with raucous laughter." },
+  { "text": "In the corner, a ragged old man is being shoved around by two burly men.", "event": [{ "target": "Aldric", "pos": [560, 45], "action": "spawn_character" },{ "target": "Man", "pos": [-560, 45], "action": "spawn_character" }] },
+  { "text": "Burly Man A: Old man! Drinking without paying? Think you can fool us?", "event": [{ "target": "Aldric", "action": "shake" },{ "target": "Man", "action": "shake" }]},
+  { "text": "Burly Man B: Maybe tonight we’ll toss you out into the street to feed the dogs!" },
+  { "text": "Old Man (weakly): Wait... once I find that thing, I will repay you..." }
+]

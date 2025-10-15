@@ -250,3 +250,5 @@ func _handle_add_dice(event: Dictionary):
 	PlayerData.add_dice_uses(sides, amount)
 	
 	print("🪄 事件触发：为 D%d 增加 %d 次使用次数" % [sides, amount])
+	
+	

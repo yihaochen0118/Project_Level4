@@ -1,8 +1,29 @@
 extends Node
 class_name ResourceManager
 var dialogues = {}
+var current_lang: String  # 当前语言（zh 或 en）
+
 func _ready():
-	autoLoad_Dialogue("res://TextScript")
+	print("🟢 ResourceManager 初始化中……")
+
+	# 读取保存的语言配置
+	current_lang = _load_saved_language()
+	print("🌍 当前语言设定:", current_lang)
+
+	# 同步给翻译系统
+	TranslationServer.set_locale(current_lang)
+
+	# 加载剧情脚本
+	autoLoad_Dialogue("res://ZhScript", "zh")
+
+	if DirAccess.dir_exists_absolute("res://EnScript"):
+		autoLoad_Dialogue("res://EnScript", "en")
+		print("✅ 英文剧情目录加载完成")
+	else:
+		print("⚠️ 未找到 EnScript 目录，跳过英文加载")
+
+	print("📚 已加载剧情文件数量:", dialogues.size())
+	print("🔎 示例键:", dialogues.keys().slice(0, 6))
 
 # 背景场景路径
 var backgrounds = {
@@ -27,27 +48,30 @@ var ui = {
 	"loadUi":"res://Scenes/ui/loadUi.tscn"
 }
 
-func autoLoad_Dialogue(base_path: String):
+func autoLoad_Dialogue(base_path: String, lang_code: String):
 	var dir = DirAccess.open(base_path)
 	if not dir:
-		push_error("无法打开目录: %s" % base_path)
+		push_error("❌ 无法打开目录: %s" % base_path)
 		return
 
 	dir.list_dir_begin()
 	var file_name = dir.get_next()
 	while file_name != "":
 		if dir.current_is_dir():
-			# 递归进入子目录
 			if file_name != "." and file_name != "..":
-				autoLoad_Dialogue(base_path + "/" + file_name)
-		else:
-			# 只加载 .json 文件
-			if file_name.ends_with(".json"):
-				var scene_key = file_name.replace(".json", "")
-				var full_path = base_path + "/" + file_name
-				dialogues[scene_key] = full_path
-				print("加载对话: %s → %s" % [scene_key, full_path])
+				autoLoad_Dialogue(base_path + "/" + file_name, lang_code)
+		elif file_name.ends_with(".json"):
+			var scene_key = file_name.replace(".json", "")
+			var full_path = base_path + "/" + file_name
+
+			# ✅ 把不同语言的同名文件归类
+			if not dialogues.has(scene_key):
+				dialogues[scene_key] = {}
+			dialogues[scene_key][lang_code] = full_path
+
+			print("[%s] 加载剧情: %s → %s" % [lang_code.to_upper(), scene_key, full_path])
 		file_name = dir.get_next()
+	dir.list_dir_end()
 
 
 # 获取背景
@@ -62,6 +86,33 @@ func get_ui(name: String) -> String:
 	return ui.get(name, "")
 	
 func get_dialogue(scene_name: String) -> String:
+	print("📖 请求剧情文件:", scene_name, "语言:", current_lang)
+
 	if dialogues.has(scene_name):
-		return dialogues[scene_name]
+		var entry = dialogues[scene_name]
+		if entry.has(current_lang):
+			print("✅ 命中语言文件:", entry[current_lang])
+			return entry[current_lang]
+		elif entry.has("zh"):
+			print("⚙️ 找不到 %s 版，回退到中文: %s" % [current_lang, entry["zh"]])
+			return entry["zh"]
+
+	push_warning("⚠️ 未找到剧情文件: %s（语言: %s）" % [scene_name, current_lang])
 	return ""
+	
+	# ==================================================
+# 外部调用：切换语言
+# ==================================================
+func set_language(lang_code: String):
+	current_lang = lang_code
+	TranslationServer.set_locale(lang_code)
+	print("🌐 ResourceManager 语言切换 →", lang_code)
+
+# ==================================================
+# 从配置文件读取语言
+# ==================================================
+func _load_saved_language() -> String:
+	var cfg = ConfigFile.new()
+	if cfg.load("user://config.cfg") == OK:
+		return cfg.get_value("settings", "language", "zh")
+	return "zh"

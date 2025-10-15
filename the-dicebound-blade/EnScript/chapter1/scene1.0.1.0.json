@@ -1,0 +1,82 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
+	]
+  },
+  {
+	"text": "I stepped forward, keeping my voice as gentle as possible: “Friend, she’s just a traveler—”",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  {
+	"text": "Before I could finish, the drunk glared at me and shoved me hard. Wine splashed everywhere, his fist slammed onto the counter, and the wood gave a dull crack.",
+	"event": [{ "action": "show_name", "target": "Junker" }]
+  },
+  {
+	"text": "I stumbled back several steps, knocking over a few glasses that shattered loudly in the quiet tavern."
+  },
+  {
+	"text": "“Stop pretending to be a good man!” he shouted, reeking of alcohol. “Everyone in this town looks down on me, don’t they?!”",
+	"event": [{ "action": "show_name", "target": "Junker" }]
+  },
+  {
+	"text": "His eyes were clouded and wild, fury burning within like a trapped beast as he advanced step by step."
+  },
+  {
+	"text": "I raised a hand, trying to speak again—when suddenly the wind outside howled, slamming the tavern door open with a loud bang.",
+	"event": [{ "action": "shake", "target": "Junker" }]
+  },
+  {
+	"text": "The fire in the hearth was pressed low by the gust, its light flickering violently. Everyone held their breath."
+  },
+  {
+	"text": "Cold air swept in through the doorway, carrying with it snow and the scent of metal."
+  },
+  {
+	"text": "The cloaked woman’s gaze fell upon the drunk. Calm—yet sharper than the winter wind.",
+	"event": [{ "action": "show_name", "target": "Alicia" }]
+  },
+  {
+	"text": "The drunk opened his mouth to curse, but it was as if an invisible hand clutched his throat. The air froze."
+  },
+  {
+	"text": "My heart tightened. The fire rekindled, its glow flickering—her silver hair glimmered in the light like the reflection of a blade.",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  {
+	"text": "She raised her hand and flicked her finger lightly. The bottle left the drunk’s grasp, traced a cold arc through the air, and landed neatly in her palm.",
+	"event": [{ "action": "shake", "target": "Junker" }]
+  },
+  {
+	"text": "Everything went silent. Even the drunk himself froze, as if his rage had been sucked out of him."
+  },
+  {
+	"text": "In that moment, I realized—the entire tavern was still. Even the flames no longer swayed."
+  },
+  {
+	"text": "Her voice sounded softly: “Enough.”"
+  },
+  {
+	"text": "The drunk’s Adam’s apple moved. His lips trembled, but no sound came out. He staggered back a step, nearly falling.",
+	"event": [{ "action": "show_name", "target": "Junker" }]
+  },
+  {
+	"text": "Breathing heavily, he muttered a curse, then pushed the door open and stumbled out into the storm.",
+	"event": [{ "action": "remove_character", "target": "Junker" }]
+  },
+  {
+	"text": "The door slammed shut behind him, snow swirling in the fading gust. The tavern fell silent again."
+  },
+  {
+	"text": "I took a deep breath, my chest still burning. Her gaze swept over me—no blame, only a faint trace of pity.",
+	"event": [{ "action": "show_name", "target": "Alicia" }]
+  },
+  {
+	"text": "I opened my mouth, but no words came out. The fire danced once more, its light reflected in her eyes like a deep, endless lake of snow.",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.1" }]
+  }
+]

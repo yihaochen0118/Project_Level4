@@ -1,0 +1,88 @@
+[
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "set_background", "target": "tavern" }
+	]
+  },
+  { "event": { "action": "set_flag", "flag": "helped_alicia", "value": true } },
+  {
+	"event": { "action": "show_talk_ui" },
+	"text": "The morning mist drifts down from the distant mountains, spreading along the cobblestone streets into the heart of town. The air inside the tavern carries a faint scent of wood ash."
+  },
+  { "text": "I stand behind the counter, polishing a glass. The view outside the window is blurred by fog, and the hanging lamp sways gently." },
+  { "text": "This is the calmest time of day — before travelers arrive, when only the echo of glass and my breathing fill the air." },
+  { "text": "Sometimes I even wonder if I exist just for this moment: when the world has yet to wake, and time itself seems to show mercy." },
+  { "text": "But that day was different." },
+  {
+	"text": "The door slammed open, and a rush of cold air swept in, bringing with it the mixed smell of snow and rust. The wooden door hit the wall with a loud bang, tearing apart the silence of the tavern."
+  },
+  {
+	"text": "“Got any fresh booze here? Pour me a bottle, barkeep!”",
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "show_name", "target": "Junker" }
+	]
+  },
+  {
+	"text": "He was dressed in grimy leather armor with a torn mercenary badge hanging from his neck — like he had just crawled out of the ruins."
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Drinking in the morning? The town guards will be here soon. I’m pretty sure they don’t allow booze on duty, right?”"
+  },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Junker" },
+	  { "action": "shake", "target": "Junker" }
+	],
+	"text": "“Another drink! Or I’ll burn down this whole dump with you in it!”"
+  },
+  {
+	"event": { "action": "hide_name" },
+	"text": "His eyes were murky, like oily water. I could smell the stench of rot and gunpowder clinging to him."
+  },
+  {
+	"text": "A few customers backed into the corners. Before I could speak, a crisp sound of boots came from outside the door."
+  },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "“I heard someone’s planning to start a fire here,” said a clear female voice — clean and sharp, like snow falling on steel."
+  },
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
+	],
+	"text": "A woman in a silver cloak stepped inside. Sunlight streamed in behind her, gleaming faintly off her armor."
+  },
+  {
+	"text": "She was tall, with a sword at her waist engraved with intricate patterns. On her shoulder gleamed a weathered lily crest."
+  },
+  {
+	"text": "Her eyes were calm, yet impossible to approach lightly. “Good morning,” she said — her voice bright, but without pressure. It simply made people fall silent naturally."
+  },
+  {
+	"text": "She walked up to the drunkard step by step. He froze for a second, then spat: “Get lost! Don’t stick your nose in my business—”"
+  },
+  {
+	"text": "Before he could finish, she raised a hand and made a small gesture in the air. The sound of wind paused — the bottle flew out of his grasp and landed neatly in her palm."
+  },
+  {
+	"text": "For a moment, the entire tavern seemed frozen in place. Even the flames in the fireplace trembled faintly."
+  },
+  {
+	"event": [
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  { "text": "Option A: Step forward and try to calm them down [Charisma Check (DC 5)]", "dc": 5, "check": "charisma" },
+		  { "text": "Option B: Observe quietly and wait to see what happens [No Check (DC 0)]", "dc": 0, "check": "dexterity" },
+		  { "text": "Option C: Silently ready your dagger just in case [Strength Check (DC 5)]", "dc": 5, "check": "strength" }
+		]
+	  },
+	  { "action": "hide_talk_ui" }
+	]
+  }
+]

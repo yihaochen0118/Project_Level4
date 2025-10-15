@@ -1,0 +1,66 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
+	]
+  },
+  {
+	"text": "我没有出声，只是靠在吧台旁，静静地看着局势。",
+  },
+  {
+	"text": "醉汉的怒气像被酒点燃，拳头重重拍在桌上，酒水溅起，杯子晃动。",
+  },
+  {
+	"text": "斗篷女子依旧坐在那里，没有闪避，也没有反击。她的目光冷静，仿佛在等着什么。",
+  },
+  {
+	"text": "我注意到她的手轻轻放在剑鞘上，却没有拔出。那动作不是防备，更像是一种警告。"
+  },
+  {
+	"text": "醉汉踉跄着靠近她，骂声混乱而粗重。周围的人都退了两步，只有我和她还没动。"
+  },
+  {
+	"text": "空气紧绷得几乎能听见火焰的声响。就在醉汉举手的瞬间，她的目光一动。",
+	"event": [{ "action": "shake", "target": "Alicia" }]
+  },
+  {
+	"text": "没有人看清发生了什么，只听见“咚”的一声，醉汉已经跌在地上，昏睡过去。",
+	"event": [{ "action": "shake", "target": "Junker" }]
+  },
+  {
+	"text": "“他只是醉了。”",
+	"event": [{ "action": "show_name", "target": "Alicia" }]
+  },
+  {
+	"text": "我不知道她用了什么——也许是气势，也许只是那双眼睛的力量。",
+  },
+  {
+	"text": "我看着她收回手，像什么也没发生一样，重新端起杯子。"
+  },
+  {
+	"text": "炉火跳动，映在她的侧脸上。那一刻，我第一次感到——这个女人，比任何人都危险。"
+  },
+  {
+	"text": "外头的风依旧在吹，门口落下的雪悄然融化。醉汉在地上打着呼噜，仿佛什么都没发生过。",
+	"event": [{ "action": "remove_character", "target": "Junker" }]
+  },
+  {
+	"text": "我叹了口气，转身去拿毛巾擦掉地上的酒渍。她的目光依旧平静，看不出喜怒。",
+  },
+  {
+	"text": "“下手挺轻的嘛。”",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  {
+	"text": "“他只是喝多了，不值得浪费力气。”",
+	"event": [{ "action": "show_name", "target": "Alicia" }]
+  },
+  {
+	"text": "我笑了笑，没有再说什么。火光再次稳了下来，空气重新温暖起来。",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.1" }]
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
+	]
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "I took a deep breath and steadied my voice: “Friend, she’s just a traveler passing by. If you want a drink, it’s on me.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Junker" },
+	"text": "The drunk froze for a moment. The cracked bottle in his hand swayed twice, and the liquor trickled down the neck, dripping onto the counter."
+  },
+  {
+	"event": { "action": "hide_name" },
+	"text": "His gaze shifted between me and the woman. The anger at the corner of his mouth slowly faded, leaving only the weariness of drink."
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "I sighed. “If you make another scene, I’ll have to call the town guards.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Junker" },
+	"text": "“Tch… lousy tavern.” He muttered under his breath, but in the end, didn’t make any more trouble."
+  },
+  {
+	"event": { "action": "hide_name" },
+	"text": "He staggered toward the door, his heels scraping across the floor with a harsh, dragging sound. The wind outside slipped in, carrying the chill of snow."
+  },
+  {
+	"event": [
+	  { "action": "remove_character", "target": "Junker" }
+	],
+	"text": "He kicked the door open and slammed it shut behind him, making the window frames tremble. Moments later, only the sound of snow remained. The tavern fell silent once again."
+  },
+  {
+	"text": "I exhaled slowly, realizing my shirt was already damp with cold sweat. The fire crackled, and the light returned to the walls."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "She stood still, her gaze quietly resting on me. It was a look that was hard to describe—somewhere between approval and curiosity."
+  },
+  {
+	"text": "“You’re quite good at making threats,” she said softly, her voice calm and clear. The firelight danced in her eyes like twin stars."
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "I smiled and wiped the spilled wine from the table. “Just trying to avoid trouble.”"
+  },
+  {
+	"event": { "action": "hide_name" },
+	"text": "She smiled faintly, and for a moment the firelight seemed to soften. Her smile carried neither challenge nor pretense—only a quiet warmth."
+  },
+  {
+	"text": "I noticed her hands—long and slender fingers, but with faint calluses that didn’t belong to an ordinary traveler."
+  },
+  {
+	"text": "Curiosity stirred, but I didn’t ask. The air began to flow again, as if nothing had happened, leaving only the sound of burning wood."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "Her gaze drifted briefly toward the door before returning. “Thank you,” she said."
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "I shook my head. “Save the thanks for the next time we share a drink.”"
+  },
+  {
+	"event": { "action": "hide_name" },
+	"text": "She nodded slightly without another word, sat by the fire, removed her cloak, and let the snowflakes slide off the fabric."
+  },
+  {
+	"text": "Leaning back in her chair, she closed her eyes for a moment and let out a long breath—as if, for that brief moment, she was no longer a traveler, but simply a weary human being."
+  },
+  {
+	"text": "Watching her, I suddenly had a strange feeling: perhaps this encounter was meant to happen today."
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.1" }]
+  }
+]
