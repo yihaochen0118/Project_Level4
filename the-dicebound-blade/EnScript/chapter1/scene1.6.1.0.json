@@ -1,120 +1,145 @@
 [
   {
 	"event": [
-	  { "action": "set_background", "target": "underground_ruins" },
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "EnemyLeader", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "空气骤然凝固。吟唱声停了，数道目光在阴影下聚焦过来，冰冷、沉默，却带着某种病态的狂热。"
+	"text": "The air froze. The chanting stopped, and several gazes converged from within the shadows—cold, silent, yet burning with a twisted fanaticism."
   },
   {
-	"text": "我没有犹豫。脚下的雪被我狠狠一蹬，碎冰飞溅，火光在短剑上反射出刺眼的光。黑袍人显然没料到我会直接冲上前。"
+	"text": "I didn’t hesitate. My boots slammed against the snow, shards of ice scattering as firelight flashed across my blade. The robed figures clearly hadn’t expected me to charge straight in."
   },
   {
-	"text": "阵法的光芒还在闪烁，一名离我最近的术师抬手念咒，空气像被扭曲的丝线缠住。"
+	"text": "The ritual’s glow still flickered. One of the sorcerers nearest to me raised his hand, chanting rapidly; the air twisted like tangled threads."
   },
   {
 	"event": { "action": "shake", "target": "Player" },
-	"text": "我侧身去躲，却被脚下的碎石绊了一下，短剑划出半个弧线——偏了。蓝光在我面前爆开。"
+	"text": "I tried to dodge but slipped on the loose stones—my swing missed. A burst of blue light exploded before my eyes."
   },
   {
 	"event": { "action": "hp_lost", "amount": 15 },
-	"text": "炽热的痛从手臂传来，像被铁条烙了一下。我闷哼着跌退，血顺着袖口滴到地面。"
+	"text": "A searing pain ripped through my arm, as if branded by hot iron. I staggered back, choking down a groan as blood dripped from my sleeve onto the ground."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“喂！你流血了！”露西亚惊叫，急忙挥动法杖，一道光墙在我面前撑开。"
+	"text": "“Hey! You’re bleeding!”"
   },
   {
-	"text": "蓝色的冲击撞上光墙，火星四溅。露西亚的脸被光映得通红，她咬着牙顶住反震。"
+	"text": "Lucia cried out, quickly raising her staff as a shimmering wall of light formed between us."
+  },
+  {
+	"text": "The blue blast slammed into it, scattering sparks. Her face was flushed from the effort, jaw clenched as she braced against the backlash."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“别管我——先救人！”我强撑着站稳，血从掌心滑落。"
+	"text": "“Forget me—save her!”"
   },
   {
 	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "首领低声道：“凡人的血，足以唤醒阵核。”"
+	"text": "“The blood of mortals... is enough to awaken the core.”"
   },
   {
-	"text": "我心头一冷，才意识到那阵纹正顺着我的血迹亮起。蓝色光线蜿蜒爬回石柱，像在吞噬生命。"
+	"text": "A chill ran down my spine as I realized—the glowing sigils were spreading from where my blood had fallen, tracing back toward the pillars like veins of light devouring life."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“不行——我来打断它！”露西亚的声音在轰鸣中几乎听不清。她抬手结印，法杖光芒骤亮。"
+	"text": "“No—you won’t!”"
   },
   {
-	"text": "她冲上前，手中光球爆裂，把靠近她的黑袍人轰翻在地。"
+	"text": "Her voice was nearly drowned out by the roar around us. She lifted her staff, symbols flaring bright as daylight."
   },
   {
-	"text": "我强撑着身体扑过去，用剑砍断束缚艾莉西亚的最后一环。那一瞬间，阵法的光线倒灌回去。"
+	"text": "Lucia charged forward; a sphere of light burst from her staff, blasting a nearby cultist off his feet."
+  },
+  {
+	"text": "I forced myself up, slashing through the last binding rune around Alicia. In that instant, the ritual’s energy recoiled violently."
   },
   {
 	"event": { "action": "shake", "target": "Player" },
-	"text": "剧烈的能量反冲袭来，我整个人被抛到墙边，胸口一闷，耳鸣几乎盖住了所有声音。"
+	"text": "A shockwave hit me square in the chest, flinging me against the wall. My vision spun, ears ringing until all sound vanished into a dull hum."
   },
   {
-	"text": "我看到露西亚跪在地上，喘着气。艾莉西亚的身体从半空坠下，被她接住。"
+	"text": "Through the haze, I saw Lucia kneeling on the ground, panting. Alicia’s limp body fell from midair, caught just in time by her arms."
+  },
+  {
+	"text": "The light faded. The air stank of burnt blood and ozone."
   },
   {
 	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "“干扰者……你们自寻死路。”黑袍首领的声音冰冷刺骨，随即转身消失在扭曲的光影中。"
+	"text": "“Interferers... you’ve sealed your fate.”"
   },
   {
-	"text": "剩下的几名黑袍人也在阵法崩塌时溃散，蓝光一点点暗下。空气中弥漫着焦味与血腥。"
+	"event": [{ "action": "remove_character", "target": "EnemyLeader" }],
+	"text": "The cult leader’s voice was icy and sharp before his figure vanished into a ripple of warped light."
   },
   {
-	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“你还好吗？！”露西亚拖着艾莉西亚跑到我身边。"
-  },
-  {
-	"text": "我勉强笑了一下，却立刻因疼痛而扭曲了表情。手臂上的伤口深可见骨，血已把袖子浸透。"
-  },
-  {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“别动。”艾莉西亚虚弱的声音响起。她靠在露西亚肩上，手指在空中划出几个符文。"
-  },
-  {
-	"text": "柔和的光在我伤口上浮动，疼痛减轻了一些，但血仍在渗。她喘着气：“这是临时的止血术。你需要静养。”"
-  },
-  {
-	"text": "我苦笑：“看来这次轮到我被救了。”"
-  },
-  {
-	"text": "艾莉西亚没有笑，只是注视着我，目光里混着冷静与担忧。她低声说：“你的血……被阵法吸收了一部分。你可能被卷入了它的残留回路。”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“什么意思？”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“暂时不会有事。但……若你再靠近类似的术式，它可能会响应。”她的手轻轻放在我手上，掌心冰凉，“答应我，之后不要再逞强。”"
-  },
-  {
-	"text": "我怔了一下。那一刻，她的手指微微收紧，力道极轻，却让人无法移开视线。"
-  },
-  {
-	"text": "露西亚一边擦眼泪一边说：“导师，我们得离开这里，这地方快塌了！”"
-  },
-  {
-	"text": "艾莉西亚点头，我撑起身体，与她们一同上楼。每一步都带着隐隐的刺痛。"
-  },
-  {
-	"text": "外头的夜风冷得像刀。旅店方向的灯光还在远处闪烁。露西亚一边走一边回头：“他们还会回来吗？”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“会的。”艾莉西亚的声音低而坚定，“但我们会比他们更快。”"
-  },
-  {
-	"text": "雪在脚下咯吱作响。风吹乱了她的发，也吹散了阵法残留的气息。"
-  },
-  {
-	"text": "我低头看着自己被绷带包着的手臂，心里却有种奇异的不安。那蓝光的残影，似乎仍在血液深处微微闪动。"
+	"text": "The remaining cultists scattered as the collapsing array swallowed them whole."
   },
   {
 	"event": [
-	  { "action": "change_scene", "target": "scene1.7" }
-	]
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "“Are you alright?!”"
+  },
+  {
+	"text": "Alicia could barely stand, leaning on Lucia as they made their way toward me step by step."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Don’t move.”"
+  },
+  {
+	"text": "Her weak voice reached me as she drew glowing symbols in the air. A faint warmth spread through my wound, dulling the pain though the bleeding hadn’t stopped."
+  },
+  {
+	"text": "“It’s a temporary seal,” she said, breath unsteady. “You’ll need real rest.”"
+  },
+  {
+	"text": "I managed a strained smile. “Guess you and Lucia saved me again.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Your blood... part of it was absorbed into the array. You may have been pulled into its residual circuit.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“What does that mean?”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“For now, nothing. But if you get near another ritual like this... it might react.”"
+  },
+  {
+	"text": "Her hand rested on mine, cold against my skin. “Promise me—don’t push yourself like that again.”"
+  },
+  {
+	"text": "I froze. Her fingers tightened ever so slightly—gentle, but impossible to ignore."
+  },
+  {
+	"event": [{ "action": "set_background", "target": "Street" }],
+	"text": "We slowly emerged from the tunnel. The night wind cut like a blade, and the distant inn lights shimmered faintly through the snow."
+  },
+  {
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "“Will they come back?”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“They will.”"
+  },
+  {
+	"text": "Alicia’s voice was soft and weary. “But we’ll be faster.”"
+  },
+  {
+	"text": "Snow crunched beneath our boots. The wind tangled her hair, carrying away the last traces of the ritual’s scent."
+  },
+  {
+	"text": "I looked down at my bandaged arm, an uneasy chill creeping through me. Deep beneath the skin, the faint blue glow still pulsed like a heartbeat."
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.7" }]
   }
 ]

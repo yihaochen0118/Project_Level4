@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://qwkyutvmwr7n"]
+
+[ext_resource type="Texture2D" uid="uid://cm5yr2cee7ors" path="res://images/background/forest_path.jpg" id="1_phskg"]
+
+[node name="forest_path" type="Node2D"]
+
+[node name="forest_path" type="Sprite2D" parent="."]
+position = Vector2(979.50006, 543)
+scale = Vector2(1.2243751, 1.2053572)
+texture = ExtResource("1_phskg")

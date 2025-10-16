@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://ral7obqpv7j7"]
+
+[ext_resource type="Texture2D" uid="uid://c4f5nru1x2iog" path="res://images/background/town_gate_day.jpg" id="1_6vkyo"]
+
+[node name="town_gate_day" type="Node2D"]
+
+[node name="town_gate_day" type="Sprite2D" parent="."]
+position = Vector2(980.00006, 544.5)
+scale = Vector2(1.225, 1.2087054)
+texture = ExtResource("1_6vkyo")

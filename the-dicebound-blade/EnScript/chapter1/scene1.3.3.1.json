@@ -1,17 +1,85 @@
 [
   {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "The firelight shimmered in her eyes, tinting them with a soft ring of gold. Outside, the wind hummed faintly—like an old song half-remembered."
+  },
+  {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“那你呢？你会想改变什么？”我反问。"
+	"text": "“And you?” I asked. “What would you want to change?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她怔了一瞬，似乎没想到我会这样问。随后轻轻一笑。"
+	"text": "She froze for a moment, her fingers tightening slightly, as if the question had caught her off guard."
   },
   {
-	"text": "“也许我早该问自己同样的问题。”她说，“只是，每次想改写什么，世界都会提醒我——我已经没有资格。”"
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“I’ve asked myself that question more times than I can count.”"
   },
   {
-	"text": "她的语气温柔，却藏着几分决绝。我第一次看到她眼里那一丝悲伤的光。"
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“But every time I try to rewrite something, the world reminds me—I've lost the right to.”"
   },
-  { "event": [{ "action": "change_scene", "target": "scene1.4" }] }
+  {
+	"text": "I didn’t answer right away. The only sound was the fire crackling softly, its light flickering with the rhythm of her words."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Tell me,” she said quietly, “if someone once destroyed another’s fate—do they still deserve to change their own?”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“...I don’t know.”"
+  },
+  {
+	"text": "At that moment, any comfort would’ve felt meaningless. Her gaze dropped slightly, her lashes casting a faint shadow under the lamplight."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“I used to think I was saving people.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“But sometimes… redemption and ruin are only a single word apart.”"
+  },
+  {
+	"text": "Her tone was gentle, yet resolute. For the first time, I saw that glint of sorrow in her eyes—not regret, but a quiet weariness that had already made peace with fate."
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“...Sounds like you’re carrying something heavy.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Maybe.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“But at least now, it no longer crushes me.”"
+  },
+  {
+	"text": "The firelight traced a faint scar along her cheek. She neither hid it nor explained—it simply existed, quietly, like the rest of her pain."
+  },
+  {
+	"text": "And I realized then—she wasn’t unbreakable. She had merely learned how to stay graceful while collapsing."
+  },
+  {
+	"text": "She set down her cup and tapped the wooden table twice, as if marking the beat of a thought she’d finally finished."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“The wine tonight is good.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Stronger than the southern kind—I think it suits me better.”"
+  },
+  {
+	"text": "I said nothing, simply refilled her glass. The scent of wine mingled with the glow of the fire, as if the night itself wished to hide this quiet confession within its warmth."
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.4" }]
+  }
 ]

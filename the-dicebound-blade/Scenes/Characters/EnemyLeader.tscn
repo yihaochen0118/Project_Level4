@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdaxakwhkwuvl"]
+
+[ext_resource type="Texture2D" uid="uid://cvuaepr7o44m4" path="res://images/Chara/EnemyLeader.png" id="1_almgp"]
+
+[node name="EnemyLeader" type="Node2D"]
+
+[node name="EnemyLeader" type="Sprite2D" parent="."]
+position = Vector2(994, 531)
+scale = Vector2(0.6, 0.508)
+texture = ExtResource("1_almgp")

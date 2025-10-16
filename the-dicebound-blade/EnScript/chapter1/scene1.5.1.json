@@ -4,47 +4,56 @@
 	  { "action": "set_background", "target": "town_medical_tent" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "街边的医务摊散发着淡淡的草药味，白布帘被风吹得微微摆动。"
+	"text": "The street-side medical stall smelled faintly of herbs. The white cloth curtain swayed gently in the breeze."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“这儿。”艾莉西亚拉着我坐下，“让他们给你重新包一下。”"
+	"text": "“Here.”"
+  },
+  {
+	"text": "Alicia guided me to sit down. “Let them change your bandages properly.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“不用吧，我感觉已经没事了。”"
+	"text": "“That’s not necessary. I think it’s fine now.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她挑眉，“你早上差点把胳膊留在那片林子里。”"
+	"text": "She raised an eyebrow. “You almost left your arm in that forest this morning.”"
   },
   {
-	"text": "药师取来干净的绷带和清洗水。艾莉西亚自己接过，动作熟练地解开旧布，一层层重新包好。"
+	"text": "The apothecary brought clean bandages and a bowl of rinse water. Alicia took them herself, deftly unwrapping the old cloth and replacing it layer by layer."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“你以前学过这些？”"
+	"text": "“You’ve done this before?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“当佣兵的时候，不会包伤口就等着死。”她语气淡淡。"
+	"text": "“When you’re a mercenary, not knowing how to treat a wound is as good as signing your death warrant.”"
   },
   {
-	"text": "最后一圈绷带打了结。她的手覆在我手背上停了一会儿，似乎在确认血流是否稳定。"
+	"text": "Her tone was calm. The last strip of bandage was tied into a neat knot."
+  },
+  {
+	"text": "Her hand lingered on mine for a moment, as if checking that the pulse beneath the skin had steadied."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“还疼吗？”"
+	"text": "“Still hurt?”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“不疼了。你手比药还管用。”"
+	"text": "“Not anymore. Your hands work better than the medicine.”"
   },
   {
-	"text": "她愣了一下，轻轻笑了。阳光从帘缝落在她的睫毛上，光影颤动。然后，她握住了我的手。"
+	"text": "She paused, then gave a small laugh. Sunlight slipped through the curtain, flickering over her eyelashes."
   },
   {
-	"text": "那一刻，镇子的喧嚣似乎都远了，只剩她掌心的温度。"
+	"text": "Then, she took my hand in hers."
+  },
+  {
+	"text": "For a moment, the noise of the marketplace faded, leaving only the warmth of her touch."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.6" }]

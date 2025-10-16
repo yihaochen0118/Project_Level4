@@ -1,45 +1,67 @@
 [
   {
+	"branch": "B_success",
 	"event": [
-	  { "action": "set_background", "target": "forest_battle" },
+	  { "action": "spawn_character", "target": "Monster1", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
+	  { "action": "set_background", "target": "forest_path" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "我本能地抓起背包挡在身前，几乎就在同一瞬间，那怪物的爪子猛地拍了上来。力道大得让我脚下一滑，整个人都被震退两步。"
-  },
-  {
-	"event": [{ "action": "hp_gain", "amount": 10 }, { "action": "shake", "target": "Player" }]
-  },
-  {
-	"text": "但那一挡让它的动作慢了半拍。艾莉西亚立刻冲上前，剑光如闪电般掠过，正中怪物的胸口。伴随着一声低吼，野兽踉跄倒地，石壳崩裂，化作灰烟。"
-  },
-  {
-	"text": "我看着被爪印砸出裂口的背包，愣了好几秒。艾莉西亚收剑转身，目光在我身上停了片刻，然后笑了一下。那笑容不大，却让人一下松了口气。"
-  },
-  {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“反应挺快的。”她的语气轻松了些，“没想到你真能挡下来。”"
+	"text": "The ground suddenly shook as a rock-armored beast burst from the soil, its glowing green eyes scattering the forest birds with a thunderous growl."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“只是运气好。”我苦笑着举起破掉的背包，“看来它比我结实。”"
+	"text": "Instinctively, I grabbed my backpack and raised it to block. In that same instant, the creature’s claws came crashing down. The impact was so strong it forced me back two steps."
+  },
+  {
+	"event": [
+	  { "action": "hp_gain", "amount": 10 },
+	  { "action": "shake", "target": "Player" }
+	],
+	"text": "But that block slowed its attack just enough."
+  },
+  {
+	"text": "Alicia dashed forward, her sword flashing like lightning. The blade struck the beast square in the chest. With a guttural roar, it staggered and collapsed—its rocky shell crumbling into ash."
+  },
+  {
+	"event": [{ "action": "remove_character", "target": "Monster1" }],
+	"text": "I stared at the claw marks on my torn backpack, frozen for a few seconds. Alicia sheathed her sword and turned toward me, her eyes lingering for a moment before she smiled—a small smile, but enough to make me breathe easier."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“运气也是实力的一种。”她轻轻拍了拍我肩膀，“不过下次别硬挡，怪物的力气比你想的还大。”"
-  },
-  {
-	"text": "她蹲下看了看那片焦黑的土地，皱着眉道：“这种怪物不是天生的，是‘残梦’——那些死过的人留下的痕迹。”"
+	"text": "“Quick reflexes,” she said lightly. “Didn’t think you’d actually block that.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“残梦？”我重复了一遍，仍有些喘。"
+	"text": "“Just lucky,” I replied with a wry grin, holding up the ruined pack. “Looks like it’s tougher than me.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“嗯。打过仗、死过人的地方，地底会留下他们最后的情绪。久了，就会变成这种东西。”她站起身，目光柔和了几分，“不过别担心，有我在，不会让它们靠近。”"
+	"text": "“Luck counts as skill too.” She gave my shoulder a gentle pat. “But next time, don’t take the hit head-on. Those things are stronger than you think.”"
   },
   {
-	"text": "她朝我伸出手，我犹豫了一下，最终还是握住。她笑着一拉，把我拽起来：“走吧，镇集就在前面。”风从林间吹过，阳光落在她银色的发上，亮得让人移不开眼。"
+	"text": "She crouched down, examining the scorched patch of earth. Her brows knit slightly. “These monsters aren’t natural. They’re ‘Residual Dreams’—echoes left behind by the dead.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Residual Dreams?” I repeated, still catching my breath."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Yes. In places where wars were fought and lives were lost, the ground absorbs their final emotions. Over time, those emotions take form.”"
+  },
+  {
+	"text": "She stood up, her gaze softening, her voice gentler than before."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“But don’t worry. As long as I’m here, they won’t get close.”"
+  },
+  {
+	"text": "She extended her hand toward me. I hesitated for a moment, then took it. Smiling, she pulled me to my feet. “Come on, the market’s just ahead.”"
+  },
+  {
+	"text": "A breeze swept through the trees. Sunlight glinted off her silver hair, so bright I couldn’t look away."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.5" }]

@@ -4,7 +4,7 @@
 	"event": [
 	  { "action": "spawn_character", "target": "Monster1", "pos": [-450, 0] },
 	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
-	  { "action": "set_background", "target": "forest_battle" },
+	  { "action": "set_background", "target": "forest_path" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "魔兽发出嘶吼，四肢的石壳在光下泛着暗绿的光。它的呼吸沉重，每一次落地都震得地面微颤。"

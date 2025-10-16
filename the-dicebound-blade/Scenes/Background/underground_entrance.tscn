@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmtyota7mxx3o"]
+
+[ext_resource type="Texture2D" uid="uid://cebwnslidt3h" path="res://images/background/underground_entrance.jpg" id="1_83n58"]
+
+[node name="underground_entrance" type="Node2D"]
+
+[node name="underground_entrance" type="Sprite2D" parent="."]
+position = Vector2(979.50006, 543)
+scale = Vector2(1.2243751, 1.2053572)
+texture = ExtResource("1_83n58")

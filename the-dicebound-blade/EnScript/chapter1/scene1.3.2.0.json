@@ -1,17 +1,44 @@
 [
   {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "The fireplace crackled softly, filling the air with the scent of warm wine."
+  },
+  {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“我大概还是会照常过日子。”我有些心不在焉地说。"
+	"text": "“I suppose I’ll just keep living as usual,” I said absently. “Running the inn, fixing doors, dealing with drunks… life has to go on somehow.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她摇摇头：“逃避不是平静。”"
+	"text": "She looked at me—expression unreadable, somewhere between thought and quiet judgment."
   },
   {
-	"text": "“有时候，人以为自己在生活，其实只是被时间推着走。”她看着火光，语气淡淡。"
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Avoidance isn’t peace,” she said softly. Her tone was gentle, yet sharp enough to pierce the still air like a fine needle."
   },
   {
-	"text": "那一刻我忽然觉得，她不是在和我说话，而是在回忆什么。"
+	"text": "She tapped the rim of her cup with her fingertip. The faint sound echoed clearly through the quiet inn."
   },
-  { "event": [{ "action": "change_scene", "target": "scene1.4" }] }
+  {
+	"text": "“Sometimes people think they’re living,” she murmured, “but really, they’re just being carried along by time.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Maybe being carried along is easier,” I replied quietly."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Then so be it.” She smiled faintly and turned her gaze away. The smile was gentle—but held a distance that could never quite be crossed."
+  },
+  {
+	"text": "For a fleeting moment, I felt she wasn’t talking to me at all—but to some memory long gone, something that could never return."
+  },
+  {
+	"text": "The firelight traced her profile, shadows weaving across her face like the edges of an unreachable dream."
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.4" }]
+  }
 ]

@@ -1,125 +1,160 @@
 [
   {
 	"event": [
-	  { "action": "set_background", "target": "underground_ruins_dim" },
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "EnemyLeader", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "我拉住露西亚，压低声音：“别动。我们从侧边绕过去。”火光在墙壁间摇曳，阴影像碎布一样晃动。"
+	"text": "I held Lucia back and whispered, “Don’t move. We’ll circle from the side.” The firelight flickered along the walls, and shadows danced like torn cloth."
   },
   {
-	"text": "地面潮湿，脚下的雪被带入地下，化成细细的水迹。我贴着墙壁慢慢移动，呼吸轻得几乎听不见。"
+	"text": "The ground was damp, snow tracked in from outside melting into thin trails of water. I crept along the wall, breathing so lightly it was almost soundless."
   },
   {
-	"text": "🎲【敏捷检定：成功】你悄无声息地潜到一根石柱后，阵法的蓝光在你的脸上轻轻跳动。"
-  },
-  {
-	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "露西亚在另一侧弯下身，微微抬头。她的唇动了动，用口型比出两个字——“导师”。"
-  },
-  {
-	"text": "我顺着她的视线望去。艾莉西亚被锁在阵心，头发散乱，护符的光几乎要熄灭。她的胸口微微起伏——还活着。"
-  },
-  {
-	"text": "黑袍人围着阵法低声吟唱，节奏如同心跳般规律。最中间那个首领抬起手，蓝光在他掌间流动。"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“我去吸引注意力，你从那边解开锁链。”我用极小的声音说。"
+	"text": "🎲 [Agility Check: Success] You silently slip behind a stone pillar. The blue glow of the formation flickers faintly across your face."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "露西亚的眼神有一瞬犹豫，随后点头。"
+	"text": "Lucia crouched on the other side, lips moving soundlessly to form two words—“the mentor.”"
   },
   {
-	"text": "我抬头观察四周。左侧的铁管断裂，一直通向天花板。那也许能制造出声响——我深吸一口气，拾起一块石头。"
+	"text": "I followed her gaze. Alicia was bound at the center of the ritual circle, her hair in disarray, the light of her amulet nearly extinguished. Her chest rose and fell slightly—she was still alive."
   },
   {
-	"text": "石头飞出，撞上铁管，发出一声尖锐的“当——！”"
-  },
-  {
-	"text": "黑袍人纷纷转头。首领沉声：“谁在那里？”"
-  },
-  {
-	"text": "他们分出两人朝那方向走去。趁此空隙，我贴着地面滑到下一个石柱后。露西亚已经趁机靠近艾莉西亚。"
-  },
-  {
-	"text": "她轻声念咒，光线在锁链上蔓延。发出“嘶嘶”的轻响。"
-  },
-  {
-	"text": "我屏住呼吸，看见首领重新抬手，似乎察觉到能量的波动。"
+	"text": "The robed figures chanted in low unison, their rhythm pulsing like a heartbeat. At the center, the leader lifted his hand, blue light flowing between his palms."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "不能再等了。"
-  },
-  {
-	"text": "我猛地站起，从暗处冲出。短剑划出一道寒光，准确刺入离我最近的黑袍人腰侧。"
-  },
-  {
-	"event": { "action": "shake", "target": "Enemy1" },
-	"text": "他闷哼一声倒地，血迹溅在阵纹上。光线闪烁，吟唱声骤然混乱。"
-  },
-  {
-	"text": "露西亚趁机打断最后的锁链。艾莉西亚坠入她怀中，昏迷不醒。"
-  },
-  {
-	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "“可笑的凡人，”首领怒喝，“你们打断了净化的仪式！”"
-  },
-  {
-	"text": "他掐诀，脚下的符文重新亮起。我扑上前，一脚踢翻他的短杖，蓝光瞬间失衡，阵法爆出剧烈的闪光。"
-  },
-  {
-	"event": { "action": "shake", "target": "Player" },
-	"text": "冲击波掠过，耳边全是轰鸣。我几乎被掀翻在地。"
-  },
-  {
-	"text": "当我重新睁开眼时，首领已经倒在地上，胸口的印记正在一点点消失。剩下的黑袍人纷纷逃离，地下室陷入诡异的安静。"
-  },
-  {
-	"text": "露西亚抱着艾莉西亚，神情慌张：“她还有呼吸，但太微弱了。”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“走，离开这里。”我握紧短剑，站在她们前面开路。"
-  },
-  {
-	"text": "楼梯湿滑，墙壁上还在滴水。我们冲上地面，冷风扑面而来。夜雪仍在下，街灯的光透过风雪，像一层昏黄的雾。"
+	"text": "“I’ll draw their attention—you go and break the chains,” I murmured quietly."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“刚才那一下——真险。”她喘着气，眼里闪着难以置信的兴奋。"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“险，但值得。”我望着怀中的艾莉西亚，“她活着。”"
-  },
-  {
-	"text": "我们回头看那座废楼，蓝光已经完全熄灭。风吹起雪尘，掩去了脚印。"
-  },
-  {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她在昏睡中轻声呢喃：“……不要让……循环……继续……”"
-  },
-  {
-	"text": "她的声音几乎被风吞没，却让我心头一颤。那词句带着警告，也像是一种记忆。"
-  },
-  {
-	"text": "露西亚抬头看我：“她说什么？”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“等她醒了再问。”我叹了口气，把斗篷披在艾莉西亚身上。"
-  },
-  {
-	"text": "远处的钟声响起——午夜。风在街角盘旋，灯笼轻轻晃动，光影摇曳。"
-  },
-  {
-	"text": "那一刻，我突然意识到：我们救下的不只是一个人，而是一段被掩埋的真相。"
+	"text": "Lucia hesitated for a moment, then nodded firmly."
   },
   {
 	"event": [
-	  { "action": "change_scene", "target": "scene1.7" }
-	]
+	  { "action": "remove_character", "target": "Lucia" },
+	  { "action": "spawn_character", "target": "Enemy1", "pos": [-450, 0] }
+	],
+	"text": "I glanced around. On the left, a cracked iron pipe ran up toward the ceiling—maybe it could make some noise. Taking a deep breath, I picked up a stone."
+  },
+  {
+	"text": "The stone flew and struck the pipe with a sharp clang—“TANG!”"
+  },
+  {
+	"event": { "action": "show_name", "target": "EnemyLeader" },
+	"text": "“Who’s there?”"
+  },
+  {
+	"text": "The cultists turned their heads. The leader’s voice was sharp and commanding."
+  },
+  {
+	"text": "Two of them broke away to investigate. Taking advantage of the distraction, I crawled to the next pillar while Lucia crept closer to Alicia."
+  },
+  {
+	"text": "She whispered an incantation; light spread along the chains with a faint hiss."
+  },
+  {
+	"text": "I held my breath as the leader raised his hand again, sensing the disturbance in the flow of energy."
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“No more waiting.”"
+  },
+  {
+	"text": "I sprang from the shadows, my short sword flashing cold in the dim light, driving straight into the nearest cultist’s side."
+  },
+  {
+	"event": { "action": "shake", "target": "Enemy1" },
+	"text": "He grunted and collapsed, blood splattering across the glowing runes. The light flickered violently, and the chanting faltered into chaos."
+  },
+  {
+	"event": [
+	  { "action": "show_name", "target": "EnemyLeader" },
+	  { "action": "remove_character", "target": "Enemy1" },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
+	],
+	"text": "Lucia seized the chance and broke the final chain. Alicia fell into her arms, unconscious."
+  },
+  {
+	"event": { "action": "show_name", "target": "EnemyLeader" },
+	"text": "“Foolish mortals,” the leader roared, “you have disrupted the purification ritual!”"
+  },
+  {
+	"text": "He pressed his hands together, the runes beneath his feet flaring once more. I lunged forward, kicking his staff aside. The blue light wavered, and the formation exploded in a violent flash."
+  },
+  {
+	"event": { "action": "shake", "target": "Player" },
+	"text": "The shockwave tore through the air, deafening in its force. I was nearly thrown off my feet."
+  },
+  {
+	"text": "When I opened my eyes again, the leader lay motionless on the floor, the mark on his chest slowly fading. The remaining cultists fled, leaving the chamber in eerie silence."
+  },
+  {
+	"event": [
+	  { "action": "remove_character", "target": "EnemyLeader" },
+	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] }
+	],
+	"text": "The air reeked of smoke and ash. The blue glow faded away, leaving only faint sparks flickering in the dark."
+  },
+  {
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "“She’s breathing—but barely.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Come on, let’s get out of here.”"
+  },
+  {
+	"text": "I tightened my grip on the sword and led the way. The stairs were slick, water dripping from the walls."
+  },
+  {
+	"event": [{ "action": "set_background", "target": "Street" }],
+	"text": "Cold wind hit us in the face. Snow was still falling, and the streetlights shone dimly through the storm like a yellow mist."
+  },
+  {
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "“That was… too close.”"
+  },
+  {
+	"text": "She panted, eyes wide with disbelief and a spark of exhilaration."
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Close—but worth it.”"
+  },
+  {
+	"text": "I looked down at Alicia in my arms. “She’s alive.”"
+  },
+  {
+	"text": "We turned to look back at the ruined building—the blue glow was gone. The wind stirred the snow, erasing our tracks."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“…Thank you…”"
+  },
+  {
+	"text": "Her voice murmured faintly in her sleep."
+  },
+  {
+	"text": "The words were nearly lost to the wind, yet they made my chest tighten. It sounded less like gratitude—and more like a warning, or a memory."
+  },
+  {
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "“What did she say?”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“She’s alive. That’s all that matters.”"
+  },
+  {
+	"text": "I sighed and draped my cloak over Alicia’s shoulders. In the distance, the town bell tolled—midnight."
+  },
+  {
+	"text": "Wind coiled around the street corners, lanterns swaying softly. In that moment, I realized—we hadn’t just saved a life, but unearthed a buried truth."
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.7" }]
   }
 ]

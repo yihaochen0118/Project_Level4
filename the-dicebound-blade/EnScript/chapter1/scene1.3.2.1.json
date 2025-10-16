@@ -1,17 +1,44 @@
 [
   {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "The fire flickered softly, filling the air with the scent of wine and burning wood. She watched me in silence, as if waiting for an answer."
+  },
+  {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“我会照常开店，继续过日子。”我笑着说。"
+	"text": "“I’ll keep running the inn, just living my days as they come,” I said with a faint smile. “If fate wants to change, it can do that on its own.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她愣了一下，似乎没料到这个答案。随即露出一抹轻笑：“原来你早已看透世事。”"
+	"text": "She blinked in mild surprise, then smiled. “You take things rather lightly, don’t you?”"
   },
   {
-	"text": "“有时候，维持平凡比改变命运更需要勇气。”她轻叹，“我见过太多想要重来的灵魂，却没有一个真的安宁。”"
+	"text": "Her smile held no mockery—only a quiet kind of respect. For a brief moment, she no longer seemed like a traveler, but someone who had just heard a long-forgotten comfort."
   },
   {
-	"text": "火光映着她的侧脸，我忽然觉得，那笑容像是从很远的过去飘来的。"
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Sometimes, holding on to ordinary life takes more courage than changing fate,” she murmured. “I’ve seen too many souls wishing to start over—but none who found peace.”"
   },
-  { "event": [{ "action": "change_scene", "target": "scene1.4" }] }
+  {
+	"text": "Her tone carried a rare gentleness—like wind brushing across a snowfield: soft, but leaving its trace behind."
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“And you?” I asked. “Would you start over, if you could?”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "She hesitated, then slowly shook her head. “I’m not sure anymore. Maybe… I’m just tired. If I had the choice, perhaps I’d follow fate this time.”"
+  },
+  {
+	"text": "The firelight traced the curve of her face, her gaze wandering within the shifting glow. Her smile felt distant—like a warmth drifting from a memory she could never quite let go of."
+  },
+  {
+	"text": "And in that moment, I realized—the 'souls' she spoke of might have included her own."
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.4" }]
+  }
 ]

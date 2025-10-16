@@ -1,56 +1,80 @@
 [
   {
+	"branch": "C_fail",
 	"event": [
-	  { "action": "set_background", "target": "forest_battle" },
+	  { "action": "spawn_character", "target": "Monster1", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
+	  { "action": "set_background", "target": "forest_path" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "我盯着那怪物的动作，试图找出规律。它移动得又快又重，每次落地都带起碎石飞溅，我的心跳越来越快。"
-  },
-  {
-	"text": "我以为看到了破绽，立刻喊道：“艾莉西亚！它左腿——”但话还没说完，那怪物忽然朝相反的方向扑来。"
-  },
-  {
-	"event": [{ "action": "hp_lost", "amount": 10 }, { "action": "shake", "target": "Player" },{ "action": "set_flag", "flag": "injuredByMonster1", "value": true }]
-  },
-  {
-	"text": "我来不及躲闪，强烈的冲击把我掀翻在地。视线一片晃动，树叶和尘土在眼前乱飞。就在那一瞬，一道银光掠过，我听见了她的低喝。"
-  },
-  {
-	"text": "艾莉西亚猛地冲上去，整个人几乎与怪物擦肩而过，剑光从它颈侧划过。那野兽发出一声刺耳的嘶吼，随后化作灰烬。"
-  },
-  {
-	"text": "我仰躺在地上，胸口剧烈起伏。艾莉西亚赶紧走过来，单膝跪下，一边检查我，一边皱着眉说：“你刚才在想什么？这种怪物的想法我们是猜不透的。”"
-  },
-  {
-	"text": "我一时说不出话，她看着我，叹了口气，语气放缓：“没事，我不是在怪你。只是……别再一个人乱猜了，交给我就好。”"
-  },
-  {
-	"text": "她撕下一条布带，替我擦去手臂上的血迹，动作轻得几乎没有声音。那一刻，她的表情从紧绷变得柔和：“疼吗？”"
+	"text": "The monster roared, the rocky plates on its limbs glinting faintly green under the light. Each step it took made the ground tremble."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“还能忍。”我咧嘴一笑，“下次我一定看准。”"
+	"text": "I watched its movements carefully, trying to find a pattern. It was fast and heavy, scattering pebbles with every step. My heartbeat quickened."
   },
   {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她抿了抿嘴，语气有点无奈：“你就是想逞强。”"
+	"text": "I thought I saw an opening and shouted, “Alicia! Its left leg—” But before I could finish, the beast lunged the other way."
   },
   {
-	"text": "风从林间吹过，她抬头看向那片焦黑的土地，神情稍稍恢复平静：“它不是自然生的，是‘残梦’——那些死去的人留下的痕迹。”"
+	"event": [
+	  { "action": "hp_lost", "amount": 10 },
+	  { "action": "shake", "target": "Player" },
+	  { "action": "set_flag", "flag": "injuredByMonster1", "value": true }
+	],
+	"text": "I couldn’t dodge in time. The force of the blow sent me sprawling. The world spun as leaves and dirt filled my vision."
+  },
+  {
+	"text": "Then, in a flash of silver, Alicia surged forward, brushing past the creature as her blade cut cleanly across its neck."
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Monster1" },
+	  { "action": "remove_character", "target": "Monster1" }
+	],
+	"text": "The beast let out a shrill screech, stiffened, and then crumbled to ash. The scent of scorched earth hung heavy in the air."
+  },
+  {
+	"text": "Flat on my back, I gasped for breath. Alicia hurried over, kneeling beside me with a frown. “What were you thinking? A monster like this—only a seasoned fighter can predict its moves.”"
+  },
+  {
+	"text": "I couldn’t find words. She sighed, her tone softening. “It’s fine. I’m not blaming you. Just… don’t try to handle it alone next time. Leave it to me.”"
+  },
+  {
+	"text": "She tore a strip of cloth and gently wiped the blood from my arm, her movements quiet and precise. Her expression softened as she murmured, “Does it hurt?”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“残梦？”我喘着气问。"
+	"text": "“I can handle it.” I grinned. “Next time, I’ll get it right.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“嗯。打过仗、死过人的地方，地底会留下他们最后的情绪。久了，就会变成这种东西。”她说完，又低声补了一句，“你别吓我了，好吗？”"
+	"text": "She pressed her lips together, sounding half helpless, half amused. “You just can’t help showing off.”"
   },
   {
-	"text": "我怔了一下，笑了笑：“这算关心吗？”她瞪了我一眼，却没反驳，只是伸手把我拉了起来。"
+	"text": "The wind rustled through the forest as she looked toward the scorched earth, her expression gradually calming."
   },
   {
-	"text": "“走吧，市场就在前面。”她说，“等回镇上，我给你找点药。”"
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“It’s not a natural creature. It’s a ‘Residual Dream’—a trace left behind by the dead.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Residual Dream?” I asked between breaths."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Yes. In places where wars were fought and people died, the ground keeps their final emotions. Over time, those emotions take shape.”"
+  },
+  {
+	"text": "Then she added softly, “Don’t scare me like that again, alright?”"
+  },
+  {
+	"text": "I blinked, then chuckled. “Was that… concern?” She shot me a glare but didn’t answer, instead offering me her hand."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Come on. The market’s just ahead,” she said. “We’ll get you some medicine once we’re back in town.”"
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.5" }]

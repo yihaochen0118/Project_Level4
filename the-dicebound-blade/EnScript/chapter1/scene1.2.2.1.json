@@ -2,14 +2,40 @@
   {
 	"event": [
 	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] },
-	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
 	]
   },
-  { "text": "我半开玩笑道：“难道你们要挤一间？”", "event": [{ "action": "show_name", "target": "Player" }] },
-  { "text": "艾莉西亚先是一愣，随即轻轻一笑。", "event": [{ "action": "show_name", "target": "Alicia" }] },
-  { "text": "“你可真敢说。”她摇了摇头，嘴角藏不住笑意，“放心，我们不会打扰你的生意。”" },
-  { "text": "露西亚听懂了玩笑，咯咯笑出声", "event": [{ "action": "show_name", "target": "Lucia" }] },
-  { "text": "艾莉西亚假装咳了一声，伸手拎起药篮：“去楼上。”" },
-  { "text": "她回头看了我一眼，那一眼不再冷淡，而是带着一点温柔与戏谑的光。", "event": [{ "action": "hide_name" }] },
-  { "event": [{ "action": "change_scene", "target": "scene1.3" }] }
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "Half-jokingly, I said, “Don’t tell me you two are sharing one room?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia blinked in surprise, then let out a soft laugh."
+  },
+  {
+	"text": "“You’re quite bold, aren’t you?” She shook her head, amusement flickering at the corners of her lips. “Don’t worry—we won’t disturb your business.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "Lucia suddenly caught on and giggled. “Master! Lucia wants to share a room with you!”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Ahem. Upstairs, now.” Alicia coughed lightly and reached over to grab the herb basket."
+  },
+  {
+	"event": [{ "action": "remove_character", "target": "Lucia" }],
+	"text": "Before heading up, she glanced back at me—her eyes no longer cold, but touched with a hint of warmth and teasing light."
+  },
+  {
+	"event": [
+	  { "action": "remove_character", "target": "Alicia" },
+	  { "action": "remove_character", "target": "Lucia" }
+	],
+	"text": "The fire crackled softly, and a faint scent of herbs lingered in the air."
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.3" }]
+  }
 ]

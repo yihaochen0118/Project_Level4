@@ -1,122 +1,133 @@
 [
   {
 	"event": [
-	  { "action": "set_background", "target": "town_square_day" },
+	  { "action": "set_background", "target": "tavern_out" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "阳光正好。镇上的市集比往常热闹些，孩子在卖花，商贩的吆喝声被风吹得轻轻散开。"
+	"text": "The sun was warm and bright. The town square was livelier than usual—children selling flowers, merchants shouting as the wind carried their voices away."
   },
   {
-	"text": "我坐在旅店门口的木阶上，看着广场中央的喷泉。那水珠在阳光下跳动，像什么都没有发生过。"
+	"text": "I sat on the wooden steps outside the inn, watching the fountain at the square’s center. The water shimmered in the sunlight, as if nothing had ever happened."
   },
   {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "艾莉西亚换了一身淡色的布裙，银发简单地绑在身后，没有铠甲，也没有剑。"
+	"event": [
+	  { "action": "show_name", "target": "Alicia" },
+	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] }
+	],
+	"text": "Alicia had changed into a simple light-colored dress, her silver hair tied loosely behind her—no armor, no sword."
   },
   {
-	"text": "“难得的午后，”她笑着说，“我想试着过一次普通人的日子。”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“勇者也有休假？”我笑。"
-  },
-  {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“有时候必须。”她坐在我身旁，望着广场那边的孩子，“否则连自己是谁都会忘记。”"
-  },
-  {
-	"text": "我们去了镇口的面包铺。老板是个老头，见到她时先是愣了一下，随后笑着塞了两个甜面包给她——“上回你救我孙子的时候，我还没来得及谢你。”"
-  },
-  {
-	"text": "“那就今天收下吧。”她笑着接过，转头把其中一个递给我。"
+	"text": "“A rare morning,” she said with a smile. “I thought I’d try living like an ordinary person, just for once.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“我可没救过人。”"
+	"text": "“Even heroes take days off?” I chuckled."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“但你陪我吃午饭。”"
+	"text": "“Sometimes we must,” she replied, sitting beside me and gazing at the children across the square. “Otherwise, we forget who we are.”"
   },
   {
-	"text": "面包甜得发腻，却带着一种久违的安稳感。阳光照在她的睫毛上，细微的光线闪烁。那一刻，她不像战士，更像个旅人。"
+	"event": [
+	  { "action": "set_background", "target": "Square" }
+	],
+	"text": "We went to the bakery by the gate. The old shopkeeper paused when he saw her, then smiled and handed her two sweet buns. “For saving my grandson last time. I never got to thank you properly.”"
+  },
+  {
+	"text": "“Then I’ll take them today,” she said with a grin, handing one to me."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“如果没有那些魔兽，”我忽然说，“你会想留下来吗？”"
+	"text": "“I didn’t save anyone.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她轻轻愣了愣，指尖摩挲着纸袋的边缘。“我也想过这种问题。但我不属于这里。”"
+	"text": "“But you’re sharing breakfast with me.”"
+  },
+  {
+	"text": "The bun was almost too sweet, yet it carried a strange comfort. The sunlight caught on her eyelashes, glinting softly. In that moment, she looked less like a warrior—and more like a traveler."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“你指的‘这里’，是镇子，还是世界？”"
+	"text": "“If there were no monsters,” I asked suddenly, “would you stay here?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她沉默片刻，微微一笑：“也许是‘时间’。”"
-  },
-  {
-	"text": "我们走出面包铺，街头的风铃被风吹得轻响，孩子追着鸽子奔跑。她停在花摊前，目光停在一束白色风信子上，最后摇了摇头。"
-  },
-  {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“我以前也喜欢花。”她忽然说，“后来每次看到花开，就会想到……它们都比我活得久。”"
+	"text": "She paused, fingers brushing the edge of the paper bag. “I’ve thought about that. But I don’t belong here.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“别这么说。”"
+	"text": "“By ‘here,’ you mean this town—or this world?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“这只是事实。”她笑了笑，“但今天，我想让自己假装相信——我还活着。”"
+	"text": "She smiled faintly after a moment of silence. “Maybe… time itself.”"
   },
   {
-	"text": "她的声音太轻，像怕惊扰了这一刻的温柔。我没有回应，只是默默陪她穿过街道。"
-  },
-  {
-	"text": "广场那头传来钟声。她抬头看了看天色，然后轻轻整了整斗篷。"
+	"text": "We left the bakery. The chimes above the door sang in the wind; children chased pigeons down the street. She stopped briefly at a flower stand, eyes lingering on a bouquet of white hyacinths—then shook her head."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“我要去北门看看结界的状况。”"
+	"text": "“I used to like flowers,” she said softly. “But now, every time I see them bloom, I think—they all live longer than I do.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“现在？”"
+	"text": "“Don’t say that.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“只是确认。”她的神情忽然变得认真，“听着，今天晚上，不管发生什么，都不要出门。”"
+	"text": "“It’s just the truth.” She smiled again. “But today, I want to pretend I still believe—I’m alive.”"
+  },
+  {
+	"text": "Her voice was so quiet, as if afraid to disturb the tenderness of the moment. I said nothing—just walked beside her in silence."
+  },
+  {
+	"text": "The bell from the square rang in the distance. She looked up at the sky, then adjusted her cloak lightly."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“I’m going to check the barrier at the north gate.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“为什么？”"
+	"text": "“Now?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她没有回答，只是抬手在我胸前的空气里轻轻一点。那是一道几乎看不见的光痕，在阳光下像尘埃般闪烁。"
+	"text": "“Just to make sure.” Her expression turned serious. “Listen—tonight, no matter what happens, don’t go outside.”"
   },
   {
-	"text": "“护符。”她笑道，“它会保你一夜无梦。”"
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Why?”"
   },
   {
-	"text": "她背起篮子，走入人群。银发在阳光中闪烁，渐渐消失在喧闹的市集尽头。"
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "She didn’t answer. Instead, she lifted her hand and traced a faint mark in the air before my chest. A shimmer of light hung there, like dust caught in sunlight."
   },
   {
-	"text": "风从北面吹来，带着一股不安的凉意。喷泉的水忽然溅起比往常更高的一道弧。"
+	"text": "“A charm,” she said with a smile. “It’ll grant you one night of dreamless sleep.”"
   },
   {
-	"text": "我抬头。天色明明晴朗，却有一缕细微的黑影，在云层间闪过。"
+	"event": [
+	  { "action": "remove_character", "target": "Alicia" }
+	],
+	"text": "She picked up her basket and disappeared into the crowd. Her silver hair glimmered in the sunlight until it vanished at the far end of the market."
   },
   {
-	"text": "我心头发冷。可下一刻，孩子的笑声、商贩的叫卖声重新淹没了一切。阳光依旧温柔。"
+	"text": "The wind shifted from the north, carrying a chill that didn’t belong. The fountain’s water suddenly arced higher than usual."
   },
   {
-	"text": "我长长地吐出一口气，却总觉得，有什么东西，正悄悄靠近。"
+	"text": "I looked up. The sky was clear—yet a faint dark shape flickered briefly among the clouds."
   },
   {
-	"event": { "action": "change_scene", "target": "scene1.8" }
+	"text": "A shiver crawled down my spine. But then the laughter of children and the merchants’ shouts swallowed everything again. The sunlight remained gentle."
+  },
+  {
+	"text": "I let out a slow breath, but the feeling lingered—that something was quietly drawing near."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene1.8" }
+	]
   }
 ]

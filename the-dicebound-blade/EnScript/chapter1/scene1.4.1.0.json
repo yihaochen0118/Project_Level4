@@ -1,36 +1,83 @@
 [
   {
 	"event": [
-	  { "action": "set_background", "target": "forest_battle" },
+	  { "action": "spawn_character", "target": "Monster1", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "我试着往旁边闪开，但脚底被一块松石绊了一下。还没站稳，那怪物的爪子已经朝我扑来。"
-  },
-  {
-	"event": [{ "action": "hp_lost", "amount": 10 },{ "action": "shake", "target": "Player" },{ "action": "set_flag", "flag": "injuredByMonster1", "value": true }]
-  },
-  {
-	"text": "剧痛从手臂传来，我闷哼一声，鲜血顺着袖口往下流。艾莉西亚的身影在火光中一闪，她冲上去，一脚将那野兽踹翻，剑光紧随其后，干净利落地斩断了它的脖颈。"
-  },
-  {
-	"text": "空气里弥漫着焦味。我靠在树干上，呼吸都有些乱。艾莉西亚迅速收剑，几步走到我面前，蹲下查看我的伤口，语气少见地温柔：“动一下，让我看看。”"
-  },
-  {"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她站起身，回头看了眼那片焦黑的地面，低声道：“这种怪物不是自然生的，是‘残梦’——那些死去的人留下的痕迹。”"
+	"text": "The ground suddenly quaked. A beast covered in rocky armor burst out from the soil, its eyes glowing green as its roar echoed through the forest."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“残梦？”我重复了一遍，声音还有些发抖。"
+	"text": "Instinctively, I stepped back—but my foot slipped on a patch of moss. Before I could react, the beast lunged, its claws tearing through the air."
+  },
+  {
+	"event": [
+	  { "action": "hp_lost", "amount": 10 },
+	  { "action": "shake", "target": "Player" },
+	  { "action": "set_flag", "flag": "injuredByMonster1", "value": true }
+	],
+	"text": "Pain shot up my arm. I grunted, feeling warm blood trickle down my sleeve. The creature’s breath was hot, pressing down on me like a storm."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“嗯。打过仗的地方、死过人的地方，地底会留下他们最后的情绪。久了，就会变成这种东西。”她看着我，语气轻了下来，“别太在意，这片林子离镇中心还远。”"
+	"text": "“Watch out!”"
   },
   {
-	"text": "我点点头。她扶了我一把，让我靠在她身边一会儿，确认我能站稳后，才微笑着说：“好啦，英雄。还能走吗？”"
+	"text": "A sudden gust cut through the air—Alicia leapt from the right, cloak swirling. Her boot struck the beast’s jaw before she drew her sword in one smooth motion."
   },
   {
-	"text": "“能。”我努力挤出笑容。她这才放开手，语气轻松了一点：“那就好，市场就在前面，今天的阳光挺不错的。”"
+	"event": [{ "action": "shake", "target": "Monster1" }],
+	"text": "A flash of silver—her blade sliced cleanly across the monster’s neck."
+  },
+  {
+	"text": "The creature let out a final roar before collapsing with a heavy thud. Dust rose; sparks danced along the edge of her sword."
+  },
+  {
+	"event": [{ "action": "remove_character", "target": "Monster1" }],
+	"text": "The air smelled of iron and ash. Alicia sheathed her sword and knelt before me, checking the wound."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Move a little—let me see.”"
+  },
+  {
+	"text": "She tore a strip from her cloak and wrapped my arm swiftly. The firelight caught her face, and for the first time, her cold expression seemed soft."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“This kind of beast isn’t born naturally... it’s a ‘Residual Dream.’”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Residual Dream?” I echoed, my voice still trembling."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Mm. In places where wars were fought or people died, the ground keeps their last emotions. Over time, those emotions take shape.”"
+  },
+  {
+	"text": "Her tone was calm, yet carried a faint chill."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Don’t worry. This forest’s still far from the town.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "I nodded. She helped me to my feet, steadying me. Once she saw I could stand, her voice grew lighter again."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Alright, hero. Can you still walk?”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Yeah.” I forced a smile."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Good.” She looked toward the sunlight filtering through the trees, a faint smile on her lips. “The market’s just ahead. The weather’s quite nice today.”"
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.5" }]

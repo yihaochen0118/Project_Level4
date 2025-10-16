@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://jxnkey2mnqmt"]
+
+[ext_resource type="Texture2D" uid="uid://y24s7ngyiagm" path="res://images/background/tarven_out.jpg" id="1_x8jq8"]
+
+[node name="tarven_out" type="Node2D"]
+
+[node name="tarven_out" type="Sprite2D" parent="."]
+position = Vector2(979.50006, 543)
+scale = Vector2(1.2243751, 1.2053572)
+texture = ExtResource("1_x8jq8")

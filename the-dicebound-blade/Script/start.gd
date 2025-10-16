@@ -69,6 +69,15 @@ func _init_window_mode():
 # ===============================
 func _on_start_pressed():
 	print("🎮 开始游戏！")
+
+	# ✅ 每次开局都重置骰子使用次数
+	if PlayerData.has_method("reset_dice_uses"):
+		PlayerData.reset_dice_uses()
+	else:
+		push_warning("⚠️ PlayerData 中未定义 reset_dice_uses()")
+
+	# ✅ （可选）如果你想重置血量、flags 等，也可以这样：
+	PlayerData.reset_all()
 	get_tree().change_scene_to_file("res://Scenes/main.tscn")
 
 # ===============================

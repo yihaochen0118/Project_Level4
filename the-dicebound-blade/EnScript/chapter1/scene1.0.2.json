@@ -1,0 +1,86 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
+	]
+  },
+  {
+	"text": "I chose silence, gripping the counter tightly as I watched the scene unfold."
+  },
+  {
+	"text": "But the drunk’s anger only grew hotter—like fire fed with oil."
+  },
+  {
+	"text": "He suddenly grabbed the bottle and smashed it against the floor. Shards and liquor scattered everywhere, forcing me back two steps under the blast."
+  },
+  {
+	"text": "The crowd gasped. The fire in the hearth shuddered, and the smell of spilled wine mixed with dust filled my lungs, making me cough."
+  },
+  {
+	"text": "The drunk’s fist was already raised—"
+  },
+  {
+	"text": "At that instant, a gust of wind roared in from outside, snuffing out half the firelight."
+  },
+  {
+	"text": "The cloaked woman’s eyes were calm yet piercing. With a single motion of her hand, the shards and wind froze midair."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“That’s enough.”"
+  },
+  {
+	"text": "The drunk froze, face turning pale as his throat rasped for breath."
+  },
+  {
+	"text": "His gaze fixed on the insignia gleaming faintly on her chest. His pupils widened in sudden recognition."
+  },
+  {
+	"text": "For a moment, silence. Then realization struck—his lips trembled, his breathing broke into panic."
+  },
+  {
+	"event": { "action": "show_name", "target": "Junker" },
+	"text": "“You... you’re—”"
+  },
+  {
+	"text": "Before he could finish, he staggered backward as if struck by an invisible force."
+  },
+  {
+	"event": [{ "action": "shake", "target": "Junker" }],
+	"text": "He spun around in terror and practically tumbled out the door."
+  },
+  {
+	"event": [{ "action": "remove_character", "target": "Junker" }],
+	"text": "The door slammed shut behind him with a heavy thud. The tavern fell silent once more, leaving only the muffled whisper of snow outside."
+  },
+  {
+	"event": { "action": "hp_lost", "amount": 10 },
+	"text": "I stayed leaning against the counter, chest heaving. A shallow cut traced across the back of my hand, gleaming red beneath the firelight."
+  },
+  {
+	"text": "She glanced at me—her gaze light as the wind, yet carrying a quiet, undeniable weight."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Next time, try ducking when you see a bottle flying, will you?”"
+  },
+  {
+	"text": "Her tone was calm, almost scolding—but with a faint trace of teasing beneath it."
+  },
+  {
+	"text": "I blinked, unsure how to reply, as she was already walking toward the door."
+  },
+  {
+	"text": "The wind seeped in again. She stopped, lifted a hand, and gently pushed the door shut."
+  },
+  {
+	"text": "“The wind’s calmed down,” she said, glancing back at me. “You can breathe now.”"
+  },
+  {
+	"text": "She didn’t leave—just leaned lightly against the doorframe, as if making sure it was truly over."
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.1" }]
+  }
+]

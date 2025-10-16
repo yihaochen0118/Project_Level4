@@ -4,40 +4,55 @@
 	  { "action": "set_background", "target": "town_market_day" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "街头的摊位排成两行，烤鱼、香料、花束混着炊烟的香气。铁匠铺的锤声有节奏地响着。"
+	"text": "Stalls lined both sides of the street — grilled fish, spices, and flowers mingled with the scent of cooking smoke."
+  },
+  {
+	"text": "The rhythmic clang of the blacksmith’s hammer echoed through the air, blending with chatter and the wind into a warm kind of bustle."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“想不到你走得挺快。”"
+	"text": "“I thought you could barely walk, but look at you—you’re faster than me.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“我只是饿了。”我抬头望着街边的烤鱼摊，“那香味太过分了。”"
+	"text": "“I’m just hungry.”"
   },
   {
-	"text": "艾莉西亚无奈地叹了口气，却还是跟我一起走到摊前。"
+	"text": "I looked toward a grilled fish stall. “That smell should be illegal.”"
+  },
+  {
+	"text": "Alicia sighed in mild exasperation but still followed me to the stand."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“两串鱼。”她掏出几枚硬币，“一串给他。”"
+	"text": "“Two skewers of fish.”"
+  },
+  {
+	"text": "She pulled out a few coins. “One’s for him.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“这次我请。”我抢先付了钱。"
+	"text": "“My treat this time.”"
   },
   {
-	"text": "摊主笑着把烤鱼递过来，炭火的香气在空气里弥漫。艾莉西亚怔了怔，接过那串鱼，看了我一眼。"
+	"text": "I paid before she could stop me. The vendor handed over the skewers with a smile, and the smoky aroma filled the air."
+  },
+  {
+	"text": "Alicia blinked, accepting her skewer, and glanced at me curiously."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“你什么时候开始学得这么殷勤？”"
+	"text": "“Since when did you become so considerate?”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“上次有人救了我一命，总得还点什么。”"
+	"text": "“Well, someone did save my life. Figured I should return the favor somehow.”"
   },
   {
-	"text": "她轻笑一声，没有再说什么。阳光落在她侧脸上，鱼香混着风声，像某种短暂却真实的平静。"
+	"text": "She gave a quiet laugh and said nothing more."
+  },
+  {
+	"text": "Sunlight brushed across her face; the scent of grilled fish drifted on the breeze — a fleeting, yet unmistakably peaceful moment."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.6" }]

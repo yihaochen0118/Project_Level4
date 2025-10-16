@@ -7,163 +7,163 @@
   },
   {
 	"event": { "action": "show_talk_ui" },
-	"text": "夜幕低垂。外面的雪声细得像砂，壁炉的火烧得正旺，木柴偶尔爆出一声轻响。"
+	"text": "Night had fallen. Outside, the sound of snow was as fine as sand. The fireplace burned bright, the logs crackling now and then."
   },
   {
-	"text": "我靠在柜台边，昏黄的灯光照亮半个旅店。露西亚早已上楼睡下，整座店静得能听见风从门缝里钻进来的呼吸。"
+	"text": "I leaned against the counter. The dim yellow light illuminated half the tavern. Lucia had long gone to bed; the whole place was so quiet I could hear the wind breathing through the door cracks."
   },
   {
-	"text": "火光轻轻一跳，照在墙上的影子晃了两下。我以为是风，却听见楼梯吱呀一声响——"
+	"text": "The firelight flickered, and the shadow on the wall swayed twice. I thought it was the wind—then came a soft creak from the stairs—"
   },
   {
-	"event": [
-	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] }
-	],
-	"text": "艾莉西亚披着银白的斗篷走下来，头发在火光下泛着浅浅的金，手里拿着一瓶还未拔塞的酒。"
+	"event": [{ "action": "spawn_character", "target": "Alicia", "pos": [450, 0] }],
+	"text": "Alicia came down in a silver cloak, her hair catching a faint gold under the firelight. She approached the counter and pointed at the wine shelf. “Still awake? Good—pour me one.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“睡不着？”"
+	"text": "“Can’t sleep?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“嗯。”她轻声道，“这个镇子的夜太安静了，安静得让我想起……别的地方。”"
+	"text": "“Mm.” she said softly. “Nights in this town are too quiet. Quiet enough to remind me of... somewhere else.”"
   },
   {
-	"text": "我为她倒了一杯酒。她坐到柜台前，动作轻得几乎听不见。琥珀色的液体在火光中闪着柔光。"
+	"text": "I poured her a glass. She sat at the counter, her movements so light they barely made a sound. The amber liquid shimmered gently in the firelight."
   },
-  { "text": "她没有立刻喝，而是看着液面出神。" },
+  { "text": "She didn’t drink right away, just stared at the surface of the wine." },
   {
-	"text": "“你这儿的酒真稀奇。”她笑了笑，“不像北方那种烈的。”"
+	"text": "“Your wine here is strange.” She smiled. “Not like the warm kind we have in the south.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“这儿的人都怕冷得太快，温酒可以让人暖起来。”"
+	"text": "“People here fear the cold too much. Stronger wine keeps them warm longer.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“也是。”她抿了一口，“北境的冬天……能把人的梦都冻住。”"
+	"text": "“True.” She took a sip. “Winter in the North... can freeze even a dream solid.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“听起来不像个旅人说的话。”"
+	"text": "“Doesn’t sound like something a traveler would say.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“也许我不是。我来这儿，是为了查一件事。”"
+	"text": "“Maybe I’m not. I came here to investigate something.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“很严重的事？”"
+	"text": "“Something serious?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“也许是命。”她抬眼望着我，火光映进她的瞳孔。那双灰蓝的眼深得像雪下的湖。"
-  },
-  {
-	"text": "“或者说，是命运。”她补了一句。空气一滞。"
+	"text": "“Maybe fate itself.” She lifted her gaze to me. The firelight caught her eyes—gray-blue, deep as a lake beneath snow."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“你相信命运吗？”"
+	"text": "“Or rather, destiny.” she added. The air stilled."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Do you believe in destiny?”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“我只相信骰子。”"
+	"text": "“Destiny? I think it’s just something people use to make excuses for themselves.”"
   },
- {
+  {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她轻笑出声：“那可真像个赌徒的回答。”"
+	"text": "She chuckled softly. “That sounds exactly like something a man who sees through everything would say.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“我不是赌徒。只是觉得——命运要是能掷一次骰，也许就能公平一点。”"
+	"text": "“Not really. I just think destiny—it's too easy to use as an escape.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“你说得对。”她喃喃道，“只是有的人，一出生，骰子就被掷了无数次。”"
+	"text": "“Maybe.” she murmured. “But some people never had a choice to begin with.”"
   },
   {
-	"text": "我没听懂，只觉得她的语气太沉。"
+	"text": "I didn’t understand, but her tone felt heavy."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“那你呢？你被掷过多少次？”"
+	"text": "“And you? Are you one of those who ‘never had a choice’?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她的手在杯口上停了一下，似乎想回答，却又忍住。"
-  },
-  { "text": "“我不记得。”" },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“你不记得？”"
+	"text": "Her hand paused at the rim of the glass. She looked like she wanted to answer—but stopped herself."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“是啊。”她笑了笑，“我总觉得自己经历过很多次这样的夜晚——火、酒、雪，还有……你这样的旅店老板。”"
-  },
-  {
-	"text": "我心里一跳。“什么意思？”"
-  },
-  { "text": "她眨眨眼：“没什么，也许只是梦。”" },
-  {
-	"text": "壁炉噼啪一响，她的影子投在墙上。那影子不是一条，而是两条——一条坐在我面前，另一条略微模糊。"
-  },
-  {
-	"text": "我眨眼，再看时，它们已合为一体。"
-  },
-  {
-	"text": "“你知道灵魂会留下痕迹吗？”她忽然问。"
+	"text": "“I don’t remember.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“什么意思？”"
+	"text": "“You don’t remember?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她看向壁炉的火，“有些人死去三天后，影子还会在原地等他们。”"
+	"text": "“No.” She smiled faintly. “I just feel like I’ve lived through this night many times—fire, wine, snow... and many friendly or unfriendly faces.”"
   },
   {
-	"text": "“那是一种古老的魔法——灵魂机械术。让死亡的人在死前三天重返世界一次，去改写命运。”"
+	"text": "My heart skipped. “What do you mean?”"
+  },
+  { "text": "She blinked. “Nothing. Just a thought from someone who’s seen too much.”" },
+  {
+	"text": "The fire crackled, and her shadow stretched across the wall. There weren’t one but two of them—one seated before me, and another faint, blurred one."
+  },
+  {
+	"text": "I blinked again, and they had merged into one."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Do you know a soul leaves traces?”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“听起来像故事。”"
+	"text": "“What do you mean?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“是啊。只是有时候，故事比真相更安全。”"
+	"text": "She looked into the fire. “Some say that three days after death, a person’s shadow follows the trace back to three days before.”"
   },
   {
-	"text": "她的杯中酒已空，却仍握着杯沿不放。"
+	"text": "“It’s an ancient magic—Soul Mechanics. It lets the dead return three days into the past to rewrite their fate.”"
   },
   {
-	"text": "“如果你有机会重来三天，”她问，“你会做什么？”"
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Sounds like a story.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“如果你有机会重来三天，”她忽然问，“你会做什么？”"
+	"text": "“It is. But sometimes, stories are safer than the truth.”"
+  },
+  {
+	"text": "Her cup was empty, yet she still held it by the rim, unmoving."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“If you had the chance to relive three days,” she asked suddenly, “what would you do?”"
   },
   {
 	"event": [
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { 
-			"text": "选项 A：认真地说“我会尝试改变命运。”", 
-			"dc": 7, 
-			"check": "intelligence" 
+		  {
+			"text": "Option A: Say seriously, “I’d try to change fate.” [Intelligence Check DC 7]",
+			"dc": 7,
+			"check": "intelligence"
 		  },
-		  { 
-			"text": "选项 B：轻描淡写地说“我会照常开店，继续过日子。”", 
-			"dc": 5, 
-			"check": "wisdom" 
+		  {
+			"text": "Option B: Say casually, “I’d keep running the inn as usual.” [Wisdom Check DC 5]",
+			"dc": 5,
+			"check": "wisdom"
 		  },
-		  { 
-			"text": "选项 C：反问她“那你呢？你会想改变什么？”", 
-			"dc": 6, 
-			"check": "charisma" 
+		  {
+			"text": "Option C: Ask her back, “And you? What would you want to change?” [Charisma Check DC 6]",
+			"dc": 6,
+			"check": "charisma"
 		  }
 		]
 	  },

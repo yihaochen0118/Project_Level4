@@ -1,125 +1,115 @@
 [
   {
 	"event": [
-	  { "action": "set_background", "target": "underground_ruins" },
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "我伸手拦住露西亚，低声道：“别动。我来拖住他们——你想办法靠近导师。”"
-  },
-  {
-	"text": "她瞪大眼睛，嘴唇发白：“你疯了！”"
-  },
-  {
-	"text": "我深吸一口气，走出阴影。蓝光从地面折射到脸上，我举起空着的手。"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“别误会，”我开口，尽量让语气镇定，“我们不是敌人。我只是想确认——她是否还活着。”"
-  },
-  {
-	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "黑袍首领缓缓转头，声音像石头磨过铁：“活着或死去，都与命运无关。凡人，不要试探回音的秩序。”"
-  },
-  {
-	"text": "🎲【魅力检定：失败】你的声音微微颤抖，言语被他察觉出一丝心虚。"
-  },
-  {
-	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "“拖延？”他冷笑一声，“连说谎都这么拙劣。”"
-  },
-  {
-	"event": { "action": "shake", "target": "Player" },
-	"text": "我心头一紧。蓝光骤然汇聚，阵法的符文像脉搏一样跳动。"
+	"text": "I raised a hand to stop Lucia and whispered, “Don’t move. I’ll hold them off—find a way to reach the mentor.”"
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“糟了！”露西亚低喊，立刻念起咒语。"
+	"text": "Her eyes widened, lips pale. “Are you insane?!”"
   },
   {
-	"text": "我冲上前，试图打断首领的手势。可他的咒语比我快一步。"
+	"text": "I took a deep breath and stepped out of the shadows. The blue light from the floor reflected across my face as I raised my empty hand."
   },
   {
-	"text": "光线骤闪，空气里弥漫出灼烧的味道。能量鞭狠狠抽在我胸口，疼得我几乎窒息。"
+	"event": [
+	  { "action": "remove_character", "target": "Lucia" },
+	  { "action": "spawn_character", "target": "EnemyLeader", "pos": [450, 0] }
+	],
+	"text": "Lucia retreated back into the darkness, leaving me face-to-face with the cult leader."
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Don’t misunderstand,” I said, forcing my voice to stay calm. “We’re not enemies. I only want to know—if she’s still alive.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "EnemyLeader" },
+	"text": "The robed leader slowly turned his head, his voice grinding like stone against metal. “Alive or dead, it makes no difference. Mortal, do not meddle with the order of echoes.”"
+  },
+  {
+	"text": "🎲 [Charisma Check: Failed] Your voice trembles slightly—he catches the hesitation beneath your words."
+  },
+  {
+	"event": { "action": "show_name", "target": "EnemyLeader" },
+	"text": "“Stalling?” He sneered. “You can’t even lie properly.”"
+  },
+  {
+	"event": { "action": "shake", "target": "Player" },
+	"text": "The blue light surged, the runes on the ground pulsing like a heartbeat."
+  },
+  {
+	"text": "My chest tightened. The air warped, heat waves rolling outward."
+  },
+  {
+	"text": "A whip of light lashed out, striking me square in the chest."
   },
   {
 	"event": { "action": "hp_lost", "amount": 10 },
-	"text": "我被掀翻在地，喉咙里涌出一口血。露西亚喊我的名字，但声音在轰鸣中断裂。"
+	"text": "Pain burst through my chest, flinging me backward. The taste of iron filled my mouth."
   },
   {
-	"text": "阵法的光芒开始暴走，蓝焰溢出地面，像要吞噬整个地下室。"
-  },
-  {
-	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "“循环必须完成！”他狂笑，双手高举，“即使以肉身为祭！”"
-  },
-  {
-	"text": "露西亚怒喝：“做梦！”"
-  },
-  {
-	"text": "她将法杖猛地砸地，一道金色的光墙扩散开来，将我和艾莉西亚隔在一边。"
-  },
-  {
-	"text": "我强撑着站起来。短剑几乎脱手，却还是被我握紧。"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“露西亚！解锁！”我嘶吼。"
-  },
-  {
-	"text": "她的咒语在空气中颤抖，光线一点点侵入锁链。首领察觉到了，暴怒地朝她冲去。"
-  },
-  {
-	"text": "我没有时间思考，直接扑上去挡下他。刀光与符光交织，火星四溅。"
-  },
-  {
-	"event": { "action": "shake", "target": "Player" },
-	"text": "那一击几乎让我手臂失去知觉。"
-  },
-  {
-	"text": "就在此刻，锁链碎裂的声音在身后响起。艾莉西亚跌落在地，露西亚伸手接住她。"
-  },
-  {
-	"text": "首领怒吼着释放最后的咒语——但阵法已经失衡。能量反噬如潮。"
-  },
-  {
-	"text": "蓝光爆裂，冲击波掀翻了一切。我被抛到墙边，眼前一片模糊。"
-  },
-  {
-	"text": "当我勉强爬起来时，黑袍人们已经化作灰烬。露西亚跪在艾莉西亚旁，手在颤。"
+	"event": [
+	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] }
+	],
+	"text": "Lucia charged from the shadows, her staff blazing with light, placing herself between me and the enemy."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“她还有呼吸……只是太虚弱了。”"
+	"text": "“Stop!” she shouted, her voice almost drowned out by the roar of the flames."
+  },
+  {
+	"text": "A golden wall of light flared before us, blocking the next wave of attacks."
+  },
+  {
+	"text": "But the ritual’s glow began to spiral out of control—blue fire spreading along the floor as if to devour the entire chamber."
+  },
+  {
+	"event": { "action": "show_name", "target": "EnemyLeader" },
+	"text": "The leader’s laughter echoed within the flames. “The Cycle must be fulfilled! Even if it demands flesh as the price!”"
+  },
+  {
+	"text": "He raised both hands, the runes beneath him blazing ever brighter."
+  },
+  {
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "Lucia shouted back, “Over my dead body!”"
+  },
+  {
+	"text": "Her spell ripped through the air, the barrier expanding and separating me from Alicia."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“走……别留在这。”我用尽全力站起，声音低哑。"
+	"text": "“Lucia! Unlock it!” I screamed."
   },
   {
-	"text": "她点头，眼里是忍住泪的光。"
+	"text": "Her staff flared with brilliant light. The runes on the chains cracked and began to shatter."
   },
   {
-	"text": "我们合力将艾莉西亚带上楼。夜风迎面扑来，冰冷刺骨。"
+	"text": "The leader sensed the disturbance, but the ritual was already collapsing—energy surging out of control."
   },
   {
-	"text": "雪落在她的头发上，像是替她掩盖血迹。露西亚回头望着那片废墟：“他们……自爆了阵法？”"
+	"event": { "action": "shake", "target": "Player" },
+	"text": "Blue light exploded, the shockwave consuming everything around us."
   },
   {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“也许不是。”我低声说，“他们更像是——被抹除了。”"
+	"event": [
+	  { "action": "remove_character", "target": "EnemyLeader" },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] }
+	],
+	"text": "When I forced my eyes open, the cultists were gone—only Alicia and Lucia remained, lying unconscious among the rubble."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "艾莉西亚在昏睡中轻声呢喃：“……不要再提……循环……”"
+	"text": "“...Thank you...” she murmured faintly in her sleep."
   },
   {
-	"text": "风声将她的低语吹散，只剩夜雪无声地落。"
+	"text": "Wind poured in through the collapsed entrance. Snowflakes drifted down onto her face, as if gently covering her from the world."
   },
   {
-	"text": "我低头，看见掌心的黄铜骰滚了一下，停在了“1”。"
-  },
-  {
-	"text": "我苦笑。命运的掷点，从来就不公平。"
+	"text": "I gave a bitter smile. Fate was never fair."
   },
   {
 	"event": [

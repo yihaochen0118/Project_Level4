@@ -1,103 +1,113 @@
 [
   {
 	"event": [
-	  { "action": "set_background", "target": "underground_ruins" },
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "EnemyLeader", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "我看着那阵法，心跳几乎要撕裂胸腔。"
+	"text": "My heart pounded so hard it felt like it might tear through my chest as I stared at the ritual circle."
   },
   {
-	"text": "那些吟唱声像一张无形的网，紧紧缠住思绪。空气压得我喘不过气。"
+	"text": "The chanting wrapped around my thoughts like an invisible net, suffocating me under its weight."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“露西亚，我们……我们得走。”我低声说。声音颤得不像自己的。"
+	"text": "“Lucia, we… we have to go,” I whispered, my voice trembling, barely sounding like my own."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“什么？”她转过头，满眼难以置信，“你说什么？”"
+	"text": "“What?” She turned, eyes wide in disbelief. “What did you just say?”"
   },
   {
-	"text": "我没有再看她，只是抓住她的手臂，往出口的方向拖。"
+	"text": "I didn’t look back. I just ran—toward the exit as fast as I could."
   },
   {
-	"text": "🎲【意志检定：失败】你的恐惧占据了理智。你只听见自己心脏的跳动。"
+	"text": "🎲 [Will Check: Failed] Your fear overwhelms your reason. All you can hear is your heartbeat."
   },
   {
-	"text": "身后传来阵法爆鸣的回响。蓝光一寸寸吞噬阴影，仿佛有无数眼睛在看着。"
+	"text": "The explosion of the ritual echoed behind me. Blue light devoured the shadows inch by inch, as if countless unseen eyes were watching."
   },
   {
-	"text": "露西亚挣扎着大喊：“导师还在里面！你在干什么——”"
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "Lucia shouted, “The mentor’s still inside! What are you doing, you coward?!”"
   },
   {
 	"event": { "action": "shake", "target": "Lucia" },
-	"text": "一阵剧烈的冲击打断她的话。墙壁碎裂，铁屑横飞。"
+	"text": "A violent shockwave cut her words short. The walls cracked, iron shards scattering through the air."
   },
   {
-	"text": "我被震得滚下楼梯，头撞到地面，眼前一黑。"
+	"event": [
+	  { "action": "remove_character", "target": "EnemyLeader" },
+	  { "action": "remove_character", "target": "Lucia" }
+	],
+	"text": "I was thrown down the stairs, my head slamming into the floor. Everything went dark."
   },
   {
-	"text": "当我重新睁眼时，世界已经变了样。"
+	"text": "When I opened my eyes again, the world was no longer the same."
   },
   {
-	"text": "地下室坍塌了一半，空气里弥漫着焦糊和灰烬。露西亚的身影不见了。"
+	"event": [
+	  { "action": "set_background", "target": "Street" }
+	],
+	"text": "Half of the underground chamber had collapsed. The air reeked of ash and burnt stone. Lucia and Alicia were nowhere to be seen."
   },
   {
-	"event": { "action": "hp_lost", "amount": 15 },
-	"text": "胸口的痛让呼吸都成了刀。"
+	"event": { "action": "hp_lost", "amount": 70 },
+	"text": "Pain tore through my chest—each breath felt like swallowing knives."
   },
   {
-	"text": "我挣扎着站起，脚下是一块碎裂的石柱。上面刻着还未消散的阵纹。"
+	"text": "I staggered to my feet. Beneath me lay a broken stone pillar, faint runes still glowing across its surface."
   },
   {
-	"text": "阵心的石台已经空了。只有一缕蓝色光雾，在空气中缓缓旋转——那是艾莉西亚的护符碎片。"
+	"text": "The altar at the center was empty now. Only a wisp of blue mist hovered in the air—Alicia’s shattered amulet."
   },
   {
-	"text": "我踉跄着靠近，伸手去碰。"
+	"text": "I stumbled closer and reached out my hand."
   },
   {
 	"event": { "action": "shake", "target": "Player" },
-	"text": "指尖刚触到，耳边响起低沉的呢喃："
+	"text": "The moment my fingers brushed it, a low murmur echoed in my ears:"
   },
   {
-	"text": "“……循环未终……记忆将重铸……”"
+	"text": "“...The Cycle is not over... the memory shall be reforged...”"
   },
   {
-	"text": "那声音像是从体内响起，我猛地后退。蓝光骤亮，碎片化作无数光点，融入空气。"
+	"text": "The voice came from within me. I staggered back as the blue light flared, the fragments scattering into the air like dust."
   },
   {
-	"text": "然后，一切都静了。"
+	"text": "Then—silence."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "我呆呆地站在原地，四周只剩灰烬和冷风。"
+	"text": "I stood there in a daze. Only ashes and cold wind surrounded me."
   },
   {
-	"text": "地面塌陷的声音远去，像一首结束的挽歌。"
+	"text": "The sound of collapsing stone faded away, like the last notes of a funeral song."
   },
   {
-	"text": "我走到出口，推门的那一刻，外面正下着雪。"
+	"text": "I reached the exit. As I pushed the door open, snow was falling outside."
   },
   {
-	"text": "风从缝隙灌进来，吹灭了身后的火光。"
+	"text": "A gust of wind slipped through the cracks, snuffing out the last of the fire behind me."
   },
   {
-	"text": "我低头，看见那颗黄铜骰静静躺在地上，数字面朝下。"
+	"text": "I looked down—and saw the brass die lying quietly on the ground, face-down."
   },
   {
-	"text": "我伸手去捡——骰子在掌心滚了一圈，露出一个“0”。"
+	"text": "I picked it up. It rolled once in my palm and stopped—showing a zero."
   },
   {
-	"text": "我怔住。明明那上面从来没有“0”这一面。"
+	"text": "I froze. That die was never supposed to have a zero."
   },
   {
 	"event": [
 	  { "action": "set_flag", "flag": "BadEnd_RunnerFail", "value": true },
 	  { "action": "change_scene", "target": "scene_bad_end_runner_fail" }
 	],
-	"text": "【Bad Ending：坍塌的循环】"
+	"text": "【Bad Ending: The Collapsing Cycle】"
   },
   {
-	"text": "雪继续下。没有人再回应。"
+	"text": "The snow kept falling. No one answered."
   }
 ]

@@ -1,17 +1,52 @@
 [
   {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
+	  { "action": "show_talk_ui" }
+	]
+  },
+  {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“我会尝试改变命运。”我答得有点仓促。"
+	"text": "“I’ll try to change my fate.” The words slipped out faster than I meant them to—and as soon as I said them, I felt the weight of what they really meant."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "艾莉西亚笑了笑，眼神却有些悲哀：“很多人都这么说。”"
+	"text": "Alicia smiled—gentle, yet never reaching her eyes. “Many people say that.”"
   },
   {
-	"text": "她低头看向杯底的酒光：“但命运不是骰子。它不会因为意志改变点数。”"
+	"text": "She slowly turned her glass. The amber liquid rippled in circles, catching the firelight as it moved."
   },
   {
-	"text": "那一刻我忽然觉得，她似乎在说自己的事。空气有种说不出的冷意。"
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“But fate doesn’t listen. You think you’re changing it—but really, you’re just walking a little farther down the road it already laid for you.”"
   },
-  { "event": [{ "action": "change_scene", "target": "scene1.4" }] }
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“And what about you?” I asked. “Do you believe in fate—or do you fight it?”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "Her hand paused on the rim of the glass, her gaze settling on the fire. “I used to think I could win.”"
+  },
+  {
+	"text": "The flames flickered, a spark landing on her sleeve. She brushed it away without looking. For a brief instant, I saw a shadow pass through her eyes—not fear, but exhaustion."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Fate isn’t a die,” she murmured. “It doesn’t change its number just because you will it to.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Sounds like you’ve tried it yourself.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "She was quiet for a moment, then smiled faintly. “Maybe. But if I could, I’d rather not have tried at all.”"
+  },
+  {
+	"text": "Her smile was brief and fragile—like a curtain drawn over an unhealed wound. The firelight wavered in her eyes, and for a moment, even the air felt cold."
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.4" }]
+  }
 ]

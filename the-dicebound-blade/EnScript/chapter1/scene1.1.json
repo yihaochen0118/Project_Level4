@@ -5,26 +5,93 @@
 	  { "action": "show_talk_ui" }
 	]
   },
-  { "text": "空气终于平静下来。炉火重新跳动，光影在她的盔甲上微微闪烁。" },
-  { "text": "“刚才那一手……是魔法？”", "event": [{ "action": "show_name", "target": "Player" }] },
-  { "text": "她眨了眨眼，唇角浮出一点笑意：“不，是风听我的话。”", "event": [{ "action": "show_name", "target": "Alicia" }] },
-  { "text": "窗外的风渐渐止息，只剩雪花轻拍窗棂。旅店恢复了往日的宁静，只有火焰的噼啪声在空中回荡。" },
-  { "text": "我忙着收拾散落的杯子，她走过来，弯下腰帮我扶起桌子。她的手指很稳，动作却带着一丝陌生的温柔。" },
-  { "text": "“你不该一个人面对这种事。”", "event": [{ "action": "show_name", "target": "Alicia" }] },
-  { "text": "“我一直都一个人。”", "event": [{ "action": "show_name", "target": "Player" }] },
-  { "text": "“那可不行。”她笑着摇头，“人啊，总要学会被别人救一次。”", "event": [{ "action": "show_name", "target": "Alicia" }] },
-  { "text": "我愣了几秒，反问：“那你呢？你也会被救吗？”", "event": [{ "action": "show_name", "target": "Player" }] },
-  { "text": "她没回答，只是微微一笑——笑意温柔，却像隔着岁月的雾。" },
-  { "text": "“我是旅人，”她说，“可以给我一间房吗？”", "event": [{ "action": "show_name", "target": "Alicia" }] },
-  { "text": "“当然可以。”我拿出钥匙，指向楼上角落的房间，“那间安静、靠窗，晚上能看到北方的雪光。”", "event": [{ "action": "show_name", "target": "Player" }] },
-  { "text": "她点点头，取下斗篷，露出那柄刻有纹路的剑——剑柄处有一道细小的裂痕。" },
-  { "text": "我注意到那裂口，炉火的光映在上面，像一道尚未愈合的伤口。" },
-  { "text": "“有时候，裂痕不是缺陷，而是证明还没碎。”", "event": [{ "action": "show_name", "target": "Alicia" }] },
-  { "text": "她转身上楼的背影被火光切成几道金线。脚步声在木梯上回荡，清脆又节制。" },
-  { "text": "门外的风已止，雪却开始轻轻飘落。", "event": [{ "action": "remove_character", "target": "Alicia" }] },
-  { "text": "我低头，看见柜台上那只黄铜骰。它在桌面滚了半圈，自己停下，面朝“1”。" },
-  { "text": "我皱了皱眉，把它捡起。——但我确定，刚才我没碰过它。" },
-  { "text": "我把骰子放进怀里，听着外头的雪声。那声音柔和，却让我有种莫名的错觉：像是有人在很久以前，也掷过同一枚骰子。" },
+  {
+	"text": "The air finally settled. The fire crackled back to life, and the flickering light danced softly across her clothes."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“That move just now... was it magic?”"
+  },
+  {
+	"text": "She blinked, a faint smile tugging at the corner of her lips."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“No. The wind just listens when I speak.”"
+  },
+  {
+	"text": "Outside, the wind gradually quieted. Only snowflakes brushed gently against the windowpanes. The inn returned to its usual calm, with nothing but the soft crackle of the fire filling the air."
+  },
+  {
+	"text": "As I picked up the fallen cups, she came over and knelt beside me to lift the overturned table. Her hands were steady—her movements carried an unfamiliar gentleness."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Do you often handle things like this on your own? Drunks like that can be trouble.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“I’ve always been alone. Ever since I took over this place from my family.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You should hire someone to help. It’s good to have company to talk to.”"
+  },
+  {
+	"text": "She smiled and shook her head lightly."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“People need to learn when to let others lend a hand.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“And you? Do you ever let anyone help you?”"
+  },
+  {
+	"text": "She didn’t answer—only smiled again, softly, as if through the mist of time."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’m a traveler.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Could you spare me a room?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Of course.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“This one’s quiet, near the window—you can see the northern snowlight at night.”"
+  },
+  {
+	"text": "She nodded and unclasped her cloak, revealing the sword at her side—its hilt marked by a thin crack along the guard."
+  },
+  {
+	"text": "I noticed the flaw. In the firelight, it glimmered faintly—like a wound that had never quite healed."
+  },
+  {
+	"text": "“Damage doesn’t mean it’s broken,” I murmured. “It just reminds you that you once fought.”"
+  },
+  {
+	"text": "She turned toward the stairs. The firelight traced her silhouette in thin lines of gold. Her footsteps echoed softly on the wooden steps—measured and calm."
+  },
+  {
+	"event": [{ "action": "remove_character", "target": "Alicia" }],
+	"text": "Outside, the wind had died, but the snow had begun to fall again—quiet and slow."
+  },
+  {
+	"text": "I looked down and saw a brass die lying on the counter. It rolled half a turn on its own before stopping—face up on a three."
+  },
+  {
+	"text": "I frowned, picking it up. I was certain—I hadn’t touched it just now."
+  },
+  {
+	"text": "I slipped the die into my pocket and listened to the snow outside. The sound was soft, almost tender... but something about it felt strangely familiar, as if someone long ago had once rolled the very same die."
+  },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.2" }]
   }

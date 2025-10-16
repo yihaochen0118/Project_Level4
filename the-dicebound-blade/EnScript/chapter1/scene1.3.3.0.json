@@ -1,17 +1,33 @@
 [
   {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "The firelight flickered in her eyes, the air still thick with the scent of wine."
+  },
+  {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“那你呢？你会想改变什么？”我反问。"
+	"text": "“And you?” I asked quietly. “What would you change?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她只是静静看着我，没有回答。"
+	"text": "She was silent for a long time, simply looking at me—so long that I nearly forgot to breathe."
   },
   {
-	"text": "那双灰蓝的眼像结了霜，隔着火光，仿佛什么都照不进去。"
+	"text": "Her gray-blue eyes seemed glazed with frost. Through the fire’s glow, nothing seemed able to reach her."
   },
   {
-	"text": "“有些问题，问出来就已经太迟了。”她低声说，然后轻轻移开目光。"
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Some questions,” she murmured, “are already too late once spoken.”"
   },
-  { "event": [{ "action": "change_scene", "target": "scene1.4" }] }
+  {
+	"text": "She took another slow sip of wine. The motion was calm, but carried a chill that pushed everything else away."
+  },
+  {
+	"text": "The fireplace popped softly, as if to echo the silence that followed."
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.4" }]
+  }
 ]

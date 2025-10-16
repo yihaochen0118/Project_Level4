@@ -4,7 +4,7 @@
 	"event": [
 	  { "action": "spawn_character", "target": "Monster1", "pos": [-450, 0] },
 	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
-	  { "action": "set_background", "target": "forest_battle" },
+	  { "action": "set_background", "target": "forest_path" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "魔兽发出低沉的嘶吼，四肢的岩壳闪着冷光。它的气息炽热、沉重，仿佛要把整片森林压垮。"

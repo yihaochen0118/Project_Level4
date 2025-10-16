@@ -2,7 +2,7 @@
   {
 	"event": [
 	  { "action": "hide_talk_ui" },
-	  { "action": "set_background", "target": "tarven_night" }
+	  { "action": "set_background", "target": "tavern_night" }
 	]
   },
   {

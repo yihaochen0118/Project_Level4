@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://331ye6wab0as"]
+
+[ext_resource type="Texture2D" uid="uid://barkj0yx3gtlk" path="res://images/background/tarven_night.png" id="1_hrt3c"]
+
+[node name="tavern_night" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(979.5, 542.5)
+scale = Vector2(1.2753906, 1.0634766)
+texture = ExtResource("1_hrt3c")

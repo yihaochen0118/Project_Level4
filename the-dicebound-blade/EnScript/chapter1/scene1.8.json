@@ -2,53 +2,48 @@
   {
 	"event": [
 	  { "action": "hide_talk_ui" },
-	  { "action": "set_background", "target": "inn_night" },
+	  { "action": "set_background", "target": "tavern_night" }
 	]
   },
   {
 	"event": { "action": "show_talk_ui" },
-	"text": "夜晚的空气稠得像墨。风带着烧焦的草味，从北门的方向涌来——那是只有魔兽靠近时才会出现的气息：金属、血、腐烂。"
+	"text": "The night air was thick as ink. A burnt, metallic scent drifted in from the north gate—the unmistakable stench that came with monsters: iron, blood, and rot."
   },
   {
-	"text": "我靠在柜台后，火炉的光一点点暗下去。屋外传来远远的马蹄声，像在逃。忽然意识到——天都黑了，艾莉西亚还没回来。露西亚也不在。"
+	"text": "I leaned behind the counter. The fire in the hearth was dying, its glow fading to embers. From afar came the sound of hooves—fleeing, not charging. Then it struck me: it was already dark. Alicia hadn’t returned. Lucia was gone too."
   },
   {
-	"text": "我走到窗边，街道空无一人，风卷着雪屑在巷口打着旋。旅店的灯光倒映在玻璃里，像两个孤零零的眼。她临走前只留下一句：今晚无论听见什么声音，都不要出门。"
+	"text": "I went to the window. The street outside was empty, the wind swirling snowflakes through the alleys. The inn’s lights reflected dimly in the glass—two lonely eyes in the dark. Before she left, Alicia said only one thing: *Don’t go outside tonight, no matter what you hear.*"
   },
   {
-	"text": "我打开抽屉，摸到那柄短剑。她说过“保你一夜无梦”。可我根本睡不着。"
+	"text": "I opened the drawer and felt for the short sword—and the charm. She said it would ‘keep me dreamless for one night.’ But I couldn’t sleep at all."
   },
   {
-	"event": { "action": "set_background", "target": "inn_night_door" },
-	"text": "风声越来越大，像有东西在城外怒吼。屋子微微震动，尘灰从梁上飘落。我走到门边，门缝里涌进一阵热风，夹着血的味道。手握住门把手，掌心发烫。"
+	"text": "The wind grew stronger, carrying the roar of something beyond the walls. The house trembled; dust drifted from the beams. I walked to the door. A blast of hot air rushed through the crack—thick with blood. My hand tightened around the handle, burning hot."
   },
   {
-	"text": "她的声音像还在耳边：不要出门。我用尽全力，才让自己松开手。"
+	"text": "Her voice still echoed in my head: *Don’t go outside.* I forced myself to let go."
   },
   {
-	"event": [
-	  { "action": "hide_talk_ui" }
-	],
-	"text": "远处的天际一亮又灭，那种亮度不该属于人间。"
+	"text": "A flash lit the horizon—then vanished. That kind of light didn’t belong to this world."
   },
   {
-	"event": { "action": "show_talk_ui" },
-	"text": "不知那场战斗持续了多久。风终于停下，街口一片死寂。北边的天，微微泛红。"
+	"event": { "action": "set_background", "target": "Black" },
+	"text": "I didn’t know how long the battle lasted. When the wind finally ceased, the streets were silent. To the north, the sky faintly glowed red."
   },
   {
-	"event": { "action": "set_background", "target": "town_street_night" },
-	"text": "我推开门，只见夜色像被烧焦的灰包裹。街上没有人，也没有露西亚。只有风把血腥味越吹越淡。"
+	"event": { "action": "set_background", "target": "Street" },
+	"text": "I opened the door. The air outside was heavy with ash and burnt snow. No people. No Lucia. Only the wind, thinning the scent of blood with every gust."
   },
   {
-	"event": { "action": "set_background", "target": "inn_front_snow" },
-	"text": "我在门口站了很久，雪开始落下，细小、冰冷。脚边的雪里半埋着一枚熟悉的东西——黄铜骰。"
+	"text": "I stood there for a long time. Snow began to fall—thin, cold. Something half-buried at my feet caught the light: a brass die."
   },
   {
-	"text": "它还带着一丝温度。我捡起，擦去上面的血痕。骰子在掌心滚了一下，慢慢停下——“13”。世界忽然安静下来，连风都像在屏息。"
+	"text": "It was still warm. I picked it up, wiped the blood away. The die rolled once in my palm, then stopped—‘3.’ The world went utterly still. Even the wind seemed to hold its breath."
   },
   {
-	"event": { "action": "set_background", "target": "inn_night_dark" },
-	"text": "我回到柜台后坐下。火已熄灭，窗外的雪还在下。那一夜，我没再睡着，也没再见到她们回来。"
+	"event": { "action": "set_background", "target": "tavern_night" },
+	"text": "I sat back behind the counter. The fire was out. Outside, snow kept falling. That night, I didn’t sleep. And they never came back."
   },
   {
 	"event": { "action": "change_scene", "target": "scene2.0" }

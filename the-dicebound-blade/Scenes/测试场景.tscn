@@ -7,7 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://dpo6pv4jbf27w" path="res://Scenes/Start.tscn" id="5_4sfak"]
 [ext_resource type="PackedScene" uid="uid://nppoilchca2v" path="res://Scenes/ui/loadUi.tscn" id="6_3ycm5"]
 [ext_resource type="PackedScene" uid="uid://cecoqv6x60h5n" path="res://Scenes/ui/PlayerStatu.tscn" id="7_e120r"]
-[ext_resource type="PackedScene" uid="uid://ral7obqpv7j7" path="res://Scenes/Background/battle.tscn" id="8_luoyv"]
+[ext_resource type="PackedScene" uid="uid://ral7obqpv7j7" path="res://Scenes/Background/town_gate_day.tscn" id="8_luoyv"]
 
 [node name="Node2D" type="Node2D"]
 

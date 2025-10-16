@@ -1,119 +1,121 @@
 [
   {
 	"event": [
-	  { "action": "set_background", "target": "underground_ruins" },
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "我按住露西亚的肩膀，低声道：“别动。我去拖住他们——你找机会救人。”"
-  },
-  {
-	"text": "她的瞳孔猛地放大：“你疯了吗？！”"
-  },
-  {
-	"text": "我没有回答。只是深吸一口气，缓缓从阴影里走出。蓝光在地面流淌，冷得像水。"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“打扰诸位了，”我举起双手，声音平静，“我无意破坏仪式，只想知道——她为什么会在这里？”"
-  },
-  {
-	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "为首的黑袍人微微抬头，面具反射出阵法的光。他的声音低沉：“外来者，你不该在此。此地属于‘回音’。”"
-  },
-  {
-	"text": "🎲【魅力检定：成功】你察觉到他的语气中有一丝犹豫。"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“‘回音’？她是镇上的医者，你们把她抓来，是想让她帮忙还是献祭？”"
-  },
-  {
-	"text": "我刻意拉高了声音，让露西亚听见我的语气变化。那是约定的信号——行动开始。"
-  },
-  {
-	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "“她懂循环之术，我们只是请她‘回忆’。”黑袍首领低声道，语气中似乎有一丝戒备，“而你，凡人，无法理解灵魂的等价。”"
-  },
-  {
-	"text": "“或许吧。”我走近一步，举起那颗黄铜骰，“可命运的平衡，总该由掷的人决定。”"
-  },
-  {
-	"text": "他停顿了一下。那一瞬间，他身后的人也放缓了吟唱。"
+	"text": "I pressed a hand on Lucia’s shoulder and whispered, “Don’t move. I’ll distract them—you use the chance to save her.”"
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "与此同时，露西亚已经悄悄潜到阵法边缘，双手掐诀，口中念咒。微光在锁链上蔓延。"
+	"text": "Lucia’s eyes widened, her voice trembling. “Are you crazy? That’s a ritual circle!”"
   },
   {
-	"text": "首领注意到了她的动作，但我的声音抢先一步打断了他的命令。"
+	"text": "I didn’t answer. I drew a deep breath and slowly stepped out of the shadows. Blue light flowed along the floor, and the air was thick with damp chill."
+  },
+  {
+	"event": [
+	  { "action": "remove_character", "target": "Lucia" },
+	  { "action": "spawn_character", "target": "EnemyLeader", "pos": [450, 0] }
+	],
+	"text": "I stepped into the glowing circle, facing the robed leader directly."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“你口中的循环，是不是意味着——重生？”"
+	"text": "“Forgive the intrusion,” I said, raising both hands and keeping my tone as calm as I could. “I mean no harm—I just want to know… why is she here?”"
   },
   {
 	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "“是。”他抬起头，目光冰冷，“在命运的轮中，每一个灵魂都有它的位置。她背弃了自己的——”"
+	"text": "The leader lifted his head, his mask reflecting the circle’s light. “Outsider, you should not be here. This place belongs to the Echo.”"
+  },
+  {
+	"text": "🎲 [Charisma Check: Success] Your tone is steady enough to make him hesitate for a moment."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“那你呢？”我逼视他，“你的位置又是谁给的？”"
+	"text": "“‘The Echo’? She’s the town’s healer. Did you capture her to heal someone—or to sacrifice her?”"
   },
   {
-	"text": "他一愣，声音微微停滞。那片刻的沉默，像是线被拉断。"
+	"event": { "action": "show_name", "target": "EnemyLeader" },
+	"text": "“She understands the art of the Cycle,” he said softly. “We merely help her remember. Mortals know nothing of the price of the soul.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Maybe not,” I replied, lifting the brass die in my hand. “But balance—should belong to the one who rolls it.”"
+  },
+  {
+	"text": "The leader’s breath faltered slightly. The chanting in the circle wavered."
+  },
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] }
+	],
+	"text": "Lucia seized the moment, moving to the edge of the formation. Light flowed from her fingertips along the chains."
+  },
+  {
+	"text": "I saw her spell begin to take effect—and quickly drew the leader’s attention again."
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“This ‘Cycle’ you speak of… does it mean rebirth?” I asked."
+  },
+  {
+	"event": { "action": "show_name", "target": "EnemyLeader" },
+	"text": "“Yes.” His voice deepened. “She abandoned her power—so I will use it properly.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“And you?” I stepped closer. “Does that power truly belong to you?”"
   },
   {
 	"event": { "action": "shake", "target": "EnemyLeader" },
-	"text": "轰——光线骤然爆闪。露西亚成功解开最后的封锁，能量失衡的阵法开始反噬。"
+	"text": "His expression froze. The glow of the circle began to distort."
+  },
+  {
+	"text": "Lucia broke the final seal, and the blue light surged backward. The formation’s energy turned on itself."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“导师！”露西亚冲上去接住艾莉西亚。"
+	"text": "“Mentor!” Lucia cried, catching Alicia as she fell."
   },
   {
-	"text": "我猛地退到一旁。阵法的蓝光坍塌，碎裂的符文漂浮在空气中，像被撕碎的梦。"
+	"text": "A burst of energy flooded the chamber, drowning everything in blue light."
   },
   {
 	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "“愚蠢——你们毁了循环！”首领怒吼，掌心的咒印炸开。"
+	"text": "The leader roared, “You destroyed the Cycle!”"
   },
   {
-	"text": "我反应极快，踢翻身边的铁桶，火花四散。那一击打偏，只在我脸边擦出一阵灼热的风。"
+	"text": "The backlash tore through his sigils. He was consumed by the blue fire and reduced to ash."
   },
   {
-	"event": { "action": "shake", "target": "EnemyLeader" },
-	"text": "冲击声中，首领被反噬的能量击退。他的面具裂开一半，露出一只被光灼烧的眼。"
-  },
-  {
-	"text": "他退到阴影中，声音嘶哑：“你以为赢了吗？循环不会停。”"
-  },
-  {
-	"text": "说完，黑袍人们散作光尘，消失在残留的符文雾气中。"
+	"event": [
+	  { "action": "remove_character", "target": "EnemyLeader" },
+	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] }
+	],
+	"text": "Dust drifted through the air—only Lucia’s ragged breathing remained."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“导师还在昏迷，但呼吸平稳。”露西亚抱着她，语气里有一丝哭腔。"
+	"text": "“The mentor’s alive… her breathing’s weak, but she’s still here.” Her voice trembled."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“走吧。这里不安全。”"
+	"text": "“Come on, this place is about to collapse.”"
   },
   {
-	"text": "我们一前一后离开地下室。夜色浓得几乎看不清方向，只剩远处灯笼的光。"
-  },
-  {
-	"text": "露西亚回头望了那片废墟一眼：“他们到底是谁？”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“不知道。但他们提到‘循环’——似乎不只是传说。”"
+	"event": [
+	  { "action": "set_background", "target": "Street" }
+	],
+	"text": "We left the underground chamber one after another. Cold wind rushed in through the broken opening, and snowflakes landed on Alicia’s hair."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "艾莉西亚在昏睡中轻声呢喃：“……循环……不该被……记起……”"
+	"text": "I held Alicia in my arms as she murmured faintly in her sleep, “...Thank you…”"
   },
   {
-	"text": "风从街角掠过，吹起雪。那声音像远处某种回音，又像是未完的梦。"
+	"text": "The wind swept down the street, scattering the last of the ashes. Silent snow continued to fall."
   },
   {
 	"event": [

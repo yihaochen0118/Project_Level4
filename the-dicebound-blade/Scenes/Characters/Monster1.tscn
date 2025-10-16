@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bl6a7n23m3fhr"]
+
+[ext_resource type="Texture2D" uid="uid://m7w4e3uhr41p" path="res://images/Chara/Monster1.png" id="1_1vc63"]
+
+[node name="Monster1" type="Node2D"]
+
+[node name="Monster1" type="Sprite2D" parent="."]
+position = Vector2(994, 531)
+scale = Vector2(0.6, 0.508)
+texture = ExtResource("1_1vc63")

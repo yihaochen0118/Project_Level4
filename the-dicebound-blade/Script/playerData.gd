@@ -54,7 +54,9 @@ func change_hp(amount: int):
 	print("当前 HP: %d / %d" % [hp, max_hp])
 	emit_signal("hp_changed", hp, max_hp)
 
-
+func reset_dice_uses():
+	dice_uses = dice_max_uses.duplicate(true)
+	print("🎲 已重置骰子使用次数:", dice_uses)
 # --------------------
 # 存档加载（支持部分覆盖）
 # --------------------
@@ -79,6 +81,12 @@ func load_from_dict(data: Dictionary):
 	emit_signal("stats_changed")
 	emit_signal("hp_changed", hp, max_hp)
 
+func reset_all():
+	reset_dice_uses()
+	hp = max_hp
+	flags.clear()
+	choice_history.clear()
+	print("🔄 已完全重置玩家数据")
 
 # ✅ 设置 flag 值
 func set_flag(flag_name: String, value: bool = true):

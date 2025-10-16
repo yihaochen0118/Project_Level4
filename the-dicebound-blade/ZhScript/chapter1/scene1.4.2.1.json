@@ -4,7 +4,7 @@
 	"event": [
 	  { "action": "spawn_character", "target": "Monster1", "pos": [-450, 0] },
 	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
-	  { "action": "set_background", "target": "forest_battle" },
+	  { "action": "set_background", "target": "forest_path" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "地面猛地一震，一头覆满岩壳的魔兽从土中钻出，双眼泛着绿光，低吼震得林间鸟群四散。"

@@ -2,77 +2,124 @@
   {
 	"event": [
 	  { "action": "hide_talk_ui" },
-	  { "action": "set_background", "target": "tavern_morning" },
-	  { "action": "play_bgm", "target": "morning_breeze" }
+	  { "action": "set_background", "target": "tavern_empty" }
 	]
   },
   {
 	"event": { "action": "show_talk_ui" },
-	"text": "阳光透过木质窗棂，洒在柜台上。空气里还有昨夜炉火残留的温度。"
+	"text": "Sunlight filtered through the wooden lattice windows, spilling across the counter. The air still carried the warmth of last night’s hearth, so still it made time feel suspended."
   },
-  { "text": "我正数着昨晚没结的账，门口传来敲门声。" },
+  { "text": "I was tallying up the unpaid bills from the previous night when a soft knock came from the door." },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Alicia" },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] }
+	],
+	"text": "“Good morning.”"
+  },
+  {
+	"text": "It was Alicia. She had taken off her armor and wore a light brown outfit suited for travel. The cracked sword at her waist still hung quietly by her side—like an extension of her body."
+  },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“早安。”"
-  },
-  { "text": "是艾莉西亚。她脱下战甲，只穿着一身轻便的棕色行装，腰间那柄裂痕的剑仍挂在那儿。" },
-  {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“今天是周日吧？旅店休息？”"
+	"text": "“It’s Sunday, isn’t it? The inn’s closed today?”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "我点点头。"
-  },
-  { "text": "“那正好，”她笑了笑，“陪我去镇集买点东西。”" },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“我？”我愣了一下。"
+	"text": "I nodded."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“当然是你。”她侧头笑着，“你不是说没出过镇北吗？去走走吧。”"
-  },
-  { "text": "我犹豫片刻，还是脱下围裙，拿起外套。——这是我第一次离开旅店。" },
-  {
-	"event": { "action": "set_background", "target": "forest_path" },
-	"text": "从镇口往东是一条蜿蜒的石路，两边是刚解冻的松林。空气带着湿意，远处传来溪水声。"
-  },
-  { "text": "艾莉西亚走在前面，步伐轻快，却时不时回头看我。" },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“你每次都走这条路？”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“是啊。”她笑了笑，“我去过很多地方，但这条路总记得。”"
+	"text": "“Perfect,” she smiled. “Come with me to the market—I need to pick up a few things.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“为什么？”"
+	"text": "“Me?” I blinked in surprise."
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "I hesitated, glancing out the window. The morning breeze was still cold, and a thin mist swallowed the forest line in the distance."
+  },
+  {
+	"text": "“There’ve been beasts sighted outside town lately,” I said quietly. “A hunter mentioned it just yesterday.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“可能因为它每次看起来都不太一样吧。”"
+	"text": "“All the better,” she replied calmly. “If we meet one, someone needs to deal with it.”"
   },
-  { "text": "她语气平淡，像在随口感慨。" },
-  { "text": "就在这时，前方树林忽然传来一阵低吼。" },
   {
-	"event": { "action": "set_background", "target": "forest_battle" },
-	"text": "地面猛地一震，一头浑身长着石质外壳的野兽从土里钻出，眼睛发着绿光。"
+	"text": "Her lips curved slightly, as if to reassure me—or perhaps because danger had become too ordinary to her."
   },
-  { "text": "我还没反应过来，它已经朝我们扑来！" },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“What about Lucia? Isn’t she coming?”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“She was sorting herbs late last night. She’s probably still asleep.”"
+  },
+  {
+	"text": "She paused before adding softly, “Let her rest a bit longer. The poor girl was exhausted.”"
+  },
+  {
+	"text": "I sighed, took off my apron, and reached for my coat."
+  },
+  {
+	"event": [{ "action": "set_background", "target": "forest_path" }],
+	"text": "To the east of town stretched a winding stone path flanked by thawing pine trees. The air was damp, and the distant sound of running water echoed faintly."
+  },
+  {
+	"text": "Alicia walked ahead with a steady stride, occasionally glancing back at me. Sunlight filtered through the branches, tracing golden lines across her shoulders."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“You always take this road?”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Yeah. I don’t go out much, but I remember this route well. Whenever the wine runs out, I have to head into town for supplies.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“You really do live a lonely life.”"
+  },
+  {
+	"text": "Her tone was casual, almost teasing—but her steps slowed for a brief moment, as if she were listening to the wind."
+  },
+  {
+	"text": "A deep growl rumbled through the forest the next second."
+  },
+  {
+	"event": { "action": "spawn_character", "target": "Monster1", "pos": [-450, 0] },
+	"text": "The ground quaked violently, scattering dead leaves. A beast covered in rocky plates burst from the earth, its eyes burning with a sickly green light."
+  },
+  {
+	"event": { "action": "shake", "target": "Monster1" },
+	"text": "Before I could react, it lunged toward us—the air reeking of blood and iron!"
+  },
   {
 	"event": [
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "选项 A：迅速闪避 【敏捷检定（DEX DC 7）】", "dc": 7, "check": "dexterity" },
-		  { "text": "选项 B：试着拿出随身携带的背包来抵御魔兽进攻 【力量检定（STR DC 8）】", "dc": 8, "check": "strength" },
-		  { "text": "选项 C：观察怪物的弱点提醒艾莉西亚 【智力检定（INT DC 6）】", "dc": 6, "check": "intelligence" }
+		  {
+			"text": "Option A: Dodge quickly 【DEX Check DC 10】",
+			"dc": 10,
+			"check": "dexterity"
+		  },
+		  {
+			"text": "Option B: Block with your backpack 【STR Check DC 12】",
+			"dc": 12,
+			"check": "strength"
+		  },
+		  {
+			"text": "Option C: Observe and call out its weak point 【INT Check DC 6】",
+			"dc": 6,
+			"check": "intelligence"
+		  }
 		]
 	  },
 	  { "action": "hide_talk_ui" }
 	]
-  },
+  }
 ]

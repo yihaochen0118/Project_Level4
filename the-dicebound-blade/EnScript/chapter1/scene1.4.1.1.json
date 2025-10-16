@@ -2,39 +2,68 @@
   {
 	"branch": "A_success",
 	"event": [
-	  { "action": "set_background", "target": "forest_battle" },
-	  { "action": "play_bgm", "target": "battle_calm" },
+	  { "action": "spawn_character", "target": "Monster1", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "我下意识往旁边一扑，脚底的石子被震得直响。怪物的爪子从我身边划过，擦出一串火星。呼出的气都变得冰冷。艾莉西亚的身影闪过，我只看见一道银光。那野兽发出低吼，身体僵硬地停在半空，然后轰然倒下。碎裂的外壳砸在地面，溅起一片尘土。"
+	"text": "The ground trembled violently as a rock-armored beast burst from beneath the soil. Its glowing green eyes sent the birds scattering in terror."
   },
   {
-	"text": "我的手心全是冷汗。她转过身，看了我一眼，语气平静却带着一丝关切：“反应不错，下次别离太近。”我点了点头，心跳还在狂跳，但胸口莫名有种兴奋——我活下来了，而且没拖后腿。"
+	"text": "I rolled to the side, gravel crunching beneath my boots. The beast’s claws scraped past my shoulder, striking sparks against the stones."
   },
   {
-	"event": { "action": "hp_gain", "amount": 10 }
+	"text": "My breath turned to frost. Just as I steadied myself, Alicia’s silhouette flashed through the air—her cloak cutting an arc, her sword following like silver lightning."
   },
   {
-	"event": [
-	  { "action": "set_background", "target": "forest_afterbattle" },
-	  { "action": "play_bgm", "target": "forest_wind" }
-	],
-	"text": "地面还残留着魔兽燃烧后的黑痕，空气中弥漫着淡淡的烟味。阳光从枝叶间落下，照在她的剑上，光线冷得像冰。"
+	"event": [{ "action": "shake", "target": "Monster1" }],
+	"text": "A sharp gleam slashed across the monster’s chest, forcing it back several steps with a guttural snarl."
+  },
+  {
+	"text": "I spotted a crack in its armor and shouted, “Its right side—there’s a breach in the shell!”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“这种怪物不是自然长出来的。”她低声说，“它们是‘残梦’——那些死去的人留下的印记。”"
+	"text": "“I see it.” Her voice was steady, movements clean and precise. Her sword cut through the air, leaving a cold streak of light behind."
+  },
+  {
+	"event": [{ "action": "shake", "target": "Monster1" }],
+	"text": "The beast froze, the green glow in its eyes fading. A moment later, it collapsed with a heavy crash, its cracked armor scattering dirt and dust."
+  },
+  {
+	"event": [{ "action": "remove_character", "target": "Monster1" }],
+	"text": "The air filled with smoke and the scent of burnt earth. Alicia sheathed her sword and turned toward me."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Not bad,” she said calmly, though her lips curved slightly. “Next time, stay a bit farther back.”"
+  },
+  {
+	"text": "I nodded, palms slick with sweat—but my heart raced with a strange excitement. I had survived… and even helped."
+  },
+  {
+	"event": [{ "action": "set_background", "target": "forest_afterbattle" }],
+	"text": "Scorch marks still stained the ground where the beast fell. The smell of smoke lingered, and sunlight filtered through the trees, glinting off her blade—cold as ice."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“That thing wasn’t born naturally,” she murmured. “It was a ‘Residual Dream’—the trace left behind by the dead.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“残梦？”我重复了一遍，声音还带着颤。"
+	"text": "“Residual Dream?” I repeated, my voice still trembling."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“嗯。打过仗的地方、死过人的地方，地底会留下他们最后的情绪。久了，就会变成这种东西。”"
+	"text": "“Yes. In places scarred by war or death, the earth keeps the last emotions of the fallen. Over time, those emotions take shape.”"
   },
   {
-	"text": "她收起剑，转头对我微微一笑，语气重新轻快起来：“走吧，镇集就在前面，别想太多。”"
+	"text": "She sheathed her sword completely, her expression calm again. The wind swept through the trees, carrying away the smell of blood."
   },
-  { "event": [{ "action": "change_scene", "target": "scene1.5" }] }
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Come on,” she said with a faint smile. “The market’s just ahead—and I’ll be needing your help to carry a few things.”"
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.5" }]
+  }
 ]

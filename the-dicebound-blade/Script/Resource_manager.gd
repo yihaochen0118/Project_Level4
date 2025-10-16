@@ -28,15 +28,28 @@ func _ready():
 # 背景场景路径
 var backgrounds = {
 	"tavern": "res://Scenes/Background/tavern.tscn",
-	"battle": "res://Scenes/Background/battle.tscn",
+	"tavern_night": "res://Scenes/Background/tavern_night.tscn",
+	"tavern_empty": "res://Scenes/Background/tavern_empty.tscn",
+	"Street": "res://Scenes/Background/Street.tscn",
+	"forest_path": "res://Scenes/Background/forest_path.tscn",
+	"tavern_out": "res://Scenes/Background/tavern_out.tscn",
+	"town_gate_day": "res://Scenes/Background/town_gate_day.tscn",
+	"town_market_day": "res://Scenes/Background/town_market_day.tscn",
+	"town_medical_tent": "res://Scenes/Background/town_medical_tent.tscn",
+	"town_snow_street": "res://Scenes/Background/town_snow_street.tscn",
+	"Square": "res://Scenes/Background/Square.tscn",
+	"Black": "res://Scenes/Background/Black.tscn",
+	"underground_entrance": "res://Scenes/Background/underground_entrance.tscn"
 }
 
 # 角色场景路径
 var characters = {
 	"Alicia": "res://Scenes/Characters/Alicia.tscn",
-	"Man": "res://Scenes/Characters/Man.tscn",
+	"Monster1": "res://Scenes/Characters/Monster1.tscn",
 	"Junker": "res://Scenes/Characters/Junker.tscn",
 	"Lucia": "res://Scenes/Characters/Lucia.tscn",
+	"EnemyLeader": "res://Scenes/Characters/EnemyLeader.tscn",
+	"Enemy1": "res://Scenes/Characters/Enemy1.tscn",
 }
 
 var ui = {

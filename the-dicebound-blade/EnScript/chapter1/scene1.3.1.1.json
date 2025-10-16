@@ -1,17 +1,60 @@
 [
   {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "The firelight flickered against the walls, wrapping the tavern in a quiet golden haze. Her gaze lingered on me—curious, searching, almost tender."
+  },
+  {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“我会尝试改变命运。”我说。声音平静，却比想象中更坚定。"
+	"text": "“I’ll try to change my fate,” I said. My voice was calm—steadier than I’d expected."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她看了我一眼，像是在评估什么。火光映在她的眼底，闪过一瞬柔和的笑意。"
+	"text": "She blinked, as if my answer had caught her off guard. The firelight reflected softly in her eyes, and for a brief moment, she smiled."
   },
   {
-	"text": "“也许你真能做到。”她轻声说，“有些人能与命运谈判，而不是被它牵着走。”"
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Maybe you really can,” she said quietly. “Some people can negotiate with fate—instead of being dragged by it.”"
   },
   {
-	"text": "她放下酒杯，语气比刚才更轻：“如果真有那一天……希望你别后悔。”"
+	"text": "She lifted her glass but didn’t drink. Her eyes rested on the glow within, and for that moment, she seemed softened by the light."
   },
-  { "event": [{ "action": "change_scene", "target": "scene1.4" }] }
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“I’ve seen many crushed under fate’s weight,” she murmured. “But I’ve also seen—someone who smiled and stood tall before it.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“You mean yourself?” I asked."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "She froze for a heartbeat, then gave a soft, helpless laugh. “Me? I’ve never beaten it.”"
+  },
+  {
+	"text": "The flames swayed, and the faint sound of snow drifted from outside. Her smile was tinged with sorrow—but it no longer felt distant."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“If that day ever comes…” she said, “I hope you won’t regret it. Fate always demands a price for every chance it gives.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“And you?” I asked quietly. “Do you regret it?”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "She didn’t answer. She simply raised her glass and drank it all. The liquid caught the firelight—like molten amber in motion."
+  },
+  {
+	"text": "“Fate is stubborn,” she said softly, setting the glass down. Then she smiled at me—warmly, almost gently. “But maybe… you’ll be the exception.”"
+  },
+  {
+	"text": "The fire danced in her eyes, and her smile lingered there—half light, half shadow—long after the flames had begun to fade."
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.4" }]
+  }
 ]

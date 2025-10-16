@@ -1,89 +1,96 @@
 [
   {
 	"event": [
-	  { "action": "set_background", "target": "underground_ruins" },
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "EnemyLeader", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "我死死盯着那阵法的光，喉咙像被什么堵住。"
+	"text": "I stared at the light of the ritual circle, my throat tightening as if something were blocking it."
   },
   {
-	"text": "那些黑袍人的吟唱愈发急促，空气像水一样在震动。露西亚正准备冲出去，却被我一把拽住。"
+	"text": "The chanting of the robed figures grew faster, the air trembling like water. Lucia was about to rush forward, but I grabbed her arm and held her back."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“放开我！”她瞪着我，眼神里满是慌乱，“导师还在那里！”"
+	"text": "“Let go of me!” she shouted, panic flashing in her eyes. “The mentor is still in there!”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“不行！”我低声吼道，“这阵法要爆——”"
+	"text": "“No!” I barked under my breath. “The circle is going to—”"
   },
   {
-	"text": "🎲【意志检定：成功】你强迫自己转身，压抑住那股想回头的冲动。"
+	"text": "🎲 [Will Check: Success] You force yourself to turn away, suppressing the instinct to look back."
   },
   {
-	"text": "我拉着露西亚的手，用尽全力往楼梯口跑。"
+	"text": "I pulled Lucia by the hand and ran with everything I had toward the stairs."
   },
   {
 	"event": { "action": "shake", "target": "Player" },
-	"text": "身后传来一声轰鸣，蓝光如浪潮般吞没整个地下室。我们被震得跌倒在冰冷的台阶上。"
-  },
-  {
-	"text": "我几乎是拖着她冲出那道铁门。"
-  },
-  {
-	"text": "冷风灌进肺里，雪地的光刺得我眼睛发痛。"
-  },
-  {
-	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "露西亚拼命挣开我的手，转身看向那扇门。她的声音颤抖：“导师……她还在下面！”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“不能回去了。”我几乎是吼出来，“那里已经塌了！”"
-  },
-  {
-	"text": "她愣在原地，眼神空白。风吹散她的头发，雪一片片落在她脸上。"
-  },
-  {
-	"text": "“你……你为什么要拉我走？”她的声音发抖，“她是我们两个里最值得救的人……”"
-  },
-  {
-	"text": "我张口，却什么都说不出来。"
-  },
-  {
-	"text": "地下传来第二次震动。铁门彻底坍塌，蓝色的光线顺着缝隙渗出——然后消散。"
-  },
-  {
-	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "露西亚跪倒在雪地里，捂着脸哭出声。那哭声不尖锐，只是哑得可怕。"
-  },
-  {
-	"text": "我看着她的背影，胸口像被掏空。风呼啸着掠过街角，吹灭了我们来的那盏灯。"
-  },
-  {
-	"text": "我低头，掌心的黄铜骰在月光下滚动，最后停在了“20”。"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "我笑了一下。那不是喜悦，只是苦涩。"
-  },
-  {
-	"text": "“命运啊……原来就算掷出完美的一面，也救不了任何人。”"
-  },
-  {
-	"text": "露西亚没有回答。她只是缓缓站起来，背对着我，声音低到几乎听不见：“你走吧。”"
-  },
-  {
-	"text": "雪地里只剩下两串脚印，一深一浅，渐渐分开。"
+	"text": "A deafening boom erupted behind us. Blue light surged like a tidal wave, swallowing the entire chamber. We were thrown down onto the freezing steps."
   },
   {
 	"event": [
-	  { "action": "set_flag", "flag": "BadEnd_Runner", "value": true },
-	  { "action": "change_scene", "target": "scene_bad_end_runner" }
+	  { "action": "remove_character", "target": "EnemyLeader" }
 	],
-	"text": "【Bad Ending：命运的逃亡者】"
+	"text": "I half-dragged her as we stumbled through the iron gate."
   },
   {
-	"text": "你活了下来。可那一夜的雪，从此不再融化。"
+	"event": [
+	  { "action": "change_scene", "target": "Street" }
+	],
+	"text": "Cold wind filled my lungs, and the glare of the snow stung my eyes."
+  },
+  {
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "Lucia tore her hand free and turned back toward the door. Her voice trembled. “The mentor… she’s still down there!”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“We can’t go back!” I shouted, almost losing my voice. “It’s already collapsed!”"
+  },
+  {
+	"text": "She froze, her eyes vacant. The wind tossed her hair, and snowflakes settled on her face one by one."
+  },
+  {
+	"text": "“Why… why did you pull me away?” Her voice quivered. “She… she was still…”"
+  },
+  {
+	"text": "I opened my mouth, but no words came out."
+  },
+  {
+	"text": "Another tremor rumbled beneath us. The iron door finally gave way, collapsing inward. Blue light seeped through the cracks—then vanished."
+  },
+  {
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "Lucia fell to her knees in the snow, covering her face as sobs broke free—hoarse, hollow, and terrifyingly quiet."
+  },
+  {
+	"text": "I watched her back, my chest hollowed out. The wind roared down the street, extinguishing the lantern we came by."
+  },
+  {
+	"text": "I looked down—the brass die in my hand rolled under the moonlight and stopped on a ‘20’."
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "I laughed softly. It wasn’t joy—just bitterness."
+  },
+  {
+	"text": "“Fate… even with a perfect roll, I still couldn’t save anyone.”"
+  },
+  {
+	"text": "Lucia didn’t answer. She stood slowly, her back to me, voice barely above a whisper. “Go.”"
+  },
+  {
+	"event": [
+	  { "action": "remove_character", "target": "Lucia" }
+	],
+	"text": "In the snow, two sets of footprints remained—one deep, one shallow—slowly drifting apart."
+  },
+  {
+	"text": "【Bad Ending: The Fugitive of Fate】"
+  },
+  {
+	"text": "You survived. But the snow that fell that night… never melted again."
   }
 ]

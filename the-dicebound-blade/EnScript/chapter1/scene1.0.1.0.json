@@ -6,75 +6,79 @@
 	]
   },
   {
-	"text": "I stepped forward, keeping my voice as gentle as possible: “Friend, she’s just a traveler—”",
+	"text": "I took a step forward, keeping my voice as calm as I could.",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  { "text": "“My friends, let me buy the drinks. There’s no need for anger.”" },
+  {
+	"text": "The drunkard glared at me and shoved me aside. Wine splashed across the floor, and his fist slammed onto the counter with a dull crack of wood.",
+	"event": [{ "action": "show_name", "target": "Junker" }]
+  },
+  { "text": "“Don’t act like you’re some saint!”" },
+  { "text": "“Everyone in this damn town looks down on me, don’t they?!”" },
+  {
+	"text": "I stumbled back as glass cups fell from the shelves, shattering with a sharp echo through the silent tavern."
+  },
+  {
+	"text": "His eyes burned with drunken rage, wild and lost—like a trapped beast lashing out at its cage."
+  },
+  {
+	"text": "I raised a hand, about to speak again, when the wind outside suddenly howled louder. The door slammed open with a heavy bang."
+  },
+  {
+	"text": "The fire in the hearth flickered low under the gust, its light trembling violently in the air. Everyone held their breath."
+  },
+  {
+	"text": "Cold air swept in from the doorway, carrying with it snow and the faint scent of steel."
+  },
+  {
+	"text": "The cloaked woman’s gaze fell upon the drunkard—calm, yet sharper than the winter wind."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Looks like I came just in time. Are mornings here always this noisy?”"
+  },
+  {
+	"text": "Her voice was clear and steady, without force, yet it carried an authority that silenced the room."
+  },
+  {
+	"text": "The drunk opened his mouth to curse, but it was as if an invisible hand had seized his throat. The air itself froze still."
+  },
+  {
+	"text": "My chest tightened. The fire flared back to life, and in its glow, her silver hair shimmered like the gleam of a blade.",
 	"event": [{ "action": "show_name", "target": "Player" }]
   },
   {
-	"text": "Before I could finish, the drunk glared at me and shoved me hard. Wine splashed everywhere, his fist slammed onto the counter, and the wood gave a dull crack.",
-	"event": [{ "action": "show_name", "target": "Junker" }]
-  },
-  {
-	"text": "I stumbled back several steps, knocking over a few glasses that shattered loudly in the quiet tavern."
-  },
-  {
-	"text": "“Stop pretending to be a good man!” he shouted, reeking of alcohol. “Everyone in this town looks down on me, don’t they?!”",
-	"event": [{ "action": "show_name", "target": "Junker" }]
-  },
-  {
-	"text": "His eyes were clouded and wild, fury burning within like a trapped beast as he advanced step by step."
-  },
-  {
-	"text": "I raised a hand, trying to speak again—when suddenly the wind outside howled, slamming the tavern door open with a loud bang.",
+	"text": "She lifted a finger and flicked it lightly. The bottle in her hand spun gracefully, the spilled wine hanging midair as glimmering mist in the firelight.",
 	"event": [{ "action": "shake", "target": "Junker" }]
   },
   {
-	"text": "The fire in the hearth was pressed low by the gust, its light flickering violently. Everyone held their breath."
+	"text": "Everything fell silent. Even the drunk himself froze, his fury suddenly drained away."
   },
   {
-	"text": "Cold air swept in through the doorway, carrying with it snow and the scent of metal."
+	"text": "For a heartbeat, I realized—the entire tavern had gone still. Even the flames had ceased to sway."
   },
   {
-	"text": "The cloaked woman’s gaze fell upon the drunk. Calm—yet sharper than the winter wind.",
-	"event": [{ "action": "show_name", "target": "Alicia" }]
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“That’s enough.”"
   },
   {
-	"text": "The drunk opened his mouth to curse, but it was as if an invisible hand clutched his throat. The air froze."
-  },
-  {
-	"text": "My heart tightened. The fire rekindled, its glow flickering—her silver hair glimmered in the light like the reflection of a blade.",
-	"event": [{ "action": "show_name", "target": "Player" }]
-  },
-  {
-	"text": "She raised her hand and flicked her finger lightly. The bottle left the drunk’s grasp, traced a cold arc through the air, and landed neatly in her palm.",
+	"text": "The drunk’s Adam’s apple bobbed. His lips trembled, but no sound came out. He staggered back, nearly losing his footing.",
 	"event": [{ "action": "shake", "target": "Junker" }]
   },
+  { "text": "“Damn... crazy woman...”" },
   {
-	"text": "Everything went silent. Even the drunk himself froze, as if his rage had been sucked out of him."
-  },
-  {
-	"text": "In that moment, I realized—the entire tavern was still. Even the flames no longer swayed."
-  },
-  {
-	"text": "Her voice sounded softly: “Enough.”"
-  },
-  {
-	"text": "The drunk’s Adam’s apple moved. His lips trembled, but no sound came out. He staggered back a step, nearly falling.",
-	"event": [{ "action": "show_name", "target": "Junker" }]
-  },
-  {
-	"text": "Breathing heavily, he muttered a curse, then pushed the door open and stumbled out into the storm.",
+	"text": "He panted, muttering curses under his breath, then shoved the door open and stumbled into the snowstorm outside.",
 	"event": [{ "action": "remove_character", "target": "Junker" }]
   },
   {
-	"text": "The door slammed shut behind him, snow swirling in the fading gust. The tavern fell silent again."
+	"text": "The door slammed shut behind him. A swirl of snow drifted in the fading wind, and silence returned to the tavern."
   },
   {
-	"text": "I took a deep breath, my chest still burning. Her gaze swept over me—no blame, only a faint trace of pity.",
-	"event": [{ "action": "show_name", "target": "Alicia" }]
+	"text": "I took a deep breath, my chest still burning. Her gaze swept over me—no reproach in her eyes, only a faint, fleeting trace of pity."
   },
   {
-	"text": "I opened my mouth, but no words came out. The fire danced once more, its light reflected in her eyes like a deep, endless lake of snow.",
-	"event": [{ "action": "show_name", "target": "Player" }]
+	"text": "I opened my mouth, but no words came. The fire danced once more, and its light shimmered in her eyes like a deep, frozen lake of snow."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.1" }]

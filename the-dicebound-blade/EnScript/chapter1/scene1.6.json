@@ -1,114 +1,173 @@
 [
   {
 	"event": [
-	  { "action": "set_background", "target": "inn_night" },
+	  { "action": "set_background", "target": "tavern_night" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "夜幕低垂，风吹过街角的灯笼。旅店外的积雪被踩出几行急促的脚印，延伸向黑暗。屋内只剩壁炉的火光在跳动，木柴发出细微的噼啪声。"
+	"text": "Night had fallen, and the wind whispered past the lanterns at the street corner."
   },
   {
-	"text": "门忽然被推开。冷风卷起灰烬，火光一颤。"
+	"text": "Footprints cut sharply through the snow outside the inn, leading into the darkness."
   },
   {
-	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "露西亚冲了进来，气息乱成一团，脸上还挂着未融的雪。“店主——导师她出事了！”"
+	"text": "Inside, only the crackling of the hearth broke the silence—the firelight flickering against the wooden walls."
   },
   {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "我怔住。“慢点说清楚。”我绕出柜台，声音不自觉发紧。"
+	"text": "The door burst open. A gust of cold wind swept in, scattering embers and making the flames shudder."
   },
   {
-	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“她说要去帮镇上的守卫看伤口。”露西亚咬着唇，话几乎在颤，“我就在外面等……但她进去没多久，就有几个穿黑袍的人跟了进去。然后——就再也没有出来。”"
+	"event": [
+	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] },
+	  { "action": "show_name", "target": "Lucia" }
+	],
+	"text": "Lucia stumbled in, breath ragged, snow still clinging to her hair."
   },
   {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "我皱眉：“黑袍？”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“他们胸口都有同样的印记。”她伸手比划了个环形的符号，指尖在颤抖，“那是‘回音会’的标志——不是解散了吗？！”"
-  },
-  {
-	"text": "我心口一沉。那名字我记得清楚。几年前他们被王国通缉，理由是‘以灵魂为材料的实验’。"
+	"text": "“Innkeeper—my mentor, she’s in trouble!”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "我已经顾不上思考，伸手抓起柜台下那柄短剑。“走。”"
+	"text": "“Alicia? What happened—slow down.”"
+  },
+  {
+	"text": "I stepped out from behind the counter, voice tightening without meaning to."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "露西亚跟在我身后，声音发抖：“你……你会打架吗？”"
+	"text": "“She went to help patch up one of the town guards.”"
+  },
+  {
+	"text": "Lucia bit her lip, voice trembling. “I waited outside… but not long after she went in, a few men in black robes followed her.”"
+  },
+  {
+	"text": "“And then—she never came out.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "我停了一下，深吸气。“不会。”我看向她，手心里紧紧攥着那颗黄铜骰，“但命运欠我一次机会。”"
+	"text": "I frowned. “Black robes?”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "“They had the same mark on their chests.”"
+  },
+  {
+	"text": "She traced a ring-shaped symbol in the air with a trembling finger. “It was the mark of the Echo Circle—it was supposed to be disbanded!”"
+  },
+  {
+	"text": "My stomach dropped. I remembered that name well—years ago, they’d been declared heretics by the crown for ‘experiments using souls as material.’"
+  },
+  {
+	"text": "I didn’t waste another thought. My hand went for the short sword under the counter."
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Let’s go.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "Lucia followed, voice shaking. “You… you can fight, right?”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "I paused for a moment, breathing deep."
+  },
+  {
+	"text": "“No,” I said quietly, steady. “But I owe Alicia a life—and I won’t owe her a second.”"
   },
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" }
 	],
-	"text": "街道被雾笼罩，雪在脚下发出细碎的咯吱声。风卷着灰烬从屋顶滑过，灯笼的光摇摇欲坠。"
+	"text": "The streets were veiled in fog, snow crunching underfoot with every step."
   },
   {
-	"text": "我们沿着艾莉西亚留下的脚印一路追到北区的废铁巷。那里的房子半塌，铁门歪斜，锈迹像凝固的血。"
+	"text": "The wind carried ash from the rooftops, and the lanterns swayed weakly in the storm."
   },
   {
-	"text": "我抬手，示意露西亚停下。雪地里安静得可怕。🎲【察觉检定：成功】我听见地下传来低沉的声音——有人在吟唱。不是祈祷，而是一种更冷的、机械的节奏。"
+	"text": "We followed Alicia’s footprints north, through the silent alleys, until they ended at the Scrap Alley."
   },
   {
-	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "露西亚屏住呼吸：“那是……仪式的节拍。”她抬头，脸色苍白，“她还活着。”"
+	"text": "The houses there were half-collapsed, the iron gates bent, rust like dried blood clinging to the hinges."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“那就去救她。”"
+	"text": "I raised a hand, signaling Lucia to stop."
   },
   {
-	"event": [
-	  { "action": "set_background", "target": "iron_alley_gate" }
-	],
-	"text": "她点头，抬起法杖，低声念咒。风掠过门闩，发出轻微的‘咔嗒’声。我们顺着阴暗的楼梯，悄悄下了地下室。"
+	"text": "The snow was eerily quiet. From beneath us came a low, rhythmic sound—someone was chanting."
   },
   {
-	"event": [
-	  { "action": "set_background", "target": "underground_entrance" },
-	  { "action": "show_name", "target": "Narration" }
-	],
-	"text": "空气中弥漫着铁与灰烬的味道，墙壁被蓝光划出冷影。几名黑袍人围着阵法，吟唱声此起彼伏。阵心处，艾莉西亚被锁在石柱上，护符微微发光。"
+	"text": "Not prayer, but something colder. Mechanical. Ritualistic."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“导师……”露西亚轻声唤。"
+	"text": "Lucia held her breath. “That’s… the cadence of a ritual.”"
+  },
+  {
+	"text": "She looked up, face pale. “She’s still alive.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Then we save her.”"
+  },
+  {
+	"text": "Lucia nodded, lifting her staff as a faint light gathered in her palm."
+  },
+  {
+	"text": "The wind brushed the iron latch—click."
+  },
+  {
+	"text": "We descended the dark stairwell, one careful step at a time."
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "underground_entrance" }
+	],
+	"text": "The air reeked of iron and ash, the walls casting long, cold shadows under the blue glow."
+  },
+  {
+	"text": "Several robed figures stood around a glowing circle, chanting in unison."
+  },
+  {
+	"text": "At the center, Alicia was bound to a stone pillar, her amulet flickering weakly."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "露西亚举起法杖，光在她掌心聚成一点。“准备战斗。”她的声音颤抖，却没有退。"
+	"text": "“Mentor…” Lucia whispered."
   },
   {
-	"event": {
-	  "action": "show_option_ui",
-	  "options": [
-		{
-		  "text": "冲上去正面迎战！",
-		  "dc": 15,
-		  "check": "strength"
-		},
-		{
-		  "text": "尝试与他们对话——也许能拖延时间。",
-		  "dc": 13,
-		  "check": "charisma"
-		},
-		{
-		  "text": "引开注意力，让露西亚有机会救人。",
-		  "dc": 12,
-		  "check": "dexterity"
-		},
-		{
-		  "text": "逃跑（你认真的？）",
-		  "dc": 20,
-		}
-	  ]
-	}
+	"text": "She raised her staff, light pooling at her fingertips."
+  },
+  {
+	"text": "“Prepare for battle,” she said, her voice shaking—but she didn’t back down."
+  },
+  {
+	"event": [
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  {
+			"text": "Option A: Charge in head-on! [Strength Check DC 15]",
+			"dc": 15,
+			"check": "strength"
+		  },
+		  {
+			"text": "Option B: Create a distraction to let Lucia rescue her. [Dexterity Check DC 12]",
+			"dc": 12,
+			"check": "dexterity"
+		  },
+		  {
+			"text": "Option C: Try to talk to them—buy time if you can. [Charisma Check DC 13]",
+			"dc": 13,
+			"check": "charisma"
+		  },
+		  {
+			"text": "Option D: Run away (…really?) [DC 20]",
+			"dc": 20
+		  }
+		]
+	  },
+	  { "action": "hide_talk_ui" }
+	]
   }
 ]
