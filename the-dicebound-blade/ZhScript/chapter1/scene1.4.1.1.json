@@ -2,39 +2,76 @@
   {
 	"branch": "A_success",
 	"event": [
-	  { "action": "set_background", "target": "forest_battle" },
-	  { "action": "play_bgm", "target": "battle_calm" },
+	  { "action": "spawn_character", "target": "Monster1", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "我下意识往旁边一扑，脚底的石子被震得直响。怪物的爪子从我身边划过，擦出一串火星。呼出的气都变得冰冷。艾莉西亚的身影闪过，我只看见一道银光。那野兽发出低吼，身体僵硬地停在半空，然后轰然倒下。碎裂的外壳砸在地面，溅起一片尘土。"
+	"text": "地面猛地一震，一头覆满岩壳的魔兽从土中钻出。它的双眼泛着绿光，嘶吼声震得林间鸟群四散。"
   },
   {
-	"text": "我的手心全是冷汗。她转过身，看了我一眼，语气平静却带着一丝关切：“反应不错，下次别离太近。”我点了点头，心跳还在狂跳，但胸口莫名有种兴奋——我活下来了，而且没拖后腿。"
+	"text": "我猛地向旁边翻滚，脚底的碎石被震得直响。那魔兽的爪子从我身侧掠过，擦出一串火星。"
   },
   {
-	"event": { "action": "hp_gain", "amount": 10 }
+	"text": "呼出的气都变得冰冷。就在我重新站稳的瞬间，艾莉西亚的身影闪过。她的斗篷在风中划出弧线，剑光紧随而至。"
   },
   {
 	"event": [
-	  { "action": "set_background", "target": "forest_afterbattle" },
-	  { "action": "play_bgm", "target": "forest_wind" }
+	  { "action": "shake", "target": "Monster1" }
 	],
-	"text": "地面还残留着魔兽燃烧后的黑痕，空气中弥漫着淡淡的烟味。阳光从枝叶间落下，照在她的剑上，光线冷得像冰。"
+	"text": "银光一闪，魔兽被逼退数步，喉咙发出沙哑的低吼。"
+  },
+  {
+	"text": "我看准它的破绽，大喊：“右侧——它的护壳断了！”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“这种怪物不是自然长出来的。”她低声说，“它们是‘残梦’——那些死去的人留下的印记。”"
+	"text": "“看到了。”她的语气沉稳，动作干净利落。剑锋顺势一划，冰冷的光影在空中划出弧线。"
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Monster1" }
+	],
+	"text": "那魔兽的动作一顿，眼中绿光骤灭。它的身体僵硬片刻后轰然倒地，碎裂的外壳砸在地上，溅起尘土。"
+  },
+  {
+	"event": [
+	  { "action": "remove_character", "target": "Monster1" }
+	],
+	"text": "空气中弥漫着焦味与尘烟。艾莉西亚收剑入鞘，转过身看向我。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“反应不错。”她平静地说，唇角却轻轻弯起，“下次别离得太近。”"
+  },
+  {
+	"text": "我点点头，手心全是冷汗，但胸口莫名有种兴奋——我活下来了，而且帮上了忙。"
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "forest_afterbattle" }
+	],
+	"text": "地面还残留着魔兽燃烧后的黑痕，空气中弥漫着淡淡的烟味。阳光透过枝叶，照在她的剑上，光线冷得像冰。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“这种怪物不是自然生的。”她低声道，“它们是‘残梦’——那些死去的人留下的痕迹。”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“残梦？”我重复了一遍，声音还带着颤。"
+	"text": "“残梦？”我重复了一遍，声音还有些发抖。"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
 	"text": "“嗯。打过仗的地方、死过人的地方，地底会留下他们最后的情绪。久了，就会变成这种东西。”"
   },
   {
-	"text": "她收起剑，转头对我微微一笑，语气重新轻快起来：“走吧，镇集就在前面，别想太多。”"
+	"text": "她收起剑，神情重新平静。风从林间吹过，带走了血腥味。"
   },
-  { "event": [{ "action": "change_scene", "target": "scene1.5" }] }
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“走吧，镇集就在前面。”她微笑着说，“这一路，还得靠你帮忙提点东西呢。”"
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.5" }]
+  }
 ]

@@ -1,0 +1,20 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
+	]
+  },
+  { "text": "I didn’t speak right away, only watching the drunkard’s every move. The fire flickered, casting his distorted shadow across the wall." },
+  { "text": "The air was thick with alcohol and stifling heat. I could feel my heartbeat rising to my throat, but I forced myself to stay still." },
+  { "text": "The drunkard clenched his teeth, as if about to shout again—but suddenly his anger drained away. His mouth twitched, and he set the bottle back on the table." },
+  { "text": "He muttered a curse under his breath and staggered toward the door. Just then, a gust of wind slipped through the crack, carrying a swirl of snow." },
+  { "text": "Still grumbling, he pushed the door open and left. The wind outside swallowed his fading voice." },
+  { "text": "Silence returned to the tavern, broken only by the crackling of the fire." },
+  { "text": "I exhaled, realizing the rag in my hand was soaked with sweat." },
+  { "text": "The woman in the cloak swept her gaze across the empty tavern before settling her eyes on me, as if to confirm something." },
+  { "text": "“People in this town do get into fights easily,” she said softly, a faint hint of irony in her tone." },
+  { "text": "I smiled back. “Snow and wind tend to drive people a little mad.”" },
+  { "text": "She nodded lightly and took a seat by the counter. The firelight glimmered on her hair like strands of gold falling through snow." },
+  { "event": [{ "action": "change_scene", "target": "scene1.1" }] }
+]

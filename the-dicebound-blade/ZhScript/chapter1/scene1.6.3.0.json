@@ -1,20 +1,29 @@
 [
   {
 	"event": [
-	  { "action": "set_background", "target": "underground_ruins" },
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "我伸手拦住露西亚，低声道：“别动。我来拖住他们——你想办法靠近导师。”"
   },
   {
+	"event": { "action": "show_name", "target": "Lucia" },
 	"text": "她瞪大眼睛，嘴唇发白：“你疯了！”"
   },
   {
 	"text": "我深吸一口气，走出阴影。蓝光从地面折射到脸上，我举起空着的手。"
   },
   {
+	"event": [
+	  { "action": "remove_character", "target": "Lucia" },
+	  { "action": "spawn_character", "target": "EnemyLeader", "pos": [450, 0] }
+	],
+	"text": "露西亚退回暗处，只剩我与首领面对面。"
+  },
+  {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“别误会，”我开口，尽量让语气镇定，“我们不是敌人。我只是想确认——她是否还活着。”"
+	"text": "“别误会，”我尽量让语气镇定，“我们不是敌人。我只是想确认——她是否还活着。”"
   },
   {
 	"event": { "action": "show_name", "target": "EnemyLeader" },
@@ -29,97 +38,77 @@
   },
   {
 	"event": { "action": "shake", "target": "Player" },
-	"text": "我心头一紧。蓝光骤然汇聚，阵法的符文像脉搏一样跳动。"
+	"text": "蓝光骤然汇聚，阵法的符文像脉搏一样跳动。"
   },
   {
-	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“糟了！”露西亚低喊，立刻念起咒语。"
+	"text": "我心头一紧。空气开始扭曲，热浪滚滚。"
   },
   {
-	"text": "我冲上前，试图打断首领的手势。可他的咒语比我快一步。"
-  },
-  {
-	"text": "光线骤闪，空气里弥漫出灼烧的味道。能量鞭狠狠抽在我胸口，疼得我几乎窒息。"
+	"text": "一道光鞭猛然抽出，击中我的胸口。"
   },
   {
 	"event": { "action": "hp_lost", "amount": 10 },
-	"text": "我被掀翻在地，喉咙里涌出一口血。露西亚喊我的名字，但声音在轰鸣中断裂。"
+	"text": "炽痛从胸口传开，我被掀翻在地，喉咙里涌出血腥味。"
   },
   {
-	"text": "阵法的光芒开始暴走，蓝焰溢出地面，像要吞噬整个地下室。"
+	"event": [
+	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] }
+	],
+	"text": "露西亚从暗处冲出，法杖光芒骤亮，将我挡在身后。"
   },
   {
-	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "“循环必须完成！”他狂笑，双手高举，“即使以肉身为祭！”"
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "“住手！”她怒喝，咒语声几乎盖过轰鸣。"
   },
   {
-	"text": "露西亚怒喝：“做梦！”"
+	"text": "金色光墙在我们面前展开，阻住了进一步的攻击。"
   },
   {
-	"text": "她将法杖猛地砸地，一道金色的光墙扩散开来，将我和艾莉西亚隔在一边。"
+	"text": "然而阵法的光芒开始暴走，蓝焰顺着地面蔓延，像要吞噬整个地下室。"
+  },
+  {"event": { "action": "show_name", "target": "EnemyLeader" },
+	"text": "首领的笑声在光焰中回荡：“循环必须完成！即使以肉身为祭！”"
   },
   {
-	"text": "我强撑着站起来。短剑几乎脱手，却还是被我握紧。"
+	"text": "他举起双手，符文的光暴涨。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "露西亚怒喊：“做梦！”"
+  },
+  {
+	"text": "她的咒语撕裂空气，光墙扩散，将我和艾莉西亚隔开。"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
 	"text": "“露西亚！解锁！”我嘶吼。"
   },
   {
-	"text": "她的咒语在空气中颤抖，光线一点点侵入锁链。首领察觉到了，暴怒地朝她冲去。"
+	"text": "她的法杖发出耀眼的光，锁链上的符文开始崩裂。"
   },
   {
-	"text": "我没有时间思考，直接扑上去挡下他。刀光与符光交织，火星四溅。"
+	"text": "首领察觉到了异变，但阵法已经失控。能量反噬如潮。"
   },
   {
 	"event": { "action": "shake", "target": "Player" },
-	"text": "那一击几乎让我手臂失去知觉。"
+	"text": "蓝光爆裂，冲击波掀翻了一切。"
   },
   {
-	"text": "就在此刻，锁链碎裂的声音在身后响起。艾莉西亚跌落在地，露西亚伸手接住她。"
-  },
-  {
-	"text": "首领怒吼着释放最后的咒语——但阵法已经失衡。能量反噬如潮。"
-  },
-  {
-	"text": "蓝光爆裂，冲击波掀翻了一切。我被抛到墙边，眼前一片模糊。"
-  },
-  {
-	"text": "当我勉强爬起来时，黑袍人们已经化作灰烬。露西亚跪在艾莉西亚旁，手在颤。"
-  },
-  {
-	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“她还有呼吸……只是太虚弱了。”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“走……别留在这。”我用尽全力站起，声音低哑。"
-  },
-  {
-	"text": "她点头，眼里是忍住泪的光。"
-  },
-  {
-	"text": "我们合力将艾莉西亚带上楼。夜风迎面扑来，冰冷刺骨。"
-  },
-  {
-	"text": "雪落在她的头发上，像是替她掩盖血迹。露西亚回头望着那片废墟：“他们……自爆了阵法？”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“也许不是。”我低声说，“他们更像是——被抹除了。”"
+	"event": [
+	  { "action": "remove_character", "target": "EnemyLeader" },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] }
+	],
+	"text": "当我勉强睁开眼时，黑袍人不见了，只剩艾莉西亚和露西亚昏迷地靠在碎石旁。"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "艾莉西亚在昏睡中轻声呢喃：“……不要再提……循环……”"
+	"text": "“……谢谢……”她在昏迷中低声呢喃。"
   },
   {
-	"text": "风声将她的低语吹散，只剩夜雪无声地落。"
+	"text": "风从坍塌的入口灌入，雪花飘落在她脸上，像为她掩盖一切。"
   },
   {
-	"text": "我低头，看见掌心的黄铜骰滚了一下，停在了“1”。"
-  },
-  {
-	"text": "我苦笑。命运的掷点，从来就不公平。"
+	"text": "我苦笑。命运从来不公平。"
   },
   {
 	"event": [

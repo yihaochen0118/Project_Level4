@@ -1,17 +1,44 @@
 [
   {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "壁炉的火噼啪作响，空气里弥漫着温酒的气味。"
+  },
+  {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“我大概还是会照常过日子。”我有些心不在焉地说。"
+	"text": "“我大概还是会照常过日子。”我有些心不在焉地说，“开店、修门、应付醉鬼，日子总得过下去。”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她摇摇头：“逃避不是平静。”"
+	"text": "她看了我一眼，神情有些复杂，像是在思考，又像是在审视。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“逃避不是平静。”她轻声说。语调不重，却像一根细针，扎在空气里。"
+  },
+  {
+	"text": "她用指尖敲了敲杯沿，发出轻微的声响。那声音在寂静的旅店里显得格外清晰。"
   },
   {
 	"text": "“有时候，人以为自己在生活，其实只是被时间推着走。”她看着火光，语气淡淡。"
   },
   {
-	"text": "那一刻我忽然觉得，她不是在和我说话，而是在回忆什么。"
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“也许推着走更容易。”我低声答道。"
   },
-  { "event": [{ "action": "change_scene", "target": "scene1.4" }] }
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“那就这样吧。”她微微一笑，收回了目光。笑意温柔，却隔着一种无法靠近的距离。"
+  },
+  {
+	"text": "那一刻我忽然觉得，她不是在和我说话，而是在回忆什么——一种早已无法挽回的过去。"
+  },
+  {
+	"text": "火光映在她的侧脸上，光与影交织，像一层无法穿透的梦。"
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.4" }]
+  }
 ]

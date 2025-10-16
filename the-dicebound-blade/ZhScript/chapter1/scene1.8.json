@@ -2,7 +2,7 @@
   {
 	"event": [
 	  { "action": "hide_talk_ui" },
-	  { "action": "set_background", "target": "inn_night" },
+	  { "action": "set_background", "target": "tarven_night" },
 	]
   },
   {
@@ -16,7 +16,7 @@
 	"text": "我走到窗边，街道空无一人，风卷着雪屑在巷口打着旋。旅店的灯光倒映在玻璃里，像两个孤零零的眼。她临走前只留下一句：今晚无论听见什么声音，都不要出门。"
   },
   {
-	"text": "我打开抽屉，摸到那柄短剑。她说过“保你一夜无梦”。可我根本睡不着。"
+	"text": "我打开抽屉，摸到那柄短剑和护肤。她说过“保你一夜无梦”。可我根本睡不着。"
   },
   {
 	"event": { "action": "set_background", "target": "inn_night_door" },
@@ -26,16 +26,14 @@
 	"text": "她的声音像还在耳边：不要出门。我用尽全力，才让自己松开手。"
   },
   {
-	"event": [
-	  { "action": "hide_talk_ui" }
-	],
 	"text": "远处的天际一亮又灭，那种亮度不该属于人间。"
   },
-  {
-	"event": { "action": "show_talk_ui" },
+  {"event": 
+	  { "action": "set_background", "target": "Black" },
 	"text": "不知那场战斗持续了多久。风终于停下，街口一片死寂。北边的天，微微泛红。"
   },
-  {
+  {"event": 
+	  { "action": "set_background", "target": "Street" },
 	"event": { "action": "set_background", "target": "town_street_night" },
 	"text": "我推开门，只见夜色像被烧焦的灰包裹。街上没有人，也没有露西亚。只有风把血腥味越吹越淡。"
   },
@@ -44,10 +42,10 @@
 	"text": "我在门口站了很久，雪开始落下，细小、冰冷。脚边的雪里半埋着一枚熟悉的东西——黄铜骰。"
   },
   {
-	"text": "它还带着一丝温度。我捡起，擦去上面的血痕。骰子在掌心滚了一下，慢慢停下——“13”。世界忽然安静下来，连风都像在屏息。"
+	"text": "它还带着一丝温度。我捡起，擦去上面的血痕。骰子在掌心滚了一下，慢慢停下——“3”。世界忽然安静下来，连风都像在屏息。"
   },
   {
-	"event": { "action": "set_background", "target": "inn_night_dark" },
+	"event": { "action": "set_background", "target": "tarven_night" },
 	"text": "我回到柜台后坐下。火已熄灭，窗外的雪还在下。那一夜，我没再睡着，也没再见到她们回来。"
   },
   {

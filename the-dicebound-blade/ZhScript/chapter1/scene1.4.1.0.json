@@ -1,36 +1,87 @@
 [
   {
 	"event": [
-	  { "action": "set_background", "target": "forest_battle" },
+	  { "action": "spawn_character", "target": "Monster1", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "我试着往旁边闪开，但脚底被一块松石绊了一下。还没站稳，那怪物的爪子已经朝我扑来。"
-  },
-  {
-	"event": [{ "action": "hp_lost", "amount": 10 },{ "action": "shake", "target": "Player" },{ "action": "set_flag", "flag": "injuredByMonster1", "value": true }]
-  },
-  {
-	"text": "剧痛从手臂传来，我闷哼一声，鲜血顺着袖口往下流。艾莉西亚的身影在火光中一闪，她冲上去，一脚将那野兽踹翻，剑光紧随其后，干净利落地斩断了它的脖颈。"
-  },
-  {
-	"text": "空气里弥漫着焦味。我靠在树干上，呼吸都有些乱。艾莉西亚迅速收剑，几步走到我面前，蹲下查看我的伤口，语气少见地温柔：“动一下，让我看看。”"
-  },
-  {"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她站起身，回头看了眼那片焦黑的地面，低声道：“这种怪物不是自然生的，是‘残梦’——那些死去的人留下的痕迹。”"
+	"text": "地面猛地一震，一头覆满岩壳的魔兽从土中钻出。它的双眼泛着绿光，嘶吼声在林间回荡。"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“残梦？”我重复了一遍，声音还有些发抖。"
+	"text": "我本能地向后退，但脚下被一块湿滑的青苔石绊住。还没来得及反应，那魔兽已经扑了上来，利爪破风直掠。"
+  },
+  {
+	"event": [
+	  { "action": "hp_lost", "amount": 10 },
+	  { "action": "shake", "target": "Player" },
+	  { "action": "set_flag", "flag": "injuredByMonster1", "value": true }
+	],
+	"text": "剧痛从手臂窜起，我闷哼一声，鲜血顺着袖口流下。那魔兽的气息炽热，几乎要把我压倒在地。"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“嗯。打过仗的地方、死过人的地方，地底会留下他们最后的情绪。久了，就会变成这种东西。”她看着我，语气轻了下来，“别太在意，这片林子离镇中心还远。”"
+	"text": "“小心！”"
   },
   {
-	"text": "我点点头。她扶了我一把，让我靠在她身边一会儿，确认我能站稳后，才微笑着说：“好啦，英雄。还能走吗？”"
+	"text": "就在此时，一道风声划破空气。艾莉西亚从右侧跃出，斗篷翻飞，她一脚踢中魔兽的下颚，随即反手拔剑。"
   },
   {
-	"text": "“能。”我努力挤出笑容。她这才放开手，语气轻松了一点：“那就好，市场就在前面，今天的阳光挺不错的。”"
+	"event": [
+	  { "action": "shake", "target": "Monster1" }
+	],
+	"text": "银光一闪，剑锋精准地划过那怪物的颈部。"
+  },
+  {
+	"text": "魔兽发出最后的咆哮，轰然倒地。尘土扬起，火星在剑刃上闪烁。"
+  },
+  {
+	"event": [
+	  { "action": "remove_character", "target": "Monster1" }
+	],
+	"text": "空气里弥漫着焦味与血腥。艾莉西亚收剑入鞘，几步走到我面前，蹲下检查我的伤口。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“动一下，让我看看。”"
+  },
+  {
+	"text": "她撕下自己的斗篷一角，迅速为我包扎。火光映在她的脸上，我第一次觉得，那张冷淡的脸竟有几分柔软。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“这种魔兽不是自然生的……是‘残梦’。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“残梦？”我重复了一遍，声音还带着颤。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“嗯。打过仗的地方、死过人的地方，地底会留下他们最后的情绪。久了，就会变成这种东西。”"
+  },
+  {
+	"text": "她的语气很轻，却带着一丝冷意。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“别太在意，这片林子离镇中心还远。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "我点点头。她伸手将我扶起，让我靠在她身边片刻。确认我能站稳后，她的语气才重新变得轻快。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“好啦，英雄。还能走吗？”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“能。”我努力挤出笑容。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“那就好。”她抬头望向林外的阳光，嘴角浮出淡淡的笑意，“市场就在前面，今天的天气挺不错的。”"
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.5" }]

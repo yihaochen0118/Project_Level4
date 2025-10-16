@@ -1,9 +1,16 @@
 [
   {
+	"branch": "C_success",
 	"event": [
+	  { "action": "spawn_character", "target": "Monster1", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
 	  { "action": "set_background", "target": "forest_battle" },
 	  { "action": "show_talk_ui" }
 	],
+	"text": "魔兽发出低沉的嘶吼，四肢的岩壳闪着冷光。它的气息炽热、沉重，仿佛要把整片森林压垮。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
 	"text": "我强迫自己冷静下来，没有乱动，只是盯着那怪物的动作。它移动得又快又重，但每次落地时，右前脚都会微微一顿。"
   },
   {
@@ -13,11 +20,14 @@
 	"event": { "action": "show_name", "target": "Player" },
 	"text": "“艾莉西亚！右脚——它那儿有裂口！”我大声喊。"
   },
-  {  
-	"event": { "action": "shake", "target": "Monster" },
-	"text": "她立刻反应过来，脚步一转，整个人像一道银光，剑锋准确地斩在那裂口上。伴随一声闷响，野兽的动作瞬间停滞，随后倒地，化作一片青烟。"
+  {
+	"event": { "action": "shake", "target": "Monster1" },
+	"text": "她立刻反应过来，脚步一转，整个人像一道银光，剑锋精准地斩在那裂口上。伴随一声闷响，野兽的动作瞬间停滞，随后倒地，化作一片青烟。"
   },
   {
+	"event": [
+	  { "action": "remove_character", "target": "Monster1" }
+	],
 	"text": "我长出一口气，腿还有些软。艾莉西亚收剑回鞘，目光扫过地面，确认怪物彻底消散后，才回头看我。"
   },
   {
@@ -36,7 +46,8 @@
 	"text": "风从林间掠过，带走地上的烟尘。艾莉西亚的目光落在焦黑的土地上，神情收敛了几分。"
   },
   {
-	"text": "“这种怪物不是自然生的，”她低声说，“是‘残梦’——那些死过的人留下的痕迹。”"
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“这种怪物不是自然生的，”她低声说，“是‘残梦’——那些死去的人留下的痕迹。”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
@@ -44,14 +55,28 @@
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“嗯。打过仗、死过人的地方，地底会留下他们最后的情绪。久了，就会变成这种东西。”她看向我，语气柔和，“你刚才做得很好。谢谢你。”"
+	"text": "“嗯。打过仗、死过人的地方，地底会留下他们最后的情绪。久了，就会变成这种东西。”"
   },
   {
-	"text": "我有点不好意思地笑了笑：“这是你教得好。”她摇头笑出声：“我可没教过这个。”"
+	"text": "她看向我，语气柔和，“你刚才做得很好。谢谢你。”"
   },
   {
-	"text": "她转过身，伸手把剑背好，“走吧，镇集就在前面。今天的风不错。”"
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "我有点不好意思地笑了笑：“这是你教得好。”"
   },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "她摇头笑出声：“我可没教过这个。”"
+  },
+  {
+	"text": "她轻轻伸出手，我下意识地握住——掌心的温度还带着战斗后的余烬。"
+  },
+ {
+  "text": "“你还真是自来熟，走吧，镇集就在前面。”"
+},
+{
+  "text": "艾莉西亚笑了笑，那笑意浅浅的，却像阳光穿过树叶，落在心头。"
+},
   {
 	"event": [{ "action": "change_scene", "target": "scene1.5" }]
   }

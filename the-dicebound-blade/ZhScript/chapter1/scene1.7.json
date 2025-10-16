@@ -1,7 +1,7 @@
 [
   {
 	"event": [
-	  { "action": "set_background", "target": "town_square_day" },
+	  { "action": "set_background", "target": "tavern" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "阳光正好。镇上的市集比往常热闹些，孩子在卖花，商贩的吆喝声被风吹得轻轻散开。"
@@ -10,11 +10,12 @@
 	"text": "我坐在旅店门口的木阶上，看着广场中央的喷泉。那水珠在阳光下跳动，像什么都没有发生过。"
   },
   {
-	"event": { "action": "show_name", "target": "Alicia" },
+	"event": [{ "action": "show_name", "target": "Alicia" },
+	{ "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] }],
 	"text": "艾莉西亚换了一身淡色的布裙，银发简单地绑在身后，没有铠甲，也没有剑。"
   },
   {
-	"text": "“难得的午后，”她笑着说，“我想试着过一次普通人的日子。”"
+	"text": "“难得的早晨，”她笑着说，“我想试着过一次普通人的日子。”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
@@ -24,7 +25,8 @@
 	"event": { "action": "show_name", "target": "Alicia" },
 	"text": "“有时候必须。”她坐在我身旁，望着广场那边的孩子，“否则连自己是谁都会忘记。”"
   },
-  {
+  {"event": [
+	  { "action": "set_background", "target": "Square" }],
 	"text": "我们去了镇口的面包铺。老板是个老头，见到她时先是愣了一下，随后笑着塞了两个甜面包给她——“上回你救我孙子的时候，我还没来得及谢你。”"
   },
   {
@@ -36,7 +38,7 @@
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“但你陪我吃午饭。”"
+	"text": "“但你陪我吃个早餐。”"
   },
   {
 	"text": "面包甜得发腻，却带着一种久违的安稳感。阳光照在她的睫毛上，细微的光线闪烁。那一刻，她不像战士，更像个旅人。"
@@ -101,7 +103,8 @@
   {
 	"text": "“护符。”她笑道，“它会保你一夜无梦。”"
   },
-  {
+  {"event": [
+	  { "action": "remove_character", "target": "Alicia" }],
 	"text": "她背起篮子，走入人群。银发在阳光中闪烁，渐渐消失在喧闹的市集尽头。"
   },
   {
@@ -117,6 +120,6 @@
 	"text": "我长长地吐出一口气，却总觉得，有什么东西，正悄悄靠近。"
   },
   {
-	"event": { "action": "change_scene", "target": "scene1.8" }
+	"event": [{ "action": "change_scene", "target": "scene1.8" }]
   }
 ]

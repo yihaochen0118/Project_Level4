@@ -5,7 +5,7 @@
 	  { "action": "set_background", "target": "tavern" }
 	]
   },
-{ "event": { "action": "set_flag", "flag": "helped_alicia", "value": true } },
+  { "event": { "action": "set_flag", "flag": "helped_alicia", "value": true } },
   {
 	"event": { "action": "show_talk_ui" },
 	"text": "晨雾从远山滑下来，沿着石砖街道弥散进镇中心。旅店内的空气中有淡淡的木灰味。"
@@ -49,7 +49,7 @@
 	"event": [
 	  { "action": "show_name", "target": "Alicia" }
 	],
-	"text": "“听说有人要烧店啊”一个女声。那声音干净，像雪落在铁上的声音。"
+	"text": "“听说有人要烧店啊。”一个女声传来，干净，像雪落在铁上的声音。"
   },
   {
 	"event": [
@@ -61,7 +61,14 @@
 	"text": "她身形高挑，腰间的剑鞘刻着复杂的纹路，肩上的徽章是一朵风化的百合。"
   },
   {
-	"text": "她眼神平静 却让人不敢随意靠近。“早安。”她说。声音清亮，却不带威压，只是自然地让人安静下来。"
+	"text": "她的目光平静，却让人不敢随意靠近。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“早安。”"
+  },
+  {
+	"text": "她的声音清亮，不带威压，却自然地让人安静下来。"
   },
   {
 	"text": "她一步一步走到醉汉面前。醉汉愣了一下，随即破口大骂：“滚开！别多管闲事——”"
@@ -77,9 +84,9 @@
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "选项 A：上前劝阻 【魅力检定（DC 5）】", "dc": 5, "check": "charisma" },
+		  { "text": "选项 A：上前劝阻 【魅力检定（DC 4）】", "dc": 4, "check": "charisma" },
 		  { "text": "选项 B：静观其变，等待事态发展 【无检定（DC 0）】", "dc": 0, "check": "dexterity" },
-		  { "text": "选项 C：悄悄准备防身的短剑 【力量检定（DC 5）】", "dc": 5, "check": "strength" }
+		  { "text": "选项 C：悄悄准备防身的短剑 【力量检定（DC 6）】", "dc": 6, "check": "strength" }
 		]
 	  },
 	  { "action": "hide_talk_ui" }

@@ -1,50 +1,138 @@
 [
-  { "text": " ","event": { "action": "add_dice", "sides": 20, "amount": 1 }},
-  { "text": "正午的阳光从云层缝隙间洒落，照在旅店的门牌上，灰尘在金色的光线里缓缓飘动。" },
-  { "text": "外头的雪已经化去一层，街道边的石砖仍湿漉漉的，空气里弥漫着面包与炖汤的香气。" },
-  { "text": "我正把早上那场混乱留下的碎木头丢到后院火堆里，炉火噼啪作响，热气升腾。" },
-  { "text": "这一天难得的平静，让人几乎忘了昨夜的风雪与喧闹。" },
+  {
+	"event": [
+	  { "action": "hide_talk_ui" }
+	]
+  },
+  {
+	"text": "正午的阳光从云层缝隙间洒落，照在旅店的门牌上，灰尘在金色的光线里缓缓飘动。"
+  },
+  {
+	"text": "外头的雪已经化去一层，街道边的石砖仍湿漉漉的，空气里弥漫着面包与炖汤的香气。"
+  },
+  {
+	"text": "我正把早上那场混乱留下的碎木头丢到后院火堆里，炉火噼啪作响，热气升腾。"
+  },
+  {
+	"text": "这一天难得的平静，让人几乎忘了昨夜的风雪与喧闹。"
+  },
   { "text": "可我没想到，她又回来了。" },
   { "text": "门铃轻响。" },
-  { "text": "艾莉西亚走进来，盔甲上的霜迹还未化开，怀里抱着一篮子瓶瓶罐罐，颜色各异，像一堆被光封存的露珠。", 
+  {
+	"text": "艾莉西亚走进来，盔甲上的霜迹还未化开，在她身后，跟着一个年纪不大的女孩，栗发扎成短辫，眼神灵动。怀里抱着一篮子瓶瓶罐罐，颜色各异，像一堆被光封存的露珠。",
 	"event": [
-	  { "action": "spawn_character", "target": "Alicia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ", "pos": [-450, 0] },
-	]},
-  { "text": "在她身后，跟着一个年纪不大的女孩，栗发扎成短辫，眼神灵动。", "event":{ "action": "spawn_character", "target": "Lucia", "pos": [450, 0] }, },
-  { "text": "“老板，今天给你带点小东西。”艾莉西亚笑着放下药篮，“这些是治疗药水和解毒剂。听说你这儿常有醉鬼摔伤。”", "event": [{ "action": "show_name", "target": "Alicia" }] },
-  { "text": "我愣了愣，还没反应过来，小女孩已经跑到柜台边，用好奇的目光打量整个房间。" },
-  { "text": "“师父，这地方好安静啊。”", "event": [{ "action": "show_name", "target": "Lucia" }] },
-  { "text": "“不像旅店，更像家。”", "event": [{ "action": "show_name", "target": "Lucia" }] },
-  { "text": "“露西亚，不要乱说。”", "event": [{ "action": "show_name", "target": "Alicia" }] },
-  { "text": "“没关系，”我笑道，“她说得挺对的，这里确实太安静了点。最近生意不太好，除了时不时有酒鬼来闹事以外基本没什么人会来我这里喝酒。”", "event": [{ "action": "show_name", "target": "Player" }] },
-  { "text": "露西亚笑了，露出一对小虎牙。" },
- { "text": "“是啊。”我放下手里的抹布，目光望向窗外的街道，“从前这条路上每天都能听见商队的铃声，现在一整天连个影子都没有。”", "event": [{ "action": "show_name", "target": "Player" }] },
-  { "text": "“因为听说——北方的森林又出了魔兽。”我顿了顿，“几支巡逻队失踪，连教会的人都不敢靠近。”" },
-  { "text": "露西亚的眼神亮了亮，像是被吓到，又像是被勾起了兴趣。", "event": [{ "action": "show_name", "target": "Lucia" }] },
-  { "text": "“真的有魔兽吗？我还以为只是传闻。”", "event": [{ "action": "show_name", "target": "Lucia" }] },
-  { "text": "“传闻的东西，多半都有些根子。”艾莉西亚缓缓开口，语气低沉，“那片森林的风，最近都不太对。”", "event": [{ "action": "show_name", "target": "Alicia" }] },
-  { "text": "“你也察觉到了？”我问。", "event": [{ "action": "show_name", "target": "Player" }] },
-  { "text": "“风带着铁的味道。”她答道，“像是血，又像是旧铁器在阳光下生锈的气息。”", "event": [{ "action": "show_name", "target": "Alicia" }] },
-  { "text": "露西亚歪着头，小声嘀咕：“我倒觉得挺好闻的。”", "event": [{ "action": "show_name", "target": "Lucia" }] },
-  { "text": "艾莉西亚忍不住笑了一下，伸手在她头上轻轻拍了拍：“那说明你还是个孩子。”", "event": [{ "action": "show_name", "target": "Alicia" }] },
-  { "text": "我看着她们之间自然的互动，心里忽然涌起一种奇异的安心感——仿佛在这混乱的世界里，这样的笑声才是最稀有的东西。" },
-  { "text": "露西亚从篮子里拿出一瓶翠绿色的药液，像是炫耀似的举到我眼前：“这个是我调的哦！喝了不会醉，也不会头疼！”", "event": [{ "action": "show_name", "target": "Lucia" }] },
-  { "text": "“真的吗？”", "event": [{ "action": "show_name", "target": "Player" }] },
-  { "text": "“当然！”", "event": [{ "action": "show_name", "target": "Lucia" }] },
-  { "text": "艾莉西亚在一旁无奈地摇头：“上次她试药的时候，睡了三天。”", "event": [{ "action": "show_name", "target": "Alicia" }] },
-  { "text": "“那是实验意外！”", "event": [{ "action": "show_name", "target": "Lucia" }] },
-  { "text": "她们的对话像一阵清风，把我早上的阴郁一扫而空。" },
-  { "text": "我突然意识到，自她走进店里，空气都变得不同——像是久冻的河面被阳光融开。" },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] },
+	{ "action": "show_talk_ui" }
+	]
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“老板，今天给你带点小东西。这些是治疗药水和解毒剂。听说你这儿常有醉鬼摔伤。”"
+  },
+  {
+	"text": "我愣了愣，还没反应过来，小女孩已经跑到柜台边，用好奇的目光打量整个房间。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“师父，这地方好安静啊而且真的好温暖。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“不像旅店，更像家。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“露西亚，不要乱说。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“没关系，她说得挺对的。这地方确实太安静了点。”"
+  },
+  {
+	"text": "我放下手里的抹布，目光望向窗外的街道。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“从前这条路上每天都能听见商队的铃声，现在一整天连个影子都没有。”"
+  },
+  {"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“因为听说北方的森林又出了魔兽。”我顿了顿，“几支巡逻队失踪，连教会的人都不敢靠近。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" },{"action":"shake", "target": "Lucia"}],
+	"text": "“真的有魔兽吗？我还以为只是传闻。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“传闻的东西多半都有些根子。况且我们路过那附近的时候我感觉那片森林的空气确实不太对，有一股...铁锈的味道。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你也察觉到了？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“是，风带着铁锈的味道。像是某种血。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“我倒觉得挺好闻的。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“那说明你还是个孩子。”"
+  },
+  {
+	"text": "我看着她们之间自然的互动，心里忽然涌起一种奇异的安心感——仿佛在这混乱的世界里，这样的笑声才是最稀有的东西。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“这个是我调的哦！喝了不会醉，也不会头疼，但是真的很好喝！你要尝尝嘛大哥哥。”"
+  },
+ {
+  "text": "露西亚说着从怀里掏出一个小瓶子，瓶塞几乎被她用力拔飞，甜香的气味立刻弥漫开来。"
+},
 {
-  "event": [
-	{
-	  "action": "show_option_ui",
-	  "options": [
-		{ "text": "选项 A：主动询问艾莉西亚是否要为露西亚订房", "dc": 0, "check": "charisma" },
-		{ "text": "选项 B：开玩笑地问“难道你们要挤一间？”", "dc": 5, "check": "charisma" }
-	  ]
-	},
-	{ "action": "hide_talk_ui" }
-  ]
-}
+  "text": "“你闻闻，是我用蜂蜜和草莓调的。”她兴奋地把瓶子举到我面前。",
+  "event": [{ "action": "show_name", "target": "Lucia" }]
+},
+{
+  "text": "我被那股香味呛得微微一愣，笑着说：“感觉还不错啊”",
+  "event": [{ "action": "show_name", "target": "Player" }]
+},
+{
+  "text": "艾莉西亚在旁边轻轻叹气：“如果你不想在柜台底下睡三天，就别喝。”",
+  "event": [{ "action": "show_name", "target": "Alicia" }]
+},
+{
+  "text": "“不会啦！”她鼓起脸颊，一脸认真。",
+  "event": [{ "action": "show_name", "target": "Lucia" }]
+},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“上次她试药的时候，睡了三天。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“那是实验意外！”"
+  },
+  {
+	"text": "她们的对话像一阵清风，把我早上的阴郁一扫而空。"
+  },
+  {
+	"text": "我突然意识到，自她走进店里，空气都变得不同——像是久冻的河面被阳光融开。"
+  },
+  {
+	"event": [
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  { "text": "选项 A：主动询问艾莉西亚是否要为露西亚订房", "dc": 0, "check": "charisma" },
+		  { "text": "选项 B：开玩笑地问“你们要挤一间房嘛？”", "dc": 5, "check": "charisma" }
+		]
+	  },
+	  { "action": "hide_talk_ui" }
+	]
+  }
 ]

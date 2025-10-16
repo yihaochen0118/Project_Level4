@@ -1,0 +1,22 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
+	]
+  },
+  { "text": "I stayed silent, gripping the counter tightly as I watched the situation unfold. The drunkard’s temper only flared higher, like fire fed with oil." },
+  { "text": "He suddenly grabbed the bottle and smashed it to the ground. Shards and liquor exploded outward, forcing me to take two steps back from the shock." },
+  { "text": "The crowd screamed, and the hearth’s flames trembled. The stench of alcohol mixed with dust filled the air, making me cough." },
+  { "text": "The drunkard raised his fist—" },
+  { "text": "At that instant, a fierce wind roared in from outside, snuffing out half the firelight." },
+  { "text": "Cold air swirled with snow mist into the room, and with it stepped in a figure draped in a silver-white cloak. Her very presence froze the air." },
+  { "text": "The cloaked woman’s gaze was calm yet razor-sharp. With a single motion, both the flying shards and the wind froze midair." },
+  { "text": "Her voice cut through the storm—clear and commanding: “That’s enough.”" },
+  { "text": "The drunkard stiffened where he stood, his face draining of color. With a hoarse gasp, he turned and stumbled out the door." },
+  { "text": "I remained leaning against the counter, chest heaving. A shallow cut on my hand oozed blood, glinting crimson in the firelight." },
+  { "text": "She looked at me. Her gaze was as light as the wind—yet carried a weight I could barely endure." },
+  { "text": "“Next time, don’t wait so long,” she said softly." },
+  { "text": "Before I could answer, she had already turned away. The snow mist parted behind her and faded into the night." },
+  { "event": [{ "action": "change_scene", "target": "scene1.1" }] }
+]

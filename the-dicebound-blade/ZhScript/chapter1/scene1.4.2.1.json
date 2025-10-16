@@ -1,18 +1,32 @@
 [
   {
+	"branch": "B_success",
 	"event": [
+	  { "action": "spawn_character", "target": "Monster1", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
 	  { "action": "set_background", "target": "forest_battle" },
 	  { "action": "show_talk_ui" }
 	],
+	"text": "地面猛地一震，一头覆满岩壳的魔兽从土中钻出，双眼泛着绿光，低吼震得林间鸟群四散。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
 	"text": "我本能地抓起背包挡在身前，几乎就在同一瞬间，那怪物的爪子猛地拍了上来。力道大得让我脚下一滑，整个人都被震退两步。"
   },
   {
-	"event": [{ "action": "hp_gain", "amount": 10 }, { "action": "shake", "target": "Player" }]
+	"event": [
+	  { "action": "hp_gain", "amount": 10 },
+	  { "action": "shake", "target": "Player" }
+	],
+	"text": "但那一挡让它的动作慢了半拍。"
   },
   {
-	"text": "但那一挡让它的动作慢了半拍。艾莉西亚立刻冲上前，剑光如闪电般掠过，正中怪物的胸口。伴随着一声低吼，野兽踉跄倒地，石壳崩裂，化作灰烟。"
+	"text": "艾莉西亚立刻冲上前，剑光如闪电般掠过，正中魔兽的胸口。伴随着一声低吼，野兽踉跄倒地，石壳崩裂，化作灰烟。"
   },
   {
+	"event": [
+	  { "action": "remove_character", "target": "Monster1" }
+	],
 	"text": "我看着被爪印砸出裂口的背包，愣了好几秒。艾莉西亚收剑转身，目光在我身上停了片刻，然后笑了一下。那笑容不大，却让人一下松了口气。"
   },
   {
@@ -36,10 +50,20 @@
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“嗯。打过仗、死过人的地方，地底会留下他们最后的情绪。久了，就会变成这种东西。”她站起身，目光柔和了几分，“不过别担心，有我在，不会让它们靠近。”"
+	"text": "“嗯。打过仗、死过人的地方，地底会留下他们最后的情绪。久了，就会变成这种东西。”"
   },
   {
-	"text": "她朝我伸出手，我犹豫了一下，最终还是握住。她笑着一拉，把我拽起来：“走吧，镇集就在前面。”风从林间吹过，阳光落在她银色的发上，亮得让人移不开眼。"
+	"text": "她站起身，目光柔和了几分，语气也轻了下来。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“不过别担心，有我在，不会让它们靠近。”"
+  },
+  {
+	"text": "她朝我伸出手，我犹豫了一下，最终还是握住。她笑着一拉，把我拽起来：“走吧，镇集就在前面。”"
+  },
+  {
+	"text": "风从林间吹过，阳光落在她银色的发上，亮得让人移不开眼。"
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.5" }]

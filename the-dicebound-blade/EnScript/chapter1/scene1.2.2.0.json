@@ -1,0 +1,18 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	]
+  },
+  { "text": "我半开玩笑道：“难道你们要挤一间？”", "event": [{ "action": "show_name", "target": "Player" }] },
+  { "text": "话音刚落，空气忽然安静了半秒。", "event": [{ "action": "hide_name" }] },
+  { "text": "露西亚眨了眨眼，一脸疑惑：“挤一间不好吗？”", "event": [{ "action": "show_name", "target": "Lucia" }] },
+  { "text": "艾莉西亚微微皱眉，语气平静却略带距离：“我想我们各自一间会更好。”", "event": [{ "action": "show_name", "target": "Alicia" }] },
+  { "text": "我愣了愣，意识到自己的话有些失礼，只好干笑着掩饰：“啊，我是开个玩笑。”" },
+  { "text": "她没有再回应，只是淡淡点头：“那麻烦你准备两间。”", "event": [{ "action": "show_name", "target": "Alicia" }] },
+  { "text": "露西亚察觉到了气氛变化，小声拉了拉她的斗篷：“师父，我们上去吧。”" },
+  { "text": "她们转身离开，背影在楼梯口的火光中被拉得很长。", "event": [{ "action": "hide_name" }] },
+  { "text": "我叹了口气，看着柜台上的账本，突然觉得屋里更安静了。", "event": [{ "action": "show_name", "target": "Player" }] },
+  { "event": [{ "action": "change_scene", "target": "scene1.3" }] }
+]

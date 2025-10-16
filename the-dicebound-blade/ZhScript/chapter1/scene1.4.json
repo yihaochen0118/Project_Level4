@@ -3,19 +3,20 @@
 	"event": [
 	  { "action": "hide_talk_ui" },
 	  { "action": "set_background", "target": "tavern_morning" },
-	  { "action": "play_bgm", "target": "morning_breeze" }
 	]
   },
   {
 	"event": { "action": "show_talk_ui" },
-	"text": "阳光透过木质窗棂，洒在柜台上。空气里还有昨夜炉火残留的温度。"
+	"text": "阳光透过木质窗棂，洒在柜台上。空气里还有昨夜炉火残留的温度，静谧得让人几乎忘了时间。"
   },
-  { "text": "我正数着昨晚没结的账，门口传来敲门声。" },
+  { "text": "我正数着昨晚没结的账，门口传来轻轻的敲门声。" },
   {
-	"event": { "action": "show_name", "target": "Alicia" },
+	"event": [{ "action": "show_name", "target": "Alicia" },{ "action": "spawn_character", "target": "Alicia", "pos": [450, 0] }],
 	"text": "“早安。”"
   },
-  { "text": "是艾莉西亚。她脱下战甲，只穿着一身轻便的棕色行装，腰间那柄裂痕的剑仍挂在那儿。" },
+  {
+	"text": "是艾莉西亚。她脱下战甲，只穿着一身轻便的棕色行装，腰间那柄裂痕的剑仍静静挂着，像她身体的一部分。"
+  },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
 	"text": "“今天是周日吧？旅店休息？”"
@@ -24,55 +25,99 @@
 	"event": { "action": "show_name", "target": "Player" },
 	"text": "我点点头。"
   },
-  { "text": "“那正好，”她笑了笑，“陪我去镇集买点东西。”" },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“那正好，”她笑了笑，“陪我去镇集买点东西。”"
+  },
   {
 	"event": { "action": "show_name", "target": "Player" },
 	"text": "“我？”我愣了一下。"
   },
+ {
+  "event": { "action": "show_name", "target": "Player" },
+  "text": "我犹豫了一下，看了眼窗外。清晨的风还带着寒意，远处的林线被薄雾吞没。"
+},
+{
+  "text": "“最近镇外好像有魔兽出没，”我低声说，“昨天有猎人回来时还提到过。”"
+},
+{
+  "event": { "action": "show_name", "target": "Alicia" },
+  "text": "“那正好，”她语气平静地说，“要是遇到了，也该有人处理。”"
+},
+{
+  "text": "她嘴角微微上扬，像是在安慰我，又像在说一件再平常不过的事。"
+},
+{
+  "event": { "action": "show_name", "target": "Player" },
+  "text": "“那露西亚呢？她不一起？”"
+},
+{
+  "event": { "action": "show_name", "target": "Alicia" },
+  "text": "“她昨晚整理草药到很晚，现在应该还在睡。”"
+},
+{
+  "text": "她顿了顿，补了一句：“让她多休息一下吧，这孩子昨晚累坏了。”"
+},
+{
+  "text": "我叹了口气，只好脱下围裙，拿起外套。"
+},
+  {
+	"event": [
+	  { "action": "set_background", "target": "forest_path" }
+	],
+	"text": "从镇口往东是一条蜿蜒的石路，两边是刚解冻的松林。空气带着湿意，远处传来溪水拍石的声音。"
+  },
+  {
+	"text": "艾莉西亚走在前面，步伐轻快，却时不时回头看我。阳光从树隙间落下，在她肩上流动。"
+  },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“当然是你。”她侧头笑着，“你不是说没出过镇北吗？去走走吧。”"
-  },
-  { "text": "我犹豫片刻，还是脱下围裙，拿起外套。——这是我第一次离开旅店。" },
-  {
-	"event": { "action": "set_background", "target": "forest_path" },
-	"text": "从镇口往东是一条蜿蜒的石路，两边是刚解冻的松林。空气带着湿意，远处传来溪水声。"
-  },
-  { "text": "艾莉西亚走在前面，步伐轻快，却时不时回头看我。" },
-  {
-	"event": { "action": "show_name", "target": "Player" },
 	"text": "“你每次都走这条路？”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“是啊。”她笑了笑，“我去过很多地方，但这条路总记得。”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“为什么？”"
+	"text": "“是啊,虽然我不常出门，但这条路总记得。毕竟酒卖完了偶尔还是要去城镇进货的”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“可能因为它每次看起来都不太一样吧。”"
+	"text": "“你真的挺孤单的。”"
   },
-  { "text": "她语气平淡，像在随口感慨。" },
-  { "text": "就在这时，前方树林忽然传来一阵低吼。" },
   {
-	"event": { "action": "set_background", "target": "forest_battle" },
-	"text": "地面猛地一震，一头浑身长着石质外壳的野兽从土里钻出，眼睛发着绿光。"
+	"text": "她语气平淡，像在随口感慨。可她的脚步却微微停顿了一瞬——仿佛在聆听风的方向。"
   },
-  { "text": "我还没反应过来，它已经朝我们扑来！" },
+  {
+	"text": "下一刻，林间传来一阵低沉的咆哮。"
+  },
+  {
+	"event": { "action": "spawn_character", "target": "Monster1", "pos": [-450, 0] },
+	"text": "地面猛地一震，枯叶飞扬。一头浑身覆着岩壳的野兽从土中钻出，眼中燃着诡异的绿光。"
+  },
+  {"event": { "action": "shake", "target": "Monster1"},
+	"text": "我还没反应过来，它已经朝我们扑来——那气息，带着血与铁的味道！"
+  },
   {
 	"event": [
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "选项 A：迅速闪避 【敏捷检定（DEX DC 7）】", "dc": 7, "check": "dexterity" },
-		  { "text": "选项 B：试着拿出随身携带的背包来抵御魔兽进攻 【力量检定（STR DC 8）】", "dc": 8, "check": "strength" },
-		  { "text": "选项 C：观察怪物的弱点提醒艾莉西亚 【智力检定（INT DC 6）】", "dc": 6, "check": "intelligence" }
+		  {
+			"text": "选项 A：迅速闪避 【敏捷检定（DEX DC 10）】",
+			"dc": 10,
+			"check": "dexterity"
+		  },
+		  {
+			"text": "选项 B：用背包抵挡攻击 【力量检定（STR DC 12）】",
+			"dc": 12,
+			"check": "strength"
+		  },
+		  {
+			"text": "选项 C：观察怪物的弱点提醒艾莉西亚 【智力检定（INT DC 6）】",
+			"dc": 6,
+			"check": "intelligence"
+		  }
 		]
 	  },
 	  { "action": "hide_talk_ui" }
 	]
-  },
+  }
 ]

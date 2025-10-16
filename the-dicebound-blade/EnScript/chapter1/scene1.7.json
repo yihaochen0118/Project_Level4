@@ -1,0 +1,122 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_square_day" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "阳光正好。镇上的市集比往常热闹些，孩子在卖花，商贩的吆喝声被风吹得轻轻散开。"
+  },
+  {
+	"text": "我坐在旅店门口的木阶上，看着广场中央的喷泉。那水珠在阳光下跳动，像什么都没有发生过。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "艾莉西亚换了一身淡色的布裙，银发简单地绑在身后，没有铠甲，也没有剑。"
+  },
+  {
+	"text": "“难得的午后，”她笑着说，“我想试着过一次普通人的日子。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“勇者也有休假？”我笑。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“有时候必须。”她坐在我身旁，望着广场那边的孩子，“否则连自己是谁都会忘记。”"
+  },
+  {
+	"text": "我们去了镇口的面包铺。老板是个老头，见到她时先是愣了一下，随后笑着塞了两个甜面包给她——“上回你救我孙子的时候，我还没来得及谢你。”"
+  },
+  {
+	"text": "“那就今天收下吧。”她笑着接过，转头把其中一个递给我。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“我可没救过人。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“但你陪我吃午饭。”"
+  },
+  {
+	"text": "面包甜得发腻，却带着一种久违的安稳感。阳光照在她的睫毛上，细微的光线闪烁。那一刻，她不像战士，更像个旅人。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“如果没有那些魔兽，”我忽然说，“你会想留下来吗？”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "她轻轻愣了愣，指尖摩挲着纸袋的边缘。“我也想过这种问题。但我不属于这里。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“你指的‘这里’，是镇子，还是世界？”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "她沉默片刻，微微一笑：“也许是‘时间’。”"
+  },
+  {
+	"text": "我们走出面包铺，街头的风铃被风吹得轻响，孩子追着鸽子奔跑。她停在花摊前，目光停在一束白色风信子上，最后摇了摇头。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“我以前也喜欢花。”她忽然说，“后来每次看到花开，就会想到……它们都比我活得久。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“别这么说。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“这只是事实。”她笑了笑，“但今天，我想让自己假装相信——我还活着。”"
+  },
+  {
+	"text": "她的声音太轻，像怕惊扰了这一刻的温柔。我没有回应，只是默默陪她穿过街道。"
+  },
+  {
+	"text": "广场那头传来钟声。她抬头看了看天色，然后轻轻整了整斗篷。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“我要去北门看看结界的状况。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“现在？”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“只是确认。”她的神情忽然变得认真，“听着，今天晚上，不管发生什么，都不要出门。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“为什么？”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "她没有回答，只是抬手在我胸前的空气里轻轻一点。那是一道几乎看不见的光痕，在阳光下像尘埃般闪烁。"
+  },
+  {
+	"text": "“护符。”她笑道，“它会保你一夜无梦。”"
+  },
+  {
+	"text": "她背起篮子，走入人群。银发在阳光中闪烁，渐渐消失在喧闹的市集尽头。"
+  },
+  {
+	"text": "风从北面吹来，带着一股不安的凉意。喷泉的水忽然溅起比往常更高的一道弧。"
+  },
+  {
+	"text": "我抬头。天色明明晴朗，却有一缕细微的黑影，在云层间闪过。"
+  },
+  {
+	"text": "我心头发冷。可下一刻，孩子的笑声、商贩的叫卖声重新淹没了一切。阳光依旧温柔。"
+  },
+  {
+	"text": "我长长地吐出一口气，却总觉得，有什么东西，正悄悄靠近。"
+  },
+  {
+	"event": { "action": "change_scene", "target": "scene1.8" }
+  }
+]

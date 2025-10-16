@@ -1,8 +1,10 @@
 [
   {
 	"event": [
-	  { "action": "set_background", "target": "underground_ruins" },
-	  { "action": "show_talk_ui" }
+	{ "action": "set_background", "target": "underground_entrance" },
+	{ "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] },
+	{ "action": "spawn_character", "target": "EnemyLeader", "pos": [450, 0] },
+	{ "action": "show_talk_ui" }
 	],
 	"text": "我死死盯着那阵法的光，喉咙像被什么堵住。"
   },
@@ -27,10 +29,13 @@
 	"event": { "action": "shake", "target": "Player" },
 	"text": "身后传来一声轰鸣，蓝光如浪潮般吞没整个地下室。我们被震得跌倒在冰冷的台阶上。"
   },
-  {
+  {"event": [
+	  { "action": "remove_character", "target": "EnemyLeader" }],
 	"text": "我几乎是拖着她冲出那道铁门。"
   },
-  {
+  {	"event": [
+	  { "action": "change_scene", "target": "Stree" }
+	],
 	"text": "冷风灌进肺里，雪地的光刺得我眼睛发痛。"
   },
   {
@@ -45,7 +50,7 @@
 	"text": "她愣在原地，眼神空白。风吹散她的头发，雪一片片落在她脸上。"
   },
   {
-	"text": "“你……你为什么要拉我走？”她的声音发抖，“她是我们两个里最值得救的人……”"
+	"text": "“你……你为什么要拉我走？”她的声音发抖，“老师她……”"
   },
   {
 	"text": "我张口，却什么都说不出来。"
@@ -73,14 +78,11 @@
   {
 	"text": "露西亚没有回答。她只是缓缓站起来，背对着我，声音低到几乎听不见：“你走吧。”"
   },
-  {
+  {"event": [
+	  { "action": "remove_character", "target": "Lucia" }],
 	"text": "雪地里只剩下两串脚印，一深一浅，渐渐分开。"
   },
   {
-	"event": [
-	  { "action": "set_flag", "flag": "BadEnd_Runner", "value": true },
-	  { "action": "change_scene", "target": "scene_bad_end_runner" }
-	],
 	"text": "【Bad Ending：命运的逃亡者】"
   },
   {

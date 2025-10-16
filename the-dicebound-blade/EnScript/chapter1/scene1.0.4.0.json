@@ -1,0 +1,19 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
+	]
+  },
+  { "text": "I slowly reached for my short sword—only for the scabbard to brush against my belt with a faint metallic clang." },
+  { "text": "The drunkard snapped his head around, bloodshot eyes glaring at me. “What do you think you’re doing?!”" },
+  { "text": "His rage ignited in an instant; his fist slammed down onto the table, sending liquor splashing everywhere." },
+  { "text": "Instinctively, I took a step back. My hand hadn’t even closed around the hilt yet, but the air was already thick with tension." },
+  { "text": "Just as he took another step forward, a sharp sound sliced through the air—not wind, but the ring of a blade." },
+  { "text": "Alicia was already on her feet. Her cloak swept past the fire, and a flash of silver streaked through the room." },
+  { "text": "No one saw what she did—only that, in the next instant, the drunkard was pinned to the floor, his face buried in his own spilled drink." },
+  { "text": "“Enough.” Her voice was calm, like the sound of ice beginning to melt." },
+  { "text": "I stared at her, stunned. In that moment, I realized—I’d never needed to draw my sword at all." },
+  { "text": "She sheathed her blade, and the firelight danced across the cracked pattern on its edge." },
+  { "event": [{ "action": "change_scene", "target": "scene1.1" }] }
+]

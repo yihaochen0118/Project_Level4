@@ -1,17 +1,31 @@
 [
   {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "火光在她的瞳中摇曳，空气里弥漫着未散的酒香。"
+  },
+  {
 	"event": { "action": "show_name", "target": "Player" },
 	"text": "“那你呢？你会想改变什么？”我反问。"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她只是静静看着我，没有回答。"
+	"text": "她沉默了片刻，只是静静地看着我。那一眼很久，久得让人几乎忘了呼吸。"
   },
   {
 	"text": "那双灰蓝的眼像结了霜，隔着火光，仿佛什么都照不进去。"
   },
   {
+	"event": { "action": "show_name", "target": "Alicia" },
 	"text": "“有些问题，问出来就已经太迟了。”她低声说，然后轻轻移开目光。"
+  },
+  {
+	"text": "她重新抿了一口酒，动作平静，却带着拒人千里的冷意。"
+  },
+  {
+	"text": "壁炉的火突然爆出一声轻响，像是在回应那份沉默。"
   },
   { "event": [{ "action": "change_scene", "target": "scene1.4" }] }
 ]

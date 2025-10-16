@@ -1,17 +1,60 @@
 [
   {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "火光在墙上摇曳，夜色将整个旅店都裹进一层安静的金色。她的眼神落在我身上，带着若有若无的探寻。"
+  },
+  {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“我会尝试改变命运。”我说。声音平静，却比想象中更坚定。"
+	"text": "“我会尝试改变命运。”我说。声音平静，却比我想象中更坚定。"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她看了我一眼，像是在评估什么。火光映在她的眼底，闪过一瞬柔和的笑意。"
+	"text": "她怔了怔，像是没料到我会这样回答。火光映在她的眼底，闪过一瞬柔和的笑意。"
   },
   {
+	"event": { "action": "show_name", "target": "Alicia" },
 	"text": "“也许你真能做到。”她轻声说，“有些人能与命运谈判，而不是被它牵着走。”"
   },
   {
-	"text": "她放下酒杯，语气比刚才更轻：“如果真有那一天……希望你别后悔。”"
+	"text": "她拿起酒杯，却没有喝，只是看着杯中的光。那一瞬间，她整个人都像被火焰柔化了。"
   },
-  { "event": [{ "action": "change_scene", "target": "scene1.4" }] }
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“我见过太多被命运压垮的人。”她的声音很轻，“但也见过——有人在命运面前笑着站起来。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“你是说你自己？”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "她愣了片刻，随即轻笑，语气里带着点无奈：“我吗？我还没赢过它。”"
+  },
+  {
+	"text": "火光晃动，窗外传来雪落的声音。她的笑有一点苦，却不再像之前那样疏离。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“如果真有那一天……”她说，“希望你别后悔。命运给的机会，总要用代价去换。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“那你呢？”我低声问，“你后悔吗？”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "她没有回答，只是抬起酒杯，一饮而尽。酒液映着火光，像融化的琥珀。"
+  },
+  {
+	"text": "“命运很固执。”她轻轻放下杯子，微笑着看向我，“但也许——你会是那个例外。”"
+  },
+  {
+	"text": "火焰在她眼中跳动，光与影交织，她的笑意在夜色中停留了很久。"
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.4" }]
+  }
 ]

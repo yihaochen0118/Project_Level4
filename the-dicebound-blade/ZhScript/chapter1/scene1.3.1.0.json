@@ -1,17 +1,52 @@
 [
   {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
+	  { "action": "show_talk_ui" }
+	]
+  },
+  {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“我会尝试改变命运。”我答得有点仓促。"
+	"text": "“我会尝试改变命运。”我答得有点仓促，但话一出口，就觉得这句话的分量比我想象的要沉重得多。"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "艾莉西亚笑了笑，眼神却有些悲哀：“很多人都这么说。”"
+	"text": "艾莉西亚笑了笑，那笑容温和，却没有到眼底：“很多人都这么说。”"
   },
   {
-	"text": "她低头看向杯底的酒光：“但命运不是骰子。它不会因为意志改变点数。”"
+	"text": "她轻轻转动着酒杯，琥珀色的液体映着火光，一圈圈荡开。"
   },
   {
-	"text": "那一刻我忽然觉得，她似乎在说自己的事。空气有种说不出的冷意。"
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“可命运从不会听劝。你以为你在改变它，其实只是沿着它预先铺好的路，走得更远一点。”"
   },
-  { "event": [{ "action": "change_scene", "target": "scene1.4" }] }
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“那你呢？”我问，“你是相信命运，还是在和它斗争？”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "她的手在杯沿停了停，目光落在火光里：“我曾经也以为能赢。”"
+  },
+  {
+	"text": "壁炉的火跳了一下，火星溅在她的袖口，被她随手拂灭。那一瞬间，我看见她眼中掠过的阴影——不是恐惧，而是疲惫。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“命运不是骰子。”她低声说，“它不会因为意志改变点数。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“听起来……你好像亲手试过。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "她沉默片刻，笑了笑：“也许吧。但如果可以我宁愿不去尝试。”"
+  },
+  {
+	"text": "那笑意短暂而脆弱，像是在掩盖某种无法言说的伤口。火光映在她的眼里，明灭之间，连空气都变得冰冷。"
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.4" }]
+  }
 ]

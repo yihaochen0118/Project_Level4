@@ -1,17 +1,85 @@
 [
   {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "壁炉的火光在她的眼底闪动，映出一圈柔和的金。外头的风还在低吟，像一首听不清的旧歌。"
+  },
+  {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“那你呢？你会想改变什么？”我反问。"
+	"text": "“那你呢？你会想改变什么？”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她怔了一瞬，似乎没想到我会这样问。随后轻轻一笑。"
+	"text": "她怔了一瞬，手指微微一紧，似乎没想到我会这样问。"
   },
   {
-	"text": "“也许我早该问自己同样的问题。”她说，“只是，每次想改写什么，世界都会提醒我——我已经没有资格。”"
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“我早就问过自己无数遍这个问题了。”"
   },
   {
-	"text": "她的语气温柔，却藏着几分决绝。我第一次看到她眼里那一丝悲伤的光。"
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“只是，每次想改写什么，世界都会提醒我——我已经没有资格。”"
   },
-  { "event": [{ "action": "change_scene", "target": "scene1.4" }] }
+  {
+	"text": "我没有立刻回答，只听见柴火爆裂的声音。那一瞬间，火光的明暗随着她的语气一同起伏。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“你觉得，一个人如果曾经毁掉了别人的命运，还配去改写自己的么？”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“……我不知道。”"
+  },
+  {
+	"text": "那一刻，任何安慰都显得多余。她的眼神轻轻一垂，睫毛在灯下投下一道阴影。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“我以前以为自己在救人。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“可有时候，救赎和毁灭只差一句话的距离。”"
+  },
+  {
+	"text": "她的语气温柔，却藏着几分决绝。我第一次看到她眼里那抹悲伤的光，那不是懊悔，而是一种早已与命运和解的疲倦。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“……听起来，你背了很重的东西。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“也许吧。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“但至少现在，它不会再压垮我。”"
+  },
+  {
+	"text": "火光映在她的侧脸上，隐约能看出一道浅浅的旧伤痕。她没有遮掩，也没有解释。"
+  },
+  {
+	"text": "那一刻，我忽然意识到，这个女人并非坚不可摧。她只是习惯了——在崩塌中还保持体面。"
+  },
+  {
+	"text": "她放下杯子，手指在木面上轻敲两下，像在确认什么思绪的节拍。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“今晚的酒真不错。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“和南方的温酒相比果然我更适合喝烈的。”"
+  },
+  {
+	"text": "我没说话，只是替她又倒满了一杯。酒香与火光交织，像是要将这场短暂的坦白悄悄藏进夜色里。"
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.4" }]
+  }
 ]

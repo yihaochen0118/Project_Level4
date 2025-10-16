@@ -9,18 +9,18 @@
 	"text": "我缓缓移手去摸短剑，却没料到，剑鞘在腰间轻轻碰撞出一声‘铮’。"
   },
   {
-	"text": "醉汉猛地转头，血丝遍布的眼瞪向我。",
+	"text": "醉汉猛地转头，血丝遍布的眼瞪向我。"
   },
   {
-	"text": "“你想干什么？！”",
-	"event": [{ "action": "show_name", "target": "Junker" }]
+	"event": [{ "action": "show_name", "target": "Junker" }],
+	"text": "“你想干什么？！”"
   },
   {
 	"text": "他的怒火一下子被点燃，拳头重重砸在桌上，酒水四溅。"
   },
   {
-	"text": "“敢拔剑？！”",
-	"event": [{ "action": "show_name", "target": "Junker" }]
+	"event": [{ "action": "show_name", "target": "Junker" }],
+	"text": "“敢拔剑？！”"
   },
   {
 	"text": "我下意识后退一步，手还没完全握紧剑柄，空气里已经充满火药味。"
@@ -29,34 +29,56 @@
 	"text": "就在他迈出那一步时，一阵风声忽起——那不是风，而是剑鸣。"
   },
   {
-	"text": "Alicia 已经起身，斗篷掠过炉火，银光一闪而过。",
-	"event": [{ "action": "show_name", "target": "Alicia" }]
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia 已经起身，斗篷掠过炉火，银光一闪而过。"
   },
   {
-	"text": "没有人看清她做了什么，下一刻醉汉就被压在地上，脸埋进了自己的酒里。"
-  },
-  {
-	"text": "“够了。”",
-	"event": [
-	  { "action": "show_name", "target": "Alicia" },
-	  { "action": "remove_character", "target": "Junker" }
-	]
+	"text": "没有人看清她做了什么，下一刻醉汉就被压在地上，脸埋进了自己的酒里。",
+	"event": { "action": "shake", "target": "Junker" }
   },
   {
 	"text": "我怔怔地看着她。那一刻，我终于意识到——自己根本没必要拔剑。"
   },
   {
+	"event": { "action": "remove_character", "target": "Junker" },
 	"text": "她收回剑，火光照在那裂开的剑纹上，微微闪动。"
   },
-  {
-	"text": "“你可真会威胁人。”",
-	"event": [{ "action": "show_name", "target": "Alicia" }]
-  },
-  {
-	"text": "“那得看对象。”我笑了笑，放下了还未拔出的剑。",
-	"event": [{ "action": "show_name", "target": "Player" }]
-  },
-  {
-	"event": [{ "action": "change_scene", "target": "scene1.1" }]
-  }
+{
+  "event": [{ "action": "show_name", "target": "Alicia" }],
+  "text": "“你出手慢了一步。”"
+},
+{
+  "event": [{ "action": "show_name", "target": "Player" }],
+  "text": "“看起来你也不需要帮忙。”"
+},
+{
+  "text": "Alicia 轻轻抬眼，火光在她的瞳孔中闪烁，像是笑，又不像。"
+},
+{
+  "event": [{ "action": "show_name", "target": "Alicia" }],
+  "text": "“也许吧。”"
+},
+{
+  "text": "她将剑缓缓入鞘，金属与鞘口摩擦出轻微的声响。"
+},
+{
+  "text": "空气重新流动，炉火噼啪作响，几位客人探头又退回座位。"
+},
+{
+  "event": [{ "action": "show_name", "target": "Alicia" }],
+  "text": "“收拾一下吧。省的守卫找过来惹上麻烦。”"
+},
+{
+  "text": "她的声音不带命令，只是平静陈述。"
+},
+{
+  "event": [{ "action": "show_name", "target": "Player" }],
+  "text": "“好。”"
+},
+{
+  "text": "我点点头，拿起抹布开始清理桌上的酒渍。她静静站在一旁，像是在等我，又像在思考什么。"
+},
+{
+  "event": [{ "action": "change_scene", "target": "scene1.1" }]
+}
 ]

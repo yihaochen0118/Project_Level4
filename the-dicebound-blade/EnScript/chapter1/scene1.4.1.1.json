@@ -1,0 +1,40 @@
+[
+  {
+	"branch": "A_success",
+	"event": [
+	  { "action": "set_background", "target": "forest_battle" },
+	  { "action": "play_bgm", "target": "battle_calm" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "我下意识往旁边一扑，脚底的石子被震得直响。怪物的爪子从我身边划过，擦出一串火星。呼出的气都变得冰冷。艾莉西亚的身影闪过，我只看见一道银光。那野兽发出低吼，身体僵硬地停在半空，然后轰然倒下。碎裂的外壳砸在地面，溅起一片尘土。"
+  },
+  {
+	"text": "我的手心全是冷汗。她转过身，看了我一眼，语气平静却带着一丝关切：“反应不错，下次别离太近。”我点了点头，心跳还在狂跳，但胸口莫名有种兴奋——我活下来了，而且没拖后腿。"
+  },
+  {
+	"event": { "action": "hp_gain", "amount": 10 }
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "forest_afterbattle" },
+	  { "action": "play_bgm", "target": "forest_wind" }
+	],
+	"text": "地面还残留着魔兽燃烧后的黑痕，空气中弥漫着淡淡的烟味。阳光从枝叶间落下，照在她的剑上，光线冷得像冰。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“这种怪物不是自然长出来的。”她低声说，“它们是‘残梦’——那些死去的人留下的印记。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“残梦？”我重复了一遍，声音还带着颤。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“嗯。打过仗的地方、死过人的地方，地底会留下他们最后的情绪。久了，就会变成这种东西。”"
+  },
+  {
+	"text": "她收起剑，转头对我微微一笑，语气重新轻快起来：“走吧，镇集就在前面，别想太多。”"
+  },
+  { "event": [{ "action": "change_scene", "target": "scene1.5" }] }
+]

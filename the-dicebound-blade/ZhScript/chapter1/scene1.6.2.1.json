@@ -1,7 +1,9 @@
 [
   {
 	"event": [
-	  { "action": "set_background", "target": "underground_ruins_dim" },
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "EnemyLeader", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "我拉住露西亚，压低声音：“别动。我们从侧边绕过去。”火光在墙壁间摇曳，阴影像碎布一样晃动。"
@@ -30,14 +32,20 @@
 	"event": { "action": "show_name", "target": "Lucia" },
 	"text": "露西亚的眼神有一瞬犹豫，随后点头。"
   },
-  {
+  {"event": [
+	  { "action": "remove_character", "target": "Lucia" },
+	  { "action": "spawn_character", "target": "Enemy1", "pos": [-450, 0] }],
 	"text": "我抬头观察四周。左侧的铁管断裂，一直通向天花板。那也许能制造出声响——我深吸一口气，拾起一块石头。"
   },
   {
 	"text": "石头飞出，撞上铁管，发出一声尖锐的“当——！”"
   },
   {
-	"text": "黑袍人纷纷转头。首领沉声：“谁在那里？”"
+	"event": { "action": "show_name", "target": "EnemyLeader" },
+	"text": "“谁在那里？”"
+  },
+  {
+	"text": "黑袍人纷纷转头。首领沉声喝问。"
   },
   {
 	"text": "他们分出两人朝那方向走去。趁此空隙，我贴着地面滑到下一个石柱后。露西亚已经趁机靠近艾莉西亚。"
@@ -50,16 +58,16 @@
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "不能再等了。"
+	"text": "“不能再等了。”"
   },
   {
 	"text": "我猛地站起，从暗处冲出。短剑划出一道寒光，准确刺入离我最近的黑袍人腰侧。"
   },
   {
-	"event": { "action": "shake", "target": "Enemy1" },
+	"event":  { "action": "shake", "target": "Enemy1" },
 	"text": "他闷哼一声倒地，血迹溅在阵纹上。光线闪烁，吟唱声骤然混乱。"
   },
-  {
+  {"event": [{ "action": "show_name", "target": "EnemyLeader" },{ "action": "remove_character", "target": "Enemy1" },{ "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },],
 	"text": "露西亚趁机打断最后的锁链。艾莉西亚坠入她怀中，昏迷不醒。"
   },
   {
@@ -77,49 +85,70 @@
 	"text": "当我重新睁开眼时，首领已经倒在地上，胸口的印记正在一点点消失。剩下的黑袍人纷纷逃离，地下室陷入诡异的安静。"
   },
   {
-	"text": "露西亚抱着艾莉西亚，神情慌张：“她还有呼吸，但太微弱了。”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“走，离开这里。”我握紧短剑，站在她们前面开路。"
-  },
-  {
-	"text": "楼梯湿滑，墙壁上还在滴水。我们冲上地面，冷风扑面而来。夜雪仍在下，街灯的光透过风雪，像一层昏黄的雾。"
+	"event": [{ "action": "remove_character", "target": "EnemyLeader" },
+	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] },
+	],
+	"text": "空气中弥漫着焦味与灰尘。蓝色光线一点点熄灭，只剩火星在暗处闪烁。"
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“刚才那一下——真险。”她喘着气，眼里闪着难以置信的兴奋。"
+	"text": "“她还有呼吸，但太微弱了。”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“险，但值得。”我望着怀中的艾莉西亚，“她活着。”"
+	"text": "“走，离开这里。”"
+  },
+  {
+	"text": "我握紧短剑，站在她们前面开路。楼梯湿滑，墙壁上还在滴水。"
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "Street" }
+	],
+	"text": "冷风扑面而来。夜雪仍在下，街灯的光透过风雪，像一层昏黄的雾。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "“刚才那一下——真险。”"
+  },
+  {
+	"text": "她喘着气，眼里闪着难以置信的兴奋。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“险，但值得。”"
+  },
+  {
+	"text": "我望着怀中的艾莉西亚，“她活着。”"
   },
   {
 	"text": "我们回头看那座废楼，蓝光已经完全熄灭。风吹起雪尘，掩去了脚印。"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "她在昏睡中轻声呢喃：“……不要让……循环……继续……”"
+	"text": "“……谢谢……”"
+  },
+  {
+	"text": "她在昏睡中轻声呢喃。"
   },
   {
 	"text": "她的声音几乎被风吞没，却让我心头一颤。那词句带着警告，也像是一种记忆。"
   },
   {
-	"text": "露西亚抬头看我：“她说什么？”"
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "“她说什么？”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“等她醒了再问。”我叹了口气，把斗篷披在艾莉西亚身上。"
+	"text": "“她还活着，这就足够了。”"
   },
   {
-	"text": "远处的钟声响起——午夜。风在街角盘旋，灯笼轻轻晃动，光影摇曳。"
+	"text": "我叹了口气，把斗篷披在艾莉西亚身上。远处的钟声响起——午夜。"
   },
   {
-	"text": "那一刻，我突然意识到：我们救下的不只是一个人，而是一段被掩埋的真相。"
+	"text": "风在街角盘旋，灯笼轻轻晃动，光影摇曳。那一刻，我突然意识到：我们救下的不只是一个人，而是一段被掩埋的真相。"
   },
   {
-	"event": [
-	  { "action": "change_scene", "target": "scene1.7" }
-	]
+	"event": [{ "action": "change_scene", "target": "scene1.7" }]
   }
 ]

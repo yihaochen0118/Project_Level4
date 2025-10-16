@@ -1,0 +1,62 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
+	]
+  },
+  {
+	"text": "I slowly reached for my short sword—only to hear the faint metallic clang as the scabbard brushed against my belt."
+  },
+  {
+	"text": "The drunkard snapped his head around, bloodshot eyes glaring straight at me."
+  },
+  {
+	"text": "“What do you think you’re doing?!”",
+	"event": [{ "action": "show_name", "target": "Junker" }]
+  },
+  {
+	"text": "His fury ignited at once; his fist slammed onto the table, sending liquor splashing everywhere."
+  },
+  {
+	"text": "“Trying to draw your blade?!”",
+	"event": [{ "action": "show_name", "target": "Junker" }]
+  },
+  {
+	"text": "I instinctively stepped back. My hand hadn’t even gripped the hilt fully, yet the air was already thick with tension."
+  },
+  {
+	"text": "Just as he took a step forward, a sharp sound cut through the air—not wind, but the song of a sword."
+  },
+  {
+	"text": "Alicia was already moving. Her cloak swept past the fire, and a flash of silver split the air.",
+	"event": [{ "action": "show_name", "target": "Alicia" }]
+  },
+  {
+	"text": "No one saw what she did—only that, in the next instant, the drunkard was pinned to the floor, his face buried in his own spilled drink."
+  },
+  {
+	"text": "“Enough.”",
+	"event": [
+	  { "action": "show_name", "target": "Alicia" },
+	  { "action": "remove_character", "target": "Junker" }
+	]
+  },
+  {
+	"text": "I stared at her in shock. At that moment, I realized—I never needed to draw my sword at all."
+  },
+  {
+	"text": "She sheathed her blade. The firelight flickered across the cracked pattern on its edge."
+  },
+  {
+	"text": "“You have quite the way of intimidating people.”",
+	"event": [{ "action": "show_name", "target": "Alicia" }]
+  },
+  {
+	"text": "“Depends on who I’m dealing with,” I replied with a faint smile, lowering the sword I hadn’t drawn.",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  {
+	"event": [{ "action": "change_scene", "target": "scene1.1" }]
+  }
+]

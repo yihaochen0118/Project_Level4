@@ -1,0 +1,51 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
+	]
+  },
+  { "text": "The drunkard’s steps drew closer, the cups on the table trembling slightly with each heavy footfall. The air grew thick with the stench of alcohol." },
+  { "text": "I didn’t back away. Slowly, I placed my hand on the hilt of my short sword, fingers tightening just enough to feel its weight." },
+  { 
+	"text": "“You’d better stop right there.”",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  { "text": "The drunkard hesitated for a moment, his mouth twitching as if amused. He clearly didn’t take me seriously and took another step forward." },
+  { "text": "A flash of steel—my sword was already drawn. The blade’s chill traced a thin white line across his throat." },
+  { "text": "He froze completely, breath caught in his chest, not daring to even move his eyes." },
+  { 
+	"text": "“Move again, and I’ll call the town guards.”",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  { 
+	"text": "The drunkard swallowed hard, his throat trembling lightly against the blade.",
+	"event": [{ "action": "shake", "target": "Junker" }]
+  },
+  { 
+	"text": "“Y-you’re not serious… right?”",
+	"event": [{ "action": "show_name", "target": "Junker" }]
+  },
+  { "text": "I didn’t answer. The blade pressed just an inch closer, the cold gleam reflected on his face, freezing even the sweat on his skin." },
+  { "text": "Only the crackle of the fire and his ragged breathing filled the silence." },
+  { "text": "Alicia stood nearby, watching calmly. A faint glimmer of approval flickered in her eyes." },
+  { 
+	"text": "“Stand down.”",
+	"event": [{ "action": "show_name", "target": "Alicia" }]
+  },
+  { "text": "The drunkard staggered backward, nearly tripping over himself as he bolted for the door, crashing into the storm outside." },
+  { 
+	"text": "With a loud bang, the door slammed shut in the wind, and the fire flickered softly.",
+	"event": [{ "action": "remove_character", "target": "Junker" }]
+  },
+  { "text": "I lowered my short sword. Its blade caught the firelight, glinting faintly like a streak of frozen lightning." },
+  { 
+	"text": "“You really have a talent for intimidation.”",
+	"event": [{ "action": "show_name", "target": "Alicia" }]
+  },
+  { 
+	"text": "“Someone had to do something,” I said with a wry smile, sliding the sword back into its sheath.",
+	"event": [{ "action": "show_name", "target": "Player" }]
+  },
+  { "event": [{ "action": "change_scene", "target": "scene1.1" }] }
+]
