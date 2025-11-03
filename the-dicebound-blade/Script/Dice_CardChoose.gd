@@ -10,6 +10,7 @@ var check: String = ""
 @onready var btn_d20: Button = $card/DICE/D20
 @onready var Dc_value: Label = $rightPanel/DC
 @onready var result_label: Label = $card/ResultLabel
+@onready var modification_label = $Modification
 @onready var card_container: Control = $card/DICE   # 按钮所在容器
 @onready var dim_overlay: ColorRect = $DimOverlay
 var original_z_index = {}
@@ -146,6 +147,8 @@ func _result_feedback(sides: int, result: int, check: String = ""):
 
 func _fix_rightPanel(value: int):
 	Dc_value.text = "%d" % value
+	_update_modification_label()
+
 
 
 func _get_btn_by_sides(sides: int) -> Button:
@@ -167,3 +170,11 @@ func _fade_dim(to_visible: bool):
 	if not to_visible:
 		await tween.finished
 		dim_overlay.visible = false
+		
+func _update_modification_label():
+	if check == "" or not PlayerData.stats.has(check):
+		modification_label.text = "无属性修正"
+	else:
+		var value = PlayerData.get_stat(check)
+		var sign = "+" if value >= 0 else ""
+		modification_label.text = "%s %+d" % [check.capitalize(), value]

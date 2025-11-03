@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "hide_talk_ui" },
+	  { "action": "unlock","target": "1_0" },
 	  { "action": "set_background", "target": "tavern" }
 	]
   },

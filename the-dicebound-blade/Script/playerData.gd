@@ -8,10 +8,14 @@ var choice_history: Array = []
 var flags: Dictionary = {}
 var dice_max_uses = {6:5, 8:4, 10:3, 12:2, 20:1}
 var dice_uses = dice_max_uses.duplicate(true)
+var unlocked_nodes: Dictionary = {}   # {"1.3": true, "BadEnding1": true, ...}
 
 var hp: int = 100
 var max_hp: int = 100
 
+func _ready():
+	load_progress()   # 启动时读取一次永久进度（不受存档影响）
+	
 # 六大能力值（基于 D&D 风格）
 var stats = {
 	"strength": 2,      # 力量（Strength）：近战、威慑、体能对抗
@@ -112,3 +116,31 @@ func add_dice_uses(sides: int, amount: int = 1):
 	print("🎲 D%d 使用次数增加 %d → 当前次数: %d" % [sides, amount, dice_uses[sides]])
 
 	emit_signal("stats_changed")  # 如果你有UI更新监听
+# 供外部调用：解锁 / 查询
+func unlock_node(id: String) -> void:
+	if id == "": return
+	unlocked_nodes[id] = true
+	_save_progress()
+	emit_signal("stats_changed")  # 让UI有机会刷新（可选）
+
+func is_node_unlocked(id: String) -> bool:
+	return unlocked_nodes.get(id, false)
+
+# 永久保存到 user://progress.cfg
+func _save_progress() -> void:
+	var cfg := ConfigFile.new()
+	cfg.set_value("progress", "unlocked_nodes", unlocked_nodes.keys())
+	cfg.save("user://progress.cfg")
+
+func load_progress() -> void:
+	var cfg := ConfigFile.new()
+	if cfg.load("user://progress.cfg") == OK:
+		var arr: Array = cfg.get_value("progress", "unlocked_nodes", [])
+		unlocked_nodes.clear()
+		for id in arr:
+			unlocked_nodes[str(id)] = true
+
+# （可选）单独提供清理永久进度的API，reset_all不要动它
+func clear_progress() -> void:
+	unlocked_nodes.clear()
+	_save_progress()

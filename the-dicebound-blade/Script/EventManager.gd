@@ -105,6 +105,8 @@ func handle_event(event: Dictionary) -> void:
 			if flag_name != "":
 				PlayerData.flags[flag_name] = value
 				print("🏳️ 设置Flag: %s = %s" % [flag_name, str(value)])
+		"unlock":
+			_unlock(event)
 
 		# ========== 场景切换 ==========
 		"change_scene":
@@ -251,4 +253,21 @@ func _handle_add_dice(event: Dictionary):
 	
 	print("🪄 事件触发：为 D%d 增加 %d 次使用次数" % [sides, amount])
 	
-	
+func _unlock(event: Dictionary) -> void:
+	var target_id := str(event.get("target",""))
+	if target_id == "":
+		push_warning("⚠️ unlock 缺少 target")
+		return
+
+	# ✅ 写入永久解锁进度（独立于 flags / 存档）
+	PlayerData.unlock_node(target_id)
+	print("🌟 永久解锁节点: ", target_id)
+
+	# ✅ 如果设置里 GameTree 打开，刷新一下
+	var root = get_tree().current_scene
+	if not root: return
+	var ui_root = root.get_node("UI") if root.has_node("UI") else null
+	if ui_root and ui_root.has_node("Setting/Panel/TabContainer/GameTree/GameTreeHolder"):
+		var gt = ui_root.get_node("Setting/Panel/TabContainer/GameTree/GameTreeHolder")
+		if gt and gt.has_method("refresh"):
+			gt.refresh()

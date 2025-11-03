@@ -1,7 +1,8 @@
 [
   {
 	"event": [
-	  { "action": "hide_talk_ui" }
+	  { "action": "hide_talk_ui" },
+	{ "action": "unlock","target": "1_2" },
 	]
   },
   {

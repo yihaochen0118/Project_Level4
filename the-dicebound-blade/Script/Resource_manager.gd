@@ -39,7 +39,8 @@ var backgrounds = {
 	"town_snow_street": "res://Scenes/Background/town_snow_street.tscn",
 	"Square": "res://Scenes/Background/Square.tscn",
 	"Black": "res://Scenes/Background/Black.tscn",
-	"underground_entrance": "res://Scenes/Background/underground_entrance.tscn"
+	"underground_entrance": "res://Scenes/Background/underground_entrance.tscn",
+	"GameTree": "res://Scenes/ui/Gametree.tscn"
 }
 
 # 角色场景路径

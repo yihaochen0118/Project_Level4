@@ -1,16 +1,140 @@
-[gd_scene format=3 uid="uid://cqla8tg4qxfl0"]
+[gd_scene load_steps=4 format=3 uid="uid://cqla8tg4qxfl0"]
+
+[ext_resource type="Texture2D" uid="uid://cmam2o4hmg2sp" path="res://images/else/gametree.jpg" id="1_81ux6"]
+[ext_resource type="Script" uid="uid://bfxp31s3w5r5g" path="res://Script/game_tree.gd" id="1_kpcvo"]
+[ext_resource type="Texture2D" uid="uid://byxihq3bqw8lr" path="res://icon.svg" id="3_kpcvo"]
 
 [node name="GameTree" type="Node2D"]
 
-[node name="Panel" type="Panel" parent="."]
-offset_left = 495.0
-offset_top = 116.0
-offset_right = 1328.0
-offset_bottom = 923.0
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+offset_right = 1962.0
+offset_bottom = 1073.0
 
-[node name="1" type="Button" parent="Panel"]
+[node name="GameTree" type="Control" parent="ScrollContainer"]
+custom_minimum_size = Vector2(1960, 3000)
+layout_mode = 2
+script = ExtResource("1_kpcvo")
+
+[node name="Map" type="TextureRect" parent="ScrollContainer/GameTree"]
+custom_minimum_size = Vector2(0, 3000)
 layout_mode = 0
-offset_left = 374.0
-offset_top = 42.0
-offset_right = 425.0
-offset_bottom = 92.0
+offset_left = 11.0
+offset_top = -4.0
+offset_right = 1967.0
+offset_bottom = 3114.0
+texture = ExtResource("1_81ux6")
+
+[node name="Marks" type="Control" parent="ScrollContainer/GameTree"]
+anchors_preset = 0
+offset_left = -8.0
+offset_top = -8.0
+offset_right = -8.0
+offset_bottom = -8.0
+
+[node name="1_0" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 969.0
+offset_top = 12.0
+offset_right = 1020.0
+offset_bottom = 67.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = "res://images/hint_image/1_0.png"
+metadata/hint_locked = "尚未解锁，请开始游戏"
+metadata/hint_unlocked = "与Alicia相遇"
+
+[node name="1_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 967.0
+offset_top = 123.0
+offset_right = 1018.0
+offset_bottom = 178.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_unlocked = "初次遇到露西亚"
+metadata/hint_locked = "与露西亚对话以解锁"
+metadata/hint_image = ""
+
+[node name="1_3" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 968.0
+offset_top = 265.0
+offset_right = 1019.0
+offset_bottom = 320.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_unlocked = "Alicia的夜谈，她似乎有什么秘密"
+metadata/hint_locked = "Alicia夜谈以解锁"
+metadata/hint_image = ""
+
+[node name="1_4" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 968.0
+offset_top = 424.0
+offset_right = 1019.0
+offset_bottom = 479.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+
+[node name="1_5_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 909.0
+offset_top = 558.0
+offset_right = 960.0
+offset_bottom = 613.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+
+[node name="1_5_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1031.0
+offset_top = 555.0
+offset_right = 1082.0
+offset_bottom = 610.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+
+[node name="1_6" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 966.0
+offset_top = 687.0
+offset_right = 1017.0
+offset_bottom = 742.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+
+[node name="BadEnding1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 761.0
+offset_top = 667.0
+offset_right = 812.0
+offset_bottom = 722.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+
+[node name="BadEnding2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1138.0
+offset_top = 671.0
+offset_right = 1189.0
+offset_bottom = 726.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+
+[node name="1_7" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 969.0
+offset_top = 824.0
+offset_right = 1020.0
+offset_bottom = 879.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+
+[node name="1_8" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 965.0
+offset_top = 972.0
+offset_right = 1016.0
+offset_bottom = 1027.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1

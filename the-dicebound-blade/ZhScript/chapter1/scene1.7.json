@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern_out" },
+	{ "action": "unlock","target": "1_7" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "阳光正好。镇上的市集比往常热闹些，孩子在卖花，商贩的吆喝声被风吹得轻轻散开。"
@@ -12,7 +13,7 @@
   {
 	"event": [{ "action": "show_name", "target": "Alicia" },
 	{ "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] }],
-	"text": "艾莉西亚换了一身淡色的布裙，银发简单地绑在身后，没有铠甲，也没有剑。"
+	"text": "艾莉西亚换了一身淡色的布裙，银发简单地绑在身后，没有铠甲，也没有剑。只是看起来比之前虚弱了一些，似乎是还没有从昨晚缓过来。"
   },
   {
 	"text": "“难得的早晨，”她笑着说，“我想试着过一次普通人的日子。”"

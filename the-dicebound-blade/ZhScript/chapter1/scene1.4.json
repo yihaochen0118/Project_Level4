@@ -3,6 +3,7 @@
 	"event": [
 	  { "action": "hide_talk_ui" },
 	  { "action": "set_background", "target": "tavern_empty" },
+	{ "action": "unlock","target": "1_4" },
 	]
   },
   {

@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_gate_day" },
+	{ "action": "unlock","target": "1_5" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "烈日正高，镇子的城门半掩着，风里混着炭火与香料的味道。"

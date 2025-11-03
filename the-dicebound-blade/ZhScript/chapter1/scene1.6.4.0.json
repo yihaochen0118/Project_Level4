@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "underground_entrance" },
+	{ "action": "unlock","target": "BadEnding2" },
 	{ "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] },
 	{ "action": "spawn_character", "target": "EnemyLeader", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }

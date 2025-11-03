@@ -17,6 +17,7 @@ var pending_slot: int = -1
 func _ready():
 	_refresh_save_buttons()
 	_refresh_load_buttons()
+	print("User data path: ", ProjectSettings.globalize_path("user://"))
 	panel.hide()
 
 	settingButton.pressed.connect(_on_button_pressed)
@@ -34,6 +35,22 @@ func _ready():
 		var btn = load_buttons[i]
 		btn.pressed.connect(func(): _on_load_pressed(i))
 	_update_ui_texts()
+	_load_game_tree()
+	
+func _load_game_tree():
+	var holder = $Panel/TabContainer/GameTree/GameTreeHolder
+	var path = ResMgr.get_background("GameTree")  # 这里用 ResourceManager 的路径
+	if path == "":
+		push_warning("⚠️ GameTree 场景路径为空")
+		return
+	var scene = load(path) as PackedScene
+	if scene == null:
+		push_error("❌ 无法加载 GameTree 场景: %s" % path)
+		return
+
+	var instance = scene.instantiate()
+	holder.add_child(instance)
+	print("✅ GameTree 已加载至设置界面")
 
 func _on_button_pressed():
 	panel.visible = not panel.visible
