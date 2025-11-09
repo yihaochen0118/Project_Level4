@@ -114,9 +114,12 @@ func handle_event(event: Dictionary) -> void:
 			
 		"add_dice":
 			_handle_add_dice(event)
+			
+		"add_item":
+			_handle_add_item(event)
 		_:
 			push_warning("未知事件: %s" % action)
-
+	
 
 
 # ========== 内部函数 ==========
@@ -271,3 +274,17 @@ func _unlock(event: Dictionary) -> void:
 		var gt = ui_root.get_node("Setting/Panel/TabContainer/GameTree/GameTreeHolder")
 		if gt and gt.has_method("refresh"):
 			gt.refresh()
+
+func _handle_add_item(event: Dictionary) -> void:
+	var item_name = event.get("target", "")
+	var amount = event.get("amount", 1)
+
+	if item_name == "":
+		push_warning("⚠️ get_item 缺少 target 字段")
+		return
+
+	if not ResMgr.items.has(item_name):
+		push_warning("⚠️ 未找到物品资源: %s" % item_name)
+		return
+
+	PlayerData.add_item(item_name, amount)

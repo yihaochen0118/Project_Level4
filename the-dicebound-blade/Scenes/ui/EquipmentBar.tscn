@@ -1,0 +1,45 @@
+[gd_scene load_steps=3 format=3 uid="uid://df7mcw1kpxyvm"]
+
+[ext_resource type="Script" uid="uid://dn1dd1dxtx33y" path="res://Script/EquipmentBar.gd" id="1_qmss3"]
+[ext_resource type="Texture2D" uid="uid://byxihq3bqw8lr" path="res://icon.svg" id="2_hgwno"]
+
+[node name="EquipmentBar" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_qmss3")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 502.0
+offset_top = 465.0
+offset_right = 1576.0
+offset_bottom = 623.0
+
+[node name="Button" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(150, 100)
+layout_mode = 2
+icon = ExtResource("2_hgwno")
+
+[node name="Button2" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(150, 100)
+layout_mode = 2
+
+[node name="Button3" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(150, 100)
+layout_mode = 2
+
+[node name="Button4" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(150, 100)
+layout_mode = 2
+
+[node name="Button5" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(150, 100)
+layout_mode = 2
+
+[node name="Button6" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(150, 100)
+layout_mode = 2
+
+[node name="Button7" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(150, 100)
+layout_mode = 2

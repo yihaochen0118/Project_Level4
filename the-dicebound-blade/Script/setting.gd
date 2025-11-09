@@ -159,6 +159,7 @@ func _do_save(slot: int):
 		# 🎲 新增：保存骰子使用次数
 		"dice_uses": PlayerData.dice_uses,
 		"dice_max_uses": PlayerData.dice_max_uses,
+		"inventory": PlayerData.inventory,
 	}
 
 	SaveMgr.save_game(slot, data)

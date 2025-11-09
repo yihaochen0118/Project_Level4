@@ -8,7 +8,7 @@
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
 offset_right = 1962.0
-offset_bottom = 1073.0
+offset_bottom = 2723.0
 
 [node name="GameTree" type="Control" parent="ScrollContainer"]
 custom_minimum_size = Vector2(1960, 3000)
@@ -16,15 +16,83 @@ layout_mode = 2
 script = ExtResource("1_kpcvo")
 
 [node name="Map" type="TextureRect" parent="ScrollContainer/GameTree"]
+modulate = Color(1, 1, 1, 0.5529412)
 custom_minimum_size = Vector2(0, 3000)
 layout_mode = 0
 offset_left = 11.0
 offset_top = -4.0
 offset_right = 1967.0
-offset_bottom = 3114.0
+offset_bottom = 3196.0
 texture = ExtResource("1_81ux6")
 
+[node name="line" type="Control" parent="ScrollContainer/GameTree"]
+anchors_preset = 0
+offset_left = -8.0
+offset_top = -8.0
+offset_right = 32.0
+offset_bottom = 32.0
+
+[node name="Line2D" type="Line2D" parent="ScrollContainer/GameTree/line"]
+points = PackedVector2Array(1008, 71, 1008, 144)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D2" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(0, 128)
+points = PackedVector2Array(1008, 71, 1008, 144)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D3" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(0, 256)
+points = PackedVector2Array(1008, 71, 1008, 144)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D4" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(0, 640)
+points = PackedVector2Array(1008, 71, 1008, 144)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D9" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(0, 768)
+points = PackedVector2Array(1008, 71, 1008, 144)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D5" type="Line2D" parent="ScrollContainer/GameTree/line"]
+points = PackedVector2Array(1008, 455, 1008, 488, 944, 488, 944, 528)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D6" type="Line2D" parent="ScrollContainer/GameTree/line"]
+points = PackedVector2Array(1008, 488, 1064, 488, 1064, 528)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D7" type="Line2D" parent="ScrollContainer/GameTree/line"]
+points = PackedVector2Array(944, 583, 944, 616, 1008, 616, 1008, 656)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D8" type="Line2D" parent="ScrollContainer/GameTree/line"]
+points = PackedVector2Array(1064, 583, 1064, 616, 1016, 616, 1008, 616)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D10" type="Line2D" parent="ScrollContainer/GameTree/line"]
+points = PackedVector2Array(1035, 680, 1176, 680, 1176, 704, 1208, 704, 1208, 728)
+width = 3.0
+default_color = Color(1, 0.40784314, 1, 1)
+
+[node name="Line2D11" type="Line2D" parent="ScrollContainer/GameTree/line"]
+points = PackedVector2Array(1176, 704, 1144, 704, 1144, 728)
+width = 3.0
+default_color = Color(1, 0.40784314, 1, 1)
+
 [node name="Marks" type="Control" parent="ScrollContainer/GameTree"]
+z_index = 1
 anchors_preset = 0
 offset_left = -8.0
 offset_top = -8.0
@@ -32,11 +100,12 @@ offset_right = -8.0
 offset_bottom = -8.0
 
 [node name="1_0" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+z_index = 1
 layout_mode = 0
-offset_left = 969.0
-offset_top = 12.0
-offset_right = 1020.0
-offset_bottom = 67.0
+offset_left = 984.0
+offset_top = 16.0
+offset_right = 1035.0
+offset_bottom = 71.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = "res://images/hint_image/1_0.png"
@@ -44,11 +113,12 @@ metadata/hint_locked = "尚未解锁，请开始游戏"
 metadata/hint_unlocked = "与Alicia相遇"
 
 [node name="1_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+z_index = 1
 layout_mode = 0
-offset_left = 967.0
-offset_top = 123.0
-offset_right = 1018.0
-offset_bottom = 178.0
+offset_left = 984.0
+offset_top = 144.0
+offset_right = 1035.0
+offset_bottom = 199.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_unlocked = "初次遇到露西亚"
@@ -56,11 +126,12 @@ metadata/hint_locked = "与露西亚对话以解锁"
 metadata/hint_image = ""
 
 [node name="1_3" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+z_index = 1
 layout_mode = 0
-offset_left = 968.0
-offset_top = 265.0
-offset_right = 1019.0
-offset_bottom = 320.0
+offset_left = 984.0
+offset_top = 272.0
+offset_right = 1035.0
+offset_bottom = 327.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_unlocked = "Alicia的夜谈，她似乎有什么秘密"
@@ -68,73 +139,80 @@ metadata/hint_locked = "Alicia夜谈以解锁"
 metadata/hint_image = ""
 
 [node name="1_4" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+z_index = 1
 layout_mode = 0
-offset_left = 968.0
-offset_top = 424.0
-offset_right = 1019.0
-offset_bottom = 479.0
+offset_left = 984.0
+offset_top = 400.0
+offset_right = 1035.0
+offset_bottom = 455.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 
 [node name="1_5_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+z_index = 1
 layout_mode = 0
-offset_left = 909.0
-offset_top = 558.0
-offset_right = 960.0
-offset_bottom = 613.0
+offset_left = 920.0
+offset_top = 528.0
+offset_right = 971.0
+offset_bottom = 583.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 
 [node name="1_5_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+z_index = 1
 layout_mode = 0
-offset_left = 1031.0
-offset_top = 555.0
-offset_right = 1082.0
-offset_bottom = 610.0
+offset_left = 1040.0
+offset_top = 528.0
+offset_right = 1091.0
+offset_bottom = 583.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 
 [node name="1_6" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+z_index = 1
 layout_mode = 0
-offset_left = 966.0
-offset_top = 687.0
-offset_right = 1017.0
-offset_bottom = 742.0
+offset_left = 984.0
+offset_top = 656.0
+offset_right = 1035.0
+offset_bottom = 711.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 
 [node name="BadEnding1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+z_index = 1
 layout_mode = 0
-offset_left = 761.0
-offset_top = 667.0
-offset_right = 812.0
-offset_bottom = 722.0
+offset_left = 1184.0
+offset_top = 728.0
+offset_right = 1235.0
+offset_bottom = 783.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 
 [node name="BadEnding2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+z_index = 1
 layout_mode = 0
-offset_left = 1138.0
-offset_top = 671.0
-offset_right = 1189.0
-offset_bottom = 726.0
+offset_left = 1120.0
+offset_top = 728.0
+offset_right = 1171.0
+offset_bottom = 783.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 
 [node name="1_7" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+z_index = 1
 layout_mode = 0
-offset_left = 969.0
-offset_top = 824.0
-offset_right = 1020.0
-offset_bottom = 879.0
+offset_left = 984.0
+offset_top = 784.0
+offset_right = 1035.0
+offset_bottom = 839.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 
 [node name="1_8" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
-offset_left = 965.0
-offset_top = 972.0
-offset_right = 1016.0
-offset_bottom = 1027.0
+offset_left = 984.0
+offset_top = 912.0
+offset_right = 1035.0
+offset_bottom = 967.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1

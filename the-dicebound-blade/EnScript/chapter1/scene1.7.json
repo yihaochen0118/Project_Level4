@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern_out" },
+	{ "action": "unlock","target": "1_7" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "The sun was warm and bright. The town square was livelier than usual—children selling flowers, merchants shouting as the wind carried their voices away."

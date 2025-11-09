@@ -2,6 +2,7 @@ extends Node
 class_name ResourceManager
 var dialogues = {}
 var current_lang: String  # 当前语言（zh 或 en）
+var items = {}
 
 func _ready():
 	print("🟢 ResourceManager 初始化中……")
@@ -24,6 +25,11 @@ func _ready():
 
 	print("📚 已加载剧情文件数量:", dialogues.size())
 	print("🔎 示例键:", dialogues.keys().slice(0, 6))
+	
+	if DirAccess.dir_exists_absolute("res://Scenes/item"):
+		autoLoad_Items("res://Scenes/item")
+	else:
+		print("⚠️ 未找到装备目录，跳过装备加载")
 
 # 背景场景路径
 var backgrounds = {
@@ -59,6 +65,7 @@ var ui = {
 	"Option_ui":"res://Scenes/ui/Option_ui.tscn",
 	"PlayerStatu":"res://Scenes/ui/PlayerStatu.tscn",
 	"Setting":"res://Scenes/ui/Setting.tscn",
+	"EquipmentBar":"res://Scenes/ui/EquipmentBar.tscn",
 	"loadUi":"res://Scenes/ui/loadUi.tscn"
 }
 
@@ -130,3 +137,29 @@ func _load_saved_language() -> String:
 	if cfg.load("user://config.cfg") == OK:
 		return cfg.get_value("settings", "language", "zh")
 	return "zh"
+
+func autoLoad_Items(base_path: String = "res://Scenes/item"):
+	if not DirAccess.dir_exists_absolute(base_path):
+		push_warning("⚠️ 未找到物品目录: %s" % base_path)
+		return
+
+	var dir = DirAccess.open(base_path)
+	if not dir:
+		push_error("❌ 无法打开物品目录: %s" % base_path)
+		return
+
+	dir.list_dir_begin()
+	var file_name = dir.get_next()
+	while file_name != "":
+		if dir.current_is_dir():
+			if file_name != "." and file_name != "..":
+				autoLoad_Items(base_path + "/" + file_name)
+		elif file_name.ends_with(".tscn"):
+			var item_name = file_name.replace(".tscn", "")
+			var full_path = base_path + "/" + file_name
+			items[item_name] = full_path
+			print("💎 加载物品: %s → %s" % [item_name, full_path])
+		file_name = dir.get_next()
+	dir.list_dir_end()
+
+	print("✅ 装备目录加载完成，总数量: %d" % items.size())

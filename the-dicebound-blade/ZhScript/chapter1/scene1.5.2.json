@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_market_day" },
+	{ "action": "unlock","target": "1_5_2" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "街头的摊位排成两行，烤鱼、香料、花束混着炊烟的香气。"

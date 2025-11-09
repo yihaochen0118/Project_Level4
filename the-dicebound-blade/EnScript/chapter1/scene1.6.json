@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern_night" },
+	{ "action": "unlock","target": "1_6" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "Night had fallen, and the wind whispered past the lanterns at the street corner."

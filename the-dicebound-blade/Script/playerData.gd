@@ -3,7 +3,9 @@ extends Node
 
 signal stats_changed
 signal hp_changed(new_hp: int, max_hp: int)
+signal item_changed
 
+var inventory: Dictionary = {}  # {"Sword": 1, "Potion": 3}
 var choice_history: Array = []
 var flags: Dictionary = {}
 var dice_max_uses = {6:5, 8:4, 10:3, 12:2, 20:1}
@@ -81,6 +83,10 @@ func load_from_dict(data: Dictionary):
 		dice_max_uses.clear()
 		for k in data["dice_max_uses"].keys():
 			dice_max_uses[int(k)] = data["dice_max_uses"][k]
+	
+	if data.has("inventory"):
+		inventory = data["inventory"].duplicate(true)
+		emit_signal("item_changed")
 
 	emit_signal("stats_changed")
 	emit_signal("hp_changed", hp, max_hp)
@@ -144,3 +150,31 @@ func load_progress() -> void:
 func clear_progress() -> void:
 	unlocked_nodes.clear()
 	_save_progress()
+
+func add_item(item_name: String, count: int = 1):
+	if inventory.has(item_name):
+		inventory[item_name] += count
+	else:
+		inventory[item_name] = count
+	emit_signal("item_changed")
+	print("👜 获得物品: %s x%d" % [item_name, count])
+
+# 使用物品
+func use_item(item_name: String):
+	if not inventory.has(item_name):
+		push_warning("⚠️ 没有此物品: %s" % item_name)
+		return
+	inventory[item_name] -= 1
+	if inventory[item_name] <= 0:
+		inventory.erase(item_name)
+	emit_signal("item_changed")
+
+	# 实例化并执行
+	var path = ResMgr.items.get(item_name, "")
+	if path == "":
+		push_error("❌ 未找到物品资源: %s" % item_name)
+		return
+	var scene = load(path)
+	var item_instance = scene.instantiate()
+	if item_instance.has_method("use"):
+		item_instance.use()
