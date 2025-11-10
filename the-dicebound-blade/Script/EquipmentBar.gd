@@ -1,6 +1,6 @@
 extends Control
 
-@onready var hbox = $HBoxContainer
+@onready var hbox = $VBoxContainer
 
 func _ready():
 	_update_equipment_buttons()
@@ -12,7 +12,7 @@ func _update_equipment_buttons():
 		var btn = hbox.get_child(i)
 		if i < items.size():
 			var item_name = items[i]
-			btn.text = item_name
+			#btn.text = item_name
 			btn.disabled = false
 			btn.show()
 			if btn.pressed.is_connected(_on_item_pressed):

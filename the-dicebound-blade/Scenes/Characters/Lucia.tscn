@@ -1,10 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://cma835gyu2p8h"]
+[gd_scene load_steps=2 format=3 uid="uid://cma835gyu2p8h"]
 
-[ext_resource type="Script" uid="uid://hyep6b8od4nl" path="res://Script/aldric.gd" id="1_hw0u4"]
 [ext_resource type="Texture2D" uid="uid://dtuw5mjn0w8xw" path="res://images/Chara/lucia.jpg" id="2_hw0u4"]
 
 [node name="Lucia" type="Node2D"]
-script = ExtResource("1_hw0u4")
 
 [node name="Lucia" type="Sprite2D" parent="."]
 z_index = 1

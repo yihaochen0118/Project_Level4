@@ -2,7 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_medical_tent" },
-	  { "action": "show_talk_ui" }
+	  { "action": "show_talk_ui" },
 	{ "action": "unlock","target": "1_5_1" },
 	],
 	"text": "街边的医务摊散发着淡淡的草药味，白布帘被风吹得微微摆动。"
