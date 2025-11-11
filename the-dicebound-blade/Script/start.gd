@@ -69,7 +69,7 @@ func _init_window_mode():
 # ===============================
 func _on_start_pressed():
 	print("🎮 开始游戏！")
-
+	PlayerData.reset_all_data()
 	# ✅ 每次开局都重置骰子使用次数
 	if PlayerData.has_method("reset_dice_uses"):
 		PlayerData.reset_dice_uses()

@@ -1,3 +1,58 @@
-# Godot 4+ specific ignores
+# ================================
+# 🌍 Godot 项目通用忽略文件
+# ================================
+
+# Godot 导入缓存目录（一定要忽略）
+.import/
 .godot/
-/android/
+
+# 导出配置（可在项目内生成）
+export.cfg
+export_presets.cfg
+
+# 导出后的游戏可执行文件（不要上传）
+build/
+bin/
+*.exe
+*.apk
+*.aab
+*.pck
+*.zip
+
+# ================================
+# 🖥️ 系统与编辑器相关
+# ================================
+
+# Windows 系统文件
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+
+# 编辑器
+.vscode/
+.idea/
+*.code-workspace
+
+# ================================
+# 🧩 Godot 项目常见其他缓存
+# ================================
+android/
+ios/
+mono/
+logs/
+*.log
+*.tmp
+*.bak
+
+# ================================
+# 🚫 绝对不要上传的本地系统目录
+# ================================
+AppData/
+node_modules/
+__pycache__/
+.env

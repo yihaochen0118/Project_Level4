@@ -5,3 +5,4 @@ func _ready():
 	item_type = "equipment"
 	description = "一把锋利的铁剑。使用后永久提升力量。"
 	effect = {"strength": 2}
+	icon = preload("res://images/else/sword.png") 

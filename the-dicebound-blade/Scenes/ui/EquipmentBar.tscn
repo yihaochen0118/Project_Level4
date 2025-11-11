@@ -1,7 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://df7mcw1kpxyvm"]
+[gd_scene load_steps=2 format=3 uid="uid://df7mcw1kpxyvm"]
 
 [ext_resource type="Script" uid="uid://dn1dd1dxtx33y" path="res://Script/EquipmentBar.gd" id="1_qmss3"]
-[ext_resource type="Texture2D" uid="uid://byxihq3bqw8lr" path="res://icon.svg" id="2_hgwno"]
 
 [node name="EquipmentBar" type="Control"]
 layout_mode = 3
@@ -20,29 +19,45 @@ scale = Vector2(0.75, 0.75)
 clip_contents = true
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
-icon = ExtResource("2_hgwno")
 icon_alignment = 1
+expand_icon = true
 
 [node name="Button2" type="Button" parent="VBoxContainer"]
 custom_minimum_size = Vector2(150, 100)
 layout_mode = 2
+expand_icon = true
 
 [node name="Button3" type="Button" parent="VBoxContainer"]
 custom_minimum_size = Vector2(150, 100)
 layout_mode = 2
+expand_icon = true
 
 [node name="Button4" type="Button" parent="VBoxContainer"]
 custom_minimum_size = Vector2(150, 100)
 layout_mode = 2
+expand_icon = true
 
 [node name="Button5" type="Button" parent="VBoxContainer"]
 custom_minimum_size = Vector2(150, 100)
 layout_mode = 2
+expand_icon = true
 
 [node name="Button6" type="Button" parent="VBoxContainer"]
 custom_minimum_size = Vector2(150, 100)
 layout_mode = 2
+expand_icon = true
 
 [node name="Button7" type="Button" parent="VBoxContainer"]
 custom_minimum_size = Vector2(150, 100)
+layout_mode = 2
+expand_icon = true
+
+[node name="Tooltip" type="PanelContainer" parent="."]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 5.0
+offset_right = 291.0
+offset_bottom = 224.0
+
+[node name="Label" type="Label" parent="Tooltip"]
 layout_mode = 2

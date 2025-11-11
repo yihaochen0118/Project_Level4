@@ -45,6 +45,7 @@ func add_stat(stat: String, amount: int):
 		push_error("未知属性名：%s" % stat)
 		return
 	stats[stat] += amount
+	print(stat)
 	emit_signal("stats_changed")
 
 
@@ -152,10 +153,17 @@ func clear_progress() -> void:
 	_save_progress()
 
 func add_item(item_name: String, count: int = 1):
+	var flag_name = "got_" + item_name
+	if get_flag(flag_name):
+		print("⚠️ 已经获得过物品 %s，跳过重复添加。" % item_name)
+		return
+
 	if inventory.has(item_name):
 		inventory[item_name] += count
 	else:
 		inventory[item_name] = count
+
+	set_flag(flag_name)
 	emit_signal("item_changed")
 	print("👜 获得物品: %s x%d" % [item_name, count])
 
@@ -174,7 +182,43 @@ func use_item(item_name: String):
 	if path == "":
 		push_error("❌ 未找到物品资源: %s" % item_name)
 		return
+
 	var scene = load(path)
 	var item_instance = scene.instantiate()
+
+	# ⚙️ 手动触发 ready 初始化（防止没有 add_child）
+	if item_instance.has_method("_ready"):
+		item_instance._ready()
+
+	# 执行物品效果
 	if item_instance.has_method("use"):
 		item_instance.use()
+
+func reset_all_data():
+	print("🧹 重置所有玩家数据（新游戏）")
+	
+	# 清空基础属性与状态
+	hp = 100
+	max_hp = 100
+	stats = {
+		"strength": 2,
+		"dexterity": 4,
+		"constitution": 3,
+		"intelligence": 5,
+		"wisdom": 2,
+		"charisma": 3
+	}
+	flags.clear()
+	choice_history.clear()
+	inventory.clear()
+	unlocked_nodes.clear()
+
+	# 重置骰子
+	dice_uses = dice_max_uses.duplicate(true)
+
+	# 通知UI刷新
+	emit_signal("stats_changed")
+	emit_signal("hp_changed", hp, max_hp)
+	emit_signal("item_changed")
+
+	print("✅ 所有数据已恢复默认状态")
