@@ -1,63 +1,143 @@
-[gd_scene load_steps=2 format=3 uid="uid://df7mcw1kpxyvm"]
+[gd_scene load_steps=3 format=3 uid="uid://df7mcw1kpxyvm"]
 
 [ext_resource type="Script" uid="uid://dn1dd1dxtx33y" path="res://Script/EquipmentBar.gd" id="1_qmss3"]
+[ext_resource type="Texture2D" uid="uid://b5dfd1vwvvmyf" path="res://images/else/EquipmentBar.png" id="2_hgwno"]
 
 [node name="EquipmentBar" type="Control"]
+z_index = 7
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_qmss3")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
 layout_mode = 0
-offset_left = 1826.0
-offset_top = 309.0
-offset_right = 1976.0
-offset_bottom = 1069.0
+offset_left = 1833.0
+offset_top = 266.0
+offset_right = 1955.0
+offset_bottom = 817.0
+texture = ExtResource("2_hgwno")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 154.0
+offset_bottom = 763.0
 scale = Vector2(0.75, 0.75)
 
-[node name="Button" type="Button" parent="VBoxContainer"]
+[node name="Button" type="Button" parent="NinePatchRect/VBoxContainer"]
 clip_contents = true
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button2" type="Button" parent="VBoxContainer"]
+[node name="CountLabel" type="Label" parent="NinePatchRect/VBoxContainer/Button"]
+layout_mode = 0
+offset_left = 106.66667
+offset_top = 1.3333334
+offset_right = 146.66667
+offset_bottom = 24.333334
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button2" type="Button" parent="NinePatchRect/VBoxContainer"]
 custom_minimum_size = Vector2(150, 100)
 layout_mode = 2
 expand_icon = true
 
-[node name="Button3" type="Button" parent="VBoxContainer"]
+[node name="CountLabel" type="Label" parent="NinePatchRect/VBoxContainer/Button2"]
+layout_mode = 0
+offset_left = 106.66667
+offset_top = 1.3333334
+offset_right = 146.66667
+offset_bottom = 24.333334
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button3" type="Button" parent="NinePatchRect/VBoxContainer"]
 custom_minimum_size = Vector2(150, 100)
 layout_mode = 2
 expand_icon = true
 
-[node name="Button4" type="Button" parent="VBoxContainer"]
+[node name="CountLabel" type="Label" parent="NinePatchRect/VBoxContainer/Button3"]
+layout_mode = 0
+offset_left = 106.66667
+offset_top = 1.3333334
+offset_right = 146.66667
+offset_bottom = 24.333334
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button4" type="Button" parent="NinePatchRect/VBoxContainer"]
 custom_minimum_size = Vector2(150, 100)
 layout_mode = 2
 expand_icon = true
 
-[node name="Button5" type="Button" parent="VBoxContainer"]
+[node name="CountLabel" type="Label" parent="NinePatchRect/VBoxContainer/Button4"]
+layout_mode = 0
+offset_left = 106.66667
+offset_top = 1.3333334
+offset_right = 146.66667
+offset_bottom = 24.333334
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button5" type="Button" parent="NinePatchRect/VBoxContainer"]
 custom_minimum_size = Vector2(150, 100)
 layout_mode = 2
 expand_icon = true
 
-[node name="Button6" type="Button" parent="VBoxContainer"]
+[node name="CountLabel" type="Label" parent="NinePatchRect/VBoxContainer/Button5"]
+layout_mode = 0
+offset_left = 106.66667
+offset_top = 1.3333334
+offset_right = 146.66667
+offset_bottom = 24.333334
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button6" type="Button" parent="NinePatchRect/VBoxContainer"]
 custom_minimum_size = Vector2(150, 100)
 layout_mode = 2
 expand_icon = true
 
-[node name="Button7" type="Button" parent="VBoxContainer"]
+[node name="CountLabel" type="Label" parent="NinePatchRect/VBoxContainer/Button6"]
+layout_mode = 0
+offset_left = 106.66667
+offset_top = 1.3333334
+offset_right = 146.66667
+offset_bottom = 24.333334
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button7" type="Button" parent="NinePatchRect/VBoxContainer"]
 custom_minimum_size = Vector2(150, 100)
 layout_mode = 2
 expand_icon = true
+
+[node name="CountLabel" type="Label" parent="NinePatchRect/VBoxContainer/Button7"]
+layout_mode = 0
+offset_left = 106.66667
+offset_top = 1.3333334
+offset_right = 146.66667
+offset_bottom = 24.333334
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Tooltip" type="PanelContainer" parent="."]
 layout_mode = 0
 offset_left = 7.0
 offset_top = 5.0
-offset_right = 291.0
-offset_bottom = 224.0
+offset_right = 235.0
+offset_bottom = 141.0
 
 [node name="Label" type="Label" parent="Tooltip"]
 layout_mode = 2

@@ -1,6 +1,6 @@
 extends Control
 
-@onready var hbox = $VBoxContainer
+@onready var hbox = $NinePatchRect/VBoxContainer
 @onready var tooltip = $Tooltip
 @onready var tooltip_label = $Tooltip/Label
 
@@ -12,14 +12,16 @@ func _ready():
 func _update_equipment_buttons():
 	var items = PlayerData.inventory.keys()
 
-	# ✅ 每次刷新前彻底清空所有按钮的显示状态
 	for btn in hbox.get_children():
 		btn.icon = null
 		btn.text = ""
 		btn.disabled = true
 		btn.hide()
 
-	# ✅ 再根据当前物品重新绘制
+		# 🆕 如果有 CountLabel，清空它的文本
+		if btn.has_node("CountLabel"):
+			btn.get_node("CountLabel").text = ""
+
 	for i in range(min(items.size(), hbox.get_child_count())):
 		var btn = hbox.get_child(i)
 		var item_name = items[i]
@@ -44,7 +46,17 @@ func _update_equipment_buttons():
 		else:
 			btn.text = item_name
 
-		# 清理旧信号再连接
+		# 🆕 更新已有 CountLabel
+		var count = PlayerData.inventory.get(item_name, 1)
+		if btn.has_node("CountLabel"):
+			var label = btn.get_node("CountLabel")
+			if count >= 1:
+				label.text = "x%d" % count
+			else:
+				label.text = ""
+			label.visible = count >= 1
+
+		# 信号绑定
 		if btn.pressed.is_connected(_on_item_pressed):
 			btn.pressed.disconnect(_on_item_pressed)
 		if btn.mouse_entered.is_connected(_on_button_hover):
@@ -82,10 +94,14 @@ func _on_button_hover(item_name: String):
 	if item_instance.has_method("_ready"):
 		item_instance._ready()
 
-	# 设置文字（带默认值防止空）
-	var name_text = item_instance.item_name if item_instance.item_name != "" else item_name
-	var desc_text = item_instance.description if item_instance.description != "" else "暂无说明"
+	# 🔤 使用 tr() 对文本进行翻译
+	var name_key = item_instance.item_name if item_instance.item_name != "" else item_name
+	var desc_key = item_instance.description if item_instance.description != "" else "NO_DESC"
 
+	var name_text = tr(name_key)
+	var desc_text = tr(desc_key)
+
+	# 设置 Tooltip 文本
 	tooltip_label.text = "%s\n%s" % [name_text, desc_text]
 	tooltip.show()
 	set_process_input(true)

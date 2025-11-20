@@ -26,8 +26,7 @@ offset_left = 752.0
 offset_top = 9.0
 offset_right = 933.0
 offset_bottom = 79.0
-text = "选择存档
-"
+text = "Select Save"
 horizontal_alignment = 1
 vertical_alignment = 2
 

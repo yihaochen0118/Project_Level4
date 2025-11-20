@@ -9,7 +9,7 @@ script = ExtResource("1_i04h7")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 0
-offset_right = 1921.0
+offset_right = 1960.0
 offset_bottom = 1077.0
 color = Color(1, 1, 1, 0.23137255)
 
@@ -158,15 +158,17 @@ offset_left = 933.0
 offset_top = 51.0
 offset_right = 985.0
 offset_bottom = 93.0
-text = "0%"
+text = "80%"
 
 [node name="Global" type="Label" parent="Panel/TabContainer/声音设置/ScrollContainer/Music/GlobalSound"]
 layout_mode = 0
-offset_left = 432.0
-offset_top = 8.0
-offset_right = 544.0
-offset_bottom = 50.0
+offset_left = 448.0
+offset_top = 9.0
+offset_right = 560.0
+offset_bottom = 51.0
 text = "全局音量控制："
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="MainSound" type="HSlider" parent="Panel/TabContainer/声音设置/ScrollContainer/Music/GlobalSound"]
 layout_mode = 0

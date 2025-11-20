@@ -7,6 +7,7 @@
 	]
   },
   { "event": { "action": "set_flag", "flag": "helped_alicia", "value": true } },
+{"event":[{ "action": "add_item","target": "Sword","amount":1 },{ "action": "add_item","target": "Talisman","amount":1 }]},
   {
 	"event": { "action": "show_talk_ui" },
 	"text": "Morning mist rolled down from the distant hills, spreading along the stone-paved streets into the heart of the town. The air inside the inn carried a faint scent of ash and wood."

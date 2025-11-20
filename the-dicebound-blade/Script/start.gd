@@ -4,14 +4,19 @@ extends Control
 @onready var quit_button = $VBoxContainer/QuitButton
 @onready var load_button = $VBoxContainer/LoadButton
 @onready var setting_button = $VBoxContainer/gamesetting
+@onready var bgm_name_label = $BGMName
+@onready var bgm_player = $AudioStreamPlayer
+
 
 func _ready():
 	# ✅ 启动时先加载语言（非常重要）
 	_init_language()
-
+	_apply_saved_master_volume()
 	# 🚀 初始化窗口模式
 	_init_window_mode()
-	
+	$AudioStreamPlayer.play()
+	_apply_saved_bgm_state()
+	_show_bgm_name()
 	# 按钮信号绑定
 	start_button.pressed.connect(_on_start_pressed)
 	quit_button.pressed.connect(_on_quit_pressed)
@@ -45,6 +50,7 @@ func _update_ui_texts(lang_code: String) -> void:
 	load_button.text = tr("读取存档")
 	setting_button.text = tr("游戏设置")
 	quit_button.text = tr("退出游戏")
+	_show_bgm_name()
 	print("🈶 主菜单界面文字已更新 →", lang_code)
 
 
@@ -122,3 +128,58 @@ func _on_setting_pressed():
 	setting_ui.set_as_top_level(true)
 
 	print("✅ 设置界面已打开")
+
+func _apply_saved_master_volume() -> void:
+	var cfg = ConfigFile.new()
+	var saved_volume: float = 80.0
+
+	if cfg.load("user://config.cfg") == OK:
+		saved_volume = cfg.get_value("settings", "master_volume", 80.0)
+
+	var db = lerp(-30.0, 0.0, saved_volume / 100.0)
+	var bus = AudioServer.get_bus_index("Master")
+	AudioServer.set_bus_volume_db(bus, db)
+	AudioServer.set_bus_mute(bus, saved_volume <= 0)
+	print("🔊 已加载主音量:", saved_volume, "% (", db, "dB )")
+
+func _apply_saved_bgm_state() -> void:
+	var cfg = ConfigFile.new()
+	var bgm_enabled = true
+	if cfg.load("user://config.cfg") == OK:
+		bgm_enabled = cfg.get_value("settings", "bgm_enabled", true)
+
+	var bgm_player = $AudioStreamPlayer
+	if bgm_player:
+		if bgm_enabled:
+			if not bgm_player.playing:
+				bgm_player.play()
+			print("🎵 BGM 已启用并播放")
+		else:
+			bgm_player.stop()
+			print("🔇 BGM 已关闭")
+	else:
+		print("⚠️ 未找到 AudioStreamPlayer 节点")
+	
+
+# ===================================
+# 🎵 显示当前BGM名称
+# ===================================
+func _show_bgm_name():
+	# ✅ 从 config.cfg 读取是否显示 BGM 名称
+	var cfg = ConfigFile.new()
+	var show_bgm_name = true
+	if cfg.load("user://config.cfg") == OK:
+		show_bgm_name = cfg.get_value("settings", "bgm_name_visible", true)
+
+	# ✅ 若 Label 节点存在则更新可见性
+	if bgm_name_label:
+		bgm_name_label.visible = show_bgm_name
+
+	# ✅ 更新文字内容
+	if not bgm_player or not bgm_player.stream:
+		bgm_name_label.text = tr("🎵 当前BGM：无")
+	else:
+		var name = bgm_player.stream.resource_path.get_file().get_basename()
+		bgm_name_label.text = tr("🎵 当前BGM：") +("   ")+name
+
+	print("🎵 BGM 名称显示:", show_bgm_name, " 名称:", bgm_name_label.text)

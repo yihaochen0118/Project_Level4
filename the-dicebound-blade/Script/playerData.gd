@@ -153,17 +153,11 @@ func clear_progress() -> void:
 	_save_progress()
 
 func add_item(item_name: String, count: int = 1):
-	var flag_name = "got_" + item_name
-	if get_flag(flag_name):
-		print("⚠️ 已经获得过物品 %s，跳过重复添加。" % item_name)
-		return
-
 	if inventory.has(item_name):
 		inventory[item_name] += count
 	else:
 		inventory[item_name] = count
 
-	set_flag(flag_name)
 	emit_signal("item_changed")
 	print("👜 获得物品: %s x%d" % [item_name, count])
 

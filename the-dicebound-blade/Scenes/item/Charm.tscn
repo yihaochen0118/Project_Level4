@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dedqjv86lfg1u"]
+
+[ext_resource type="Texture2D" uid="uid://byxihq3bqw8lr" path="res://icon.svg" id="1_awabv"]
+
+[node name="Item1" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = 962.0
+offset_top = 439.0
+offset_right = 1090.0
+offset_bottom = 567.0
+texture = ExtResource("1_awabv")

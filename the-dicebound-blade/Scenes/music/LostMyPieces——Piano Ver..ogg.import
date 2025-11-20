@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://baep7kc2qf6iq"
+path="res://.godot/imported/LostMyPieces——Piano Ver..ogg-0a12c3f66e02db9b2ff7874a4bee7123.oggvorbisstr"
+
+[deps]
+
+source_file="res://Scenes/music/LostMyPieces——Piano Ver..ogg"
+dest_files=["res://.godot/imported/LostMyPieces——Piano Ver..ogg-0a12c3f66e02db9b2ff7874a4bee7123.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

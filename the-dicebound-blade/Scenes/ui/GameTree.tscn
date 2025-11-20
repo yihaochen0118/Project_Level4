@@ -8,7 +8,7 @@
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
 offset_right = 1962.0
-offset_bottom = 2723.0
+offset_bottom = 1078.0
 
 [node name="GameTree" type="Control" parent="ScrollContainer"]
 custom_minimum_size = Vector2(1960, 3000)
@@ -147,6 +147,9 @@ offset_right = 1035.0
 offset_bottom = 455.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
+metadata/hint_unlocked = "与艾莉西亚外出，遇到了魔兽！"
+metadata/hint_locked = "与艾莉西亚外出去城镇以解锁，路上似乎有一些不平凡"
+metadata/hint_image = ""
 
 [node name="1_5_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 z_index = 1
@@ -157,6 +160,9 @@ offset_right = 971.0
 offset_bottom = 583.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
+metadata/hint_unlocked = "在城镇的医务摊包扎伤口"
+metadata/hint_locked = "被魔兽伤害后到城镇以解锁"
+metadata/hint_image = ""
 
 [node name="1_5_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 z_index = 1
@@ -167,6 +173,9 @@ offset_right = 1091.0
 offset_bottom = 583.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
+metadata/hint_unlocked = "与艾莉西亚一起吃烤鱼"
+metadata/hint_locked = "完好无损的到达城镇以解锁"
+metadata/hint_image = ""
 
 [node name="1_6" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 z_index = 1
@@ -177,6 +186,9 @@ offset_right = 1035.0
 offset_bottom = 711.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
+metadata/hint_locked = "到达第二晚以解锁"
+metadata/hint_unlocked = "艾莉西亚被抓走了，拯救大行动！"
+metadata/hint_image = ""
 
 [node name="BadEnding1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 z_index = 1
@@ -187,6 +199,9 @@ offset_right = 1235.0
 offset_bottom = 783.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
+metadata/hint_unlocked = "BadEnding_1"
+metadata/hint_locked = "BadEnding_1"
+metadata/hint_image = ""
 
 [node name="BadEnding2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 z_index = 1
@@ -197,6 +212,9 @@ offset_right = 1171.0
 offset_bottom = 783.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
+metadata/hint_unlocked = "BadEnding_2"
+metadata/hint_locked = "BadEnding_2"
+metadata/hint__image = ""
 
 [node name="1_7" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 z_index = 1
@@ -207,6 +225,9 @@ offset_right = 1035.0
 offset_bottom = 839.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
+metadata/hint_unlocked = "暴风雨前的宁静"
+metadata/hint_locked = "到达第三天早上以解锁"
+metadata/hint_image = ""
 
 [node name="1_8" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -216,3 +237,6 @@ offset_right = 1035.0
 offset_bottom = 967.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"

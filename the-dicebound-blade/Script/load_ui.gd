@@ -41,8 +41,9 @@ func load_save_slots():
 				button.texture_normal = preload("res://icon.svg")
 
 			# ✅ 槽编号标签（左上角）
+
 			var slot_label = Label.new()
-			slot_label.text = "存档槽 %d" % slot_index
+			slot_label.text = tr("存档槽") + " %d" % slot_index
 			slot_label.add_theme_color_override("font_color", Color.WHITE)
 			slot_label.add_theme_font_size_override("font_size", 20)
 			slot_label.position = Vector2(10, 10)

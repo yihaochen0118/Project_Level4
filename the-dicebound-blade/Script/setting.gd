@@ -220,13 +220,14 @@ func _refresh_slot_buttons(mode: String):
 
 		# ✅ 槽编号
 		var slot_label = Label.new()
-		slot_label.text = "存档槽 %d" % i
+		slot_label.text = "%s %d" % [tr("存档槽"), i]
 		slot_label.add_theme_font_size_override("font_size", 20)
 		slot_label.add_theme_color_override("font_color", Color.WHITE)
 		slot_label.add_theme_constant_override("outline_size", 3)
 		slot_label.add_theme_color_override("font_outline_color", Color(0, 0, 0))
 		slot_label.position = Vector2(10, 10)
 		button.add_child(slot_label)
+
 
 		# ✅ 时间显示（仅有存档时）
 		if data.size() > 0:

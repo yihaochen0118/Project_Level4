@@ -39,10 +39,9 @@ layout_mode = 0
 offset_right = 1920.0
 offset_bottom = 1080.0
 theme_override_font_sizes/font_size = 35
-current_tab = 2
+current_tab = 0
 
 [node name="Save" type="Control" parent="Panel/TabContainer"]
-visible = false
 z_index = 6
 layout_mode = 2
 metadata/_tab_index = 0
@@ -166,6 +165,7 @@ layout_mode = 2
 text = "9"
 
 [node name="GameTree" type="Control" parent="Panel/TabContainer"]
+visible = false
 z_index = 6
 custom_minimum_size = Vector2(400, 400)
 layout_mode = 2

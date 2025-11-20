@@ -33,6 +33,7 @@
 	"event": { "action": "show_name", "target": "Player" },
 	"text": "“早上就喝？兄弟，镇守卫要来了。我记得你们上班的时候是不让喝酒的吧。”"
   },
+
   {
 	"event": [
 	  { "action": "show_name", "target": "Junker" },

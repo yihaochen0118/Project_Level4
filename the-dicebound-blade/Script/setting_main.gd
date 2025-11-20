@@ -9,6 +9,8 @@ extends Control
 
 @onready var chinese_button = $Panel/TabContainer/文本设置/ScrollContainer/Language/button/Chinese
 @onready var english_button = $Panel/TabContainer/文本设置/ScrollContainer/Language/button/English
+@onready var bgm_toggle = $Panel/TabContainer/声音设置/ScrollContainer/Music/button/BGM
+@onready var bgm_name_label = $Panel/TabContainer/界面设置/ScrollContainer/Interface/button/BGMname
 
 var _language_lock = false  # 🔒 防止循环触发
 func _ready():
@@ -24,20 +26,33 @@ func _ready():
 	# ✅ 信号绑定（互斥逻辑）
 	chinese_button.toggled.connect(_on_chinese_toggled)
 	english_button.toggled.connect(_on_english_toggled)
-
+	
 	print("🌐 当前语言:", saved_lang)
 	_update_ui_texts(saved_lang)
-
+	
+	var saved_volume = _load_master_volume()
 	main_sound_slider.min_value = 0
 	main_sound_slider.max_value = 100
 	main_sound_slider.step = 1
-	main_sound_slider.value = 80
-	main_sound_slider.value_changed.connect(_on_main_sound_changed)
-	_update_master_volume(main_sound_slider.value)
+	main_sound_slider.value = saved_volume
+	_update_master_volume(saved_volume)
 
 	_init_window_mode_buttons()
 	back_button.pressed.connect(_on_back_pressed)
 	set_process_input(true)
+	
+	var bgm_enabled = _load_bgm_enabled()
+	bgm_toggle.button_pressed = bgm_enabled
+	_update_bgm_state(bgm_enabled)
+	bgm_toggle.toggled.connect(_on_bgm_toggled)
+	
+	bgm_name_label.toggled.connect(_on_bgm_name_toggled)
+	var bgm_name_visible = _load_bgm_name_visible()
+	bgm_name_label.button_pressed = bgm_name_visible
+	_update_bgm_name_visible(bgm_name_visible)
+
+
+
 
 func _input(event):
 	if event is InputEventKey and event.pressed and event.keycode == KEY_ESCAPE:
@@ -176,6 +191,7 @@ func _update_ui_texts(lang_code: String) -> void:
 func _on_main_sound_changed(value: float) -> void:
 	global_label.text = "%d%%" % value
 	_update_master_volume(value)
+	_save_master_volume(value)  # 保存当前音量
 
 func _update_master_volume(value: float) -> void:
 	var db = _value_to_db(value)
@@ -226,3 +242,77 @@ func _on_window_toggled(pressed: bool) -> void:
 			fullscreen_button.button_pressed = true
 			DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
 			print("✅ 切换到全屏模式")
+
+func _save_master_volume(value: float) -> void:
+	var cfg = ConfigFile.new()
+	if cfg.load("user://config.cfg") != OK:
+		cfg = ConfigFile.new()
+	cfg.set_value("settings", "master_volume", value)
+	cfg.save("user://config.cfg")
+
+func _load_master_volume() -> float:
+	var cfg = ConfigFile.new()
+	if cfg.load("user://config.cfg") == OK:
+		return cfg.get_value("settings", "master_volume", 80.0)
+	return 80.0
+
+# 当 BGM 开关被点击
+func _on_bgm_toggled(pressed: bool) -> void:
+	_update_bgm_state(pressed)
+	_save_bgm_enabled(pressed)
+
+# 实际执行播放 / 停止
+func _update_bgm_state(enabled: bool) -> void:
+	var bgm_player = get_tree().root.find_child("AudioStreamPlayer", true, false)
+	if bgm_player:
+		if enabled:
+			if not bgm_player.playing:
+				bgm_player.play()
+			print("🎵 BGM 已启用并播放")
+		else:
+			bgm_player.stop()
+			print("🔇 BGM 已关闭")
+	else:
+		print("⚠️ 未找到 AudioStreamPlayer 节点")
+
+
+func _save_bgm_enabled(enabled: bool) -> void:
+	var cfg = ConfigFile.new()
+	if cfg.load("user://config.cfg") != OK:
+		cfg = ConfigFile.new()
+	cfg.set_value("settings", "bgm_enabled", enabled)
+	cfg.save("user://config.cfg")
+
+func _load_bgm_enabled() -> bool:
+	var cfg = ConfigFile.new()
+	if cfg.load("user://config.cfg") == OK:
+		return cfg.get_value("settings", "bgm_enabled", true)
+	return true
+
+func _save_bgm_name_visible(enabled: bool) -> void:
+	var cfg = ConfigFile.new()
+	if cfg.load("user://config.cfg") != OK:
+		cfg = ConfigFile.new()
+	cfg.set_value("settings", "bgm_name_visible", enabled)
+	cfg.save("user://config.cfg")
+
+func _load_bgm_name_visible() -> bool:
+	var cfg = ConfigFile.new()
+	if cfg.load("user://config.cfg") == OK:
+		return cfg.get_value("settings", "bgm_name_visible", true)
+	return true
+
+func _on_bgm_name_toggled(pressed: bool) -> void:
+	_update_bgm_name_visible(pressed)
+	_save_bgm_name_visible(pressed)
+
+func _update_bgm_name_visible(visible: bool) -> void:
+	var start_scene = get_tree().root.find_child("Start", true, false)
+	if not start_scene:
+		print("⚠️ 未找到 Start 场景，无法更新 BGMName 显示")
+		return
+
+	if start_scene.has_node("BGMName"):
+		var label = start_scene.get_node("BGMName")
+		label.visible = visible
+		print("🎵 BGM 名称显示已设为:", visible)
