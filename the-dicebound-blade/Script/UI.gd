@@ -354,6 +354,7 @@ func handle_input():
 	else:
 		show_next_line()
 		
+		
 func _set_dialogue_index(value):
 	dialogue_index = value
 	PlayerData.dialogue_index = value  # 让 PlayerData 也记录下来

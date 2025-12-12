@@ -36,6 +36,7 @@ func _ready():
 	main_sound_slider.step = 1
 	main_sound_slider.value = saved_volume
 	_update_master_volume(saved_volume)
+	global_label.text = "%d%%" % saved_volume
 
 	_init_window_mode_buttons()
 	back_button.pressed.connect(_on_back_pressed)
@@ -50,6 +51,7 @@ func _ready():
 	var bgm_name_visible = _load_bgm_name_visible()
 	bgm_name_label.button_pressed = bgm_name_visible
 	_update_bgm_name_visible(bgm_name_visible)
+	main_sound_slider.value_changed.connect(_on_main_sound_changed)
 
 
 

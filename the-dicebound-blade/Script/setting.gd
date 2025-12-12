@@ -315,3 +315,7 @@ func _input(event):
 		# 如果 Setting 面板当前是打开的
 		if panel.visible:
 			_on_close_pressed()
+			return
+		if not panel.visible:
+			_on_button_pressed()
+			return
