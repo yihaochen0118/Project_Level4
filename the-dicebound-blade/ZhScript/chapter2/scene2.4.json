@@ -1,0 +1,131 @@
+[
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "set_background", "target": "tavern_morning" }
+	]
+  },
+  {
+	"event": [{ "action": "show_talk_ui" }],
+	"text": "阳光穿过木质窗棂，落在柜台上。昨夜的雪化了一层，街道反射着晃眼的亮光。旅店里还有炖汤与木柴残留的香气。"
+  },
+  { "text": "我正清点库存，指尖还隐隐发麻。昨夜那句“第三十七次”像钉子一样扎在脑子里。", "event": { "action": "set_flag", "flag": "day2_started", "value": true } },
+
+  { "text": "楼梯传来轻快的脚步声——和她昨夜那种“雪一样的静”不同。", "event": { "action": "hide_name" } },
+
+  {
+	"event": [
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "艾莉西亚从楼上下来。她换了轻便的行装，斗篷系得很紧，腰间那柄裂痕剑也在——但她整个人的气息像“开工”一样利落。"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“早。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“早。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“今天周日，店里休息。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她说这句话时像在背台词——不是询问，是确认流程。然后她直接走到柜台旁，熟门熟路地把一张写满清单的纸压在账本上。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我要去镇集补给。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“药水、封印符、绷带、盐、两捆干柴，还有——别用那家卖假蜂蜜的。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“……你怎么连蜂蜜都知道？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她看了我一眼，嘴角一勾：“因为我吃过一次，差点把自己毒哑。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她说得太自然，像这种“经验”多到不值一提。然后她又低头检查自己的手套、系带、护符，动作熟练得像军械官。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你有两个选择。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“第一，跟我去。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“第二，留在店里，把门栓插好，顺便把你的脸消肿。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你这是邀请，还是命令？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“效率。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“如果你跟来——你负责拎东西，不许乱跑，不许逞能，尤其不许在树林边停下看风景。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“树林边怎么了？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“会有东西从地里钻出来。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她说得像在讲今天会下雨一样平常。然后她从袖口里抖出一小片符纸，轻轻一折，塞进我掌心。", "event": [{ "action": "set_flag", "flag": "got_supply_charm", "value": true }] },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“这是止血符。别问谁教的。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你今天看起来……比昨晚精神，挺帅的。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“昨晚是昨晚。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“白天我得把事情做完。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她说完就转身去开门，动作干脆利落。阳光一下子灌进来，照得她的银发近乎发白。"},
+
+  {
+	"event": [
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  { "text": "选项 A：跟她去镇集（你负责拎东西）【无检定（DC 0）】", "dc": 0, "check": "dexterity" },
+		  { "text": "选项 B：留在旅店处理伤口与打理店内【无检定（DC 0）】", "dc": 0, "check": "dexterity" }
+		]
+	  },
+	  { "action": "hide_talk_ui" }
+	]
+  }
+]

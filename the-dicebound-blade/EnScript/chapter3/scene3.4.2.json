@@ -1,0 +1,78 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "(3.4.2)"
+  },
+  {
+	"text": "I don’t touch her again. I only clear away the plate and wine glass in front of her, and shift the candleholder a little farther out, so the flame won’t shine straight into her eyes."
+  },
+  {
+	"text": "She’s slumped over the table. The fabric of her red dress looks like a small, quiet flame in the firelight. But she herself is terribly cold—the rise and fall of her shoulders thin as paper."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You can sleep here… I’m here.”"
+  },
+  {
+	"text": "I take off my outer coat and gently drape it over her shoulders. I move extremely slowly, like I’m dismantling a trap that might go off if I’m careless."
+  },
+  {
+	"text": "She doesn’t wake. She only frowns faintly in her sleep, as if she’s finally heard an answer that lets her rest."
+  },
+  {
+	"text": "Wind slips in through the crack of the door, carrying the smell of snow. I pull a chair closer to her side, letting half my body block the draft between her and the cold."
+  },
+  {
+	"text": "Then I lean forward too, resting my forehead on my own arms, though I don’t dare close my eyes completely."
+  },
+  {
+	"text": "The night is long. The fire in the hearth dims again and again; I get up twice to add more wood. Each time I do, I have to look back at her—to make sure she’s still there, still on this page of the world."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“…Don’t go.”"
+  },
+  {
+	"text": "She says it very softly in her sleep, like an order drifting back from very, very far away."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“I won’t.”"
+  },
+  {
+	"text": "I rest my hand on the edge of the table, very close to her fingers—but I don’t touch her. Like I’m guarding a boundary: as long as I don’t disturb her, she can sleep a little longer."
+  },
+  {
+	"text": "In the latter half of the night, the sound of snow grows finer, and the wind colder. I press the edges of the coat down more firmly. Half my own shoulder goes numb from the cold, but I don’t dare move away."
+  },
+  {
+	"text": "At some point, my eyelids finally grow heavy. The last thing I see is the candlelight flickering in her hair, as if keeping watch over her."
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" }
+	],
+	"text": "At dawn, the morning fog clings to the windows again. The hearth holds only a gentle remnant of warmth."
+  },
+  {
+	"text": "I wake by the table, my neck aching like it’s been twisted. My arm is numb, but my fingers are still held in last night’s position—as if any movement might wake her."
+  },
+  {
+	"text": "Alicia is still slumped over the table. Her breathing is steadier than last night, and the tension between her brows has eased. The folds of her red dress are warmed by the candlelight, as if she’s briefly returned to the side of being ‘human.’"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Morning…”"
+  },
+  {
+	"text": "My voice is very soft. She doesn’t wake immediately; her eyelashes only tremble. In that moment, a ridiculous thought crosses my mind—if I could let her keep sleeping, maybe I could stretch today out a little longer."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.5" }
+	]
+  }
+]

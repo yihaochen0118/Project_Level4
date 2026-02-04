@@ -1,0 +1,95 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "The candle has burned down to a short stub, wax slowly running along its side. The soup on the table has long since cooled; the air holds only its aftertaste, and the weight of what she just said."
+  },
+  {
+	"text": "Alicia’s breathing is uneven. She tries to straighten her back, but her shoulders still sink bit by bit—like a string pulled to its limit, finally loosening."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Are you okay?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“No.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’m exhausted.”"
+  },
+  {
+	"text": "She says it too plainly, as if she’s finally too tired to pretend. The eyes that are usually unnaturally bright suddenly redden, like smoke drifting into firelight."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’m not afraid of dying.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“What I’m afraid of is this—having to piece myself back together every time I return.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“By the end… will there be nothing left of me but fragments that know how to swing a sword?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You’re not fragments.”"
+  },
+  {
+	"text": "The words hit her. Her lips part, as if she wants to smile, but can’t. The next second, tears spill down—not sobbing, just silent, fast, urgent."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Don’t say that.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“If you say that, I’ll want to keep holding on.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But I really… can’t anymore.”"
+  },
+  {
+	"text": "She lifts a hand to wipe at the corner of her eye, clumsy in a way that doesn’t suit her at all. That single motion seems to wipe away the last of her strength."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I just… want to sleep for a bit.”"
+  },
+  {
+	"text": "She gently rests her forehead against the edge of the table, as if testing it. Then she slowly slumps forward, one hand still clutching the napkin in midair, like letting go might make the world fall apart."
+  },
+  {
+	"text": "The candlelight dances over the folds of her red dress. Her lashes are damp, but they soon stop trembling. She falls asleep—sleep that is both light and heavy, like being pulled under deep water."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I look at her, and suddenly don’t know whether to see her as a warrior, a guest, or someone on the verge of breaking apart."
+  },
+  {
+	"event": [
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  {
+			"text": "Option A: Carry her back to her room so she can sleep properly (you’ll be very careful not to wake her) [No check (DC 0)]",
+			"dc": 10,
+			"check": "dexterity"
+		  },
+		  {
+			"text": "Option B: Let her sleep at the table (you stay beside her, shielding her from the wind and the candlelight) [No check (DC 0)]",
+			"dc": 0,
+			"check": "dexterity"
+		  }
+		]
+	  },
+	  { "action": "hide_talk_ui" }
+	]
+  }
+]

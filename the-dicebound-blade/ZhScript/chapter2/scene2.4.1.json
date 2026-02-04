@@ -1,0 +1,109 @@
+[
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "set_background", "target": "tavern_empty" }
+	]
+  },
+  { "event": [{ "action": "show_talk_ui" }], "text": "我跟着艾莉西亚出门。晨光刺眼，雪水沿着屋檐滴落，街道反射着银白的光。" },
+  { "text": "她走得很快，却不是急——更像“流程熟练”。每到一个路口，她都不看路牌，直接拐弯。" },
+
+  { "event": [{ "action": "show_name", "target": "Player" }], "text": "“你对路也太熟了。”" },
+  { "event": [{ "action": "show_name", "target": "Alicia" }], "text": "“嗯。”" },
+  { "event": [{ "action": "show_name", "target": "Alicia" }], "text": "“别停在树林边。会有东西从地里钻出来。”" },
+
+  { "event": { "action": "hide_name" }, "text": "她说得像在提醒我别踩水坑。我本能想笑，却笑不出来。" },
+
+  {
+	"event": [
+	  { "action": "set_background", "target": "market" }
+	],
+	"text": "镇集热闹得像什么都没发生过。叫卖声、马蹄声、油脂和面包的香气混成一团。"
+  },
+  { "text": "艾莉西亚不讨价还价，直接点名要的东西。摊主刚想狡辩，她一个眼神过去，对方立刻改口报价。" },
+
+  { "event": [{ "action": "show_name", "target": "Alicia" }], "text": "“三瓶止血，两瓶解毒。封印符要旧纸，别给我新墨的。”" },
+  { "event": [{ "action": "show_name", "target": "Player" }], "text": "“……你怎么连符纸新旧都挑？”" },
+  { "event": [{ "action": "show_name", "target": "Alicia" }], "text": "“新墨味会引来不该来的东西。”" },
+
+  { "event": { "action": "hide_name" }, "text": "她把东西一股脑塞到我怀里，重量压得我肩膀发麻。" },
+
+  {
+	"event": [
+	  { "action": "set_background", "target": "pine_forest_road" }
+	],
+	"text": "从集市回旅店要经过一段靠松林的石路。风把树梢吹得吱呀响，空气冷得像刀刃。"
+  },
+  { "text": "我刚想加快脚步，就听见脚下“咚”的一声闷响，像有什么在土里翻身。" },
+
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "DreamBeast", "pos": [420, 0] },
+	  { "action": "show_name", "target": "DreamBeast" },
+	  { "action": "shake", "target": "DreamBeast" }
+	],
+	"text": "土壤裂开，一只石壳覆背的魔兽从地里钻出，青光的眼死死盯着我们。"
+  },
+
+  { "event": [{ "action": "show_name", "target": "Player" }], "text": "“你说的……就是这个？”" },
+
+  {
+	"event": [
+	  { "action": "show_name", "target": "Alicia" },
+	  { "action": "shake", "target": "Alicia" }
+	],
+	"text": "“别动。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她甚至没拔剑。只是把手套往上拉了半寸，像要开始做一件很普通的活。" },
+
+  {
+	"event": [
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "“第三步会扑你。”"
+  },
+  { "event": [{ "action": "show_name", "target": "Player" }], "text": "“你怎么知道——”" },
+
+  {
+	"event": [
+	  { "action": "hide_name" }
+	],
+	"text": "魔兽低吼，果然踏出一步、两步、三步——猛地扑来！"
+  },
+
+  {
+	"event": [
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "“看。”"
+  },
+
+  {
+	"event": [
+	  { "action": "play_sfx", "target": "slash" },
+	  { "action": "shake", "target": "DreamBeast" }
+	],
+	"text": "她终于拔剑，动作快得像风划过雪面。银光一闪，魔兽的前爪被直接卸开。"
+  },
+  { "text": "第二剑更干脆，像在切开一块早就记住纹理的木头。石壳碎裂，青光瞬间熄灭。" },
+
+  {
+	"event": [
+	  { "action": "remove_character", "target": "DreamBeast" }
+	],
+	"text": "魔兽倒下，身体化作一缕黑烟，钻回土里。地面只剩一圈焦黑的烧痕。"
+  },
+
+  { "event": [{ "action": "show_name", "target": "Player" }], "text": "“你……也太轻松了。”" },
+  { "event": [{ "action": "show_name", "target": "Alicia" }], "text": "“这只是‘小的’。”" },
+  { "event": [{ "action": "show_name", "target": "Alicia" }], "text": "“走。别盯着看了。”" },
+
+
+	{
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "change_scene", "target": "scene2.5" }
+	]
+  }
+]

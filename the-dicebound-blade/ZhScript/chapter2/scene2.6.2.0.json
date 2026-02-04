@@ -1,0 +1,92 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "北门外的雪被踩得发亮，士兵来回奔跑，口令声一声接一声。"
+  },
+  {
+	"event": [{ "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }],
+	"text": "我在人群边缘看见艾莉西亚。她正和几名守卫交代布防，语速很快，手势很准，像在做一件做过太多次的事。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“艾莉西亚！”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她回头看了我一眼，眉头几乎没有动。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“回旅店。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“我只是想确认你——”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你留在这里，只会让露西亚分心，也会让守卫分心。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我需要他们把该做的事做完。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“那你呢？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我会守住这里。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“现在转身走。别让我把时间浪费在劝你上。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "她说完就转回去，继续下命令，像我只是她需要从战场边缘清走的一项“麻烦”。"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "我咬了咬牙，还是退了。不是因为听话，是因为我突然明白：我再往前一步，她就得把注意力分给我。"
+  },
+
+  {
+	"event": [{ "action": "set_background", "target": "town_snow_street" }],
+	"text": "回程的路上，镇子像被一只无形的手按住了喉咙。"
+  },
+  { "text": "商贩收摊，家家关窗。守卫把路口封起来，催人回屋。有人想问北门情况，没人回答得完整。" },
+  { "text": "我一路走，一路听见人们低声提她的名字，又立刻压下去——仿佛把话说全了，结局就会落地。"
+  },
+
+  {
+	"event": [{ "action": "set_background", "target": "tavern_night" }],
+	"text": "我回到旅店，插上门闩，把桌子顶到门后。"
+  },
+  { "text": "壁炉火光很旺，屋里却冷得像空了一块。杯子摆在柜台上，整整齐齐，我却怎么也擦不出“今天已经结束”的感觉。" },
+  { "text": "我强迫自己做事：添柴、拧紧门栓、把短剑放到最顺手的位置。做完一遍，又做一遍。" },
+
+  { "text": "夜更深的时候，北面的声音隔着雾传来——沉闷的震动，像远处的墙在崩。随后是很长的安静，安静到我能听见自己的心跳。" },
+  { "text": "我站在柜台后，手掌按在木面上，指节用力到发白。"
+  },
+
+  { "text": "临近后半夜，门外终于有人经过。脚步很急，带着雪和疲惫。有人压着嗓子说：" },
+  { "text": "“北门撑住了。”" },
+  { "text": "“人撤回来了吗？”" },
+  { "text": "“别问了……先回去。”" },
+
+  { "text": "我没有去开门，也没有追出去。只是把额头抵在门板上，呼吸慢慢变得很重。" },
+  { "text": "他们没说那个名字，但我听得出来：有些人回来了，有些人没有。"
+  },
+  { "text": "我坐回柜台后，睁着眼到天色发白。那一夜，我一次都没睡着。" },
+
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.0" }
+	]
+  }
+]

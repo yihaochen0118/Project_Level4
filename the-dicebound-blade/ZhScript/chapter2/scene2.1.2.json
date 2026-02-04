@@ -1,0 +1,7 @@
+[
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene2.2" }
+	]
+  }
+]

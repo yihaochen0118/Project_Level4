@@ -1,0 +1,109 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "I pretend to follow them, but stop just before the final step. Something about this place feels wrong—I want a clearer look."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Wait. Let me take a look at the formation.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“Don’t—!” Lucia instinctively reaches out to grab me."
+  },
+  {
+	"text": "I step forward anyway."
+  },
+  {
+	"text": "The moment my boot touches that thin dark-blue line, the ground feels as if it’s been ‘noticed’—"
+  },
+  {
+	"text": "With a low hum, the remaining formation flares to life for a brief instant."
+  },
+  {
+	"text": "A chill shoots up from my ankle. My vision blurs, and it sounds as if someone is whispering the same sentence over and over in my ear."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“...What—”"
+  },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Alicia" },
+	  { "action": "shake", "target": "Alicia" }
+	],
+	"text": "“Don’t touch it.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "The next second, she’s beside me. Her movement is as sharp as a blade of wind."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Do you want it to remember you?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“I just wanted to—”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“To know the truth?” She lets out a cold laugh. “The truth bites.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "She yanks me away from the line. The cold instantly recedes, like a tide pulling back."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "Lucia’s face has gone pale. “You almost triggered an echo… you would’ve been marked!”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Marked?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Don’t ask.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "Her tone shuts the door completely. Not impatience—restraint, holding something back."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Move. Back to the inn.”"
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" }
+	],
+	"text": "We rush out of the alley. Snow and fog slam into us, and only then do I realize my back is soaked through."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "Lucia supports me the whole way, her voice still shaking. “Don’t push yourself anymore… you’re not like her.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Then what is she like?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia doesn’t turn back. She only leaves us with one line: “Someone who’s been walking for too long.”"
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" }
+	],
+	"text": "The inn’s firelight wraps around us again. The sound of the bolt sliding home feels like finally locking the danger outside."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene2.6" }
+	]
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "set_background", "target": "tavern_empty" }
+	]
+  },
+  {
+	"event": [{ "action": "show_talk_ui" }],
+	"text": "I followed Alicia outside. The morning light was blinding, snowmelt dripping from the eaves as the street reflected a silvery glare."
+  },
+  {
+	"text": "She walked fast, but not in a hurry—more like someone executing a well-practiced routine. At every intersection, she didn’t look for signs, just turned."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"You know these streets a little too well.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Mm.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Don’t stop near the treeline. Something will crawl out of the ground.\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "She said it like she was warning me not to step in a puddle. I almost laughed on instinct—but couldn’t."
+  },
+
+  {
+	"event": [
+	  { "action": "set_background", "target": "market" }
+	],
+	"text": "The town market was lively, as if nothing had happened at all. Shouts, hoofbeats, the smell of grease and bread blended together."
+  },
+  {
+	"text": "Alicia didn’t haggle. She named what she wanted outright. The vendor had just started to argue when one look from her made him immediately change his price."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Three vials to stop bleeding. Two antidotes. Sealing charms—old paper only. Don’t give me fresh ink.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"…You even care how old the charm paper is?\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Fresh ink attracts things that shouldn’t come.\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "She shoved everything into my arms at once. The weight made my shoulders go numb."
+  },
+
+  {
+	"event": [
+	  { "action": "set_background", "target": "pine_forest_road" }
+	],
+	"text": "The stone road back to the inn ran alongside a pine forest. Wind made the treetops creak, the air sharp as a blade."
+  },
+  {
+	"text": "I was just about to quicken my pace when I heard a dull thud beneath my feet, like something turning over underground."
+  },
+
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "DreamBeast", "pos": [420, 0] },
+	  { "action": "show_name", "target": "DreamBeast" },
+	  { "action": "shake", "target": "DreamBeast" }
+	],
+	"text": "The soil split open. A beast with a stone-plated back clawed its way out, its green-lit eyes locked onto us."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"This is what you meant… right?\""
+  },
+
+  {
+	"event": [
+	  { "action": "show_name", "target": "Alicia" },
+	  { "action": "shake", "target": "Alicia" }
+	],
+	"text": "\"Don’t move.\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "She didn’t even draw her sword. She only pulled her glove up half an inch, like she was about to start an ordinary task."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"On the third step, it’ll pounce.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"How do you know—\""
+  },
+
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "The beast growled. One step. Two. Three—and it lunged!"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Watch.\""
+  },
+
+  {
+	"event": [
+	  { "action": "play_sfx", "target": "slash" },
+	  { "action": "shake", "target": "DreamBeast" }
+	],
+	"text": "She finally drew her sword, the motion as fast as wind cutting across snow. A flash of silver—the beast’s forelimbs were severed cleanly."
+  },
+  {
+	"text": "The second strike was even cleaner, like cutting into wood whose grain she already knew. The stone shell shattered, the green light extinguished instantly."
+  },
+
+  {
+	"event": [{ "action": "remove_character", "target": "DreamBeast" }],
+	"text": "The beast collapsed, its body dissolving into black smoke that sank back into the earth. All that remained was a scorched ring on the ground."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"You… made that look way too easy.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"That was a small one.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Come on. Don’t stare.\""
+  },
+
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "change_scene", "target": "scene2.5" }
+	]
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "我留下来，没再往前挤。"
+  },
+  { "text": "我不去碰她的战场——只做她说的“不会碍事”的活：搬物资、递药、跑腿、把倒下的人拖到后面。"},
+  { "text": "雪越下越密，脚下的泥和冰搅在一起，每一步都像踩进冷水里。可北门前的人没有停。"
+
+  },
+
+  { "text": "药箱一开，消毒的味道立刻压过血腥。露西亚蹲在临时棚子里，手指冻得发红，却仍把绷带一圈圈缠得很紧。"},
+  {
+	"event": [{ "action": "spawn_character", "target": "Lucia", "pos": [450, 0] }],
+	"text": "她抬头看见我，眼里先是一松，随即又立刻绷紧。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“你还真留下来了……”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“我只搬东西，不往前走。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“那就把这些药送到左侧盾阵后面。”"
+  },
+  { "text": "她把一袋止血粉塞到我怀里，动作很快，像怕自己一慢就会想太多。"
+  },
+
+  { "text": "我跑过临时堆放点，看到的是另一种辛苦：有人用肩顶着木箱，有人把冻硬的绳索重新打结，有人用破毯子给伤员遮风。"},
+  { "text": "没人喊英雄，只有一句句短促的“这边”“再来”“快点”。"
+  },
+
+  {
+	"event": [{ "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }],
+	"text": "我远远看见艾莉西亚站在石阶上。她没有多余动作，却把整条防线拧在一起。"
+  },
+  { "text": "她指向左翼，那里立刻有人补盾；她抬手，右翼的弓手就换位；她一句话都不浪费。"},
+  { "text": "那种熟练不是轻松，是把恐惧压到最薄的一层——薄到看不见。"
+
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "我把药递给守卫，回头看她，忍不住喊了一声：“艾莉西亚！”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她看向我，目光很快落到我手里的药袋，再落到我脚下的位置，确认我没有往前越线。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“做得对。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“我没碍事。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你已经在碍我的心了。”"
+  },
+  { "text": "这句话说得很直白，也很短。像是她压着情绪，只允许自己说到这里。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“回去。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“还没开始——”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“会开始的。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我需要你把旅店守住。把火留着，门栓插好。露西亚如果回来，你给她热水。”"
+  },
+  { "text": "她说到“热水”两个字时，语气忽然放轻了一点，像终于允许自己承认：有人会害怕、会冷、会撑不住。"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你会回来吗？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她没有停顿。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我会尽量。”"
+  },
+  { "text": "不是保证，是她能给的全部诚实。"
+  },
+
+  { "text": "她抬手把我往后指了一下，像把我重新放回“安全的位置”。然后她转身继续布阵，背影干净得像一把上弦的弓。"},
+  { "text": "我站在原地，忽然发现自己手心全是汗，风一吹就凉得发痛。"
+  },
+
+  { "text": "我按她说的离开北门。一路回头，能看见那道防线在雪雾里越来越像一条紧绷的黑线。"},
+  { "text": "回到旅店时，火还亮着。我却怎么也坐不稳。"
+  },
+  { "text": "那一夜，我没睡。每一次风声变重，我都以为北门那边开始了。"
+  },
+
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.0" }
+	]
+  }
+]

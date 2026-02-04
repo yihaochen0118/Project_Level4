@@ -1,0 +1,87 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "我还是跟了出去。夜风一吹，脑子反而更清醒——清醒到让我意识到：我根本不知道自己在追什么。"
+  },
+  { "text": "她走得很快，我怕跟丢，脚步不自觉加重。鞋跟在结冰的石砖上“咔”地响了一下。"},
+  { "text": "艾莉西亚的背影顿住了。那停顿很短，却像有人把刀尖抵在我喉咙上。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你想死吗？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“我——我只是怕跟丢你。”"
+  },
+  { "text": "她没回头，手指却在斗篷下轻轻一动。下一秒，巷口的阴影里响起一声压低的笑。"},
+  { "text": "有人。真的有人在看我们。"},
+  { "text": "我心里一凉，想后退，却踩到一段被雪盖住的铁链。铁链一抖，发出脆响。"},
+  { "text": "那一瞬间，巷内的黑暗像活过来。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“……啧。”"
+  },
+  { "text": "她转过身，眼神亮得可怕，像被逼到墙角的野兽。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我不是说过要你活着吗？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“我没想拖你——”"
+  },
+  { "text": "巷口冲出一个黑袍人，手里像握着什么符纸。"},
+  { "text": "我条件反射想抬剑，可还没抬起——艾莉西亚已经挡在我面前。"},
+  { "text": "那动作不是“保护”，更像“占有”：她把我整个遮进斗篷的阴影里，连风都不许碰到。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别看他。”"
+  },
+  { "text": "她的剑出鞘几乎没有声音。下一秒，黑袍人的手腕断开，符纸掉在雪里。"},
+  { "text": "黑袍人还想尖叫，她抬脚一踢，对方的喉咙就被雪和血一起堵住。"},
+  { "text": "她做完这一切，甚至没有喘。她回头盯着我，眼底那股焦躁却像要把我烧穿。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我不会再让任何人伤害你。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“这次——我也保护住你了。”"
+  },
+  { "text": "那句话说得太快、太重，像她在对自己立誓。"},
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你冷静点……我没事。”"
+  },
+  { "text": "她的嘴角扯了一下，像笑，又像疼。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你当然没事。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“因为我在。”"
+  },
+  { "text": "她一把攥住我的手腕，力道大得让我发麻。不是拉走——是拖走。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“从现在开始，你只需要做一件事。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“跟在我能看见的地方。”"
+  },
+  { "text": "她把那张被雪沾湿的符纸捡起来，揉成一团塞进怀里，像在咬碎一个麻烦。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“走。下一处。”"
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.8" }
+	]
+  }
+]

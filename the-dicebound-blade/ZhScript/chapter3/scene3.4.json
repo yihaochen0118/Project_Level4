@@ -1,0 +1,95 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "烛火烧到短了一截，油脂沿着烛身缓慢往下淌。桌上的汤早就温了，空气里只剩余味和她刚才说过的话。"
+  },
+  { "text": "艾莉西亚的呼吸有点乱。她努力把背挺直，可肩线还是一点点塌下去，像一根绷到极限的弦终于松开。." },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你还好吗？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不好。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我很累。”"
+  },
+
+  { "text": "她说得太直白，像终于懒得再假装。那双总是亮得不正常的眼睛忽然泛红，像火光里进了烟。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我不是怕死。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我怕的是——每一次回来都要重新把自己拼起来。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“拼到最后，我会不会只剩下一堆会挥剑的碎片。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你不是碎片。”"
+  },
+
+  { "text": "她像是被这句话击中，嘴唇动了动，想笑又笑不出来。下一秒，眼泪就掉了下来。不是嚎啕，是无声地往下落，落得很快，很急。." },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别这么说。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你这么说，我会想继续撑。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“可我真的……撑不动了。”"
+  },
+
+  { "text": "她抬手擦了一下眼角，动作笨拙得不像她。那一下像把她最后的力气也擦掉了。." },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我只是……想睡一会儿。”"
+  },
+
+  { "text": "她把额头轻轻抵在桌沿，像试探。然后她整个人慢慢趴下去，手还握着半空的餐巾，像怕一松手世界就会掉下去。." },
+  { "text": "烛火在她红裙的褶皱上跳动。她的睫毛湿着，很快就不再颤了。她睡着了——睡得又轻又沉，像被人拽进深水里。." },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "我看着她，忽然不知道该把她当作战士、当作客人，还是当作一个快碎掉的人。"
+  },
+
+  {
+	"event": [
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  {
+			"text": "选项 A：把她抱回房间，让她好好睡（你会很小心，不惊动她）【无检定（DC 0）】",
+			"dc": 10,
+			"check": "dexterity"
+		  },
+		  {
+			"text": "选项 B：让她就趴在桌上睡（你守在旁边，替她挡风与烛光）【无检定（DC 0）】",
+			"dc": 0,
+			"check": "dexterity"
+		  }
+		]
+	  },
+	  { "action": "hide_talk_ui" }
+	]
+  }
+]

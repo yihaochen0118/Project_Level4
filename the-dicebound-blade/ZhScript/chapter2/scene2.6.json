@@ -1,0 +1,97 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "第三天清晨。雪没停透，街上却比平时更早有动静。"
+  },
+  { "text": "我刚开门透气，就看见几队守卫在街口集合，往北边跑。有人在挨家挨户敲门，喊着让商铺把木板、绳子和油灯送去北门。" },
+  { "text": "如果这是平时，我会把门关回去，当作与我无关。" },
+  { "text": "但我脑子里一直是昨晚那一幕：艾莉西亚那句“明天我还用得上”。" },
+  { "text": "她不是随口说的。她是计划好的。" },
+  { "text": "我拿起外套，把短剑塞进腰间，锁好门，跟着人流往北边走。" },
+
+  { "text": "越往北，街上的人越少，声音越集中：铁器碰撞、口令、马的鼻息。" },
+  { "text": "北门外的空地被清出一条防线。木桩和盾墙已经搭了一半，法师和守卫分成几个小队，像被一只看不见的手迅速摆好位置。" },
+
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "艾莉西亚站在临时指挥点，披风上还沾着夜里的灰。她没穿多余的护甲，动作却干净利落，像把所有步骤背熟了。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“盾手两排。第一排贴桩，第二排留半步缝，给法师走位。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“油灯不要挂门上，挂侧面。火一旦起，别让门框先烧。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“弓手只听一个口令：我抬手，你们放；我落手，你们停。别自作主张。”"
+  },
+
+  { "text": "守卫们没有质疑，像早就被她说服过。露西亚在另一边清点符纸和药瓶，眼圈发青，手却不停。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "我走近两步：“你怎么把他们安排得这么熟？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她看了我一眼，像是在评估我是不是麻烦。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“因为不熟的人会死得更快。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你昨晚说‘明天还用得上’——你是打算今天把北门守住？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“守到天黑就行。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我负责把最麻烦的那一只引出来、解决掉。其他人负责撑住阵线，别让街里先乱。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“听起来你早就知道会发生什么。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她没有否认，只把披风往肩上一拉，像把情绪也一起拉回去。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你来这里没用。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“回旅店。把门关好。今天别再让自己受伤。”"
+  },
+
+  { "text": "她说得很直接，不像请求，更像在减少变量。" },
+  { "text": "我本能地想顶回去，却看见她指节上的细小裂口——像昨晚刚握过太久的剑。" },
+  { "text": "露西亚抬头看了我一眼，眼神里写着同一句话：别添乱。但她也明显松了一口气——至少我还站着。 " },
+
+  {
+	"event": [
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  { "text": "选项 A：听她的，转身离开北门，回旅店等消息【无检定（DC 0）】", "dc": 0, "check": "dexterity" },
+		  { "text": "选项 B：坚持留下来做“不会碍事”的工作（搬物资/递药/跑腿）【决断检定（DC 12）】", "dc": 12, "check": "dexterity" }
+		]
+	  },
+	  { "action": "hide_talk_ui" }
+	]
+  }
+]

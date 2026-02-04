@@ -1,0 +1,242 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "[3.1.1.1 | Refusal · Failed Version: Alicia Loses Control]"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“No.”"
+  },
+  {
+	"text": "I lower my voice as much as I can, like I’m afraid of waking something. But the moment the word leaves my mouth, it feels like I’ve done exactly that."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“…What did you say?”"
+  },
+  {
+	"text": "The smile freezes on her face, like glaze turning solid."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“I said no. I don’t want to—”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Don’t want what?”"
+  },
+  {
+	"text": "She steps closer. Firelight jumps in her pupils, bright enough to hurt."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“I don’t want you looking at me like this. I don’t want to be arranged by you like—like I’m not myself anymore.”"
+  },
+  {
+	"text": "She blinks once. In that instant, it’s like she finally understands the word *rejection*."
+  },
+  {
+	"text": "And then—she smiles."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Ha.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“So it’s this line.”"
+  },
+  {
+	"text": "Her voice is barely above a whisper, but there’s a strange excitement in it—like fate has finally turned the way she remembers."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“What is wrong with you?”"
+  },
+  {
+	"text": "She doesn’t answer. She raises her hand and pushes the candles on the table over, one by one."
+  },
+  {
+	"text": "The flames snuff out with soft *puffs*, one after another. Shadows surge in like a tide. The tavern suddenly feels much smaller."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Look.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“The moment you refuse me, I start thinking—what else can I use to make you stay?”"
+  },
+  {
+	"text": "Her fingers are trembling. Not with fear, but with barely restrained impulse."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’ve already missed you too many times.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Every time I tell myself: next time I’ll be gentler, more normal, more like a ‘first meeting.’”"
+  },
+  {
+	"text": "She suddenly leans in—so close I can smell the cold metal and ash on her."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“And you still reject me.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“I just—”"
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Alicia" },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "“Shut up.”"
+  },
+  {
+	"text": "She says it softly—but it lands like the flat of a blade against the table."
+  },
+  {
+	"text": "Her hand moves to the sword at her waist, slowly, as if giving me time to regret."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Listen carefully.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You’re allowed to reject me.”"
+  },
+  {
+	"text": "She pauses. Her smile cracks, revealing something almost childishly vicious."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But every time you reject me— I die once.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You’re insane! Are you threatening me?!”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Not a threat.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“A deal.”"
+  },
+  {
+	"text": "She draws the sword just a fraction. The metal flashes in the firelight."
+  },
+  {
+	"text": "I step back instinctively. My heel hits a chair, the leg scraping the floor with a shrill sound."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“When I die, I come back.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“And when I come back, I come looking for you again.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Each time, I hold on tighter.”"
+  },
+  {
+	"text": "Her eyes burn, like she’s willing to throw herself into the fire as well."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Until you say yes.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“What do you actually want from me?!”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Forever.”"
+  },
+  {
+	"text": "She says it calmly—so calmly it makes my skin crawl."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Not just tonight.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Every night. Every morning. Every third circle when you wipe a glass.”"
+  },
+  {
+	"text": "Her voice softens, like a blade hidden in sugar:"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“If you won’t give it to me, I’ll take it myself.”"
+  },
+  {
+	"text": "She turns the sword point toward her own chest. Her grip is steady—not like a threat, but like something she’s practiced countless times."
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Player" },
+	  { "action": "show_name", "target": "Player" }
+	],
+	"text": "“Don’t—!”"
+  },
+  {
+	"text": "I reach out to stop her. She suddenly laughs, like she’s finally found proof that I’ll panic."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“See?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You still care about me.”"
+  },
+  {
+	"text": "She slowly slides the sword back into its sheath, like putting away a switch she can flip at any time."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“So don’t reject me again.”"
+  },
+  {
+	"text": "She turns and goes upstairs, her steps quick and light, like she’s afraid I’ll change my mind."
+  },
+  {
+	"text": "At the stairs, she stops and finally looks back. Her smile is sweet and vicious at the same time—like a curse."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You don’t need to come tonight.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’ll come downstairs and *invite* you myself.”"
+  },
+  {
+	"text": "She goes upstairs smiling."
+  },
+  {
+	"text": "I stand there, my back going cold."
+  },
+  {
+	"text": "I finally understand one thing: she isn’t trying to win me over. She’s tearing me out of the world and forcing me into the only ‘forever’ she can still hold onto."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.2" }
+	]
+  }
+]

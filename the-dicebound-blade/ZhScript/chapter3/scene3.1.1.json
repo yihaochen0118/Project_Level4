@@ -1,0 +1,147 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "【3.1.1.1｜选项B：拒绝她】"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“不行。”"
+  },
+  {
+	"text": "我尽量让自己的语气听起来正常——像拒绝一顿饭，而不是拒绝一个把整个人押在我身上的人。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“……为什么？”"
+  },
+  {
+	"text": "她问得很轻，可那轻里有股压不住的颤，像刀尖贴着玻璃。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“因为你不对劲。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你认识我得过头了。你说话像已经跟我说过很多遍。”"
+  },
+  {
+	"text": "我停了一下，还是把话说完："
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“这让我害怕。”"
+  },
+  {
+	"text": "她盯着我，盯了很久。"
+  },
+  {
+	"text": "那种眼神不像被拒绝，更像是——某个结果又一次按时发生了。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你会怕，是正常的。”"
+  },
+  {
+	"text": "她居然点头，语气反而温和了一瞬。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你每次都会怕。”"
+  },
+  {
+	"text": "她说完，像意识到自己说漏了，嘴角抽了一下，硬把那句“每次”吞得更深。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你又来了。‘每次’是什么意思？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“意思是——”"
+  },
+  {
+	"text": "她的喉咙动了动，像要说真话，又像真话会把你们一起拖下去。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“意思是我不该逼你。”"
+  },
+  {
+	"text": "她把蜡烛一根根收回去，动作很慢。收的不是蜡烛，像是在收回某种奢望。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“那就换一种。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“换什么？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你不用跟我吃饭。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“但你今晚，还是要在我看得见的地方。”"
+  },
+  {
+	"text": "这句话说得太直白，直白得像命令，又像祈求。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你凭什么——”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“凭我最近有任务。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我可能会离开这里一段时间。”"
+  },
+  {
+	"text": "她停顿一下，声音压得更低，像说给自己听："
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我不想走的时候，你对我还只是‘一个怪人’。”"
+  },
+  {
+	"text": "我说不出话。她把最后一根蜡烛放回斗篷里，像把刀收回鞘。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“算了。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你不答应也没关系。”"
+  },
+  {
+	"text": "她抬眼，忽然又笑了一下——那笑里有点金克斯的味道：像在跟命运赌气。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我总能把你留到晚上。”"
+  },
+  {
+	"text": "她转身往楼上走。"
+  },
+  {
+	"text": "走到楼梯口，她停了一秒，像想回头解释点什么，最后却只丢下一句："
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别躲我。”"
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.2" }
+	]
+  }
+]

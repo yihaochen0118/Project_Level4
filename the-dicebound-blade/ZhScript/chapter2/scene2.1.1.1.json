@@ -1,0 +1,111 @@
+[
+  {
+	"event": [
+	  { "action": "show_talk_ui" },
+	  { "action": "set_flag", "flag": "charisma_success_2_1_A", "value": true },
+	  { "action": "set_flag", "flag": "alicia_trust", "value": 1 }
+	]
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你今天怎么了？”我放轻声音，“你不是冷漠。你只是像……快撑不住了。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "艾莉西亚的手指微微一顿。那一瞬间，她像是想继续装作没事，但最终还是没能完全维持。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别在她面前问。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“师父……我不是外人。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你就是。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "这句话很冷，但紧接着她的声音又低下去一分，像在克制后悔。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“……我只是太累了。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "露西亚一下子愣住，眼眶瞬间红了——因为她等的可能就是这一句承认。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“我就知道……你早上连手都在抖。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别哭。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“也别把你的担心塞到别人身上。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“那早上你没管——也是因为累？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她看了我嘴角的绷带一眼，停了两秒。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“……是。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我不是不想管。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我只是怕我一伸手，就再也收不回来了。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "这句说得很直白。直白到不像她。她说完像意识到自己泄了底，立刻把情绪按回去。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“两间房。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“露西亚，你住我隔壁。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“好！我、我给你整理东西……我也会看着你按时吃药！”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "露西亚像终于能呼吸了，立刻忙起来：把药瓶分类、把干净布巾放好、甚至把热汤端到艾莉西亚手边。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“……谢谢。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "声音轻得几乎听不见，但确实是谢谢。" },
+
+  { "text": "艾莉西亚端起热汤却没喝，只是用掌心捂着碗沿，像在借一点温度把自己粘住。" },
+  { "text": "她依旧冷漠，但那种冷漠更像是一层“用来活下去的壳”。" },
+
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "change_scene", "target": "scene2.2" }
+	]
+  }
+]

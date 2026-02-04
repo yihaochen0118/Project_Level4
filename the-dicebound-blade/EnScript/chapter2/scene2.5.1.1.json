@@ -1,0 +1,97 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "show_talk_ui" },
+	  { "action": "show_name", "target": "Player" }
+	],
+	"text": "I lower my voice and press on: “What is this place, exactly? And why do you seem so familiar with it?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia doesn’t answer right away. She turns the token in her palm, as if weighing whether the words are worth letting out."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Because I’ve been here before.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Once?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She draws a shallow breath. “More than once.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "The residual glow of the underground chamber reflects in her eyes, like a thread about to snap. Her shoulders loosen for a brief instant, then tense again."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“That’s why you’re so practiced.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Mm.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Then when you said ‘we’ll need it again tomorrow’—you’re coming back?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“They’ll leave traces.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I need to confirm whether this time… it happened ‘early.’”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "She speaks plainly, but stops at what’s merely sufficient—deliberately skirting a deeper truth."
+  },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Lucia" }
+	],
+	"text": "Lucia cuts in softly, “Master… please stop forcing yourself, okay? You don’t look well at all.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’m fine.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“You always say that.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "Lucia pulls the cloak tighter around her shoulders, the motion practiced—like she’s done this kind of tending many times before."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She finally pulls her gaze away from the formation marks and looks at me. “Let’s go back.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You shouldn’t have come out tonight… but since you did, consider yourself ‘lucky.’”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Lucky?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You weren’t pulled in any deeper.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "She turns and heads out. Her steps are steady—but they feel like they’re being held together by her last bit of strength."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene2.6" }
+	]
+  }
+]

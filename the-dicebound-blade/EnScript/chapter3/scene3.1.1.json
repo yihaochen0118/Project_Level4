@@ -1,0 +1,150 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "[3.1.1.1 | Option B: Refuse Her]"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“No.”"
+  },
+  {
+	"text": "I try to keep my voice steady—like I’m refusing a meal, not refusing someone who’s put their entire existence on me."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“…Why?”"
+  },
+  {
+	"text": "She asks softly, but there’s an uncontained tremor in that softness—like the edge of a blade pressed against glass."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Because something’s wrong with you.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You know me too well. You talk like you’ve already said all of this to me before.”"
+  },
+  {
+	"text": "I hesitate, then say it anyway:"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“It scares me.”"
+  },
+  {
+	"text": "She stares at me for a long time."
+  },
+  {
+	"text": "That look isn’t one of rejection—it’s more like something has once again happened exactly on schedule."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“It’s normal to be scared.”"
+  },
+  {
+	"text": "She actually nods, her tone softening for just a moment."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You’re scared every time.”"
+  },
+  {
+	"text": "As soon as she says it, she realizes she’s slipped. The corner of her mouth twitches as she forces that *every time* deeper down."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“There it is again. What do you mean by ‘every time’?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“It means—”"
+  },
+  {
+	"text": "Her throat moves. Like she’s about to tell the truth—and like the truth would drag both of us down with it."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“It means I shouldn’t force you.”"
+  },
+  {
+	"text": "She gathers the candles one by one, her movements slow. She isn’t just putting away candles—it’s like she’s packing away a kind of indulgent hope."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Then we’ll do it another way.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Another way how?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You don’t have to eat with me.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But tonight, you still need to stay somewhere I can see you.”"
+  },
+  {
+	"text": "She says it too plainly—so plain it sounds like an order, and like a plea."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“And why should I—”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Because I have a task coming up.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I might have to leave this place for a while.”"
+  },
+  {
+	"text": "She pauses, her voice dropping even lower, like she’s talking to herself:"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I don’t want to leave while I’m still just ‘some weirdo’ to you.”"
+  },
+  {
+	"text": "I can’t find any words."
+  },
+  {
+	"text": "She slips the last candle back into her cloak, like returning a blade to its sheath."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Forget it.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“It’s fine if you don’t agree.”"
+  },
+  {
+	"text": "She looks up and suddenly smiles again—there’s something jinx-like in it, like she’s picking a fight with fate."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I always manage to keep you until nightfall.”"
+  },
+  {
+	"text": "She turns and heads upstairs."
+  },
+  {
+	"text": "At the stairway, she stops for a second, like she wants to turn back and explain something. In the end, she only leaves one line behind:"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Don’t avoid me.”"
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.2" }
+	]
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "我假装跟上去，却在最后一阶台阶前停住——这地方不对劲，我想看清楚一点。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“等一下。我看一眼阵纹。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“别——！”露西亚本能地伸手拉我。"
+  },
+  {
+	"text": "我还是迈了一步。"
+  },
+  {
+	"text": "靴底刚踩到那条暗蓝色细线，地面像被什么“听见”——"
+  },
+  {
+	"text": "嗡的一声，残留的阵纹猛地亮起一瞬。"
+  },
+  {
+	"text": "冷意沿着脚踝窜上来，我眼前一花，耳边像有人在低声重复同一句话。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“……什么——”"
+  },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Alicia" },
+	  { "action": "shake", "target": "Alicia" }
+	],
+	"text": "“别碰。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "下一秒，她已经到了我身边。动作快得像风刃。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你想被它记住？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“我只是想——”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“想知道真相？”她冷笑了一声，“真相会咬人。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "她一把把我拽离那条线。冷意立刻退下去，像潮水撤回。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "露西亚吓得脸都白了：“你差点触发回响……你会被标记的！”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“标记？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别问。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "她的语气像把门直接关上。不是不耐烦，是一种压着火的克制。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“走。回旅店。”"
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" }
+	],
+	"text": "我们冲出巷子。雪雾扑上来，我这才意识到自己后背全湿了。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "露西亚一路扶着我，声音还在抖：“别再逞强了……你跟她不一样。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“她到底是什么样？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "艾莉西亚没回头，只丢下一句：“一个走太久的人。”"
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" }
+	],
+	"text": "旅店的火光重新把我们包住。门栓落下的那一声，像终于把危险挡在外面。"
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene2.6" }
+	]
+  }
+]

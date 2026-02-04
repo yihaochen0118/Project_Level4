@@ -1,0 +1,312 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "Morning fog clings to the windows like a layer of old gauze. The fireplace licks at the logs as I stand behind the counter polishing a glass—on the third circle around the rim, I suddenly stop."
+  },
+  {
+	"text": "Something’s wrong. Not because I hear footsteps outside."
+  },
+  {
+	"text": "But because I suddenly *know*—the door is going to be kicked open, and it will happen in the next second."
+  },
+  {
+	"text": "The next second, the door slams against the wall with a bang, cold wind and the stink of alcohol rushing in together."
+  },
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "show_name", "target": "Junker" }
+	],
+	"text": "A drunk barges in through the snow, like a ball of fire wrapped in thorns."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Junker" }],
+	"text": "“Alcohol! Give it to me—”"
+  },
+  {
+	"text": "He doesn’t finish the sentence before he closes in on me, slamming his shoulder forward. The glasses on the counter tremble."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Calm down. It’s too early for—”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Junker" }],
+	"text": "“Calm down? I’ll show you calm down!”"
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Player" },
+	  { "action": "hp_lost", "amount": 5 }
+	],
+	"text": "He grabs my collar and raises his fist—I don’t even have time to lift my arm to block."
+  },
+  {
+	"text": "Then there’s another sound at the door."
+  },
+  {
+	"text": "Not a kick. Not something violent. Just a very light push—like someone turning the page to the next scene."
+  },
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "Alicia steps inside. Fog still clings to her cloak, silver hair damp and cold against her shoulders."
+  },
+  {
+	"text": "Her eyes are too bright—like someone who stared into a fire all night without sleeping, then suddenly laughed."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“…Oh.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You finally didn’t get hit by the second punch.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“What are you talking about?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Junker" }],
+	"text": "The drunk twists his head toward her. “Who the hell are you?”"
+  },
+  {
+	"text": "Alicia doesn’t look at him. She looks at his fist—like she’s watching a pendulum that always falls on schedule."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You always show up right on time.”"
+  },
+  {
+	"text": "She tilts her head slightly, as if trying to remember an irritating joke, then her smile deepens."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I was going to pretend I didn’t see this today.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But I’m in a bad mood.”"
+  },
+  {
+	"text": "She takes one step forward. Not a charge. Not a threat. Just one step—like driving a nail into the floor."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Let go.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Junker" }],
+	"text": "“Hah? You think—”"
+  },
+  {
+	"text": "The sound of a sword leaving its sheath is as short as a quiet laugh."
+  },
+  {
+	"event": [{ "action": "shake", "target": "Junker" }],
+	"text": "The drunk’s hand jerks open. Even he freezes, stunned."
+  },
+  {
+	"text": "He looks down at himself, as if trying to figure out what went wrong."
+  },
+  {
+	"text": "Alicia flicks the tip of her blade aside, like she doesn’t want to dirty it."
+  },
+  {
+	"event": [{ "action": "remove_character", "target": "Junker" }],
+	"text": "The drunk staggers backward toward the door, as if dragged away by something invisible. The wind surges—and he’s gone."
+  },
+  {
+	"text": "The tavern falls into a piercing silence. The patrons don’t even dare to breathe."
+  },
+  {
+	"text": "I’m still reeling from my crumpled collar when Alicia has already sheathed her sword."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You… you did what to him—”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Mm.”"
+  },
+  {
+	"text": "She answers far too casually—like she just swatted an annoying fly."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Who are you, really?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Alicia.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“No, I mean… why do you act like you know me?”"
+  },
+  {
+	"text": "Alicia suddenly laughs. The sound is like glass tapping ice—clear, dangerous, and faintly excited."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’ve been looking for you for a long time.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“So long that I’ve memorized the rhythm of how you polish glasses.”"
+  },
+  {
+	"text": "She lifts her hand and taps twice in the air, like keeping time for me."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“On the first tap, you frown. On the second, you pretend nothing’s wrong.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Stop trying to scare me.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’m not scaring you.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’m… celebrating.”"
+  },
+  {
+	"text": "Her breathing quickens slightly, like she’s holding back something about to spill over."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“One hundred and twenty-seven docks.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“What?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“…Never mind. You wouldn’t understand.”"
+  },
+  {
+	"text": "She suddenly leans over the counter, close enough for me to see the bloodshot veins in her eyes—like a fire has been burning there for a very long time."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“There’s one thing you need to remember.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I didn’t come here to stay at an inn.”"
+  },
+  {
+	"text": "She pauses, her smile tipping into something a little more unhinged—like someone finally telling the truth."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I came to keep you here.”"
+  },
+  {
+	"text": "My throat tightens. “Keep… me?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Yes.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’ve tried many ways.”"
+  },
+  {
+	"text": "Something in her memory seems to strike her. She keeps smiling, but her eyes go empty for a moment."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Gentle ways. Normal ways. Ways that look like what people do.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“All of them were too slow.”"
+  },
+  {
+	"text": "She drops a ring of keys onto the counter, fast—like she’s afraid I might change my mind."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Give me a room.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“How do you know—”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Of course I know.”"
+  },
+  {
+	"text": "Her tone is terrifyingly matter-of-fact—like asking why the sun rises."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I know you keep the salt on the left.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I know you pause at the third stair when you hear it creak.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I know when you see me, you pretend to be calm first—and then your fingers shake.”"
+  },
+  {
+	"text": "As she speaks, she stares at my hands, like she’s checking off answers she already knows."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You’re insane.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Mm.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But that’s not my fault.”"
+  },
+  {
+	"text": "She turns and heads upstairs, her cloak sweeping the floor like a wind she can’t hold back."
+  },
+  {
+	"text": "At the stairway, she stops for a moment. She doesn’t look back."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“This time, I’ll do better.”"
+  },
+  {
+	"text": "She goes upstairs. Her footsteps are quick, light, and practiced—like running a route she’s repeated hundreds of times."
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "I stand behind the counter, my fingertips still damp from the glass, yet the moisture feels like ice."
+  },
+  {
+	"text": "Every word she just said feels like it should never belong to a ‘first meeting’ morning."
+  },
+  {
+	"text": "And worse—there’s a moment where I realize: I almost believe every word of it."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.1" }
+	]
+  }
+]

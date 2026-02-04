@@ -1,0 +1,68 @@
+[
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "set_background", "target": "tavern_upstairs" },
+	  { "action": "show_talk_ui" }
+	]
+  },
+
+  { "text": "我三步并作两步冲上楼，走廊里冷得像没人住过。她的房门虚掩着，门缝里透着一点光。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你到底是谁？你怎么知道钥匙在地毯下？你是不是认识我？”"
+  },
+
+  {
+	"event": [
+	  { "action": "show_name", "target": "Alicia" },
+	  { "action": "shake", "target": "Alicia" }
+	],
+	"text": "门内传来她冷冷一句：“别进来。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“我只是想问清楚——”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你问得越多，你越危险。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她把门推开一条缝，我只看到她站在阴影里，脸色很苍白，眼下乌青明显。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“现在下楼。处理你的伤。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你至少告诉我——你为什么不管？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不解释。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她的语气不凶，但不容置疑。那不是商量，是命令。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我今晚住这儿。别再上来。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "门“咔哒”一声关上。我站在走廊里，脸上的淤青一跳一跳地疼，心里更堵。" },
+  { "text": "我咬着牙转身下楼。她把我赶得干干净净，像怕我再多说一句就会惹出麻烦。" },
+
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "change_scene", "target": "scene2.2" }
+	]
+  }
+]

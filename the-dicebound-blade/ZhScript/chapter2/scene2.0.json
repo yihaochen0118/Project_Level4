@@ -1,92 +1,153 @@
+
 [
   {
 	"event": [
 	  { "action": "hide_talk_ui" },
-	  { "action": "set_background", "target": "tavern" }
+	  { "action": "set_background", "target": "tavern" },
 	]
   },
-  { "event": { "action": "set_flag", "flag": "helped_alicia", "value": true } },
   {
 	"event": { "action": "show_talk_ui" },
-	"text": "晨雾从远山滑下来，沿着石砖街道弥散进镇中心。旅店内的空气中有淡淡的木灰味。"
+	"text": "晨雾从远山滑下来，沿着石砖街道弥散进镇中心。火光在玻璃上晃动，外头雪未停，天色灰得像旧铁。"
   },
-  { "text": "我站在柜台后擦着杯子，窗外的街景被雾气糊住，吊灯轻轻晃动。" },
+  { "text": "旅店里弥漫着潮气，空气中混着昨夜没散尽的烟味。我站在柜台后擦着杯子，指节冻得发麻。" },
   { "text": "这是每天最平常的时刻——在旅人进来之前，只有杯子的回声和我的呼吸。" },
-  { "text": "有时我甚至怀疑自己就是为了这一刻而存在：那种世界尚未醒来的宁静，让人误以为时间也会怜悯你片刻。" },
-  { "text": "然而那天不同。" },
+  { "text": "然而今天不同。" },
+
   {
-	"text": "门被猛地推开，一股寒气灌进来，带着混杂的雪与铁锈气味。木门“砰”地撞上墙壁，酒馆的寂静被撕得粉碎。"
-  },
-  {
-	"text": "“你这儿的酒还算新鲜吧？给老子来一瓶尝尝！”",
+	"text": "门被踹开。一股酒气混着寒风灌进来，雪花被风挤进屋里，散在地上。",
 	"event": [
 	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
 	  { "action": "show_name", "target": "Junker" }
 	]
   },
-  {
-	"text": "他一身脏兮兮的皮甲，脖子上挂着破损的雇佣兵徽章，看上去像刚从废墟里爬出来。"
-  },
+  { "text": "“酒！他妈的再来一壶！”他咆哮着闯进来，眼睛布满红血丝，皮甲皱裂，嘴角还沾着干涸的血。" },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“早上就喝？兄弟，镇守卫要来了。我记得你们上班的时候是不让喝酒的吧。”"
+	"text": "“早上这会儿就喝？兄弟，镇守卫要来了。你都这样了回去休息吧。”"
   },
   {
 	"event": [
 	  { "action": "show_name", "target": "Junker" },
 	  { "action": "shake", "target": "Junker" }
 	],
-	"text": "“再来一杯！不然我就让你这小破店跟我一起烧了！”"
+	"text": "“你他妈教我做事？！”"
   },
-  {
-	"event": { "action": "hide_name" },
-	"text": "他的眼神浑浊，像一滩油腻的水。我能闻到他身上那股混合着腐败与火药味的气息。"
-  },
-  {
-	"text": "几位客人吓得退到角落，我还没来得及应声，门外传来清脆的靴声。"
-  },
+  { "event": { "action": "hide_name" }, "text": "他一把抓住我衣领，力道大得几乎把我整个人拽过柜台。" },
+  { "text": "拳头砸过来，我的视野猛地一晃，牙龈渗出血。几位客人匆匆退到角落，没有一个敢上前。",
+	 "event": [
+	  { "action": "hp_lost", "amount": 10 },
+	  { "action": "shake", "target": "Player" },
+	]
+},
+  { "text": "就在这时，门口传来脚步声。" },
+  { "text": "不是急促的，而是缓慢、沉稳的——像踩在早就走过无数遍的路上。" },
+
   {
 	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
 	  { "action": "show_name", "target": "Alicia" }
 	],
-	"text": "“听说有人要烧店啊。”一个女声传来，干净，像雪落在铁上的声音。"
+	"text": "披着银白斗篷的女子走了进来。她的盔甲上还挂着未融的霜，银发被晨光镀得冷亮。"
   },
+  { "text": "她扫了一眼酒馆，目光淡得像看一幅早已厌倦的画。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“给我一壶热水。”"
+  },
+  { "text": "她的语气没有起伏，仿佛眼前的混乱只是背景里的噪音。" },
+
   {
 	"event": [
-	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
+	  { "action": "show_name", "target": "Junker" },
+	  { "action": "shake", "target": "Junker" }
 	],
-	"text": "一个披着银白斗篷的女子走进来，阳光从她背后涌入，照得那身盔甲微微泛光。"
+	"text": "醉汉瞥了她一眼，嗤笑：“怎么，又来一个看戏的？”"
   },
   {
-	"text": "她身形高挑，腰间的剑鞘刻着复杂的纹路，肩上的徽章是一朵风化的百合。"
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "我咳出一口血沫，艰难开口：“……你不打算管管吗？”"
   },
   {
-	"text": "她的目光平静，却让人不敢随意靠近。"
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "她抬眼看了我一下，目光没有恶意，也没有怜悯。"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“早安。”"
+	"text": "“我帮过很多次了。”"
+  },
+  { "text": "醉汉本来还想再闹，目光却在她腰间那柄裂痕更深的剑上停了半秒。不是害怕——更像是权衡。"},
+  { "text": "他咂了咂嘴，忽然换了副语气，像个在市场上讨价还价的无赖。"},
+  {
+	"event": [{ "action": "show_name", "target": "Junker" }],
+	"text": "他抬下巴冲我一指，“你补偿我——给老子装一壶走！就当给我压压火。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "我捂着脸，牙根发酸：“你刚才打人——”"
   },
   {
-	"text": "她的声音清亮，不带威压，却自然地让人安静下来。"
+	"event": [{ "action": "show_name", "target": "Junker" }],
+	"text": "“少废话！”他一把把空瓶砸在柜台上，“要么装酒，要么我现在就把你这儿的桌子都拆了当柴烧。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "客人缩在角落不敢出声。艾莉西亚坐在那儿，指尖轻轻搅着热水，连眼皮都没抬一下。她的沉默反而像一堵墙。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "我深吸一口气，忍着火气从桶里舀酒，灌进他那只脏兮兮的皮囊酒壶。酒液溅到我指节上，冰得发麻。"
+  },
+
+  {
+	"event": [
+	  { "action": "show_name", "target": "Junker" },
+	  { "action": "shake", "target": "Junker" }
+	],
+	"text": "醉汉一把抢过酒壶，掂了掂重量，嘴角咧开：“这才像话。”"
   },
   {
-	"text": "她一步一步走到醉汉面前。醉汉愣了一下，随即破口大骂：“滚开！别多管闲事——”"
+	"event": [{ "action": "show_name", "target": "Junker" }],
+	"text": "他仰头灌了一大口，满足地哈出一口酒气：“爽。记着啊，下回见我，别磨叽。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "他顺手把柜台上一块碎铜币弹到木面上，叮的一声——不像付钱，更像施舍。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Junker" }],
+	"text": "“晦气都给你挡了。”他咧嘴笑着往门口走，“老子今天心情好，不砸你店。”"
+  },
+  { "event": { "action": "hide_name" }, "text": "门被他用肩膀顶开，冷风卷着雪灌进来。他踏出门槛时还回头扫了眼艾莉西亚，像在确认自己“赢了”。" },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Junker" }
+	],
+	"text": "“小娘们，热水留着自己喝吧。”"
+  },
+  { "event": { "action": "remove_character", "target": "Junker" }, "text": "他大笑着走远，靴子踩雪的声音渐渐被风吞没。" },
+
+  { "text": "酒馆里重新安静下来，只剩壁炉噼啪作响。我捂着脸，掌心都是热的，却觉得冷。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "我声音发哑：“……你认识我？”"
   },
   {
-	"text": "话音未落，她抬手，指尖在空气中一划。风声一顿，酒瓶从醉汉手中飞起，稳稳落到她掌心。"
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她没有回答，只淡淡丢下一句：“钥匙在地毯下对么？我今晚留宿。”"
   },
-  {
-	"text": "那一刻，整个酒馆的空气像被冻结。连炉火的火焰都抖了一下。"
-  },
+  { "event": { "action": "hide_name" }, "text": "她转身上楼，斗篷在转角处轻轻一摆，露出那柄裂痕更深的剑——像随时会断。" },
+
+  { "text": "我怔在原地。那是只有熟客才知道的藏钥匙的习惯。" },
+
   {
 	"event": [
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "选项 A：上前劝阻 【魅力检定（DC 4）】", "dc": 4, "check": "charisma" },
-		  { "text": "选项 B：静观其变，等待事态发展 【无检定（DC 0）】", "dc": 0, "check": "dexterity" },
-		  { "text": "选项 C：悄悄准备防身的短剑 【力量检定（DC 6）】", "dc": 6, "check": "strength" }
+		  { "text": "追上楼质问她“你到底是谁？”【洞察检定（DC 6）】", "dc": 6, "check": "insight" },
+		  { "text": "忍下屈辱，先处理伤口与店内秩序【无检定（DC 0）】", "dc": 0, "check": "dexterity" },
 		]
 	  },
 	  { "action": "hide_talk_ui" }

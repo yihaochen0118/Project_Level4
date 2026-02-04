@@ -1,0 +1,228 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "夜色落下来，风却反常地安静。旅店的窗缝里只漏进一点凉意，壁炉的火烧得很稳，像在刻意装作“今晚也只是普通的一晚”。"
+  },
+  { "text": "我比平时更早把店门关上，把“营业”的牌子翻到背面。最后一位客人离开时还回头看了一眼——他大概也觉得，这镇子今天安静得过分。" },
+  { "text": "我把桌子擦得干干净净，把最好的盘子拿出来。菜并不奢华，但我用尽了手艺：热汤、烤肉、面包、还有她喜欢的那种略酸的果酱。烛光一盏一盏点起，火焰像小小的心跳。" },
+
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "楼梯响了一声。艾莉西亚走下来。"
+  },
+  { "text": "她换了身干净的衣服，披风也规整。她看起来还是疲惫，但那种疲惫被她收拾得很“像样”，像战士把伤口藏进盔甲里。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你做这么多？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你白天忙了一整天。至少吃顿像样的。”"
+  },
+  { "text": "她盯着桌上的菜，像盯着什么不该属于她的温柔。她坐下时动作很轻，像怕把烛火也惊醒。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“今天……很好。”"
+  },
+  { "text": "她说得很慢。像每一个字都要先在喉咙里过一遍，确认不会碎。"},
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你不像会说这种话的人。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我本来也不是。”"
+  },
+
+  { "text": "她端起汤碗，喝了一口。热气在她睫毛上停了一瞬，像一场差点落下的雪。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你知道吗？我以前觉得‘吃饭’是浪费时间。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“打仗、赶路、杀敌……只要能活着就够了。”"
+  },
+  { "text": "她放下碗，指尖摩挲着杯沿，像在摩挲一段很久以前的记忆。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“后来我才明白——真正折磨人的不是战场。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“是重复。”"
+  },
+
+  { "text": "烛火轻轻一跳，像听见了不该听的秘密。"},
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你又要去了吗？”"
+  },
+  { "text": "她没有立刻回答。她抬头看我，眼神第一次不躲不藏——里面有一种很难形容的东西：不是请求，也不是命令，而是某种“终于承认”。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“是。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我得去结束它。”"
+  },
+
+  { "text": "她停顿了一下，像在下一个决定：这次不再说一半。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我告诉你一个最简单的事实。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“无论轮回多少次——我都会来找你。”"
+  },
+
+  { "text": "我的喉咙发紧。烛光把她的影子拉到墙上，长得像一条路。"},
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“为什么偏偏是我？”"
+  },
+  { "text": "她笑了一下，很轻，像把刀鞘里那点锋芒换成了坦白。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“因为你会把盘子摆正。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“因为你会在我最不讲理的时候还给我盛汤。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“因为你看见我这样的人……还会问我累不累。”"
+  },
+
+  { "text": "她说到这里，声音突然低下去，像怕自己说得太多就会崩。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我在很多次循环里……都试过放弃。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“试过带你走，去一个陌生的城市，离开这镇子，离开北门，离开那该死的誓言。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我甚至想过——让它毁掉就毁掉。只要你在我身边就好。”"
+  },
+
+  { "text": "她盯着桌面，指节用力到发白。那不是威胁，是羞耻。她在为自己曾经那样想而羞耻。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“可是每一次……都是你把我拉回去。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不是用道理。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“是用你那种……很笨、很固执的善良。”"
+  },
+
+  { "text": "她抬起眼，眼眶发红，却硬是没让眼泪掉下来。她像在战场上一样咬住了自己。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“所以这一次也一样。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我不会丢下镇子不管。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我会去打败魔王，去把那条链子塞进它的核心里，去把循环炸碎。”"
+  },
+
+  { "text": "她伸手越过烛光，握住我的手。她的手很冷，却握得很紧，像抓住最后一根不会断的绳。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“等循环断掉之后——我还会来找你。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不是因为任务。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“是因为我想。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我想活在一个不需要重来的早晨里。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我想你记得我。”"
+  },
+
+  { "text": "她吸了口气，终于让那句话落地——煽情得像誓言，直白得像求救。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“所以你听好。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“哪怕我死一百次、一千次——我都会回到这里。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“都会推开这扇门。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“都会找到你。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“直到魔王倒下，直到循环碎掉，直到我终于能把‘明天’当作明天。”"
+  },
+
+  { "text": "她的声音微微发抖。那不是害怕战斗。那是害怕：就算赢了，她也可能再也见不到我。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你不用答应我什么伟大的事。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你只要——别把我当成梦。”"
+  },
+
+  { "text": "窗外的风仍旧很静，静到像世界在屏息。壁炉火光映在她眼底，那一瞬间，她像个普通人——像个终于敢承认自己会怕的人。"},
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "我反握住她的手，喉咙发干：“那你也答应我一件事。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“说。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“赢了以后……也回来吃饭。”"
+  },
+  { "text": "她怔了半秒，然后笑了。那笑很脆弱，却真实。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“好。”"
+  },
+
+  { "text": "烛火在那一刻跳得更亮了些。像给这段宁静盖了一个印章。"},
+  { "text": "而我也终于明白：所谓暴风雨前的宁静，并不是没有风——是风在等她出门。"},
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.11" }
+	]
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "我没有立刻跟上去。心里那点不安像钉子——不把它拔出来，我今晚也睡不着。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你们先上去。我……确认一下这里有没有别的出口。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "露西亚一愣，立刻摇头：“不行！这里太危险——”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "艾莉西亚侧过脸，语气冷得干脆：“一分钟。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "她没有回头，但她默认了——像她早就习惯有人会在这里“多看一眼”。"
+  },
+  {
+	"text": "我蹲下身，假装整理鞋带，视线扫过阵纹残留。"
+  },
+  {
+	"text": "地上的蓝光早该散尽，却还有几条细线在缓慢回缩——像伤口在自己缝合。"
+  },
+  {
+	"text": "墙角有一圈被刮擦的痕迹，环形，和她掌心那枚信物一模一样。"
+  },
+  {
+	"text": "我伸手摸了一下那道刮痕，指尖传来一丝诡异的温热——像刚被烙铁碰过。"
+  },
+  {
+	"text": "更怪的是：阵纹边缘有一行极浅的刻划，像有人用刀尖反复写同一个数字。"
+  },
+  {
+	"text": "我凑近，借着残光辨认——是“37”。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“……这不是他们写的。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "露西亚屏住呼吸：“你看到什么了？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "艾莉西亚终于回头，目光落在那行刻痕上，停了半秒。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别碰。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "她的声音很轻，但比任何命令都更像警告。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你来过这里很多次，对吧？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她没有回答，只把视线移开：“时间到了。走。”"
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" }
+	],
+	"text": "我们离开地下室。雪雾扑上来，反而像松了口气。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "露西亚小声问：“你刚才是不是看到……数字？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“嗯。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "艾莉西亚打断我们：“别在路上讨论。”"
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" }
+	],
+	"text": "旅店的灯火在雾里亮起来。门一关上，外面的世界像被隔开。"
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene2.6" }
+	]
+  }
+]

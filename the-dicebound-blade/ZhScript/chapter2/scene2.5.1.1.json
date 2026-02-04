@@ -1,0 +1,97 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "show_talk_ui" },
+	  { "action": "show_name", "target": "Player" }
+	],
+	"text": "我压低声音追问：“这到底是哪里？你为什么好像很熟悉这里？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "艾莉西亚没立刻回答。她把那枚信物在掌心里转了一下，像在掂量要不要把话说出口。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“因为我来过。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“来过一次？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她很轻地吸了口气：“不止一次。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "地下室的残光映在她眼底，像一条快要断掉的线。她的肩微微松了一瞬，又立刻绷住。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“所以你才会这么熟练。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“嗯。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“那你刚才说‘明天还用得上’——你要再来？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“他们会留下痕迹。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我需要确认——这次是不是‘提前’了。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "她说得很直白，却只把答案停在“够用”的程度，像在刻意避开更深的真相。"
+  },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Lucia" }
+	],
+	"text": "露西亚小声插进来：“导师……你别再硬撑了，好吗？你脸色很差。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我没事。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“你每次都说没事。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "露西亚把斗篷往她肩上又拉紧了一点，动作熟练得像做过很多次照顾。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她终于把视线从阵纹移开，落在我身上：“回去吧。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你今晚不该出门……但既然已经来了，就当你‘走运’。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“走运？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“没被卷进去更深。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "她说完就转身往外走，脚步很稳，却像靠最后一口气撑出来的稳。"
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene2.6" }
+	]
+  }
+]

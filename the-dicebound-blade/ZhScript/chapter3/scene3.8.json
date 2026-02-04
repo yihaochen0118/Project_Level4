@@ -1,0 +1,152 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "我还是跟了上去。不是逞强，也不是英雄主义——只是我受不了“她一个人去做完一切”，然后我在原地装作没事。"
+  },
+  { "text": "夜雪很薄，脚印却很清。她走得太快，像怕慢一秒就会错过某个固定的节点。" },
+  { "text": "我追到北区时，已经看不见她的人影，只看见一扇半掩的铁门在风里轻轻摆动。" },
+  {
+	"event": [
+	  { "action": "set_background", "target": "underground_entrance" }
+	],
+	"text": "门后是一段向下的楼梯。冷气从下面涌上来，像有人在地下点着一盏蓝色的灯。"
+  },
+  { "text": "我没有下得太深，只停在能看见的地方——不冲出去，不添乱，只看。因为她说过：我会碍事。" },
+  { "text": "下面传来低低的脚步声，然后是金属轻擦石面的声音。有人在笑。不是开心的笑，是“终于等到你”的笑。" },
+
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "艾莉西亚从阴影里走出来，斗篷拖过地面，没有一点多余动作。"
+  },
+  { "text": "她的目光落在阵纹中央，那儿站着一个人——黑袍更厚，胸口的环形印记更深，像烙进肉里。项链挂在他颈间，冷光一闪一闪。"},
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "EchoLeader", "pos": [450, 0] },
+	  { "action": "show_name", "target": "EchoLeader" }
+	],
+	"text": "“你终于来了。”黑袍首领抬头，声音里带着一种令人恶心的笃定，“你每一次都会来。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“废话少说。”"
+  },
+  { "text": "她的声音很平。平得像把情绪全压进剑柄里。"},
+  {
+	"event": [{ "action": "show_name", "target": "EchoLeader" }],
+	"text": "“想要项链？你拿得到吗？”"
+  },
+  { "text": "他抬手，阵纹亮了一瞬，空气像被拧紧。我的耳膜嗡了一声，差点站不稳。"},
+  { "text": "可艾莉西亚连眉都没皱一下。她只是往前踏了半步——像踩进早就熟悉的节拍。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你这招我见过。”"
+  },
+  { "text": "下一秒，剑光像一条冷线，从她手里抽出去。不是劈砍，不是炫技，而是一记干脆到近乎冷酷的直取。"},
+  { "text": "黑袍首领的护符先碎，阵纹随之发出刺耳的噼啪声。他下意识后撤，可她比他更早知道他会往哪退。"},
+  {
+	"event": [{ "action": "show_name", "target": "EchoLeader" }],
+	"text": "“你——！”"
+  },
+  { "text": "他抬臂想挡，手腕却像被无形的线切开力道。项链在晃，银光贴着他的喉结跳动。"},
+  { "text": "艾莉西亚伸手，不是去杀他——是去夺。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“给我。”"
+  },
+  { "text": "她的手指扣住项链的一瞬间，我看见她眼底闪过一种极短的、几乎像疼的东西。"},
+  { "text": "然后——一扯。" },
+  { "text": "链子断裂的声音很轻。可那一轻，像把某种命运也扯断了一截。"},
+  {
+	"event": [{ "action": "remove_character", "target": "EchoLeader" }],
+	"text": "黑袍首领踉跄后退，阵纹骤暗。他还想说什么，嘴唇却只吐出一口带着灰味的气。"
+  },
+  { "text": "艾莉西亚没有追。她只是把项链攥紧，像确认它是真的在手里。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“终于拿到了。”"
+  },
+  { "text": "她说这话时没有胜利感，只有一种“终于可以继续下一步”的疲惫。"},
+  { "text": "我本该后退，可脚像钉在台阶上。她忽然抬头，目光准确落在我藏身的位置。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“出来。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "我喉咙发干：“……我没想碍事。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你已经碍事了。”"
+  },
+  { "text": "她说得很直接，但下一句更像是压着火："},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不过你还活着——算你运气好。”"
+  },
+  { "text": "她走到我面前，斗篷擦过台阶的雪。她把项链收进衣内，手掌按住胸口的位置，像怕它会消失。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“回客栈。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“他们……就这么算了？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“今晚不会追。”"
+  },
+  { "text": "她停顿了一下，像是在脑内快速过一遍所有可能性，然后补上一句更现实的："},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“明天我会把剩下的也处理干净。”"
+  },
+
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" }
+	],
+	"text": "我们离开地下时，雪更密了。她走在前面，我跟在后面，谁都没再说话。"
+  },
+  { "text": "直到客栈的灯火出现在雾里，她才像终于松了一口气。"},
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" }
+	],
+	"text": "门关上，风声被隔在外面。壁炉火光照在她脸上，她却像没暖起来。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别问我细节。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你只要记住——我拿到我要的东西了。”"
+  },
+  { "text": "她转身上楼，脚步很轻，但每一步都像在赶时间。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“还有——下次别跟。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "我低声说：“那你下次别一个人去。”"
+  },
+  { "text": "她在楼梯中段停了一下，没有回头。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我会尽量。”"
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.9" }
+	]
+  }
+]

@@ -1,0 +1,263 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "north_gate_battlefield" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "The sky beyond the North Gate looked as if it had been doused in molten iron—heavy, dark, and oppressive. Wind whipped snow grains against armor, producing fine, scraping sounds."
+  },
+  {
+	"text": "Only a thin layer of blue light remained of the barrier, like dying skin clinging to the outer wall, flickering between bright and dim."
+  },
+  {
+	"text": "The soldiers crowded along the final defensive line, shields stacked against shields, each breath bursting into white mist. No one spoke—they were all waiting."
+  },
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "Alicia stepped to the very front. Her cloak was pulled straight by the wind, and her cracked longsword seemed to grit its teeth in a low growl."
+  },
+  {
+	"text": "She did not turn to check behind her, nor did she offer comfort. She simply raised her hand—signaling everyone to hold the formation she had already given."
+  },
+  {
+	"text": "The movement was practiced, as if repeated countless times: one step, half a step, then another, fitting precisely into the narrow gap between wind and terrain."
+  },
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Mowang", "pos": [450, 0] },
+	  { "action": "show_name", "target": "Mowang" }
+	],
+	"text": "From deep within the rift, the Demon King’s silhouette slowly emerged. It looked assembled from black mist, bone armor, and fragments of a shattered throne. At its chest was a hollow core, within which light churned like a living thing."
+  },
+  {
+	"text": "With every ‘breath’ it took, the snowfield collapsed in a widening ring, stones jolting up before crashing back down."
+  },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Mowang" },
+	  { "action": "shake", "target": "Mowang" }
+	],
+	"text": "The Demon King spoke, its voice layered with countless whispers: “Re—turn—”"
+  },
+  {
+	"text": "The blue barrier rippled under that voice, like water struck by a massive stone."
+  },
+  {
+	"text": "Alicia did not respond. She raised her sword, the tip pointing directly at the core, as if nailing the ‘ending’ to that single point."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia said quietly, “Don’t look at its face. Look at its core.”"
+  },
+  {
+	"text": "She charged forward. Not a reckless rush, but a terrifyingly precise entry—shattering the first floating stone underfoot, using its force to leap past the second collapsing ring, landing exactly in the Demon King’s blind spot on the left."
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Alicia" }
+	],
+	"text": "The first strike fell. Silver light carved a half-circle, slicing cleanly through the outer layer of black mist. The mist screamed as if its skin had been torn."
+  },
+  {
+	"text": "The Demon King’s claws swept horizontally, tearing five裂ing gashes through the air."
+  },
+  {
+	"text": "Alicia slid low across the ground, her cloak brushing the snow, narrowly evading the claw tips."
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Mowang" }
+	],
+	"text": "For the second strike, she didn’t cut the mist—she cut the ‘gap.’ The sword tip stabbed into a fine crack along the edge of the core, and black light burst out violently, like a stabbed eye."
+  },
+  {
+	"text": "The recoil slammed into her arm, a piece of her armor shattering on the spot. She let out a muffled grunt—but she did not retreat."
+  },
+  {
+	"text": "The Demon King roared. Its bone armor split open, releasing expanding rings of black ripples. Where they passed over the snow, the white turned gray, as if warmth had been stripped away."
+  },
+  {
+	"text": "The ripples surged toward the defensive line. Soldiers’ legs buckled; some nearly fell to their knees."
+  },
+  {
+	"text": "Alicia snapped her blade back and slashed sideways, severing the ripples—not their energy, but their trajectory."
+  },
+  {
+	"text": "Forced to divert, the ripples skimmed past the edge of the shield formation and slammed into the city wall, stone exploding outward."
+  },
+  {
+	"text": "With her positioning, she redirected the catastrophe."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia shouted, “Don’t move! Hold your ground!”"
+  },
+  {
+	"text": "The Demon King raised its other claw and pressed it down toward her. It wasn’t an attack—it was an attempt to force her back into the rift, to make her ‘return.’"
+  },
+  {
+	"text": "Alicia raised her arm to block it head-on. Her knee slammed down, carving a deep crater into the snow."
+  },
+  {
+	"text": "The pressure cracked her shoulder armor, blood seeping along her bracer and dripping into the snow, turning it black."
+  },
+  {
+	"text": "She clenched her teeth and, under that crushing weight, stepped forward instead—forcing herself into even closer range."
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Alicia" }
+	],
+	"text": "For the third strike, she cut upward from below, the blade skimming along the core’s裂ing seam, tearing the wound open cleaner and deeper."
+  },
+  {
+	"text": "The core contracted violently, black light surging as if trying to swallow the sword. She yanked it free, her arm scorched with a burning mark."
+  },
+  {
+	"text": "The Demon King’s tail whipped around—a spine formed from condensed black mist, lined with barbs."
+  },
+  {
+	"text": "Alicia leapt, landing atop the spine, using its swing to launch herself upward in reverse, like riding a breaking wave."
+  },
+  {
+	"text": "Midair, she adjusted her posture, sword tip aligned directly above the core."
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Mowang" }
+	],
+	"text": "The fourth strike plunged straight down, piercing the outer layer of black mist and pinning into the edge of the core. Black light exploded outward like a dark flower."
+  },
+  {
+	"text": "But in that instant, the Demon King ‘learned.’ Its black mist began spiraling around the blade, trying to entangle her completely."
+  },
+  {
+	"text": "Alicia landed, her ankle caught by the mist. The cold grip felt like fingers closing around bone."
+  },
+  {
+	"text": "She did not struggle. Instead, she released a step, giving her weight to the pull—letting herself be dragged directly in front of the core."
+  },
+  {
+	"text": "It was the most dangerous position. And the only one."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia murmured, “So you’re finally willing to open the door.”"
+  },
+  {
+	"text": "She tore open the inner clasp of her cloak and pulled out the necklace—the Echo Society leader’s insignia. The pendant burned bright within the black light."
+  },
+  {
+	"text": "Sensing ‘termination,’ the Demon King’s mist surged violently, like a tide rushing toward her wrist."
+  },
+  {
+	"text": "It wanted to steal that instant. Steal it—and the loop could continue."
+  },
+  {
+	"text": "Alicia’s fingers trembled once—not from fear, but from exhaustion crashing down in that moment."
+  },
+  {
+	"text": "And in that instant, someone burst out from behind the defensive line."
+  },
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Player", "pos": [0, 0] },
+	  { "action": "show_name", "target": "Player" }
+	],
+	"text": "My voice was torn apart by the wind, yet it struck the ground like an oath."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Alicia—! No matter how many times, I’ll wait for you!”"
+  },
+  {
+	"text": "Those words were like a nail, driven straight into the Demon King’s ‘attention.’"
+  },
+  {
+	"text": "The Demon King turned its head. For the first time, it looked away from the core to stare at the one who had shouted."
+  },
+  {
+	"text": "In that half-second, the black mist loosened by a hair."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia’s voice was hoarse, yet carried a smile: “…Don’t run around.”"
+  },
+  {
+	"text": "She seized that opening."
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Alicia" }
+	],
+	"text": "She rammed the necklace violently into the裂ing core. The moment the pendant vanished into the black light, the core ignited, swelling outward from within."
+  },
+  {
+	"text": "The Demon King let out a distorted scream as its bone armor split apart, cracks racing all the way up into the sky."
+  },
+  {
+	"text": "Alicia pulled her sword free and retreated, turning to grab the protagonist—but it was already too late."
+  },
+  {
+	"text": "Behind her, the core collapsed inward, as if the world itself were drawing in a breath."
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Alicia" },
+	  { "action": "shake", "target": "Player" }
+	],
+	"text": "The explosion’s shockwave erupted outward. Snow and碎 stone were hurled into white waves, the city walls trembling. Alicia was violently thrown, crashing toward the protagonist."
+  },
+  {
+	"text": "She twisted midair, turning her back toward the blast center—as if using her final instinct to shield him from the worst of the storm."
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Alicia" }
+	],
+	"text": "She slammed down beside the protagonist, her shoulder armor shattered, breath knocked from her lungs, yet she still reached out to make sure he was there."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I coughed out a breath, my voice shaking: “You… you did it…”"
+  },
+  {
+	"text": "At the blast center, the Demon King’s form was collapsing. The black mist fell away like shredded curtains, piece by piece, into the rift."
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Mowang" }
+	],
+	"text": "It raised a claw, grasping for something—only to clutch at emptiness. The hollow core shattered first into light, then into silence."
+  },
+  {
+	"event": [
+	  { "action": "remove_character", "target": "Mowang" }
+	],
+	"text": "At last, the Demon King vanished completely. The rift was forcibly sealed, the sky’s glowing patterns fading away bit by bit."
+  },
+  {
+	"text": "The wind stopped. That suffocating sense of ‘countdown’ stopped with it."
+  },
+  {
+	"text": "Someone shouted in the distance, “We’re alive!” Others collapsed into the snow, crying."
+  },
+  {
+	"text": "Alicia lay beside the protagonist, her lashes trembling slightly, as if finally allowing herself to let out a breath."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She whispered, “This time… I heard you.”"
+  },
+  {
+	"text": "The remaining glow of the barrier slowly stabilized, like wounded skin beginning to scab over. Tomorrow finally seemed ready to arrive."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.12" }
+	]
+  }
+]

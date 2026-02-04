@@ -1,0 +1,104 @@
+[
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "set_background", "target": "tavern_morning" }
+	]
+  },
+  { "event": [{ "action": "show_talk_ui" }], "text": "艾莉西亚出门后，旅店一下子安静得过头。只剩炉火、雪水滴落、和我自己的呼吸。" },
+  { "text": "我想按她说的把门栓插好，处理脸上的伤，装作一切正常。" },
+  { "text": "可越是想“正常”，脑子里越是回响昨夜那句话——“第三十七次”。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“……她到底要做什么？”"
+  },
+  { "event": { "action": "hide_name" }, "text": "我把抹布放下，摸到柜台下的短剑。那柄剑冰冷得像提醒：你在害怕。" },
+
+  { "text": "我告诉自己：只是去镇集确认她没事。确认一下就回来。" },
+
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_empty" }
+	],
+	"text": "我锁上门，沿着雪水淌过的街道快步追去。镇集方向人声鼎沸，但我一眼就能认出她的背影——银发太显眼。"
+  },
+
+  { "text": "我远远跟着，不敢靠太近。她买东西的方式像在“执行清单”：不寒暄、不犹豫、不浪费任何一句话。" },
+
+  {
+	"event": [
+	  { "action": "set_background", "target": "market" }
+	],
+	"text": "我躲在一排摊位后，看见她把药水、封印符、绷带一件件放进袋里。摊主刚想抬价，她甚至没看对方——对方就自己降了价。"
+  },
+
+  { "event": [{ "action": "show_name", "target": "Player" }], "text": "“她今天……像换了个人。”" },
+  { "event": { "action": "hide_name" }, "text": "我正要上前，忽然发现她转向了回旅店的那条松林石路。" },
+
+  {
+	"event": [
+	  { "action": "set_background", "target": "pine_forest_road" }
+	],
+	"text": "风更冷了，树影在雪面上晃。我加快脚步，想喊她一声，却在这时听见脚下“咚”的闷响。"
+  },
+
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "DreamBeast", "pos": [420, 0] },
+	  { "action": "show_name", "target": "DreamBeast" },
+	  { "action": "shake", "target": "DreamBeast" }
+	],
+	"text": "土壤裂开，一只石壳魔兽钻出，青光的眼直勾勾盯着前方——它盯的不是我，是她。"
+  },
+
+  { "event": [{ "action": "show_name", "target": "Player" }], "text": "“糟了——！”" },
+
+  {
+	"event": [
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "“我说过别停在树林边。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她没有回头，像早就知道我在后面。然后她拔剑——干脆到像在收割。银光一闪。" },
+
+  {
+	"event": [
+	  { "action": "play_sfx", "target": "slash" },
+	  { "action": "shake", "target": "DreamBeast" }
+	],
+	"text": "魔兽刚扑起半寸，就被她一剑压回地面。第二剑落下，石壳碎裂，青光熄灭。"
+  },
+
+  {
+	"event": [
+	  { "action": "remove_character", "target": "DreamBeast" }
+	],
+	"text": "它化作黑烟钻回土里，地面只留一圈焦黑的烧痕。"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你跟上来干什么？不放心我？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“我……不放心。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她叹了口气，语气却不凶：“每次都是这样，你就是太善良了。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“好了，走。别盯着焦土看。”"
+  },
+
+	{
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "change_scene", "target": "scene2.5" }
+	]
+  }
+]

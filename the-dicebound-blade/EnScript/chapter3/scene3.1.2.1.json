@@ -1,0 +1,112 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "[3.1.1.0 | Option A: Accept Her]"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“…Alright. I’ll come.”"
+  },
+  {
+	"text": "The moment the words leave my mouth, even I’m startled. Like I’ve just read out a line that was written long before I knew it existed."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Mm.”"
+  },
+  {
+	"text": "She answers with just that one sound, but it’s like she exhales in relief—only to immediately pull that breath back in and pretend she’s calm."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“What will you make?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“What do you want to eat?”"
+  },
+  {
+	"text": "Her gaze flickers, like the question has brushed against something soft and dangerous."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Anything.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Just don’t make it too salty.”"
+  },
+  {
+	"text": "She adds quickly, her words tumbling out:"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Your hand is injured—don’t force it when you’re cutting. The knife is in the second drawer, not the first.”"
+  },
+  {
+	"text": "I look up sharply. I’ve never told her about that drawer."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Why do you even know that—”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Because I don’t want to watch you cut your hand again.”"
+  },
+  {
+	"text": "She says it too naturally, like this sentence has already been spoken many times before."
+  },
+  {
+	"text": "She turns to set out the candles, her movements frighteningly practiced: two on the left, one on the right, leaving space in the center for the plate."
+  },
+  {
+	"text": "I do as she said and place the salt jar on the left."
+  },
+  {
+	"text": "She stares at it for two seconds, as if confirming that the world has finally aligned itself the way she wanted—just once."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Good.”"
+  },
+  {
+	"text": "That “good” doesn’t sound like praise for the salt jar. It sounds like praise for the fact that I’m still here."
+  },
+  {
+	"text": "The noise of the market outside slowly fades. The tavern is left with only the low murmur of the fire."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Don’t let anyone disturb us tonight.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You say that like—”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Like what—don’t say it.”"
+  },
+  {
+	"text": "She looks up at me. Her voice softens, but grows more insistent:"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You just need to sit there and finish this meal with me.”"
+  },
+  {
+	"text": "I nod. Her shoulders finally loosen."
+  },
+  {
+	"text": "But her fingers are still trembling slightly, like she’s racing against some invisible countdown."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.2" }
+	]
+  }
+]

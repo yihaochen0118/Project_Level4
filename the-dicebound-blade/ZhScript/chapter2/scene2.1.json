@@ -1,0 +1,251 @@
+[
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "show_talk_ui" },
+	]
+  },
+
+  { "text": "中午的光从云缝里漏下来，照在旅店门牌上，灰尘在光里打着旋。炉火还亮着，空气里混着面包与炖汤的味道。" },
+  { "text": "我刚把地板拖干净，嘴角的绷带还勒着疼，门铃就轻轻响了一声。" },
+
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] },
+	  { "action": "show_name", "target": "Lucia" }
+	],
+	"text": "一个栗发扎短辫的女孩推门进来，怀里抱着一篮子药瓶，颜色各异，像被阳光封住的露珠。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“老板……打扰了！请问这里是不是住着一位叫艾莉西亚的女士？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“……住着。”我摸了摸绷带，“怎么了？”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她的目光一下就落到我脸上那片青紫，整个人明显僵了一下。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“你受伤了？！是、是有人闹事吗？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“一个醉汉。已经走了。”"
+  },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Lucia" },
+	  { "action": "shake", "target": "Lucia" }
+	],
+	"text": "“又来……”她像是把“又”字咬得很轻，随即意识到自己说漏嘴，立刻改口，“我是说……这种人怎么总这样！”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她把药篮放到柜台上，动作又快又小心，像怕碰疼我。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“我叫露西亚，是她的徒弟。她早上出门前状态就很不对劲……我一路追到这里。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“她在楼上。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "话音刚落，门外又响起一声很轻的脚步声——不急不缓，像把‘抵达’当成负担。" },
+
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "艾莉西亚走进来。银白斗篷上还挂着霜，盔甲边缘沾着一点泥。她的眼神很淡，淡到像把所有情绪都收进了壳里。"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“师父！”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "露西亚几乎是冲过去的，但在离她两步远的地方又硬生生刹住，像怕自己太用力会把她推碎。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别喊。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我听得到。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她把斗篷往肩上一拢，视线扫过我脸上的伤，却没有任何表情——像已经见过太多次同样的画面。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“你早上脸色就很差！我说陪你来，你不让……你是不是又……”"
+  },
+
+  {
+	"event": [
+	  { "action": "show_name", "target": "Alicia" },
+	  { "action": "shake", "target": "Alicia" }
+	],
+	"text": "“露西亚。”她打断她，声音不重，却像一把钝刀把话切断，“别在这里说。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "露西亚把后半句硬吞回去，眼眶却一下红了。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“……那你至少坐下。你手在抖。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“没事。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“你每次都说没事！”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她的声音里全是担心，甚至带着一点气——那种只有亲近的人才敢有的“生气”。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“露西亚……要不要先喝点热的？我这儿有汤。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“要！谢谢！”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她立刻转身去翻药篮，像终于抓到一件自己能做的事。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“老板，你这个伤需要消毒。我这儿有草药膏……还有止痛的。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“……不用这么麻烦。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“不麻烦！你是因为她才挨的打，对吧？”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "这句说完，她立刻看向艾莉西亚，像怕刺激到她。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别把事往我身上扯。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“他挨打，是他倒霉。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她说得很冷漠，像在把责任切干净。但她的指尖却在袖口里轻轻收紧——那点微小的动作，像在忍什么。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“师父……你别这样。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我就这样。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她走到柜台告示板前，目光扫过房间钥匙的位置，像确认一件早就知道的事实。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“两间房。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“……你们一起住？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“她一间，我一间。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "露西亚愣了一下，明显想反对，但又强忍住。她抱着药篮，像把自己变成一层软垫，随时准备接住她的崩塌。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“那、那我住你隔壁！这样你半夜不舒服我能听见。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“随你。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "艾莉西亚的回答很冷，但没有拒绝。像是连拒绝都嫌费力。" },
+
+  {
+	"event": [
+	  { "action": "set_flag", "flag": "lucia_intro_done", "value": true },
+	  { "action": "set_flag", "flag": "alicia_cold_exhausted", "value": true },
+	  { "action": "set_flag", "flag": "booked_two_rooms", "value": true }
+	]
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“老板，我先给你上药。你别动。”"
+  },
+  { "event": { "action": "hide_name" }, "text": "她把药膏抹在我嘴角的裂口上，动作小心到像在碰瓷器。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“……别用那种药。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“为什么？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“会让伤口愈合得太快。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她说得像常识。露西亚却明显一怔，眼神更慌了，像听见了不该出现的“经验”。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“……那、那我换成普通的。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "艾莉西亚没再说话，只把斗篷往椅背上一搭，坐下的那一瞬间，像整个人终于松了一口气——又像随时会睡死过去。" },
+
+  { "text": "柜台上的黄铜骰子安静躺着。露西亚忙着照顾我，艾莉西亚却像完全没看见周围的温度。" },
+  { "text": "她的冷漠不是高傲，更像是把自己关进壳里——因为一旦打开，她就会散掉。" },
+
+  {
+	"event": [
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  { "text": "选项 A：当着露西亚的面直接问艾莉西亚“你今天怎么了？”【魅力检定（DC 6）】", "dc": 6, "check": "charisma" },
+		  { "text": "选项 B：私下再找机会问【无检定（DC 0）】", "dc": 0, "check": "dexterity" },
+		]
+	  },
+	  { "action": "hide_talk_ui" }
+	]
+  }
+]

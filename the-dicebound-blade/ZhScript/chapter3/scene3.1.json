@@ -1,0 +1,174 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "——中午。"
+  },
+  {
+	"text": "雾散了一点，窗外的街声回来了：马蹄、叫卖、铁匠铺敲打铁器的回响。旅店里也终于像“正常的一天”。"
+  },
+  {
+	"text": "我把早上的杯子重新摆好，把被撞歪的椅子扶正，指节还隐隐发麻。"
+  },
+  {
+	"text": "可我越想让自己回到日常，越发现那种“确定感”还没退——像有一根细线绷在脑子里，提醒我：她还在楼上。"
+  },
+  {
+	"text": "楼梯传来轻响。第三阶——我下意识屏住呼吸。"
+  },
+  {
+	"event": [{ "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }]
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "艾莉西亚下楼了。"
+  },
+  {
+	"text": "她没换盔甲，只把斗篷披得松散，像刚从一场长梦里爬出来。可她的步子一点不乱，熟练得像这里本来就属于她。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你……还好么？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不好。”"
+  },
+  {
+	"text": "她回答得太干脆，反而让我噎了一下。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“但我今天至少做对了一件事。”"
+  },
+  {
+	"text": "她的目光扫过我脸上的伤，停了停，像在检查一件她必须保住的东西。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你没被他打到第二拳。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你又说这个‘第二拳’……你到底在——”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“嘘。”"
+  },
+  {
+	"text": "她抬起一根手指，像在阻止我把某扇门推开。"
+  },
+  {
+	"text": "然后，她做了一件更奇怪的事——"
+  },
+  {
+	"text": "她把一只蜡烛放到柜台上，又放了第二只。接着是第三只。"
+  },
+  {
+	"text": "蜡烛是新的，甚至还绑着细绳，像她早就准备好一样。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“……你要干嘛？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“请你吃饭。”"
+  },
+  {
+	"text": "这句话太轻松了，轻松得像她只是来借个火。可她的眼神却紧——紧得像抓着悬崖边的一根绳。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你邀请我？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“对。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“今晚，烛光晚餐。”"
+  },
+  {
+	"text": "她像是怕我拒绝，语速突然快了一点——话也变多了。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我已经错过你很多次了。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“每一次我都想着：‘下一次我会说得更像正常人’，‘下一次我会让你先笑’，‘下一次我不会吓到你’。”"
+  },
+  {
+	"text": "她说到这里，自己都像被噎住了一下，嘴角扯出一个不太像笑的弧度。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“但下一次总是不够。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“所以这次我不等了。”"
+  },
+  {
+	"text": "她指尖轻轻敲了敲柜台，像在敲定一条规则。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你把桌子擦干净。盐放左边。”"
+  },
+  {
+	"text": "她说完这句，眼里闪过一丝几乎是得意的光，像终于抓住了现实的一个小钉子。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“……你连这个都记得。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我记得的多得多。”"
+  },
+  {
+	"text": "她停顿了一下，像在斟酌“说到哪里会把你吓跑”。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“最近我有任务要去做。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“可能会很忙，可能会受伤，可能会……”"
+  },
+  {
+	"text": "她的喉结轻轻动了一下，后半句吞回去，像怕说出口就会成真。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“所以今晚我想坐在这里，像普通人一样吃一顿饭。”"
+  },
+  {
+	"text": "她抬眼看我，眼神很直白——不再绕弯，不再谜语。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你来不来？”"
+  },
+
+  {
+	"event": [
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  { "text": "选项 A：答应她，准备晚餐（你也想知道她到底在“错过”什么）", "dc": 0, "check": "dexterity" },
+		  { "text": "选项 B：拒绝她（太不对劲了，你不想被卷进去）", "dc": 10, "check": "dexterity" }
+		]
+	  },
+	  { "action": "hide_talk_ui" }
+	]
+  }
+]

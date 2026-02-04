@@ -1,0 +1,115 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "The snow outside the North Gate has been trampled smooth and bright. Soldiers run back and forth, commands ringing out one after another."
+  },
+  {
+	"event": [{ "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }],
+	"text": "At the edge of the crowd, I spot Alicia. She’s giving deployment orders to several guards—speaking fast, gesturing precisely, like someone doing something she’s done far too many times before."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Alicia!”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She looks back at me. Her brow barely moves."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Go back to the inn.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“I just wanted to make sure you—”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“If you stay here, you’ll only distract Lucia—and the guards.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I need them focused on what they’re supposed to do.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“And you?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’ll hold this position.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Turn around and leave. Don’t make me waste time trying to convince you.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "She turns back immediately, continuing to issue orders, as if I’m just another piece of ‘trouble’ she needs cleared from the edge of the battlefield."
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "I grit my teeth, but I step back anyway. Not because I’m obedient—because I suddenly understand that one more step forward would force her to divide her attention."
+  },
+
+  {
+	"event": [{ "action": "set_background", "target": "town_snow_street" }],
+	"text": "On the way back, the town feels like it’s been gripped by an invisible hand around the throat."
+  },
+  {
+	"text": "Vendors pack up. Windows close. Guards seal off intersections, urging people indoors. Someone tries to ask about the North Gate—no one gives a complete answer."
+  },
+  {
+	"text": "As I walk, I keep hearing people murmur her name, only to swallow it immediately—as if finishing the sentence would make the ending real."
+  },
+
+  {
+	"event": [{ "action": "set_background", "target": "tavern_night" }],
+	"text": "I return to the inn, slide the bolt into place, and brace a table against the door."
+  },
+  {
+	"text": "The fire in the hearth burns bright, but the room feels cold, like something essential is missing. The cups are lined up neatly on the counter, yet I can’t shake the feeling that today isn’t really over."
+  },
+  {
+	"text": "I force myself to stay busy: add firewood, tighten the bolt again, place the short sword where my hand can reach it fastest. I finish once—then I do it again."
+  },
+
+  {
+	"text": "Late into the night, sounds drift from the north through the fog—a dull, heavy vibration, like distant walls collapsing. Then comes a long silence, so deep I can hear my own heartbeat."
+  },
+  {
+	"text": "I stand behind the counter, my palms pressed to the wood, my knuckles whitening."
+  },
+
+  {
+	"text": "Near the second half of the night, someone finally passes outside the door. Their footsteps are hurried, carrying snow and exhaustion. A hushed voice says:"
+  },
+  {
+	"text": "“The North Gate held.”"
+  },
+  {
+	"text": "“Did everyone pull back?”"
+  },
+  {
+	"text": "“Don’t ask… just go back.”"
+  },
+
+  {
+	"text": "I don’t open the door. I don’t chase after them. I simply rest my forehead against the door, my breathing slowly growing heavier."
+  },
+  {
+	"text": "They never say her name—but I can tell: some people came back. Some didn’t."
+  },
+  {
+	"text": "I sit behind the counter and stare into the darkness until the sky begins to pale. That night, I don’t sleep even once."
+  },
+
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.0" }
+	]
+  }
+]

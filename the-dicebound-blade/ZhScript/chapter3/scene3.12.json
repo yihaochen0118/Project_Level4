@@ -1,0 +1,233 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "north_gate_battlefield" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "风终于停了。雪也停了。北门外只剩残火的噼啪声，和士兵们不敢相信的喘息。"
+  },
+  { "text": "结界的蓝光没有再崩裂，它像被重新绷紧的弦，稳稳地罩在城墙外侧。"},
+  { "text": "魔王消失后留下的黑雾被风吹散，露出被炸开的雪地与碎石——像一场噩梦被撕成碎片。"},
+  {
+	"event": [
+	  { "action": "show_name", "target": "Player" }
+	],
+	"text": "我跪在雪里，手还在抖。他的指尖摸到一片温热——不是火，而是她的体温。"
+  },
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-250, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "艾莉西亚躺在他臂弯里，盔甲碎了一半，银发被雪沾湿。她闭着眼，却还在呼吸。"
+  },
+  { "text": "那呼吸很浅，却不是“要走了”的那种浅——更像终于肯睡一觉的人。"},
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“艾莉西亚……？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她的睫毛颤了一下，像在确认自己听见的不是幻觉。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我听见了。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“听见什么？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你说你会等我。”"
+  },
+  { "text": "她努力抬起手，指尖碰到他的衣袖，像抓住一条能把她拉回来的线。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“这次……不是我一个人了。”"
+  },
+
+  { "text": "有人跑过来，披风卷起雪。"},
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] },
+	  { "action": "show_name", "target": "Lucia" }
+	],
+	"text": "露西亚冲到近前，看到艾莉西亚还活着，整个人像被抽走了力气，差点跪倒。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“导师……你还在……你真的还在……”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "艾莉西亚费力地看她一眼，声音沙哑却很清楚："
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“这次，别哭。”"
+  },
+  { "text": "露西亚用力点头，眼泪却还是啪嗒啪嗒掉在雪里。"},
+  { "text": "随军法师冲上来检查结界，确认裂隙正在闭合。有人大喊“成功了！”，声音传遍城墙。"},
+  { "text": "士兵们没再欢呼，他们只是站着，像终于可以把命从喉咙里放下去一样。"},
+  { "text": "我把艾莉西亚抱得更紧一点，仿佛一松手她就会又被时间夺走。"},
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“我们回家。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她愣了一下，像从没听过“回家”这两个字属于自己。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“……好。”"
+  },
+
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" }
+	],
+	"text": "他们沿着雪路往镇子走。天边开始透出一条淡金色的线，像有人把黎明轻轻掰开。"
+  },
+  { "text": "街道上有人探头张望，有人把门打开一条缝，确认怪物真的不再来了。"},
+  { "text": "当他们经过喷泉广场时，小孩抱着一袋热烤的面包跑过来，气喘吁吁，把袋子塞进艾莉西亚怀里。"},
+  { "text": "小孩仰着脸，眼睛亮得像星："},
+  { "text": "“姐姐好帅！我以后也要像你一样！”"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "艾莉西亚低头看着那袋热气腾腾的面包，手指慢慢收紧。"
+  },
+  { "text": "她的嘴角动了动，像想笑又怕笑出来会碎。最终她还是笑了——第一次，是真正的笑。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“那你要先学会——别逞强。”"
+  },
+  { "text": "我侧头看她，像看见一个终于从雪里走出来的人。"},
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" }
+	],
+	"text": "旅店的门被推开，炉火还在。熟悉的木香扑面而来。"
+  },
+  { "text": "这一次，没有倒数的压迫感，没有“下一次”的预感。只有真实的疲惫与真实的暖。"},
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "我把她放到椅子上，急忙去取热水和干净的布。"
+  },
+  { "text": "露西亚在一旁手忙脚乱地帮忙，嘴里不停念叨“你怎么能这样硬撑”。"},
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“导师，你以后要是再一个人冲出去——我就真的要生气了！”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "艾莉西亚闭着眼，轻轻“嗯”了一声，像在认错。"
+  },
+  { "text": "我给她包扎时，摸到她心口下方那枚环形印记。那印记没有再发黑，也没有再发烫。"},
+  { "text": "它像终于失去了“抓住时间”的力气，安静地淡下去。"},
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“它……是不是结束了？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她睁开眼，慢慢点头。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“结束了。”"
+  },
+  { "text": "她停顿了一下，像把压了几百次的重量终于放下。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我不用再回到三天前。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“也不用再假装第一次见你。”"
+  },
+
+  { "text": "屋子里安静了几秒。炉火轻轻爆了一声，像在替他们做见证。"},
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“那现在呢？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "艾莉西亚看着他，眼底的血丝还在，但那种疯狂的亮不见了。取而代之的是一种久违的、温热的东西。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“现在——我想学着过日子。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不是拯救世界的那种日子。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“是会发呆、会吃饭、会被你嫌弃汤太咸的日子。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "我笑出声，眼眶却红了：“你要是敢把店里的盐又放左边——我就真的嫌弃你。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她也笑了，笑得很轻，却像把整个冬天都融开了一点。"
+  },
+
+  { "text": "露西亚在旁边吸了吸鼻子，忽然故意板起脸。"},
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“那我呢？我是不是也该有份？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "艾莉西亚伸手揉了揉她的头发，动作生疏，却认真："
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你当然有份。以后……我们一起。”"
+  },
+
+  { "text": "夜深后，旅店的灯没有像往常那样早早熄灭。"},
+  { "text": "他们在炉火前吃完了冷掉的面包，喝完了早就该卖完的酒。"},
+  { "text": "没有人提“轮回”。没人提“下一次”。"},
+  { "text": "因为这一次，时间终于肯往前走。"},
+  {
+	"event": [
+	  { "action": "show_name", "target": "Player" }
+	],
+	"text": "我把黄铜骰子放回柜台抽屉最深处，关上。"
+  },
+  { "text": "骰子没有再滚动。它安静得像一块普通的金属。"},
+  { "text": "窗外的雪落得很轻，像祝福。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "艾莉西亚靠在椅背上，半眯着眼，声音困得发软："
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“明天……我想试试当老板娘。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你确定？你会把客人吓跑。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“那就只留你一个客人。”"
+  },
+  { "text": "她说完这句就睡着了，额头轻轻抵在桌沿，像终于安全。"},
+  { "text": "我没动，守在她旁边，替她把披风盖好。"},
+  { "text": "炉火映在她脸上，不再像雪，不再像刀。"},
+  { "text": "像家。"},
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene_end_happy" }
+	]
+  }
+]

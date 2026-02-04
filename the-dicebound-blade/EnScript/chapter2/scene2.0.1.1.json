@@ -1,0 +1,113 @@
+[
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "set_background", "target": "tavern_upstairs" },
+	  { "action": "show_talk_ui" }
+	]
+  },
+
+  {
+	"text": "I chased upstairs. The corridor was eerily quiet. Her door wasn’t locked, as if she had known I would come."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"…Who are you, really? And why didn’t you step in back there?\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "A faint sigh drifted from inside the room, like she was exhaling something that had been weighing on her chest."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Who I am isn’t something you need to know right now.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"Then at least tell me this: why did you just watch while I was beaten? I saw your sword. Aren’t you a swordsman? Where was your responsibility?\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She stayed silent for two seconds, then said plainly, \"Because I’m exhausted.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"It’s not that you weren’t worth saving. I just… couldn’t keep going.\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "The door opened a crack. She stood behind it, her face pale, dark circles heavy beneath her eyes as if she hadn’t slept for days. Yet the hand on her sword was still steady."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"I’ve dealt with things like this before. Over and over.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"But today, I don’t have the strength. If you want an explanation, this is it: I’m so tired that even lifting my hand hurts.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"…So you want me to understand you?\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Yes.\" She nodded once. \"You can blame me if you want, but don’t be reckless. If you had gone up against him tonight, you would have died.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"How do you know I would have died?\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"I’ve seen it,\" she said calmly. \"That’s why I couldn’t be bothered to pretend this was our ‘first meeting.’\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Listen. Don’t go out. Tonight is dangerous.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"You don’t need to understand the reason. You just need to do as I say.\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "Her tone wasn’t harsh—if anything, it was almost gentle, like she was leaving a way to survive for someone who didn’t know better."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Go downstairs,\" she added. \"Apply some medicine. Don’t push yourself.\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "The door closed slowly—not as a rejection meant to drive me away, but because she truly didn’t have the strength left to continue the conversation."
+  },
+
+  {
+	"text": "I stood in the corridor, realizing for the first time that her earlier coldness might not have been indifference—but exhaustion stretched to its breaking point."
+  },
+
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "change_scene", "target": "scene2.1" }
+	]
+  }
+]

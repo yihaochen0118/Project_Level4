@@ -1,0 +1,96 @@
+[
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "set_background", "target": "tavern_upstairs" },
+	  { "action": "show_talk_ui" },
+	]
+  },
+
+  { "text": "我追上楼，走廊里安静得吓人。她的房门没有锁，像早就知道我会来。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“……你到底是谁？还有，你刚才为什么不管？”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "门里传来一声很轻的叹气，像把压在胸口的东西吐出来。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我是谁，你现在不用知道。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“那至少告诉我：你为什么看着我挨打？我看到你的剑了你不是剑士么。你的责任呢。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她沉默两秒，然后很直白地说：“因为我太累了。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不是你不值得救。是我真的撑不住。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "门开了一点，她站在门后，脸色苍白，眼下乌青重得像熬了很多天。握剑的手却还是很稳。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我以前管过这种事。管了很多次。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“但今天我没力气了。你要我解释，就只有这一句：我累到连抬手都嫌疼。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“……所以你让我理解你？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“对。”她点头，“你可以怪我，但别冲动。你今天要是跟他硬顶，你会死。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你怎么知道我会死？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我见过。”她说得平静，“所以我才懒得再演‘第一次见’那套。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“听着，别出门。今晚很危险。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你可以不懂原因，但你要照做。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她的语气不凶，甚至算温和——像在给一个不知情的人留活路。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“下去吧。”她又补了一句，“擦药。别逞强。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "门慢慢合上，不是把我赶走的“拒绝”，更像是她真的没力气再撑住谈话。" },
+  { "text": "我站在走廊里，第一次觉得：她刚才的冷漠，可能不是不在乎，而是快撑到崩了。" },
+
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "change_scene", "target": "scene2.2" }
+	]
+  }
+]

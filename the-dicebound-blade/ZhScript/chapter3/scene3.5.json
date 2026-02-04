@@ -1,0 +1,169 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "清晨的雾还贴在窗上，铃铛轻响，冷空气钻进来，把昨夜的残温一刀切开。"
+  },
+  { "text": "我推开门时，店里已经醒了。壁炉还有余火，桌面干净得像被人提前擦过。" },
+  { "text": "艾莉西亚已经在楼下。她束起头发，换了身便于行动的深色衣裙，神情平静得过分，像把情绪硬塞回身体里扣上扣子就算结束。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“今天你开着店。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我来帮忙。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你……要帮忙？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“嗯。”"
+  },
+
+  { "text": "她顺手把我手里的抹布接过去，动作自然得像这家店本来就有她的位置。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我本来打算去集市。”"
+  },
+  { "text": "我怔了下。因为我根本不知道她有这种计划——她是第一次主动提起。"},
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你要去集市？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“对。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“药水、封印符、武器补件……以前我总会去买。”"
+  },
+
+  { "text": "她停了一秒，目光落在杯口上，像在清点一份被重复太多次的清单。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“但我发现那些东西很多次都没派上用场。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“买了也只是放着。重复得让我烦。”"
+  },
+
+  { "text": "我没接话。她说得太直白，反而像在承认：她厌倦的不是集市，是重复本身。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“所以我今天不去了。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我想做点不一样的事。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“比如？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“当一天老板娘。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“……老板娘？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“对。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“倒酒、送饭、收钱、催他们别把雪踩进来——体验一下你每天在干什么。”"
+  },
+
+  { "text": "她说得认真，认真得有点荒唐。可那股认真让我忽然明白：她不是在开玩笑，她是在给自己找一点“还活着”的证据。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“另外，我把我的学徒支开了。”"
+  },
+
+  { "text": "我抬头看她。她没等我问，自己把话接下去。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我不想让她看到我现在这个样子。”"
+  },
+
+  { "text": "她说得太平静，平静得像在陈述天气，却让我胸口发紧。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“她会担心，会管我，会试图把我拉回去。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我今天不想被拉回去。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我只想安安静静地做点小事。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我让她去王国拿些我以前寄存的东西。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不重要。只是让她有事做，别一直盯着我。”"
+  },
+
+  { "text": "她端起托盘要走，又像想起什么一样回头。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“今天你别替我圆场。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“有人问，就说我是你请来的帮工。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你不怕别人认出你？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我今天只想当老板娘。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别的身份……今天先不要。”"
+  },
+
+  { "text": "她转身走向第一桌客人，放下碗碟，倒酒，收钱，催人擦脚，忙得像真的属于这里。" },
+  { "text": "而我站在柜台后看着她，忽然希望这层薄冰能多撑一会儿。" },
+
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.6" }
+	]
+  }
+]

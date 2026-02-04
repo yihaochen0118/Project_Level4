@@ -1,0 +1,76 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "show_talk_ui" },
+	  { "action": "show_name", "target": "Player" }
+	],
+	"text": "我没忍住，盯着她的眼睛追问：“这到底是哪里？你为什么好像很熟悉这里？”"
+  },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Alicia" },
+	  { "action": "shake", "target": "Alicia" }
+	],
+	"text": "艾莉西亚的眉心很轻地动了一下。不是愤怒，是一种被戳到伤口的疲惫。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别问。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你刚才说‘明天还用得上’——你到底要做什么？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我说了，别问。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "她的声音不重，却像一把干净的刀，把话题直接切断。"
+  },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "“你现在最该做的事，是带露西亚回去。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“那你呢？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我会跟上。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "她说这句话时视线没看我，而是看向更深处的阵纹残光，像在确认某个“位置”没有偏移。"
+  },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Lucia" }
+	],
+	"text": "露西亚赶紧拉了拉我的袖子，小声道：“店主……先回去吧。她现在真的不适合被逼问。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "我还想再开口，艾莉西亚却已经转身往楼梯方向走了一步——那一步很轻，却逼得人本能地闭嘴。"
+  },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "“走。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "她不再给我任何解释的余地，像把我从她的世界里直接推出去。"
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene2.6" }
+	]
+  }
+]

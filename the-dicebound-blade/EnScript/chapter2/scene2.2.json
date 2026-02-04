@@ -1,0 +1,284 @@
+[
+  {
+	"event": [
+	  { "action": "show_talk_ui" },
+	  { "action": "set_background", "target": "tavern_night" }
+	]
+  },
+
+  {
+	"text": "Night pressed down, the sound of snow fine as sand. Only the old hanging lamp above the counter was lit, firelight rippling dark gold through the glassware."
+  },
+  {
+	"text": "I wiped down the last table and slid the bolt into place. Upstairs was quiet—Lucia’s footsteps passed back and forth a few times, like she was checking on something over and over.",
+	"event": { "action": "set_flag", "flag": "night_locked", "value": true }
+  },
+
+  {
+	"text": "I thought the night would end like that. Until the staircase creaked.",
+	"event": { "action": "hide_name" }
+  },
+
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-220, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "Alicia came downstairs. She wasn’t wearing her armor, only the silver-white cloak, her hair loose, the shadows beneath her eyes deeper than they’d been during the day."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"Can’t sleep?\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Mm.\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "She sat down at the counter. Her movements were light, yet she looked like she might stand up and draw her sword at any moment. Her gaze didn’t settle on me, but on the wood grain on the counter, lit by the fire."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"Want something to eat? The stew’s still hot.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"…Yes.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I brought the stew over and set down two slices of bread as well. \"The bread’s a bit softer than yesterday.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She glanced at the bowl, her mouth twitching slightly. \"You remember.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"Kind of comes with the job.\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "She lifted the bowl and warmed the rim with her palms first, like she was checking she could still hold it. Only then did she take a slow sip."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"It tastes the same.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"That’s why I always stay here.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"Always?\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "She seemed to trip over her own word, fell silent for half a second, then set the bowl back down. The firelight trembled in her pupils.",
+	"event2": { "action": "set_flag", "flag": "alicia_slip_times", "value": true }
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"…Your inn leaves a very stable impression.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"The beds don’t creak. The bolt holds. The stew isn’t too salty.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"You say that like you’ve stayed here a lot.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She looked up at me, her tone flat. \"I have.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"…How many times?\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "She didn’t answer right away. Instead, she tapped the counter lightly with her fingertips. Once. Twice. Three times—like she was counting.",
+	"event": { "action": "set_flag", "flag": "alicia_counting", "value": true }
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"The thirty-seventh.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"…What did you just say?\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Don’t press it.\" She added quickly, like she was stuffing the words back down her throat. \"I just… mixed up the order.\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "She said it calmly, but the calm felt like ice—cracked all the way through. She lowered her head and kept drinking, as if nothing had happened."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"Then why did you come down tonight?\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"To warn you.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"It’s going to get colder in this town tonight. Don’t go out. Don’t open the door. Whatever you hear, pretend you didn’t.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"Another job?\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Yes.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"I have something to deal with.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"It’s always troublesome.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"Do you need help?\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She looked at me, like she was forcing some sentence back into herself. In the end, she gave the most direct answer possible."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"No.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"You just need to stay alive.\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "The air tightened instantly. She seemed to realize the weight of what she’d said and immediately looked away.",
+	"event": { "action": "set_flag", "flag": "alicia_said_you_live", "value": true }
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"The stew is good.\" She changed the subject stiffly. \"Your cooking has always been… good.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"‘Always’?\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She paused, like she was finally admitting she’d said too much tonight."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"I’ve just walked a lot of roads.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Memories lie. Habits don’t.\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "She finished the last of the stew and stood up. The edge of her cloak brushed the chair, fabric whispering softly."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"I’m heading up.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"Alicia.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Mm?\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"If it really is the thirty-seventh time… what kind of impression did I leave on you before?\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "She stopped at the staircase, her back to me, like the question had struck her cleanly. A long time passed before she spoke.",
+	"event": { "action": "set_flag", "flag": "asked_impression", "value": true }
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"All of them were good.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"That’s why I keep coming back.\""
+  },
+
+  {
+	"event": [{ "action": "remove_character", "target": "Alicia" }],
+	"text": "She went upstairs. Her footsteps were as light as falling snow."
+  },
+
+  {
+	"text": "I stood behind the counter, staring at the empty bowl she’d left behind, suddenly feeling like the lamp was colder than the fire."
+  },
+  {
+	"text": "In the corner of the counter, the brass die lay unnaturally still."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"The thirty-seventh…\" I murmured, my throat tightening. \"What is she really going through?\""
+  },
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "change_scene", "target": "scene2.3" }
+	]
+  }
+]

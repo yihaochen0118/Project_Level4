@@ -1,0 +1,312 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "晨雾贴在窗上，像一层旧纱。壁炉的火舔着木柴，我站在柜台后擦杯子——杯口擦到第三圈时，我忽然停住了。"
+  },
+  {
+	"text": "不对。不是因为听见门外的脚步。"
+  },
+  {
+	"text": "是因为我突然“确定”——门会被踹开，而且会在下一秒。"
+  },
+  {
+	"text": "下一秒，门“砰”地撞在墙上，冷风和酒气一起灌进来。"
+  },
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
+	  { "action": "show_name", "target": "Junker" }
+	],
+	"text": "醉汉踏着雪闯进来，像一团带刺的火。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Junker" }],
+	"text": "“酒！给老子——”"
+  },
+  {
+	"text": "他话没说完就朝我逼近，肩膀一顶，柜台上的杯子都颤了一下。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你冷静点，这么早——”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Junker" }],
+	"text": "“冷静？我让你冷静！”"
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Player" },
+	  { "action": "hp_lost", "amount": 5 }
+	],
+	"text": "他一把攥住我衣领，拳头抬起来——我甚至来不及抬手挡。"
+  },
+  {
+	"text": "然后，门外又响了一声。"
+  },
+  {
+	"text": "不是踹门，不是粗暴。是极轻的一声推门——像有人把“下一幕”翻页。"
+  },
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "艾莉西亚走进来。斗篷上还挂着雾，银发湿冷地贴在肩侧。"
+  },
+  {
+	"text": "她的眼睛亮得不正常，像睡不着的人盯着火看了一整夜——然后突然笑出来那种亮。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“……哦。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你终于没挨到第二拳。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你说什么？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Junker" }],
+	"text": "醉汉扭头瞪她：“你他妈谁啊？”"
+  },
+  {
+	"text": "艾莉西亚没看他。她看的是他的拳头。像在看一根会按流程落下来的钟摆。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你每次都出场得这么准时。”"
+  },
+  {
+	"text": "她轻轻歪了下头，像在努力回忆某个烦人的笑话，然后笑意更深了一点。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我本来想今天‘装作没看见’。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“但我心情不好。”"
+  },
+  {
+	"text": "她往前一步。不是冲刺，不是威吓。只是一步——像把一枚钉子钉进地板。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“放手。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Junker" }],
+	"text": "“哈？你以为——”"
+  },
+  {
+	"text": "剑出鞘的声音短得像一声轻笑。"
+  },
+  {
+	"event": [{ "action": "shake", "target": "Junker" }],
+	"text": "醉汉的手猛地松开，他自己都愣住了。"
+  },
+  {
+	"text": "他低头看向自己，像在确认哪里出了错。"
+  },
+  {
+	"text": "艾莉西亚把剑尖轻轻一偏，像嫌脏。"
+  },
+  {
+	"event": [{ "action": "remove_character", "target": "Junker" }],
+	"text": "醉汉踉跄着退到门口，像被什么看不见的东西拽走，门外风一卷，他就没了影。"
+  },
+  {
+	"text": "酒馆里静得刺耳。客人甚至不敢喘气。"
+  },
+  {
+	"text": "我还没从衣领被攥皱的地方缓过来，艾莉西亚已经把剑收回去了。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你……你把他——”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“嗯。”"
+  },
+  {
+	"text": "她答得太轻松，像刚把一只烦人的苍蝇拍死。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你到底是谁？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“艾莉西亚。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“不，我是说……你为什么像认识我？”"
+  },
+  {
+	"text": "艾莉西亚忽然笑了一声，那笑声像玻璃碰到冰——清脆，危险，还带点兴奋。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我找了你很久。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“久到我连你擦杯子的节奏都背得下来。”"
+  },
+  {
+	"text": "她抬起手，指尖在空气里点了两下，像在给我打拍子。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“第一下你会皱眉，第二下你会假装没事。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你别吓我。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我没有吓你。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我是在……庆祝。”"
+  },
+  {
+	"text": "她的呼吸忽然变快了一点，像压着某种快要溢出来的情绪。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“一百二十七码头。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“什么？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“……算了，你听不懂。”"
+  },
+  {
+	"text": "她忽然凑近柜台，近得我能看见她眼底的血丝——像有人在她眼里烧了很久的火。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你要记住一件事。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我不是来住店的。”"
+  },
+  {
+	"text": "她停顿了一下，笑意突然变得更疯一点，像终于说出真话的人。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我是来把你留住的。”"
+  },
+  {
+	"text": "我喉咙发紧：“留住……我？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“对。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我试过很多种方式。”"
+  },
+  {
+	"text": "她像是被某个回忆戳中，笑着笑着，眼神却空了一瞬。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“温柔的、正常的、像人一样的方式。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“都太慢了。”"
+  },
+  {
+	"text": "她把一串钥匙放到柜台上，动作快得像怕我反悔。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“给我一间房。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你怎么知道——”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我当然知道。”"
+  },
+  {
+	"text": "她的语气理所当然到可怕，像你问太阳为什么会升起。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我知道你把盐放左边。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我知道你听见楼梯第三阶会停一下。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我知道你看见我会先装镇定，然后手指抖。”"
+  },
+  {
+	"text": "她一边说，一边盯着我的手，像在验证一份早就写好的答案。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你疯了。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“嗯。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“但这不是我的错。”"
+  },
+  {
+	"text": "她转身上楼，斗篷扫过地面，像一阵压不住的风。"
+  },
+  {
+	"text": "走到楼梯口，她停了一下，没回头。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“这次我会做得更好。”"
+  },
+  {
+	"text": "她上楼了。脚步快，轻，又熟练得像在跑一条练了上百次的路。"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "我站在柜台后，指尖还沾着杯子的水汽，却感觉那水汽像冰。"
+  },
+  {
+	"text": "她刚才说的每一个字都像不该出现在“第一次见面”的早晨。"
+  },
+  {
+	"text": "而更糟的是——我居然有一瞬间觉得：她说的都是真的。"
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.1" }
+	]
+  }
+]

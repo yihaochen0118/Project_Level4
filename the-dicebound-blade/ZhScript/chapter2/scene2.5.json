@@ -1,0 +1,128 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "夜幕压下来，壁炉的火光把影子拉得很长。"
+  },
+  { "text": "我明明答应过自己不出门，可越安静越像有东西在逼近——我坐不住。" },
+
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] },
+	  { "action": "show_name", "target": "Lucia" }
+	],
+	"text": "露西亚冲进来，声音都在抖：“店主！导师不见了！”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“她去哪？”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "“她刚才突然披斗篷走了……只说‘别跟来’。我还听见她提到回音会。”"
+  },
+  { "text": "我没再问。那三个字足够让我把短剑抓在手里。" },
+
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“走。她不让你跟，你就跟着我。”"
+  },
+
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" }
+	],
+	"text": "雾和雪把街道揉成一团，我们一路追到北区。"
+  },
+  { "text": "越靠近废铁巷，越安静——安静得不正常。" },
+  { "text": "原本该有的动静没有出现，像有人已经把结尾写完了。" },
+
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "巷口的阴影里，艾莉西亚走出来。斗篷边缘焦了一圈，手套上有血。"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“……真的麻烦。”"
+  },
+
+  {
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "“导师！你没事吧？！”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“你进去过了？”"
+  },
+
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“嗯。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“别站在这儿。”"
+  },
+
+  { "text": "她摊开掌心，是一枚环形信物。她握回去时很快，像怕自己再多看一眼就会烦。" },
+
+  {
+	"event": [
+	  { "action": "set_background", "target": "underground_entrance" }
+	],
+	"text": "她推开锈门，我们跟着下去。"
+  },
+  { "text": "阵纹还没完全散，地上已经倒了一片黑袍。没有吟唱、没有挣扎——像被一刀切掉的段落。" },
+
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“你把他们……”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“处理了。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“为什么不叫上我们？”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "她看了我一眼，语气很平：“因为你们会碍事。而且我已经知道怎么对付他们了，不用担心。”"
+  },
+
+  { "text": "露西亚咬着唇，还是悄悄把她斗篷拉好，像给她挡风。" },
+  {
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "“你手在抖……你又硬撑。”"
+  },
+  { "text": "艾莉西亚没否认，只是把那枚信物塞进衣内。" },
+
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“回去。”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“这地方留着，我明天还用得上。”"
+  },
+
+  {
+	"event": [
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  { "text": "选项 A：追问“这到底是哪里？你为什么好像很熟悉这里？”【洞察检定（INS DC 13）】", "dc": 13, "check": "charisma" },
+		  { "text": "选项 B：不再追问，先护送她们回旅店【无检定（DC 0）】", "dc": 0, "check": "dexterity" },
+		  { "text": "选项 C：找借口留在这里观察环境【察觉检定（PER DC 12）】", "dc": 12, "check": "intellgent" }
+		]
+	  },
+	  { "action": "hide_talk_ui" }
+	]
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+	"event": [
+	  { "action": "show_talk_ui" },
+	  { "action": "set_flag", "flag": "charisma_success_2_1_A", "value": false },
+	  { "action": "set_flag", "flag": "alicia_trust", "value": -1 }
+	]
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你今天怎么了？”我盯着她的眼睛，“从进门到现在，你像把自己冻起来了。”"
+  },
+
+  {
+	"event": [
+	  { "action": "show_name", "target": "Alicia" },
+	  { "action": "shake", "target": "Alicia" }
+	],
+	"text": "她的目光抬起，像刀刃从鞘里露了一瞬。"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你不需要知道。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "那句话很短，却像把门直接关上。露西亚手里的药膏都停在半空，明显慌了。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“师父……他只是担心你。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“担心？”她淡淡重复了一遍，像在咀嚼一个不合时宜的词。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“露西亚，别教别人插手。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "露西亚眼眶一下就红了，但她忍住没哭，反而更小心地把药篮往柜台里收紧，好像这样就能把局面收回去。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你至少可以——”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不可以。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我今天只想休息。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她站起身，披风轻轻一摆，像把所有情绪也一并带走。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“两间房。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“钥匙给她。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“我、我知道了……”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她转身上楼，脚步轻得可怕，像害怕自己发出一点声音就会裂开。" },
+
+  {
+	"event": [
+	  { "action": "set_flag", "flag": "alicia_shut_down_2_1", "value": true },
+	  { "action": "set_flag", "flag": "lucia_more_worried", "value": true }
+	]
+  },
+
+  { "text": "楼梯口的吱呀声停了，旅店里只剩壁炉的噼啪。" },
+  { "text": "露西亚咬着嘴唇，硬挤出一个笑，像在替她师父道歉。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“……对不起。她不是讨厌你。她只是……撑得很辛苦。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "我吐出一口气，摇了摇头：“没关系。你不用替她道歉。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "露西亚像是终于松了一点点力气，肩膀却还是紧绷着，手指把药篮边缘攥得发白。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“她要是需要休息，就让她休息。”我看了眼楼梯口，“你也别把自己逼太紧。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "她吸了吸鼻子，努力点头：“……嗯。我会看着她。”"
+  },
+
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "change_scene", "target": "scene2.2" }
+	]
+  }
+]

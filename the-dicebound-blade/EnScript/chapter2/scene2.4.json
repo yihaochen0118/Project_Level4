@@ -1,0 +1,148 @@
+[
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "set_background", "target": "tavern_morning" }
+	]
+  },
+  {
+	"event": [{ "action": "show_talk_ui" }],
+	"text": "Sunlight filters through the wooden window slats and falls across the counter. Last night’s snow has half melted, and the street reflects a blinding glare. The inn still smells faintly of stew and burnt firewood."
+  },
+  {
+	"text": "I’m checking inventory, my fingertips still faintly numb. Last night’s words—“the thirty-seventh time”—are lodged in my mind like a nail.",
+	"event": { "action": "set_flag", "flag": "day2_started", "value": true }
+  },
+
+  {
+	"text": "Light footsteps come from the stairs—nothing like the snow-quiet stillness she had last night.",
+	"event": { "action": "hide_name" }
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia comes downstairs. She’s changed into lighter gear, her cloak fastened tight, the cracked sword still at her waist—but her whole presence feels sharp and ready, like the start of a workday."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"Morning.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Morning.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"It’s Sunday. The shop rests today.\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "She says it like she’s reciting a line—not asking, just confirming the process. Then she walks straight to the counter and, with practiced ease, presses a sheet filled with notes onto the ledger."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"I’m heading to the market to restock.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Potions, sealing talismans, bandages, salt, two bundles of firewood—and don’t use the stall that sells fake honey.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"…You even know about the honey?\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She glances at me, a corner of her mouth lifting. \"Because I tried it once. Nearly poisoned myself mute.\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "She says it too casually, like experiences like that are too common to matter. Then she lowers her gaze again, checking her gloves, straps, and charms—movements precise, like an armorer at work."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"You have two choices.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"First: come with me.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Second: stay here, bolt the door, and do something about the swelling on your face.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"Is that an invitation, or an order?\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Efficiency.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"If you come with me—you carry the supplies. No wandering off. No showing off. And absolutely no stopping near the trees to admire the scenery.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"What’s wrong with the treeline?\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Things crawl out of the ground.\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "She says it as casually as forecasting rain. Then she flicks a small slip of talisman paper from her sleeve, folds it once, and presses it into my palm.",
+	"event": [{ "action": "set_flag", "flag": "got_supply_charm", "value": true }]
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"A bleeding-stopper. Don’t ask who taught me.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"You look… better than last night. Honestly—kind of impressive.\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Last night was last night.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"During the day, I have work to finish.\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "With that, she turns to open the door—clean, decisive. Sunlight floods in all at once, bleaching her silver hair almost white."
+  },
+
+  {
+	"event": [
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  { "text": "Option A: Go with her to the market (you carry the supplies)【No Check (DC 0)】", "dc": 0, "check": "dexterity" },
+		  { "text": "Option B: Stay at the inn to treat your injuries and manage the shop【No Check (DC 0)】", "dc": 0, "check": "dexterity" }
+		]
+	  },
+	  { "action": "hide_talk_ui" }
+	]
+  }
+]

@@ -1,0 +1,318 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "我们别绕了"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你想知道我为什么认识你、为什么比你更熟悉你自己——还有我为什么会变成这样。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“对。”"
+  },
+
+  { "text": "烛火啪地轻响了一下。她的影子在墙上晃动，像另一个人也在听。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我被诅咒了。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“很久以前，我和魔族缠斗，最后一击打穿了‘残梦之主’的核心。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“它死前给我留了东西——不是伤，是诅咒。”"
+  },
+  { "text": "她的指尖敲了敲桌面，像在给某台看不见的机器校准节拍。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“每当我死，时间会回到三天前。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“镇子、你、所有人——都会重置。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“只有我带着记忆回来。”"
+  },
+  { "text": "她说“回来”时，语气像在说“被拖回牢房”。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“那你……轮回了多少次？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“一百二十七次。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“而你——每一次都忘得干干净净。”"
+  },
+
+  { "text": "她笑了一下，那笑太干净了，干净得像刀刃擦过骨头。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我得承认一件事。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我一开始不是来拯救镇子的。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“那你来做什么？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“找回音会的领袖。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“夺走他的信物——一条项链。”"
+  },
+  { "text": "她从指尖比出一个环的形状，动作熟练得像已经从谁脖子上扯下来很多次。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“那项链不是纪念品，是钥匙。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“几天后会入侵的魔王有个‘核心’。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我必须把项链塞进核心里——让它在核心内部引爆。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“这样才能炸死它，切断诅咒的回溯。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“听起来像自杀。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“是。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“但这是我找到的唯一一次‘死了就不再回来’的死法。”"
+  },
+
+  { "text": "她说得太平静，平静得像在报菜名。可她握杯的手指在抖——不是害怕，是压不住的兴奋与疲惫混在一起的颤。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“那我……和这一切有什么关系？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你是我的锚点。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我每次回来，世界会把我洗得更薄。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“只有你，会让我记得我还是个人。”"
+  },
+
+  { "text": "她把杯子推远，像怕自己下一句话会把桌子点燃。然后——你能感觉到她开始变得话多，话多得像终于抓到一个不会立刻消失的听众。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我已经错过你很多次了。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不是一天两天。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“是一轮一轮，三天三天，死一次一次。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我连你擦杯子的节奏都背得下来。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我知道你把盐放左边。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我知道你听见楼梯第三阶会停一下。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我知道你看见我会先装镇定，然后手指抖。”"
+  },
+  { "text": "她一边说一边盯着你的手，像在验证一份早就写好的答案。更可怕的是——你真的开始抖。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“……你到底想要我做什么？”"
+  },
+
+  { "text": "烛火跳了一下。她的红裙在火光里像血一样亮。她忽然笑了，笑得甜，又带点金克斯般的狠。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我也不是一直这么‘负责任’。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“有些轮回里，我开口过。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我对你说：跟我走。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不是‘一起想办法’，不是‘帮我完成任务’。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“是私奔。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“去一个陌生的城市。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“随便哪儿都行，只要地图上不写这个小镇的名字。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“这座镇子灭亡就灭亡。结界碎就碎。魔兽来就来。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我不在乎。我累了，或者说 我怕了。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“可只要你在就足够了。”"
+  },
+
+  { "text": "她说到这儿喉咙像卡了一下，像终于意识到自己刚刚说了什么“不可原谅”的话。她攥紧餐巾，指节发白。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“可是你每一次都没走。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你每一次都看着我，然后说：不能这样。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你说：镇子里还有人。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你说：你不是这种人。”"
+  },
+
+  { "text": "她把那几句话说得像背诵，像她已经听过太多次，背过太多遍。她眼眶红了一圈——不是哭，是被逼回原位的疼。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你一次一次把我拉回来。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“把我从‘只要你活着其他都无所谓’里拉回来。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你明明会忘。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“可你每次都能把我叫醒。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“所以我相信这次也不例外。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我不会丢下镇子不管。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我会去拿项链、去把它塞进魔王核心、去把自己也一起赌进去。”"
+  },
+
+  { "text": "她忽然靠近你一点，像把所有“战士的简报”撕掉，露出底下那张最私人的纸。她说的不是请求，是要求。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“但我希望你能够爱着我。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不是因为我救了你。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“是因为我真的……只剩这件事能抓住了。”"
+  },
+
+  { "text": "她像是意识到自己说得太多，猛地把情绪收回去，硬生生装回那副冷静的壳。装得越用力，越让人发冷。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我会去救镇子。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不是因为我伟大。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“是因为你会看着我。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你会让我记得我曾经想当个好人。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“所以别离开。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别让我选到那个私奔的版本。”"
+  },
+
+  { "text": "烛火又跳了一下。你忽然明白：她把最后的刹车交到了你手里——而她自己，已经快踩不住了。" },
+
+  {
+	"event": [{ "action": "change_scene", "target": "scene3.4" }]
+  }
+]

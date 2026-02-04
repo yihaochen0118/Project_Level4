@@ -1,0 +1,166 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "Morning fog still clings to the windows. A bell chimes softly as cold air slips inside, slicing cleanly through what little warmth last night left behind."
+  },
+  {
+	"text": "When I push the door open, the tavern is already awake. The hearth still holds embers, and the tables are clean—as if someone wiped them down in advance."
+  },
+  {
+	"text": "Alicia is already downstairs. Her hair is tied back, and she’s changed into a dark outfit suited for movement. Her expression is unnaturally calm, like she’s stuffed her emotions back into her body and fastened the buttons tight."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You’re opening the shop today.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’ll help.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You… want to help?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Mm.”"
+  },
+  {
+	"text": "She casually takes the rag from my hand, the motion so natural it feels like she’s always had a place in this shop."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I was planning to go to the market.”"
+  },
+  {
+	"text": "I freeze for a moment—because I had no idea she’d had any such plan. This is the first time she’s mentioned it."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You were going to the market?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Yes.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Potions, sealing charms, weapon parts… I used to buy them every time.”"
+  },
+  {
+	"text": "She pauses, her gaze settling on the rim of a cup, as if counting through a checklist repeated too many times."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But I realized that most of those things never get used.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I buy them, and they just sit there. The repetition started to irritate me.”"
+  },
+  {
+	"text": "I don’t respond. She’s being too blunt—almost like she’s admitting that what she’s tired of isn’t the market, but repetition itself."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“So I’m not going today.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I want to do something different.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Like what?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Be the tavern mistress for a day.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“…The tavern mistress?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Yes.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Pour drinks, serve food, take money, nag them not to track snow inside—experience what you do every day.”"
+  },
+  {
+	"text": "She says it seriously—so seriously it borders on absurd. And yet that seriousness makes something click for me: she isn’t joking. She’s looking for proof that she’s still alive."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Also, I sent my apprentice away.”"
+  },
+  {
+	"text": "I look up at her. She doesn’t wait for me to ask—she continues on her own."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I don’t want her to see me like this.”"
+  },
+  {
+	"text": "She says it calmly, like she’s commenting on the weather, and yet my chest tightens."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“She’d worry. She’d try to manage me. She’d try to pull me back.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Today, I don’t want to be pulled back.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I just want to quietly do something small.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I sent her to the capital to retrieve some things I stored there before.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Nothing important. Just something to keep her busy—so she won’t keep watching me.”"
+  },
+  {
+	"text": "She lifts a tray to head off, then pauses, as if remembering something, and looks back."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Don’t cover for me today.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“If anyone asks, just say I’m a helper you hired.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Aren’t you afraid someone will recognize you?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Today, I just want to be the tavern mistress.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“All my other identities… can wait.”"
+  },
+  {
+	"text": "She turns toward the first table, sets down bowls, pours drinks, takes payment, reminds them to wipe their boots—busy, efficient, as if she truly belongs here."
+  },
+  {
+	"text": "And I stand behind the counter watching her, suddenly hoping this thin sheet of ice will hold a little longer."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.6" }
+	]
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "【3.1.1.0｜选项A：答应她】"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“……好。我来。”"
+  },
+  {
+	"text": "话一出口，我自己都愣了一下。像是某种早就写好的台词被我读出来了。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“嗯。”"
+  },
+  {
+	"text": "她只应了一声，却像松了一口气。下一秒又立刻把那口气掐回去，装得冷静。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你会做什么？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你想吃什么？”"
+  },
+  {
+	"text": "她的眼神闪了一下，像被这个问题戳中某个柔软又危险的地方。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“都行。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“但不要太咸。”"
+  },
+  {
+	"text": "她说完又补一句，语速很快："
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你手伤了，切菜别硬撑。刀在第二个抽屉里，不是第一个。”"
+  },
+  {
+	"text": "我猛地抬头。那抽屉我从没跟她提过。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你为什么连这个都——”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“因为我不想再看你割到手。”"
+  },
+  {
+	"text": "她说得太自然，像这句话已经说过很多遍。"
+  },
+  {
+	"text": "她转身去摆蜡烛，动作熟练得可怕：左边两根，右边一根，中间留出盘子的空位。"
+  },
+  {
+	"text": "我照她说的，把盐罐放在左边。"
+  },
+  {
+	"text": "她盯着盐罐看了两秒，像确认世界终于按她想要的方式运行了一次。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“很好。”"
+  },
+  {
+	"text": "这句“很好”不像夸盐罐，像夸我还在。"
+  },
+  {
+	"text": "窗外集市的喧哗慢慢远去，旅店里只剩火炉的低鸣。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“今晚不要让任何人打扰我们。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你说得像——”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“像什么都别说。”"
+  },
+  {
+	"text": "她抬眼看我，声音放轻，却更执拗："
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你只要坐在那儿，跟我吃完这一顿。”"
+  },
+  {
+	"text": "我点头。她的肩膀终于不再那么紧。"
+  },
+  {
+	"text": "可她的指尖仍在微微发抖，像在跟某个看不见的倒计时较劲。"
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.2" }
+	]
+  }
+]

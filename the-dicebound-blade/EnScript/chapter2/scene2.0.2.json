@@ -1,0 +1,97 @@
+[
+  {
+	"event": [
+	  { "action": "show_talk_ui" },
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "set_flag", "flag": "scene", "value": "2.0.2" }
+	]
+  },
+
+  {
+	"text": "I stared at the turn of the staircase for two seconds, then finally looked away."
+  },
+  {
+	"text": "Chasing after her would likely bring nothing but more humiliation."
+  },
+  {
+	"text": "I slid the bar back into place, took a deep breath, and went back to doing what needed to be done—like nothing had happened."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"…Just stay alive,\" I muttered to myself."
+  },
+  {
+	"event": { "action": "hide_name" },
+	"text": "It sounded like self-mockery, or maybe a habit honed to a frightening degree."
+  },
+
+  {
+	"text": "I pulled the first-aid kit out from beneath the counter and pressed an alcohol-soaked cloth to the cut at the corner of my mouth."
+  },
+  {
+	"event": [{ "action": "shake", "target": "Player" }],
+	"text": "The sting shot into my head like a needle, and I sucked in a sharp breath."
+  },
+  {
+	"text": "Gritting my teeth, I wrapped the bandage around twice and tied it tight. When I looked up again, my reflection in the glass looked like a battered stranger."
+  },
+
+  {
+	"text": "The chipped copper coin the drunk had flicked over was still on the counter, caught in a groove in the wood with a dull clink."
+  },
+  {
+	"text": "I didn’t pick it up. I righted the overturned chairs, wiped away the spilled wine, and swept the snow on the floor back out the door."
+  },
+  {
+	"text": "Only then did the guests dare move again, settling their tabs in low voices before leaving. Their footsteps were lighter than usual, as if afraid of disturbing the person upstairs."
+  },
+
+  {
+	"text": "I pressed the lid back onto the wine barrel, checked the lock, and made sure the short sword was still within easy reach beneath the counter."
+  },
+  {
+	"text": "—If he came back, at least I wouldn’t stand there taking the beating like before."
+  },
+
+  {
+	"text": "Only after all that did I finally sit down."
+  },
+  {
+	"text": "My fingers were still numb, my mouth still throbbing faintly, but what weighed on me more was something else:"
+  },
+  {
+	"text": "She was far too familiar. Familiar like someone who had lived here for a long time—familiar enough to know where the key was without asking."
+  },
+
+  {
+	"text": "My eyes drifted, almost unconsciously, to the brass die on the counter."
+  },
+  {
+	"text": "It lay there quietly, its edges catching the firelight with a cold gleam."
+  },
+  {
+	"text": "I hadn’t touched it. And yet, as if nudged by something unseen, it rolled half a turn on its own—"
+  },
+
+  {
+	"event": [{ "action": "shake", "target": "Player" }],
+	"text": "\"Thud.\""
+  },
+  {
+	"text": "A faint click of a door came from upstairs, and then everything fell silent."
+  },
+  {
+	"text": "A strange intuition crept over me: this wasn’t the first time she had stayed in that room, nor the first time she had climbed those stairs on a morning like this."
+  },
+  {
+	"text": "And I—maybe this wasn’t the first time I had endured the pain and cleaned up the inn as if nothing had happened."
+  },
+
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "change_scene", "target": "scene2.1" }
+	]
+  }
+]

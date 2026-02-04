@@ -1,0 +1,134 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "I swallow the words back. Now isn’t the time to press her."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Let’s go back to the inn.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "Lucia nods immediately, so tense her fingertips have gone pale. “Okay… let’s go.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia doesn’t object. She only lets out a low “Mm.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "She slips the ring-shaped token back inside her cloak, the motion practiced—like putting away a tool she’s used far too many times."
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" }
+	],
+	"text": "We leave Scrap Iron Alley behind. Fog and snow cling to our faces, the streetlamps scattering light like crushed gold dust."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“Master… please don’t walk so fast.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "Lucia hurries after her, pulling the edge of Alicia’s cloak higher—as if afraid the wind might slip in through the seams and steal away her last bit of warmth."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I lower my voice and ask Lucia, “Does she do this often… rushing in alone?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "Lucia bites her lip. After a second’s hesitation, she nods. “She thinks… the fewer people who know, the safer it is.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“And what about her? Doesn’t she count as ‘people’?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "Lucia’s eyes redden instantly. “She’s been treating herself like a tool… for a long time now.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "Ahead of us, Alicia suddenly slows, as if she’s heard. She doesn’t turn around—only grinds the snow beneath her boots even finer."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Don’t talk about this on the road.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You have to let people know what you’re doing.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Knowing won’t help.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "Her tone is flat—like she’s stating a rule that will never change."
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" }
+	],
+	"text": "The inn’s lights emerge through the fog. The moment the door opens, warmth rushes out to meet us."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "Lucia quickly guides Alicia toward the fire. “Sit down. I’ll get some hot water—your hands are freezing.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“No need.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“There is.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "Lucia all but forces her into a chair, then jogs into the back kitchen. Alicia stares into the firelight, her gaze empty for a moment—like she’s nearly forgotten how to sit down and rest."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I slide the door bolt into place, then turn to her. “You said ‘we’ll need it again tomorrow.’ You’re planning to go back, aren’t you?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She looks up, fatigue laced with a hint of irritation. “Didn’t you decide not to keep pressing?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“I decided to get you back here first.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She falls silent for a moment, as if weighing how much to give. “…I need to confirm a few things. That’s all.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "She turns her gaze away, like saying one word more might tear a crack even wider."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "Lucia returns with hot water and sets it by her hand, speaking carefully. “Drink a little first. Please don’t push yourself.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“…Mm.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "The sound is so soft it’s almost inaudible—but at least it isn’t a refusal."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene2.6" }
+	]
+  }
+]

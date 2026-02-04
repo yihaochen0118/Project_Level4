@@ -1,0 +1,248 @@
+[
+  {
+	"event": [
+	  { "action": "show_talk_ui" },
+	  { "action": "set_background", "target": "tavern_night" }
+	]
+  },
+
+  { "text": "夜幕压下来，雪声细得像砂。旅店里只亮着柜台上方那盏老吊灯，火光在玻璃杯里晃出一圈圈暗金。" },
+  { "text": "我把最后一张桌子擦干净，插上门栓。楼上很安静——露西亚的脚步声来回过几次，像在不停确认什么。", "event": { "action": "set_flag", "flag": "night_locked", "value": true } },
+
+  { "text": "我以为今晚就这样过去。直到楼梯“吱呀”一声。", "event": { "action": "hide_name" } },
+
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-220, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "艾莉西亚走下来。她没穿铠甲，只披着那件银白斗篷，头发松散垂着，眼下的阴影比白天更明显。"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“睡不着？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“嗯。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她坐到柜台前，动作很轻，却像随时会站起来拔剑。她的视线没有落在我身上，而是落在桌面那块被火光照亮的木纹上。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“要点吃的吗？炖汤还热。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“……要。”"
+  },
+
+  {
+	"event": [
+	  { "action": "show_name", "target": "Player" }
+	],
+	"text": "我把汤端上来，又顺手放了两片面包：“今天的面包比昨天软一点。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她看了汤一眼，嘴角动了一下：“你记得。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“做店主的，能不记得吗？”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她端起碗，先用掌心捂了捂碗沿，像在确认自己还握得住。然后才慢慢喝了一口。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“味道还是一样。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“所以我每次都会住在这里。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“每次？”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她像被自己的词绊了一下，沉默了半秒，才把碗放回桌面。火光在她的瞳孔里抖了一下。", "event2": { "action": "set_flag", "flag": "alicia_slip_times", "value": true } },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“……你这家店给人的印象很稳定。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“床不吱呀，门栓结实，汤不会太咸。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你说得像住过很多次。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她抬眼看我，语气很平：“是。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“……到底多少次？”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她没有立刻回答，只是用指尖轻轻敲了敲桌面。一下、两下、三下——像在数。", "event": { "action": "set_flag", "flag": "alicia_counting", "value": true } },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“第三十七码。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“……你说什么？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别追问。”她很快补了一句，像把话塞回喉咙里，“我只是……记错了顺序。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她说得很平静，但那种平静像冰面——下面全是裂纹。她低头继续喝汤，像什么都没发生。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“那你今晚下来，是想说什么？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“提醒你。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“这镇子今晚会更冷。别出门。别开门。听见什么都当没听见。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“又是任务？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“嗯。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我得去处理一件事。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“这件事每次都很麻烦。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“需要我帮忙吗？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她看着我，眼神像是要把某句话按回去。最后只吐出一句最直白的。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不需要。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你活着就行。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "空气一下子静得发紧。她似乎也意识到这句话太重，立刻把视线移开。", "event": { "action": "set_flag", "flag": "alicia_said_you_live", "value": true } },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“汤很好喝。”她生硬地转开话题，“你做饭一直都——很好。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“‘一直都’？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她顿了一下，像终于承认自己今晚说漏嘴太多。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我只是……路走多了。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“记忆会骗人，但习惯不会。”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她把最后一口汤喝完，站起身。斗篷的边缘擦过椅背，发出轻微的布料声。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我上去了。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“艾莉西亚。”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“嗯？”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“如果真是第三十七次……那以前的我，给你留下的都是什么印象？”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "她停在楼梯口，背对着我，像是被这一句击中。很久之后，她才开口。", "event": { "action": "set_flag", "flag": "asked_impression", "value": true } },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“都不错。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“所以我才会回来。”"
+  },
+
+  {
+	"event": [{ "action": "remove_character", "target": "Alicia" }],
+	"text": "她上楼了。脚步声轻到像雪落。"
+  },
+
+  { "text": "我站在柜台后，盯着她留下的空碗，忽然觉得这盏灯比火还冷。" },
+  { "text": "柜台角落里，那枚黄铜骰安静得反常。" },
+
+  {
+	"event": [
+	  { "action": "show_name", "target": "Player" }
+	],
+	"text": "“第三十七次……”我低声重复，喉咙发紧，“她到底在经历什么？”"
+  },
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "change_scene", "target": "scene2.3" }
+	]
+  }
+]

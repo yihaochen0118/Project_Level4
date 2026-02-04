@@ -1,0 +1,119 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "Morning of the third day. The snow hasn’t fully stopped, yet the streets are already stirring earlier than usual."
+  },
+  {
+	"text": "I’ve barely opened the door to let some air in when I see several squads of guards gathering at the intersections, running north. People are knocking door to door, calling for shops to send planks, rope, and oil lamps to the North Gate."
+  },
+  {
+	"text": "On any normal day, I would shut the door again and treat it as none of my business."
+  },
+  {
+	"text": "But my mind is stuck on what she said last night: “I’ll need it tomorrow.”"
+  },
+  {
+	"text": "She didn’t say it casually. It was planned."
+  },
+  {
+	"text": "I grab my coat, slide the short sword into my belt, lock the door, and follow the flow of people heading north."
+  },
+
+  {
+	"text": "The farther north I go, the fewer people there are—and the more concentrated the sounds become: metal clashing, shouted orders, the snort of horses."
+  },
+  {
+	"text": "An open space outside the North Gate has been cleared into a defensive line. Wooden stakes and shield walls are already half built. Mages and guards stand in small units, positioned as if arranged by an invisible hand."
+  },
+
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "Alicia stands at a temporary command point, ash from the night still clinging to her cloak. She wears no extra armor, yet her movements are sharp and precise—like she has every step memorized."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Shieldbearers, two rows. Front row tight to the stakes. Leave half a step between the second row—for mage repositioning.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Don’t hang the oil lamps on the gate. Hang them on the sides. If the fire starts, don’t let the doorframe burn first.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Archers, one command only: when I raise my hand, you fire; when I lower it, you stop. Don’t improvise.”"
+  },
+
+  {
+	"text": "No one questions her—as if she has already convinced them before. Lucia is on the other side, counting talismans and potion bottles. Dark circles ring her eyes, but her hands never stop moving."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I step closer. “How do you arrange them so smoothly?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She glances at me, as if assessing whether I’m a problem."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Because people who aren’t familiar die faster.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You said last night you’d ‘need it tomorrow’—were you planning to hold the North Gate today?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Holding it until nightfall is enough.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’ll draw out the most troublesome one and deal with it. Everyone else just has to keep the line steady—don’t let the streets fall into chaos first.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“That sounds like you already know what’s going to happen.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She doesn’t deny it. She only pulls her cloak tighter over her shoulders, as if pulling her emotions back with it."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You being here is useless.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Go back to the inn. Bolt the door. Don’t get yourself hurt again today.”"
+  },
+
+  {
+	"text": "She says it plainly—not like a request, more like reducing variables."
+  },
+  {
+	"text": "I instinctively want to argue back, but then I notice the fine cracks on her knuckles—like she held a sword too long last night."
+  },
+  {
+	"text": "Lucia looks up at me, her eyes saying the same thing: don’t make this harder. But she also clearly exhales in relief—at least I’m still standing."
+  },
+
+  {
+	"event": [
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  { "text": "Option A: Do as she says—turn away from the North Gate and return to the inn to wait for news [No Check (DC 0)]", "dc": 0, "check": "dexterity" },
+		  { "text": "Option B: Insist on staying to do work that ‘won’t get in the way’ (hauling supplies / delivering medicine / running errands) [Resolve Check (DC 12)]", "dc": 12, "check": "dexterity" }
+		]
+	  },
+	  { "action": "hide_talk_ui" }
+	]
+  }
+]

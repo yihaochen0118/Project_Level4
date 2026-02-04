@@ -1,0 +1,100 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "I don’t follow them right away. That knot of unease in my chest feels like a nail—if I don’t pull it out, I won’t sleep tonight."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You two go on ahead. I’ll… check if there’s another exit here.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "Lucia freezes, then immediately shakes her head. “No! This place is too dangerous—”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia turns her face slightly, her voice cold and decisive. “One minute.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "She doesn’t look back, but she allows it—as if she’s long since grown used to someone stopping here to “take one more look.”"
+  },
+  {
+	"text": "I crouch down, pretending to adjust my bootlaces, my eyes sweeping over the remaining traces of the formation."
+  },
+  {
+	"text": "The blue glow on the ground should have faded by now, yet a few thin lines are still slowly retracting—like a wound stitching itself shut."
+  },
+  {
+	"text": "In the corner of the wall, there’s a circular patch of scrape marks—the exact same shape as the ring-shaped token in her palm."
+  },
+  {
+	"text": "I reach out and brush the marks with my fingers. A strange warmth lingers—like metal freshly touched by a branding iron."
+  },
+  {
+	"text": "Even stranger: along the edge of the formation, there’s a line carved so faintly it’s almost invisible, as if someone kept tracing the same number again and again with the tip of a blade."
+  },
+  {
+	"text": "I lean closer, using the remaining light to make it out—it’s “37.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“...They didn’t carve this.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "Lucia holds her breath. “What did you see?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia finally turns back. Her gaze lands on the carved marks and pauses there for half a second."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Don’t touch it.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "Her voice is quiet, but it carries more weight than any command—closer to a warning."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You’ve been here many times, haven’t you?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She doesn’t answer. She only looks away. “Time’s up. Let’s go.”"
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" }
+	],
+	"text": "We leave the underground chamber behind. Snow and fog rush in, and somehow it feels like breathing again."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "Lucia whispers, “Did you just see… a number?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Yeah.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia cuts us off. “Don’t discuss it on the road.”"
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" }
+	],
+	"text": "The inn’s lights glow through the fog. When the door closes, the outside world feels sealed away."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene2.6" }
+	]
+  }
+]

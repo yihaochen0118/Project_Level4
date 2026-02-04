@@ -1,0 +1,8 @@
+[
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "change_scene", "target": "scene2.4" }
+	]
+  }
+]

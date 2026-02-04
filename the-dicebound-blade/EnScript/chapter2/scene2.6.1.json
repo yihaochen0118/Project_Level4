@@ -1,0 +1,71 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "Her order is clear: go back."
+  },
+  {
+	"text": "I stand in the snow outside the North Gate, my throat tight. She doesn’t raise her voice, doesn’t explain—she simply pushes me one step back from the edge of the formation, like pulling out a nail that was never meant to stay here."
+  },
+  {
+	"text": "I don’t argue. As I turn away, commands ring out behind me one after another. Shields slam together, the impact making the snow beneath them tremble."
+  },
+
+  {
+	"text": "The way back feels longer than the way here. Streets begin to close off, guards driving people indoors. Vendors pack up in a hurry. In the square, only the wind remains, sweeping through empty stalls."
+  },
+  {
+	"text": "Someone murmurs her name, then cuts themselves off at once—as if leaving the sentence unfinished might keep the ending from falling into place."
+  },
+
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" }
+	],
+	"text": "I return to the inn, slide the bolt into place, then drag a table up against the door."
+  },
+  {
+	"text": "The firelight jumps in the hearth, the cups are lined up neatly, but the room echoes with emptiness—like it’s missing a set of footsteps that should be here."
+  },
+  {
+	"text": "I force myself to stay busy: add firewood, wipe down the counter, place the short sword where my hand can reach it fastest. I finish once. Then I do it again."
+  },
+
+  {
+	"text": "Late into the night, sounds drift from the north through the fog—a dull roar, somewhere between a horn blast and collapsing stone. Then comes a long silence, so deep I can hear my own breath scraping through my throat."
+  },
+  {
+	"text": "I stand behind the counter, my knuckles whitening. Only then do I realize—I’ve been waiting for the possibility that she might come back."
+  },
+
+  {
+	"text": "Footsteps pass outside the door, messy and hurried. Voices murmur low, as if afraid to wake something."
+  },
+  {
+	"text": "I don’t open the door right away. I lean closer to the wood, catching fragments of conversation drifting in:"
+  },
+  {
+	"text": "“The North Gate… held.”"
+  },
+  {
+	"text": "“Not everyone made it back.”"
+  },
+  {
+	"text": "“Don’t ask… just go.”"
+  },
+
+  {
+	"text": "I slowly loosen the bolt—then slowly draw my hand back. The room is warm, but a chill creeps up my spine, inch by inch."
+  },
+  {
+	"text": "No one knocks on my door that night. No one finishes the story. But everyone in town seems to accept the same unspoken truth: the sun will rise tomorrow—and she will not walk back down this street."
+  },
+
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.0" }
+	]
+  }
+]

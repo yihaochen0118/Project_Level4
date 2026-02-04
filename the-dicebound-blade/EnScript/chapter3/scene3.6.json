@@ -1,0 +1,116 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "The first wave of customers pushes in before noon. Snowmelt is tracked across the floor, chair legs scraping in a series of small, popping sounds."
+  },
+  {
+	"text": "I’m still deciding who to serve first when Alicia ties an apron around her waist—like fastening the final clasp of armor."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Two tables of stew, one table of bread, one table of hot wine.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“How did you—”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I can smell it.”"
+  },
+  {
+	"text": "She lifts a tray and moves off. Her pace isn’t fast, but never wastes a step; the tray in her hands is so steady it might as well be nailed to the air."
+  },
+  {
+	"text": "Someone at one table laughs and shouts something crude in her direction."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“If you’re drinking, drink.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“If not, shut your mouth and don’t let the soup get cold.”"
+  },
+  {
+	"text": "The man’s grin stiffens. Someone beside him hastily tugs his sleeve. The whole table goes quiet, as if they’ve suddenly remembered a taboo."
+  },
+  {
+	"text": "She doesn’t look at them again. She sets down the wine, taps the table lightly with a finger."
+  },
+  {
+	"text": "A single *clink*—like striking a bell that means *this ends here*."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You’ll scare off customers if you do business like that.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I won’t.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“The ones who scare easily usually can’t afford to pay anyway.”"
+  },
+  {
+	"text": "After saying it, she actually seems a little satisfied—the briefest spark of something like *this is new*."
+  },
+  {
+	"text": "She turns to the next table, movements sharp and efficient, like switching formations."
+  },
+  {
+	"text": "Pouring drinks, refilling stew, taking money, wiping tables—each step looks drilled into muscle memory."
+  },
+  {
+	"text": "I hand her a plate of freshly cooked stew. When she takes it, her fingers brush mine, pausing for just a moment."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“See?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“This is what I want.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“What?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Not blades. Not blood.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You hand me a plate, I put it on a table—and then it’s done.”"
+  },
+  {
+	"text": "Her voice is light, but it feels like she’s forcing down the words *I haven’t lived like this in a long time*."
+  },
+  {
+	"text": "By mid-afternoon, the crowd thins. She slides the last coin into my palm, like turning in spoils after a fight."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Being the tavern mistress isn’t bad.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“At least the rules are simple here: customers are fed, drinks are hot, and you’re not hurt.”"
+  },
+  {
+	"text": "When she says *you’re not hurt*, her gaze drifts to my hand, unconsciously checking—like inspecting something she has to keep intact."
+  },
+  {
+	"text": "For a moment, she looks like she’s back in the role she’s truly good at—not serving plates, but guarding something and refusing to let it break, even at the cost of her life."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.7" }
+	]
+  }
+]

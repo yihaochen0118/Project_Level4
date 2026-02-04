@@ -1,0 +1,292 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "north_gate_battlefield" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "The wind finally stopped. The snow stopped as well. Outside the North Gate, only the crackling of dying embers remained, along with the soldiers’ disbelieving breaths."
+  },
+  {
+	"text": "The barrier’s blue light no longer collapsed. Like a string pulled taut again, it held steady around the outer wall."
+  },
+  {
+	"text": "The black mist left behind by the Demon King was scattered by the wind, revealing blasted snow and shattered stone—like a nightmare torn into pieces."
+  },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Player" }
+	],
+	"text": "I knelt in the snow, my hands still trembling. My fingertips touched something warm—not fire, but her body heat."
+  },
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "Alicia lay in his arms, her armor shattered halfway through, her silver hair damp with snow. Her eyes were closed, but she was still breathing."
+  },
+  {
+	"text": "The breathing was shallow, but not the kind that meant ‘she’s leaving’—it was more like someone who had finally allowed herself to sleep."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Alicia…?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Her eyelashes trembled slightly, as if confirming that what she heard wasn’t an illusion."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I heard it.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Heard what?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You said you’d wait for me.”"
+  },
+  {
+	"text": "She tried to lift her hand, her fingertips brushing his sleeve, like grabbing hold of a line that could pull her back."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“This time… I wasn’t alone.”"
+  },
+  {
+	"text": "Someone ran over, cloak whipping up snow."
+  },
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] },
+	  { "action": "show_name", "target": "Lucia" }
+	],
+	"text": "Lucia rushed forward. When she saw Alicia still alive, all the strength seemed to drain from her, and she nearly collapsed to her knees."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“Mentor… you’re still here… you’re really still here…”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia struggled to glance at her, her voice hoarse but clear:"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“This time, don’t cry.”"
+  },
+  {
+	"text": "Lucia nodded hard, but tears still pattered into the snow."
+  },
+  {
+	"text": "Battle mages rushed in to check the barrier, confirming that the rift was closing. Someone shouted “We did it!”, the sound carrying across the wall."
+  },
+  {
+	"text": "The soldiers didn’t cheer. They just stood there, as if they could finally lower their lives from their throats."
+  },
+  {
+	"text": "I held Alicia a little tighter, as if loosening my grip would let time steal her away again."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Let’s go home.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She froze for a moment, as if the word ‘home’ had never belonged to her."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“…Okay.”"
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" }
+	],
+	"text": "They walked back toward the town along the snowy road. A pale golden line began to appear on the horizon, as if dawn were being gently pried open."
+  },
+  {
+	"text": "People peeked out from the streets, doors opening a crack as they confirmed the monsters were truly gone."
+  },
+  {
+	"text": "As they passed the fountain square, a child ran up clutching a bag of freshly baked bread, panting, and shoved it into Alicia’s arms."
+  },
+  {
+	"text": "The child looked up at her, eyes shining like stars:"
+  },
+  {
+	"text": "“Big sister, you’re amazing! I want to be like you someday!”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia looked down at the steaming bag of bread, her fingers slowly tightening."
+  },
+  {
+	"text": "Her lips twitched, as if she wanted to smile but feared it would shatter if she did. In the end, she smiled anyway—for the first time, a real smile."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Then the first thing you need to learn—don’t overdo it.”"
+  },
+  {
+	"text": "I glanced at her sideways, as if seeing someone who had finally stepped out of the snow."
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" }
+	],
+	"text": "The tavern door was pushed open. The hearth fire was still burning. The familiar scent of wood rushed out to meet us."
+  },
+  {
+	"text": "This time, there was no crushing sense of countdown, no feeling of ‘next time.’ Only real exhaustion, and real warmth."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I set her down on a chair and hurried to fetch hot water and clean cloth."
+  },
+  {
+	"text": "Lucia helped in a fluster, muttering nonstop about how she could possibly push herself that hard."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“Mentor, if you ever rush out alone again—I’m really going to be angry!”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia closed her eyes and gave a soft “mm,” like she was admitting fault."
+  },
+  {
+	"text": "As I bandaged her, my fingers brushed the circular mark below her heart. It no longer darkened, no longer burned."
+  },
+  {
+	"text": "It seemed to have finally lost its grip on time, quietly fading away."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Is it… really over?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She opened her eyes and slowly nodded."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“It’s over.”"
+  },
+  {
+	"text": "She paused, as if finally setting down a weight she’d carried hundreds of times."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I don’t have to go back to three days ago anymore.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“And I don’t have to pretend it’s the first time I’ve met you.”"
+  },
+  {
+	"text": "The room fell silent for a few seconds. The fire popped softly, as if bearing witness for them."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Then what now?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia looked at him. The bloodshot lines in her eyes were still there, but the manic brightness was gone. In its place was something long-lost and warm."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Now—I want to learn how to live.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Not the kind of life that saves the world.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“The kind where I can space out, eat meals, and get scolded by you for making the soup too salty.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I laughed out loud, my eyes burning red: “If you dare put the salt back on the left side again—I’ll really complain.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She laughed too, softly—yet it felt like it melted the entire winter just a little."
+  },
+  {
+	"text": "Lucia sniffed beside them, then suddenly put on a stern face on purpose."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“What about me? Don’t I get a part too?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia reached out and ruffled her hair, the motion awkward but sincere:"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Of course you do. From now on… we do it together.”"
+  },
+  {
+	"text": "Late into the night, the tavern lights were not extinguished as early as usual."
+  },
+  {
+	"text": "They finished eating bread that had gone cold, and drank wine that should have been sold long ago."
+  },
+  {
+	"text": "No one mentioned ‘the loop.’ No one mentioned ‘next time.’"
+  },
+  {
+	"text": "Because this time, time itself was finally willing to move forward."
+  },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Player" }
+	],
+	"text": "I placed the brass dice back into the deepest drawer of the counter and closed it."
+  },
+  {
+	"text": "The dice no longer rolled. It lay still, like an ordinary piece of metal."
+  },
+  {
+	"text": "Outside the window, the snow fell softly, like a blessing."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia leaned back in the chair, eyes half-closed, her voice drowsy and soft:"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Tomorrow… I want to try being the boss lady.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Are you sure? You’ll scare the customers away.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Then I’ll keep just one customer.”"
+  },
+  {
+	"text": "She fell asleep right after saying that, her forehead gently resting against the table, finally safe."
+  },
+  {
+	"text": "I didn’t move. I stayed beside her and pulled her cloak over her."
+  },
+  {
+	"text": "The firelight reflected on her face—no longer like snow, no longer like a blade."
+  },
+  {
+	"text": "Like home."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene_end_happy" }
+	]
+  }
+]

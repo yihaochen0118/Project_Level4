@@ -1,0 +1,70 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "(3.4.1.0 — Success)"
+  },
+  {
+	"text": "I move around the table and lean closer to her. She’s slumped against the edge, breathing lightly—like she’s finally stolen a moment of peace."
+  },
+  {
+	"text": "I slide the candleholder aside, careful not to let the firelight sting her eyelids. Then I bend down slowly, slipping my arm beneath her shoulders. She’s lighter than I expected—so light it tightens something in my chest."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“…I’ll take you back to your room.”"
+  },
+  {
+	"text": "I carry her upstairs. Just as I reach the turn in the staircase, my foot slips—like I’ve stepped on a smear of leftover grease."
+  },
+  {
+	"text": "My heart drops. I don’t have time to steady myself; my knee hits the step first, and my whole body pitches forward."
+  },
+  {
+	"event": [{ "action": "shake", "target": "Player" }],
+	"text": "“Hng—!”"
+  },
+  {
+	"text": "I do everything I can to shield her, but she still jolts in my arms. Her eyelashes twitch sharply, and the next second she’s awake. Those grey-blue eyes gleam in the darkness—bright enough to be frightening."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“…What are you doing?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“I’m sorry! I—I slipped… I was trying to take you back to your room.”"
+  },
+  {
+	"text": "She looks at me. There’s no anger in her eyes—only the exhaustion of being dragged out of a rare moment of calm. She takes a deep breath, then steadies herself and steps out of my arms."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Don’t carry me.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I can walk.”"
+  },
+  {
+	"text": "She grips the railing. Her steps are unsteady, but stubborn. After two steps, she glances back at me—checking, as if to make sure I didn’t fall again."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Next time, don’t push yourself.”"
+  },
+  {
+	"text": "She pushes the door open and goes inside on her own. The door closes softly behind her—so lightly it still feels like being shut out."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I stand at the top of the stairs, rubbing my aching knee, a dull tightness spreading through my chest."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.5" }
+	]
+  }
+]

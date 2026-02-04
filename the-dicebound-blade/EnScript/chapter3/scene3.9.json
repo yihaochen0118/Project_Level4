@@ -1,0 +1,186 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "The morning of the third day arrived quickly. The snow had stopped for a while, leaving a thin layer of ice on the streets that creaked underfoot."
+  },
+  {
+	"text": "When I pushed open the inn door, there was a crisp metallic scent in the air—as if someone nearby had been sharpening a blade."
+  },
+  {
+	"text": "From the direction of the north gate came orderly footsteps, one after another, as if chaos itself were being stamped into rhythm."
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "north_gate" }
+	],
+	"text": "I followed the street to the open ground outside the north gate. The fog hadn’t fully lifted yet, and the barrier’s blue glow clung to the city wall like a thin membrane, gently undulating."
+  },
+  {
+	"text": "Dozens of soldiers were already gathered there, shields resting on the ground, spears standing upright. No one was joking—only the sound of breathing and the faint friction of armor."
+  },
+  {
+	"text": "They didn’t look like they were waiting for orders, but like they were waiting for someone who could make them believe they would survive until tonight."
+  },
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "Alicia stood at the very front. She wasn’t wearing the red dress from the banquet, nor the soft cloak. She wore light armor, sleeves cinched tight, as if preparing to do an utterly ordinary job."
+  },
+  {
+	"text": "Her hair was simply tied back. Her face was still pale, but her eyes were more ‘awake’ than the previous two days—a kind of clarity that pressed exhaustion down into the bones and left only action."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Everyone listen.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I don’t need passion, and I don’t need bravado. You just need to do as told.”"
+  },
+  {
+	"text": "She raised her hand and pointed to the center of the clearing. Her voice wasn’t loud, but it was steady enough to make people straighten unconsciously."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“First rank, raise shields—one arm’s length between each. Second rank, spears forward half a step. Thrust only, don’t pursue. Third rank, archers—switch to short, controlled shots. Don’t waste arrows.”"
+  },
+  {
+	"text": "The orders sounded memorized. She didn’t need to think about phrasing—only to speak the sequence."
+  },
+  {
+	"text": "The soldiers moved immediately. Shields slammed down with a dull thud, spears aligned in rows, archers repositioned swiftly. The formation tightened at the sound of her voice."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I stood at the edge of the crowd, my palms cold. Her proficiency wasn’t trained—it felt repeated."
+  },
+  {
+	"text": "She stepped into the formation and personally adjusted a recruit’s shield angle."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Don’t let it shake. If you shake, the person behind you dies.”"
+  },
+  {
+	"text": "The recruit’s face went pale, but he clenched his jaw and steadied himself."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Good. Remember how this feels. Do it exactly like this tonight.”"
+  },
+  {
+	"text": "She glanced up at the glow of the barrier, as if checking some invisible marker. Then she drew her sword."
+  },
+  {
+	"text": "The blade flashed—no flourish. She simply demonstrated the most basic sequence: thrust, retract, shift step."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Don’t learn how I cut. Learn how I pull back.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You have to survive—only then do you get another strike.”"
+  },
+  {
+	"text": "When she said ‘another time,’ her tone was as calm as saying ‘another meal.’ My chest tightened anyway."
+  },
+  {
+	"text": "The soldiers began to practice the movements. Shield walls advanced, spear lines pushed forward, footsteps gradually syncing. The wind beyond the north gate was still cold, but for the first time, the scene felt like there was a chance."
+  },
+  {
+	"text": "At that moment, soft running footsteps came from the nearby crowd."
+  },
+  {
+	"text": "Several children slipped out from the street corner, clutching cloth bundles and paper bags, like they had snuck out."
+  },
+  {
+	"text": "One child with braided hair approached timidly, standing on tiptoe to offer a small bundle."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I instinctively tried to stop them, but the child had already held the bundle out in front of her."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia lowered her gaze."
+  },
+  {
+	"text": "Inside the cloth were charred biscuit crumbs and a few candies, wrapped in crumpled paper."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Kid" }],
+	"text": "“Big sister… this is for you.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Kid" }],
+	"text": "“You looked so cool swinging your sword just now!”"
+  },
+  {
+	"text": "The surrounding soldiers tensed instinctively, as if afraid that this innocence would disrupt the rhythm."
+  },
+  {
+	"text": "But Alicia didn’t scold them. She fell silent for two seconds, as if forcing something back down her throat."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Thank you.”"
+  },
+  {
+	"text": "She took the bundle but didn’t eat it. Instead, she tied it to her waist—securely placed, not interfering with drawing her sword."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Go home. Don’t linger here.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Kid" }],
+	"text": "“Okay!”"
+  },
+  {
+	"text": "The child ran off, turning back to wave, as if they believed she was the one who would win in a story."
+  },
+  {
+	"text": "Alicia’s gaze followed the child for a brief moment, then quickly withdrew. She locked her emotions back into her armor."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Continue training.”"
+  },
+  {
+	"text": "She turned back to the formation, her voice returning to that calm, almost mechanical command."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Shield wall advance ten steps. Halt. Archers, two rounds of short shots. Halt. Spear line, fill gaps. Repeat.”"
+  },
+  {
+	"text": "The soldiers responded in unison, their movements steadier."
+  },
+  {
+	"text": "I stood in the fog, watching her move through the ranks—like someone breaking a disaster down into steps."
+  },
+  {
+	"text": "But I also knew this: the more orderly everything was, the more it felt like she had already seen exactly what was going to happen."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I suddenly wanted to rush over and ask her: how many times have you lived through mornings like this?"
+  },
+  {
+	"text": "But I didn’t. Because she was busy making everyone believe they would survive tonight."
+  },
+  {
+	"text": "And she herself—from the very beginning—had never counted ‘surviving’ as part of the plan."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.10" }
+	]
+  }
+]

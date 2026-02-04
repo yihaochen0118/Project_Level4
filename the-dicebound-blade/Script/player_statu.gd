@@ -1,10 +1,8 @@
 extends Control
 
 @onready var strength_label = $VBoxContainer/StrengthLabel
-@onready var dexterity_label = $VBoxContainer/DexterityLabel
 @onready var constitution_label = $VBoxContainer/ConstitutionLabel
 @onready var intelligence_label = $VBoxContainer/IntelligenceLabel
-@onready var wisdom_label = $VBoxContainer/WisdomLabel
 @onready var charisma_label = $VBoxContainer/CharismaLabel
 @onready var hp_bar = $HP/HpBar
 @onready var show_gear_button = $ShowGearButton
@@ -34,10 +32,8 @@ func _ready():
 
 func update_stats():
 	strength_label.text = "strength: %d" % PlayerData.get_stat("strength")
-	dexterity_label.text = "dexterity: %d" % PlayerData.get_stat("dexterity")
 	constitution_label.text = "constitution: %d" % PlayerData.get_stat("constitution")
 	intelligence_label.text = "intelligence: %d" % PlayerData.get_stat("intelligence")
-	wisdom_label.text = "wisdom: %d" % PlayerData.get_stat("wisdom")
 	charisma_label.text = "charisma: %d" % PlayerData.get_stat("charisma")
 
 

@@ -1,0 +1,173 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "— Noon."
+  },
+  {
+	"text": "The fog thins a little, and the street sounds return outside the window: hoofbeats, hawkers shouting, the echo of a blacksmith striking iron. The tavern finally feels like a “normal day” again."
+  },
+  {
+	"text": "I set the morning’s cups back in place and straighten the chair that was knocked askew. My knuckles still tingle faintly."
+  },
+  {
+	"text": "But the harder I try to return to routine, the more I realize that sense of certainty hasn’t faded—like a thin wire stretched tight in my mind, reminding me: she’s still upstairs."
+  },
+  {
+	"text": "Footsteps sound on the stairs. The third step—I hold my breath without thinking."
+  },
+  {
+	"event": [{ "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }]
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia comes downstairs."
+  },
+  {
+	"text": "She hasn’t put her armor back on, only draped her cloak loosely, like someone crawling out of a long dream. But her steps are steady—so practiced it feels like she belongs here."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Are you… alright?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“No.”"
+  },
+  {
+	"text": "She answers too bluntly, and it catches me off guard."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But at least today, I did one thing right.”"
+  },
+  {
+	"text": "Her gaze flicks to the injury on my face and lingers, like she’s inspecting something she absolutely must keep intact."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You didn’t get hit by the second punch.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You keep saying that—this ‘second punch’… what are you—”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Shh.”"
+  },
+  {
+	"text": "She raises one finger, like she’s stopping me from pushing open a door."
+  },
+  {
+	"text": "Then she does something even stranger—"
+  },
+  {
+	"text": "She places a candle on the counter. Then a second. Then a third."
+  },
+  {
+	"text": "The candles are new, still tied with thin string, as if she prepared them ahead of time."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“…What are you doing?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Inviting you to dinner.”"
+  },
+  {
+	"text": "She says it so casually, like she’s just borrowing a flame. But her eyes are tight—tight like she’s gripping a rope at the edge of a cliff."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You’re inviting me?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Yes.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Tonight. A candlelight dinner.”"
+  },
+  {
+	"text": "As if afraid I might refuse, her speech suddenly speeds up—she says more than before."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’ve missed you too many times.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Every time I tell myself: ‘Next time I’ll sound more normal,’ ‘next time I’ll make you smile first,’ ‘next time I won’t scare you.’”"
+  },
+  {
+	"text": "Halfway through, she seems to choke on her own words, her mouth twisting into something not quite a smile."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But next time is never enough.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“So this time, I’m not waiting.”"
+  },
+  {
+	"text": "Her fingertip taps lightly against the counter, like she’s finalizing a rule."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Wipe the table clean. Salt goes on the left.”"
+  },
+  {
+	"text": "When she says that, a glint—almost pride—flickers through her eyes, like she’s finally pinned reality in place with a small nail."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“…You even remember that.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I remember far more than that.”"
+  },
+  {
+	"text": "She pauses, as if carefully measuring how much truth would scare you away."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’ve got a task coming up.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I might be busy. I might get hurt. I might…”"
+  },
+  {
+	"text": "Her throat moves slightly. She swallows the rest, like saying it aloud would make it real."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“So tonight, I want to sit here and eat a meal like an ordinary person.”"
+  },
+  {
+	"text": "She looks straight at me now—no riddles, no detours."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Will you come?”"
+  },
+  {
+	"event": [
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  { "text": "Option A: Agree and prepare dinner (you want to know what she keeps ‘missing’)", "dc": 0, "check": "dexterity" },
+		  { "text": "Option B: Refuse her (something about this is deeply wrong, and you don’t want to be pulled in)", "dc": 10, "check": "dexterity" }
+		]
+	  },
+	  { "action": "hide_talk_ui" }
+	]
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "我把门闩的声音咽回喉咙里，披上外套跟了出去。夜风像刀，雪粒打在脸上生疼。"
+  },
+  { "text": "她走得很快，却没有回头——像早就默认我会跟上来，又像在赌我会停下。" },
+  { "text": "我压着脚步，尽量不让靴底在冰面上发出声响。很奇怪，我明明没学过潜行，却像早已练过无数次。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“跟紧。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“我不会拖你后腿。”"
+  },
+  { "text": "她没回答，只把斗篷的边缘往后拨了一下，让我能看清她手里的路线——不是街道，是“缝隙”。" },
+  { "text": "我们绕过两条亮着灯的街，钻进一段没人走的巷子。墙上结冰的铁钉像一排牙，空气里有淡淡的焦味。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“回音会的人在里面。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你要我做什么？”"
+  },
+  { "text": "她终于侧过脸看我一眼，那眼神很快，像在评估我有没有资格活到下一秒。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“守住巷口。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“如果有人跑出来——别硬拼，直接喊我名字。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“就这样？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“就这样。”"
+  },
+  { "text": "她把一小包东西塞进我手里：冷硬的粉末，像磨碎的骨。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“听我说清楚。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你要做的不是‘战斗’，是‘别让他们把你当成目标’。”"
+  },
+  { "text": "她说完就转身进了黑暗。斗篷一闪，像雪里切开的一道口子。"},
+  { "text": "巷子深处传来极轻的金属声——短促、精准，像把一段对话直接删掉。"},
+  { "text": "我背贴着墙，强迫自己不乱动。耳朵里只有心跳和雪落的声音。"},
+  { "text": "忽然，有人影踉跄冲出巷口。黑袍，胸口一圈暗色的环。"},
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“站住！”"
+  },
+  { "text": "我没冲上去，只把手里那包粉末朝他脚下一撒——粉末遇雪立刻冒出细白的烟。"},
+  { "text": "那人脚步一乱，呛得弯腰咳嗽。下一秒，一道银光从巷内掠出。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别碰他。”"
+  },
+  { "text": "她的剑尖点在对方喉前，干净利落，像把结局提前写好。"},
+  { "text": "黑袍人还想开口，她手腕一转——他就再也发不出声音。"},
+  { "text": "艾莉西亚把一条细链从他衣领里扯出来，链坠在火光下闪了一下。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不是它。”"
+  },
+  { "text": "她皱眉，像被浪费了时间。随后她抬眼看我，声音低，却很清晰。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你做得很好。”"
+  },
+  { "text": "那句夸奖很短，却像某种许可。她把链坠收进斗篷内侧。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“走。下一处。”"
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.8" }
+	]
+  }
+]

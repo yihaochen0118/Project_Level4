@@ -1,0 +1,242 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "【3.1.1.1｜拒绝·失败版本：艾莉西亚失控】"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“不行。”"
+  },
+  {
+	"text": "我把声音压得很低，像怕惊动什么。可这两个字落出去，反而像把某个东西唤醒了。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“……你说什么？”"
+  },
+  {
+	"text": "她的笑意停在脸上，像冻结的釉。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“我说不行。我不想——”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不想什么？”"
+  },
+  {
+	"text": "她往前一步，火光在她瞳孔里跳，亮得刺人。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“不想被你这样盯着，不想被你安排得像——像我不是我。”"
+  },
+  {
+	"text": "她眨了一下眼。那一瞬间，她像是终于听懂了“拒绝”这个词。"
+  },
+  {
+	"text": "然后——她笑了。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“哈。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“原来是这句。”"
+  },
+  {
+	"text": "她的声音轻得像自言自语，却带着一种诡异的兴奋，像命运终于按她熟悉的轨道转弯。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你……你到底怎么回事？”"
+  },
+  {
+	"text": "她没有回答。她抬手，把桌上的蜡烛一根根推倒。"
+  },
+  {
+	"text": "烛火“噗”地灭了一根，又灭一根。阴影像潮水涌上来，酒馆突然变得很窄。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你看。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你一拒绝，我就开始想——我还能用什么办法让你留下。”"
+  },
+  {
+	"text": "她的指尖抖得厉害，却不是害怕，是压抑不住的冲动。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我已经错过你太多次了。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“每一次我都告诉自己：下一次我会更温柔、更正常、更像‘第一次见面’。”"
+  },
+  {
+	"text": "她突然凑近，近到我能闻到她身上那股冷金属和烟灰混在一起的味道。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“结果你还是会拒绝我。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“我只是——”"
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Alicia" },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "“闭嘴。”"
+  },
+  {
+	"text": "她说得很轻，却像刀背拍在桌面上。"
+  },
+  {
+	"text": "她伸手摸向腰间的剑，动作很慢，像在给我时间后悔。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你听好。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你可以拒绝我。”"
+  },
+  {
+	"text": "她停顿一下，笑意裂开，露出一种近乎幼稚的狠劲。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“但你拒绝一次——我就去死一次。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你疯了？！你在威胁我？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不是威胁。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“是交易。”"
+  },
+  {
+	"text": "她把剑抽出一截，金属在火光里闪了一下。"
+  },
+  {
+	"text": "我下意识后退，脚跟撞到椅子，椅脚在地上划出刺耳的声。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我死了就会回来。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“回来之后，我会再来找你。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我会一次比一次更紧地抓住你。”"
+  },
+  {
+	"text": "她的眼神亮得发烫，像把自己也烧进去。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“直到你答应。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你想要的到底是什么？！”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“永远在一起。”"
+  },
+  {
+	"text": "她说得非常平静，平静得让我毛骨悚然。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不是今晚。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“是每一次夜晚、每一次早晨、每一次你擦杯子的第三圈。”"
+  },
+  {
+	"text": "她的声音忽然发软，像把刀藏进了糖里："
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你不肯给我，我就自己来拿。”"
+  },
+  {
+	"text": "她把剑尖对准自己胸口，动作稳得不像威胁，像演练过无数次。"
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Player" },
+	  { "action": "show_name", "target": "Player" }
+	],
+	"text": "“别——！”"
+  },
+  {
+	"text": "我伸手想拦，她却突然笑了，像终于抓到我会慌的证据。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你看。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你还是会在意我。”"
+  },
+  {
+	"text": "她把剑慢慢收回鞘里，像收起一个随时能按下去的开关。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“所以别再拒绝我。”"
+  },
+  {
+	"text": "她转身上楼，步伐快而轻，像怕我反悔。"
+  },
+  {
+	"text": "走到楼梯口，她停住，终于回头看我一眼。那眼神又甜又凶，像诅咒。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“今晚你不用来。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我会下楼把你‘请’过去。”"
+  },
+  {
+	"text": "她笑着上楼了。"
+  },
+  {
+	"text": "我站在原地，背脊发冷。"
+  },
+  {
+	"text": "我终于明白一件事：她不是在追求我。她是在把我从世界里拆出来，塞进她唯一还能抓住的“永远”。"
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.2" }
+	]
+  }
+]

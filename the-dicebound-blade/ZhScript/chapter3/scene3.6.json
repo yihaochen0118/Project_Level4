@@ -1,0 +1,100 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "午前的第一波客人挤进来，雪水被带上地板，椅脚摩擦声像一串小小的爆裂。"
+  },
+
+  { "text": "我还在想该先招呼谁，艾莉西亚已经把围裙往腰上一系，像系上铠甲的最后一扣。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“两桌炖汤，一桌面包，一桌热酒。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你怎么——”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“闻得到。”"
+  },
+
+  { "text": "她端起托盘就走，步子不快，却从不多一步；托盘在她手里稳得像钉在空中。" },
+
+  { "text": "客人里有人笑着起哄，指着她说了句轻佻的话。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“要喝就喝。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不喝就把嘴闭上，别让汤凉。”"
+  },
+
+  { "text": "那人笑容僵住，旁边的人赶紧扯他袖子。整桌忽然安静得像突然想起了某条禁忌。"},
+  { "text": "她没再看他们一眼，放下酒杯，手指轻轻一扣桌面。叮的一声，像敲响了“到此为止”。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你这样做生意，会把客人吓跑的。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不会。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“会被吓跑的，通常也付不起钱。”"
+  },
+
+  { "text": "她说完，竟像满意了一点点——那种“终于有点新鲜”的满足，短得像火星。"},
+  { "text": "她转身又去招呼下一桌，动作利落得像在切换阵型。"},
+  { "text": "递酒、添汤、收钱、擦桌——每一步都像按流程演练过无数遍。" },
+
+  { "text": "我给她递了一盘刚出锅的炖菜，她接过去时手指触到我的指尖，停了一瞬。" },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你看。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“这就是我想要的。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“什么？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不是刀，不是血。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“是你递给我一盘菜，然后我能把它放在桌上——事情就结束了。”"
+  },
+
+  { "text": "她的语气很轻，却像把一句“我太久没过这种日子了”硬压在舌根底下。" },
+
+  { "text": "忙到午后，客人渐少。她把最后一枚硬币推回我掌心，像把战利品上交。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“当老板娘挺好。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“至少这里的胜负很简单：客人吃饱、酒够热、你没受伤。”"
+  },
+
+  { "text": "她说“你没受伤”时，眼神不自觉地落在我手上，像在检查一件她必须保住的东西。"},
+  { "text": "那一瞬间，她又像回到她真正擅长的岗位——不是端盘子，而是守住什么，死也不让它碎。"},
+ {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.7" }
+	]
+  }
+]

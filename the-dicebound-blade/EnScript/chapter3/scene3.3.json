@@ -1,0 +1,354 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "Let’s stop circling around it."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You want to know why I know you, why I understand you better than you understand yourself—and why I’ve become like this.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Yes.”"
+  },
+
+  {
+	"text": "The candle pops softly. Her shadow wavers on the wall, as if another person is listening too."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’m cursed.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“A long time ago, I fought the demon kind. My final blow pierced the core of the Lord of Broken Dreams.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“As it died, it left something behind—not a wound, but a curse.”"
+  },
+
+  {
+	"text": "Her fingers tap lightly against the tabletop, like she’s calibrating the rhythm of some invisible machine."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Every time I die, time resets to three days earlier.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“The town. You. Everyone—reset.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Only I come back with my memories.”"
+  },
+
+  {
+	"text": "When she says ‘come back,’ it sounds more like ‘dragged back into a cell.’"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Then… how many times have you looped?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“One hundred and twenty-seven times.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“And you—every single time—forget everything.”"
+  },
+
+  {
+	"text": "She smiles. The smile is too clean, like a blade scraping across bone."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I have to admit something.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“At first, I didn’t come here to save the town.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Then why did you come?”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“To find the leader of the Echo Conclave.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“And take his token—a necklace.”"
+  },
+
+  {
+	"text": "She forms a ring with her fingers, the gesture practiced, like she’s torn it from someone’s neck countless times."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“That necklace isn’t a keepsake. It’s a key.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“The Demon King that will invade in a few days has a ‘core.’”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I have to force the necklace into that core—”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“—and detonate it from the inside.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“That’s the only way to kill it, and cut off the curse’s rewind.”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“That sounds like suicide.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“It is.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But it’s the only death I’ve found that doesn’t bring me back.”"
+  },
+
+  {
+	"text": "She says it calmly—like reciting a menu. But her fingers tremble around the cup, not from fear, but from excitement tangled with exhaustion."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Then… what do I have to do with any of this?”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You’re my anchor.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Every time I come back, the world scrubs me thinner.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Only you remind me that I’m still human.”"
+  },
+
+  {
+	"text": "She pushes the cup away, as if afraid her next words might set the table on fire. Then—you can feel it—she starts talking more, far more, like she’s finally caught an audience that won’t vanish immediately."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’ve missed you so many times.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Not just days.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Loop after loop. Three days at a time. Dying again and again.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I even memorized the rhythm of how you wipe your glasses.”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I know you keep the salt on the left.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I know you pause at the third step on the stairs.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I know you pretend to stay calm when you see me—then your fingers start to shake.”"
+  },
+
+  {
+	"text": "As she speaks, she watches your hands, as if verifying an answer sheet written long ago. Worse—you really do start shaking."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“…What do you want me to do?”"
+  },
+
+  {
+	"text": "The candle flickers. Her red dress glows like blood in the firelight. She suddenly smiles—sweet, and sharp, with the cruelty of a jinx."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I haven’t always been this ‘responsible.’”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“In some loops, I said it out loud.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I told you: come with me.”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Not ‘let’s figure it out together.’ Not ‘help me finish the mission.’”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I meant: run away with me.”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“To some unfamiliar city.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Anywhere—as long as the map doesn’t have this town’s name on it.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Let the town fall. Let the barrier shatter. Let the monsters come.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I didn’t care. I was tired. Or maybe—I was scared.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“As long as you were with me, it was enough.”"
+  },
+
+  {
+	"text": "Her throat catches, as if she’s just realized she said something unforgivable. She clenches the napkin, knuckles whitening."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But every time, you didn’t go.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Every time, you looked at me and said: we can’t.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You said: there are still people in this town.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You said: you’re not that kind of person.”"
+  },
+
+  {
+	"text": "She recites those lines like memorized scripture—heard too many times, repeated too often. Her eyes redden, not with tears, but with the pain of being forced back into place."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You pull me back every time.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Back from ‘as long as you live, nothing else matters.’”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You forget.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But every time, you wake me up.”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“So I believe this time won’t be different.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I won’t abandon the town.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’ll take the necklace. I’ll force it into the Demon King’s core. I’ll stake my own life with it.”"
+  },
+
+  {
+	"text": "She suddenly leans closer, tearing away every ‘mission briefing’ and exposing the most private page underneath. This isn’t a request—it’s a demand."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But I want you to love me.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Not because I saved you.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But because I truly… have nothing else left to hold on to.”"
+  },
+
+  {
+	"text": "As if realizing she’s said too much, she violently pulls her emotions back, forcing herself into that familiar shell of composure. The harder she forces it, the colder it feels."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’ll save the town.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Not because I’m noble.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But because you’ll be watching me.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You’ll remind me that I once wanted to be a good person.”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“So don’t leave.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Don’t let me choose the version where we run away.”"
+  },
+
+  {
+	"text": "The candle flickers again. You finally understand: she’s placed the final brake in your hands—and she herself is barely able to hold it anymore."
+  },
+
+  {
+	"event": [{ "action": "change_scene", "target": "scene3.4" }]
+  }
+]

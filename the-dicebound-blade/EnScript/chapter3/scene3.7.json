@@ -1,0 +1,141 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "The night pressed down low. Outside the window, the sound of snow was like fine sand. Only one lamp remained lit in the inn, and the fireplace glow warmed the edge of the table."
+  },
+  {
+	"text": "After the guests had left, I slid the door bolt into place. The last bit of soup in the pot was still bubbling, but most of its aroma seemed to have been swallowed by the night."
+  },
+  {
+	"text": "Alicia stood by the counter, having changed back into her familiar cloak. She didn’t rush to leave, as if waiting for me to finish the last thing at hand."
+  },
+  {
+	"text": "Her movements were steady—too steady for someone who had just been carrying plates moments ago. The novelty of being a ‘boss lady’ was like a thin sheet of paper, already folded back into her pocket."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You’re heading out?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Yeah.”"
+  },
+  {
+	"text": "She tightened her gloves, her knuckles turning faintly pale."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I need to deal with the Echo Circle.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Now? This late?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“The later, the better.”"
+  },
+  {
+	"text": "She said it crisply, like naming a required stop along the way."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“What are you going to do?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Take something.”"
+  },
+  {
+	"text": "She paused, as if forcibly pulling the most important word out of her throat."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Their leader’s token. A necklace.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You’re getting it tonight?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Yes.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“If I don’t, everything up to now is wasted.”"
+  },
+  {
+	"text": "She fastened her cloak and looked up at me. There was no hesitation in her eyes—only the clarity of someone forced to the end."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I don’t want to drag this out anymore.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“That’s dangerous.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I know.”"
+  },
+  {
+	"text": "She suddenly stepped closer, closing the distance. Not a threat—more like urgency. She needed me to listen."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I don’t need you to prove you’re brave.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I need you alive.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You say that every time.”"
+  },
+  {
+	"text": "The moment the words left my mouth, I realized—I shouldn’t have said ‘every time.’"
+  },
+  {
+	"text": "Her pupils tightened slightly, then relaxed again, as if she finally accepted that she was pulling me into this."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“…Yes.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Because I really don’t have much left to lose.”"
+  },
+  {
+	"text": "She placed a cold metal clasp in my palm—not a gift, but a stopper. A way of saying: if I don’t come back, don’t follow."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Bolt the door.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Don’t act on impulse.”"
+  },
+  {
+	"text": "She turned to leave. Her footsteps were light, but it felt like she took half the air in the room with her."
+  },
+  {
+	"event": [
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  { "text": "Option A: Follow her (you don’t want to be left behind again)", "dc": 10, "check": "dexterity" },
+		  { "text": "Option B: Stay at the inn (you promise to live—for now—but you’ll prepare a backup plan)", "dc": 0, "check": "dexterity" }
+		]
+	  },
+	  { "action": "hide_talk_ui" }
+	]
+  }
+]

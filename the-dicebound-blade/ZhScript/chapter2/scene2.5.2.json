@@ -1,0 +1,134 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "我把话咽回去。现在不是逼问的时候。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“先回旅店。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "露西亚立刻点头，紧张得指尖都在发白：“好……我们走。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "艾莉西亚没反对，只低低“嗯”了一声。"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "她把那枚环形信物塞进斗篷内侧，动作熟练得像在收起一件用过太多次的工具。"
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "town_snow_street" }
+	],
+	"text": "我们离开废铁巷。雾和雪贴在脸上，街灯的光像被揉碎的金粉。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“导师……你别走那么快。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "露西亚追上去，把艾莉西亚的斗篷边缘往上拉，像怕风从缝里钻进去，把她最后一点热也带走。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "我压低声音问露西亚：“她经常这样……一个人冲进去？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "露西亚咬着唇，迟疑了一秒，还是点头：“她觉得……越少人知道，越安全。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“那她呢？她就不算人？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "露西亚的眼圈一下红了：“她把自己当工具……很久了。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "前面，艾莉西亚忽然停了一下，像听见了我们的话。她没有回头，只是把脚下的雪碾得更碎。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别在路上说这些。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你总得让人知道你在做什么。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“知道了也帮不上。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "她的语气很平，平得像在陈述一条不会改变的规则。"
+  },
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" }
+	],
+	"text": "旅店的灯火出现在雾里。门一推开，暖意扑面而来。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "露西亚赶紧把艾莉西亚往火边带：“你坐下，我去拿热水——你手好冷。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“不用。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“要的。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "露西亚几乎是硬把她按在椅子上，然后小跑进后厨。艾莉西亚看着火光，眼神空了一瞬，像差点忘了自己该怎么坐着休息。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "我把门栓插好，转身看她：“你刚才说‘明天还用得上’。你打算再去一次？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她抬眼，疲惫里带着一点不耐：“你不是决定不追问吗？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“我决定先把你带回来。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "她沉默片刻，像是在权衡要给多少：“……我需要确认一些东西。仅此而已。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "她把视线移开，像怕再多说一个字，就会把某个裂口撕得更大。"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "露西亚端着热水回来，放到她手边，小心翼翼地说：“你先喝一点，别逞强。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“……嗯。”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "这声“嗯”轻得几乎听不见，但至少不是拒绝。"
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene2.6" }
+	]
+  }
+]

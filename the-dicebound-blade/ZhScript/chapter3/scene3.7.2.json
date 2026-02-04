@@ -1,0 +1,113 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "我没有跟出去。门关上的那一瞬间，我就后悔了——但我还是把门闩插得更深，像在和自己的冲动较劲。"
+  },
+  { "text": "壁炉火苗跳了跳，我盯着那点光，努力说服自己：她不需要我。她从来都不需要任何人。"},
+  { "text": "可安静太折磨人。每一声木柴爆响，都像远处有人在打斗；每一阵风声，都像有人在门外停步。"},
+  { "text": "我站起又坐下，坐下又站起，最后干脆把桌子擦了三遍，把酒杯摆回同一个角度。"},
+  { "text": "我不知道我在等什么——直到楼梯传来轻轻的脚步声。"},
+  { "text": "那脚步很稳、很熟，像把一条路走过上百次。"},
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "艾莉西亚从楼梯阴影里出现。斗篷边缘沾着雪，指节有一道新鲜的血痕。"
+  },
+  { "text": "她没有看我，像是怕一对视就会多出不必要的情绪。"},
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你回来了。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“嗯。”"
+  },
+  { "text": "她把一样东西丢在柜台上。金属撞木面的声音很轻，却让我心口一紧。"},
+  { "text": "那是一枚环形信物，边缘有烧蚀过的痕迹，像从火里硬扯出来的。"},
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“这是……回音会的？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“他们的标记。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我去了一趟，省得他们按老套路来。”"
+  },
+  { "text": "她说得像在讲一件微不足道的小事，可她的肩线却明显绷着——那是强撑后的疲惫。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“真的麻烦。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你又一个人去？”"
+  },
+  { "text": "她终于抬眼看我一瞬，那眼神没有责备，只有一种“别把这事复杂化”的冷静。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你留在这儿是对的。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你要是跟来，我得分心护着你。”"
+  },
+  { "text": "她停了一下，像把更直白的话硬吞回去。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“我不想再多一个变量。”"
+  },
+  { "text": "她把那枚信物推近一点，指尖微微发抖。她立刻收回手，像怕我看见。"},
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你受伤了？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“小伤。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“别问过程。”"
+  },
+  { "text": "她把斗篷往肩上一拉，像要把血味也一起藏起来。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“回音会这条线，我会处理。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你只要把店守住，把你自己守住。”"
+  },
+  { "text": "她说完这句话，呼吸才像终于落回胸腔。然后她把信物收起，转身要上楼。"},
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“你明天还要出去？”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“明天是最终决胜了。”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“事还没完。”"
+  },
+  { "text": "她走到楼梯口，忽然停住，像终于允许自己泄一点点气。"},
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“你今晚做得很好。”"
+  },
+  { "text": "那不是夸奖，更像一种确认：你活着，而且没被卷进去。"},
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.9" }
+	]
+  }
+]

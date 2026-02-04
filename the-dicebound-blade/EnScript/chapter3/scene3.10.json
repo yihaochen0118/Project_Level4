@@ -1,0 +1,259 @@
+[
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "show_talk_ui" }
+	],
+	"text": "Night settled in, yet the wind was unusually quiet. Only a trace of chill slipped through the inn’s window cracks. The fireplace burned steadily, as if deliberately pretending that tonight was just another ordinary night."
+  },
+  {
+	"text": "I closed the inn earlier than usual, flipping the ‘Open’ sign to its back. When the last guest left, he even glanced back—he probably felt it too: the town was far too quiet tonight."
+  },
+  {
+	"text": "I wiped the tables spotless and brought out the best plates. The food wasn’t extravagant, but I put all my skill into it: hot soup, roasted meat, bread, and the slightly sour jam she likes. One candle after another was lit, their flames beating like tiny hearts."
+  },
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "The stairs creaked once. Alicia came down."
+  },
+  {
+	"text": "She had changed into clean clothes, her cloak neat and orderly. She still looked tired, but the fatigue had been arranged into something presentable—like a warrior hiding wounds beneath armor."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You made all this?”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You were busy all day. At least have a proper meal.”"
+  },
+  {
+	"text": "She stared at the food, as if looking at a kind of tenderness that shouldn’t belong to her. When she sat down, her movements were light, as if afraid of waking even the candlelight."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Today… was good.”"
+  },
+  {
+	"text": "She spoke slowly, as if every word had to pass through her throat first to make sure it wouldn’t shatter."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You don’t sound like someone who’d say that.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I wasn’t, to begin with.”"
+  },
+  {
+	"text": "She lifted the soup bowl and took a sip. Steam lingered on her lashes for a moment, like snow that almost fell."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You know, I used to think eating was a waste of time.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Fighting, marching, killing enemies… as long as I stayed alive, that was enough.”"
+  },
+  {
+	"text": "She set the bowl down, her fingers rubbing the rim of the cup, as if tracing a memory from long ago."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Later I realized—the truly tormenting thing isn’t the battlefield.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“It’s repetition.”"
+  },
+  {
+	"text": "The candle flame flickered gently, as if it had overheard a secret it shouldn’t have."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Are you leaving again?”"
+  },
+  {
+	"text": "She didn’t answer right away. She looked up at me, her gaze not hiding for the first time—there was something hard to name inside it: not a request, not a command, but a kind of admission."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Yes.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I have to end it.”"
+  },
+  {
+	"text": "She paused, as if making a decision—to not stop halfway this time."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’ll tell you the simplest truth.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“No matter how many times the loop repeats—I will come find you.”"
+  },
+  {
+	"text": "My throat tightened. Candlelight stretched her shadow along the wall, long like a road."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Why me?”"
+  },
+  {
+	"text": "She smiled softly, as if replacing the blade’s edge in its sheath with honesty."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Because you straighten the plates.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Because when I’m unreasonable, you still serve me soup.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Because when you see someone like me… you still ask if I’m tired.”"
+  },
+  {
+	"text": "Her voice dropped here, as if afraid that saying too much would make her break."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“In many cycles… I tried to give up.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I tried taking you away—to a strange city, leaving this town, leaving the north gate, leaving that damned oath.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I even thought—let it all be destroyed. As long as you were by my side.”"
+  },
+  {
+	"text": "She stared at the tabletop, knuckles whitening. It wasn’t a threat—it was shame. Shame for having thought that way."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But every time… it was you who pulled me back.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Not with logic.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But with that… clumsy, stubborn kindness of yours.”"
+  },
+  {
+	"text": "She looked up, eyes red, but she refused to let the tears fall. Like on the battlefield, she bit down on herself."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“So this time is the same.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I won’t abandon the town.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’ll defeat the Demon King, shove that chain into its core, and blow the loop apart.”"
+  },
+  {
+	"text": "She reached across the candlelight and took my hand. Her hand was cold, but her grip was tight—like clutching the last rope that wouldn’t break."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“After the loop is broken—I’ll come find you again.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Not because of a mission.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Because I want to.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I want to live in a morning that doesn’t have to be repeated.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I want you to remember me.”"
+  },
+  {
+	"text": "She took a breath and finally let the words land—melodramatic like an oath, blunt like a plea."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“So listen carefully.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Even if I die a hundred times, a thousand times—I will come back here.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I will push open this door.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I will find you.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Until the Demon King falls, until the loop shatters, until I can finally treat ‘tomorrow’ as tomorrow.”"
+  },
+  {
+	"text": "Her voice trembled slightly. Not from fear of battle, but from fear that even if she won, she might never see me again."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You don’t have to promise me anything great.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Just—don’t treat me like a dream.”"
+  },
+  {
+	"text": "Outside, the wind remained still—so still it felt like the world was holding its breath. The firelight reflected in her eyes, and in that moment, she looked like an ordinary person—like someone who finally dared to admit she was afraid."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I squeezed her hand back, my throat dry. “Then promise me one thing too.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Say it.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“After you win… come back and eat.”"
+  },
+  {
+	"text": "She froze for half a second, then smiled. The smile was fragile, but real."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Okay.”"
+  },
+  {
+	"text": "At that moment, the candlelight flared a little brighter—as if sealing this quiet scene with a stamp."
+  },
+  {
+	"text": "And I finally understood: the calm before the storm isn’t the absence of wind—it’s the wind waiting for her to step outside."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "scene3.11" }
+	]
+  }
+]

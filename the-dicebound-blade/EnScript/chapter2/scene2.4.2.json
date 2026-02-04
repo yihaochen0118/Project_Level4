@@ -1,0 +1,126 @@
+[
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "set_background", "target": "tavern_morning" }
+	]
+  },
+  {
+	"event": [{ "action": "show_talk_ui" }],
+	"text": "After Alicia left, the inn became unnaturally quiet. All that remained was the fire, the drip of melting snow, and my own breathing."
+  },
+  {
+	"text": "I tried to do what she told me—slide the bolt into place, tend to the injury on my face, pretend everything was normal."
+  },
+  {
+	"text": "But the harder I tried to be “normal,” the louder last night’s words echoed in my head—“the thirty-seventh time.”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"…What is she actually going to do?\""
+  },
+  {
+	"event": { "action": "hide_name" },
+	"text": "I set the rag down and felt for the short sword beneath the counter. It was cold—like a reminder that I was afraid."
+  },
+
+  {
+	"text": "I told myself I was just going to the market to make sure she was safe. Just to check, then come back."
+  },
+
+  {
+	"event": [
+	  { "action": "set_background", "target": "tavern_empty" }
+	],
+	"text": "I locked the door and hurried along the snow-soaked street. The market ahead was loud, but I spotted her immediately—silver hair stood out too much."
+  },
+
+  {
+	"text": "I followed at a distance, not daring to get too close. The way she bought things felt like executing a checklist—no small talk, no hesitation, not a single word wasted."
+  },
+
+  {
+	"event": [
+	  { "action": "set_background", "target": "market" }
+	],
+	"text": "Hiding behind a row of stalls, I watched her place potions, sealing talismans, and bandages into her bag one by one. When a vendor tried to raise the price, she didn’t even look at him—and he lowered it on his own."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"She’s different today… like a completely different person.\""
+  },
+  {
+	"event": { "action": "hide_name" },
+	"text": "I was about to step forward when I saw her turn toward the pine-lined stone road leading back to the inn."
+  },
+
+  {
+	"event": [
+	  { "action": "set_background", "target": "pine_forest_road" }
+	],
+	"text": "The wind was colder here, tree shadows swaying across the snow. I quickened my pace, about to call out to her—when I heard a dull thump beneath my feet."
+  },
+
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "DreamBeast", "pos": [420, 0] },
+	  { "action": "show_name", "target": "DreamBeast" },
+	  { "action": "shake", "target": "DreamBeast" }
+	],
+	"text": "The soil split open. A stone-shelled beast emerged, its green-lit eyes fixed straight ahead—not on me, but on her."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"Damn it—!\""
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"I told you not to stop near the treeline.\""
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "She didn’t turn around, like she’d known all along that I was behind her. Then she drew her sword—clean and decisive, like harvesting. A flash of silver."
+  },
+
+  {
+	"event": [
+	  { "action": "play_sfx", "target": "slash" },
+	  { "action": "shake", "target": "DreamBeast" }
+	],
+	"text": "The beast barely lifted itself before she forced it back into the ground with a single strike. The second blow fell, shattering the stone shell and snuffing out the green light."
+  },
+
+  {
+	"event": [{ "action": "remove_character", "target": "DreamBeast" }],
+	"text": "It dissolved into black smoke and sank back into the soil, leaving only a scorched ring behind."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Why did you follow me? Worried about me?\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "\"I… was worried.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She sighed, her tone not harsh at all. \"It’s always like this. You’re just too kind.\""
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "\"Come on. Let’s go. Don’t stare at the scorched ground.\""
+  },
+
+  {
+	"event": [
+	  { "action": "hide_talk_ui" },
+	  { "action": "change_scene", "target": "scene2.5" }
+	]
+  }
+]

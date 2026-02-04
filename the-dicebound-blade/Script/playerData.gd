@@ -21,10 +21,8 @@ func _ready():
 # 六大能力值（基于 D&D 风格）
 var stats = {
 	"strength": 2,      # 力量（Strength）：近战、威慑、体能对抗
-	"dexterity": 4,     # 敏捷（Dexterity）：潜行、闪避、远程攻击
 	"constitution": 3,  # 体质（Constitution）：耐力、生命力、抵抗力
 	"intelligence": 5,  # 智力（Intelligence）：分析、调查、知识
-	"wisdom": 2,        # 感知（Wisdom）：察觉、洞察、判断
 	"charisma": 3       # 魅力（Charisma）：交涉、表演、说服
 }
 
@@ -196,10 +194,8 @@ func reset_all_data():
 	max_hp = 100
 	stats = {
 		"strength": 2,
-		"dexterity": 4,
 		"constitution": 3,
 		"intelligence": 5,
-		"wisdom": 2,
 		"charisma": 3
 	}
 	flags.clear()
