@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "north_gate_battlefield" },
+	{ "action": "unlock","target": "3_12" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "风终于停了。雪也停了。北门外只剩残火的噼啪声，和士兵们不敢相信的喘息。"

@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" },
+				{ "action": "unlock","target": "2_6_1" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "她的命令很清楚：回去。"

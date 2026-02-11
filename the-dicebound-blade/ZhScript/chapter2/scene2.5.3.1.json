@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "underground_entrance" },
+				{ "action": "unlock","target": "2_5_3" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "我假装跟上去，却在最后一阶台阶前停住——这地方不对劲，我想看清楚一点。"

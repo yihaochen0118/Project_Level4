@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern" },
+	{ "action": "unlock","target": "3_5" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "清晨的雾还贴在窗上，铃铛轻响，冷空气钻进来，把昨夜的残温一刀切开。"

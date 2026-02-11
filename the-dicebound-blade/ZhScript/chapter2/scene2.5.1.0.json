@@ -3,6 +3,7 @@
 	"event": [
 	  { "action": "set_background", "target": "underground_entrance" },
 	  { "action": "show_talk_ui" },
+			{ "action": "unlock","target": "2_5_1" },
 	  { "action": "show_name", "target": "Player" }
 	],
 	"text": "我没忍住，盯着她的眼睛追问：“这到底是哪里？你为什么好像很熟悉这里？”"

@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" },
+	{ "action": "unlock","target": "3_9" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "第三天的早晨来得很快。雪停过一阵，街面结了一层薄冰，踩上去“咯吱”作响。"

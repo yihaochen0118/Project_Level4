@@ -8,10 +8,10 @@
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
 offset_right = 1962.0
-offset_bottom = 1078.0
+offset_bottom = 1080.0
 
 [node name="GameTree" type="Control" parent="ScrollContainer"]
-custom_minimum_size = Vector2(1960, 3000)
+custom_minimum_size = Vector2(1960, 3200)
 layout_mode = 2
 script = ExtResource("1_kpcvo")
 
@@ -61,7 +61,128 @@ points = PackedVector2Array(1008, 71, 1008, 144)
 width = 3.0
 default_color = Color(0.1254902, 0.8666667, 1, 1)
 
+[node name="Line2D12" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(1, 896)
+points = PackedVector2Array(1008, 71, 1008.0001, 99.843704, 1008, 144)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D17" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(0, 1536)
+points = PackedVector2Array(1008, 40, 1008.0001, 99.843704, 1008, 144)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D18" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(0, 1664)
+points = PackedVector2Array(1008, 71, 1008.0001, 99.843704, 1008, 144)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D21" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(2, 2047)
+points = PackedVector2Array(1008, 71, 1008.0001, 99.843704, 1008, 110)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D23" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(0, 2472)
+points = PackedVector2Array(1008, 71, 1008.0001, 99.843704, 1008, 110)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D43" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(0, 2880)
+points = PackedVector2Array(1008, 71, 1008.0001, 99.843704, 1008, 110)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D44" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(314.27142, 2928)
+scale = Vector2(0.7285714, 1)
+points = PackedVector2Array(984, 88, 1016, 88, 1040.0197, 88, 1040.0197, 56, 1149.8236, 56, 1149.8236, 88, 1149.8236, 120, 1040.0197, 120, 1040.0197, 56, 1149.8236, 56, 1149.8236, 88, 1193.7451, 88)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D24" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(0, 2792)
+points = PackedVector2Array(1008, 71, 1008.0001, 99.843704, 1008, 110)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D45" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(224, 2944)
+points = PackedVector2Array(1008, 72, 1072, 72, 1072, 72)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D46" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(336, 2944)
+points = PackedVector2Array(1008, 72, 1072, 72, 1072, 72)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D47" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(448, 2944)
+points = PackedVector2Array(1008, 72, 1072, 72, 1072, 72)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D48" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(552, 2944)
+points = PackedVector2Array(1008, 72, 1072, 72, 1072, 72)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D49" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(656, 2944)
+points = PackedVector2Array(1008, 72, 1072, 72, 1072, 72)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D50" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(672, 2920)
+points = PackedVector2Array(1072, 24, 1072, 72, 1072, 72)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D52" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(576, 2800)
+points = PackedVector2Array(1072, 24, 1016, 24, 1016, 24)
+width = 3.0
+default_color = Color(0.7328092, 0.0005038327, 0.7523081, 1)
+
+[node name="Line2D53" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(824, 2800)
+points = PackedVector2Array(1072, 24, 1016, 24, 1016, 24)
+width = 3.0
+default_color = Color(0.7577393, 0.0017302042, 0.91274387, 1)
+
+[node name="Line2D54" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(672, 2704)
+points = PackedVector2Array(1072, 24, 1000, 24, 1000, -24)
+width = 3.0
+default_color = Color(0.67663896, 0.00016633987, 0.6168782, 1)
+
+[node name="Line2D51" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(672, 2816)
+points = PackedVector2Array(1144, -136, 1144, -88, 1072, -88, 1072, 72, 1144, 72, 1144, -56, 1000, -56, 1000, 72, 1072, 72, 1072, 72)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D22" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 2121)
+points = PackedVector2Array(1008, 71, 1008.0001, 99.843704, 1008, 128)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
 [node name="Line2D5" type="Line2D" parent="ScrollContainer/GameTree/line"]
+points = PackedVector2Array(1008, 455, 1008, 488, 944, 488, 944, 528)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D25" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(0, 640)
 points = PackedVector2Array(1008, 455, 1008, 488, 944, 488, 944, 528)
 width = 3.0
 default_color = Color(0.1254902, 0.8666667, 1, 1)
@@ -71,12 +192,150 @@ points = PackedVector2Array(1008, 488, 1064, 488, 1064, 528)
 width = 3.0
 default_color = Color(0.1254902, 0.8666667, 1, 1)
 
+[node name="Line2D13" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(0, 640)
+points = PackedVector2Array(1008, 488, 1064, 488, 1064, 528)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D28" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 884)
+points = PackedVector2Array(1008, 455, 1008, 488, 944, 488, 944, 528)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D14" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 884)
+points = PackedVector2Array(1008, 488, 1064, 488, 1064, 528)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D29" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 868)
+points = PackedVector2Array(944, 583, 944, 616, 1008, 616, 1008, 656)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D30" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 868)
+points = PackedVector2Array(1064, 583, 1064, 616, 1016, 616, 1008, 616)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D37" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 1860)
+points = PackedVector2Array(1008, 455, 1008, 488, 944, 488, 944, 528)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D19" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 1860)
+points = PackedVector2Array(1008, 488, 1064, 488, 1064, 528)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D38" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 1844)
+points = PackedVector2Array(944, 583, 944, 616, 1008, 616, 1008, 656)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D39" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 1844)
+points = PackedVector2Array(1064, 583, 1064, 616, 1016, 616, 1008, 616)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D40" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 2172)
+points = PackedVector2Array(1008, 455, 1008, 488, 944, 488, 944, 528)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D20" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 2172)
+points = PackedVector2Array(1008, 488, 1064, 488, 1064, 528)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D41" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 2156)
+points = PackedVector2Array(944, 583, 944, 616, 1008, 616, 1008, 656)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D42" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 2156)
+points = PackedVector2Array(1064, 583, 1064, 616, 1016, 616, 1008, 616)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D34" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 1628)
+points = PackedVector2Array(1008, 455, 1008, 488, 944, 488, 944, 528)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D16" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 1628)
+points = PackedVector2Array(1008, 488, 1064, 488, 1064, 528)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D35" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 1612)
+points = PackedVector2Array(944, 583, 944, 616, 1008, 616, 1008, 656)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D36" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 1612)
+points = PackedVector2Array(1064, 583, 1064, 616, 1016, 616, 1008, 616)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D31" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 1396)
+points = PackedVector2Array(1008, 455, 1008, 488, 944, 488, 944, 528)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D15" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 1396)
+points = PackedVector2Array(1008, 488, 1064, 488, 1064, 528)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D32" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 1380)
+points = PackedVector2Array(944, 583, 944, 616, 1008, 616, 1008, 656)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D33" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(3, 1380)
+points = PackedVector2Array(1064, 583, 1064, 616, 1016, 616, 1008, 616)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
 [node name="Line2D7" type="Line2D" parent="ScrollContainer/GameTree/line"]
 points = PackedVector2Array(944, 583, 944, 616, 1008, 616, 1008, 656)
 width = 3.0
 default_color = Color(0.1254902, 0.8666667, 1, 1)
 
+[node name="Line2D26" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(0, 632)
+points = PackedVector2Array(944, 583, 944, 616, 1008, 616, 1008, 656)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
 [node name="Line2D8" type="Line2D" parent="ScrollContainer/GameTree/line"]
+points = PackedVector2Array(1064, 583, 1064, 616, 1016, 616, 1008, 616)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D27" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(0, 632)
 points = PackedVector2Array(1064, 583, 1064, 616, 1016, 616, 1008, 616)
 width = 3.0
 default_color = Color(0.1254902, 0.8666667, 1, 1)
@@ -231,10 +490,502 @@ metadata/hint_image = ""
 
 [node name="1_8" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
-offset_left = 984.0
+offset_left = 985.0
 offset_top = 912.0
-offset_right = 1035.0
+offset_right = 1036.0
 offset_bottom = 967.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_0" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 984.0
+offset_top = 1040.0
+offset_right = 1035.0
+offset_bottom = 1095.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_0_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 920.0
+offset_top = 1168.0
+offset_right = 971.0
+offset_bottom = 1223.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_0_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1040.0
+offset_top = 1168.0
+offset_right = 1091.0
+offset_bottom = 1223.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 984.0
+offset_top = 1288.0
+offset_right = 1035.0
+offset_bottom = 1343.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 984.0
+offset_top = 1520.0
+offset_right = 1035.0
+offset_bottom = 1575.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_1_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 920.0
+offset_top = 1408.0
+offset_right = 971.0
+offset_bottom = 1463.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_1_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1040.0
+offset_top = 1408.0
+offset_right = 1091.0
+offset_bottom = 1463.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_3" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 984.0
+offset_top = 1680.0
+offset_right = 1035.0
+offset_bottom = 1735.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_4" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 984.0
+offset_top = 1808.0
+offset_right = 1035.0
+offset_bottom = 1863.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_4_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 920.0
+offset_top = 1920.0
+offset_right = 971.0
+offset_bottom = 1975.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_4_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1040.0
+offset_top = 1920.0
+offset_right = 1091.0
+offset_bottom = 1975.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_5" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 984.0
+offset_top = 2032.0
+offset_right = 1035.0
+offset_bottom = 2087.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_5_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 922.0
+offset_top = 2148.0
+offset_right = 973.0
+offset_bottom = 2203.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_5_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 983.0
+offset_top = 2148.0
+offset_right = 1034.0
+offset_bottom = 2203.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_5_3" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1041.0
+offset_top = 2148.0
+offset_right = 1092.0
+offset_bottom = 2203.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_6" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 984.0
+offset_top = 2264.0
+offset_right = 1035.0
+offset_bottom = 2319.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_6_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 920.0
+offset_top = 2384.0
+offset_right = 971.0
+offset_bottom = 2439.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="2_6_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1040.0
+offset_top = 2384.0
+offset_right = 1091.0
+offset_bottom = 2439.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_0" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 984.0
+offset_top = 2496.0
+offset_right = 1035.0
+offset_bottom = 2551.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 984.0
+offset_top = 2584.0
+offset_right = 1035.0
+offset_bottom = 2639.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_1_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 920.0
+offset_top = 2696.0
+offset_right = 971.0
+offset_bottom = 2751.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_1_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1040.0
+offset_top = 2696.0
+offset_right = 1091.0
+offset_bottom = 2751.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 984.0
+offset_top = 2808.0
+offset_right = 1035.0
+offset_bottom = 2863.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_3" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 984.0
+offset_top = 2896.0
+offset_right = 1035.0
+offset_bottom = 2951.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_4" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 984.0
+offset_top = 2992.0
+offset_right = 1035.0
+offset_bottom = 3047.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_4_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1088.0
+offset_top = 2952.0
+offset_right = 1139.0
+offset_bottom = 3007.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_4_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1088.0
+offset_top = 3016.0
+offset_right = 1139.0
+offset_bottom = 3071.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_5" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1184.0
+offset_top = 2992.0
+offset_right = 1235.0
+offset_bottom = 3047.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_6" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1296.0
+offset_top = 2992.0
+offset_right = 1347.0
+offset_bottom = 3047.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_7" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1408.0
+offset_top = 2992.0
+offset_right = 1459.0
+offset_bottom = 3047.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_8" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1512.0
+offset_top = 2992.0
+offset_right = 1563.0
+offset_bottom = 3047.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_9" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1616.0
+offset_top = 2992.0
+offset_right = 1667.0
+offset_bottom = 3047.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_10" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1720.0
+offset_top = 2992.0
+offset_right = 1771.0
+offset_bottom = 3047.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_11" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1720.0
+offset_top = 2888.0
+offset_right = 1771.0
+offset_bottom = 2943.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_12" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1792.0
+offset_top = 2640.0
+offset_right = 1843.0
+offset_bottom = 2695.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="BadEndding3" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1648.0
+offset_top = 2640.0
+offset_right = 1699.0
+offset_bottom = 2695.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="BadEndding2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1896.0
+offset_top = 2800.0
+offset_right = 1947.0
+offset_bottom = 2855.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="BadEndding1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1544.0
+offset_top = 2800.0
+offset_right = 1595.0
+offset_bottom = 2855.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_11_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1648.0
+offset_top = 2800.0
+offset_right = 1699.0
+offset_bottom = 2855.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_11_3" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1720.0
+offset_top = 2800.0
+offset_right = 1771.0
+offset_bottom = 2855.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_locked = "暴风雨来临"
+
+[node name="3_11_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1792.0
+offset_top = 2800.0
+offset_right = 1843.0
+offset_bottom = 2855.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""

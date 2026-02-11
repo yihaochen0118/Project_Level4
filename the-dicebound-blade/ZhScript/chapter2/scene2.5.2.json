@@ -2,7 +2,9 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "underground_entrance" },
+			{ "action": "unlock","target": "2_5_2" },
 	  { "action": "show_talk_ui" }
+	
 	],
 	"text": "我把话咽回去。现在不是逼问的时候。"
   },

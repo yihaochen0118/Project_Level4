@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "hide_talk_ui" },
+		{ "action": "unlock","target": "2_3" },
 	  { "action": "change_scene", "target": "scene2.4" }
 	]
   }

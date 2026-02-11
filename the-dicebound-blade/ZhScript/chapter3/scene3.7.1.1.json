@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" },
+	{ "action": "unlock","target": "3_7_1" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "我把门闩的声音咽回喉咙里，披上外套跟了出去。夜风像刀，雪粒打在脸上生疼。"

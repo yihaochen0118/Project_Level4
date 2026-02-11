@@ -1,0 +1,79 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Player", "pos": [0, 0] },
+	  { "action": "show_name", "target": "Player" }
+	],
+	"text": "The instant I broke from the shield wall, the world felt like it had been twisted into a single knot of wind and snow. The edge of a shield scraped my shoulder—iron grinding against ice with a shriek that cut through the storm."
+  },
+  { "text": "The snow beneath my feet had been softened by the Demon King’s ‘breathing,’ as if it could collapse into a sinkhole at any moment. A jagged stone heaved up and nearly tripped me, but I forced that step down and held." },
+  { "text": "I knew I wasn’t running out to kill it. I only had to steal half a second—rip it out from between the black mist’s teeth." },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I swallowed air into my lungs like I was swallowing my fear. Then I hurled my voice out—harder than the wind."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Alicia—! No matter how many times, I will wait for you!”"
+  },
+  { "text": "The wind tore at the words, but they didn’t break. They drew tight like a taut line and hooked straight into her chest." },
+  { "text": "Alicia’s fingers had been shaking—fatigue crashing down like an old wound flaring up. But the moment my voice landed, her knuckles steadied, just a fraction." },
+  { "text": "The Demon King heard it too. Its black mist faltered—an instant, as if someone had yanked its tail." },
+  {
+	"event": [
+	  { "action": "show_name", "target": "Mowang" },
+	  { "action": "shake", "target": "Mowang" }
+	],
+	"text": "The Demon King tilted its head. Not in rage—more like confusion. As if, for the first time, it realized there was a ‘variable’ inside the loop."
+  },
+  { "text": "In that half second, the black mist coiled around Alicia’s wrist loosened by a single thread." },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia’s voice came out hoarse, but there was a smile in it: “…Don’t do anything stupid.”"
+  },
+  { "text": "She didn’t look back at me. With that short sentence, she pinned me in place—part command, part protection." },
+  { "text": "Then she moved. Not faster—sharper. She aligned her body with the loosened flow of the mist, turning that ‘gap’ into a ‘path.’" },
+  {
+	"event": [{ "action": "shake", "target": "Alicia" }],
+	"text": "With a flick of her wrist, the necklace slid out from inside her cloak. The pendant burned bright in the black light, and she gripped it like she would never let go."
+  },
+  { "text": "The mist tried to surge back, like a tide turning to bite. But the Demon King’s attention was still nailed in place by my voice—it was half a beat too slow." },
+  { "text": "Half a beat is the difference between life and death." },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia whispered, “End it.”"
+  },
+  {
+	"event": [{ "action": "shake", "target": "Alicia" }],
+	"text": "She rammed the necklace into the裂 in the core. The moment the pendant vanished into the black light, the core ignited—light swelling outward from within."
+  },
+  { "text": "The Demon King let out a distorted scream. Its bone armor split, cracks crawling up into the sky." },
+  { "text": "Alicia wrenched her sword free and retreated, then took a step toward me—like she was finally allowing herself to admit she wasn’t alone." },
+  { "text": "But it was already too late." },
+  { "text": "Behind her, the core collapsed in on itself, like the world drawing in a breath." },
+  {
+	"event": [
+	  { "action": "shake", "target": "Alicia" },
+	  { "action": "shake", "target": "Player" }
+	],
+	"text": "The explosion’s shockwave burst outward. Snow and shattered stone rose into a white tide; the city wall itself trembled. Alicia was thrown violently through the air, slamming toward me."
+  },
+  { "text": "In midair she twisted, turning her back to the blast—like pure instinct choosing to take the worst of the storm for me." },
+  {
+	"event": [{ "action": "shake", "target": "Alicia" }],
+	"text": "She hit the ground hard beside me. Her shoulder guard broke apart, her breath stuttered—yet she still reached out to make sure I was there."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I coughed out a breath, my voice shaking: “You… you did it…”"
+  },
+  { "text": "At the heart of the blast, the Demon King’s shape was coming apart. Black mist fell away like shredded curtains, peeling into the rift." },
+  {
+	"event": [{ "action": "remove_character", "target": "Mowang" }],
+	"text": "At last, the Demon King vanished completely. The rift looked as if it had been forcibly stitched shut, the luminous patterns in the sky fading piece by piece."
+  },
+  { "text": "The wind stopped. That suffocating sense of a countdown stopped with it." },
+  {
+	"event": [{ "action": "change_scene", "target": "scene3.12" }]
+  }
+]

@@ -101,8 +101,8 @@
 	"event": { "action": "show_name", "target": "Alicia" },
 	"text": "她没有回答，只是抬手在我胸前的空气里轻轻一点。那是一道几乎看不见的光痕，在阳光下像尘埃般闪烁。"
   },
-  {
-	"text": "“护符。”她笑道，“它会保你一夜无梦。”"
+  {	"event": [{ "action": "add_item", "target": "Talisman", "amount": 1 }],
+	"text": "“这是我的护身挂坠。”她笑道，“它会保你一夜无梦。”"
   },
   {"event": [
 	  { "action": "remove_character", "target": "Alicia" }],

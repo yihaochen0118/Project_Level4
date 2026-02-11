@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern" },
+	{ "action": "unlock","target": "3_1" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "——中午。"
@@ -164,8 +165,8 @@
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "选项 A：答应她，准备晚餐（你也想知道她到底在“错过”什么）", "dc": 0, "check": "dexterity" },
-		  { "text": "选项 B：拒绝她（太不对劲了，你不想被卷进去）", "dc": 10, "check": "dexterity" }
+		  { "text": "选项 A：答应她，准备晚餐【无检定（DC 0）】", "dc": 0, "check": "dexterity" },
+		  { "text": "选项 B：拒绝她【DC 10 Dexterity】", "dc": 10, "check": "dexterity" }
 		]
 	  },
 	  { "action": "hide_talk_ui" }

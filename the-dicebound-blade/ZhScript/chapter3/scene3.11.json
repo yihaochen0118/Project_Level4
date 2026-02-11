@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "north_gate_battlefield" },
+	{ "action": "unlock","target": "3_11" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "北门外的天色像被铁水浇过，沉得发黑。风卷着雪粒抽在盔甲上，发出细碎的刮擦声。"
@@ -99,80 +100,17 @@
   { "text": "它要抢走那一瞬间。只要抢走，循环就能继续。"},
   { "text": "艾莉西亚手指发抖了一下——不是害怕，是疲惫压上来的一瞬。"},
   { "text": "就在那一瞬间，防线后方有人冲出。"},
-  {
+{
 	"event": [
-	  { "action": "spawn_character", "target": "Player", "pos": [0, 0] },
-	  { "action": "show_name", "target": "Player" }
-	],
-	"text": "我的声音被风撕裂，却像誓言砸在地上。"
-  },
-  {
-	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“艾莉西亚——！无论多少次，我都会等你！”"
-  },
-
-  { "text": "那一句话像钉子，钉进了魔王的“注意力”。"},
-  { "text": "魔王偏了头。它第一次把目光从核心移开，去看那个喊话的人。"},
-  { "text": "就那半秒，黑雾松了一线。"},
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "艾莉西亚的声音发哑，却带着笑：“……别乱跑。”"
-  },
-
-  { "text": "她抓住那条松开的缝。"},
-  {
-	"event": [
-	  { "action": "shake", "target": "Alicia" }
-	],
-	"text": "她把项链狠狠塞进核心裂口。链坠没入黑光的瞬间，核心像被点燃，光从内向外膨胀。"
-  },
-  { "text": "魔王发出一声失真的惨叫，骨甲裂开，裂缝一路爬上天空。"},
-  { "text": "艾莉西亚抽剑后撤，转身要去抓男主——但已经晚了。"},
-  { "text": "核心在她背后塌缩，像世界在吸一口气。"},
-  {
-	"event": [
-	  { "action": "shake", "target": "Alicia" },
-	  { "action": "shake", "target": "Player" }
-	],
-	"text": "爆炸的冲击波轰然扩散。雪与碎石被掀成白色的浪，城墙都在震。艾莉西亚被硬生生掀飞，朝男主的方向撞去。"
-  },
-  { "text": "她在半空扭身，把背朝向爆心——像用最后的本能替他挡下最凶的一段风暴。"},
-  {
-	"event": [
-	  { "action": "shake", "target": "Alicia" }
-	],
-	"text": "她重重落在男主身边，肩甲碎裂，呼吸一滞，却仍然伸手去确认他还在。"
-  },
-  {
-	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "我咳出一口气，声音发抖：“你……你做到了……”"
-  },
-
-  { "text": "爆心处，魔王的身影正在崩解。黑雾像被撕开的幕布，一片片坠入裂隙。"},
-  {
-	"event": [
-	  { "action": "shake", "target": "Mowang" }
-	],
-	"text": "它抬爪想抓住什么，却只抓到空。那空洞的核心先碎成光，再碎成沉默。"
-  },
-  {
-	"event": [
-	  { "action": "remove_character", "target": "Mowang" }
-	],
-	"text": "最终，魔王彻底消失。裂隙像被强行缝合，天空的光纹一点点褪去。"
-  },
-
-  { "text": "风停了。那种令人窒息的“倒数感”也停了。"},
-  { "text": "远处有人喊“还活着！”，有人跪倒在雪里哭。"},
-  { "text": "艾莉西亚躺在男主身侧，睫毛微颤，像终于允许自己松开一口气。"},
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "她低声道：“这一次……我听见了。”"
-  },
-  { "text": "结界残光慢慢稳定下来，像受伤的皮肤开始结痂。明天似乎真的要来了。"},
-  {
-	"event": [
-	  { "action": "change_scene", "target": "scene3.12" }
+	  {
+		"action": "show_option_ui",
+		"options": [
+		  { "text": "选项 A：大声宣誓对Alicia的爱【DC 10 charisma】", "dc": 10, "check": "charisma" },
+		  { "text": "选项 B：向怪物大喊并且丢石头以帮助Alicia吸引注意力让怪物露出破绽【DC 10 dexterity】", "dc": 10, "check": "dexterity" },
+		{ "text": "选项 C：什么都不做【DC 0】", "dc": 0, "check": "dexterity" }
+		]
+	  },
+	  { "action": "hide_talk_ui" }
 	]
   }
 ]

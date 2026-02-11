@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://ncrl2wo7nn5"]
+
+[ext_resource type="Script" uid="uid://c281nejncqelb" path="res://Scenes/item/LuckyCoin20.gd" id="1_dkshm"]
+[ext_resource type="Texture2D" uid="uid://byxihq3bqw8lr" path="res://icon.svg" id="2_p7mm0"]
+
+[node name="Item1" type="Node2D"]
+position = Vector2(0, 2)
+script = ExtResource("1_dkshm")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = 962.0
+offset_top = 439.0
+offset_right = 1090.0
+offset_bottom = 567.0
+texture = ExtResource("2_p7mm0")

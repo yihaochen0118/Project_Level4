@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern_night" },
+	{ "action": "unlock","target": "3_7_2" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "我没有跟出去。门关上的那一瞬间，我就后悔了——但我还是把门闩插得更深，像在和自己的冲动较劲。"

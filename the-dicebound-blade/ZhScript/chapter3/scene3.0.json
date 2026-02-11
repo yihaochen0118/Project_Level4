@@ -2,7 +2,9 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern" },
-	  { "action": "show_talk_ui" }
+	  { "action": "show_talk_ui" },
+	{ "action": "unlock","target": "3_0" },
+	{ "action": "chapter_change", "target": "2" }
 	],
 	"text": "晨雾贴在窗上，像一层旧纱。壁炉的火舔着木柴，我站在柜台后擦杯子——杯口擦到第三圈时，我忽然停住了。"
   },
@@ -304,6 +306,18 @@
   {
 	"text": "而更糟的是——我居然有一瞬间觉得：她说的都是真的。"
   },
+{
+  "text": "我低头时，才发现她刚才放下的不止钥匙。柜台角落还有一枚旧铜币，边缘刻着细小的符纹，像被无数次摩挲过。",
+  "event": [{ "action": "show_name", "target": "Player" }]
+},
+{
+  "text": "我捏起它，指尖一热。那感觉像是——有人把“下一次机会”硬塞进了我手里。"
+},
+{
+  "event": [
+	{ "action": "add_item", "target": "LuckyCoin20", "amount": 1 },
+  ],
+  "text": "【获得道具：LuckyCoin,20】（D20 使用次数 +1）"},
   {
 	"event": [
 	  { "action": "change_scene", "target": "scene3.1" }

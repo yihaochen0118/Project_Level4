@@ -1,0 +1,72 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Player", "pos": [0, 0] },
+	  { "action": "show_name", "target": "Player" }
+	],
+	"text": "I didn’t shout a vow. I knew emotion wouldn’t save her right now—what I needed was a seam, a slit of time she could use to force the necklace into place."
+  },
+  { "text": "I grabbed the hardest shard of rubble buried in the snow, then scooped a fistful of crushed ice into my palm. The ice splinters cut my skin; the sting only made my mind clearer." },
+  { "text": "The Demon King’s black mist spun in front of the core like ring after ring of chains, waiting for the moment to bite down on her wrist." },
+  { "text": "I didn’t look at its face. I fixed my eyes on the thinnest edge of the mist—like watching for the blink of an eye." },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I drew in a breath, pressed my voice down as low as it would go—then let it detonate."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Hey—! Over here!”"
+  },
+  {
+	"event": [
+	  { "action": "shake", "target": "Mowang" }
+	],
+	"text": "I hurled the stone with all I had. It cut through the wind and snow and struck the edge of the black mist—not hitting a body, but striking its ‘shape.’"
+  },
+  { "text": "The mist flinched like it had been pricked by a needle, contracting for an instant. That contraction exposed the fissure along the rim of the core, like a door crack flashing open with a thin line of light." },
+  { "text": "The Demon King’s attention truly shifted. It wasn’t ‘lured’—it was forced to react: the mist had to patch the thin point I’d punched through." },
+  { "text": "And patching meant one thing—it had to loosen somewhere else." },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia’s gaze sharpened. Not surprise—hunter’s calm, the instant a weakness is found."
+  },
+  { "text": "Her fingers had been trembling a moment ago—fatigue crashing down like an old wound flaring up." },
+  { "text": "But when the mist loosened by that single thread, her knuckles steadied instead." },
+  {
+	"event": [{ "action": "shake", "target": "Alicia" }],
+	"text": "She tore open the clasp inside her cloak and the necklace slid into her palm. The pendant burned bright in the black light, and she gripped it like she would never let go."
+  },
+  { "text": "Sensing ‘termination,’ the black mist snapped back at once, like a tide turning to bite." },
+  { "text": "I didn’t have a second stone. I had only one thing left to do: keep it believing the ‘threat’ was here—with me." },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I shouted at it until my throat burned, like I meant to shove my own heartbeat into that darkness."
+  },
+  {
+	"event": [{ "action": "shake", "target": "Mowang" }],
+	"text": "“Come on! Isn’t it ‘back’ you want? Then look at me!”"
+  },
+  { "text": "The Demon King’s mist shifted again—just a fraction. It didn’t need to understand my words; it only needed to be forced to split its focus, even for half a second." },
+  { "text": "Half a second is the difference between life and death." },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia’s voice was hoarse, but there was a smile in it: “…Good.”"
+  },
+  {
+	"event": [{ "action": "shake", "target": "Alicia" }],
+	"text": "She seized that loosened seam and drove the necklace into the裂 in the core. The moment the pendant vanished into the black light, the core ignited—light swelling outward from within."
+  },
+  { "text": "The Demon King let out a distorted scream. Its bone armor split, cracks crawling up into the sky." },
+  { "text": "Behind her, the core collapsed in on itself, like the world drawing in a breath." },
+  {
+	"event": [
+	  { "action": "shake", "target": "Alicia" },
+	  { "action": "shake", "target": "Player" }
+	],
+	"text": "The explosion’s shockwave burst outward. Snow and shattered stone rose into a white tide; the city wall itself trembled. Alicia was thrown violently through the air, slamming toward me."
+  },
+  { "text": "In midair she twisted, turning her back to the blast—like pure instinct choosing to take the worst of the storm for me." },
+  {
+	"event": [{ "action": "change_scene", "target": "scene3.12" }]
+  }
+]

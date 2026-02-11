@@ -4,6 +4,8 @@
 	"event": [
 	  { "action": "hide_talk_ui" },
 	  { "action": "set_background", "target": "tavern" },
+	{ "action": "unlock","target": "2_0" },
+	{ "action": "chapter_change", "target": "2" }
 	]
   },
   {
@@ -125,6 +127,15 @@
 	],
 	"text": "“小娘们，热水留着自己喝吧。”"
   },
+{
+  "text": "我低头看见那枚碎铜币滚到柜台脚边，边缘刻着细小的符纹。它不像零钱，更像某种……符咒。"
+},
+{
+  "event": [
+	{ "action": "add_item", "target": "LuckyCoin", "amount": 1 }
+  ],
+  "text": "我把它捡起时，指尖一热，像有什么运气被塞进了掌心。"
+},
   { "event": { "action": "remove_character", "target": "Junker" }, "text": "他大笑着走远，靴子踩雪的声音渐渐被风吞没。" },
 
   { "text": "酒馆里重新安静下来，只剩壁炉噼啪作响。我捂着脸，掌心都是热的，却觉得冷。" },

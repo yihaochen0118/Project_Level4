@@ -1,0 +1,77 @@
+[
+  {
+	"event": [
+	  { "action": "spawn_character", "target": "Player", "pos": [0, 0] },
+	  { "action": "show_name", "target": "Player" }
+	],
+	"text": "The moment I grabbed a chunk of rubble, my fingers were so stiff I could barely hold it. The storm was too fierce, the Demon King’s black mist heaved like a living thing—and I misjudged the ‘thin point.’"
+  },
+  { "text": "Still, I threw the stone—like hurling my last hope into an abyss." },
+  {
+	"event": [{ "action": "shake", "target": "Mowang" }],
+	"text": "The stone didn’t crack open an opening. It was simply swallowed by the black mist, without even a sound."
+  },
+  { "text": "In the next second, the mist snapped upward like an offended beast." },
+  { "text": "The Demon King didn’t get distracted. It locked on." },
+  {
+	"event": [{ "action": "show_name", "target": "Mowang" }],
+	"text": "Its voice scraped against bone: “You—too—will—come—back—.”"
+  },
+  { "text": "That whisper drilled into my ears and my knees went soft at once. Not fear—something more nauseatingly familiar, as if it had watched me struggle through countless loops." },
+  { "text": "The black mist suddenly stretched, like a massive claw reaching for me." },
+  {
+	"event": [
+	  { "action": "shake", "target": "Player" }
+	],
+	"text": "I tried to retreat into the shield wall, but the collapsing snow dragged at my feet. I only managed to raise my arm—then, in the next instant, an icy grip had already latched onto my chest."
+  },
+  { "text": "A broken gasp tore out of my throat. Everything in my vision slowed, as if the world had been twisted tight." },
+  { "text": "And in that moment, I saw the necklace in Alicia’s hand—she was about to drive it into the core." },
+  { "text": "Her fingers trembled once. Not fear—fatigue pressing down for a single heartbeat." },
+  { "text": "I finally understood: if she turned back to save me now, she would lose that half second." },
+  { "text": "But she turned back anyway." },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia whispered, “…Don’t look at me. Close your eyes.”"
+  },
+  { "text": "She couldn’t win on both fronts. She could only choose one." },
+  {
+	"event": [
+	  { "action": "shake", "target": "Alicia" }
+	],
+	"text": "She pivoted hard, blade sweeping across, forcing the black mist that was reaching for me to split open. The mist shrieked, like torn skin."
+  },
+  { "text": "That strike saved me. And it stole her chance." },
+  { "text": "The Demon King’s attention snapped fully back to her. The mist no longer loosened—it recoiled like chains, wrapping tight around her wrists and throat." },
+  { "text": "The necklace slipped from her fingers and dropped into the snow with a sound so faint it was almost nothing." },
+  { "text": "But that tiny sound was sharper than any scream." },
+  {
+	"event": [
+	  { "action": "shake", "target": "Mowang" }
+	],
+	"text": "The Demon King’s claw came down. It wasn’t a slash—it was a ‘reset,’ pressing her back into the rift, snapping the loop back into alignment."
+  },
+  { "text": "Alicia braced and blocked. Her shoulder guard burst under the pressure; blood seeped along her bracer and dripped onto the snow, turning it dark." },
+  { "text": "She still stepped forward—forcing herself even closer. That was always her way: trading life for an opening." },
+  { "text": "But this time, there was no opening." },
+  {
+	"event": [
+	  { "action": "remove_character", "target": "Alicia" }
+	],
+	"text": "Black light flashed—like someone had erased a piece of the world. Alicia’s figure was swallowed whole, so cleanly that even her footprints in the snow seemed to be wiped away."
+  },
+  { "text": "My head rang with a single hollow buzz, like something had been struck and shattered inside me." },
+  { "text": "The barrier’s blue light began to splinter, breaking into shard after shard like glass. The soldiers’ breathing turned into panicked, ragged gasps." },
+  { "text": "The core in the Demon King’s chest lit up again. The light was terrifyingly steady, as if proclaiming: the loop continues." },
+  {
+	"event": [
+	  { "action": "hp_lost", "amount": 999 }
+	],
+	"text": "The black mist rolled over me; a cold emptiness flooded my chest, like the world had sentenced me to death. As darkness swallowed my vision, I had only one thought left—I saved myself, and lost her."
+  },
+  {
+	"event": [
+	  { "action": "change_scene", "target": "BadEnding_Finale" }
+	]
+  }
+]

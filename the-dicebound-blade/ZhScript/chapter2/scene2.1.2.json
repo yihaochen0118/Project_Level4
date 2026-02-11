@@ -1,6 +1,7 @@
 [
   {
 	"event": [
+			{ "action": "unlock","target": "2_2" },
 	  { "action": "change_scene", "target": "scene2.2" }
 	]
   }

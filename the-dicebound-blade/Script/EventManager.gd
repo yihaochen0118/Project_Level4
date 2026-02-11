@@ -117,6 +117,8 @@ func handle_event(event: Dictionary) -> void:
 			
 		"add_item":
 			_handle_add_item(event)
+		"chapter_change":
+			PlayerData.set_chapter(str(target))
 		_:
 			push_warning("未知事件: %s" % action)
 	

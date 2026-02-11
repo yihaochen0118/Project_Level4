@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern_night" },
+	{ "action": "unlock","target": "3_2" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "【3.2｜烛光晚餐：红裙与好菜】"

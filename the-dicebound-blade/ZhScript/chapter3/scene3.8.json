@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" },
+	{ "action": "unlock","target": "3_8" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "我还是跟了上去。不是逞强，也不是英雄主义——只是我受不了“她一个人去做完一切”，然后我在原地装作没事。"

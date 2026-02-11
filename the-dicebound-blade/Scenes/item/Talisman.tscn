@@ -12,3 +12,4 @@ offset_top = 439.0
 offset_right = 1090.0
 offset_bottom = 567.0
 texture = ExtResource("2_nrecx")
+script = ExtResource("1_pmytj")

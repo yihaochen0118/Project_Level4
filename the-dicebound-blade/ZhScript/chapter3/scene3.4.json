@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern_night" },
+	{ "action": "unlock","target": "3_4" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "烛火烧到短了一截，油脂沿着烛身缓慢往下淌。桌上的汤早就温了，空气里只剩余味和她刚才说过的话。"

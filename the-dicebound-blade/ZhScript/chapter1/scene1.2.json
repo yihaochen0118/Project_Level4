@@ -102,6 +102,7 @@
   "text": "我被那股香味呛得微微一愣，笑着说：“感觉还不错啊”",
   "event": [{ "action": "show_name", "target": "Player" }]
 },
+{"event":[{ "action": "add_item","target": "Herbs","amount":1 }]},
 {
   "text": "艾莉西亚在旁边轻轻叹气：“如果你不想在柜台底下睡三天，就别喝。”",
   "event": [{ "action": "show_name", "target": "Alicia" }]

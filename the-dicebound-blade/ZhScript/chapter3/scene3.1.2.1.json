@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern" },
+	{ "action": "unlock","target": "3_1_2" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "【3.1.1.0｜选项A：答应她】"

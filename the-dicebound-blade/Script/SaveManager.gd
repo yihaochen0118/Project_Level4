@@ -99,7 +99,17 @@ func restore_game(data: Dictionary) -> void:
 		ui_root.current_scene_name = data.get("chapter", "")
 		ui_root.dialogue_index = data.get("dialogue_index", 0)
 		var start_index = data.get("dialogue_index", 0)
+		var scene_name := str(data.get("chapter", ""))
+		var chapter_num := _extract_chapter_from_scene_name(scene_name)
 
+		if ui_root.has_node("PlayerStatu"):
+			var ps = ui_root.get_node("PlayerStatu")
+			if ps and ps.has_method("set_chapter"):
+				ps.set_chapter(chapter_num)
+			else:
+				push_warning("⚠️ PlayerStatu 没有 set_chapter 方法")
+		else:
+			push_warning("⚠️ UI 下找不到 PlayerStatu")
 		# ✅ 加载章节脚本
 		var dialogue_path = ResMgr.get_dialogue(ui_root.current_scene_name)
 		if dialogue_path == "":
@@ -142,3 +152,12 @@ func capture_screenshot(slot: int) -> String:
 	else:
 		push_warning("⚠️ 截图失败")
 		return ""
+		
+func _extract_chapter_from_scene_name(scene_name: String) -> String:
+	if scene_name == "":
+		return "1"
+	# 你的命名是 "1.0" / "2.0"，直接用 "." 分割取第一个
+	var parts = scene_name.split(".")
+	if parts.size() > 0 and parts[0] != "":
+		return parts[0]
+	return "1"

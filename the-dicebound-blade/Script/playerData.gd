@@ -4,13 +4,15 @@ extends Node
 signal stats_changed
 signal hp_changed(new_hp: int, max_hp: int)
 signal item_changed
+signal chapter_changed(chapter: String)
 
 var inventory: Dictionary = {}  # {"Sword": 1, "Potion": 3}
 var choice_history: Array = []
 var flags: Dictionary = {}
-var dice_max_uses = {6:5, 8:4, 10:3, 12:2, 20:1}
+var dice_max_uses = {6:6, 8:3, 10:1, 12:0, 20:0}
 var dice_uses = dice_max_uses.duplicate(true)
 var unlocked_nodes: Dictionary = {}   # {"1.3": true, "BadEnding1": true, ...}
+var chapter: String = "1"
 
 var hp: int = 100
 var max_hp: int = 100
@@ -71,7 +73,7 @@ func load_from_dict(data: Dictionary):
 	stats = data.get("stats", stats)
 	choice_history = data.get("choices", [])
 	flags = data.get("flags", {})
-
+	set_chapter(str(data.get("chapter_num", chapter)))
 	# 🎲 新增：加载骰子次数
 	if data.has("dice_uses"):
 		dice_uses.clear()
@@ -95,6 +97,8 @@ func reset_all():
 	hp = max_hp
 	flags.clear()
 	choice_history.clear()
+	emit_signal("chapter_changed", "1")
+
 	print("🔄 已完全重置玩家数据")
 
 # ✅ 设置 flag 值
@@ -212,3 +216,10 @@ func reset_all_data():
 	emit_signal("item_changed")
 
 	print("✅ 所有数据已恢复默认状态")
+	
+func set_chapter(new_chapter: String) -> void:
+	if chapter != new_chapter:
+		chapter = new_chapter
+		print("📘 当前章节更新为: Chapter ", chapter)
+		emit_signal("chapter_changed", chapter)
+		

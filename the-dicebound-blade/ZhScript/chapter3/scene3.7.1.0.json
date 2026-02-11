@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" },
+	{ "action": "unlock","target": "3_7_1" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "我还是跟了出去。夜风一吹，脑子反而更清醒——清醒到让我意识到：我根本不知道自己在追什么。"

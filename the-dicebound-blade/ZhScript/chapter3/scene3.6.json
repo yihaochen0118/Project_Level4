@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern" },
+	{ "action": "unlock","target": "3_6" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "午前的第一波客人挤进来，雪水被带上地板，椅脚摩擦声像一串小小的爆裂。"

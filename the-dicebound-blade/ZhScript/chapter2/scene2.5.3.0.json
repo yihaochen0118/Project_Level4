@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "underground_entrance" },
+			{ "action": "unlock","target": "2_5_3" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "我没有立刻跟上去。心里那点不安像钉子——不把它拔出来，我今晚也睡不着。"

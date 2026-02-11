@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" },
+		{ "action": "unlock","target": "2_6" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "第三天清晨。雪没停透，街上却比平时更早有动静。"

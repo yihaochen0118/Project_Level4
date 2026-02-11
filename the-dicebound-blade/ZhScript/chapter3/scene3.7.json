@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern_night" },
+	{ "action": "unlock","target": "3_7" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "夜色压得很低，窗外的雪声像细沙。旅店的灯只剩一盏，壁炉火光把桌沿烫出一圈暖色。"
@@ -107,8 +108,8 @@
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "选项 A：跟上去（你不想再被她丢在身后）", "dc": 10, "check": "dexterity" },
-		  { "text": "选项 B：留在旅店（你答应她先活着，但你会准备后手）", "dc": 0, "check": "dexterity" }
+		  { "text": "选项 A：跟上去 【DC 10 Dexterity】", "dc": 10, "check": "dexterity" },
+		  { "text": "选项 B：留在旅店 【DC 0】", "dc": 0, "check": "dexterity" }
 		]
 	  },
 	  { "action": "hide_talk_ui" }

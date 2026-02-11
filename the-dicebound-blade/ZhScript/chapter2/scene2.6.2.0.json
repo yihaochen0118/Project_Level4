@@ -2,6 +2,7 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" },
+					{ "action": "unlock","target": "2_6_2" },
 	  { "action": "show_talk_ui" }
 	],
 	"text": "北门外的雪被踩得发亮，士兵来回奔跑，口令声一声接一声。"
