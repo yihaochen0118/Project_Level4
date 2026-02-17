@@ -44,9 +44,12 @@ var backgrounds = {
 	"town_medical_tent": "res://Scenes/Background/town_medical_tent.tscn",
 	"town_snow_street": "res://Scenes/Background/town_snow_street.tscn",
 	"Square": "res://Scenes/Background/Square.tscn",
+	"north_gate": "res://Scenes/Background/north_gate.tscn",
 	"Black": "res://Scenes/Background/Black.tscn",
 	"underground_entrance": "res://Scenes/Background/underground_entrance.tscn",
-	"GameTree": "res://Scenes/ui/Gametree.tscn"
+	"north_gate_battlefield": "res://Scenes/Background/north_gate_battlefield.tscn",
+	"tavern_morning": "res://Scenes/Background/tavern_morning.tscn",
+	"GameTree": "res://Scenes/ui/Gametree.tscn",
 }
 
 # 角色场景路径
@@ -57,6 +60,7 @@ var characters = {
 	"Lucia": "res://Scenes/Characters/Lucia.tscn",
 	"EnemyLeader": "res://Scenes/Characters/EnemyLeader.tscn",
 	"Enemy1": "res://Scenes/Characters/Enemy1.tscn",
+	"Mowang": "res://Scenes/Characters/Boss.tscn",
 }
 
 var ui = {
@@ -66,7 +70,8 @@ var ui = {
 	"PlayerStatu":"res://Scenes/ui/PlayerStatu.tscn",
 	"Setting":"res://Scenes/ui/Setting.tscn",
 	"EquipmentBar":"res://Scenes/ui/EquipmentBar.tscn",
-	"loadUi":"res://Scenes/ui/loadUi.tscn"
+	"loadUi":"res://Scenes/ui/loadUi.tscn",
+	"GameOverPopup":"res://Scenes/ui/GameOverPopup.tscn"
 }
 
 func autoLoad_Dialogue(base_path: String, lang_code: String):

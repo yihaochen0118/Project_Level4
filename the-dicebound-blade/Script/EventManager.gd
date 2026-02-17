@@ -117,6 +117,8 @@ func handle_event(event: Dictionary) -> void:
 			
 		"add_item":
 			_handle_add_item(event)
+		"game_over":
+			_handle_game_over(event)
 		"chapter_change":
 			PlayerData.set_chapter(str(target))
 		_:
@@ -290,3 +292,27 @@ func _handle_add_item(event: Dictionary) -> void:
 		return
 
 	PlayerData.add_item(item_name, amount)
+
+func _handle_game_over(event: Dictionary) -> void:
+	var message: String = str(event.get("message", "游戏结束"))
+
+	var root = get_tree().current_scene
+	if not root:
+		return
+
+	var ui_root = root.get_node("UI") if root.has_node("UI") else null
+	if not ui_root:
+		return
+
+	# 加载 Popup 场景
+	var path = ResMgr.get_ui("GameOverPopup")
+	if path == "":
+		push_error("未注册 GameOverPopup")
+		return
+
+	var scene = load(path) as PackedScene
+	var popup = scene.instantiate()
+	ui_root.add_child(popup)
+
+	if popup.has_method("show_game_over"):
+		popup.show_game_over(message)

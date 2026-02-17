@@ -1,6 +1,6 @@
 # PlayerData.gd （Autoload 单例，全局角色数据）
 extends Node
-
+const DEFAULT_DICE_MAX_USES := {6:6, 8:3, 10:1, 12:0, 20:0}
 signal stats_changed
 signal hp_changed(new_hp: int, max_hp: int)
 signal item_changed
@@ -9,8 +9,8 @@ signal chapter_changed(chapter: String)
 var inventory: Dictionary = {}  # {"Sword": 1, "Potion": 3}
 var choice_history: Array = []
 var flags: Dictionary = {}
-var dice_max_uses = {6:6, 8:3, 10:1, 12:0, 20:0}
-var dice_uses = dice_max_uses.duplicate(true)
+var dice_max_uses: Dictionary = DEFAULT_DICE_MAX_USES.duplicate(true)
+var dice_uses: Dictionary = DEFAULT_DICE_MAX_USES.duplicate(true)
 var unlocked_nodes: Dictionary = {}   # {"1.3": true, "BadEnding1": true, ...}
 var chapter: String = "1"
 
@@ -62,7 +62,7 @@ func change_hp(amount: int):
 	emit_signal("hp_changed", hp, max_hp)
 
 func reset_dice_uses():
-	dice_uses = dice_max_uses.duplicate(true)
+	dice_uses = DEFAULT_DICE_MAX_USES.duplicate(true)
 	print("🎲 已重置骰子使用次数:", dice_uses)
 # --------------------
 # 存档加载（支持部分覆盖）

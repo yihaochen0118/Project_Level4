@@ -70,9 +70,13 @@
 	],
 	"text": "黑雾卷过来，我胸口一凉，像被世界判了死刑。视野被黑暗吞没前，我只剩一个念头——我救了自己，却失去了她。"
   },
-  {
-	"event": [
-	  { "action": "change_scene", "target": "BadEnding_Finale" }
-	]
-  }
+{
+  "event": [
+	{
+	  "action": "game_over",
+	  "message": "你救了自己。\n\n她替你承担了那一剑。\n\n项链落地。\n核心归位。\n\n循环被修正。\n\n这一次，\n代价是她。\n\n—— 错位的选择 · BAD END ——"
+	}
+  ]
+}
+
 ]

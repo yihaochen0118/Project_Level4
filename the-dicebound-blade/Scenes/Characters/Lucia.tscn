@@ -1,11 +1,11 @@
 [gd_scene load_steps=2 format=3 uid="uid://cma835gyu2p8h"]
 
-[ext_resource type="Texture2D" uid="uid://dtuw5mjn0w8xw" path="res://images/Chara/lucia.jpg" id="2_hw0u4"]
+[ext_resource type="Texture2D" uid="uid://dsvi27k7cj4ga" path="res://images/Chara/lucia.png" id="1_hp1tu"]
 
 [node name="Lucia" type="Node2D"]
 
 [node name="Lucia" type="Sprite2D" parent="."]
 z_index = 1
-position = Vector2(1008.53705, 550.075)
-scale = Vector2(0.5367478, 0.52634376)
-texture = ExtResource("2_hw0u4")
+position = Vector2(1057, 486.99997)
+scale = Vector2(0.9309154, 0.8404335)
+texture = ExtResource("1_hp1tu")

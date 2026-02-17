@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvgmo33i7phbw"]
+
+[ext_resource type="Texture2D" uid="uid://b8i21o0pmivok" path="res://images/Chara/Boss.png" id="1_32l1v"]
+
+[node name="Monster1" type="Node2D"]
+
+[node name="Monster1" type="Sprite2D" parent="."]
+position = Vector2(1039, 491.63898)
+scale = Vector2(0.89506525, 0.81191117)
+texture = ExtResource("1_32l1v")

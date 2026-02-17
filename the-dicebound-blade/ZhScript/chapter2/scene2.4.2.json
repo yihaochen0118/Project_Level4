@@ -39,16 +39,16 @@
 
   {
 	"event": [
-	  { "action": "set_background", "target": "pine_forest_road" }
+	  { "action": "set_background", "target": "forest_path" }
 	],
 	"text": "风更冷了，树影在雪面上晃。我加快脚步，想喊她一声，却在这时听见脚下“咚”的闷响。"
   },
 
   {
 	"event": [
-	  { "action": "spawn_character", "target": "DreamBeast", "pos": [420, 0] },
-	  { "action": "show_name", "target": "DreamBeast" },
-	  { "action": "shake", "target": "DreamBeast" }
+	  { "action": "spawn_character", "target": "Monster1", "pos": [420, 0] },
+	  { "action": "show_name", "target": "Monster1" },
+	  { "action": "shake", "target": "Monster1" }
 	],
 	"text": "土壤裂开，一只石壳魔兽钻出，青光的眼直勾勾盯着前方——它盯的不是我，是她。"
   },
@@ -67,14 +67,14 @@
   {
 	"event": [
 	  { "action": "play_sfx", "target": "slash" },
-	  { "action": "shake", "target": "DreamBeast" }
+	  { "action": "shake", "target": "Monster1" }
 	],
 	"text": "魔兽刚扑起半寸，就被她一剑压回地面。第二剑落下，石壳碎裂，青光熄灭。"
   },
 
   {
 	"event": [
-	  { "action": "remove_character", "target": "DreamBeast" }
+	  { "action": "remove_character", "target": "Monster1" }
 	],
 	"text": "它化作黑烟钻回土里，地面只留一圈焦黑的烧痕。"
   },

@@ -1,12 +1,16 @@
 [
   {
 	"event": [
+	  { "action": "hide_talk_ui" },
 	  { "action": "set_background", "target": "tavern_night" },
-	{ "action": "unlock","target": "3_4_2" },
+	  { "action": "unlock","target": "3_4_2" },
+
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-250, 0] },
+
 	  { "action": "show_talk_ui" }
-	],
-	"text": "（3.4.2）"
+	]
   },
+
   { "text": "我没有再碰她。只是把她面前的盘子和酒杯都收走，把烛台往外挪了一点，免得火光直刺她的眼。." },
   { "text": "她趴在桌上，红裙的布料在火光里像一小片安静的火焰。可她本人却冷得厉害——肩背那点起伏薄得像纸。." },
 

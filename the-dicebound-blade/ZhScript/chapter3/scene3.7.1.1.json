@@ -9,6 +9,7 @@
   },
   { "text": "她走得很快，却没有回头——像早就默认我会跟上来，又像在赌我会停下。" },
   { "text": "我压着脚步，尽量不让靴底在冰面上发出声响。很奇怪，我明明没学过潜行，却像早已练过无数次。"},
+  {"event": [{ "action": "spawn_character", "target": "Alicia", "pos": [450, 0] }]},
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“跟紧。”"

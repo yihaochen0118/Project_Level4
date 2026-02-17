@@ -31,7 +31,7 @@
 
   {
 	"event": [
-	  { "action": "set_background", "target": "pine_forest_road" }
+	  { "action": "set_background", "target": "forest_path" }
 	],
 	"text": "从集市回旅店要经过一段靠松林的石路。风把树梢吹得吱呀响，空气冷得像刀刃。"
   },
@@ -39,9 +39,9 @@
 
   {
 	"event": [
-	  { "action": "spawn_character", "target": "DreamBeast", "pos": [420, 0] },
-	  { "action": "show_name", "target": "DreamBeast" },
-	  { "action": "shake", "target": "DreamBeast" }
+	  { "action": "spawn_character", "target": "Monster1", "pos": [420, 0] },
+	  { "action": "show_name", "target": "Monster1" },
+	  { "action": "shake", "target": "Monster1" }
 	],
 	"text": "土壤裂开，一只石壳覆背的魔兽从地里钻出，青光的眼死死盯着我们。"
   },
@@ -83,7 +83,7 @@
   {
 	"event": [
 	  { "action": "play_sfx", "target": "slash" },
-	  { "action": "shake", "target": "DreamBeast" }
+	  { "action": "shake", "target": "Monster1" }
 	],
 	"text": "她终于拔剑，动作快得像风划过雪面。银光一闪，魔兽的前爪被直接卸开。"
   },
@@ -91,7 +91,7 @@
 
   {
 	"event": [
-	  { "action": "remove_character", "target": "DreamBeast" }
+	  { "action": "remove_character", "target": "Monster1" }
 	],
 	"text": "魔兽倒下，身体化作一缕黑烟，钻回土里。地面只剩一圈焦黑的烧痕。"
   },

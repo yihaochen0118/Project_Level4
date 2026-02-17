@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://srbn0ve6mleq"]
+
+[ext_resource type="Texture2D" uid="uid://dr5r8i2vjnsea" path="res://images/background/north_gate.png" id="1_7bove"]
+
+[node name="north_gate" type="Node2D"]
+
+[node name="north_gate" type="Sprite2D" parent="."]
+position = Vector2(982.99994, 541.99994)
+scale = Vector2(1.2726089, 1.0518084)
+texture = ExtResource("1_7bove")

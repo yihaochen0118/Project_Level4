@@ -8,6 +8,7 @@
 	"text": "夜色压得很低，窗外的雪声像细沙。旅店的灯只剩一盏，壁炉火光把桌沿烫出一圈暖色。"
   },
   { "text": "客人散尽，我把门闩插好。锅里最后一点汤还在冒泡，香气却像被夜吞掉了大半。" },
+  {"event": [{ "action": "spawn_character", "target": "Alicia", "pos": [450, 0] }]},
   { "text": "艾莉西亚站在柜台旁，换回了那身熟悉的披风。她没急着走，像是在等我把最后一件事做完。"},
   { "text": "她的动作很稳，稳得不像刚刚还在店里端盘子。那种“老板娘”的新鲜感像一张薄纸，被她重新折回口袋。"},
   {
@@ -108,7 +109,7 @@
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "选项 A：跟上去 【DC 10 Dexterity】", "dc": 10, "check": "dexterity" },
+		  { "text": "选项 A：跟上去 【DC 10 Dexterity】", "dc": 10, "check": "charisma" },
 		  { "text": "选项 B：留在旅店 【DC 0】", "dc": 0, "check": "dexterity" }
 		]
 	  },

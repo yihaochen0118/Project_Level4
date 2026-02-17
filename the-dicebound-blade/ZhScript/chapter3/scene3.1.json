@@ -166,7 +166,7 @@
 		"action": "show_option_ui",
 		"options": [
 		  { "text": "选项 A：答应她，准备晚餐【无检定（DC 0）】", "dc": 0, "check": "dexterity" },
-		  { "text": "选项 B：拒绝她【DC 10 Dexterity】", "dc": 10, "check": "dexterity" }
+		  { "text": "选项 B：拒绝她【DC 10 Dexterity】", "dc": 10, "check": "intelligence" }
 		]
 	  },
 	  { "action": "hide_talk_ui" }

@@ -79,8 +79,12 @@
 	"text": "我胸口一凉，像被世界判了死刑。视野被黑暗吞没前，我只剩一个念头——这一次，我没能等到她。"
   },
   {
-	"event": [
-	  { "action": "change_scene", "target": "BadEnding_Finale" }
-	]
-  }
+  "event": [
+	{
+	  "action": "game_over",
+	  "message": "你冲了出来。\n\n却只差半秒。\n\n她被抹去。\n循环被修正。\n\n时间重新对齐。\n世界继续运转。\n\n而你，留在错误的一侧。\n\n—— 未能抵达的誓言 · BAD END ——"
+	}
+  ]
+}
+
 ]

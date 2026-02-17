@@ -15,9 +15,9 @@
 
   { "text": "越往北，街上的人越少，声音越集中：铁器碰撞、口令、马的鼻息。" },
   { "text": "北门外的空地被清出一条防线。木桩和盾墙已经搭了一半，法师和守卫分成几个小队，像被一只看不见的手迅速摆好位置。" },
-
   {
 	"event": [
+	{ "action": "set_background", "target": "north_gate" },
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
 	  { "action": "show_name", "target": "Alicia" }
 	],
@@ -89,7 +89,7 @@
 		"action": "show_option_ui",
 		"options": [
 		  { "text": "选项 A：听她的，转身离开北门，回旅店等消息【无检定（DC 0）】", "dc": 0, "check": "dexterity" },
-		  { "text": "选项 B：坚持留下来做“不会碍事”的工作（搬物资/递药/跑腿）【决断检定（DC 12）】", "dc": 12, "check": "dexterity" }
+		  { "text": "选项 B：坚持留下来做“不会碍事”的工作（搬物资/递药/跑腿）【charisma（DC 12）】", "dc": 12, "check": "charisma" }
 		]
 	  },
 	  { "action": "hide_talk_ui" }

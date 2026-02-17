@@ -9,7 +9,7 @@
   },
 
   { "text": "我还在想该先招呼谁，艾莉西亚已经把围裙往腰上一系，像系上铠甲的最后一扣。" },
-
+  {"event": [{ "action": "spawn_character", "target": "Alicia", "pos": [450, 0] }]},
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“两桌炖汤，一桌面包，一桌热酒。”"

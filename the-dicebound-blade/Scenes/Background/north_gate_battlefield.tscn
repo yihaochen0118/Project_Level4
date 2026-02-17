@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://irimudglrayo"]
+
+[ext_resource type="Texture2D" uid="uid://6dcwpvy054id" path="res://images/background/north_gate_battlefield.png" id="1_apfh2"]
+
+[node name="underground_entrance" type="Node2D"]
+
+[node name="underground_entrance" type="Sprite2D" parent="."]
+position = Vector2(982.99994, 541.99994)
+scale = Vector2(1.2726089, 1.0518084)
+texture = ExtResource("1_apfh2")

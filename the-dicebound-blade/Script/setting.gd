@@ -7,7 +7,8 @@ extends Control
 @onready var settingButton = $Setting
 @onready var close_button = $Panel/CloseButton
 @onready var clear_button = $Panel/ClearButton
-@onready var confirm_dialog = $Panel/ConfirmDialog
+@onready var confirm_dialog: ConfirmationDialog = $Panel/ConfirmDialog
+
 @onready var back_to_menu_button = $Panel/BackToMenuButton  # 新增
 
 var _option_was_visible := false  # 用来记录 OptionUI 打开前的状态
@@ -19,7 +20,12 @@ func _ready():
 	_refresh_load_buttons()
 	print("User data path: ", ProjectSettings.globalize_path("user://"))
 	panel.hide()
-
+	var ok_btn := confirm_dialog.get_ok_button()
+	var cancel_btn := confirm_dialog.get_cancel_button()
+	var parent := ok_btn.get_parent()
+	if parent:
+		parent.move_child(cancel_btn, 1) # Cancel 放到最左
+		parent.move_child(ok_btn, 0)     # OK 放到右边（保险起见）
 	settingButton.pressed.connect(_on_button_pressed)
 	quit_button.pressed.connect(_on_quit_pressed)
 	close_button.pressed.connect(_on_close_pressed)

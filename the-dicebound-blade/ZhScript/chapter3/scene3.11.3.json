@@ -67,9 +67,13 @@
 	],
 	"text": "我胸口一凉，像被世界判了死刑。视野被黑暗吞没前，我只剩一个念头——我没有救她。我甚至没有试。"
   },
-  {
-	"event": [
-	  { "action": "change_scene", "target": "BadEnding_Finale" }
-	]
-  }
+{
+  "event": [
+	{
+	  "action": "game_over",
+	  "message": "你站在原地。\n\n她向前一步。\n\n然后消失。\n\n循环继续。\n\n这一次，\n你什么都没有做。\n\n—— 袖手旁观 · BAD END ——"
+	}
+  ]
+}
+
 ]
