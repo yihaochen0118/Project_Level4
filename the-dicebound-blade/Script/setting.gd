@@ -8,6 +8,22 @@ extends Control
 @onready var close_button = $Panel/CloseButton
 @onready var clear_button = $Panel/ClearButton
 @onready var confirm_dialog: ConfirmationDialog = $Panel/ConfirmDialog
+# ====== 文本设置 ======
+@onready var chinese_button = $Panel/TabContainer/Language/ScrollContainer/Language/button/Chinese
+@onready var english_button = $Panel/TabContainer/Language/ScrollContainer/Language/button/English
+var _language_lock := false
+
+# ====== 声音设置 ======
+@onready var main_sound_slider = $Panel/TabContainer/Music/ScrollContainer/Music/GlobalSound/MainSound
+@onready var global_label = $Panel/TabContainer/Music/ScrollContainer/Music/GlobalSound/GlobalShow
+@onready var bgm_toggle = $Panel/TabContainer/Music/ScrollContainer/Music/button/BGM
+# ====== 音频文字 ======
+@onready var global_title = $Panel/TabContainer/Music/ScrollContainer/Music/GlobalSound/Global
+@onready var sound_effects_label = $Panel/TabContainer/Music/ScrollContainer/Music/button/SoundEffects
+@onready var character_voice_label = $Panel/TabContainer/Music/ScrollContainer/Music/button/CharacterVoice
+@onready var bgm_label = $Panel/TabContainer/Music/ScrollContainer/Music/button/BGM
+
+
 
 @onready var back_to_menu_button = $Panel/BackToMenuButton  # 新增
 
@@ -42,6 +58,9 @@ func _ready():
 		btn.pressed.connect(func(): _on_load_pressed(i))
 	_update_ui_texts()
 	_load_game_tree()
+	_init_language_settings()
+	_init_audio_settings()
+
 	
 func _load_game_tree():
 	var holder = $Panel/TabContainer/GameTree/GameTreeHolder
@@ -285,18 +304,49 @@ func _set_option_active(state: bool) -> void:
 		else:
 			print("⚙️ OptionUI 原本隐藏，保持隐藏")
 
-func _update_ui_texts():
-	# 顶部 Tab 名称（按顺序）
-	$Panel/TabContainer.set_tab_title(0, tr("保存"))
-	$Panel/TabContainer.set_tab_title(1, tr("读取"))
-	$Panel/TabContainer.set_tab_title(2, tr("游戏树"))
-	$Panel/TabContainer.set_tab_title(3, tr("音乐"))
+func _update_ui_texts() -> void:
 
-	# 右上角按钮
+	# ===================================
+	# 🧭 顶部 Tab 标题
+	# ===================================
+	var tabs = $Panel/TabContainer
+	tabs.set_tab_title(0, tr("保存"))
+	tabs.set_tab_title(1, tr("读取"))
+	tabs.set_tab_title(2, tr("游戏树"))
+	tabs.set_tab_title(3, tr("文本设置"))
+	tabs.set_tab_title(4, tr("声音设置"))
+
+	print("🈶 SettingMain 已更新语言 →", TranslationServer.get_locale())
+
+	# ===================================
+	# 🌏 文本设置
+	# ===================================
+	var lang_root = $Panel/TabContainer/Language/ScrollContainer/Language/button
+	lang_root.get_node("Chinese").text = tr("中文")
+	lang_root.get_node("English").text = tr("English")
+
+	# ===================================
+	# 🔊 声音设置
+	# ===================================
+	var sound_root = $Panel/TabContainer/Music/ScrollContainer/Music
+
+	# --- 全局音量 ---
+	sound_root.get_node("GlobalSound/Global").text = tr("全局音量")
+
+	# --- 按钮区域 ---
+	var sound_buttons = sound_root.get_node("button")
+	sound_buttons.get_node("SoundEffects").text = tr("音效启用")
+	sound_buttons.get_node("CharacterVoice").text = tr("人物语音启用")
+	sound_buttons.get_node("BGM").text = tr("BGM启用")
+
+	# ===================================
+	# 🗂 右上角按钮
+	# ===================================
 	$Panel/ClearButton.text = tr("清除所有存档")
 	$Panel/BackToMenuButton.text = tr("返回主菜单")
 	$Panel/CloseButton.text = tr("关闭页面")
 	$Panel/QuitButton.text = tr("退出游戏")
+
 
 	# 确认对话框的标题
 	if $Panel.has_node("ConfirmDialog"):
@@ -325,3 +375,159 @@ func _input(event):
 		if not panel.visible:
 			_on_button_pressed()
 			return
+func _init_language_settings() -> void:
+	var saved_lang := _load_language()
+	TranslationServer.set_locale(saved_lang)
+	ResMgr.set_language(saved_lang)
+
+	_language_lock = true
+	chinese_button.button_pressed = (saved_lang != "en")
+	english_button.button_pressed = (saved_lang == "en")
+	_language_lock = false
+
+	chinese_button.toggled.connect(_on_chinese_toggled)
+	english_button.toggled.connect(_on_english_toggled)
+
+	_update_ui_texts()  # 刷新 SettingMain 自己的 Tab 标题等
+
+
+func _on_chinese_toggled(pressed: bool) -> void:
+	if _language_lock:
+		return
+	_language_lock = true
+
+	if pressed:
+		english_button.button_pressed = false
+		_set_language("zh")
+	else:
+		english_button.button_pressed = true
+		_set_language("en")
+
+	_language_lock = false
+
+
+func _on_english_toggled(pressed: bool) -> void:
+	if _language_lock:
+		return
+	_language_lock = true
+
+	if pressed:
+		chinese_button.button_pressed = false
+		_set_language("en")
+	else:
+		chinese_button.button_pressed = true
+		_set_language("zh")
+
+	_language_lock = false
+
+
+func _set_language(lang_code: String) -> void:
+	TranslationServer.set_locale(lang_code)
+	ResMgr.set_language(lang_code)
+	_save_language(lang_code)
+
+	# 更新 SettingMain 自己的 UI
+	_update_ui_texts()
+
+	# 如果你希望当前场景里其它 UI 也跟着变（talk_ui、option_ui等）
+	var ui_root := get_tree().current_scene.get_node_or_null("UI")
+	if ui_root:
+		for child in ui_root.get_children():
+			if child.has_method("_update_ui_texts"):
+				var m := child.get_method_list().filter(func(x): return x.name == "_update_ui_texts")
+				if m.size() > 0 and m[0].args.size() == 0:
+					child.call("_update_ui_texts")
+				else:
+					child.call("_update_ui_texts", lang_code)
+
+func _init_audio_settings() -> void:
+	# --- 主音量 ---
+	var saved_volume := _load_master_volume()
+	main_sound_slider.min_value = 0
+	main_sound_slider.max_value = 100
+	main_sound_slider.step = 1
+	main_sound_slider.value = saved_volume
+	global_label.text = "%d%%" % int(saved_volume)
+	_apply_master_volume(saved_volume)
+
+	main_sound_slider.value_changed.connect(_on_main_sound_changed)
+
+	# --- BGM 开关 ---
+	var bgm_enabled := _load_bgm_enabled()
+	bgm_toggle.button_pressed = bgm_enabled
+	_apply_bgm_enabled(bgm_enabled)
+	bgm_toggle.toggled.connect(_on_bgm_toggled)
+
+
+func _on_main_sound_changed(value: float) -> void:
+	global_label.text = "%d%%" % int(value)
+	_apply_master_volume(value)
+	_save_master_volume(value)
+
+
+func _apply_master_volume(value: float) -> void:
+	var db := _value_to_db(value)
+	var bus := AudioServer.get_bus_index("Master")
+	AudioServer.set_bus_volume_db(bus, db)
+	AudioServer.set_bus_mute(bus, value <= 0)
+
+
+func _value_to_db(value: float) -> float:
+	if value <= 0:
+		return -80.0
+	return lerp(-30.0, 0.0, value / 100.0)
+
+
+func _on_bgm_toggled(pressed: bool) -> void:
+	_apply_bgm_enabled(pressed)
+	_save_bgm_enabled(pressed)
+
+
+func _apply_bgm_enabled(enabled: bool) -> void:
+	# ✅ 注意：游戏内场景不一定叫 Start，所以别找 Start
+	# 你只要找当前场景 UI/音频里的 AudioStreamPlayer
+	var bgm_player = get_tree().root.find_child("AudioStreamPlayer", true, false)
+	if bgm_player:
+		if enabled:
+			if not bgm_player.playing:
+				bgm_player.play()
+		else:
+			bgm_player.stop()
+func _save_language(lang_code: String) -> void:
+	var cfg := ConfigFile.new()
+	if cfg.load("user://config.cfg") != OK:
+		cfg = ConfigFile.new()
+	cfg.set_value("settings", "language", lang_code)
+	cfg.save("user://config.cfg")
+
+func _load_language() -> String:
+	var cfg := ConfigFile.new()
+	if cfg.load("user://config.cfg") == OK:
+		return cfg.get_value("settings", "language", "zh")
+	return "zh"
+
+func _save_master_volume(value: float) -> void:
+	var cfg := ConfigFile.new()
+	if cfg.load("user://config.cfg") != OK:
+		cfg = ConfigFile.new()
+	cfg.set_value("settings", "master_volume", value)
+	cfg.save("user://config.cfg")
+
+func _load_master_volume() -> float:
+	var cfg := ConfigFile.new()
+	if cfg.load("user://config.cfg") == OK:
+		return float(cfg.get_value("settings", "master_volume", 80.0))
+	return 80.0
+
+func _save_bgm_enabled(enabled: bool) -> void:
+	var cfg := ConfigFile.new()
+	if cfg.load("user://config.cfg") != OK:
+		cfg = ConfigFile.new()
+	cfg.set_value("settings", "bgm_enabled", enabled)
+	cfg.save("user://config.cfg")
+
+func _load_bgm_enabled() -> bool:
+	var cfg := ConfigFile.new()
+	if cfg.load("user://config.cfg") == OK:
+		return bool(cfg.get_value("settings", "bgm_enabled", true))
+	return true

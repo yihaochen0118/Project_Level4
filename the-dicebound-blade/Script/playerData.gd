@@ -192,30 +192,27 @@ func use_item(item_name: String):
 
 func reset_all_data():
 	print("🧹 重置所有玩家数据（新游戏）")
-	
-	# 清空基础属性与状态
+
 	hp = 100
 	max_hp = 100
-	stats = {
-		"strength": 2,
-		"constitution": 3,
-		"intelligence": 5,
-		"charisma": 3
-	}
+	stats = {"strength":2,"constitution":3,"intelligence":5,"charisma":3}
 	flags.clear()
 	choice_history.clear()
 	inventory.clear()
-	unlocked_nodes.clear()
 
-	# 重置骰子
+	# ❌ 永久解锁不要清
+	# unlocked_nodes.clear()
+
+	# ✅ 可选：确保从磁盘再读一遍永久进度（防止内存被别处动过）
+	load_progress()
+
 	dice_uses = dice_max_uses.duplicate(true)
 
-	# 通知UI刷新
 	emit_signal("stats_changed")
 	emit_signal("hp_changed", hp, max_hp)
 	emit_signal("item_changed")
+	print("✅ 所有数据已恢复默认状态（永久解锁保留）")
 
-	print("✅ 所有数据已恢复默认状态")
 	
 func set_chapter(new_chapter: String) -> void:
 	if chapter != new_chapter:
