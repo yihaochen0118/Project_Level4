@@ -123,7 +123,7 @@
 		"action": "show_option_ui",
 		"options": [
 		  { "text": "选项 A：跟她去镇集（你负责拎东西）【无检定（DC 0）】", "dc": 0, "check": "dexterity" },
-		  { "text": "选项 B：留在旅店处理伤口与打理店内【无检定（DC 0）】", "dc": 0, "check": "dexterity" }
+		  { "text": "选项 B：嘴上拒绝但悄悄跟上Alicia【无检定（DC 0）】", "dc": 0, "check": "dexterity" }
 		]
 	  },
 	  { "action": "hide_talk_ui" }

@@ -2,141 +2,129 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "unlock", "target": "2_5" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "Night pressed down, the firelight stretching shadows long across the walls."
+	"text": "Night presses down, the firelight from the hearth stretching the shadows long."
   },
   {
-	"text": "I had promised myself I wouldn’t go out again—but the quieter it got, the more it felt like something was closing in. I couldn’t sit still."
+	"text": "I promised myself I wouldn’t go out, but the quieter it gets, the more it feels like something is closing in—I can’t sit still."
   },
-
   {
 	"event": [
 	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] },
 	  { "action": "show_name", "target": "Lucia" }
 	],
-	"text": "Lucia burst in, her voice shaking. \"Innkeeper! The mentor—she’s gone!\""
+	"text": "Lucia rushes in, her voice trembling. “Innkeeper! The mentor is gone!”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "\"Where did she go?\""
+	"text": "“Where did she go?”"
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "\"She suddenly put on her cloak and left… she only said ‘don’t follow.’ I also heard her mention the Echo Assembly.\""
+	"text": "“She suddenly put on her cloak and left… just said ‘Don’t follow.’ I also heard her mention the Echo Assembly.”"
   },
-
   {
-	"text": "I didn’t ask anything else. Those three words were enough to make me grip my short sword."
+	"text": "I don’t ask more. Those three words are enough for me to grab my short sword."
   },
-
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "\"Let’s go. If she won’t let you follow, then you follow me.\""
+	"text": "“Let’s go. If she told you not to follow, then you follow me.”"
   },
-
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" }
 	],
-	"text": "Fog and snow kneaded the streets into a blur as we chased toward the northern district."
+	"text": "Fog and snow knead the streets into a blur as we chase toward the northern district."
   },
   {
-	"text": "The closer we got to Scrap Iron Alley, the quieter it became—unnaturally quiet."
+	"text": "The closer we get to Scrap Iron Alley, the quieter it becomes—unnaturally quiet."
   },
   {
-	"text": "The sounds that should have been there never came, like someone had already written the ending."
+	"text": "The sounds that should have been there never come, as if someone has already written the ending."
   },
-
   {
 	"event": [
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
 	  { "action": "show_name", "target": "Alicia" }
 	],
-	"text": "From the shadows at the mouth of the alley, Alicia stepped out. The edge of her cloak was scorched black, blood staining her gloves."
+	"text": "From the shadows at the alley’s mouth, Alicia steps out. The edge of her cloak is scorched, and there’s blood on her gloves."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "\"…This is a pain.\""
+	"text": "“…What a hassle.”"
   },
-
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "\"Mentor! Are you hurt?!\""
+	"text": "“Mentor! Are you okay?!”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "\"You went in alone?\""
-  },
-
-  {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "\"Yeah.\""
+	"text": "“You went in already?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "\"Don’t stand here.\""
+	"text": "“Mm.”"
   },
-
   {
-	"text": "She opened her palm—inside lay a ring-shaped sigil. She closed her hand quickly, like she didn’t want to look at it for too long."
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Don’t stand here.”"
   },
-
+  {
+	"text": "She opens her palm—a ring-shaped token rests there. When she closes her hand again, it’s quick, like she’d be annoyed if she looked at it any longer."
+  },
   {
 	"event": [
 	  { "action": "set_background", "target": "underground_entrance" }
 	],
-	"text": "She pushed open the rusted door. We followed her down."
+	"text": "She pushes open the rusted door. We follow her down."
   },
   {
-	"text": "The sigil patterns hadn’t fully faded yet. Black-robed bodies lay scattered across the floor. No chanting. No struggle—like a paragraph cut cleanly with a blade."
-  },
-
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "\"You killed them…\""
-  },
-  {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "\"I handled it.\""
+	"text": "The formation hasn’t fully faded. Black-robed figures lie scattered across the floor. No chanting, no struggle—like a paragraph cut cleanly in one stroke."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "\"Why didn’t you bring us?\""
+	"text": "“You dealt with them…”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She glanced at me, her tone flat. \"Because you’d get in the way. And I already know how to deal with them—there was no need to worry.\""
+	"text": "“Handled.”"
   },
-
   {
-	"text": "Lucia bit her lip, then quietly pulled Alicia’s cloak tighter, shielding her from the cold."
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“Why didn’t you call us?”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "She glances at me, her tone even. “Because you’d be in the way. And I already know how to deal with them. No need to worry.”"
+  },
+  {
+	"text": "Lucia bites her lip but still adjusts Alicia’s cloak quietly, shielding her from the draft."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "\"Your hands are shaking… you’re pushing yourself again.\""
+	"text": "“Your hands are shaking… you’re forcing it again.”"
   },
   {
-	"text": "Alicia didn’t deny it. She only tucked the sigil back into her clothes."
-  },
-
-  {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "\"We’re going back.\""
+	"text": "Alicia doesn’t deny it. She just slips the token back inside her clothes."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "\"Leave this place. I’ll still need it tomorrow.\""
+	"text": "“We’re leaving.”"
   },
-
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Leave this place. I’ll need it again tomorrow.”"
+  },
   {
 	"event": [
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "Option A: Press her—“What is this place? Why are you so familiar with it?” 【Insight Check (INS DC 13)】", "dc": 13, "check": "charisma" },
-		  { "text": "Option B: Stop questioning and escort them back to the inn 【No Check (DC 0)】", "dc": 0, "check": "dexterity" },
-		  { "text": "Option C: Make an excuse to stay behind and observe the area 【Perception Check (PER DC 12)】", "dc": 12, "check": "intellgent" }
+		  { "text": "Option A: Press her—“Where exactly is this? Why do you seem so familiar with it?” [charisma Check (INS DC 13)]", "dc": 13, "check": "charisma" },
+		  { "text": "Option B: Stop pressing and escort them back to the inn first [No Check (DC 0)]", "dc": 0, "check": "dexterity" },
+		  { "text": "Option C: Make an excuse to stay and observe the surroundings [intellgent Check (PER DC 12)]", "dc": 12, "check": "intellgent" }
 		]
 	  },
 	  { "action": "hide_talk_ui" }

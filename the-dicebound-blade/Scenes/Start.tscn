@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://dpo6pv4jbf27w"]
+[gd_scene load_steps=5 format=3 uid="uid://dpo6pv4jbf27w"]
 
 [ext_resource type="Script" uid="uid://dk15tr31yvu73" path="res://Script/start.gd" id="1_og4jd"]
 [ext_resource type="Texture2D" uid="uid://35gfti1fitws" path="res://images/background/mainPage.jpg" id="2_nt0jr"]
 [ext_resource type="AudioStream" uid="uid://baep7kc2qf6iq" path="res://Scenes/music/LostMyPieces——Piano Ver..ogg" id="3_y4ycm"]
+[ext_resource type="VideoStream" uid="uid://dqg5dnswq8tlq" path="res://vedio/BackGround.ogv" id="4_1lxxj"]
 
 [node name="Start" type="Control"]
 layout_mode = 3
@@ -10,11 +11,21 @@ anchors_preset = 0
 script = ExtResource("1_og4jd")
 
 [node name="TextureRect" type="TextureRect" parent="."]
+visible = false
 layout_mode = 0
 offset_right = 3266.6665
 offset_bottom = 1800.0
 scale = Vector2(0.6, 0.6)
 texture = ExtResource("2_nt0jr")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 0
+offset_right = 1959.0
+offset_bottom = 1078.0
+stream = ExtResource("4_1lxxj")
+autoplay = true
+expand = true
+loop = true
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 0
@@ -40,11 +51,6 @@ text = "读取存档"
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 text = "游戏设置"
-
-[node name="CG" type="Button" parent="VBoxContainer"]
-custom_minimum_size = Vector2(0, 100)
-layout_mode = 2
-text = "画廊鉴赏"
 
 [node name="QuitButton" type="Button" parent="VBoxContainer"]
 custom_minimum_size = Vector2(0, 100)

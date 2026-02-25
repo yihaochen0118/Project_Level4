@@ -6,92 +6,102 @@
 	]
   },
   {
-	"text": "I took a deep breath, steadying my voice."
+	"text": "I take a deep breath and steady my voice."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
 	"text": "“Friend, she’s just a traveler passing through. If you want a drink, it’s on me.”"
   },
   {
-	"text": "The drunkard froze for a moment. The cracked bottle in his hand wobbled twice, and wine trickled down its neck, dripping onto the counter."
+	"text": "The drunk freezes for a moment. The broken bottle in his hand wobbles twice, wine trickling from its mouth onto the counter."
   },
   {
-	"text": "His gaze drifted between me and the woman. The anger on his lips slowly faded, leaving only the weariness of a man long drowned in drink."
+	"text": "His gaze shifts between me and the woman. Hesitation flickers in his eyes, and the anger at the corner of his mouth slowly fades, leaving only drunken exhaustion."
   },
   {
-	"text": "I sighed quietly."
+	"text": "I let out a sigh."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“If you keep causing trouble, I’ll have to call the town guard.”"
+	"text": "“If you keep causing trouble, I’ll really have to call the town guard.”"
   },
   {
-	"text": "The drunkard muttered something under his breath, a half-hearted curse."
+	"text": "The drunk mutters, cursing under his breath."
   },
   {
 	"event": { "action": "show_name", "target": "Junker" },
-	"text": "“Hmph... lousy tavern.”"
+	"text": "“Hmph… shabby tavern.”"
   },
   {
-	"text": "He staggered toward the door, his boots scraping across the floor with a harsh, dragging sound. The wind seeped in, carrying a chill scent of snow."
+	"text": "He staggers toward the door, his heels scraping harshly against the floorboards. The wind slips in from outside, carrying the scent of cold snow."
   },
   {
 	"event": [{ "action": "remove_character", "target": "Junker" }],
-	"text": "He kicked the door open and slammed it shut behind him, the frame trembling from the impact. Moments later, only the whisper of snow remained. The tavern fell silent once more."
+	"text": "He kicks the door open and then slams it shut again, making the window frames tremble slightly. Moments later, only the sound of snow remains. The tavern returns to silence."
   },
   {
-	"text": "I exhaled deeply, realizing my back was soaked with cold sweat. The fire crackled again, and the shifting light returned to the walls."
+	"text": "I exhale and realize the back of my shirt is already soaked with cold sweat. The hearth crackles, light and shadow returning to the walls."
   },
   {
-	"text": "She stood where she was, her gaze resting quietly on me. It was a look hard to describe—part approval, part assessment."
+	"text": "She stands where she is, her gaze resting quietly on me. It is an expression hard to describe—part approval, part scrutiny."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
 	"text": "“You handled that well.”"
   },
   {
-	"text": "I gave a faint smile, wiping the spilled wine from the table."
+	"text": "I smile faintly and wipe the spilled wine from the table."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Just doing my part.”"
+	"text": "“Just doing my duty.”"
   },
   {
-	"text": "She nodded slightly, her expression calm."
+	"text": "She gives a slight nod, her expression calm."
   },
   {
-	"text": "The firelight reflected softly on her face—the chill in her features seemed to ease, just a little."
+	"text": "The firelight reflects on her face, and the chill in her features seems to soften at last."
   },
   {
-	"text": "Then I noticed her hands—slender, long-fingered, but marked with faint calluses that no traveler should bear."
+	"text": "I notice her hands—hands that do not belong to an ordinary traveler. Her fingers are slender, yet faint calluses rest upon her knuckles."
   },
   {
-	"text": "Curiosity stirred in me, but I held my tongue. The air began to move again, as if nothing had happened, leaving only the sound of wood crackling in the hearth."
+	"text": "Curious, I refrain from asking. The air begins to move again, as if nothing had happened, leaving only the sound of wood burning."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "Her gaze lingered on me, her voice low and even."
+	"text": "Her gaze lingers on me, her voice low and steady."
   },
   { "text": "“What’s your name?”" },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "I blinked, then answered without thinking."
+	"text": "I pause for a moment before answering."
   },
-  { "text": "“My name is... Ryan.”" },
+  { "text": "“My name is—Ryan.”" },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She nodded lightly."
+	"text": "She nods gently."
   },
   { "text": "“I’ll remember that.”" },
   {
 	"event": { "action": "hide_name" },
-	"text": "She said nothing more, just took a seat by the fire, removing her cloak as snowflakes slid down the fabric’s edge."
+	"text": "She says nothing more, only sits by the hearth and removes her cloak, snowflakes sliding from the hem."
   },
   {
-	"text": "Leaning back in the chair, she closed her eyes for a moment and let out a long breath—at that moment, she no longer looked like a traveler, but simply a weary human being."
+	"text": "She leans back in the chair and closes her eyes for a moment, letting out a long breath—at that instant, she no longer looks like a traveler, but simply a weary human."
   },
   {
-	"text": "I watched her, and a strange feeling crept over me—as if all of this had been destined from the very beginning."
+	"text": "I watch her, suddenly struck by the illusion that all of this had been destined to happen from the very beginning."
+  },
+  {
+	"event": [
+	  { "action": "add_item", "target": "soul_fragment" }
+	],
+	"text": "As she rises, a pale blue crystal shard slips from the edge of her cloak. I bend down to pick it up, and it feels faintly warm at my fingertips."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“……Keep it.”"
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.1" }]

@@ -6,76 +6,78 @@
 	  { "action": "spawn_character", "target": "EnemyLeader", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "The air froze. The chanting stopped, and several gazes converged from within the shadows—cold, silent, yet burning with a twisted fanaticism."
+	"text": "The air freezes in place. The chanting stops. Several pairs of eyes shift toward us from the shadows—cold, silent, yet burning with a twisted fervor."
   },
   {
-	"text": "I didn’t hesitate. My boots slammed against the snow, shards of ice scattering as firelight flashed across my blade. The robed figures clearly hadn’t expected me to charge straight in."
+	"text": "I don’t hesitate. Snow and grit scatter beneath my boots as I launch forward, firelight flashing along my short blade. The robed figures clearly didn’t expect me to charge straight in."
   },
   {
-	"text": "The ritual’s glow still flickered. One of the sorcerers nearest to me raised his hand, chanting rapidly; the air twisted like tangled threads."
+	"text": "The ritual circle still pulses. The nearest caster raises a hand, murmuring a spell. The air tightens like warped threads winding around me."
   },
   {
 	"event": { "action": "shake", "target": "Player" },
-	"text": "I tried to dodge but slipped on the loose stones—my swing missed. A burst of blue light exploded before my eyes."
+	"text": "I twist to dodge—but my foot catches on loose stone. My blade slices through half an arc and misses. Blue light erupts in front of me."
   },
   {
 	"event": { "action": "hp_lost", "amount": 15 },
-	"text": "A searing pain ripped through my arm, as if branded by hot iron. I staggered back, choking down a groan as blood dripped from my sleeve onto the ground."
+	"text": "A searing pain rips through my arm, like being branded with heated iron. I stagger back, blood dripping from my sleeve onto the ground."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
 	"text": "“Hey! You’re bleeding!”"
   },
   {
-	"text": "Lucia cried out, quickly raising her staff as a shimmering wall of light formed between us."
+	"text": "Lucia cries out and swings her staff. A wall of light surges up in front of me."
   },
   {
-	"text": "The blue blast slammed into it, scattering sparks. Her face was flushed from the effort, jaw clenched as she braced against the backlash."
+	"text": "Blue force slams into the barrier, sparks flying. Lucia’s face glows red in the reflection as she grits her teeth, bracing against the impact."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Forget me—save her!”"
+	"text": "“Forget me—free her first!”"
   },
   {
 	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "“The blood of mortals... is enough to awaken the core.”"
+	"text": "“The blood of mortals… is enough to awaken the core.”"
   },
   {
-	"text": "A chill ran down my spine as I realized—the glowing sigils were spreading from where my blood had fallen, tracing back toward the pillars like veins of light devouring life."
+	"text": "A chill runs through me. I realize the sigils are lighting up along the trail of my blood. Blue lines slither back toward the stone pillar, feeding on it."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“No—you won’t!”"
+	"text": "“No—I’ll disrupt it!”"
   },
   {
-	"text": "Her voice was nearly drowned out by the roar around us. She lifted her staff, symbols flaring bright as daylight."
+	"text": "Her voice nearly drowns in the roaring energy. She forms a seal, her staff blazing brighter."
   },
   {
-	"text": "Lucia charged forward; a sphere of light burst from her staff, blasting a nearby cultist off his feet."
+	"text": "She rushes forward, a sphere of light bursting from her hand and blasting the nearest robed figure off his feet."
   },
   {
-	"text": "I forced myself up, slashing through the last binding rune around Alicia. In that instant, the ritual’s energy recoiled violently."
+	"text": "I force myself upright and lunge, hacking through the last restraint binding Alicia. In that instant, the ritual’s light recoils violently."
   },
   {
 	"event": { "action": "shake", "target": "Player" },
-	"text": "A shockwave hit me square in the chest, flinging me against the wall. My vision spun, ears ringing until all sound vanished into a dull hum."
+	"text": "A violent backlash of energy slams into me. I’m thrown against the wall, breath crushed from my lungs, ears ringing until everything fades into a dull hum."
   },
   {
-	"text": "Through the haze, I saw Lucia kneeling on the ground, panting. Alicia’s limp body fell from midair, caught just in time by her arms."
+	"text": "Through blurred vision, I see Lucia kneeling, gasping. Alicia falls from midair, caught just in time by Lucia’s arms."
   },
   {
-	"text": "The light faded. The air stank of burnt blood and ozone."
+	"text": "The light dims. The air fills with the smell of ash and blood."
   },
   {
 	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "“Interferers... you’ve sealed your fate.”"
+	"text": "“Interlopers… you invite your own doom.”"
   },
   {
-	"event": [{ "action": "remove_character", "target": "EnemyLeader" }],
-	"text": "The cult leader’s voice was icy and sharp before his figure vanished into a ripple of warped light."
+	"event": [
+	  { "action": "remove_character", "target": "EnemyLeader" }
+	],
+	"text": "The leader’s voice cuts like frost. Then he turns and vanishes into warped light."
   },
   {
-	"text": "The remaining cultists scattered as the collapsing array swallowed them whole."
+	"text": "The remaining robed figures scatter as the ritual circle collapses."
   },
   {
 	"event": [
@@ -85,42 +87,44 @@
 	"text": "“Are you alright?!”"
   },
   {
-	"text": "Alicia could barely stand, leaning on Lucia as they made their way toward me step by step."
+	"text": "Gravely wounded, Alicia can only lean against Lucia’s shoulder as they move toward me step by step."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
 	"text": "“Don’t move.”"
   },
   {
-	"text": "Her weak voice reached me as she drew glowing symbols in the air. A faint warmth spread through my wound, dulling the pain though the bleeding hadn’t stopped."
+	"text": "Her voice is weak but firm. Leaning on Lucia, she traces glowing sigils in the air."
   },
   {
-	"text": "“It’s a temporary seal,” she said, breath unsteady. “You’ll need real rest.”"
+	"text": "A soft radiance settles over my wound. The pain eases slightly, though blood still seeps. She exhales sharply. “Temporary clotting spell. You need rest.”"
   },
   {
-	"text": "I managed a strained smile. “Guess you and Lucia saved me again.”"
+	"text": "I manage a faint smile. “Looks like you and Lucia saved me again.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Your blood... part of it was absorbed into the array. You may have been pulled into its residual circuit.”"
+	"text": "“Your blood… the ritual absorbed part of it. You may have been drawn into its residual circuit.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“What does that mean?”"
+	"text": "“Meaning?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“For now, nothing. But if you get near another ritual like this... it might react.”"
+	"text": "“For now, nothing. But… if you approach similar spellwork again, it might respond.”"
   },
   {
-	"text": "Her hand rested on mine, cold against my skin. “Promise me—don’t push yourself like that again.”"
+	"text": "Her hand rests over mine, her palm cold. “Promise me you won’t rush in like that again.”"
   },
   {
-	"text": "I froze. Her fingers tightened ever so slightly—gentle, but impossible to ignore."
+	"text": "I hesitate. Her fingers tighten just slightly—barely any pressure, yet impossible to ignore."
   },
   {
-	"event": [{ "action": "set_background", "target": "Street" }],
-	"text": "We slowly emerged from the tunnel. The night wind cut like a blade, and the distant inn lights shimmered faintly through the snow."
+	"event": [
+	  { "action": "set_background", "target": "Street" }
+	],
+	"text": "We make our way out of the tunnel. The night wind outside cuts like a blade. In the distance, the inn’s lantern flickers."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
@@ -131,13 +135,13 @@
 	"text": "“They will.”"
   },
   {
-	"text": "Alicia’s voice was soft and weary. “But we’ll be faster.”"
+	"text": "Alicia’s voice is low and strained. “But we’ll be faster.”"
   },
   {
-	"text": "Snow crunched beneath our boots. The wind tangled her hair, carrying away the last traces of the ritual’s scent."
+	"text": "Snow crunches underfoot. The wind tangles her hair and scatters the last traces of the ritual’s energy."
   },
   {
-	"text": "I looked down at my bandaged arm, an uneasy chill creeping through me. Deep beneath the skin, the faint blue glow still pulsed like a heartbeat."
+	"text": "I glance down at my bandaged arm, unease stirring within me. The afterimage of that blue glow still seems to flicker deep beneath my skin."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.7" }]

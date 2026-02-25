@@ -2,49 +2,49 @@
   {
 	"event": [
 	  { "action": "hide_talk_ui" },
-	{ "action": "unlock","target": "1_8" },
+	  { "action": "unlock","target": "1_8" },
 	  { "action": "set_background", "target": "tavern_night" }
 	]
   },
   {
 	"event": { "action": "show_talk_ui" },
-	"text": "The night air was thick as ink. A burnt, metallic scent drifted in from the north gate—the unmistakable stench that came with monsters: iron, blood, and rot."
+	"text": "The night air is thick as ink. The wind carries the smell of scorched grass from the direction of the north gate—the scent that only appears when monsters draw near: metal, blood, rot."
   },
   {
-	"text": "I leaned behind the counter. The fire in the hearth was dying, its glow fading to embers. From afar came the sound of hooves—fleeing, not charging. Then it struck me: it was already dark. Alicia hadn’t returned. Lucia was gone too."
+	"text": "I lean behind the counter as the firelight in the hearth slowly dims. Distant hoofbeats echo outside, as if something is fleeing. Then it hits me—the sky is already dark, and Alicia hasn’t returned. Lucia isn’t here either."
   },
   {
-	"text": "I went to the window. The street outside was empty, the wind swirling snowflakes through the alleys. The inn’s lights reflected dimly in the glass—two lonely eyes in the dark. Before she left, Alicia said only one thing: *Don’t go outside tonight, no matter what you hear.*"
+	"text": "I walk to the window. The street is empty, wind spiraling snow at the mouth of the alley. The tavern’s lamplight reflects in the glass like two lonely eyes. Before leaving, she said only one thing: No matter what you hear tonight, do not go outside."
   },
   {
-	"text": "I opened the drawer and felt for the short sword—and the charm. She said it would ‘keep me dreamless for one night.’ But I couldn’t sleep at all."
+	"text": "I open the drawer and feel the short sword and the charm. She said it would keep me dreamless for one night. But I can’t sleep."
   },
   {
-	"text": "The wind grew stronger, carrying the roar of something beyond the walls. The house trembled; dust drifted from the beams. I walked to the door. A blast of hot air rushed through the crack—thick with blood. My hand tightened around the handle, burning hot."
+	"text": "The wind grows louder, like something roaring beyond the city walls. The building trembles faintly, dust drifting from the beams. I step to the door. A gust of hot air pushes through the crack, tinged with the scent of blood. My hand grips the handle, my palm burning."
   },
   {
-	"text": "Her voice still echoed in my head: *Don’t go outside.* I forced myself to let go."
+	"text": "Her voice echoes in my ears: Don’t go outside. It takes all my strength to let go."
   },
   {
-	"text": "A flash lit the horizon—then vanished. That kind of light didn’t belong to this world."
+	"text": "The horizon flares once, then fades—a brightness that does not belong to this world."
   },
   {
 	"event": { "action": "set_background", "target": "Black" },
-	"text": "I didn’t know how long the battle lasted. When the wind finally ceased, the streets were silent. To the north, the sky faintly glowed red."
+	"text": "I don’t know how long the battle lasted. At last, the wind dies down. The street corner falls silent. The northern sky glows faintly red."
   },
   {
 	"event": { "action": "set_background", "target": "Street" },
-	"text": "I opened the door. The air outside was heavy with ash and burnt snow. No people. No Lucia. Only the wind, thinning the scent of blood with every gust."
+	"text": "I push the door open. Night clings like burnt ash. There is no one on the street, and no sign of Lucia. Only the wind slowly thinning the scent of blood."
   },
   {
-	"text": "I stood there for a long time. Snow began to fall—thin, cold. Something half-buried at my feet caught the light: a brass die."
+	"text": "I stand at the doorway for a long time. Snow begins to fall—fine and cold. Half-buried in the snow at my feet lies something familiar—the brass die."
   },
   {
-	"text": "It was still warm. I picked it up, wiped the blood away. The die rolled once in my palm, then stopped—‘3.’ The world went utterly still. Even the wind seemed to hold its breath."
+	"text": "It still holds a trace of warmth. I pick it up and wipe away the bloodstain. The die rolls once in my palm and slowly stops—“3.” The world falls silent, even the wind seeming to hold its breath."
   },
   {
 	"event": { "action": "set_background", "target": "tavern_night" },
-	"text": "I sat back behind the counter. The fire was out. Outside, snow kept falling. That night, I didn’t sleep. And they never came back."
+	"text": "I return behind the counter and sit down. The fire is out. Snow continues to fall outside the window. That night, I never slept again—and I never saw them return."
   },
   {
 	"event": { "action": "change_scene", "target": "scene2.0" }

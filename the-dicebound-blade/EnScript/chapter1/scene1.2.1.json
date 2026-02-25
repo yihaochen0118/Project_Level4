@@ -5,70 +5,79 @@
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
 	]
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "I opened the ledger and looked up. “Are you booking a room for Lucia as well?”"
+	"text": "I open the ledger and look up. “Are you booking a room for Lucia as well?”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Yes. She’ll be helping me sort the herbs tonight.”"
+	"text": "“Yes. She’ll be helping me sort medicinal herbs tonight.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“The room next door is quiet. The wind doesn’t reach much there.” I handed her the two keys."
+	"text": "“The room next door is quiet. The wind isn’t too strong there.” I say, handing over two keys."
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "As she took the keys, her gaze lingered briefly on my fingers—soft, and strangely gentle."
+	"text": "As she takes the keys, her gaze lingers briefly on my fingertips, her expression gentle and strangely unreadable."
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "“Master! I’ll go get the room ready!”"
+	"text": "“Master! I’ll go tidy up!”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Don’t touch the window sill!”"
+	"text": "“Don’t touch the windowsill!”"
   },
+
   {
-	"event": { "action": "remove_character", "target": "Lucia" },
-	"text": "Lucia ran upstairs with her basket of herbs, her footsteps light as wind chimes. Alicia watched her go and let out a quiet sigh."
+	"text": "Lucia runs upstairs cheerfully with her basket of herbs, her footsteps light as wind chimes. Alicia watches her retreating figure and lets out a soft sigh.",
+	"event": { "action": "remove_character", "target": "Lucia" }
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“Your apprentice is quite adorable.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“She’s a good child—luckier than I ever was. I found her in a war-torn village when she was ten.”"
+	"text": "“She’s a good child. Much luckier than I was. I found her in a war-torn village. She was only ten at the time.”"
   },
   {
-	"text": "Her voice dropped slightly, as though afraid to disturb some long-buried memory."
+	"text": "Her voice lowers slightly, as if afraid of disturbing some long-sealed memory."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“And her family…?”"
+	"text": "“Back then… her family?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Gone.” She paused, her fingers tracing the edge of the key. “When I found her, she was clutching a broken lantern, still waiting for someone to come back.”"
+	"text": "“They were all gone.” She pauses, gently rubbing the key between her fingers. “When I found her, she was clutching a broken lamp, still waiting for someone.”"
   },
   {
-	"text": "The fire cast a faint glow across her armor. The air was so still that only the crackling of wood could be heard."
+	"text": "The hearthlight reflects faintly off her armor. The room grows so quiet that only the crackle of firewood remains."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Since then, she’s stayed by my side. Mixing herbs, marking roads, asking questions... just like now.”"
+	"text": "“Since then, she’s stayed with me. She mixes herbs, memorizes roads, asks countless questions… just like she does now.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“You think of her as family, don’t you?”"
+	"text": "“You see her as family, don’t you?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Maybe.” A faint smile crossed her lips. “But sometimes I think... she understands life better than I do.”"
+	"text": "“Perhaps.” She offers the faintest smile. “But sometimes I think she understands how to live better than I do.”"
   },
   {
-	"text": "I didn’t know what to say. The firelight flickered in her eyes, and that soft smile carried a trace of sorrow almost too delicate to name."
+	"text": "For a moment, I have no words. I can only watch the firelight flicker in her eyes. The smile is subtle, yet beneath it lies a sorrow that is hard to notice."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -76,36 +85,34 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“The air feels damp. It might snow again tonight.”"
+	"text": "“The air feels damp today. It’ll probably snow again tonight.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“I’ll keep dinner for you both.”"
+	"text": "“I’ll save dinner for you both.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Thank you.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“There’s something about this place... it feels strangely familiar.”"
+	"text": "“I can’t help feeling that this place gives me a strange sense of déjà vu.”"
   },
+
   {
 	"event": { "action": "remove_character", "target": "Alicia" },
-	"text": "Her footsteps were almost soundless as she went upstairs."
+	"text": "Her footsteps upstairs are incredibly light, almost silent."
   },
+  { "text": "I watch her back as she leaves, feeling an inexplicable tightness in my chest." },
+  { "text": "I lower my gaze and see the brass die resting quietly on the counter." },
+  { "text": "The wind brushes past the eaves, carrying the distant toll of the church bells." },
   {
-	"text": "I watched her go, feeling a quiet ache in my chest."
+	"text": "At that moment, I suddenly feel as though time itself is gently swaying, as if someone behind the scenes has lightly turned a hidden gear."
   },
-  {
-	"text": "Then I looked down—and saw the brass die lying quietly on the counter again."
-  },
-  {
-	"text": "Outside, the wind brushed past the eaves, carrying the faint toll of a distant church bell."
-  },
-  {
-	"text": "For a moment, it felt as if time itself had shifted slightly—like someone, somewhere, had just turned a hidden gear."
-  },
+
   {
 	"event": [{ "action": "change_scene", "target": "scene1.3" }]
   }

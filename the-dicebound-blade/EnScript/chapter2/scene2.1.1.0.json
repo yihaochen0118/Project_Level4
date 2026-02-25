@@ -1,19 +1,14 @@
 [
   {
 	"event": [
-	  { "action": "hide_talk_ui" },
-	  { "action": "set_background", "target": "tavern_upstairs" },
-	  { "action": "show_talk_ui" }
+	  { "action": "show_talk_ui" },
+	  { "action": "unlock", "target": "2_1_1" }
 	]
   },
 
   {
-	"text": "I chased upstairs, taking the steps two at a time. The corridor was cold, like no one had lived there for years. Her door was ajar, a thin line of light leaking through the crack."
-  },
-
-  {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"Who are you, really? How did you know the key was under the carpet? Do you know me?\""
+	"text": "“What’s wrong with you today?” I stare into her eyes. “From the moment you walked in, it’s like you’ve frozen yourself over.”"
   },
 
   {
@@ -21,56 +16,108 @@
 	  { "action": "show_name", "target": "Alicia" },
 	  { "action": "shake", "target": "Alicia" }
 	],
-	"text": "A cold voice came from inside the room. \"Don’t come in.\""
+	"text": "Her gaze lifts, like the edge of a blade flashing out of its sheath for a split second."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You don’t need to know.”"
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "The sentence is short, but it feels like a door slammed shut. Lucia freezes mid-motion with the ointment in her hand, visibly flustered."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“Master… he’s just worried about you.”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Worried?” she repeats faintly, as if tasting a word that doesn’t belong."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Lucia, don’t teach others to interfere.”"
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "Lucia’s eyes redden instantly, but she doesn’t cry. Instead, she carefully pulls the medicine basket closer, as if tightening her grip could steady the situation."
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"I just want some answers—\""
+	"text": "“You could at least—”"
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"The more you ask, the more dangerous it becomes for you.\""
+	"text": "“No.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Today, I just want to rest.”"
   },
 
   {
 	"event": { "action": "hide_name" },
-	"text": "She pushed the door open just a little. I could only see her standing in the shadows, her face pale, dark circles heavy beneath her eyes."
+	"text": "She stands. Her cloak sways lightly, as if carrying all her emotions away with it."
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"Go downstairs. Tend to your wounds.\""
+	"text": "“Two rooms.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Give her the key.”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“I—I understand…”"
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "She turns and walks upstairs, her footsteps unnervingly light—as if afraid that making any sound might cause her to crack."
+  },
+
+  {
+	"event": [
+	  { "action": "set_flag", "flag": "alicia_shut_down_2_1", "value": true },
+	  { "action": "set_flag", "flag": "lucia_more_worried", "value": true }
+	]
+  },
+
+  { "text": "The creak of the staircase fades. Only the crackling of the hearth remains." },
+  { "text": "Lucia bites her lip and forces a small smile, as if apologizing on her master’s behalf." },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“...I’m sorry. She doesn’t dislike you. She’s just… holding on with everything she has.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I let out a breath and shake my head. “It’s fine. You don’t need to apologize for her.”"
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "Lucia finally seems to relax just a little, though her shoulders remain tense, her fingers gripping the edge of the basket until they turn pale."
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"At least tell me—why won’t you do anything?\""
+	"text": "“If she needs rest, let her rest.” I glance toward the stairs. “And don’t push yourself too hard either.”"
   },
 
   {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"No explanations.\""
-  },
-
-  {
-	"event": { "action": "hide_name" },
-	"text": "Her tone wasn’t harsh, but it left no room for argument. This wasn’t a discussion—it was an order."
-  },
-
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"I’ll be staying here tonight. Don’t come back up.\""
-  },
-
-  {
-	"event": { "action": "hide_name" },
-	"text": "The door shut with a sharp click. I stood alone in the corridor, the bruise on my face throbbing, my chest feeling even tighter."
-  },
-
-  {
-	"text": "Grinding my teeth, I turned and went downstairs. She had driven me away completely, like she was afraid one more word from me would cause trouble."
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "She sniffles and nods firmly. “...Okay. I’ll keep an eye on her.”"
   },
 
   {

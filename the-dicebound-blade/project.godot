@@ -22,6 +22,7 @@ EventMgr="*res://Script/EventManager.gd"
 PlayerData="*res://Script/playerData.gd"
 SaveMgr="*res://Script/SaveManager.gd"
 UiAnimator="*res://Script/UIAnimator.gd"
+SdMgr="*res://Script/SoundManager.gd"
 
 [display]
 

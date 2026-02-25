@@ -2,23 +2,23 @@
   {
 	"event": [
 	  { "action": "hide_talk_ui" },
-	{ "action": "unlock","target": "1_3" },
+	  { "action": "unlock", "target": "1_3" },
 	  { "action": "set_background", "target": "tavern_night" }
 	]
   },
   {
 	"event": { "action": "show_talk_ui" },
-	"text": "Night had fallen. Outside, the sound of snow was as fine as sand. The fireplace burned bright, the logs crackling now and then."
+	"text": "Night settles in. The snow outside whispers like fine sand, and the hearth burns brightly, the wood occasionally cracking with a soft pop."
   },
   {
-	"text": "I leaned against the counter. The dim yellow light illuminated half the tavern. Lucia had long gone to bed; the whole place was so quiet I could hear the wind breathing through the door cracks."
+	"text": "I lean against the counter, the dim yellow light illuminating half the inn. Lucia has long since gone upstairs to sleep. The entire place is so quiet that I can hear the wind breathing through the cracks in the door."
   },
   {
-	"text": "The firelight flickered, and the shadow on the wall swayed twice. I thought it was the wind—then came a soft creak from the stairs—"
+	"text": "The firelight flickers, and the shadow on the wall sways twice. I think it’s the wind—until the stairs creak softly."
   },
   {
 	"event": [{ "action": "spawn_character", "target": "Alicia", "pos": [450, 0] }],
-	"text": "Alicia came down in a silver cloak, her hair catching a faint gold under the firelight. She approached the counter and pointed at the wine shelf. “Still awake? Good—pour me one.”"
+	"text": "Alicia descends wrapped in her silver-white cloak, her hair faintly golden in the firelight. She approaches the counter and gestures toward the rack. “Still awake? Good—pour me a drink.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
@@ -26,30 +26,32 @@
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Mm.” she said softly. “Nights in this town are too quiet. Quiet enough to remind me of... somewhere else.”"
+	"text": "“Mm.” She answers softly. “The nights in this town are too quiet. So quiet they remind me of… somewhere else.”"
   },
   {
-	"text": "I poured her a glass. She sat at the counter, her movements so light they barely made a sound. The amber liquid shimmered gently in the firelight."
+	"text": "I pour her a drink. She sits at the counter, her movements so light they’re almost soundless. The amber liquid glows softly in the firelight."
   },
-  { "text": "She didn’t drink right away, just stared at the surface of the wine." },
-  {
-	"text": "“Your wine here is strange.” She smiled. “Not like the warm kind we have in the south.”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“People here fear the cold too much. Stronger wine keeps them warm longer.”"
+  { 
+	"text": "She doesn’t drink immediately, only gazes at the surface of the glass in thought."
   },
   {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“True.” She took a sip. “Winter in the North... can freeze even a dream solid.”"
+	"text": "“Your wine is unusual,” she says with a faint smile. “Not like the warmed wine we have in the south.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Doesn’t sound like something a traveler would say.”"
+	"text": "“People here are afraid of the cold creeping in too fast. Stronger liquor helps keep them warm.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Maybe I’m not. I came here to investigate something.”"
+	"text": "“True.” She takes a sip. “The winters of the North… they can freeze a person’s dreams solid.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“That doesn’t sound like something a traveler would say.”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Maybe I’m not.” She looks at me. “I came here to investigate something.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
@@ -57,42 +59,42 @@
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Maybe fate itself.” She lifted her gaze to me. The firelight caught her eyes—gray-blue, deep as a lake beneath snow."
+	"text": "“Perhaps it’s life.” She meets my gaze, firelight reflected in her gray-blue eyes, deep as a lake beneath snow."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Or rather, destiny.” she added. The air stilled."
+	"text": "“Or rather—fate.” The air tightens as she adds."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Do you believe in destiny?”"
+	"text": "“Do you believe in fate?”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Destiny? I think it’s just something people use to make excuses for themselves.”"
+	"text": "“Fate? I think it’s just an excuse people make for themselves.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She chuckled softly. “That sounds exactly like something a man who sees through everything would say.”"
+	"text": "She laughs softly. “That does sound like something someone who’s seen through everything would say.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Not really. I just think destiny—it's too easy to use as an escape.”"
+	"text": "“I wouldn’t say that. I just think fate is too easily used as a way to avoid responsibility.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Maybe.” she murmured. “But some people never had a choice to begin with.”"
+	"text": "“Perhaps.” She murmurs. “But some people never had a choice from the day they were born.”"
   },
   {
-	"text": "I didn’t understand, but her tone felt heavy."
+	"text": "I don’t fully understand, only that her tone grows heavy."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“And you? Are you one of those who ‘never had a choice’?”"
+	"text": "“And you? Are you one of those people who ‘never had a choice’?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "Her hand paused at the rim of the glass. She looked like she wanted to answer—but stopped herself."
+	"text": "Her hand pauses at the rim of her cup, as if she wants to answer—but stops herself."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
@@ -104,21 +106,23 @@
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“No.” She smiled faintly. “I just feel like I’ve lived through this night many times—fire, wine, snow... and many friendly or unfriendly faces.”"
+	"text": "“That’s right.” She smiles faintly. “I always feel like I’ve lived through nights like this many times—fire, wine, snow, and… many kind or unkind faces.”"
   },
   {
-	"text": "My heart skipped. “What do you mean?”"
-  },
-  { "text": "She blinked. “Nothing. Just a thought from someone who’s seen too much.”" },
-  {
-	"text": "The fire crackled, and her shadow stretched across the wall. There weren’t one but two of them—one seated before me, and another faint, blurred one."
+	"text": "My heart skips. “What do you mean?”"
   },
   {
-	"text": "I blinked again, and they had merged into one."
+	"text": "She blinks. “Nothing. When you’ve seen enough, you get sentimental now and then.”"
+  },
+  {
+	"text": "The hearth cracks sharply, and her shadow stretches across the wall. Not one shadow—but two. One sits before me; the other is faint, slightly blurred."
+  },
+  {
+	"text": "I blink, and they merge into one again."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Do you know a soul leaves traces?”"
+	"text": "“Did you know a soul can leave traces?”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
@@ -126,10 +130,10 @@
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She looked into the fire. “Some say that three days after death, a person’s shadow follows the trace back to three days before.”"
+	"text": "She looks into the fire. “Some people, three days after death, have shadows that follow their traces back to three days earlier.”"
   },
   {
-	"text": "“It’s an ancient magic—Soul Mechanics. It lets the dead return three days into the past to rewrite their fate.”"
+	"text": "“It’s an ancient magic—Soul Mechanics. It lets the dead return to the world three days prior, to rewrite fate.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
@@ -137,14 +141,14 @@
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“It is. But sometimes, stories are safer than the truth.”"
+	"text": "“It is. Sometimes stories are safer than truth.”"
   },
   {
-	"text": "Her cup was empty, yet she still held it by the rim, unmoving."
+	"text": "Her glass is empty, yet she still grips its rim."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“If you had the chance to relive three days,” she asked suddenly, “what would you do?”"
+	"text": "“If you had the chance to relive three days,” she suddenly asks, “what would you do?”"
   },
   {
 	"event": [
@@ -152,17 +156,17 @@
 		"action": "show_option_ui",
 		"options": [
 		  {
-			"text": "Option A: Say seriously, “I’d try to change fate.” [Intelligence Check DC 7]",
+			"text": "Option A: Say seriously, “I would try to change fate.” 【Intelligence Check (DC 7)】",
 			"dc": 7,
 			"check": "intelligence"
 		  },
 		  {
-			"text": "Option B: Say casually, “I’d keep running the inn as usual.” [Wisdom Check DC 5]",
+			"text": "Option B: Casually say, “I’d keep running the inn and go on with my life.” 【charisma Check (DC 5)】",
 			"dc": 5,
-			"check": "wisdom"
+			"check": "charisma"
 		  },
 		  {
-			"text": "Option C: Ask her back, “And you? What would you want to change?” [Charisma Check DC 6]",
+			"text": "Option C: Ask her in return, “What about you? What would you want to change?” 【Charisma Check (DC 6)】",
 			"dc": 6,
 			"check": "charisma"
 		  }

@@ -2,25 +2,25 @@
   {
 	"event": [
 	  { "action": "hide_talk_ui" },
-	{ "action": "unlock","target": "1_2" },
+	  { "action": "unlock", "target": "1_2" }
 	]
   },
   {
-	"text": "Noon sunlight streamed through the cracks in the clouds, falling over the inn’s signboard. Dust drifted lazily in the golden light."
+	"text": "The noon sunlight filters through gaps in the clouds, spilling onto the inn’s signboard as dust drifts slowly in the golden beams."
   },
   {
-	"text": "The snow outside had melted in patches, leaving the cobblestones damp. The air was filled with the scent of bread and stew."
+	"text": "Outside, a layer of snow has melted away, leaving the stone-paved street damp. The air carries the scent of fresh bread and simmering stew."
   },
   {
-	"text": "I was tossing the broken wood left from the morning’s chaos into the fire pit behind the inn. The flames crackled, heat rising into the cold air."
+	"text": "I toss the broken wood from this morning’s chaos into the fire pit in the backyard. The flames crackle as heat rises in waves."
   },
   {
-	"text": "The rare calm of the day almost made me forget last night’s wind and noise."
+	"text": "The rare calm of the day almost makes one forget last night’s storm and noise."
   },
   { "text": "But I didn’t expect her to return." },
-  { "text": "The doorbell chimed softly." },
+  { "text": "The doorbell rings softly." },
   {
-	"text": "Alicia stepped inside, the frost on her armor still unthawed. Behind her was a young girl with chestnut hair tied in a short braid. Her bright eyes were full of curiosity, and in her arms she carried a basket of colorful bottles — like tiny drops of light trapped in glass.",
+	"text": "Alicia steps inside, frost still clinging to her armor. Behind her follows a young girl, chestnut hair tied in short braids, lively eyes shining. She carries a basket filled with bottles of different colors, like droplets of dew sealed by light.",
 	"event": [
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
 	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] },
@@ -29,112 +29,115 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Shopkeeper, we brought you a few things. Healing potions and antidotes. I heard you often get drunkards hurting themselves around here.”"
+	"text": "“Innkeeper, I brought you a few small things today. Healing potions and antidotes. I heard you often get drunkards injuring themselves here.”"
   },
   {
-	"text": "I blinked, still processing her words, while the young girl had already wandered to the counter, wide-eyed, taking everything in."
-  },
-  {
-	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "“Master, this place is so quiet! And so warm!”"
+	"text": "I blink in surprise. Before I can respond, the girl has already run to the counter, curiously looking around the room."
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "“It doesn’t feel like an inn. It feels like a home.”"
+	"text": "“Master, this place is so quiet—and really warm.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“It doesn’t feel like an inn. It feels like home.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Lucia, mind your tongue.”"
+	"text": "“Lucia, don’t say such things.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“It’s fine. She’s right, though. This place is a bit too quiet.”"
+	"text": "“It’s fine. She’s not wrong. This place has been a little too quiet lately.”"
   },
   {
-	"text": "I put down the cloth in my hand and glanced toward the street outside the window."
-  },
-  {
-	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“You used to hear the bells of caravans passing every day. Now you can go an entire day without seeing a soul.”"
+	"text": "I set down the rag in my hand and glance out at the street through the window."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“They say beasts have appeared again in the northern forest.” I paused. “Several patrols vanished. Even the church won’t go near it.”"
+	"text": "“There used to be merchant caravans passing by every day. Now you can wait all day without seeing a single one.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“They say monsters have reappeared in the northern forest.” I pause. “Several patrols have gone missing. Even the Church won’t go near it.”"
   },
   {
 	"event": [
 	  { "action": "show_name", "target": "Lucia" },
 	  { "action": "shake", "target": "Lucia" }
 	],
-	"text": "“Real monsters? I thought that was just a rumor!”"
+	"text": "“Are there really monsters? I thought it was just a rumor.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Rumors often have roots. When we passed near there, I could feel the air wasn’t right… there was a smell—like rust.”"
+	"text": "“Rumors usually have some truth at their root. When we passed nearby, I felt something was wrong with the forest air… it smelled like rust.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“You noticed that too?”"
+	"text": "“You noticed it too?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Yes. The wind carried a scent of rust… or perhaps blood.”"
+	"text": "“Yes. The wind carried the scent of rust. Like blood.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "“I thought it smelled kind of nice.”"
+	"text": "“I actually thought it smelled kind of nice.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“That only means you’re still a child.”"
+	"text": "“That just means you’re still a child.”"
   },
   {
-	"text": "Watching the two of them, I felt a strange sense of peace—like their laughter was something precious in a world that had forgotten warmth."
+	"text": "Watching their natural interaction, a strange sense of reassurance wells up inside me—perhaps in this chaotic world, laughter like this is the rarest treasure of all."
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "“I made this one myself! It won’t make you drunk or dizzy—but it tastes really good! Wanna try, big brother?”"
+	"text": "“I made this one myself! You won’t get drunk or have a headache, but it tastes really good! Want to try it, big brother?”"
   },
   {
-	"text": "Lucia fumbled out a tiny bottle, popping the cork so hard it almost flew off. A sweet aroma filled the air instantly."
+	"text": "As she speaks, Lucia pulls out a small bottle from her basket. The cork nearly pops off, and a sweet fragrance immediately fills the air."
   },
   {
-	"text": "“Smell it! I mixed it with honey and strawberries!” she said excitedly, holding the bottle up to my face.",
-	"event": [{ "action": "show_name", "target": "Lucia" }]
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“Smell it—it’s mixed with honey and strawberries.” She excitedly holds the bottle up to me."
   },
   {
-	"text": "The scent hit me, and I coughed lightly before smiling. “Smells pretty good, actually.”",
-	"event": [{ "action": "show_name", "target": "Player" }]
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "Caught off guard by the scent, I chuckle. “It actually smells pretty good.”"
   },
   {
-	"text": "Alicia sighed softly beside her. “If you don’t want to sleep under your counter for three days, don’t drink it.”",
-	"event": [{ "action": "show_name", "target": "Alicia" }]
-  },
-  {
-	"text": "“That was an accident!” Lucia puffed up her cheeks in protest, eyes wide with innocence.",
-	"event": [{ "action": "show_name", "target": "Lucia" }]
+	"event": [{ "action": "add_item", "target": "Herbs", "amount": 1 }]
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Her last experiment put her to sleep for three days straight.”"
+	"text": "“If you don’t want to end up sleeping under the counter for three days, don’t drink it.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "“It was an experiment error!”"
+	"text": "“That won’t happen!” She puffs her cheeks, looking serious."
   },
   {
-	"text": "Their banter was like a breeze through the room, sweeping away the gloom I’d carried all morning."
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“The last time she tested her potion, she slept for three days.”"
   },
   {
-	"text": "I suddenly realized—the air itself felt lighter since she walked in, as if the frozen river of my world had just started to thaw."
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“That was an experimental accident!”"
+  },
+  {
+	"text": "Their banter feels like a fresh breeze, sweeping away the gloom that lingered from the morning."
+  },
+  {
+	"text": "I suddenly realize that ever since she stepped into the inn, the air itself has felt different—like sunlight melting a river long frozen."
   },
   {
 	"event": [
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "Option A: Ask Alicia if she wants to book a room for Lucia", "dc": 0, "check": "charisma" },
-		  { "text": "Option B: Joke, 'Are you two sharing a room?'", "dc": 5, "check": "charisma" }
+		  { "text": "Option A: Proactively ask Alicia if she’d like to book a room for Lucia", "dc": 0, "check": "charisma" },
+		  { "text": "Option B: Tease, “So, are you two going to share one room?”", "dc": 5, "check": "charisma" }
 		]
 	  },
 	  { "action": "hide_talk_ui" }

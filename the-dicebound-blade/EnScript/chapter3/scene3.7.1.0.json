@@ -2,73 +2,62 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" },
+	  { "action": "unlock", "target": "3_7_1" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "I follow her anyway. The night wind clears my head instead—clear enough for me to realize I don’t actually know what I’m chasing."
+	"text": "I follow her anyway. The night wind clears my head—clear enough to make me realize I don’t even know what I’m chasing."
   },
+
+  { "text": "She walks fast. Afraid of losing her, I quicken my steps. My heel strikes the frozen stone with a sharp crack." },
+  { "text": "Alicia’s silhouette stops. The pause is brief—but it feels like a blade pressed to my throat." },
+
   {
-	"text": "She walks fast. Afraid of losing her, I unconsciously quicken my steps. My heel snaps against an icy stone tile with a sharp crack."
+	"event": [{ "action": "spawn_character", "target": "Alicia", "pos": [450, 0] }]
   },
-  {
-	"text": "Alicia’s silhouette freezes. The pause is brief—but it feels like a blade pressed to my throat."
-  },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Do you want to die?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“I—I was just afraid of losing you.”"
+	"text": "“I—I just didn’t want to lose you.”"
   },
-  {
-	"text": "She doesn’t turn around, but her fingers shift slightly beneath her cloak. The next second, a low laugh slips out of the shadows at the end of the alley."
-  },
-  {
-	"text": "Someone’s there. Someone really is watching us."
-  },
-  {
-	"text": "My stomach drops. I try to step back—and hit a length of iron chain buried under snow. It rattles, sharp and brittle."
-  },
-  {
-	"text": "In that instant, the darkness in the alley seems to come alive."
-  },
+
+  { "text": "She doesn’t turn around, but her fingers shift subtly beneath her cloak. The next second, a low chuckle echoes from the shadows at the alley’s mouth." },
+  { "text": "Someone is there. Watching." },
+  { "text": "Cold spreads through my chest. I try to step back—but my foot catches a snow-covered chain. It rattles sharply." },
+  { "text": "In that instant, the darkness seems to come alive." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“…Tch.”"
   },
-  {
-	"text": "She turns. Her eyes are terrifyingly bright—like a beast cornered against a wall."
-  },
+
+  { "text": "She turns, her eyes blazing—like a cornered predator." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Didn’t I tell you I want you alive?”"
+	"text": "“Didn’t I tell you I need you alive?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“I wasn’t trying to slow you down—”"
+	"text": "“I wasn’t trying to slow you—”"
   },
-  {
-	"text": "A black-robed figure lunges out of the alley mouth, something like a talisman clenched in their hand."
-  },
-  {
-	"text": "I react on instinct, starting to draw my blade—but before I can—Alicia is already in front of me."
-  },
-  {
-	"text": "The movement isn’t protection so much as possession. She folds me completely into the shadow of her cloak, as if even the wind isn’t allowed to touch me."
-  },
+
+  { "text": "A figure in black bursts from the alley, something like a talisman clutched in hand." },
+  { "text": "I instinctively reach for my sword—but before I can draw it, Alicia is already in front of me." },
+  { "text": "The movement isn’t just protection—it’s possession. She pulls me entirely into the shadow of her cloak, as if even the wind isn’t allowed to touch me." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Don’t look at him.”"
   },
-  {
-	"text": "Her sword leaves its sheath without a sound. In the next heartbeat, the black-robed man’s wrist is severed, the talisman fluttering into the snow."
-  },
-  {
-	"text": "He tries to scream. She kicks upward—snow and blood choke the sound off together."
-  },
-  {
-	"text": "When it’s over, she hasn’t even started breathing harder. She turns to me, but the agitation in her eyes looks like it could burn straight through me."
-  },
+
+  { "text": "Her blade leaves the sheath almost without sound. The next second, the man’s wrist is severed. The talisman falls into the snow." },
+  { "text": "He tries to scream—but her kick crushes the sound into snow and blood." },
+  { "text": "She finishes without even breathing harder. When she turns back to me, the agitation in her eyes burns like wildfire." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“I won’t let anyone hurt you again.”"
@@ -77,16 +66,16 @@
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“This time—I protected you too.”"
   },
-  {
-	"text": "She says it too fast, too hard—like she’s swearing it to herself."
-  },
+
+  { "text": "She says it too fast, too heavily—like she’s swearing it to herself." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“Calm down… I’m fine.”"
   },
-  {
-	"text": "The corner of her mouth twitches—half a smile, half pain."
-  },
+
+  { "text": "Her mouth twitches—almost a smile, almost pain." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Of course you’re fine.”"
@@ -95,24 +84,25 @@
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Because I’m here.”"
   },
-  {
-	"text": "She grabs my wrist. Hard enough to make my arm go numb. It’s not pulling—it’s dragging."
-  },
+
+  { "text": "She grabs my wrist. The grip is strong enough to numb me. Not pulling me away—dragging me forward." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“From now on, you only need to do one thing.”"
+	"text": "“From now on, you only have one job.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Stay where I can see you.”"
   },
-  {
-	"text": "She picks up the snow-soaked talisman, crushes it in her fist, and shoves it into her coat—like biting down on a problem until it breaks."
-  },
+
+  { "text": "She picks up the snow-soaked talisman, crushes it into her palm, and stuffs it into her coat—like grinding a nuisance between her teeth." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Move. Next stop.”"
+	"text": "“Move. Next one.”"
   },
+
   {
 	"event": [
 	  { "action": "change_scene", "target": "scene3.8" }

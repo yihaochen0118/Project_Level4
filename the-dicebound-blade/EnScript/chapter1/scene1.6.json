@@ -2,63 +2,63 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern_night" },
-	{ "action": "unlock","target": "1_6" },
+	  { "action": "unlock","target": "1_6" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "Night had fallen, and the wind whispered past the lanterns at the street corner."
+	"text": "Night falls low, wind brushing past the lantern at the street corner."
   },
   {
-	"text": "Footprints cut sharply through the snow outside the inn, leading into the darkness."
+	"text": "Outside the tavern, hurried footprints mark the snow, stretching into the darkness."
   },
   {
-	"text": "Inside, only the crackling of the hearth broke the silence—the firelight flickering against the wooden walls."
+	"text": "Inside, only the fireplace flickers, firewood crackling softly."
   },
   {
-	"text": "The door burst open. A gust of cold wind swept in, scattering embers and making the flames shudder."
+	"text": "The door is suddenly pushed open. Cold wind sweeps in, stirring the ashes. The flames tremble."
   },
   {
 	"event": [
 	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] },
 	  { "action": "show_name", "target": "Lucia" }
 	],
-	"text": "Lucia stumbled in, breath ragged, snow still clinging to her hair."
+	"text": "Lucia rushes in, breath uneven, snow still clinging to her face."
   },
   {
-	"text": "“Innkeeper—my mentor, she’s in trouble!”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Alicia? What happened—slow down.”"
-  },
-  {
-	"text": "I stepped out from behind the counter, voice tightening without meaning to."
-  },
-  {
-	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“She went to help patch up one of the town guards.”"
-  },
-  {
-	"text": "Lucia bit her lip, voice trembling. “I waited outside… but not long after she went in, a few men in black robes followed her.”"
-  },
-  {
-	"text": "“And then—she never came out.”"
+	"text": "“Innkeeper—the mentor is in trouble!”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "I frowned. “Black robes?”"
+	"text": "“Alicia is in trouble? Slow down—tell me clearly.”"
+  },
+  {
+	"text": "I step out from behind the counter, my voice tightening unconsciously."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“They had the same mark on their chests.”"
+	"text": "“She said she was going to treat the town guards’ wounds.”"
   },
   {
-	"text": "She traced a ring-shaped symbol in the air with a trembling finger. “It was the mark of the Echo Circle—it was supposed to be disbanded!”"
+	"text": "Lucia bites her lip, her words trembling. “I was waiting outside… but not long after she went in, several men in black robes followed.”"
   },
   {
-	"text": "My stomach dropped. I remembered that name well—years ago, they’d been declared heretics by the crown for ‘experiments using souls as material.’"
+	"text": "“And then—she never came back out.”"
   },
   {
-	"text": "I didn’t waste another thought. My hand went for the short sword under the counter."
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "I frown. “Black robes?”"
+  },
+  {
+	"event": { "action": "show_name", "target": "Lucia" },
+	"text": "“They all had the same mark on their chests.”"
+  },
+  {
+	"text": "She traces a circular symbol in the air, her fingers shaking. “It’s the emblem of the ‘Echo Society’—weren’t they disbanded?!”"
+  },
+  {
+	"text": "My heart sinks. I remember that name clearly—they were wanted by the kingdom years ago for ‘experiments using souls as material.’"
+  },
+  {
+	"text": "I stop thinking and reach beneath the counter, grabbing the short sword."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
@@ -66,81 +66,84 @@
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "Lucia followed, voice shaking. “You… you can fight, right?”"
+	"text": "Lucia follows behind me, her voice trembling. “You… you know how to fight?”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "I paused for a moment, breathing deep."
+	"text": "I pause for a moment and take a deep breath."
   },
   {
-	"text": "“No,” I said quietly, steady. “But I owe Alicia a life—and I won’t owe her a second.”"
+	"text": "“No.” I look at her, strangely calm. “But I owe Alicia once—and I don’t intend to owe her a second time.”"
   },
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" }
 	],
-	"text": "The streets were veiled in fog, snow crunching underfoot with every step."
+	"text": "The street is shrouded in mist, snow crunching softly underfoot."
   },
   {
-	"text": "The wind carried ash from the rooftops, and the lanterns swayed weakly in the storm."
+	"text": "Wind carries ashes from the rooftops, the lantern light swaying precariously."
   },
   {
-	"text": "We followed Alicia’s footprints north, through the silent alleys, until they ended at the Scrap Alley."
+	"text": "We follow Alicia’s footprints all the way to the scrap-iron alley in the northern district."
   },
   {
-	"text": "The houses there were half-collapsed, the iron gates bent, rust like dried blood clinging to the hinges."
+	"text": "The houses there are half-collapsed, iron doors crooked, rust like dried blood."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "I raised a hand, signaling Lucia to stop."
+	"text": "I raise a hand, signaling Lucia to stop."
   },
   {
-	"text": "The snow was eerily quiet. From beneath us came a low, rhythmic sound—someone was chanting."
+	"text": "The snow-covered ground is eerily silent. From below, I hear a low murmur—someone is chanting."
   },
   {
-	"text": "Not prayer, but something colder. Mechanical. Ritualistic."
+	"text": "Not prayer, but something colder, mechanical in rhythm."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "Lucia held her breath. “That’s… the cadence of a ritual.”"
+	"text": "Lucia holds her breath. “That’s… the rhythm of a ritual.”"
   },
   {
-	"text": "She looked up, face pale. “She’s still alive.”"
+	"text": "She looks up, pale. “She’s still alive.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
 	"text": "“Then we save her.”"
   },
   {
-	"text": "Lucia nodded, lifting her staff as a faint light gathered in her palm."
+	"text": "She nods, raising her staff and whispering an incantation."
   },
   {
-	"text": "The wind brushed the iron latch—click."
+	"text": "Wind brushes past the latch, making a faint click."
   },
   {
-	"text": "We descended the dark stairwell, one careful step at a time."
+	"text": "We slip quietly down the dark staircase into the basement."
   },
   {
 	"event": [
 	  { "action": "set_background", "target": "underground_entrance" }
 	],
-	"text": "The air reeked of iron and ash, the walls casting long, cold shadows under the blue glow."
+	"text": "The air smells of iron and ash, cold blue light casting sharp shadows on the walls."
   },
   {
-	"text": "Several robed figures stood around a glowing circle, chanting in unison."
+	"text": "Several black-robed figures surround the ritual circle, chanting in overlapping waves."
   },
   {
-	"text": "At the center, Alicia was bound to a stone pillar, her amulet flickering weakly."
+	"text": "At the center, Alicia is bound to a stone pillar, her charm glowing faintly."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“Mentor…” Lucia whispered."
+	"text": "“Mentor…”"
   },
   {
-	"text": "She raised her staff, light pooling at her fingertips."
+	"text": "Lucia calls softly."
   },
   {
-	"text": "“Prepare for battle,” she said, her voice shaking—but she didn’t back down."
+	"text": "She raises her staff, light gathering into a single point in her palm."
+  },
+  {
+	"text": "“Prepare to fight.” Her voice trembles, but she does not step back."
   },
   {
 	"event": [
@@ -148,22 +151,22 @@
 		"action": "show_option_ui",
 		"options": [
 		  {
-			"text": "Option A: Charge in head-on! [Strength Check DC 15]",
+			"text": "Option A: Charge forward and confront them head-on! 【Strength Check (STR DC 15)】",
 			"dc": 15,
 			"check": "strength"
 		  },
 		  {
-			"text": "Option B: Create a distraction to let Lucia rescue her. [Dexterity Check DC 12]",
+			"text": "Option B: Distract them and give Lucia a chance to rescue her. 【Dexterity Check (DEX DC 12)】",
 			"dc": 12,
-			"check": "dexterity"
+			"check": "constitution"
 		  },
 		  {
-			"text": "Option C: Try to talk to them—buy time if you can. [Charisma Check DC 13]",
+			"text": "Option C: Try talking to them—maybe you can stall for time. 【Charisma Check (CHA DC 13)】",
 			"dc": 13,
 			"check": "charisma"
 		  },
 		  {
-			"text": "Option D: Run away (…really?) [DC 20]",
+			"text": "Option D: Run away (Seriously?) 【DC 20】",
 			"dc": 20
 		  }
 		]

@@ -1,6 +1,5 @@
 [
   {
-	"branch": "B_fail",
 	"event": [
 	  { "action": "spawn_character", "target": "Monster1", "pos": [-450, 0] },
 	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },

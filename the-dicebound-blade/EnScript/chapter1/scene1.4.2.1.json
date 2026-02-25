@@ -7,61 +7,63 @@
 	  { "action": "set_background", "target": "forest_path" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "The ground suddenly shook as a rock-armored beast burst from the soil, its glowing green eyes scattering the forest birds with a thunderous growl."
+	"text": "The ground suddenly trembles as a beast covered in rocky armor bursts from the earth. Its eyes glow green, and its low roar sends birds scattering through the forest."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "Instinctively, I grabbed my backpack and raised it to block. In that same instant, the creature’s claws came crashing down. The impact was so strong it forced me back two steps."
+	"text": "I instinctively grab my pack and raise it in front of me. In the same instant, the creature’s claw slams down. The force makes my footing slip, driving me back two full steps."
   },
   {
 	"event": [
 	  { "action": "hp_gain", "amount": 10 },
 	  { "action": "shake", "target": "Player" }
 	],
-	"text": "But that block slowed its attack just enough."
+	"text": "But that split-second block slows it—just enough."
   },
   {
-	"text": "Alicia dashed forward, her sword flashing like lightning. The blade struck the beast square in the chest. With a guttural roar, it staggered and collapsed—its rocky shell crumbling into ash."
+	"text": "Alicia surges forward immediately, her blade flashing like lightning. The strike lands square in the beast’s chest. With a guttural snarl, it staggers, its stone shell cracking apart before dissolving into ash."
   },
   {
-	"event": [{ "action": "remove_character", "target": "Monster1" }],
-	"text": "I stared at the claw marks on my torn backpack, frozen for a few seconds. Alicia sheathed her sword and turned toward me, her eyes lingering for a moment before she smiled—a small smile, but enough to make me breathe easier."
+	"event": [
+	  { "action": "remove_character", "target": "Monster1" }
+	],
+	"text": "I stare at the deep claw marks torn into my pack, stunned for several seconds. Alicia sheaths her sword and turns to me, her gaze lingering briefly before she smiles—a small smile, but enough to ease the tension."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Quick reflexes,” she said lightly. “Didn’t think you’d actually block that.”"
+	"text": "“Quick reflexes.” Her tone is lighter now. “I didn’t expect you to actually hold it off.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Just lucky,” I replied with a wry grin, holding up the ruined pack. “Looks like it’s tougher than me.”"
+	"text": "“Just lucky,” I reply with a wry grin, lifting the damaged pack. “Seems it’s sturdier than I am.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Luck counts as skill too.” She gave my shoulder a gentle pat. “But next time, don’t take the hit head-on. Those things are stronger than you think.”"
+	"text": "“Luck counts as strength too.” She pats my shoulder gently. “Still, don’t try to block like that next time. They’re stronger than they look.”"
   },
   {
-	"text": "She crouched down, examining the scorched patch of earth. Her brows knit slightly. “These monsters aren’t natural. They’re ‘Residual Dreams’—echoes left behind by the dead.”"
+	"text": "She kneels to examine the scorched earth, her brows knitting slightly. “These creatures aren’t born naturally. They’re ‘Lingering Dreams’—traces left behind by the dead.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Residual Dreams?” I repeated, still catching my breath."
+	"text": "“Lingering Dreams?” I repeat, still catching my breath."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Yes. In places where wars were fought and lives were lost, the ground absorbs their final emotions. Over time, those emotions take form.”"
+	"text": "“Yes. In places where wars were fought and lives were lost, their final emotions sink into the soil. Over time, they become things like this.”"
   },
   {
-	"text": "She stood up, her gaze softening, her voice gentler than before."
+	"text": "She rises, her expression softening, her voice gentler."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“But don’t worry. As long as I’m here, they won’t get close.”"
+	"text": "“But don’t worry. As long as I’m here, I won’t let them get close.”"
   },
   {
-	"text": "She extended her hand toward me. I hesitated for a moment, then took it. Smiling, she pulled me to my feet. “Come on, the market’s just ahead.”"
+	"text": "She extends her hand. After a brief hesitation, I take it. With a light pull and a smile, she helps me to my feet. “Come on—the market’s just ahead.”"
   },
   {
-	"text": "A breeze swept through the trees. Sunlight glinted off her silver hair, so bright I couldn’t look away."
+	"text": "A breeze drifts through the trees, sunlight catching in her silver hair, bright enough to make it hard to look away."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.5" }]

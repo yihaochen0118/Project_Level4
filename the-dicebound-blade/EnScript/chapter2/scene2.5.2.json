@@ -2,17 +2,18 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "unlock", "target": "2_5_2" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "I swallow the words back. Now isn’t the time to press her."
+	"text": "I swallow my words. This isn’t the time to press her."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“Let’s go back to the inn.”"
+	"text": "“Let’s head back to the inn first.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "Lucia nods immediately, so tense her fingertips have gone pale. “Okay… let’s go.”"
+	"text": "Lucia nods immediately, her fingertips turning pale from tension. “Okay… let’s go.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -20,21 +21,21 @@
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "She slips the ring-shaped token back inside her cloak, the motion practiced—like putting away a tool she’s used far too many times."
+	"text": "She slips the ring-shaped token inside her cloak, the movement practiced—like putting away a tool she’s used far too many times."
   },
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" }
 	],
-	"text": "We leave Scrap Iron Alley behind. Fog and snow cling to our faces, the streetlamps scattering light like crushed gold dust."
+	"text": "We leave Scrap Iron Alley. Fog and snow cling to our faces, and the streetlamps glow like crushed gold dust."
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "“Master… please don’t walk so fast.”"
+	"text": "“Mentor… don’t walk so fast.”"
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "Lucia hurries after her, pulling the edge of Alicia’s cloak higher—as if afraid the wind might slip in through the seams and steal away her last bit of warmth."
+	"text": "Lucia hurries after her, tugging Alicia’s cloak higher, as if afraid the wind might slip through the seams and steal away the last of her warmth."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
@@ -46,19 +47,19 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“And what about her? Doesn’t she count as ‘people’?”"
+	"text": "“What about her? She doesn’t count as a person?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "Lucia’s eyes redden instantly. “She’s been treating herself like a tool… for a long time now.”"
+	"text": "Lucia’s eyes redden instantly. “She’s treated herself like a tool… for a long time.”"
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "Ahead of us, Alicia suddenly slows, as if she’s heard. She doesn’t turn around—only grinds the snow beneath her boots even finer."
+	"text": "Up ahead, Alicia suddenly slows, as if she’s heard us. She doesn’t turn around—just grinds the snow beneath her boots into finer shards."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Don’t talk about this on the road.”"
+	"text": "“Don’t talk about this out here.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
@@ -66,17 +67,17 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Knowing won’t help.”"
+	"text": "“Even if they know, it won’t help.”"
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "Her tone is flat—like she’s stating a rule that will never change."
+	"text": "Her tone is flat—flat like a rule that will never change."
   },
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern_night" }
 	],
-	"text": "The inn’s lights emerge through the fog. The moment the door opens, warmth rushes out to meet us."
+	"text": "The inn’s lights appear through the fog. When we push the door open, warmth rushes toward us."
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
@@ -92,31 +93,31 @@
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "Lucia all but forces her into a chair, then jogs into the back kitchen. Alicia stares into the firelight, her gaze empty for a moment—like she’s nearly forgotten how to sit down and rest."
+	"text": "Lucia almost forces her into the chair before jogging into the back kitchen. Alicia stares into the firelight, her eyes empty for a brief moment—as if she’s nearly forgotten how to sit and rest."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "I slide the door bolt into place, then turn to her. “You said ‘we’ll need it again tomorrow.’ You’re planning to go back, aren’t you?”"
+	"text": "I slide the bolt into place and turn to her. “You said ‘we’ll need it tomorrow.’ Are you planning to go again?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "She looks up, fatigue laced with a hint of irritation. “Didn’t you decide not to keep pressing?”"
+	"text": "She looks up, weariness edged with faint impatience. “Weren’t you the one who decided not to press?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“I decided to get you back here first.”"
+	"text": "“I decided to bring you back first.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "She falls silent for a moment, as if weighing how much to give. “…I need to confirm a few things. That’s all.”"
+	"text": "She falls silent for a moment, as if weighing how much to reveal. “…I need to confirm something. That’s all.”"
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "She turns her gaze away, like saying one word more might tear a crack even wider."
+	"text": "She shifts her gaze away, as though saying even one more word might tear a crack wider."
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "Lucia returns with hot water and sets it by her hand, speaking carefully. “Drink a little first. Please don’t push yourself.”"
+	"text": "Lucia returns with hot water, placing it gently beside her. “Drink a little first. Don’t push yourself.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -124,7 +125,7 @@
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "The sound is so soft it’s almost inaudible—but at least it isn’t a refusal."
+	"text": "That “Mm” is so soft it’s almost inaudible—but at least it isn’t a refusal."
   },
   {
 	"event": [

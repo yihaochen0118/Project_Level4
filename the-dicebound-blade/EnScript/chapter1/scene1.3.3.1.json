@@ -4,80 +4,80 @@
 	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "The firelight shimmered in her eyes, tinting them with a soft ring of gold. Outside, the wind hummed faintly—like an old song half-remembered."
+	"text": "The firelight flickers in her eyes, casting a soft ring of gold. Outside, the wind hums low, like an old song no one can quite remember."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“And you?” I asked. “What would you want to change?”"
+	"text": "“What about you? What would you want to change?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She froze for a moment, her fingers tightening slightly, as if the question had caught her off guard."
+	"text": "She pauses for a moment, her fingers tightening slightly, as if she hadn’t expected me to ask."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“I’ve asked myself that question more times than I can count.”"
+	"text": "“I’ve asked myself that question countless times.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“But every time I try to rewrite something, the world reminds me—I've lost the right to.”"
+	"text": "“But every time I try to rewrite something, the world reminds me—I no longer have the right.”"
   },
   {
-	"text": "I didn’t answer right away. The only sound was the fire crackling softly, its light flickering with the rhythm of her words."
+	"text": "I don’t answer at once. The only sound is the crackle of burning wood, the firelight rising and falling with her voice."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Tell me,” she said quietly, “if someone once destroyed another’s fate—do they still deserve to change their own?”"
+	"text": "“Tell me,” she says softly, “if someone has once destroyed another’s fate, do they still deserve to rewrite their own?”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“...I don’t know.”"
+	"text": "“…I don’t know.”"
   },
   {
-	"text": "At that moment, any comfort would’ve felt meaningless. Her gaze dropped slightly, her lashes casting a faint shadow under the lamplight."
-  },
-  {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“I used to think I was saving people.”"
+	"text": "In that moment, any comfort feels meaningless. Her gaze lowers slightly, her lashes casting a faint shadow beneath the lamp."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“But sometimes… redemption and ruin are only a single word apart.”"
+	"text": "“I used to believe I was saving people.”"
   },
   {
-	"text": "Her tone was gentle, yet resolute. For the first time, I saw that glint of sorrow in her eyes—not regret, but a quiet weariness that had already made peace with fate."
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“But sometimes, salvation and destruction are only a single sentence apart.”"
+  },
+  {
+	"text": "Her tone is gentle, yet edged with resolve. For the first time, I see that glimmer of sorrow in her eyes—not regret, but a weary reconciliation with fate."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“...Sounds like you’re carrying something heavy.”"
+	"text": "“…It sounds like you’ve carried something very heavy.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Maybe.”"
+	"text": "“Perhaps.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“But at least now, it no longer crushes me.”"
+	"text": "“But at least now, it won’t crush me anymore.”"
   },
   {
-	"text": "The firelight traced a faint scar along her cheek. She neither hid it nor explained—it simply existed, quietly, like the rest of her pain."
+	"text": "Firelight brushes across her profile, revealing the faint trace of an old scar. She neither hides it nor explains."
   },
   {
-	"text": "And I realized then—she wasn’t unbreakable. She had merely learned how to stay graceful while collapsing."
+	"text": "In that instant, I realize this woman is not unbreakable. She has simply grown used to holding herself together—even while falling apart."
   },
   {
-	"text": "She set down her cup and tapped the wooden table twice, as if marking the beat of a thought she’d finally finished."
-  },
-  {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“The wine tonight is good.”"
+	"text": "She sets down her glass and taps the wooden table twice with her fingers, as if marking the rhythm of some wandering thought."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Stronger than the southern kind—I think it suits me better.”"
+	"text": "“The wine tonight is quite good.”"
   },
   {
-	"text": "I said nothing, simply refilled her glass. The scent of wine mingled with the glow of the fire, as if the night itself wished to hide this quiet confession within its warmth."
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“Compared to the warmed wine in the south, I suppose I’m better suited to something stronger.”"
+  },
+  {
+	"text": "I say nothing, only refill her glass. The scent of wine mingles with the firelight, as if this brief confession is quietly sealed into the night."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.4" }]

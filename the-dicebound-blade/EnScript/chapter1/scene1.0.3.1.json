@@ -5,43 +5,43 @@
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
 	]
   },
-  { "text": "The drunk’s footsteps drew closer, each one making the glasses on the table tremble. The air was thick with the smell of alcohol." },
-  { "text": "I didn’t back away—just slowly placed my hand on the hilt of my short sword, fingers tightening slightly." },
+  { "text": "The drunk’s footsteps draw closer and closer, the cups on the table trembling lightly as the smell of alcohol thickens in the air." },
+  { "text": "I do not step back. Instead, I slowly rest my hand on the hilt of my short sword, my fingertips pressing down slightly." },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“You’d better stop right there.”"
+	"text": "“You’d better stop.”"
   },
-  { "text": "The drunk paused for a moment, his lip twitching. He clearly didn’t take me seriously, and stepped forward again." },
-  { "text": "A flash of steel—my sword was already drawn. The cold edge grazed his throat, leaving a pale, shallow line on his skin." },
-  { "text": "His breath caught. He froze completely, not daring even to move his eyes." },
+  { "text": "The drunk pauses for a moment, the corner of his mouth twitching. He doesn’t seem to take me seriously and steps forward again." },
+  { "text": "A flash of steel—my blade is already drawn. The chill edge brushes across his throat, leaving a thin pale line where the skin meets the sword." },
+  { "text": "His breath catches. He freezes completely, not even daring to move his eyes." },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“Move another inch, and I’ll call the town guard.”"
+	"text": "“Move again, and I’ll call the town guard.”"
   },
   {
 	"event": [{ "action": "shake", "target": "Junker" }],
-	"text": "The drunk swallowed hard, his throat trembling slightly under the blade."
+	"text": "The drunk swallows with difficulty, his neck trembling slightly beneath the blade."
   },
   {
 	"event": [{ "action": "show_name", "target": "Junker" }],
-	"text": "“Y-you’re not serious… are you?”"
+	"text": "“You… you’re joking, right?”"
   },
-  { "text": "I didn’t answer. The sword inched closer, its cold light reflected on his face, freezing the sweat upon it." },
-  { "text": "Only the crackle of the fire and his ragged breathing filled the silence." },
-  { "text": "Alicia stood nearby, watching calmly, a faint glint of approval in her eyes." },
+  { "text": "I do not answer. I simply press the blade an inch closer, the cold gleam reflecting on his face as if even his sweat has frozen." },
+  { "text": "The only sounds in the air are the crackle of the fire and his ragged breathing." },
+  { "text": "Alicia stands to the side, watching me calmly. A trace of approval flickers in her eyes." },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Stand down.”"
   },
   {
-	"text": "The drunk staggered backward, nearly tripping over himself as he stumbled out the door into the snow."
+	"text": "The drunk stumbles backward, nearly crawling as he rushes out the door, crashing into the wind and snow."
   },
   {
 	"event": [{ "action": "remove_character", "target": "Junker" }],
-	"text": "With a heavy bang, the door slammed shut behind him. The fire flickered once."
+	"text": "With a loud bang, the door is slammed shut by the wind, and the hearth flame wavers slightly."
   },
   {
-	"text": "I sheathed my short sword. In the firelight, the blade gleamed faintly—like a frozen streak of lightning."
+	"text": "I withdraw my short sword. The blade glints faintly in the firelight, like a bolt of lightning frozen in place."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -49,31 +49,42 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“I just reacted quickly, that’s all.”"
+	"text": "“I just reacted quickly by chance.”"
   },
   {
-	"text": "She looked at me for a moment, as if to say something, then gave a faint, unreadable smile."
-  },
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Don’t rely on luck.”"
-  },
-  {
-	"text": "She turned, glancing over the overturned tables and the spilled liquor on the floor."
+	"text": "She looks at me as if she wants to say something, but only offers a faint smile."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Clean up. I’ll give you a hand.”"
+	"text": "“Don’t get used to relying on luck.”"
   },
   {
-	"text": "Her voice was still calm, but softer than before."
+	"text": "She turns and glances over the overturned tables and spilled wine."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Clean this up. I’ll help you.”"
+  },
+  {
+	"text": "Her tone remains calm, though softer than before."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“All right.”"
+	"text": "“Alright.”"
   },
   {
-	"text": "I set the sword aside and walked back to the counter. The fire crackled to life again, and the chill in the air slowly faded away."
+	"event": [{ "action": "add_item", "target": "tactical_ring" }],
+	"text": "She removes the silver ring from her finger and lightly tosses it to me."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You reacted well. Take this—perhaps it’ll help you if something like this happens again.”"
+  },
+  {
+	"text": "Intricate circuits are engraved along the inner side of the ring, faintly glowing blue."
+  },
+  {
+	"text": "I lower my sword and pick up the ring, walking toward the counter. The hearth begins to dance again, and the chill in the air gradually fades."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.1" }]

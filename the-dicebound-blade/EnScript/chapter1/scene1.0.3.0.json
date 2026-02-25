@@ -6,42 +6,42 @@
 	]
   },
   {
-	"text": "I slowly moved my hand toward the short sword at my waist—but the scabbard brushed against the buckle with a faint metallic ‘clang’."
+	"text": "I slowly move my hand toward my short sword, but I don’t expect the scabbard at my waist to lightly clash with a clear ‘clang.’"
   },
   {
-	"text": "The drunkard whipped his head around, bloodshot eyes locking onto me."
+	"text": "The drunk whirls around, bloodshot eyes glaring at me."
   },
   {
 	"event": [{ "action": "show_name", "target": "Junker" }],
-	"text": "“What the hell do you think you’re doing?!”"
+	"text": "“What are you trying to do?!”"
   },
   {
-	"text": "His rage flared instantly. He slammed his fist onto the table, sending the spilled liquor flying."
+	"text": "His anger ignites at once, his fist slamming heavily onto the table, wine splashing everywhere."
   },
   {
 	"event": [{ "action": "show_name", "target": "Junker" }],
 	"text": "“You dare draw your sword?!”"
   },
   {
-	"text": "I instinctively took a step back, hand half-curled around the hilt. The air between us thickened—like the moment before a spark meets powder."
+	"text": "I instinctively take a step back. My hand hasn’t fully gripped the hilt yet, but the air is already thick with tension."
   },
   {
-	"text": "Just as he lunged forward, a sound cut through the air—not wind, but the clear ring of steel."
+	"text": "Just as he takes that step forward, a sharp sound cuts through the air—"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "Alicia was already on her feet. Her cloak swept past the hearth, and a flash of silver lit the room."
+	"text": "Alicia is already on her feet, her cloak sweeping past the hearth as a flash of silver light flickers."
   },
   {
-	"text": "No one saw what she did. In the next heartbeat, the drunk was face-down on the floor, his head buried in his own spilled drink.",
+	"text": "No one sees what she does. In the next instant, the drunk is pinned to the ground, his face buried in his own spilled wine.",
 	"event": { "action": "shake", "target": "Junker" }
   },
   {
-	"text": "I stood frozen, staring at her. Only then did I realize—I’d never needed to draw my sword at all."
+	"text": "I stare at her in a daze. At that moment, I finally realize—I never needed to draw my sword at all."
   },
   {
 	"event": { "action": "remove_character", "target": "Junker" },
-	"text": "She withdrew her blade. The firelight shimmered faintly along the cracked edge of the steel."
+	"text": "She withdraws her blade, the firelight glinting faintly along the fractured patterns etched into the steel."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -49,34 +49,34 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“Looks like you didn’t need any help.”"
+	"text": "“Looks like you didn’t need any help either.”"
   },
   {
-	"text": "Alicia lifted her eyes slightly. The firelight flickered in them—half amusement, half something else."
-  },
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Maybe.”"
-  },
-  {
-	"text": "She slid the sword back into its sheath, the soft rasp of metal filling the quiet room."
-  },
-  {
-	"text": "The air moved again; the fire crackled, and a few patrons peeked out before hastily returning to their seats."
+	"text": "Alicia lifts her gaze slightly. The firelight flickers in her pupils, as if she’s smiling—or perhaps not."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Clean this up. No need to invite the town guards here.”"
+	"text": "“Perhaps.”"
   },
   {
-	"text": "Her tone carried no command—just calm statement of fact."
+	"text": "She slowly sheaths her sword, the metal brushing softly against the scabbard."
+  },
+  {
+	"text": "The air begins to move again. The hearth crackles, and a few patrons peek out before retreating back to their seats."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Clean this up. No need to attract the guards and invite trouble.”"
+  },
+  {
+	"text": "Her voice carries no command—only a calm statement."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“All right.”"
+	"text": "“Alright.”"
   },
   {
-	"text": "I nodded and picked up a rag, wiping away the spilled wine. She stood quietly beside me—waiting, perhaps, or lost in thought."
+	"text": "I nod and pick up a cloth to wipe the spilled wine from the table. She stands quietly nearby, as if waiting for me—or perhaps lost in thought."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.1" }]

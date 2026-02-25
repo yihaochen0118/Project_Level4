@@ -2,16 +2,19 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" },
+	  { "action": "unlock", "target": "3_7_1" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "I swallow the sound of the door bar and slip on my coat before following her out. The night wind cuts like a blade; snow pellets sting as they strike my face."
+	"text": "I swallow the sound of the door latch and pull on my coat before following her out. The night wind cuts like a blade, snow stinging against my face."
   },
+
+  { "text": "She walks fast, never looking back—like she’s already assumed I’ll follow, or like she’s gambling that I won’t." },
+  { "text": "I soften my steps, careful not to let my boots scrape against the ice. It’s strange—I’ve never trained in stealth, yet my body moves as if I’ve practiced this countless times." },
+
   {
-	"text": "She moves fast without looking back—as if she already assumes I’ll follow, or as if she’s betting that I won’t."
+	"event": [{ "action": "spawn_character", "target": "Alicia", "pos": [450, 0] }]
   },
-  {
-	"text": "I keep my steps light, careful not to let my boots scrape the ice. It’s strange—I’ve never trained for stealth, yet my body moves like it’s done this countless times before."
-  },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Stay close.”"
@@ -20,30 +23,28 @@
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“I won’t slow you down.”"
   },
-  {
-	"text": "She doesn’t answer. Instead, she flicks the edge of her cloak back slightly so I can see the route in her hand—not streets, but gaps."
-  },
-  {
-	"text": "We bypass two well-lit roads and slip into an alley no one uses. Ice crusts the iron spikes along the walls like a row of teeth. There’s a faint smell of something burned."
-  },
+
+  { "text": "She doesn’t reply. She just shifts her cloak slightly so I can see the path she’s taking—not along the streets, but through the ‘gaps’ between them." },
+  { "text": "We avoid two lamplit roads and slip into an unused alley. Frosted iron nails jut from the walls like teeth. There’s a faint burnt smell in the air." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Echo Circle operatives are inside.”"
+	"text": "“Echo Circle members are inside.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“What do you want me to do?”"
+	"text": "“What do you need me to do?”"
   },
-  {
-	"text": "She finally turns her face toward me. The look is brief—an evaluation of whether I deserve to live another second."
-  },
+
+  { "text": "She finally glances sideways at me—quick, sharp—like assessing whether I deserve to survive the next minute." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Hold the alley mouth.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“If anyone runs out—don’t fight. Call my name.”"
+	"text": "“If someone runs out—don’t fight. Just call my name.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
@@ -53,70 +54,65 @@
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“That’s it.”"
   },
-  {
-	"text": "She presses a small bundle into my hand—cold, gritty powder, hard as ground bone."
-  },
+
+  { "text": "She presses a small bundle into my palm: cold, hard powder—like ground bone." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Listen carefully.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“What you’re doing isn’t ‘fighting.’ It’s ‘don’t let them register you as a target.’”"
+	"text": "“Your job isn’t to fight.”"
   },
   {
-	"text": "She turns and disappears into the dark. Her cloak flashes once—like a slit cut into falling snow."
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“It’s to make sure they don’t see you as a target.”"
   },
-  {
-	"text": "From deep inside the alley comes the faintest sound of metal—short, precise, like a conversation being deleted mid-sentence."
-  },
-  {
-	"text": "I press my back to the wall and force myself not to move. All I can hear is my heartbeat and the snow falling."
-  },
-  {
-	"text": "Suddenly, a figure staggers out of the alley. Black robe. A dark ring stained across his chest."
-  },
+
+  { "text": "Then she turns and disappears into the darkness. Her cloak flickers once—like a slit cut through the snow." },
+  { "text": "From deeper in the alley comes the faint sound of metal—short, precise. Like someone deleting a line of conversation." },
+  { "text": "I press my back against the wall, forcing myself not to move. All I hear is my heartbeat and the hiss of falling snow." },
+
+  { "text": "Suddenly, a figure staggers out of the alley. Black robe. A dark ring marking the chest." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“Stop!”"
   },
-  {
-	"text": "I don’t rush him. I scatter the powder at his feet instead—the moment it hits the snow, thin white smoke curls upward."
-  },
-  {
-	"text": "His step falters. He doubles over, coughing. In the next instant, a streak of silver cuts out from the alley."
-  },
+
+  { "text": "I don’t charge him. I fling the powder at his feet. The moment it hits the snow, pale smoke bursts upward." },
+  { "text": "He stumbles, choking, doubling over. In the next second, a streak of silver flashes from within the alley." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Don’t touch him.”"
   },
-  {
-	"text": "Her blade stops at his throat—clean, exact, like the ending was written ahead of time."
-  },
-  {
-	"text": "He tries to speak. She twists her wrist—and he never makes another sound."
-  },
-  {
-	"text": "Alicia pulls a thin chain from inside his collar. The pendant flashes once in the firelight."
-  },
+
+  { "text": "Her blade rests at his throat—clean and absolute, like the ending was written before it began." },
+  { "text": "He tries to speak. Her wrist turns once—and silence claims him." },
+  { "text": "Alicia tears a thin chain from beneath his collar. The pendant glints faintly." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Not it.”"
   },
-  {
-	"text": "She frowns, like time has been wasted. Then she looks at me, her voice low but clear."
-  },
+
+  { "text": "She frowns—annoyed at wasted time. Then she looks at me, her voice low but clear." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“You did well.”"
   },
-  {
-	"text": "The praise is brief, but it lands like permission. She tucks the chain inside her cloak."
-  },
+
+  { "text": "The praise is brief—but it feels like permission." },
+  { "text": "She slips the chain inside her cloak." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Move. Next location.”"
   },
+
   {
 	"event": [
 	  { "action": "change_scene", "target": "scene3.8" }

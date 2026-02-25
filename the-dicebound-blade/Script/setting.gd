@@ -22,8 +22,8 @@ var _language_lock := false
 @onready var sound_effects_label = $Panel/TabContainer/Music/ScrollContainer/Music/button/SoundEffects
 @onready var character_voice_label = $Panel/TabContainer/Music/ScrollContainer/Music/button/CharacterVoice
 @onready var bgm_label = $Panel/TabContainer/Music/ScrollContainer/Music/button/BGM
-
-
+@onready var sfx_toggle = $Panel/TabContainer/Music/ScrollContainer/Music/button/SoundEffects
+@onready var tab_container = $Panel/TabContainer
 
 @onready var back_to_menu_button = $Panel/BackToMenuButton  # 新增
 
@@ -60,7 +60,11 @@ func _ready():
 	_load_game_tree()
 	_init_language_settings()
 	_init_audio_settings()
+	tab_container.tab_changed.connect(_on_tab_changed)
 
+func _on_tab_changed(tab_index: int) -> void:
+	SdMgr.play_sfx(preload("res://images/Sound/Tab.mp3"))
+	print("切换到 Tab:", tab_index)
 	
 func _load_game_tree():
 	var holder = $Panel/TabContainer/GameTree/GameTreeHolder
@@ -90,39 +94,47 @@ func _on_button_pressed():
 		_set_option_active(true)   # ✅ 恢复 OptionUI 输入
 
 func _on_close_pressed():
+	SdMgr.play_sfx(preload("res://images/Sound/Back.mp3"))
 	panel.hide()
 	restore_ui()
 	_set_option_active(true)
 	settingButton.visible = true
 
 func _on_quit_pressed():
+	SdMgr.play_sfx(preload("res://images/Sound/Back.mp3"))
 	pending_action = "quit"
 	confirm_dialog.dialog_text = tr("确定要退出游戏吗？")
 	confirm_dialog.popup_centered()
 
 func _on_clear_pressed():
+	SdMgr.play_sfx(preload("res://images/Sound/Clean.mp3"))
 	pending_action = "clear"
 	confirm_dialog.dialog_text = tr("确定要清除所有存档吗？")
 	confirm_dialog.popup_centered()
 
 func _on_save_pressed(slot: int):
+	SdMgr.play_sfx(preload("res://images/Sound/Save.mp3"))
 	pending_action = "save"
 	pending_slot = slot
 	confirm_dialog.dialog_text = tr("确定要覆盖存档槽 %d 吗？") % slot
 	confirm_dialog.popup_centered()
 
 func _on_load_pressed(slot: int):
+	SdMgr.play_sfx(preload("res://images/Sound/load_selected.mp3"))
 	pending_action = "load"
 	pending_slot = slot
 	confirm_dialog.dialog_text = tr("确定要读取存档槽 %d 吗？") % slot
 	confirm_dialog.popup_centered()
+	
 
 func _on_back_to_menu_pressed():
+	SdMgr.play_sfx(preload("res://images/Sound/Back.mp3"))
 	pending_action = "back_to_menu"
 	confirm_dialog.dialog_text = tr("确定要返回主菜单吗？\\n当前进度将不会保留")
 	confirm_dialog.popup_centered()
 
 func _on_confirmed():
+	SdMgr.play_sfx(preload("res://images/Sound/Confirm.mp3"))
 	match pending_action:
 		"quit":
 			print("👋 确认退出游戏")
@@ -267,6 +279,7 @@ func _refresh_slot_buttons(mode: String):
 
 		# ✅ 点击事件
 		button.pressed.connect(func():
+			SdMgr.play_sfx(preload("res://images/Sound/Save_selected.mp3"))
 			pending_action = mode
 			pending_slot = i
 			if mode == "save":
@@ -441,14 +454,22 @@ func _set_language(lang_code: String) -> void:
 					child.call("_update_ui_texts", lang_code)
 
 func _init_audio_settings() -> void:
+	
 	# --- 主音量 ---
 	var saved_volume := _load_master_volume()
+	
+	var sfx_enabled := _load_sfx_enabled()
+	sfx_toggle.button_pressed = sfx_enabled
+	SdMgr.set_sfx_enabled(sfx_enabled)
+	sfx_toggle.toggled.connect(_on_sfx_toggled)
+
 	main_sound_slider.min_value = 0
 	main_sound_slider.max_value = 100
 	main_sound_slider.step = 1
 	main_sound_slider.value = saved_volume
 	global_label.text = "%d%%" % int(saved_volume)
 	_apply_master_volume(saved_volume)
+	
 
 	main_sound_slider.value_changed.connect(_on_main_sound_changed)
 
@@ -458,7 +479,22 @@ func _init_audio_settings() -> void:
 	_apply_bgm_enabled(bgm_enabled)
 	bgm_toggle.toggled.connect(_on_bgm_toggled)
 
+func _on_sfx_toggled(pressed: bool) -> void:
+	SdMgr.set_sfx_enabled(pressed)
+	_save_sfx_enabled(pressed)
 
+func _save_sfx_enabled(enabled: bool) -> void:
+	var cfg := ConfigFile.new()
+	if cfg.load("user://config.cfg") != OK:
+		cfg = ConfigFile.new()
+	cfg.set_value("settings", "sfx_enabled", enabled)
+	cfg.save("user://config.cfg")
+
+func _load_sfx_enabled() -> bool:
+	var cfg := ConfigFile.new()
+	if cfg.load("user://config.cfg") == OK:
+		return bool(cfg.get_value("settings", "sfx_enabled", true))
+	return true
 func _on_main_sound_changed(value: float) -> void:
 	global_label.text = "%d%%" % int(value)
 	_apply_master_volume(value)
@@ -484,15 +520,8 @@ func _on_bgm_toggled(pressed: bool) -> void:
 
 
 func _apply_bgm_enabled(enabled: bool) -> void:
-	# ✅ 注意：游戏内场景不一定叫 Start，所以别找 Start
-	# 你只要找当前场景 UI/音频里的 AudioStreamPlayer
-	var bgm_player = get_tree().root.find_child("AudioStreamPlayer", true, false)
-	if bgm_player:
-		if enabled:
-			if not bgm_player.playing:
-				bgm_player.play()
-		else:
-			bgm_player.stop()
+	SdMgr.set_bgm_enabled(enabled)
+			
 func _save_language(lang_code: String) -> void:
 	var cfg := ConfigFile.new()
 	if cfg.load("user://config.cfg") != OK:

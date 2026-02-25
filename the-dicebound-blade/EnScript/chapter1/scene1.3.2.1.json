@@ -4,39 +4,39 @@
 	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "The fire flickered softly, filling the air with the scent of wine and burning wood. She watched me in silence, as if waiting for an answer."
+	"text": "The flames flicker softly, and the air carries the scent of wine and burning wood. She watches me quietly, as if waiting for an answer."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“I’ll keep running the inn, just living my days as they come,” I said with a faint smile. “If fate wants to change, it can do that on its own.”"
+	"text": "“I’ll keep running the inn and go on with my life as usual,” I say with a smile. “If fate wants to change, it can change on its own.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She blinked in mild surprise, then smiled. “You take things rather lightly, don’t you?”"
+	"text": "She pauses, seemingly caught off guard by my response. Then a faint smile curves her lips. “You’re surprisingly open-minded.”"
   },
   {
-	"text": "Her smile held no mockery—only a quiet kind of respect. For a brief moment, she no longer seemed like a traveler, but someone who had just heard a long-forgotten comfort."
+	"text": "There is no mockery in her smile—only a hint of admiration. For a moment, she no longer seems like a wandering traveler, but someone listening to a long-lost comfort."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Sometimes, holding on to ordinary life takes more courage than changing fate,” she murmured. “I’ve seen too many souls wishing to start over—but none who found peace.”"
+	"text": "“Sometimes, maintaining the ordinary takes more courage than trying to change fate,” she sighs softly. “I’ve seen too many souls who wanted to start over, and not one of them found true peace.”"
   },
   {
-	"text": "Her tone carried a rare gentleness—like wind brushing across a snowfield: soft, but leaving its trace behind."
+	"text": "Her tone carries a rare gentleness, like wind sweeping across a snowy plain—light, yet leaving a trace behind."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“And you?” I asked. “Would you start over, if you could?”"
+	"text": "“What about you?” I ask. “Do you want to start over?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She hesitated, then slowly shook her head. “I’m not sure anymore. Maybe… I’m just tired. If I had the choice, perhaps I’d follow fate this time.”"
+	"text": "She falls silent for a few seconds, then shakes her head slightly. “I’m not sure anymore. Maybe… I’m just too tired. If I could choose, perhaps I would simply follow fate.”"
   },
   {
-	"text": "The firelight traced the curve of her face, her gaze wandering within the shifting glow. Her smile felt distant—like a warmth drifting from a memory she could never quite let go of."
+	"text": "Firelight brushes across her profile, her gaze drifting within the shifting glow. Her smile feels as though it has drifted from a distant past, carrying a tenderness she has never fully let go."
   },
   {
-	"text": "And in that moment, I realized—the 'souls' she spoke of might have included her own."
+	"text": "And suddenly, I realize—the ‘souls’ she spoke of might include herself."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.4" }]

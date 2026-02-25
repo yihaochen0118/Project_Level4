@@ -7,15 +7,20 @@ extends Control
 @onready var hp_bar = $HP/HpBar
 @onready var show_gear_button = $ShowGearButton
 @onready var chapter_label: Label = $ChapterLabel
+var has_new_item := false
 var current_chapter: String = "1"
 # 记录装备栏实例
 var equipment_bar: Control = null
+var highlight_tween: Tween = null
 
 func _ready():
 	update_stats()
 	update_hp(PlayerData.hp, PlayerData.max_hp)
 	update_chapter(PlayerData.chapter)  # ✅ 初始化显示
 	
+	if not PlayerData.item_changed.is_connected(_on_item_changed):
+		PlayerData.item_changed.connect(_on_item_changed)
+		
 	PlayerData.stats_changed.connect(update_stats)
 	PlayerData.hp_changed.connect(update_hp)
 	
@@ -35,7 +40,32 @@ func _ready():
 	# 🔘 按钮点击时控制显隐
 	show_gear_button.pressed.connect(_on_show_gear_button_pressed)
 
+func _on_item_changed():
+	has_new_item = true
+	_highlight_item_button()
 
+func _highlight_item_button():
+	# 如果已经在闪，不重复创建
+	if highlight_tween:
+		return
+
+	highlight_tween = create_tween()
+	highlight_tween.set_loops()  # 无限循环
+	
+	highlight_tween.tween_property(
+		show_gear_button, 
+		"modulate", 
+		Color(1.042, 0.221, 0.351, 1.0), 
+		0.4
+	)
+	
+	highlight_tween.tween_property(
+		show_gear_button, 
+		"modulate", 
+		Color(1.0, 0.563, 0.197, 0.894), 
+		0.4
+	)
+	
 func update_stats():
 	strength_label.text = "strength: %d" % PlayerData.get_stat("strength")
 	constitution_label.text = "constitution: %d" % PlayerData.get_stat("constitution")
@@ -51,7 +81,19 @@ func update_hp(new_hp: int, max_hp: int):
 
 # 🧭 点击按钮：切换装备栏显隐
 func _on_show_gear_button_pressed():
+	SdMgr.play_sfx(preload("res://images/Sound/itemButton.mp3"))
+
 	equipment_bar.visible = not equipment_bar.visible
+	
+	# 🔥 停止高亮
+	has_new_item = false
+	
+	if highlight_tween:
+		highlight_tween.kill()
+		highlight_tween = null
+	
+	show_gear_button.modulate = Color(1,1,1)
+
 	print("🎯 装备栏可见性: ", equipment_bar.visible)
 	show_gear_button.release_focus()
 

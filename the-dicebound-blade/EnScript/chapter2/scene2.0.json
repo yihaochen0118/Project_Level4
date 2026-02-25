@@ -2,159 +2,165 @@
   {
 	"event": [
 	  { "action": "hide_talk_ui" },
-	  { "action": "set_background", "target": "tavern" }
+	  { "action": "set_background", "target": "tavern" },
+	  { "action": "unlock", "target": "2_0" },
+	  { "action": "chapter_change", "target": "2" }
 	]
   },
   {
 	"event": { "action": "show_talk_ui" },
-	"text": "Morning fog slid down from the distant mountains, spreading along the stone-paved streets into the town center. Firelight wavered against the glass. Outside, the snow hadn’t stopped, and the sky was grey, dull as old iron."
+	"text": "Morning mist slides down from the distant hills, drifting along the stone streets into the heart of town. Firelight flickers against the glass. Outside, the snow hasn’t stopped; the sky is gray like old iron."
   },
+  { "text": "The tavern smells damp, the air still tinged with last night’s lingering smoke. I stand behind the counter polishing a cup, my knuckles numb from the cold." },
+  { "text": "This is the most ordinary moment of the day—before travelers arrive, when only the echo of glass and my own breathing fill the room." },
+  { "text": "But today is different." },
+
   {
-	"text": "The inn was heavy with damp air, mixed with the lingering smell of last night’s smoke. I stood behind the counter wiping glasses, my knuckles numb with cold."
-  },
-  {
-	"text": "This was usually the most ordinary moment of the day—before travelers arrived, when there was nothing but the echo of glass and my own breathing."
-  },
-  {
-	"text": "But today was different."
-  },
-  {
-	"text": "The door was kicked open. A rush of alcohol and freezing wind poured in, snow forced through the doorway and scattered across the floor.",
+	"text": "The door is kicked open. A rush of alcohol-laced wind bursts inside, snowflakes forced in and scattered across the floor.",
 	"event": [
 	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
 	  { "action": "show_name", "target": "Junker" }
 	]
   },
-  {
-	"text": "\"Wine! Fucking hell, another jug!\" he roared as he barged in, his eyes bloodshot, his leather armor creased and cracked, dried blood clinging to the corner of his mouth."
-  },
+  { "text": "“Drink! Damn it, another bottle!” he roars as he storms in, eyes bloodshot, leather armor cracked, dried blood still clinging to the corner of his mouth." },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "\"Drinking this early? Come on, man—the town guard will be around soon. You’re in no state. Go home and rest.\""
+	"text": "“Drinking this early? The town guards will be here soon. You’re in no shape—go home and rest.”"
   },
   {
 	"event": [
 	  { "action": "show_name", "target": "Junker" },
 	  { "action": "shake", "target": "Junker" }
 	],
-	"text": "\"You fucking telling me what to do?!\""
+	"text": "“You telling me what to do?!”"
   },
+  { "event": { "action": "hide_name" }, "text": "He grabs my collar, yanking so hard I’m nearly pulled over the counter." },
   {
-	"event": { "action": "hide_name" },
-	"text": "He grabbed me by the collar, the force nearly hauling me over the counter."
-  },
-  {
-	"text": "His fist slammed into me. My vision lurched, blood seeping from my gums. A few patrons hurried into the corners—no one dared step in.",
+	"text": "His fist crashes into me. My vision jolts; I taste blood along my gums. A few patrons retreat into the corner. Not one steps forward.",
 	"event": [
 	  { "action": "hp_lost", "amount": 10 },
 	  { "action": "shake", "target": "Player" }
 	]
   },
-  {
-	"text": "Just then, footsteps sounded at the door."
-  },
-  {
-	"text": "Not hurried, but slow and steady—like someone walking a path they had already taken countless times."
-  },
+  { "text": "Then footsteps sound at the door." },
+  { "text": "Not hurried—slow, steady. Like someone walking a road they’ve taken countless times before." },
+
   {
 	"event": [
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
 	  { "action": "show_name", "target": "Alicia" }
 	],
-	"text": "A woman in a silver-white cloak stepped inside. Frost still clung to her armor, and her silver hair caught the morning light, cold and sharp."
+	"text": "A woman in a silver-white cloak steps inside. Frost still clings to her armor, her silver hair catching the cold light of morning."
   },
-  {
-	"text": "She swept her gaze across the tavern, her eyes flat, like she was looking at a painting she had long grown tired of."
-  },
+  { "text": "She sweeps a glance across the tavern, her gaze flat—as if looking at a painting she’s long grown tired of." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"A pot of hot water.\""
+	"text": "“A pot of hot water.”"
   },
-  {
-	"text": "Her voice held no inflection, as if the chaos before her was nothing more than background noise."
-  },
+  { "text": "Her tone doesn’t rise or fall, as though the chaos before her is nothing but background noise." },
+
   {
 	"event": [
 	  { "action": "show_name", "target": "Junker" },
 	  { "action": "shake", "target": "Junker" }
 	],
-	"text": "The drunk glanced at her and sneered. \"What, another one here to watch the show?\""
+	"text": "The drunk sneers at her. “What, another spectator?”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "I coughed up a mouthful of bloody spit and forced the words out. \"…You’re not going to do something about this?\""
+	"text": "I cough up blood and manage to speak. “...Aren’t you going to do something?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She looked at me briefly. There was no malice in her eyes—and no pity."
+	"text": "She lifts her eyes to me. There’s no malice in them—no pity either."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"I’ve helped plenty of times before.\""
+	"text": "“I’ve stepped in many times before.”"
   },
-  {
-	"text": "The drunk’s gaze lingered for half a second on the sword at her waist, its cracks even deeper. It wasn’t fear—more like calculation."
-  },
+  { "text": "The drunk looks ready to keep causing trouble, but his gaze lingers half a second on the deeply cracked sword at her waist. Not fear—calculation." },
+  { "text": "He clicks his tongue, suddenly shifting tone like a market haggler." },
   {
 	"event": [{ "action": "show_name", "target": "Junker" }],
-	"text": "\"You compensate me—fill a jug to go. Call it cooling me off.\""
+	"text": "He jerks his chin at me. “You compensate me—fill my flask and I’ll leave. Call it cooling me down.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"You just hit someone—\""
+	"text": "I press a hand to my face, teeth aching. “You just assaulted someone—”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Junker" }],
-	"text": "\"Cut the shit! Either you pour the booze, or I tear your tables apart and burn them for firewood.\""
+	"text": "“Shut it!” He slams the empty bottle on the counter. “Fill it, or I’ll tear this place apart for firewood.”"
   },
-  {
-	"event": { "action": "hide_name" },
-	"text": "Alicia sat there, gently stirring her hot water without lifting her eyes. Her silence felt like a wall."
-  },
+
+  { "event": { "action": "hide_name" }, "text": "The patrons shrink into the corner. Alicia sits quietly, stirring her hot water with one finger, not even raising her eyes. Her silence feels like a wall." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "I swallowed my anger and ladled wine into his filthy leather flask. The liquid splashed over my knuckles, ice-cold and numbing."
+	"text": "I take a deep breath, swallow my anger, and ladle ale into his filthy leather flask. The liquid splashes across my knuckles, freezing cold."
+  },
+
+  {
+	"event": [
+	  { "action": "show_name", "target": "Junker" },
+	  { "action": "shake", "target": "Junker" }
+	],
+	"text": "He snatches the flask, weighing it in his hand, grinning. “That’s more like it.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Junker" }],
-	"text": "\"Now that’s more like it.\""
+	"text": "He tilts it back for a long swig and exhales in satisfaction. “Good. Next time I show up, don’t waste my time.”"
   },
+
+  { "event": { "action": "hide_name" }, "text": "He flicks a broken copper coin onto the counter. It lands with a sharp clink—not payment, more like charity." },
+
   {
 	"event": [{ "action": "show_name", "target": "Junker" }],
-	"text": "\"Remember—next time you see me, don’t drag your feet.\""
+	"text": "“I blocked your bad luck today.” He grins as he heads for the door. “You’re lucky I’m in a good mood.”"
   },
-  {
-	"text": "He flicked a chipped copper coin onto the counter. It clinked against the wood—not like payment, more like alms."
-  },
+  { "event": { "action": "hide_name" }, "text": "He shoulders the door open, cold wind and snow rushing inside. As he steps out, he glances back at Alicia, as if confirming he’s ‘won.’" },
   {
 	"event": [{ "action": "show_name", "target": "Junker" }],
-	"text": "\"I’m in a good mood today—won’t smash your place.\""
+	"text": "“Pretty thing, keep the hot water for yourself.”"
+  },
+
+  {
+	"text": "I look down and see the broken copper coin roll to the base of the counter. Tiny runic engravings line its edge. It doesn’t look like loose change—more like some kind of charm."
+  },
+  {
+	"event": [
+	  { "action": "add_item", "target": "LuckyCoin", "amount": 1 }
+	],
+	"text": "When I pick it up, warmth pulses against my fingertips, as if some fragment of fortune has been pressed into my palm."
   },
   {
 	"event": { "action": "remove_character", "target": "Junker" },
-	"text": "He laughed as he walked away, the crunch of boots on snow swallowed by the wind."
+	"text": "He laughs loudly as he leaves, his boots crunching in the snow until the wind swallows the sound."
   },
-  {
-	"text": "The tavern fell quiet again. I held my face—my palm was warm, yet I felt cold."
-  },
+
+  { "text": "Silence returns to the tavern, broken only by the crackle of the hearth. I cover my face; my palms are warm, but I feel cold." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"…Do you know me?\""
+	"text": "My voice is hoarse. “...Do you know me?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"The key’s under the carpet, right? I’ll be staying the night.\""
+	"text": "She doesn’t answer. She only says lightly, “The key’s under the rug, right? I’ll be staying tonight.”"
   },
-  {
-	"text": "She went upstairs. That hiding place for the key was something only regulars knew."
-  },
+  { "event": { "action": "hide_name" }, "text": "She turns and heads upstairs. At the bend, her cloak shifts, revealing the cracked sword at her side—looking as though it might break at any moment." },
+
+  { "text": "I stand there, stunned. Only regulars know about the spare key hidden under the rug." },
+
   {
 	"event": [
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "Chase upstairs and confront her—\"Who are you, really?\" 【Insight Check (DC 6)】", "dc": 6, "check": "insight" },
-		  { "text": "Swallow the humiliation and tend to your wounds and the inn first 【No Check (DC 0)】", "dc": 0, "check": "dexterity" }
+		  { "text": "Follow her upstairs and demand, “Who are you really?” 【Insight Check (DC 6)】", "dc": 6, "check": "intelligence" },
+		  { "text": "Swallow the humiliation and tend to your wounds and the tavern first 【No Check (DC 0)】", "dc": 0, "check": "dexterity" }
 		]
 	  },
 	  { "action": "hide_talk_ui" }

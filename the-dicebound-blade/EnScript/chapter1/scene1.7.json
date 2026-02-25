@@ -2,40 +2,40 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern_out" },
-	{ "action": "unlock","target": "1_7" },
+	  { "action": "unlock","target": "1_7" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "The sun was warm and bright. The town square was livelier than usual—children selling flowers, merchants shouting as the wind carried their voices away."
+	"text": "The sunlight is just right. The town market is livelier than usual—children selling flowers, vendors’ calls drifting softly with the wind."
   },
   {
-	"text": "I sat on the wooden steps outside the inn, watching the fountain at the square’s center. The water shimmered in the sunlight, as if nothing had ever happened."
+	"text": "I sit on the wooden steps outside the tavern, watching the fountain at the center of the square. The droplets sparkle in the sun as if nothing had ever happened."
   },
   {
 	"event": [
 	  { "action": "show_name", "target": "Alicia" },
 	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] }
 	],
-	"text": "Alicia had changed into a simple light-colored dress, her silver hair tied loosely behind her—no armor, no sword."
+	"text": "Alicia has changed into a light-colored dress, her silver hair simply tied behind her. No armor, no sword. She looks slightly weaker than before, as if she still hasn’t fully recovered from last night."
   },
   {
-	"text": "“A rare morning,” she said with a smile. “I thought I’d try living like an ordinary person, just for once.”"
+	"text": "“A rare morning,” she says with a smile. “I want to try living a normal person’s day for once.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Even heroes take days off?” I chuckled."
+	"text": "“Heroes get days off too?” I laugh."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Sometimes we must,” she replied, sitting beside me and gazing at the children across the square. “Otherwise, we forget who we are.”"
+	"text": "“Sometimes they must.” She sits beside me, looking toward the children in the square. “Otherwise, you forget who you are.”"
   },
   {
 	"event": [
 	  { "action": "set_background", "target": "Square" }
 	],
-	"text": "We went to the bakery by the gate. The old shopkeeper paused when he saw her, then smiled and handed her two sweet buns. “For saving my grandson last time. I never got to thank you properly.”"
+	"text": "We head to the bakery near the town entrance. The old shopkeeper freezes for a moment when he sees her, then smiles and presses two sweet rolls into her hands. “Last time you saved my grandson, I never got to thank you.”"
   },
   {
-	"text": "“Then I’ll take them today,” she said with a grin, handing one to me."
+	"text": "“Then I’ll accept it today.” She smiles, then turns and hands one of them to me."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
@@ -46,30 +46,30 @@
 	"text": "“But you’re sharing breakfast with me.”"
   },
   {
-	"text": "The bun was almost too sweet, yet it carried a strange comfort. The sunlight caught on her eyelashes, glinting softly. In that moment, she looked less like a warrior—and more like a traveler."
+	"text": "The bread is almost too sweet, yet it carries a long-lost sense of peace. Sunlight glints off her eyelashes. In that moment, she looks less like a warrior and more like a traveler."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“If there were no monsters,” I asked suddenly, “would you stay here?”"
+	"text": "“If there were no monsters,” I suddenly ask, “would you want to stay?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She paused, fingers brushing the edge of the paper bag. “I’ve thought about that. But I don’t belong here.”"
+	"text": "She pauses, fingers brushing the edge of the paper bag. “I’ve thought about that. But I don’t belong here.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“By ‘here,’ you mean this town—or this world?”"
+	"text": "“By ‘here,’ do you mean the town—or the world?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She smiled faintly after a moment of silence. “Maybe… time itself.”"
+	"text": "She falls silent for a moment, then smiles faintly. “Maybe… time itself.”"
   },
   {
-	"text": "We left the bakery. The chimes above the door sang in the wind; children chased pigeons down the street. She stopped briefly at a flower stand, eyes lingering on a bouquet of white hyacinths—then shook her head."
+	"text": "We step out of the bakery. Wind chimes ring softly as children chase pigeons across the street. She pauses at a flower stall, her gaze resting on a bundle of white hyacinths, before shaking her head."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“I used to like flowers,” she said softly. “But now, every time I see them bloom, I think—they all live longer than I do.”"
+	"text": "“I used to like flowers,” she says suddenly. “But later, every time I saw them bloom, I thought… they all live longer than I do.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
@@ -77,17 +77,17 @@
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“It’s just the truth.” She smiled again. “But today, I want to pretend I still believe—I’m alive.”"
+	"text": "“It’s just the truth.” She smiles gently. “But today, I want to pretend—I’m still alive.”"
   },
   {
-	"text": "Her voice was so quiet, as if afraid to disturb the tenderness of the moment. I said nothing—just walked beside her in silence."
+	"text": "Her voice is so soft, as if afraid to disturb the tenderness of the moment. I don’t reply. I simply walk beside her."
   },
   {
-	"text": "The bell from the square rang in the distance. She looked up at the sky, then adjusted her cloak lightly."
+	"text": "The bell in the square rings. She looks up at the sky and adjusts her cloak."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“I’m going to check the barrier at the north gate.”"
+	"text": "“I need to check the barrier at the north gate.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
@@ -95,7 +95,7 @@
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Just to make sure.” Her expression turned serious. “Listen—tonight, no matter what happens, don’t go outside.”"
+	"text": "“Just to confirm something.” Her expression turns serious. “Listen—no matter what happens tonight, don’t leave the house.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
@@ -103,28 +103,31 @@
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She didn’t answer. Instead, she lifted her hand and traced a faint mark in the air before my chest. A shimmer of light hung there, like dust caught in sunlight."
+	"text": "She doesn’t answer. Instead, she gently taps the air in front of my chest. A nearly invisible streak of light flickers like dust in the sun."
   },
   {
-	"text": "“A charm,” she said with a smile. “It’ll grant you one night of dreamless sleep.”"
+	"event": [
+	  { "action": "add_item", "target": "Talisman", "amount": 1 }
+	],
+	"text": "“This is my protective charm,” she says with a smile. “It will keep you dreamless for one night.”"
   },
   {
 	"event": [
 	  { "action": "remove_character", "target": "Alicia" }
 	],
-	"text": "She picked up her basket and disappeared into the crowd. Her silver hair glimmered in the sunlight until it vanished at the far end of the market."
+	"text": "She lifts her basket and walks into the crowd. Her silver hair glimmers in the sunlight, gradually disappearing at the far end of the bustling market."
   },
   {
-	"text": "The wind shifted from the north, carrying a chill that didn’t belong. The fountain’s water suddenly arced higher than usual."
+	"text": "Wind blows from the north, carrying an uneasy chill. The fountain suddenly splashes higher than usual."
   },
   {
-	"text": "I looked up. The sky was clear—yet a faint dark shape flickered briefly among the clouds."
+	"text": "I look up. The sky is clear, yet a faint shadow slips between the clouds."
   },
   {
-	"text": "A shiver crawled down my spine. But then the laughter of children and the merchants’ shouts swallowed everything again. The sunlight remained gentle."
+	"text": "A cold feeling settles in my chest. But in the next moment, children’s laughter and vendors’ calls drown everything out. The sunlight remains gentle."
   },
   {
-	"text": "I let out a slow breath, but the feeling lingered—that something was quietly drawing near."
+	"text": "I let out a long breath, yet I can’t shake the feeling that something is quietly drawing near."
   },
   {
 	"event": [

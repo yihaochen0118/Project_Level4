@@ -5,94 +5,87 @@
 	  { "action": "show_talk_ui" }
 	]
   },
-  {
-	"text": "The air finally settled. The fire crackled back to life, and the flickering light danced softly across her clothes."
-  },
+  { "text": "The air finally settles. The hearth begins to flicker again, light and shadow glimmering faintly across her clothes." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“That move just now... was it magic?”"
+	"text": "“That move just now… was it magic?”"
   },
-  {
-	"text": "She blinked, a faint smile tugging at the corner of her lips."
-  },
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“No. The wind just listens when I speak.”"
-  },
-  {
-	"text": "Outside, the wind gradually quieted. Only snowflakes brushed gently against the windowpanes. The inn returned to its usual calm, with nothing but the soft crackle of the fire filling the air."
-  },
-  {
-	"text": "As I picked up the fallen cups, she came over and knelt beside me to lift the overturned table. Her hands were steady—her movements carried an unfamiliar gentleness."
-  },
+
+  { "text": "She blinks, a faint smile forming at the corner of her lips." },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Do you often handle things like this on your own? Drunks like that can be trouble.”"
+	"text": "“No. The wind simply listens to me.”"
   },
+
+  { "text": "The wind outside gradually fades, leaving only snowflakes tapping softly against the window frame. The inn returns to its usual quiet, with only the crackle of flames echoing in the air." },
+
+  { "text": "I busy myself picking up the scattered cups. She walks over and bends down to help me lift a fallen table. Her fingers are steady, yet her movements carry a hint of unfamiliar gentleness." },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Do you often face things like this alone? Drunks like that aren’t easy to deal with.”"
+  },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“I’ve always been alone. Ever since I took over this place from my family.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“You should hire someone to help. It’s good to have company to talk to.”"
+	"text": "“You should hire someone to help you. At least you’d have someone to talk to and pass the time.”"
   },
   {
-	"text": "She smiled and shook her head lightly."
+	"text": "She says this with a small shake of her head and a faint smile."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“People need to learn when to let others lend a hand.”"
+	"text": "“People have to learn to let others lend a hand.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“And you? Do you ever let anyone help you?”"
+	"text": "“What about you? Would you let someone help you?”"
   },
-  {
-	"text": "She didn’t answer—only smiled again, softly, as if through the mist of time."
-  },
+
+  { "text": "She doesn’t answer, only smiles softly—the warmth in it veiled like something hidden behind years of mist." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“I’m a traveler.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Could you spare me a room?”"
+	"text": "“Could you give me a room?”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“Of course.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“This one’s quiet, near the window—you can see the northern snowlight at night.”"
+	"text": "“It’s quiet and by the window. At night you can see the northern snowlight.”"
   },
+
+  { "text": "She nods and removes her cloak, revealing the sword etched with patterns—the hilt marked by a small crack." },
+  { "text": "I notice that fracture. The firelight reflects off it like a wound that has yet to heal." },
+
   {
-	"text": "She nodded and unclasped her cloak, revealing the sword at her side—its hilt marked by a thin crack along the guard."
+	"text": "“Damage doesn’t mean the end. It only reminds you that you once fought with everything you had.”"
   },
-  {
-	"text": "I noticed the flaw. In the firelight, it glimmered faintly—like a wound that had never quite healed."
-  },
-  {
-	"text": "“Damage doesn’t mean it’s broken,” I murmured. “It just reminds you that you once fought.”"
-  },
-  {
-	"text": "She turned toward the stairs. The firelight traced her silhouette in thin lines of gold. Her footsteps echoed softly on the wooden steps—measured and calm."
-  },
+
+  { "text": "Her figure ascending the stairs is cut into streaks of gold by the firelight. Her footsteps echo along the wooden steps—clear and measured." },
+
   {
 	"event": [{ "action": "remove_character", "target": "Alicia" }],
-	"text": "Outside, the wind had died, but the snow had begun to fall again—quiet and slow."
+	"text": "The wind outside has long since stopped, but the snow begins to fall softly."
   },
-  {
-	"text": "I looked down and saw a brass die lying on the counter. It rolled half a turn on its own before stopping—face up on a three."
-  },
-  {
-	"text": "I frowned, picking it up. I was certain—I hadn’t touched it just now."
-  },
-  {
-	"text": "I slipped the die into my pocket and listened to the snow outside. The sound was soft, almost tender... but something about it felt strangely familiar, as if someone long ago had once rolled the very same die."
-  },
-  {
-	"event": [{ "action": "change_scene", "target": "scene1.2" }]
-  }
+
+  { "text": "I lower my gaze and see the brass die on the counter. It rolls half a turn on its own and stops, showing a “3.”" },
+  { "text": "I frown and pick it up. —But I’m certain I didn’t touch it just now." },
+  { "text": "I slip the die into my pocket, listening to the sound of snow outside. It’s gentle, yet it gives me a strange illusion: as if someone, long ago, had cast the very same die." },
+
+  { "event": [{ "action": "change_scene", "target": "scene1.2" }] }
 ]

@@ -2,113 +2,121 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "unlock","target": "BadEnding2" },
 	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] },
-	{ "action": "unlock","target": "BadEnding2" },
 	  { "action": "spawn_character", "target": "EnemyLeader", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "My heart pounded so hard it felt like it might tear through my chest as I stared at the ritual circle."
+	"text": "I stared at the ritual circle, my heart pounding as if it would tear through my chest."
   },
   {
-	"text": "The chanting wrapped around my thoughts like an invisible net, suffocating me under its weight."
+	"text": "The chanting formed an invisible net, tightening around my thoughts. The air pressed down on me, stealing my breath."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Lucia, we… we have to go,” I whispered, my voice trembling, barely sounding like my own."
+	"text": "“Lucia, we… we have to go,” I whispered, my voice trembling beyond recognition."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“What?” She turned, eyes wide in disbelief. “What did you just say?”"
+	"text": "“What?” She turned to me, disbelief filling her eyes. “What did you just say?”"
   },
   {
-	"text": "I didn’t look back. I just ran—toward the exit as fast as I could."
+	"text": "I didn’t look at her again. I just ran toward the exit."
   },
   {
-	"text": "🎲 [Will Check: Failed] Your fear overwhelms your reason. All you can hear is your heartbeat."
+	"text": "🎲【Will Check: Failed】Your fear overwhelms your reason. All you can hear is the pounding of your own heart."
   },
   {
-	"text": "The explosion of the ritual echoed behind me. Blue light devoured the shadows inch by inch, as if countless unseen eyes were watching."
+	"text": "Behind me, the ritual roared. Blue light devoured the shadows inch by inch, as if countless eyes were watching."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "Lucia shouted, “The mentor’s still inside! What are you doing, you coward?!”"
+	"text": "Lucia screamed, “The mentor is still inside! What are you doing, you coward?!!”"
   },
   {
 	"event": { "action": "shake", "target": "Lucia" },
-	"text": "A violent shockwave cut her words short. The walls cracked, iron shards scattering through the air."
+	"text": "A violent shockwave cut her off. The walls shattered, iron fragments flying."
   },
   {
 	"event": [
 	  { "action": "remove_character", "target": "EnemyLeader" },
 	  { "action": "remove_character", "target": "Lucia" }
 	],
-	"text": "I was thrown down the stairs, my head slamming into the floor. Everything went dark."
+	"text": "I was thrown down the stairs, my head striking the ground. Everything went black."
   },
   {
-	"text": "When I opened my eyes again, the world was no longer the same."
+	"text": "When I opened my eyes again, the world had changed."
   },
   {
 	"event": [
 	  { "action": "set_background", "target": "Street" }
 	],
-	"text": "Half of the underground chamber had collapsed. The air reeked of ash and burnt stone. Lucia and Alicia were nowhere to be seen."
+	"text": "Half the basement had collapsed. The air reeked of scorched ash. Lucia and Alicia were nowhere to be seen."
   },
   {
 	"event": { "action": "hp_lost", "amount": 70 },
-	"text": "Pain tore through my chest—each breath felt like swallowing knives."
+	"text": "The pain in my chest turned every breath into a blade."
   },
   {
-	"text": "I staggered to my feet. Beneath me lay a broken stone pillar, faint runes still glowing across its surface."
+	"text": "I struggled to my feet. Beneath me lay a shattered stone pillar, still etched with fading runes."
   },
   {
-	"text": "The altar at the center was empty now. Only a wisp of blue mist hovered in the air—Alicia’s shattered amulet."
+	"text": "The altar at the heart of the ritual was empty. Only a wisp of blue mist lingered in the air—that was all that remained of Alicia’s charm."
   },
   {
-	"text": "I stumbled closer and reached out my hand."
+	"text": "I staggered closer and reached out to touch it."
   },
   {
 	"event": { "action": "shake", "target": "Player" },
-	"text": "The moment my fingers brushed it, a low murmur echoed in my ears:"
+	"text": "The moment my fingers brushed it, a low whisper echoed in my ears:"
   },
   {
-	"text": "“...The Cycle is not over... the memory shall be reforged...”"
+	"text": "“…The cycle is not over… memory shall be reforged…”"
   },
   {
-	"text": "The voice came from within me. I staggered back as the blue light flared, the fragments scattering into the air like dust."
+	"text": "The voice seemed to come from within me. I stumbled back as the blue light flared, the fragment dissolving into countless sparks that scattered into the air."
   },
   {
-	"text": "Then—silence."
+	"text": "Then everything fell silent."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "I stood there in a daze. Only ashes and cold wind surrounded me."
+	"text": "I stood there blankly, surrounded by nothing but ash and cold wind."
   },
   {
-	"text": "The sound of collapsing stone faded away, like the last notes of a funeral song."
+	"text": "The sound of collapsing stone faded away, like the final note of a requiem."
   },
   {
-	"text": "I reached the exit. As I pushed the door open, snow was falling outside."
+	"text": "I reached the exit. When I pushed the door open, snow was falling outside."
   },
   {
-	"text": "A gust of wind slipped through the cracks, snuffing out the last of the fire behind me."
+	"text": "Wind rushed through the crack, extinguishing the firelight behind me."
   },
   {
-	"text": "I looked down—and saw the brass die lying quietly on the ground, face-down."
+	"text": "I lowered my head and saw the brass die lying quietly on the ground, its number face turned downward."
   },
   {
-	"text": "I picked it up. It rolled once in my palm and stopped—showing a zero."
+	"text": "I bent to pick it up—the die rolled once in my palm, revealing a “0.”"
   },
   {
-	"text": "I froze. That die was never supposed to have a zero."
+	"text": "I froze. There had never been a “0” on it before."
   },
   {
 	"event": [
 	  { "action": "set_flag", "flag": "BadEnd_RunnerFail", "value": true },
 	  { "action": "change_scene", "target": "scene_bad_end_runner_fail" }
 	],
-	"text": "【Bad Ending: The Collapsing Cycle】"
+	"text": "【Bad Ending: The Collapsed Cycle】"
   },
   {
 	"text": "The snow kept falling. No one answered."
+  },
+  {
+	"event": [
+	  {
+		"action": "game_over",
+		"message": "You chose to run.\nShe chose to stay.\n\nThe ritual collapsed, memories reforged.\nThe cycle continues.\n\n—— The Collapsed Cycle · BAD END ——"
+	  }
+	]
   }
 ]

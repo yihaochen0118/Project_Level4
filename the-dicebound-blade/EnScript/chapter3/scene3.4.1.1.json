@@ -1,40 +1,36 @@
 [
   {
 	"event": [
+	  { "action": "hide_talk_ui" },
 	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "unlock", "target": "3_4_1" },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-250, 0] },
 	  { "action": "show_talk_ui" }
-	],
-	"text": "(3.4.1.0 — Success)"
+	]
   },
-  {
-	"text": "I move around the table and lean down to look at her. She’s slumped against the edge, breathing lightly—like she’s finally stolen a little bit of peace."
-  },
-  {
-	"text": "I slide the candleholder aside, careful not to let the firelight sting her eyelids. Then I bend down slowly, slipping my arm beneath her shoulders. She’s lighter than I expected—so light it makes my chest tighten."
-  },
+
+  { "text": "I walk around the table and lean down to look at her. She’s resting against the edge, breathing softly—like she’s finally stolen a small piece of peace." },
+  { "text": "I move the candle aside so the flame won’t sting her eyelids. Then I bend carefully, sliding one arm beneath her shoulders. She’s lighter than I expected—light enough to make something tighten painfully in my chest." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“…I’ll take you back to your room.”"
+	"text": "“…I’ll take you upstairs.”"
   },
-  {
-	"text": "She doesn’t respond. Her brow only creases slightly, as if she’s still running in her dreams. The staircase waits in the dark, each step reminding me: don’t make a mistake."
-  },
-  {
-	"text": "I go upstairs one step at a time, deliberately placing my feet lightly, avoiding the boards I know will creak. She shifts faintly in my arms but doesn’t wake—only rubs her forehead against my chest, instinctively."
-  },
+
+  { "text": "She doesn’t answer. Her brow furrows faintly, as if she’s still running somewhere in her dreams. The staircase waits in the dark, each step a quiet warning: don’t make a mistake." },
+
+  { "text": "I climb slowly, pressing my steps down to avoid the boards that creak. She shifts slightly in my arms but doesn’t wake—only nudges her forehead faintly against my chest, like it’s the most natural place to rest." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“Almost there.”"
   },
-  {
-	"text": "I push the door open and lay her down on the bed. Her silver hair fans out across the pillow, like a layer of cold light."
-  },
-  {
-	"text": "I pull the blanket up over her shoulders, tucking the edges in carefully, as if the wind might slip in through any gap."
-  },
-  {
-	"text": "Just as I’m about to withdraw my hand, her fingers suddenly catch my sleeve—there’s barely any strength in them, but the grip is stubborn, like she’s afraid I’ll disappear."
-  },
+
+  { "text": "I push open her door and lay her gently on the bed. Her silver hair spreads across the pillow like a layer of cold light." },
+  { "text": "I pull the blanket up over her shoulders and tuck it in carefully, as if the wind might try to slip in through the smallest crack." },
+
+  { "text": "Just as I begin to withdraw my hand, her fingers catch my sleeve. The grip is weak—but stubborn, like she’s afraid I’ll disappear." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“…Thank you.”"
@@ -43,16 +39,31 @@
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“I… really love you.”"
   },
+
   {
-	"text": "Her voice is heavy with sleep, like she’s telling the truth inside a dream. After that, her fingers loosen, and her breathing slowly evens out."
+	"event": [
+	  { "action": "add_item", "target": "silver_thread_ribbon" }
+	],
+	"text": "As her hand loosens, a thin silver ribbon slips from her wrist and falls quietly onto the pillow."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "I stand there for a while before gently pulling the door closed."
+	"text": "“…This isn’t a dream, is it?”"
   },
   {
-	"text": "The corridor air is cold—but my palm is still burning."
+	"event": [{ "action": "hide_name" }],
+	"text": "The ribbon still holds the warmth of her skin."
   },
+
+  { "text": "Her voice is thick with sleep, like truth spoken without defenses. After that, her fingers relax, and her breathing evens out." },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I stand there for a long moment before quietly closing the door."
+  },
+
+  { "text": "The hallway air is cold—but my palms are burning." },
+
   {
 	"event": [
 	  { "action": "change_scene", "target": "scene3.5" }

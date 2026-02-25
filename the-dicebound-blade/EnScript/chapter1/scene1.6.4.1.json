@@ -2,96 +2,104 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "unlock","target": "BadEnding1" },
 	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] },
-	{ "action": "unlock","target": "BadEnding1" },
 	  { "action": "spawn_character", "target": "EnemyLeader", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "I stared at the light of the ritual circle, my throat tightening as if something were blocking it."
+	"text": "I stared at the glow of the ritual circle, my throat feeling as if something were choking it."
   },
   {
-	"text": "The chanting of the robed figures grew faster, the air trembling like water. Lucia was about to rush forward, but I grabbed her arm and held her back."
+	"text": "The chanting of the black-robed figures grew more frantic. The air trembled like water. Lucia was about to rush forward when I grabbed her."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“Let go of me!” she shouted, panic flashing in her eyes. “The mentor is still in there!”"
+	"text": "“Let go of me!” she glared at me, panic flooding her eyes. “The mentor is still there!”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“No!” I barked under my breath. “The circle is going to—”"
+	"text": "“No!” I growled under my breath. “That ritual is about to explode—”"
   },
   {
-	"text": "🎲 [Will Check: Success] You force yourself to turn away, suppressing the instinct to look back."
+	"text": "🎲【Will Check: Success】You force yourself to turn away, suppressing the urge to look back."
   },
   {
-	"text": "I pulled Lucia by the hand and ran with everything I had toward the stairs."
+	"text": "I grabbed Lucia’s hand and ran toward the stairway with all my strength."
   },
   {
 	"event": { "action": "shake", "target": "Player" },
-	"text": "A deafening boom erupted behind us. Blue light surged like a tidal wave, swallowing the entire chamber. We were thrown down onto the freezing steps."
+	"text": "A thunderous roar erupted behind us. Blue light surged like a tidal wave, swallowing the entire basement. We were thrown onto the icy steps."
   },
   {
 	"event": [
 	  { "action": "remove_character", "target": "EnemyLeader" }
 	],
-	"text": "I half-dragged her as we stumbled through the iron gate."
+	"text": "I practically dragged her through the iron door."
   },
   {
 	"event": [
-	  { "action": "change_scene", "target": "Street" }
+	  { "action": "change_scene", "target": "Stree" }
 	],
-	"text": "Cold wind filled my lungs, and the glare of the snow stung my eyes."
+	"text": "Cold wind flooded my lungs, the brightness of the snow stinging my eyes."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "Lucia tore her hand free and turned back toward the door. Her voice trembled. “The mentor… she’s still down there!”"
+	"text": "Lucia wrenched free from my grip and turned toward the door, her voice shaking. “The mentor… she’s still down there!”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“We can’t go back!” I shouted, almost losing my voice. “It’s already collapsed!”"
+	"text": "“We can’t go back!” I shouted. “It’s already collapsed!”"
   },
   {
-	"text": "She froze, her eyes vacant. The wind tossed her hair, and snowflakes settled on her face one by one."
+	"text": "She stood frozen, her eyes empty. Wind scattered her hair as snowflakes settled on her face."
   },
   {
-	"text": "“Why… why did you pull me away?” Her voice quivered. “She… she was still…”"
+	"text": "“Why… why did you drag me away?” Her voice trembled. “Teacher… she…”"
   },
   {
 	"text": "I opened my mouth, but no words came out."
   },
   {
-	"text": "Another tremor rumbled beneath us. The iron door finally gave way, collapsing inward. Blue light seeped through the cracks—then vanished."
+	"text": "A second tremor echoed from underground. The iron door finally caved in. Blue light seeped through the cracks—then faded."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "Lucia fell to her knees in the snow, covering her face as sobs broke free—hoarse, hollow, and terrifyingly quiet."
+	"text": "Lucia collapsed to her knees in the snow, covering her face as she began to cry. The sobs weren’t sharp—just hoarse and terrifyingly hollow."
   },
   {
-	"text": "I watched her back, my chest hollowed out. The wind roared down the street, extinguishing the lantern we came by."
+	"text": "I looked at her back, my chest feeling hollowed out. Wind howled past the street corner, extinguishing the lantern that had guided us here."
   },
   {
-	"text": "I looked down—the brass die in my hand rolled under the moonlight and stopped on a ‘20’."
+	"text": "I lowered my gaze. The brass die rolled in my palm under the moonlight, finally stopping on “20.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "I laughed softly. It wasn’t joy—just bitterness."
+	"text": "I let out a small laugh. It wasn’t joy—only bitterness."
   },
   {
-	"text": "“Fate… even with a perfect roll, I still couldn’t save anyone.”"
+	"text": "“Fate… so even a perfect roll can’t save anyone.”"
   },
   {
-	"text": "Lucia didn’t answer. She stood slowly, her back to me, voice barely above a whisper. “Go.”"
+	"text": "Lucia did not answer. She slowly stood, her back to me, her voice barely audible. “Just go.”"
   },
   {
 	"event": [
 	  { "action": "remove_character", "target": "Lucia" }
 	],
-	"text": "In the snow, two sets of footprints remained—one deep, one shallow—slowly drifting apart."
+	"text": "In the snow, only two sets of footprints remained—one deep, one shallow—gradually diverging."
   },
   {
 	"text": "【Bad Ending: The Fugitive of Fate】"
   },
   {
-	"text": "You survived. But the snow that fell that night… never melted again."
+	"text": "You survived. But the snow from that night will never melt."
+  },
+  {
+	"event": [
+	  {
+		"action": "game_over",
+		"message": "You saved yourself.\nBut abandoned her.\n\nA perfect roll,\ndid not change the ending.\n\nThe snow of that night\nwill remain forever.\n\n—— The Fugitive of Fate · BAD END ——"
+	  }
+	]
   }
 ]

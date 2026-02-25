@@ -5,19 +5,23 @@ extends Control
 @onready var load_button = $VBoxContainer/LoadButton
 @onready var setting_button = $VBoxContainer/gamesetting
 @onready var bgm_name_label = $BGMName
-@onready var bgm_player = $AudioStreamPlayer
+@onready var bgm_player = SdMgr.bgm_player
 
 
 func _ready():
-	# ✅ 启动时先加载语言（非常重要）
 	_init_language()
 	_apply_saved_master_volume()
-	# 🚀 初始化窗口模式
 	_init_window_mode()
-	$AudioStreamPlayer.play()
-	_apply_saved_bgm_state()
+
+	# 1️⃣ 先播放（保证 stream 存在）
+	SdMgr.play_bgm(preload("res://images/Sound/LostMyPieces——Piano Ver..ogg"))
+
+	# 2️⃣ 再应用保存的 BGM 开关状态
+	_apply_saved_bgm_state_from_sd()
+
+	# 3️⃣ 最后更新名字
 	_show_bgm_name()
-	# 按钮信号绑定
+
 	start_button.pressed.connect(_on_start_pressed)
 	quit_button.pressed.connect(_on_quit_pressed)
 	load_button.pressed.connect(_on_load_pressed)
@@ -75,6 +79,7 @@ func _init_window_mode():
 # ===============================
 func _on_start_pressed():
 	print("🎮 开始游戏！")
+	SdMgr.play_sfx(preload("res://images/Sound/Main_Button.mp3"))  # ← 加这里
 	PlayerData.reset_all_data()
 	# ✅ 每次开局都重置骰子使用次数
 	if PlayerData.has_method("reset_dice_uses"):
@@ -90,12 +95,14 @@ func _on_start_pressed():
 # ❌ 退出游戏
 # ===============================
 func _on_quit_pressed():
+	SdMgr.play_sfx(preload("res://images/Sound/Main_Button.mp3"))  # ← 加这里
 	get_tree().quit()
 
 # ===============================
 # 📂 打开读取存档界面
 # ===============================
 func _on_load_pressed():
+	SdMgr.play_sfx(preload("res://images/Sound/Main_Button.mp3"))  # ← 加这里
 	print("📂 打开读取存档界面")
 
 	var path = ResMgr.get_ui("loadUi")
@@ -116,7 +123,7 @@ func _on_load_pressed():
 # ===============================
 func _on_setting_pressed():
 	print("⚙️ 打开设置界面")
-
+	SdMgr.play_sfx(preload("res://images/Sound/Main_Button.mp3"))  # ← 加这里
 	var path = "res://Scenes/ui/SettingMain.tscn"
 	var scene = load(path) as PackedScene
 	if scene == null:
@@ -142,25 +149,14 @@ func _apply_saved_master_volume() -> void:
 	AudioServer.set_bus_mute(bus, saved_volume <= 0)
 	print("🔊 已加载主音量:", saved_volume, "% (", db, "dB )")
 
-func _apply_saved_bgm_state() -> void:
+func _apply_saved_bgm_state_from_sd() -> void:
 	var cfg = ConfigFile.new()
 	var bgm_enabled = true
+
 	if cfg.load("user://config.cfg") == OK:
 		bgm_enabled = cfg.get_value("settings", "bgm_enabled", true)
 
-	var bgm_player = $AudioStreamPlayer
-	if bgm_player:
-		if bgm_enabled:
-			if not bgm_player.playing:
-				bgm_player.play()
-			print("🎵 BGM 已启用并播放")
-		else:
-			bgm_player.stop()
-			print("🔇 BGM 已关闭")
-	else:
-		print("⚠️ 未找到 AudioStreamPlayer 节点")
-	
-
+	SdMgr.set_bgm_enabled(bgm_enabled)
 # ===================================
 # 🎵 显示当前BGM名称
 # ===================================

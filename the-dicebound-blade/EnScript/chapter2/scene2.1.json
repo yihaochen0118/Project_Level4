@@ -3,109 +3,91 @@
 	"event": [
 	  { "action": "hide_talk_ui" },
 	  { "action": "set_background", "target": "tavern" },
+	  { "action": "unlock", "target": "2_1" },
 	  { "action": "show_talk_ui" }
 	]
   },
 
-  {
-	"text": "Midday light leaked through gaps in the clouds, falling across the inn’s sign as dust motes spun in the beam. The hearth was still lit, the air carrying the smell of bread and stew."
-  },
-  {
-	"text": "I had just finished mopping the floor, the bandage at the corner of my mouth still pulling painfully, when the doorbell chimed softly."
-  },
+  { "text": "Noon light slips through breaks in the clouds, falling across the tavern sign as dust spins lazily in the beam. The hearth still burns, the air rich with the smell of bread and stew." },
+  { "text": "I’ve just finished mopping the floor. The bandage at the corner of my mouth still pulls painfully when the doorbell gives a soft chime." },
 
   {
 	"event": [
 	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] },
 	  { "action": "show_name", "target": "Lucia" }
 	],
-	"text": "A girl with chestnut hair tied into a short braid pushed the door open. She carried a basket full of medicine bottles, each a different color, like dew trapped by sunlight."
+	"text": "A girl with chestnut hair tied in a short braid steps in, carrying a basket filled with medicine bottles of all colors, like dewdrops sealed in sunlight."
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "\"Excuse me… sorry to bother you! Does a lady named Alicia happen to be staying here?\""
+	"text": "“Sir… excuse me! Does a woman named Alicia happen to be staying here?”"
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"…She is.\" I touched my bandage. \"Why?\""
+	"text": "“…She is.” I touch my bandage. “Why?”"
   },
 
-  {
-	"event": { "action": "hide_name" },
-	"text": "Her gaze immediately fell on the bruise on my face. She stiffened noticeably."
-  },
+  { "event": { "action": "hide_name" }, "text": "Her gaze drops instantly to the bruise on my face. She stiffens visibly." },
 
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "\"You’re hurt?! Did—did someone cause trouble?\""
+	"text": "“You’re hurt?! W-was there trouble?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"A drunk. He’s already gone.\""
+	"text": "“A drunk. He’s gone.”"
   },
   {
 	"event": [
 	  { "action": "show_name", "target": "Lucia" },
 	  { "action": "shake", "target": "Lucia" }
 	],
-	"text": "\"Again…\" She bit the word back mid-sentence, realizing she’d slipped, then quickly corrected herself. \"I mean—why are people like that always the same?!\""
+	"text": "“Again…” She bites down on the word lightly, then realizes she’s slipped and quickly corrects herself. “I mean… why are people always like that!”"
   },
 
-  {
-	"event": { "action": "hide_name" },
-	"text": "She set the basket down on the counter, moving quickly but carefully, like she was afraid of hurting me."
-  },
+  { "event": { "action": "hide_name" }, "text": "She sets the medicine basket on the counter, quick but careful, as if afraid of hurting me further." },
 
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "\"My name is Lucia. I’m her apprentice. She was already in a bad state before leaving this morning… I followed her all the way here.\""
+	"text": "“My name’s Lucia. I’m her apprentice. She didn’t look well this morning before she left… I followed her all the way here.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"She’s upstairs.\""
+	"text": "“She’s upstairs.”"
   },
 
-  {
-	"event": { "action": "hide_name" },
-	"text": "No sooner had I said it than soft footsteps sounded outside—unhurried, unforced, like arrival itself was a burden."
-  },
+  { "event": { "action": "hide_name" }, "text": "Before the words fully leave my mouth, a faint set of footsteps sounds outside again—slow and steady, as if arrival itself were a burden." },
 
   {
 	"event": [
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
 	  { "action": "show_name", "target": "Alicia" }
 	],
-	"text": "Alicia stepped inside. Frost still clung to her silver-white cloak, and a bit of mud stained the edge of her armor. Her gaze was flat—so flat it felt like every emotion had been sealed away."
+	"text": "Alicia walks in. Frost still clings to her silver cloak, a trace of mud marking the edge of her armor. Her eyes are distant—so distant it’s as if she’s sealed all emotion inside."
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "\"Mentor!\""
+	"text": "“Master!”"
   },
 
-  {
-	"event": { "action": "hide_name" },
-	"text": "Lucia almost rushed forward, but stopped herself two steps away, as if afraid she might shatter her by getting too close."
-  },
+  { "event": { "action": "hide_name" }, "text": "Lucia nearly rushes to her, but stops abruptly two steps away, as though afraid that touching her too hard might cause her to shatter." },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"Don’t shout.\""
+	"text": "“Don’t shout.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"I can hear you.\""
+	"text": "“I can hear you.”"
   },
 
-  {
-	"event": { "action": "hide_name" },
-	"text": "She pulled her cloak back over her shoulders, her gaze passing over the injury on my face without a flicker of expression—like she’d seen the same scene far too many times."
-  },
+  { "event": { "action": "hide_name" }, "text": "She pulls her cloak tighter around her shoulders. Her gaze passes over the bruise on my face without expression—as though she has seen this same scene too many times before." },
 
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "\"You already looked terrible this morning! I said I’d come with you, but you wouldn’t let me… did you do it again—\""
+	"text": "“You looked awful this morning! I told you I’d come with you, but you wouldn’t let me… did you do it again—”"
   },
 
   {
@@ -113,176 +95,147 @@
 	  { "action": "show_name", "target": "Alicia" },
 	  { "action": "shake", "target": "Alicia" }
 	],
-	"text": "\"Lucia.\" She cut her off. Her voice wasn’t loud, but it severed the sentence like a dull blade. \"Not here.\""
+	"text": "“Lucia.” She cuts her off, her voice quiet but sharp, like a dull blade slicing the sentence in two. “Not here.”"
   },
 
-  {
-	"event": { "action": "hide_name" },
-	"text": "Lucia swallowed the rest of her words, her eyes reddening instantly."
-  },
+  { "event": { "action": "hide_name" }, "text": "Lucia swallows the rest of her words. Her eyes redden almost instantly." },
 
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "\"…Then at least sit down. Your hands are shaking.\""
+	"text": "“…Then at least sit down. Your hands are shaking.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"I’m fine.\""
+	"text": "“I’m fine.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "\"You always say that!\""
+	"text": "“You always say that!”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "Her voice is full of worry, edged with a kind of anger only someone close would dare show." },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“Lucia… would you like something hot? I’ve got some stew.”"
   },
 
   {
-	"event": { "action": "hide_name" },
-	"text": "Her voice was full of worry, even edged with frustration—the kind only someone close would dare to show."
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“Yes! Thank you!”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "She immediately turns back to her medicine basket, as if finally grasping something she can actually do." },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“Sir, that wound needs disinfecting. I have herbal salve here… and something for the pain.”"
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"Lucia… maybe have something warm first? I’ve got soup.\""
+	"text": "“…You don’t have to go to the trouble.”"
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "\"Yes! Thank you!\""
+	"text": "“It’s no trouble! You got hurt because of her, didn’t you?”"
   },
 
+  { "event": { "action": "hide_name" }, "text": "The moment she says it, she looks at Alicia, as if afraid she’s struck something sensitive." },
+
   {
-	"event": { "action": "hide_name" },
-	"text": "She immediately turned back to rummage through the medicine basket, like she’d finally found something she could do."
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Don’t pin it on me.”"
   },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“If he got hit, that’s his bad luck.”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "She says it coldly, as if cutting all responsibility away. But her fingers tighten slightly inside her sleeve—a tiny motion, as if suppressing something." },
 
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "\"Sir, this wound needs disinfecting. I have some herbal salve here… and pain relief too.\""
-  },
-
-  {
-	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"…You don’t have to go to all that trouble.\""
-  },
-
-  {
-	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "\"It’s not trouble! You were beaten because of her, right?\""
-  },
-
-  {
-	"event": { "action": "hide_name" },
-	"text": "As soon as she said it, she looked at Alicia, like she was afraid of provoking her."
+	"text": "“Master… please don’t.”"
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"Don’t drag me into it.\""
-  },
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"He got hit because he was unlucky.\""
+	"text": "“This is how I am.”"
   },
 
-  {
-	"event": { "action": "hide_name" },
-	"text": "She said it coldly, like she was cutting responsibility clean away. But inside her sleeve, her fingers tightened slightly—a tiny motion, like she was holding something back."
-  },
-
-  {
-	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "\"Mentor… don’t be like that.\""
-  },
+  { "event": { "action": "hide_name" }, "text": "She walks to the notice board behind the counter, glancing at the room keys as if confirming something she already knew." },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"This is how I am.\""
-  },
-
-  {
-	"event": { "action": "hide_name" },
-	"text": "She walked to the notice board behind the counter, her eyes briefly checking the placement of the room keys, like she was confirming something she already knew."
-  },
-
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"Two rooms.\""
+	"text": "“Two rooms.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"…Together?\""
+	"text": "“…You’re staying together?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"No.\""
+	"text": "“No.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"One for her. One for me.\""
+	"text": "“She gets one. I get one.”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "Lucia freezes, clearly wanting to protest, but forces herself not to. She hugs her medicine basket like a cushion, ready to catch her if she collapses." },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“Then I’ll take the room next to yours! So if you feel unwell in the night, I’ll hear you.”"
   },
 
   {
-	"event": { "action": "hide_name" },
-	"text": "Lucia froze for a moment, clearly wanting to object, but held herself back. She clutched the medicine basket, like she was turning herself into a cushion, ready to catch her if she fell apart."
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Suit yourself.”"
+  },
+
+  { "event": { "action": "hide_name" }, "text": "Her answer is cold, but she doesn’t refuse. As if even refusal would take too much effort." },
+
+  {
+	"event": [
+	  { "action": "set_flag", "flag": "lucia_intro_done", "value": true },
+	  { "action": "set_flag", "flag": "alicia_cold_exhausted", "value": true },
+	  { "action": "set_flag", "flag": "booked_two_rooms", "value": true }
+	]
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "\"Th-then I’ll take the room next to yours! That way, if you feel unwell at night, I’ll hear it.\""
+	"text": "“Sir, let me treat that wound first. Don’t move.”"
   },
+  { "event": { "action": "hide_name" }, "text": "She applies the salve to the split at the corner of my mouth with the care one might use on porcelain." },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"Do what you want.\""
-  },
-
-  {
-	"event": { "action": "hide_name" },
-	"text": "Alicia’s answer was cold, but not a refusal—as if even refusing took too much effort."
-  },
-
-  {
-	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "\"Sir, I’ll treat your wound first. Please don’t move.\""
-  },
-  {
-	"event": { "action": "hide_name" },
-	"text": "She applied the salve to the split at the corner of my mouth, her movements so careful it felt like she was touching porcelain."
-  },
-
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"…Don’t use that one.\""
+	"text": "“…Don’t use that one.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "\"Why?\""
+	"text": "“Why?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"It heals too fast.\""
+	"text": "“It’ll make the wound heal too quickly.”"
   },
 
-  {
-	"event": { "action": "hide_name" },
-	"text": "She said it like common knowledge. Lucia froze, her expression turning even more unsettled—like she’d heard experience that shouldn’t exist."
-  },
+  { "event": { "action": "hide_name" }, "text": "She says it like common knowledge. Lucia visibly startles, panic flickering in her eyes—as if she’s heard an experience that shouldn’t exist." },
 
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "\"…Th-then I’ll switch to a normal one.\""
+	"text": "“…Then I’ll switch to the regular one.”"
   },
 
-  {
-	"event": { "action": "hide_name" },
-	"text": "Alicia said nothing more. She draped her cloak over the back of a chair and sat down. In that instant, it felt like she finally let out a breath—or like she might fall asleep and never wake up."
-  },
+  { "event": { "action": "hide_name" }, "text": "Alicia says nothing more. She drapes her cloak over the chair back and sits. In that single motion, she seems to finally exhale—like someone who might fall asleep and never wake." },
 
-  {
-	"text": "The brass die lay quietly on the counter. Lucia busied herself taking care of me, while Alicia seemed completely detached from the warmth around her."
-  },
-  {
-	"text": "Her coldness wasn’t arrogance—it was more like she’d locked herself inside a shell. Because the moment she opened it, she would fall apart."
-  },
+  { "text": "The brass die rests quietly on the counter. Lucia is busy tending to me, while Alicia seems utterly detached from the warmth around her." },
+  { "text": "Her coldness isn’t arrogance. It’s more like she’s locked herself inside a shell—because if she opens it, she’ll fall apart." },
 
   {
 	"event": [
@@ -290,7 +243,7 @@
 		"action": "show_option_ui",
 		"options": [
 		  { "text": "Option A: Ask Alicia directly in front of Lucia, “What’s wrong with you today?” 【Charisma Check (DC 6)】", "dc": 6, "check": "charisma" },
-		  { "text": "Option B: Look for a chance to ask her in private 【No Check (DC 0)】", "dc": 0, "check": "dexterity" }
+		  { "text": "Option B: Wait and find a chance to ask her privately 【No Check (DC 0)】", "dc": 0, "check": "dexterity" }
 		]
 	  },
 	  { "action": "hide_talk_ui" }

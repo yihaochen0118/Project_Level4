@@ -1,71 +1,87 @@
 [
   {
 	"event": [
-	  { "action": "spawn_character", "target": "Player", "pos": [0, 0] },
+	  { "action": "set_background", "target": "north_gate_battlefield" },
+	  { "action": "unlock","target": "3_11_2" },
 	  { "action": "show_name", "target": "Player" }
 	],
-	"text": "I didn’t shout a vow. I knew emotion wouldn’t save her right now—what I needed was a seam, a slit of time she could use to force the necklace into place."
+	"text": "I don’t shout a vow. Emotion won’t save her right now—I need a gap. A slit wide enough for her to drive the necklace through."
   },
-  { "text": "I grabbed the hardest shard of rubble buried in the snow, then scooped a fistful of crushed ice into my palm. The ice splinters cut my skin; the sting only made my mind clearer." },
-  { "text": "The Demon King’s black mist spun in front of the core like ring after ring of chains, waiting for the moment to bite down on her wrist." },
-  { "text": "I didn’t look at its face. I fixed my eyes on the thinnest edge of the mist—like watching for the blink of an eye." },
+
+  { "text": "I snatch up the hardest shard of stone from the snow and scoop a fistful of jagged ice into my palm. The splinters cut my skin. The pain clears my head." },
+  { "text": "The Demon King’s black mist spirals before the core, looping like chains waiting to snap around her wrist." },
+  { "text": "I don’t look at its face. I fix my eyes on the thinnest edge of the mist—like watching for the blink of an eye." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "I drew in a breath, pressed my voice down as low as it would go—then let it detonate."
+	"text": "I draw in a breath, press my voice low—then let it explode."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“Hey—! Over here!”"
   },
-  {
-	"event": [
-	  { "action": "shake", "target": "Mowang" }
-	],
-	"text": "I hurled the stone with all I had. It cut through the wind and snow and struck the edge of the black mist—not hitting a body, but striking its ‘shape.’"
-  },
-  { "text": "The mist flinched like it had been pricked by a needle, contracting for an instant. That contraction exposed the fissure along the rim of the core, like a door crack flashing open with a thin line of light." },
-  { "text": "The Demon King’s attention truly shifted. It wasn’t ‘lured’—it was forced to react: the mist had to patch the thin point I’d punched through." },
-  { "text": "And patching meant one thing—it had to loosen somewhere else." },
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "Alicia’s gaze sharpened. Not surprise—hunter’s calm, the instant a weakness is found."
-  },
-  { "text": "Her fingers had been trembling a moment ago—fatigue crashing down like an old wound flaring up." },
-  { "text": "But when the mist loosened by that single thread, her knuckles steadied instead." },
-  {
-	"event": [{ "action": "shake", "target": "Alicia" }],
-	"text": "She tore open the clasp inside her cloak and the necklace slid into her palm. The pendant burned bright in the black light, and she gripped it like she would never let go."
-  },
-  { "text": "Sensing ‘termination,’ the black mist snapped back at once, like a tide turning to bite." },
-  { "text": "I didn’t have a second stone. I had only one thing left to do: keep it believing the ‘threat’ was here—with me." },
-  {
-	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "I shouted at it until my throat burned, like I meant to shove my own heartbeat into that darkness."
-  },
+
   {
 	"event": [{ "action": "shake", "target": "Mowang" }],
-	"text": "“Come on! Isn’t it ‘back’ you want? Then look at me!”"
+	"text": "I hurl the stone. It cuts through wind and snow, striking the edge of the mist—not solid flesh, but its shape."
   },
-  { "text": "The Demon King’s mist shifted again—just a fraction. It didn’t need to understand my words; it only needed to be forced to split its focus, even for half a second." },
-  { "text": "Half a second is the difference between life and death." },
+
+  { "text": "The mist flinches, contracting for a split second like pricked skin. That contraction exposes the edge of the core’s fracture—like a door cracking open to light." },
+  { "text": "The Demon King’s focus shifts—not because I’ve ‘drawn’ it, but because it must react. The mist moves to repair the punctured thin point." },
+  { "text": "And repairing means something else must loosen." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "Alicia’s voice was hoarse, but there was a smile in it: “…Good.”"
+	"text": "Alicia’s eyes change. Not surprise—calculation. A hunter recognizing an opening."
   },
+
+  { "text": "Her fingers had been trembling—exhaustion pressing down like an old wound reopening." },
+  { "text": "But when the mist loosens by a thread, her grip steadies." },
+
   {
 	"event": [{ "action": "shake", "target": "Alicia" }],
-	"text": "She seized that loosened seam and drove the necklace into the裂 in the core. The moment the pendant vanished into the black light, the core ignited—light swelling outward from within."
+	"text": "She tears open the clasp inside her cloak and pulls the necklace free. The pendant burns in the black light, but she holds it without hesitation."
   },
-  { "text": "The Demon King let out a distorted scream. Its bone armor split, cracks crawling up into the sky." },
-  { "text": "Behind her, the core collapsed in on itself, like the world drawing in a breath." },
+
+  { "text": "The Demon King senses termination. The mist lashes back like a tide snapping at prey." },
+  { "text": "I have no second stone. Only one choice remains: make it believe the threat is still me." },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I shout at it, voice tearing my throat raw, forcing my heartbeat into the darkness."
+  },
+
+  {
+	"event": [{ "action": "shake", "target": "Mowang" }],
+	"text": "“Come on! Aren’t you dragging everything back? Look at me!”"
+  },
+
+  { "text": "The mist shifts again—just slightly. It doesn’t need to understand my words. It only needs to divide its focus—if only for half a second." },
+  { "text": "Half a second is the distance between life and death." },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Her voice is hoarse, but she’s smiling. “…Good.”"
+  },
+
+  {
+	"event": [{ "action": "shake", "target": "Alicia" }],
+	"text": "She seizes the loosened seam and drives the necklace into the core’s fracture. The instant it sinks in, light ignites from within, bursting outward."
+  },
+
+  { "text": "The Demon King howls, distorted and tearing. Its bone armor splits, fractures racing up into the sky." },
+  { "text": "Behind her, the core collapses inward—like the world drawing a breath." },
+
   {
 	"event": [
 	  { "action": "shake", "target": "Alicia" },
 	  { "action": "shake", "target": "Player" }
 	],
-	"text": "The explosion’s shockwave burst outward. Snow and shattered stone rose into a white tide; the city wall itself trembled. Alicia was thrown violently through the air, slamming toward me."
+	"text": "The shockwave detonates outward. Snow and shattered stone surge like a white tide. Even the city walls tremble. Alicia is hurled toward me."
   },
-  { "text": "In midair she twisted, turning her back to the blast—like pure instinct choosing to take the worst of the storm for me." },
+
+  { "text": "In midair, she twists—turning her back to the blast, shielding me from the worst of the storm." },
+
   {
 	"event": [{ "action": "change_scene", "target": "scene3.12" }]
   }

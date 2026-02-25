@@ -4,55 +4,55 @@
 	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "The firelight flickered against the walls, wrapping the tavern in a quiet golden haze. Her gaze lingered on me—curious, searching, almost tender."
+	"text": "Firelight sways along the walls, and the night wraps the entire inn in a quiet layer of gold. Her gaze rests on me, carrying a faint trace of inquiry."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“I’ll try to change my fate,” I said. My voice was calm—steadier than I’d expected."
+	"text": "“I will try to change fate,” I say. My voice is calm, yet firmer than I expected."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She blinked, as if my answer had caught her off guard. The firelight reflected softly in her eyes, and for a brief moment, she smiled."
+	"text": "She pauses, as if not expecting that answer. The firelight reflects in her eyes, and for a brief moment, a gentle smile flickers there."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Maybe you really can,” she said quietly. “Some people can negotiate with fate—instead of being dragged by it.”"
+	"text": "“Perhaps you really can,” she says softly. “Some people negotiate with fate instead of being led by it.”"
   },
   {
-	"text": "She lifted her glass but didn’t drink. Her eyes rested on the glow within, and for that moment, she seemed softened by the light."
+	"text": "She lifts her glass but does not drink, only watching the light ripple across the surface. In that instant, she seems softened by the flames."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“I’ve seen many crushed under fate’s weight,” she murmured. “But I’ve also seen—someone who smiled and stood tall before it.”"
+	"text": "“I’ve seen too many crushed beneath fate,” her voice lowers. “But I’ve also seen—someone rise before it, smiling.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“You mean yourself?” I asked."
+	"text": "“Are you talking about yourself?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She froze for a heartbeat, then gave a soft, helpless laugh. “Me? I’ve never beaten it.”"
+	"text": "She hesitates for a moment, then laughs softly, a hint of helplessness in her tone. “Me? I haven’t beaten it yet.”"
   },
   {
-	"text": "The flames swayed, and the faint sound of snow drifted from outside. Her smile was tinged with sorrow—but it no longer felt distant."
+	"text": "The fire flickers. Outside, the faint sound of snow falling drifts in. There is a trace of bitterness in her smile, but it no longer feels distant."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“If that day ever comes…” she said, “I hope you won’t regret it. Fate always demands a price for every chance it gives.”"
+	"text": "“If that day ever comes…” she says, “I hope you won’t regret it. The chances fate gives always demand a price.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“And you?” I asked quietly. “Do you regret it?”"
+	"text": "“And you?” I ask quietly. “Do you regret it?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She didn’t answer. She simply raised her glass and drank it all. The liquid caught the firelight—like molten amber in motion."
+	"text": "She doesn’t answer. She simply raises her glass and drains it in one swallow. The liquid catches the firelight like molten amber."
   },
   {
-	"text": "“Fate is stubborn,” she said softly, setting the glass down. Then she smiled at me—warmly, almost gently. “But maybe… you’ll be the exception.”"
+	"text": "“Fate is stubborn,” she says gently as she sets the glass down, smiling at me. “But perhaps—you’ll be the exception.”"
   },
   {
-	"text": "The fire danced in her eyes, and her smile lingered there—half light, half shadow—long after the flames had begun to fade."
+	"text": "Flames dance in her eyes, light and shadow intertwining. Her smile lingers in the night for a long while."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.4" }]

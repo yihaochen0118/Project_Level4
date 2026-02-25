@@ -8,7 +8,7 @@
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
 offset_right = 1962.0
-offset_bottom = 1080.0
+offset_bottom = 1088.0
 
 [node name="GameTree" type="Control" parent="ScrollContainer"]
 custom_minimum_size = Vector2(1960, 3200)
@@ -123,7 +123,13 @@ width = 3.0
 default_color = Color(0.1254902, 0.8666667, 1, 1)
 
 [node name="Line2D47" type="Line2D" parent="ScrollContainer/GameTree/line"]
-position = Vector2(448, 2944)
+position = Vector2(440, 3056)
+points = PackedVector2Array(992, -32, 992, 72, 1096, 72, 1096, -128, 992, -128, 992, -32)
+width = 3.0
+default_color = Color(0.1254902, 0.8666667, 1, 1)
+
+[node name="Line2D55" type="Line2D" parent="ScrollContainer/GameTree/line"]
+position = Vector2(440, 2856)
 points = PackedVector2Array(1008, 72, 1072, 72, 1072, 72)
 width = 3.0
 default_color = Color(0.1254902, 0.8666667, 1, 1)
@@ -458,8 +464,8 @@ offset_right = 1235.0
 offset_bottom = 783.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
-metadata/hint_unlocked = "BadEnding_1"
-metadata/hint_locked = "BadEnding_1"
+metadata/hint_unlocked = "BadEnding 1"
+metadata/hint_locked = "You escaped, but it's all over now."
 metadata/hint_image = ""
 
 [node name="BadEnding2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
@@ -472,7 +478,7 @@ offset_bottom = 783.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_unlocked = "BadEnding_2"
-metadata/hint_locked = "BadEnding_2"
+metadata/hint_locked = "Coward"
 metadata/hint__image = ""
 
 [node name="1_7" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
@@ -484,8 +490,8 @@ offset_right = 1035.0
 offset_bottom = 839.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
-metadata/hint_unlocked = "暴风雨前的宁静"
-metadata/hint_locked = "到达第三天早上以解锁"
+metadata/hint_unlocked = "The third day morning was unlocked"
+metadata/hint_locked = "Alicia's short rest"
 metadata/hint_image = ""
 
 [node name="1_8" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
@@ -497,8 +503,8 @@ offset_bottom = 967.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Did Alicia die?"
+metadata/hint_locked = "End of Chapter 1"
 
 [node name="2_0" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -509,8 +515,8 @@ offset_bottom = 1095.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Chapter Two: Alicia's Indifference"
+metadata/hint_locked = "???"
 
 [node name="2_0_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -521,8 +527,8 @@ offset_bottom = 1223.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Alicia went upstairs"
+metadata/hint_locked = "???"
 
 [node name="2_0_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -533,8 +539,8 @@ offset_bottom = 1223.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "I bandaged myself"
+metadata/hint_locked = "???"
 
 [node name="2_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -545,8 +551,8 @@ offset_bottom = 1343.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Lucia's concern"
+metadata/hint_locked = "???"
 
 [node name="2_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -557,8 +563,8 @@ offset_bottom = 1575.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Alicia's 37th Night Chat"
+metadata/hint_locked = "???"
 
 [node name="2_1_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -569,8 +575,8 @@ offset_bottom = 1463.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Inquire about Ailicia's mental state"
+metadata/hint_locked = "???"
 
 [node name="2_1_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -581,8 +587,8 @@ offset_bottom = 1463.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "????"
+metadata/hint_locked = "???"
 
 [node name="2_3" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -593,8 +599,8 @@ offset_bottom = 1735.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "2.3"
+metadata/hint_locked = "???"
 
 [node name="2_4" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -605,8 +611,8 @@ offset_bottom = 1863.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Should I follow Alicia to the town for supplies?"
+metadata/hint_locked = "???"
 
 [node name="2_4_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -617,8 +623,8 @@ offset_bottom = 1975.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Follow Alicia to town for shopping"
+metadata/hint_locked = "???"
 
 [node name="2_4_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -629,8 +635,8 @@ offset_bottom = 1975.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Secretly follow Alicia to town"
+metadata/hint_locked = "???"
 
 [node name="2_5" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -641,8 +647,8 @@ offset_bottom = 2087.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Alicia returned alone."
+metadata/hint_locked = "???"
 
 [node name="2_5_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -653,8 +659,8 @@ offset_bottom = 2203.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Pressuring Alicia"
+metadata/hint_locked = "???"
 
 [node name="2_5_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -665,8 +671,8 @@ offset_bottom = 2203.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Without asking Alicia"
+metadata/hint_locked = "???"
 
 [node name="2_5_3" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -677,8 +683,8 @@ offset_bottom = 2203.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Stay there and observe for a while longer."
+metadata/hint_locked = "???"
 
 [node name="2_6" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -689,8 +695,8 @@ offset_bottom = 2319.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "On the morning of the third day, Alicia deployed her troops."
+metadata/hint_locked = "???"
 
 [node name="2_6_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -701,8 +707,8 @@ offset_bottom = 2439.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Leave the North Gate"
+metadata/hint_locked = "???"
 
 [node name="2_6_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -713,8 +719,8 @@ offset_bottom = 2439.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Stay at the North Gate and do some things"
+metadata/hint_locked = "???"
 
 [node name="3_0" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -725,8 +731,8 @@ offset_bottom = 2551.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Chapter Three, Alicia's Love"
+metadata/hint_locked = "???"
 
 [node name="3_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -737,8 +743,8 @@ offset_bottom = 2639.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Alicia's invitation to dinner"
+metadata/hint_locked = "???"
 
 [node name="3_1_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -749,8 +755,8 @@ offset_bottom = 2751.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "I promised Alicia I'd have dinner with her."
+metadata/hint_locked = "???"
 
 [node name="3_1_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -761,8 +767,8 @@ offset_bottom = 2751.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Refusing to have dinner with Alicia"
+metadata/hint_locked = "???"
 
 [node name="3_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -773,8 +779,8 @@ offset_bottom = 2863.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Candlelight Dinner: Red Dress and Delicious Food"
+metadata/hint_locked = "???"
 
 [node name="3_3" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -785,8 +791,8 @@ offset_bottom = 2951.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Alicia's confession"
+metadata/hint_locked = "???"
 
 [node name="3_4" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -797,8 +803,8 @@ offset_bottom = 3047.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "After Alicia was drunk"
+metadata/hint_locked = "???"
 
 [node name="3_4_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -809,8 +815,8 @@ offset_bottom = 3007.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Carry Alicia back to the room"
+metadata/hint_locked = "???"
 
 [node name="3_4_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -821,8 +827,8 @@ offset_bottom = 3071.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "I slept with Alicia on the table."
+metadata/hint_locked = "???"
 
 [node name="3_5" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -833,8 +839,8 @@ offset_bottom = 3047.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Landlady Alicia"
+metadata/hint_locked = "???"
 
 [node name="3_6" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -845,8 +851,8 @@ offset_bottom = 3047.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "She really knows how to serve."
+metadata/hint_locked = "???"
 
 [node name="3_7" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -857,8 +863,32 @@ offset_bottom = 3047.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Alicia went out again."
+metadata/hint_locked = "???"
+
+[node name="3_7_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1456.0
+offset_top = 2904.0
+offset_right = 1507.0
+offset_bottom = 2959.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "Following Alicia"
+metadata/hint_locked = "???"
+
+[node name="3_7_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
+layout_mode = 0
+offset_left = 1456.0
+offset_top = 3096.0
+offset_right = 1507.0
+offset_bottom = 3151.0
+texture = ExtResource("3_kpcvo")
+expand_mode = 1
+metadata/hint_image = ""
+metadata/hint_unlocked = "Don't worry, Alicia, stay in the store and wait for her."
+metadata/hint_locked = "???"
 
 [node name="3_8" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -869,8 +899,8 @@ offset_bottom = 3047.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "The Great Battle with the Evil Leader"
+metadata/hint_locked = "???"
 
 [node name="3_9" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -881,8 +911,8 @@ offset_bottom = 3047.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "North Gate! The Final Battle!"
+metadata/hint_locked = "???"
 
 [node name="3_10" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -893,8 +923,8 @@ offset_bottom = 3047.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "The Calm Before the Storm III"
+metadata/hint_locked = "???"
 
 [node name="3_11" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -905,8 +935,8 @@ offset_bottom = 2943.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Decisive battle"
+metadata/hint_locked = "???"
 
 [node name="3_12" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -917,8 +947,8 @@ offset_bottom = 2695.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "After the war"
+metadata/hint_locked = "???"
 
 [node name="BadEndding3" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -930,7 +960,7 @@ texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
 metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_locked = "???"
 
 [node name="BadEndding2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -942,7 +972,7 @@ texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
 metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_locked = "???"
 
 [node name="BadEndding1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -954,7 +984,7 @@ texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
 metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_locked = "???"
 
 [node name="3_11_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -965,8 +995,8 @@ offset_bottom = 2855.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "loudly proclaiming my love for Alicia"
+metadata/hint_locked = "???"
 
 [node name="3_11_3" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -977,8 +1007,8 @@ offset_bottom = 2855.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Why should I do this if I'm not going to do anything?"
+metadata/hint_locked = "???"
 
 [node name="3_11_2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
 layout_mode = 0
@@ -989,5 +1019,5 @@ offset_bottom = 2855.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
-metadata/hint_locked = "暴风雨来临"
+metadata/hint_unlocked = "Help Alicia attract the Boss's attention"
+metadata/hint_locked = "???"

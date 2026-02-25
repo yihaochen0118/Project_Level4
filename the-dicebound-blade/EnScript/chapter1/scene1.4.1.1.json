@@ -6,62 +6,67 @@
 	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "The ground trembled violently as a rock-armored beast burst from beneath the soil. Its glowing green eyes sent the birds scattering in terror."
+	"text": "The ground suddenly trembles as a beast covered in rocky armor bursts from the earth. Its eyes glow green, and its roar sends birds scattering through the forest."
   },
   {
-	"text": "I rolled to the side, gravel crunching beneath my boots. The beast’s claws scraped past my shoulder, striking sparks against the stones."
+	"text": "I roll sharply to the side, gravel crunching beneath my boots. The beast’s claws sweep past where I stood, striking sparks as they graze the stones."
   },
   {
-	"text": "My breath turned to frost. Just as I steadied myself, Alicia’s silhouette flashed through the air—her cloak cutting an arc, her sword following like silver lightning."
+	"text": "My breath turns cold in my lungs. The moment I regain my footing, Alicia’s figure flashes forward. Her cloak arcs through the wind, and her blade follows in a streak of light."
   },
   {
-	"event": [{ "action": "shake", "target": "Monster1" }],
-	"text": "A sharp gleam slashed across the monster’s chest, forcing it back several steps with a guttural snarl."
+	"event": [
+	  { "action": "shake", "target": "Monster1" }
+	],
+	"text": "A flash of silver forces the beast back several steps. A hoarse growl rattles from its throat."
   },
   {
-	"text": "I spotted a crack in its armor and shouted, “Its right side—there’s a breach in the shell!”"
-  },
-  {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“I see it.” Her voice was steady, movements clean and precise. Her sword cut through the air, leaving a cold streak of light behind."
-  },
-  {
-	"event": [{ "action": "shake", "target": "Monster1" }],
-	"text": "The beast froze, the green glow in its eyes fading. A moment later, it collapsed with a heavy crash, its cracked armor scattering dirt and dust."
-  },
-  {
-	"event": [{ "action": "remove_character", "target": "Monster1" }],
-	"text": "The air filled with smoke and the scent of burnt earth. Alicia sheathed her sword and turned toward me."
+	"text": "Spotting an opening, I shout, “Right side—its shell is cracked!”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Not bad,” she said calmly, though her lips curved slightly. “Next time, stay a bit farther back.”"
+	"text": "“I see it.” Her voice remains steady, her movement precise. The blade arcs smoothly, carving a cold line through the air."
   },
   {
-	"text": "I nodded, palms slick with sweat—but my heart raced with a strange excitement. I had survived… and even helped."
+	"event": [
+	  { "action": "shake", "target": "Monster1" }
+	],
+	"text": "The beast falters. The green light in its eyes flickers out. Its body stiffens before crashing to the ground, shattered armor scattering dust."
   },
   {
-	"event": [{ "action": "set_background", "target": "forest_afterbattle" }],
-	"text": "Scorch marks still stained the ground where the beast fell. The smell of smoke lingered, and sunlight filtered through the trees, glinting off her blade—cold as ice."
+	"event": [
+	  { "action": "remove_character", "target": "Monster1" }
+	],
+	"text": "The air fills with the smell of scorched earth and smoke. Alicia sheaths her sword and turns toward me."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“That thing wasn’t born naturally,” she murmured. “It was a ‘Residual Dream’—the trace left behind by the dead.”"
+	"text": "“Good reflexes.” She says calmly, though a faint smile curves her lips. “Next time, don’t stand so close.”"
+  },
+  {
+	"text": "I nod, my palms slick with cold sweat, yet a strange thrill rises in my chest—I survived, and I helped."
+  },
+  {
+	"text": "Blackened marks from the burning creature scar the ground. Sunlight filters through the branches, striking her blade with an icy gleam."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“These creatures aren’t natural,” she says quietly. “They’re ‘Lingering Dreams’—traces left behind by the dead.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Residual Dream?” I repeated, my voice still trembling."
+	"text": "“Lingering Dreams?” I repeat, my voice still unsteady."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Yes. In places scarred by war or death, the earth keeps the last emotions of the fallen. Over time, those emotions take shape.”"
+	"text": "“Yes. In places where battles were fought and lives were lost, their final emotions sink into the earth. Over time, they become things like this.”"
   },
   {
-	"text": "She sheathed her sword completely, her expression calm again. The wind swept through the trees, carrying away the smell of blood."
+	"text": "She settles her sword at her side, her expression returning to calm. The wind sweeps through the trees, carrying away the scent of blood."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Come on,” she said with a faint smile. “The market’s just ahead—and I’ll be needing your help to carry a few things.”"
+	"text": "“Come on. The market’s just ahead.” She smiles lightly. “I’ll be counting on you to carry a few things.”"
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.5" }]

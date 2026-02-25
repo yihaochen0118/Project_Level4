@@ -3,16 +3,17 @@
 	"event": [
 	  { "action": "set_background", "target": "underground_entrance" },
 	  { "action": "show_talk_ui" },
+	  { "action": "unlock", "target": "2_5_1" },
 	  { "action": "show_name", "target": "Player" }
 	],
-	"text": "I couldn’t stop myself. I stared into her eyes and pressed on: “What is this place, exactly? And why do you seem so familiar with it?”"
+	"text": "I couldn’t hold back. Staring into her eyes, I pressed on, “Where exactly is this? Why do you seem so familiar with it?”"
   },
   {
 	"event": [
 	  { "action": "show_name", "target": "Alicia" },
 	  { "action": "shake", "target": "Alicia" }
 	],
-	"text": "The space between Alicia’s brows twitches, just slightly. Not anger—something closer to exhaustion, like a wound being poked."
+	"text": "Alicia’s brow twitched ever so slightly. Not anger—just the fatigue of someone whose wound has been touched."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -20,7 +21,7 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“You just said ‘we’ll need it again tomorrow’—what are you actually planning to do?”"
+	"text": "“You just said ‘we’ll need it tomorrow’—what are you planning to do?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -28,17 +29,17 @@
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "Her voice isn’t loud, but it cuts cleanly—like a sharp blade severing the conversation outright."
+	"text": "Her voice wasn’t loud, yet it was like a clean blade, cutting the topic off completely."
   },
   {
 	"event": [
 	  { "action": "show_name", "target": "Alicia" }
 	],
-	"text": "“What you should be doing right now is taking Lucia back.”"
+	"text": "“The most important thing for you right now is to take Lucia back.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“And you?”"
+	"text": "“What about you?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -46,27 +47,27 @@
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "When she says it, she isn’t looking at me, but deeper into the fading glow of the formation—like she’s checking that some ‘position’ hasn’t shifted."
+	"text": "When she said it, she didn’t look at me. Instead, her gaze rested on the fading glow of the formation deeper inside, as if confirming that some “position” hadn’t shifted."
   },
   {
 	"event": [
 	  { "action": "show_name", "target": "Lucia" }
 	],
-	"text": "Lucia quickly tugs at my sleeve and whispers, “Innkeeper… let’s go back first. She really shouldn’t be pressed right now.”"
+	"text": "Lucia quickly tugged at my sleeve and whispered, “Innkeeper… let’s go back first. She really shouldn’t be pressed right now.”"
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "I want to speak again, but Alicia has already turned and taken a single step toward the stairs—light, but instinctively silencing."
+	"text": "I was about to speak again, but Alicia had already turned and taken a step toward the stairs. The step was light, yet it instinctively forced me into silence."
   },
   {
 	"event": [
 	  { "action": "show_name", "target": "Alicia" }
 	],
-	"text": "“Go.”"
+	"text": "“Move.”"
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "She leaves me no room for explanation, like she’s pushed me straight out of her world."
+	"text": "She left no room for explanation, as if pushing me straight out of her world."
   },
   {
 	"event": [

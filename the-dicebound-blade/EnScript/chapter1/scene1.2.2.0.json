@@ -5,45 +5,55 @@
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
 	]
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "Half-jokingly, I said, “Don’t tell me you two plan to share a room?”"
+	"text": "I joke half-heartedly, “What, are you two planning to share one room?”"
   },
+
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "The moment the words left my mouth, the air fell silent for half a second."
+	"text": "The moment the words leave my mouth, the air falls silent for half a second."
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "“Would that be bad?” Lucia blinked at me, genuinely puzzled."
+	"text": "“Would sharing be so bad?” Lucia blinks, her expression filled with genuine confusion."
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "Alicia frowned slightly. Her tone was calm, but carried a chill that left no room for argument: “We’ll each take our own room.”"
+	"text": "Alicia frowns slightly, her tone calm yet edged with unmistakable firmness. “Separate rooms would be better.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "I froze for a moment, realizing my joke had crossed a line. I forced a laugh to cover it up. “Ah—just kidding.”"
+	"text": "I pause, realizing my remark was a bit inappropriate, and let out an awkward laugh to cover it up. “Ah, I was just joking.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "She didn’t respond. She only gave a faint nod. “Then please prepare another room for Lucia.”"
+	"text": "She offers no further comment, only nodding faintly. “Then please prepare another room for Lucia.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "Sensing the shift in the air, Lucia tugged gently at her master’s cloak. “Let’s go upstairs, Master.”"
+	"text": "Sensing the shift in mood, Lucia tugs lightly at her cloak. “Master, let’s go upstairs.”"
   },
+
   {
 	"event": [{ "action": "remove_character", "target": "Lucia" }],
-	"text": "Alicia turned and walked away. Her silhouette stretched long in the firelight at the foot of the stairs."
+	"text": "Alicia turns and walks away, her silhouette stretched long by the firelight at the foot of the stairs."
   },
+
   {
 	"event": [
 	  { "action": "remove_character", "target": "Alicia" },
 	  { "action": "remove_character", "target": "Lucia" }
 	],
-	"text": "I sighed and looked down at the open ledger on the counter. Somehow, the room felt quieter than before."
+	"text": "I let out a sigh, looking down at the ledger on the counter, suddenly feeling the room grow quieter than before."
   },
+
   {
 	"event": [{ "action": "change_scene", "target": "scene1.3" }]
   }

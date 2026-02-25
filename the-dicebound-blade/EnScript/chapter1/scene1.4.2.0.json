@@ -1,16 +1,15 @@
 [
   {
-	"branch": "B_fail",
 	"event": [
 	  { "action": "spawn_character", "target": "Monster1", "pos": [-450, 0] },
 	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "The beast let out a low growl and leapt from the bushes. The ground trembled, and dry leaves scattered into the air."
+	"text": "The beast lets out a low snarl and bursts from the undergrowth. The ground trembles as dead leaves scatter into the air."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "Instinctively, I raised my backpack to block—but the creature’s strength was far greater than I expected. The next instant, I was thrown backward, crashing hard onto the ground."
+	"text": "I instinctively raise my pack to shield myself, but the creature’s strength far exceeds what I expected. In the next instant, I’m thrown backward, hitting the ground hard."
   },
   {
 	"event": [
@@ -18,58 +17,60 @@
 	  { "action": "shake", "target": "Player" },
 	  { "action": "set_flag", "flag": "injuredByMonster1", "value": true }
 	],
-	"text": "Pain exploded in my chest like a rock had struck it. My breath caught. The beast’s claws shredded my pack, scattering torn fabric and dust."
+	"text": "Pain explodes across my chest like a stone crushing down. My breath catches. The pack is torn open by its claws, scraps of cloth and dust flying everywhere."
   },
   {
-	"text": "Before I could get up, a low snarl echoed near my ear. Alicia darted forward, a flash of silver slicing through the air—her blade cleaved the monster down, reducing it to ashes."
+	"text": "Before I can scramble up, a sharp sound slices through the air. Alicia charges forward—silver light flashes—and the monster is cut down in a single stroke, dissolving into ash."
   },
   {
-	"event": [{ "action": "remove_character", "target": "Monster1" }],
-	"text": "The air reeked of burnt flesh and iron. Firelight danced on the edge of her sword."
+	"event": [
+	  { "action": "remove_character", "target": "Monster1" }
+	],
+	"text": "The air fills with the scent of scorch and blood. Firelight flickers along her blade."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Hey!” Her voice was sharper than usual. Before I could respond, she was already beside me, half kneeling. “Are you hurt? Talk to me.”"
+	"text": "“Hey!” Her voice is sharper than usual. Before I can answer, she’s at my side, kneeling and pulling me upright. “Are you hurt? Talk to me.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "I coughed and forced a weak smile. “I’m fine... probably just got hit.”"
+	"text": "I cough, forcing a weak smile. “I’m… fine. Just got knocked around.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She frowned, her hand still gripping my shoulder. “You sure? Don’t push yourself.”"
+	"text": "She frowns, her hand still gripping my shoulder. “Are you sure? Don’t pretend.”"
   },
   {
-	"text": "Her expression was tight and serious—so unlike her usual calm. Only after confirming I could sit upright did she exhale softly, relaxing a little."
+	"text": "Her expression is tight and serious—nothing like her usual calm detachment. Only after she’s certain I can sit upright does she slowly release her hold, exhaling softly."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Next time, don’t try to take the hit, got it?”"
+	"text": "“Next time, don’t try to take it head-on. Understood?”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "I nodded. Though her tone was even, her hand still gave my arm a light pat—as if to make sure I was really still alive."
+	"text": "I nod. Though her tone is steady, she pats my arm lightly, as if reassuring herself that I’m still alive."
   },
   {
-	"text": "The forest fell silent again, save for the scorched marks on the ground. Alicia looked toward the burned earth, her voice lowering slightly."
+	"text": "The forest falls quiet again. Only a scorched mark remains where the creature stood. Alicia looks at the blackened earth, her voice lowering."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“These creatures aren’t natural. They’re ‘Residual Dreams’—echoes left behind by the dead.”"
+	"text": "“These things aren’t born naturally. They’re ‘Lingering Dreams’—traces left behind by those who died.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Residual Dreams?” I repeated, still short of breath."
+	"text": "“Lingering Dreams?” I repeat, still catching my breath."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Mm. In places touched by war or death, the earth absorbs the last emotions of the fallen. Over time, those emotions take form.”"
+	"text": "“Yes. In places where battles were fought and people died, their final emotions seep into the ground. Given time, they become creatures like this.”"
   },
   {
-	"text": "She glanced at me again, her tone softening. “You really scared me just now.”"
+	"text": "After a pause, she glances back at me, her voice softening. “You really scared me just now.”"
   },
   {
-	"text": "She reached out to help me up, brushing the dust off my back. Her smile was faint—but warmer than the firelight."
+	"text": "She offers her hand to help me up, brushing dust from my back. Her smile is faint—but warmer than the firelight."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
@@ -77,11 +78,11 @@
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "I flexed my arm and nodded. “I can.”"
+	"text": "I move my arm carefully and nod. “Yeah. I can.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She smiled gently. “Good. Let’s go. The market’s just ahead—we’ll patch you up there.”"
+	"text": "She smiles slightly. “Good. The market’s just ahead. Let’s get that looked at.”"
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.5" }]

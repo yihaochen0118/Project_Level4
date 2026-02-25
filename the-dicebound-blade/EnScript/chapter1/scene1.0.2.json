@@ -6,79 +6,79 @@
 	]
   },
   {
-	"text": "I chose silence, gripping the counter tightly as I watched the scene unfold."
+	"text": "I choose to remain silent, gripping the counter tightly as I observe how the situation unfolds."
   },
   {
-	"text": "But the drunk’s anger only grew hotter—like fire fed with oil."
+	"text": "The drunk’s emotions, however, flare up like oil thrown onto a fire."
   },
   {
-	"text": "He suddenly grabbed the bottle and smashed it against the floor. Shards and liquor scattered everywhere, forcing me back two steps under the blast."
+	"text": "He suddenly grabs a bottle and smashes it hard against the floor. Shards and wine scatter everywhere, and the impact forces me to stumble back two steps."
   },
   {
-	"text": "The crowd gasped. The fire in the hearth shuddered, and the smell of spilled wine mixed with dust filled my lungs, making me cough."
+	"text": "The crowd cries out. The hearth shudders. The stench of alcohol mixed with dust hits me in the face, making me cough."
   },
   {
-	"text": "The drunk’s fist was already raised—"
+	"text": "The drunk’s fist is already raised—"
   },
   {
-	"text": "At that instant, a gust of wind roared in from outside, snuffing out half the firelight."
+	"text": "At that very instant, the wind outside roars in, extinguishing half the firelight."
   },
   {
-	"text": "The cloaked woman’s eyes were calm yet piercing. With a single motion of her hand, the shards and wind froze midair."
+	"text": "The cloaked woman’s gaze is calm and sharp. With a lift of her hand, both the shards and the wind freeze in midair."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“That’s enough.”"
+	"text": "“Enough.”"
   },
   {
-	"text": "The drunk froze, face turning pale as his throat rasped for breath."
+	"text": "The drunk stiffens in place, his face turning deathly pale, a hoarse breath rasping from his throat."
   },
   {
-	"text": "His gaze fixed on the insignia gleaming faintly on her chest. His pupils widened in sudden recognition."
+	"text": "His eyes stop on the emblem at the woman’s chest, his pupils suddenly widening."
   },
   {
-	"text": "For a moment, silence. Then realization struck—his lips trembled, his breathing broke into panic."
+	"text": "After a moment of silence, he seems to realize something. His lips tremble, his breathing thrown into disarray."
   },
   {
 	"event": { "action": "show_name", "target": "Junker" },
-	"text": "“You... you’re—”"
+	"text": "“You… you’re—”"
   },
   {
-	"text": "Before he could finish, he staggered backward as if struck by an invisible force."
+	"text": "Before he can finish, it is as if some invisible force strikes him, and he staggers backward."
   },
   {
 	"event": [{ "action": "shake", "target": "Junker" }],
-	"text": "He spun around in terror and practically tumbled out the door."
+	"text": "He turns in panic and practically tumbles out the door in his haste to escape."
   },
   {
 	"event": [{ "action": "remove_character", "target": "Junker" }],
-	"text": "The door slammed shut behind him with a heavy thud. The tavern fell silent once more, leaving only the muffled whisper of snow outside."
+	"text": "The door is slammed shut by the wind with a heavy bang. The tavern sinks back into silence, with only the faint whisper of snow slipping through the cracks."
   },
   {
 	"event": { "action": "hp_lost", "amount": 10 },
-	"text": "I stayed leaning against the counter, chest heaving. A shallow cut traced across the back of my hand, gleaming red beneath the firelight."
+	"text": "I remain leaning against the counter, my chest rising unevenly. A shallow cut runs across the back of my hand, the blood gleaming in the firelight."
   },
   {
-	"text": "She glanced at me—her gaze light as the wind, yet carrying a quiet, undeniable weight."
+	"text": "She glances at me. Her gaze is light as the wind, yet carries a power that is hard to meet directly."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Next time, try ducking when you see a bottle flying, will you?”"
+	"text": "“Next time, be quicker on your feet. You saw the bottle—why didn’t you dodge?”"
   },
   {
-	"text": "Her tone was calm, almost scolding—but with a faint trace of teasing beneath it."
+	"text": "Her tone is mild as she says it, sounding almost like a reprimand, yet tinged with faint teasing."
   },
   {
-	"text": "I blinked, unsure how to reply, as she was already walking toward the door."
+	"text": "I freeze for a moment. Before I can think of a response, she has already walked to the door."
   },
   {
-	"text": "The wind seeped in again. She stopped, lifted a hand, and gently pushed the door shut."
+	"text": "The wind rushes in. She pauses, lifting her hand to gently push the door shut."
   },
   {
-	"text": "“The wind’s calmed down,” she said, glancing back at me. “You can breathe now.”"
+	"text": "“The wind outside has stopped,” she says, turning her head to look at me. “You can catch your breath now.”"
   },
   {
-	"text": "She didn’t leave—just leaned lightly against the doorframe, as if making sure it was truly over."
+	"text": "She does not leave. Instead, she leans lightly by the door, as if making sure everything has truly ended."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.1" }]

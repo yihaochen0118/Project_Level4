@@ -6,79 +6,79 @@
 	]
   },
   {
-	"text": "I took a step forward, keeping my voice as calm as I could.",
+	"text": "I step forward, keeping my voice as gentle as possible.",
 	"event": [{ "action": "show_name", "target": "Player" }]
   },
-  { "text": "“My friends, let me buy the drinks. There’s no need for anger.”" },
+  { "text": "“Friends, the drinks are on me. No need to get angry.”" },
   {
-	"text": "The drunkard glared at me and shoved me aside. Wine splashed across the floor, and his fist slammed onto the counter with a dull crack of wood.",
+	"text": "The drunk glares furiously and shoves me aside. Wine spills across the floor as his fist slams onto the counter, the wood letting out a dull crack.",
 	"event": [{ "action": "show_name", "target": "Junker" }]
   },
-  { "text": "“Don’t act like you’re some saint!”" },
-  { "text": "“Everyone in this damn town looks down on me, don’t they?!”" },
+  { "text": "“Stop pretending to be a good person!”" },
+  { "text": "“Everyone in this town looks down on me, don’t they?!”" },
   {
-	"text": "I stumbled back as glass cups fell from the shelves, shattering with a sharp echo through the silent tavern."
+	"text": "I’m forced back step by step, several cups falling from the shelves and shattering, the sound piercingly loud in the silent tavern."
   },
   {
-	"text": "His eyes burned with drunken rage, wild and lost—like a trapped beast lashing out at its cage."
+	"text": "His eyes are muddled and wild, fury burning in them like a trapped beast as he advances."
   },
   {
-	"text": "I raised a hand, about to speak again, when the wind outside suddenly howled louder. The door slammed open with a heavy bang."
+	"text": "I raise my hands, about to speak again, when the wind outside suddenly intensifies and the door slams with a loud bang."
   },
   {
-	"text": "The fire in the hearth flickered low under the gust, its light trembling violently in the air. Everyone held their breath."
+	"text": "The hearth fire is pressed low by the wind, flames flickering violently in the air. Everyone holds their breath."
   },
   {
-	"text": "Cold air swept in from the doorway, carrying with it snow and the faint scent of steel."
+	"text": "Cold air from the doorway surges in with the light, carrying the chill of snow and the scent of metal."
   },
   {
-	"text": "The cloaked woman’s gaze fell upon the drunkard—calm, yet sharper than the winter wind."
+	"text": "The cloaked woman’s gaze falls upon the drunk—calm, yet sharper than the winter wind."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Looks like I came just in time. Are mornings here always this noisy?”"
+	"text": "“Looks like I arrived just in time. Are mornings here always this noisy?”"
   },
   {
-	"text": "Her voice was clear and steady, without force, yet it carried an authority that silenced the room."
+	"text": "Her voice is clear, without menace, yet it naturally brings silence to the room."
   },
   {
-	"text": "The drunk opened his mouth to curse, but it was as if an invisible hand had seized his throat. The air itself froze still."
+	"text": "The drunk opens his mouth to curse, but it is as if some invisible force grips his throat. The air grows still."
   },
   {
-	"text": "My chest tightened. The fire flared back to life, and in its glow, her silver hair shimmered like the gleam of a blade.",
+	"text": "My heart tightens. The fire flares back to life, light and shadow dancing as her silver hair gleams in the glow like the reflection of a blade.",
 	"event": [{ "action": "show_name", "target": "Player" }]
   },
   {
-	"text": "She lifted a finger and flicked it lightly. The bottle in her hand spun gracefully, the spilled wine hanging midair as glimmering mist in the firelight.",
+	"text": "She lifts a finger and flicks it lightly. The bottle spins gently in her palm, the spilled wine turning into a fine mist that sparkles in the firelight.",
 	"event": [{ "action": "shake", "target": "Junker" }]
   },
   {
-	"text": "Everything fell silent. Even the drunk himself froze, his fury suddenly drained away."
+	"text": "Everything falls silent. Even the drunk himself freezes, as if his anger has been suddenly drawn away."
   },
   {
-	"text": "For a heartbeat, I realized—the entire tavern had gone still. Even the flames had ceased to sway."
+	"text": "Only then do I realize the entire tavern’s air has come to a standstill—even the flames no longer waver."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“That’s enough.”"
   },
   {
-	"text": "The drunk’s Adam’s apple bobbed. His lips trembled, but no sound came out. He staggered back, nearly losing his footing.",
+	"text": "The drunk’s throat bobs, his lips trembling a few times, yet no words come out. He steps back, nearly slipping.",
 	"event": [{ "action": "shake", "target": "Junker" }]
   },
-  { "text": "“Damn... crazy woman...”" },
+  { "text": "“Damn it… crazy woman…”" },
   {
-	"text": "He panted, muttering curses under his breath, then shoved the door open and stumbled into the snowstorm outside.",
+	"text": "Panting, he mutters curses under his breath, then shoves the door open and staggers into the snowstorm.",
 	"event": [{ "action": "remove_character", "target": "Junker" }]
   },
   {
-	"text": "The door slammed shut behind him. A swirl of snow drifted in the fading wind, and silence returned to the tavern."
+	"text": "The door slams shut behind him, snow swirling in the wind. The tavern returns to silence."
   },
   {
-	"text": "I took a deep breath, my chest still burning. Her gaze swept over me—no reproach in her eyes, only a faint, fleeting trace of pity."
+	"text": "I take a deep breath, my chest still burning. Her gaze brushes over me lightly; there is no reproach in her eyes, only a faint trace of tenderness."
   },
   {
-	"text": "I opened my mouth, but no words came. The fire danced once more, and its light shimmered in her eyes like a deep, frozen lake of snow."
+	"text": "I open my mouth, but no words come. The fire resumes its dance, its light reflecting in her eyes like a bottomless lake of snow."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.1" }]

@@ -2,33 +2,35 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "unlock","target": "3_7" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "The night pressed down low. Outside the window, the sound of snow was like fine sand. Only one lamp remained lit in the inn, and the fireplace glow warmed the edge of the table."
+	"text": "The night hangs low, the snow outside whispering like fine sand against the windows. Only one lamp remains lit; the hearth casts a warm ring along the edge of the table."
   },
+  { "text": "The last guest leaves. I slide the bolt into place. A final pot of soup still simmers, but its scent feels half-swallowed by the dark." },
+
   {
-	"text": "After the guests had left, I slid the door bolt into place. The last bit of soup in the pot was still bubbling, but most of its aroma seemed to have been swallowed by the night."
+	"event": [
+	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] }
+	]
   },
-  {
-	"text": "Alicia stood by the counter, having changed back into her familiar cloak. She didn’t rush to leave, as if waiting for me to finish the last thing at hand."
-  },
-  {
-	"text": "Her movements were steady—too steady for someone who had just been carrying plates moments ago. The novelty of being a ‘boss lady’ was like a thin sheet of paper, already folded back into her pocket."
-  },
+  { "text": "Alicia stands beside the counter, already back in her familiar cloak. She doesn’t rush to leave—like she’s waiting for me to finish the last small task." },
+  { "text": "Her movements are steady. Too steady for someone who was just playing innkeeper. That brief warmth—the “landlady” version of her—folds away like thin paper tucked back into a pocket." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“You’re heading out?”"
+	"text": "“You’re going out?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Yeah.”"
+	"text": "“Mm.”"
   },
-  {
-	"text": "She tightened her gloves, her knuckles turning faintly pale."
-  },
+
+  { "text": "She tightens her gloves. Her knuckles pale slightly." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“I need to deal with the Echo Circle.”"
+	"text": "“I have to visit the Echo Circle.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
@@ -36,11 +38,11 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“The later, the better.”"
+	"text": "“Later is better.”"
   },
-  {
-	"text": "She said it crisply, like naming a required stop along the way."
-  },
+
+  { "text": "She says it simply, like naming a required stop along a route." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“What are you going to do?”"
@@ -49,9 +51,9 @@
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Take something.”"
   },
-  {
-	"text": "She paused, as if forcibly pulling the most important word out of her throat."
-  },
+
+  { "text": "She pauses, as if dragging the key word up from somewhere deep." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Their leader’s token. A necklace.”"
@@ -66,11 +68,11 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“If I don’t, everything up to now is wasted.”"
+	"text": "“If I don’t, everything’s wasted.”"
   },
-  {
-	"text": "She fastened her cloak and looked up at me. There was no hesitation in her eyes—only the clarity of someone forced to the end."
-  },
+
+  { "text": "She fastens her cloak. When she looks at me, there’s no hesitation—only the clarity of someone pushed to the edge." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“I don’t want to drag this out anymore.”"
@@ -83,9 +85,9 @@
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“I know.”"
   },
-  {
-	"text": "She suddenly stepped closer, closing the distance. Not a threat—more like urgency. She needed me to listen."
-  },
+
+  { "text": "She steps closer, closing the space between us—not threatening, just urgent. She needs me to understand." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“I don’t need you to prove you’re brave.”"
@@ -94,45 +96,44 @@
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“I need you alive.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“You say that every time.”"
   },
-  {
-	"text": "The moment the words left my mouth, I realized—I shouldn’t have said ‘every time.’"
-  },
-  {
-	"text": "Her pupils tightened slightly, then relaxed again, as if she finally accepted that she was pulling me into this."
-  },
+
+  { "text": "The words leave my mouth before I can stop them. I shouldn’t have said “every time.”" },
+  { "text": "Her pupils tighten slightly—then ease, like she’s accepted that I’m already being drawn into this." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“…Yes.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Because I really don’t have much left to lose.”"
+	"text": "“Because I don’t have much left I can afford to lose.”"
   },
-  {
-	"text": "She placed a cold metal clasp in my palm—not a gift, but a stopper. A way of saying: if I don’t come back, don’t follow."
-  },
+
+  { "text": "She presses a cold metal clasp into my palm. Not a gift—more like a seal. If I don’t come back, don’t follow." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Bolt the door.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Don’t act on impulse.”"
+	"text": "“Don’t be reckless.”"
   },
-  {
-	"text": "She turned to leave. Her footsteps were light, but it felt like she took half the air in the room with her."
-  },
+
+  { "text": "She turns to leave. Her steps are light—but it feels like she takes half the air in the room with her." },
+
   {
 	"event": [
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "Option A: Follow her (you don’t want to be left behind again)", "dc": 10, "check": "dexterity" },
-		  { "text": "Option B: Stay at the inn (you promise to live—for now—but you’ll prepare a backup plan)", "dc": 0, "check": "dexterity" }
+		  { "text": "Option A: Follow her  【DC 10 Constitution】", "dc": 10, "check": "constitution" },
+		  { "text": "Option B: Stay at the inn  【DC 0】", "dc": 0, "check": "dexterity" }
 		]
 	  },
 	  { "action": "hide_talk_ui" }

@@ -2,69 +2,69 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_gate_day" },
-	{ "action": "unlock","target": "1_5" },
+	  { "action": "unlock", "target": "1_5" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "The midday sun blazed high. The town gate stood half open, and the air carried a mix of charcoal and spice."
+	"text": "The sun hangs high above, the town gates half open. The wind carries the scent of charcoal and spices."
   },
   {
 	"event": [
 	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
 	  { "action": "show_name", "target": "Alicia" }
 	],
-	"text": "“See? I told you—the sun would be nice today.”"
+	"text": "“See? I told you the sun would be good today.”"
   },
   {
-	"text": "Alicia narrowed her eyes, gazing down the bustling street."
+	"text": "Alicia narrows her eyes slightly, gazing down the street."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“A bit too nice—it’s blinding.”"
+	"text": "“Good enough to blind someone.”"
   },
   {
-	"text": "I raised a hand to shield my eyes; the stone beneath my feet was warm from the heat."
+	"text": "I raise a hand to shield my eyes. The stone beneath our feet radiates heat."
   },
   {
-	"text": "Vendors near the gate were emptying barrels of fruit. A sweet, ripe aroma mingled with the summer air as a few children dashed by, chasing paper pinwheels and laughter."
+	"text": "Vendors at the gate pour fruit into wooden barrels. A gust of wind sends the scent of ripe sweetness and warm air toward us. Children run past chasing paper pinwheels, their laughter bright and clear."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“So this is the marketplace.”"
+	"text": "“So this is the town market.”"
   },
   {
-	"text": "Her gaze wandered across the street with mild curiosity. “It’s livelier than I expected.”"
+	"text": "Her gaze travels along the busy street, curious and assessing. “It’s livelier than I expected.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“You’ve never been here before?”"
+	"text": "“You really haven’t been here before?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
 	"text": "“No. First time.”"
   },
   {
-	"text": "She smiled faintly. “Patrol soldiers spend more time outside the walls than inside them.”"
+	"text": "She smiles faintly. “Patrol guards spend more time outside the walls than inside.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Then you should take your time and enjoy it.”"
+	"text": "“Then we’d better make it worth the trip.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“If I hadn’t dragged you out, you’d probably still be in the forest, getting your leg chewed on by a monster.”"
+	"text": "“If I hadn’t brought you along, you’d still be out there getting your boots chewed off by a monster.”"
   },
   {
-	"text": "She gave a short huff, though there was a smile behind it."
+	"text": "She huffs softly—but she’s smiling."
   },
   {
-	"text": "We crossed the town square together. Sunlight gleamed off the white stone statue, and the shadow of the clock tower stretched long across the ground. The sounds of chatter, metalwork, and hoofbeats merged into a vivid tapestry of life."
+	"text": "We cross the central square. Sunlight glints off the white stone statue, the clocktower’s shadow stretching long. Voices, clattering pots, and hoofbeats blend into a vivid tapestry of life."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Finally, a place where I can breathe a little.”"
+	"text": "“At least we can breathe in town.”"
   },
   {
-	"text": "She stretched lazily, a note of ease in her tone. “But don’t get too comfortable. If monsters are showing up nearby, we’ll probably have to check the western defenses later.”"
+	"text": "She stretches lightly, her tone relaxed. “But don’t relax too much. If monsters are roaming, we may need to check the western line later.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
@@ -72,22 +72,44 @@
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Sure.”"
+	"text": "“We can.”"
   },
   {
-	"text": "She raised an eyebrow. “But if we were in the wild, a monster wouldn’t wait for you to catch your breath before attacking again.”"
+	"text": "She arches a brow. “Though I doubt monsters will politely wait for us to feel ready.”"
   },
   {
-	"text": "I blinked. Sunlight danced over her golden hair, gleaming softly."
+	"text": "I open my mouth to argue, but her turning smile cuts me off—shallow, yet genuine."
   },
   {
-	"text": "I was about to argue when she turned back with a small, genuine smile that silenced me."
+	"text": "The crowd thins slightly as the afternoon settles. Just then, a vendor’s call rings out ahead."
   },
   {
-	"text": "The crowd began to thin, and the afternoon quiet settled over the street. Just then, a vendor’s call rang out ahead."
+	"text": "Alicia glances at me, a hint of curiosity in her eyes. “Want to take a look?”"
   },
   {
-	"text": "Alicia looked at me, her eyes bright with curiosity. “Want to go take a look?”"
+	"text": "We follow the voice to a stall lined with small wares: leather sheaths, whetstones, simple bracers, and several short wooden practice swords. Most eye-catching is a freshly polished short blade—compact, but bright enough to shimmer."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“How much for this one?”"
+  },
+  {
+	"text": "The vendor sizes me up and smiles warmly. “Not much. Forged by the town smith. I’ll give you a fair price—good for self-defense.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "Alicia glances at the blade. “Don’t pick something flashy. What matters is how it feels in your hand.”"
+  },
+  {
+	"text": "I wrap my fingers around the hilt. The wood grain and leather binding settle naturally against my palm. The sunlight glints along the edge, and for a moment, even my lingering unease feels steadier."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“I’ll take it.”"
+  },
+  {
+	"event": [{ "action": "add_item", "target": "Sword", "amount": 1 }],
+	"text": "I pay and fasten the small sword and simple sheath at my side. It’s not heavy—but each step feels firmer than before."
   },
   {
 	"event": {

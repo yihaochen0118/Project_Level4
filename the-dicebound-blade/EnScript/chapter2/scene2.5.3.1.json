@@ -2,9 +2,10 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "underground_entrance" },
+	  { "action": "unlock", "target": "2_5_3" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "I pretend to follow them, but stop just before the final step. Something about this place feels wrong—I want a clearer look."
+	"text": "I pretend to follow, but stop at the last step of the stairs—something about this place feels wrong. I want to see it more clearly."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
@@ -12,23 +13,37 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "“Don’t—!” Lucia instinctively reaches out to grab me."
+	"text": "“Don’t—!” Lucia instinctively reaches out to pull me back."
   },
   {
-	"text": "I step forward anyway."
+	"text": "I still take a step forward."
   },
   {
-	"text": "The moment my boot touches that thin dark-blue line, the ground feels as if it’s been ‘noticed’—"
+	"text": "The moment my boot touches that dark blue line, the ground reacts—as if something has ‘heard’ it—"
   },
   {
-	"text": "With a low hum, the remaining formation flares to life for a brief instant."
+	"text": "With a low hum, the fading formation flares to life for an instant."
   },
   {
-	"text": "A chill shoots up from my ankle. My vision blurs, and it sounds as if someone is whispering the same sentence over and over in my ear."
+	"text": "Cold shoots up from my ankle. My vision blurs, and in my ears it feels like someone is whispering the same sentence over and over."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“...What—”"
+	"text": "“…What—”"
+  },
+  {
+	"event": [
+	  { "action": "add_item", "target": "echo_residue" }
+	],
+	"text": "When the chill recedes from my ankle, something rolls off the sole of my boot."
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“…What is this?”"
+  },
+  {
+	"event": { "action": "hide_name" },
+	"text": "It’s a small shard of dark blue crystal, a flicker of residual light sealed within."
   },
   {
 	"event": [
@@ -39,7 +54,7 @@
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "The next second, she’s beside me. Her movement is as sharp as a blade of wind."
+	"text": "In the next second, she’s already at my side—fast as a blade of wind."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -55,7 +70,7 @@
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "She yanks me away from the line. The cold instantly recedes, like a tide pulling back."
+	"text": "She yanks me away from the line. The cold retreats at once, like a tide pulling back."
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
@@ -71,21 +86,21 @@
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "Her tone shuts the door completely. Not impatience—restraint, holding something back."
+	"text": "Her tone shuts the door outright. Not impatience—restraint pressed down over something burning."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Move. Back to the inn.”"
+	"text": "“Let’s go. Back to the inn.”"
   },
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" }
 	],
-	"text": "We rush out of the alley. Snow and fog slam into us, and only then do I realize my back is soaked through."
+	"text": "We rush out of the alley. Snow and fog slam into us, and only then do I realize my back is soaked with sweat."
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "Lucia supports me the whole way, her voice still shaking. “Don’t push yourself anymore… you’re not like her.”"
+	"text": "Lucia supports me the whole way, her voice still trembling. “Stop pushing yourself… you’re not like her.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
@@ -93,13 +108,13 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "Alicia doesn’t turn back. She only leaves us with one line: “Someone who’s been walking for too long.”"
+	"text": "Alicia doesn’t turn back. She only leaves behind one sentence: “Someone who’s walked too long.”"
   },
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern_night" }
 	],
-	"text": "The inn’s firelight wraps around us again. The sound of the bolt sliding home feels like finally locking the danger outside."
+	"text": "The inn’s firelight wraps around us again. The sound of the bolt sliding into place feels like finally sealing danger outside."
   },
   {
 	"event": [

@@ -5,11 +5,11 @@
 	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "The ground suddenly quaked. A beast covered in rocky armor burst out from the soil, its eyes glowing green as its roar echoed through the forest."
+	"text": "The ground suddenly trembles as a beast covered in rocky armor bursts from the earth. Its eyes glow green, and its roar echoes through the forest."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "Instinctively, I stepped back—but my foot slipped on a patch of moss. Before I could react, the beast lunged, its claws tearing through the air."
+	"text": "I instinctively step back, but my foot slips on a patch of slick moss. Before I can react, the beast lunges, its claws slicing through the air."
   },
   {
 	"event": [
@@ -17,55 +17,59 @@
 	  { "action": "shake", "target": "Player" },
 	  { "action": "set_flag", "flag": "injuredByMonster1", "value": true }
 	],
-	"text": "Pain shot up my arm. I grunted, feeling warm blood trickle down my sleeve. The creature’s breath was hot, pressing down on me like a storm."
+	"text": "A surge of pain shoots up my arm. I grunt as blood seeps through my sleeve. The beast’s scorching breath bears down on me, nearly forcing me to the ground."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
 	"text": "“Watch out!”"
   },
   {
-	"text": "A sudden gust cut through the air—Alicia leapt from the right, cloak swirling. Her boot struck the beast’s jaw before she drew her sword in one smooth motion."
+	"text": "In that instant, a rush of wind slices through the air. Alicia leaps in from the right, her cloak flaring as she kicks the beast’s jaw and draws her blade in one smooth motion."
   },
   {
-	"event": [{ "action": "shake", "target": "Monster1" }],
-	"text": "A flash of silver—her blade sliced cleanly across the monster’s neck."
+	"event": [
+	  { "action": "shake", "target": "Monster1" }
+	],
+	"text": "A flash of silver—her sword arcs precisely across the creature’s neck."
   },
   {
-	"text": "The creature let out a final roar before collapsing with a heavy thud. Dust rose; sparks danced along the edge of her sword."
+	"text": "The beast lets out one final roar before crashing to the ground. Dust rises, and sparks flicker along the blade."
   },
   {
-	"event": [{ "action": "remove_character", "target": "Monster1" }],
-	"text": "The air smelled of iron and ash. Alicia sheathed her sword and knelt before me, checking the wound."
-  },
-  {
-	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Move a little—let me see.”"
-  },
-  {
-	"text": "She tore a strip from her cloak and wrapped my arm swiftly. The firelight caught her face, and for the first time, her cold expression seemed soft."
+	"event": [
+	  { "action": "remove_character", "target": "Monster1" }
+	],
+	"text": "The air fills with the smell of scorched earth and blood. Alicia sheaths her sword and strides over, kneeling to inspect my wound."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“This kind of beast isn’t born naturally... it’s a ‘Residual Dream.’”"
+	"text": "“Move a little. Let me see.”"
+  },
+  {
+	"text": "She tears a strip from her cloak and quickly binds my arm. The firelight reflects on her face, and for the first time, I notice a softness beneath her usual composure."
+  },
+  {
+	"event": { "action": "show_name", "target": "Alicia" },
+	"text": "“This kind of beast isn’t natural… it’s a ‘Lingering Dream.’”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Residual Dream?” I echoed, my voice still trembling."
+	"text": "“Lingering Dream?” I repeat, my voice still trembling."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Mm. In places where wars were fought or people died, the ground keeps their last emotions. Over time, those emotions take shape.”"
+	"text": "“Yes. In places where battles were fought and people died, their final emotions sink into the earth. Over time, they take shape as things like this.”"
   },
   {
-	"text": "Her tone was calm, yet carried a faint chill."
+	"text": "Her tone is gentle, yet edged with cold certainty."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Don’t worry. This forest’s still far from the town.”"
+	"text": "“Don’t worry too much. This forest is still far from the town center.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "I nodded. She helped me to my feet, steadying me. Once she saw I could stand, her voice grew lighter again."
+	"text": "I nod. She helps me to my feet and lets me lean against her for a moment. Once she’s sure I can stand steadily, her tone lightens again."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
@@ -73,11 +77,11 @@
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Yeah.” I forced a smile."
+	"text": "“I can.” I force a smile."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Good.” She looked toward the sunlight filtering through the trees, a faint smile on her lips. “The market’s just ahead. The weather’s quite nice today.”"
+	"text": "“Good.” She looks toward the sunlight beyond the trees, a faint smile curving her lips. “The market’s just ahead. The weather’s quite nice today.”"
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.5" }]

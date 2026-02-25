@@ -2,87 +2,94 @@
   {
 	"event": [
 	  { "action": "hide_talk_ui" },
-		{ "action": "unlock","target": "1_0" },
+	  { "action": "unlock", "target": "1_0" },
 	  { "action": "set_background", "target": "tavern" }
 	]
   },
   { "event": { "action": "set_flag", "flag": "helped_alicia", "value": true } },
-{"event":[{ "action": "add_item","target": "Sword","amount":1 },{ "action": "add_item","target": "Talisman","amount":1 }]},
   {
 	"event": { "action": "show_talk_ui" },
-	"text": "Morning mist rolled down from the distant hills, spreading along the stone-paved streets into the heart of the town. The air inside the inn carried a faint scent of ash and wood."
+	"text": "Morning mist slides down from the distant hills, drifting along the stone-paved streets into the center of town. Inside the inn, the air carries a faint scent of wood ash."
   },
-  { "text": "I stood behind the counter, polishing a glass. The view outside was blurred by fog, and the hanging lamps swayed gently overhead." },
-  { "text": "This was the most ordinary moment of the day—before the travelers arrived, when only the echo of glass and the rhythm of my own breathing filled the room." },
-  { "text": "Sometimes I even wondered if I existed for this moment alone: the stillness before the world awoke, when time itself seemed to show a trace of mercy." },
-  { "text": "But that morning was different." },
+  { "text": "I stand behind the counter polishing cups, the street outside blurred by fog, the chandelier swaying gently." },
+
+  { "text": "This is the most ordinary moment of the day—before travelers arrive, when only the echo of cups and my own breathing fill the space." },
+  { "text": "Sometimes I even wonder if I exist solely for this moment: that quiet before the world awakens, the kind that makes you believe time might show you mercy for a while." },
+  { "text": "But that day was different." },
   {
-	"text": "The door burst open with a crash. A rush of cold air flooded in, carrying the scent of snow and iron. The wooden door slammed against the wall, shattering the tavern’s calm."
+	"text": "The door is suddenly flung open, a gust of cold air rushing in, carrying the mixed scent of snow and rust. The wooden door slams against the wall with a loud bang, tearing the tavern’s silence apart."
   },
   {
-	"text": "“Your wine any good here? Get me a bottle—make it quick!”",
+	"text": "“Your wine here is fresh enough, right? Give me a bottle to taste!”",
 	"event": [
 	  { "action": "spawn_character", "target": "Junker", "pos": [450, 0] },
 	  { "action": "show_name", "target": "Junker" }
 	]
   },
   {
-	"text": "He wore grimy leather armor, a broken mercenary badge hanging around his neck. He looked like he’d crawled straight out of a ruin."
+	"text": "He wears filthy leather armor, a damaged mercenary badge hanging from his neck, looking as though he just crawled out of some ruin."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Drinking already? The town guards will be here soon. I thought they didn’t allow you to drink on duty.”"
+	"text": "“Drinking this early? Brother, the town guard will be here soon. I remember you’re not supposed to drink while on duty, are you?”"
   },
+
   {
 	"event": [
 	  { "action": "show_name", "target": "Junker" },
 	  { "action": "shake", "target": "Junker" }
 	],
-	"text": "“Another bottle! Or I’ll burn this lousy tavern down with me!”"
+	"text": "“Another drink! Or I’ll burn this lousy little shop down with me!”"
   },
   {
 	"event": { "action": "hide_name" },
-	"text": "His eyes were murky, like greasy water. The stench of decay and gunpowder clung to him, sharp and heavy."
+	"text": "His eyes are murky, like a slick of oil. I can smell the stench of decay and gunpowder clinging to him."
   },
   {
-	"text": "A few guests shrank back into the corners. Before I could respond, the sound of steady footsteps came from outside."
+	"text": "Several patrons retreat to the corners in fear. Before I can respond, crisp bootsteps sound from outside."
   },
   {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“I heard someone was threatening to burn a place down.” A woman’s voice rang out—clear, crisp, like snow falling onto steel."
+	"event": [
+	  { "action": "show_name", "target": "Alicia" }
+	],
+	"text": "“I heard someone wants to burn the place down.” A woman’s voice carries in—clear, like snow falling on steel."
   },
   {
 	"event": [
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
 	],
-	"text": "A woman in a silver-white cloak stepped inside. Sunlight followed her through the doorway, glinting off the faint polish of her armor."
+	"text": "A woman in a silver-white cloak steps inside, sunlight pouring in behind her, casting a faint glow over her armor."
   },
   {
-	"text": "She was tall, her sword sheath etched with intricate patterns. A weathered lily emblem rested on her shoulder plate."
+	"text": "She is tall, the scabbard at her waist etched with intricate patterns, a weathered lily emblem pinned at her shoulder."
   },
-  { "text": "Her gaze was calm, yet something about it made approach impossible." },
+  {
+	"text": "Her gaze is calm, yet no one dares approach carelessly."
+  },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Good morning.”"
   },
-  { "text": "Her voice was bright—without force, yet enough to quiet the room." },
   {
-	"text": "She walked toward the drunkard, step by step. He froze for a second, then snarled, “Get lost! Mind your own damn business—”"
+	"text": "Her voice is clear, without menace, yet it naturally brings silence to the room."
   },
   {
-	"text": "Before he could finish, she lifted a hand and drew a line through the air. The wind stilled. The bottle flew from his grasp and landed softly in her palm."
+	"text": "She walks step by step toward the drunk. He pauses for a moment, then bursts into curses. “Get lost! Don’t stick your nose into this—”"
   },
   {
-	"text": "In that instant, the entire tavern seemed frozen in place. Even the fire in the hearth flickered uncertainly."
+	"text": "Before he can finish, she raises her hand and slices her finger lightly through the air. The wind halts. The bottle flies from his grasp and lands steadily in her palm."
+  },
+  {
+	"text": "At that moment, the entire tavern feels frozen. Even the hearth flame flickers."
   },
   {
 	"event": [
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "Option A: Step forward and try to calm him down [Charisma Check DC 4]", "dc": 4, "check": "charisma" },
-		  { "text": "Option B: Stay still and observe the situation [No Check DC 0]", "dc": 0, "check": "dexterity" },
-		  { "text": "Option C: Quietly ready your short sword [Strength Check DC 6]", "dc": 6, "check": "strength" }
+		  { "text": "Option A: Step forward to persuade him 【Charisma Check (DC 4)】", "dc": 4, "check": "charisma" },
+		  { "text": "Option B: Stay and observe, waiting for the situation to unfold 【No Check (DC 0)】", "dc": 0, "check": "intelligence" },
+		  { "text": "Option C: Quietly prepare your short sword for defense 【Strength Check (DC 6)】", "dc": 6, "check": "strength" }
 		]
 	  },
 	  { "action": "hide_talk_ui" }

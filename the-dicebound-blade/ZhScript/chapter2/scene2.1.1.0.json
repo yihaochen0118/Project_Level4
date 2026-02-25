@@ -2,9 +2,7 @@
   {
 	"event": [
 	  { "action": "show_talk_ui" },
-	  { "action": "set_flag", "flag": "charisma_success_2_1_A", "value": false },
-		{ "action": "unlock","target": "2_1" },
-	  { "action": "set_flag", "flag": "alicia_trust", "value": -1 }
+		{ "action": "unlock","target": "2_1_1" },
 	]
   },
 

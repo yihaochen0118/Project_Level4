@@ -1,45 +1,44 @@
 [
   {
 	"event": [
+	  { "action": "hide_talk_ui" },
 	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "unlock", "target": "3_4_1" },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-250, 0] },
 	  { "action": "show_talk_ui" }
-	],
-	"text": "(3.4.1.0 — Success)"
+	]
   },
-  {
-	"text": "I move around the table and lean closer to her. She’s slumped against the edge, breathing lightly—like she’s finally stolen a moment of peace."
-  },
-  {
-	"text": "I slide the candleholder aside, careful not to let the firelight sting her eyelids. Then I bend down slowly, slipping my arm beneath her shoulders. She’s lighter than I expected—so light it tightens something in my chest."
-  },
+
+  { "text": "I walk around the table and lean down to look at her. She’s resting against the edge, breathing softly—like she’s stolen a fragile moment of peace." },
+  { "text": "I move the candle aside so the light won’t sting her eyelids. Then I bend carefully, slipping one arm beneath her shoulders. She’s lighter than I expected—light enough to make my chest tighten." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“…I’ll take you back to your room.”"
+	"text": "“…I’ll take you to your room.”"
   },
-  {
-	"text": "I carry her upstairs. Just as I reach the turn in the staircase, my foot slips—like I’ve stepped on a smear of leftover grease."
-  },
-  {
-	"text": "My heart drops. I don’t have time to steady myself; my knee hits the step first, and my whole body pitches forward."
-  },
+
+  { "text": "I carry her upstairs. Just as I reach the turn in the stairwell, my foot slips—like I’ve stepped on a trace of spilled oil." },
+  { "text": "My heart drops. I can’t recover in time. My knee slams into the step and I pitch forward." },
+
   {
 	"event": [{ "action": "shake", "target": "Player" }],
-	"text": "“Hng—!”"
+	"text": "“Tch—!”"
   },
-  {
-	"text": "I do everything I can to shield her, but she still jolts in my arms. Her eyelashes twitch sharply, and the next second she’s awake. Those grey-blue eyes gleam in the darkness—bright enough to be frightening."
-  },
+
+  { "text": "I shield her as best I can, but she still jolts in my arms. Her lashes flutter sharply—and then her grey-blue eyes snap open in the dark." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“…What are you doing?”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“I’m sorry! I—I slipped… I was trying to take you back to your room.”"
+	"text": "“Sorry! I—I slipped… I was just trying to bring you upstairs.”"
   },
-  {
-	"text": "She looks at me. There’s no anger in her eyes—only the exhaustion of being dragged out of a rare moment of calm. She takes a deep breath, then steadies herself and steps out of my arms."
-  },
+
+  { "text": "She studies me. There’s no anger in her gaze—only the exhaustion of being dragged out of a rare quiet moment. She exhales and steadies herself, slipping from my arms." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Don’t carry me.”"
@@ -48,20 +47,21 @@
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“I can walk.”"
   },
-  {
-	"text": "She grips the railing. Her steps are unsteady, but stubborn. After two steps, she glances back at me—checking, as if to make sure I didn’t fall again."
-  },
+
+  { "text": "She grips the railing. Her steps are slightly unsteady—but stubborn. After two steps, she glances back to make sure I haven’t fallen again." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Next time, don’t push yourself.”"
   },
-  {
-	"text": "She pushes the door open and goes inside on her own. The door closes softly behind her—so lightly it still feels like being shut out."
-  },
+
+  { "text": "She opens her door and steps inside. The click of it closing is soft—but it feels like being shut out." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "I stand at the top of the stairs, rubbing my aching knee, a dull tightness spreading through my chest."
+	"text": "I stand at the top of the stairs, rubbing my aching knee, a quiet sting spreading through my chest."
   },
+
   {
 	"event": [
 	  { "action": "change_scene", "target": "scene3.5" }

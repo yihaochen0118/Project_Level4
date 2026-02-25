@@ -1,77 +1,88 @@
 [
   {
 	"event": [
-	  { "action": "spawn_character", "target": "Player", "pos": [0, 0] },
+	  { "action": "set_background", "target": "north_gate_battlefield" },
+	  { "action": "unlock","target": "BadEndding2" },
 	  { "action": "show_name", "target": "Player" }
 	],
-	"text": "The moment I grabbed a chunk of rubble, my fingers were so stiff I could barely hold it. The storm was too fierce, the Demon King’s black mist heaved like a living thing—and I misjudged the ‘thin point.’"
+	"text": "The moment I grab the broken stone, my fingers are so stiff I can barely hold it. The blizzard roars, the Demon King’s mist surging like a living thing—I misjudge the thin point."
   },
-  { "text": "Still, I threw the stone—like hurling my last hope into an abyss." },
+
+  { "text": "I throw the stone anyway—like hurling the last of my hope into an abyss." },
+
   {
 	"event": [{ "action": "shake", "target": "Mowang" }],
-	"text": "The stone didn’t crack open an opening. It was simply swallowed by the black mist, without even a sound."
+	"text": "The stone doesn’t strike a weakness. It vanishes into the mist without even a sound."
   },
-  { "text": "In the next second, the mist snapped upward like an offended beast." },
-  { "text": "The Demon King didn’t get distracted. It locked on." },
+
+  { "text": "In the next instant, the mist lifts like an offended beast." },
+  { "text": "The Demon King isn’t distracted. It locks on." },
+
   {
 	"event": [{ "action": "show_name", "target": "Mowang" }],
-	"text": "Its voice scraped against bone: “You—too—will—come—back—.”"
+	"text": "Its voice grinds along my bones: “You—will—return—too—”"
   },
-  { "text": "That whisper drilled into my ears and my knees went soft at once. Not fear—something more nauseatingly familiar, as if it had watched me struggle through countless loops." },
-  { "text": "The black mist suddenly stretched, like a massive claw reaching for me." },
+
+  { "text": "The whisper burrows into my ears. My knees buckle at once. Not fear—something fouler. Recognition. As if it has watched me struggle across countless loops." },
+  { "text": "The mist lashes outward, stretching into a massive claw reaching for me." },
+
   {
-	"event": [
-	  { "action": "shake", "target": "Player" }
-	],
-	"text": "I tried to retreat into the shield wall, but the collapsing snow dragged at my feet. I only managed to raise my arm—then, in the next instant, an icy grip had already latched onto my chest."
+	"event": [{ "action": "shake", "target": "Player" }],
+	"text": "I try to retreat behind the shields, but the snow collapses under my feet. I barely raise my arm—then icy force grips my chest."
   },
-  { "text": "A broken gasp tore out of my throat. Everything in my vision slowed, as if the world had been twisted tight." },
-  { "text": "And in that moment, I saw the necklace in Alicia’s hand—she was about to drive it into the core." },
-  { "text": "Her fingers trembled once. Not fear—fatigue pressing down for a single heartbeat." },
-  { "text": "I finally understood: if she turned back to save me now, she would lose that half second." },
-  { "text": "But she turned back anyway." },
+
+  { "text": "A broken gasp tears from my throat. The world slows, tightened like a wire." },
+  { "text": "And in that suspended instant, I see the necklace in Alicia’s hand—she’s about to drive it into the core." },
+  { "text": "Her fingers tremble—not from fear, but from exhaustion crashing down." },
+  { "text": "I understand at last: if she turns to save me now, she loses that half-second." },
+  { "text": "But she turns anyway." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "Alicia whispered, “…Don’t look at me. Close your eyes.”"
+	"text": "“…Don’t look at me. Close your eyes.”"
   },
-  { "text": "She couldn’t win on both fronts. She could only choose one." },
+
+  { "text": "She cannot win both sides. She has to choose." },
+
+  {
+	"event": [{ "action": "shake", "target": "Alicia" }],
+	"text": "She pivots sharply, blade sweeping sideways, tearing the mist claw away from me. The darkness shrieks like ripped flesh."
+  },
+
+  { "text": "That strike saves me—and steals her chance." },
+  { "text": "The Demon King’s focus returns to her completely. The mist no longer falters; it coils back like chains around her wrists and throat." },
+  { "text": "The necklace slips from her fingers, landing in the snow with a sound almost too faint to hear." },
+  { "text": "Yet that faint sound is sharper than any scream." },
+
+  {
+	"event": [{ "action": "shake", "target": "Mowang" }],
+	"text": "The Demon King’s claw descends—not a slash, but a correction. Pressing her back toward the rift, forcing the loop into alignment."
+  },
+
+  { "text": "She raises her arm to block. Her shoulder armor bursts under the pressure. Blood seeps down her gauntlet, black against the snow." },
+  { "text": "She steps forward anyway—closing distance the only way she ever does: trading her life for an opening." },
+  { "text": "But this time, there is no opening." },
+
+  {
+	"event": [{ "action": "remove_character", "target": "Alicia" }],
+	"text": "Black light flashes—like someone erasing a piece of the world. Alicia’s form is swallowed, so cleanly that even her footprints seem to fade."
+  },
+
+  { "text": "A hollow ringing fills my skull, like something shattered inside." },
+  { "text": "The barrier’s blue glow fractures, shards falling like broken glass. The soldiers’ breaths dissolve into panic." },
+  { "text": "The core in the Demon King’s chest brightens again—terribly stable. The loop continues." },
+
+  {
+	"event": [{ "action": "hp_lost", "amount": 999 }],
+	"text": "The mist surges toward me. Cold pierces my chest—as if the world itself has passed judgment. As darkness consumes my sight, one thought remains: I saved myself—and lost her."
+  },
+
   {
 	"event": [
-	  { "action": "shake", "target": "Alicia" }
-	],
-	"text": "She pivoted hard, blade sweeping across, forcing the black mist that was reaching for me to split open. The mist shrieked, like torn skin."
-  },
-  { "text": "That strike saved me. And it stole her chance." },
-  { "text": "The Demon King’s attention snapped fully back to her. The mist no longer loosened—it recoiled like chains, wrapping tight around her wrists and throat." },
-  { "text": "The necklace slipped from her fingers and dropped into the snow with a sound so faint it was almost nothing." },
-  { "text": "But that tiny sound was sharper than any scream." },
-  {
-	"event": [
-	  { "action": "shake", "target": "Mowang" }
-	],
-	"text": "The Demon King’s claw came down. It wasn’t a slash—it was a ‘reset,’ pressing her back into the rift, snapping the loop back into alignment."
-  },
-  { "text": "Alicia braced and blocked. Her shoulder guard burst under the pressure; blood seeped along her bracer and dripped onto the snow, turning it dark." },
-  { "text": "She still stepped forward—forcing herself even closer. That was always her way: trading life for an opening." },
-  { "text": "But this time, there was no opening." },
-  {
-	"event": [
-	  { "action": "remove_character", "target": "Alicia" }
-	],
-	"text": "Black light flashed—like someone had erased a piece of the world. Alicia’s figure was swallowed whole, so cleanly that even her footprints in the snow seemed to be wiped away."
-  },
-  { "text": "My head rang with a single hollow buzz, like something had been struck and shattered inside me." },
-  { "text": "The barrier’s blue light began to splinter, breaking into shard after shard like glass. The soldiers’ breathing turned into panicked, ragged gasps." },
-  { "text": "The core in the Demon King’s chest lit up again. The light was terrifyingly steady, as if proclaiming: the loop continues." },
-  {
-	"event": [
-	  { "action": "hp_lost", "amount": 999 }
-	],
-	"text": "The black mist rolled over me; a cold emptiness flooded my chest, like the world had sentenced me to death. As darkness swallowed my vision, I had only one thought left—I saved myself, and lost her."
-  },
-  {
-	"event": [
-	  { "action": "change_scene", "target": "BadEnding_Finale" }
+	  {
+		"action": "game_over",
+		"message": "You saved yourself.\n\nShe took the blow meant for you.\n\nThe necklace fell.\nThe core realigned.\n\nThe loop corrected.\n\nThis time,\nthe price was her.\n\n—— A Misplaced Choice · BAD END ——"
+	  }
 	]
   }
 ]

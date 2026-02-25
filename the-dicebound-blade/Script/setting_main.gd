@@ -11,9 +11,11 @@ extends Control
 @onready var english_button = $Panel/TabContainer/文本设置/ScrollContainer/Language/button/English
 @onready var bgm_toggle = $Panel/TabContainer/声音设置/ScrollContainer/Music/button/BGM
 @onready var bgm_name_label = $Panel/TabContainer/界面设置/ScrollContainer/Interface/button/BGMname
-
+@onready var sfx_toggle = $Panel/TabContainer/声音设置/ScrollContainer/Music/button/SoundEffects
+@onready var tab_container = $Panel/TabContainer
 var _language_lock = false  # 🔒 防止循环触发
 func _ready():
+	
 	var saved_lang = _load_language()
 	TranslationServer.set_locale(saved_lang)
 	if saved_lang == "en":
@@ -52,16 +54,40 @@ func _ready():
 	bgm_name_label.button_pressed = bgm_name_visible
 	_update_bgm_name_visible(bgm_name_visible)
 	main_sound_slider.value_changed.connect(_on_main_sound_changed)
+	var sfx_enabled = _load_sfx_enabled()
+	sfx_toggle.button_pressed = sfx_enabled
+	SdMgr.set_sfx_enabled(sfx_enabled)
+	sfx_toggle.toggled.connect(_on_sfx_toggled)
+	tab_container.tab_changed.connect(_on_tab_changed)
 
+func _on_tab_changed(tab_index: int) -> void:
+	SdMgr.play_sfx(preload("res://images/Sound/Tab.mp3"))
+	print("🔁 切换到 Tab:", tab_index)
+func _on_sfx_toggled(pressed: bool) -> void:
+	SdMgr.set_sfx_enabled(pressed)
+	_save_sfx_enabled(pressed)
+	print("🔊 音效开关:", pressed)
 
+func _save_sfx_enabled(enabled: bool) -> void:
+	var cfg = ConfigFile.new()
+	if cfg.load("user://config.cfg") != OK:
+		cfg = ConfigFile.new()
+	cfg.set_value("settings", "sfx_enabled", enabled)
+	cfg.save("user://config.cfg")
 
-
+func _load_sfx_enabled() -> bool:
+	var cfg = ConfigFile.new()
+	if cfg.load("user://config.cfg") == OK:
+		return bool(cfg.get_value("settings", "sfx_enabled", true))
+	return true
+	
 func _input(event):
 	if event is InputEventKey and event.pressed and event.keycode == KEY_ESCAPE:
 		_on_back_pressed()
 
 func _on_back_pressed():
 	print("⬅️ 返回主菜单（关闭设置界面）")
+	SdMgr.play_sfx(preload("res://images/Sound/Back.mp3"))  # ← 加这里
 	queue_free()
 
 # ===================================
@@ -146,8 +172,6 @@ func _update_ui_texts(lang_code: String) -> void:
 	$Panel/TabContainer.set_tab_title(0, tr("文本设置"))
 	$Panel/TabContainer.set_tab_title(1, tr("界面设置"))
 	$Panel/TabContainer.set_tab_title(2, tr("声音设置"))
-	$Panel/TabContainer.set_tab_title(3, tr("快捷键设置"))
-	$Panel/TabContainer.set_tab_title(4, tr("其他设置"))
 
 	print("🈶 已更新界面文字至语言:", lang_code, " 当前翻译：", TranslationServer.get_locale())
 
@@ -265,17 +289,8 @@ func _on_bgm_toggled(pressed: bool) -> void:
 
 # 实际执行播放 / 停止
 func _update_bgm_state(enabled: bool) -> void:
-	var bgm_player = get_tree().root.find_child("AudioStreamPlayer", true, false)
-	if bgm_player:
-		if enabled:
-			if not bgm_player.playing:
-				bgm_player.play()
-			print("🎵 BGM 已启用并播放")
-		else:
-			bgm_player.stop()
-			print("🔇 BGM 已关闭")
-	else:
-		print("⚠️ 未找到 AudioStreamPlayer 节点")
+	SdMgr.set_bgm_enabled(enabled)
+	print("🎵 BGM 状态:", enabled)
 
 
 func _save_bgm_enabled(enabled: bool) -> void:

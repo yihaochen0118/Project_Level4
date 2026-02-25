@@ -2,58 +2,59 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_medical_tent" },
-	  { "action": "show_talk_ui" }
+	  { "action": "show_talk_ui" },
+	  { "action": "unlock", "target": "1_5_1" }
 	],
-	"text": "The street-side medical stall smelled faintly of herbs. The white cloth curtain swayed gently in the breeze."
+	"text": "The street-side medical tent carries a faint scent of herbs, white curtains swaying gently in the wind."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
 	"text": "“Here.”"
   },
   {
-	"text": "Alicia guided me to sit down. “Let them change your bandages properly.”"
+	"text": "Alicia pulls me down onto a stool. “Let them wrap it properly this time.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“That’s not necessary. I think it’s fine now.”"
+	"text": "“It’s fine. I feel okay already.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She raised an eyebrow. “You almost left your arm in that forest this morning.”"
+	"text": "She raises an eyebrow. “You nearly left your arm in that forest this morning.”"
   },
   {
-	"text": "The apothecary brought clean bandages and a bowl of rinse water. Alicia took them herself, deftly unwrapping the old cloth and replacing it layer by layer."
+	"text": "The apothecary brings clean bandages and fresh water. Alicia takes them herself, deftly removing the old wrap and rebandaging the wound layer by layer."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“You’ve done this before?”"
+	"text": "“You learned this somewhere?”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“When you’re a mercenary, not knowing how to treat a wound is as good as signing your death warrant.”"
+	"text": "“When you’re a mercenary, if you can’t treat your own wounds, you die.”"
   },
   {
-	"text": "Her tone was calm. The last strip of bandage was tied into a neat knot."
+	"text": "Her tone is calm. She ties off the final loop of bandage."
   },
   {
-	"text": "Her hand lingered on mine for a moment, as if checking that the pulse beneath the skin had steadied."
+	"text": "Her hand lingers over the back of mine for a moment, as if checking whether the bleeding has fully stopped."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Still hurt?”"
+	"text": "“Does it still hurt?”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Not anymore. Your hands work better than the medicine.”"
+	"text": "“Not anymore. Your hands work better than any medicine.”"
   },
   {
-	"text": "She paused, then gave a small laugh. Sunlight slipped through the curtain, flickering over her eyelashes."
+	"text": "She pauses, then lets out a soft laugh. Sunlight slips through the curtain seam, trembling across her lashes."
   },
   {
-	"text": "Then, she took my hand in hers."
+	"text": "Then she takes my hand."
   },
   {
-	"text": "For a moment, the noise of the marketplace faded, leaving only the warmth of her touch."
+	"text": "In that moment, the noise of the town fades away, leaving only the warmth of her palm against mine."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.6" }]

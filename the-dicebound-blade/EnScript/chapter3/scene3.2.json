@@ -2,33 +2,34 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "unlock", "target": "3_2" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "[3.2 | Candlelight Dinner: Red Dress and Good Food]"
+	"text": "Candlelight Dinner: The Red Dress and a Proper Meal"
   },
   {
-	"text": "Night falls quickly, and the snow buries the sounds of the street."
+	"text": "Night falls quickly. Snow swallows the sounds of the street."
   },
   {
-	"text": "I hang the “Closed” sign earlier than usual. The dull thud of the bolt sliding into place sounds like sealing the entire town outside."
+	"text": "I hang the “Closed” sign early. The dull thud of the bolt sliding into place feels like shutting the entire town outside."
   },
   {
 	"text": "Then I return to the kitchen—driven by some unreasonable impulse—and start cooking."
   },
   {
-	"text": "A pot of stew simmers over low heat, its aroma slowly filling the hallway. The crust of the bread cracks in the oven, oil and salt rising into the air. I slice cured meat and cheese, and wipe down the last bottle of wine that isn’t too sour, placing it at the center of the table."
+	"text": "A pot of stew simmers low and steady, its scent slowly filling the hallway. The crust of the bread splits in the oven, releasing the smell of oil and salt. I slice cured meat and cheese, and wipe down the least-sour bottle of wine to set in the center of the table."
   },
   {
-	"text": "I tell myself: it’s just a meal. Just… a way to make tonight less terrible than usual."
+	"text": "I tell myself: it’s just a meal. Just… making tonight less terrible than usual."
   },
   {
-	"text": "Footsteps sound on the stairs."
+	"text": "Footsteps on the stairs."
   },
   {
-	"text": "First step. Second step. Third step—she pauses."
+	"text": "First step. Second. Third—she pauses."
   },
   {
-	"text": "My heart feels like someone has lightly plucked it with a fingertip. I haven’t looked up, yet I already know she’s coming down."
+	"text": "My heart feels lightly plucked by invisible fingers. I don’t look up. I already know she’s here."
   },
   {
 	"event": [
@@ -38,58 +39,58 @@
 	"text": "Alicia steps into the firelight."
   },
   {
-	"text": "She wears no cloak. No armor."
+	"text": "No cloak. No armor."
   },
   {
-	"text": "A long red dress falls against her figure, cutting a line through the night that’s almost too bright. The red is too vivid, too clean—like a flower blooming in the snow. Beautiful, unreasonable, out of place."
+	"text": "A red dress falls clean along her frame, cutting through the night like something too vivid to belong here. The red is too bright, too pure—like a flower blooming in snow. Beautiful in a way that feels unreasonable."
   },
   {
-	"text": "Her silver hair is loosely pinned up, a few strands falling along her neck. In the firelight, they gleam like scattered blades."
+	"text": "Her silver hair is loosely pinned, strands resting along her neck. In the firelight, they gleam like thin blades."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“You…”"
   },
   {
-	"text": "I meant to say, “Why are you dressed like that?” But the words catch in my throat, like I’m afraid of breaking something."
+	"text": "I mean to say, ‘Why are you dressed like that?’ But the words stick in my throat."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Do I look good?”"
+	"text": "“Do I look nice?”"
   },
   {
-	"text": "She asks softly—half testing, half commanding."
+	"text": "She asks softly. Testing. Demanding."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“…You’re very conspicuous.”"
+	"text": "“…You’re impossible to ignore.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“That’s the point.”"
   },
   {
-	"text": "She walks to the table, her fingertips brushing the edge of the tablecloth, as if confirming this isn’t an illusion."
+	"text": "She approaches the table, fingertips brushing the cloth as if confirming it’s real."
   },
   {
-	"text": "Then she notices the spread of food. Her gaze goes briefly blank—not shock, but something like being struck by hesitation."
+	"text": "Then she sees the spread of food. Her expression empties for a split second—not shock, but something deeper."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“You really did it.”"
+	"text": "“You actually did it.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“I said I would.”"
+	"text": "“I keep my promises.”"
   },
   {
-	"text": "I ladle the stew and place it in front of her. Steam rises, softening her face for a moment."
+	"text": "I serve the stew. Steam rises, softening her features for a heartbeat."
   },
   {
-	"text": "She sits very straight, steady, like she could draw an invisible sword from the chair at any moment."
+	"text": "She sits straight-backed, poised—like she could draw an invisible sword from the chair at any moment."
   },
   {
-	"text": "But her fingers lightly rub the edge of the table, as if holding back an unnecessary tremor."
+	"text": "But her fingers trace the edge of the table, barely containing a tremor."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -97,74 +98,71 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“Yeah. No customers tonight.”"
+	"text": "“No guests tonight.”"
   },
   {
-	"text": "I pour the wine. The liquid taps softly against the glass."
+	"text": "Wine fills the cups. The liquid taps the glass softly."
   },
   {
-	"text": "She watches the cup, and suddenly her expression twists into something that’s almost a smile, but not quite."
+	"text": "She watches the pour and almost smiles."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Did you know? Every time you pour wine, you spill just a little.”"
+	"text": "“You always spill a little.”"
   },
   {
-	"text": "My hand jerks. A drop spills over."
+	"text": "My hand twitches. A single drop escapes."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“…Not every time.”"
+	"text": "“…Not always.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Yes. Every time.”"
+	"text": "“Always.”"
   },
   {
-	"text": "She says it with absolute certainty, like she’s stating a pattern already proven by data."
+	"text": "She says it like she’s reciting a measured law."
   },
   {
-	"text": "I wipe the rim of the glass and deliberately avoid her eyes."
+	"text": "We begin to eat."
   },
   {
-	"text": "We start eating."
+	"text": "The stew is hot. The bread is fragrant. The cured meat a little too salty. Normal, absurdly normal."
   },
   {
-	"text": "The stew is hot. The bread smells good. The cured meat is a bit salty. Normal—too normal for a dinner that shouldn’t exist in a story like this."
+	"text": "Yet every time the fire pops, her eyes flicker. Every time wind presses the door, her finger taps once against the table—as if counting."
   },
   {
-	"text": "But whenever the fire pops, her gaze flickers. Whenever the wind outside grows louder, her fingertip taps the table once, like she’s counting."
+	"text": "I try to speak of ordinary things: the baker, the child who sells flowers, the recent snowfall."
   },
   {
-	"text": "I try to talk about light things: the baker in town, the child selling flowers by the fountain, the snow these past few days."
-  },
-  {
-	"text": "She responds—more than she did during the day—as if she’s suddenly decided to pry some long-held silence apart by force."
+	"text": "She answers—more than she did during the day. As if forcing silence apart."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“I never used to wear red.”"
+	"text": "“I used to never wear red.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“Why not?”"
+	"text": "“Why?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Because red looks like blood.”"
   },
   {
-	"text": "Then she adds, her tone light enough to sound like a lie:"
+	"text": "Then she adds, lightly—too lightly:"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“But tonight, I want you to remember me.”"
+	"text": "“But tonight I want you to remember me.”"
   },
   {
-	"text": "My chopsticks freeze halfway. My throat goes dry."
+	"text": "My chopsticks freeze midair."
   },
   {
-	"text": "She takes a sip of wine, her eyes drifting instead to the fading bruise on the back of my hand."
+	"text": "She sips her wine, but her eyes settle on the fading bruise on my hand."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -172,35 +170,38 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“Not anymore.”"
+	"text": “It’s fine.”"
   },
   {
-	"text": "She studies me, like she’s calculating the probability that I’m lying."
+	"text": "She studies me like she’s calculating the odds I’m lying."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“I’ll remove everything that hurts you.”"
+	"text": "“I’ll remove anything that makes you hurt.”"
   },
   {
-	"text": "The statement is too direct—direct enough to make my spine go cold."
+	"text": "The bluntness chills my spine."
   },
   {
-	"text": "But after saying it, she lowers her head and drinks her soup, as if she were just commenting on the weather."
+	"text": "She lowers her gaze and finishes her soup like we were discussing the weather."
   },
   {
-	"text": "The meal slowly draws to an end."
+	"text": "The meal slowly nears its end."
   },
   {
-	"text": "Firelight throws the shadow of her red dress onto the wall. The shadow is bolder than she is, like a banner."
+	"text": "Her red dress casts a larger shadow behind her—bolder than she is. Like a banner."
   },
   {
-	"text": "I suddenly realize: she didn’t come here for a “date.” She’s using this meal to drag some ending forward—pulling it into a rhythm she can control."
+	"text": "I realize she isn’t here for a date."
   },
   {
-	"text": "And me—I actually cooked a good meal, closed the tavern early, and locked myself into her rhythm with her."
+	"text": "She’s using this dinner to pull some ending forward—to a rhythm she can control."
   },
   {
-	"text": "She sets her cup down and taps the glass once with her fingertip."
+	"text": "And I… I made good food. Closed the tavern. Locked myself into her rhythm willingly."
+  },
+  {
+	"text": "She sets down her cup. Taps the glass lightly."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -211,11 +212,11 @@
 	"text": "“Now it’s your turn to listen.”"
   },
   {
-	"text": "She looks up. Her gray-blue eyes shine too brightly in the firelight, like she’s about to pin me in place."
+	"text": "She looks up. Her grey-blue eyes burn too bright in the firelight—like she’s about to pin me in place."
   },
   {
 	"event": [
 	  { "action": "change_scene", "target": "scene3.3" }
-	]
+    ]
   }
 ]

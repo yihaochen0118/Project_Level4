@@ -2,291 +2,266 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "north_gate_battlefield" },
+	  { "action": "unlock","target": "3_12" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "The wind finally stopped. The snow stopped as well. Outside the North Gate, only the crackling of dying embers remained, along with the soldiers’ disbelieving breaths."
+	"text": "The wind finally stops. The snow stops with it. Outside the North Gate, only the crackle of dying embers remains—and the soldiers’ disbelieving breaths."
   },
+
+  { "text": "The barrier’s blue light no longer fractures. It hums like a string drawn tight again, steady against the city wall." },
+  { "text": "The black mist left behind by the Demon King scatters in the fading wind, revealing blasted snow and shattered stone—like a nightmare torn into pieces." },
+
   {
-	"text": "The barrier’s blue light no longer collapsed. Like a string pulled taut again, it held steady around the outer wall."
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "I kneel in the snow, my hands still shaking. My fingers find warmth—not fire, but her body heat."
   },
-  {
-	"text": "The black mist left behind by the Demon King was scattered by the wind, revealing blasted snow and shattered stone—like a nightmare torn into pieces."
-  },
-  {
-	"event": [
-	  { "action": "show_name", "target": "Player" }
-	],
-	"text": "I knelt in the snow, my hands still trembling. My fingertips touched something warm—not fire, but her body heat."
-  },
+
   {
 	"event": [
-	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
+	  { "action": "spawn_character", "target": "Alicia", "pos": [-250, 0] },
 	  { "action": "show_name", "target": "Alicia" }
 	],
-	"text": "Alicia lay in his arms, her armor shattered halfway through, her silver hair damp with snow. Her eyes were closed, but she was still breathing."
+	"text": "Alicia lies in my arms, half her armor shattered, silver hair damp with snow. Her eyes are closed—but she is breathing."
   },
-  {
-	"text": "The breathing was shallow, but not the kind that meant ‘she’s leaving’—it was more like someone who had finally allowed herself to sleep."
-  },
+
+  { "text": "The breaths are shallow—but not fading. More like someone finally allowing herself to sleep." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“Alicia…?”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "Her eyelashes trembled slightly, as if confirming that what she heard wasn’t an illusion."
+	"text": "Her lashes flutter, as if confirming the voice she hears isn’t a dream."
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“I heard it.”"
+	"text": "“I heard you.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“Heard what?”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“You said you’d wait for me.”"
   },
-  {
-	"text": "She tried to lift her hand, her fingertips brushing his sleeve, like grabbing hold of a line that could pull her back."
-  },
+
+  { "text": "She lifts her hand weakly, fingers catching my sleeve like a line pulling her back." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“This time… I wasn’t alone.”"
   },
-  {
-	"text": "Someone ran over, cloak whipping up snow."
-  },
+
+  { "text": "Someone runs toward us, cloak whipping snow into the air." },
+
   {
 	"event": [
 	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] },
 	  { "action": "show_name", "target": "Lucia" }
 	],
-	"text": "Lucia rushed forward. When she saw Alicia still alive, all the strength seemed to drain from her, and she nearly collapsed to her knees."
+	"text": "Lucia rushes over. Seeing Alicia alive drains the strength from her knees."
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "“Mentor… you’re still here… you’re really still here…”"
+	"text": "“Master… you’re here… you’re really here…”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "Alicia struggled to glance at her, her voice hoarse but clear:"
+	"text": "Alicia glances at her, voice hoarse but clear:"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“This time, don’t cry.”"
+	"text": "“Don’t cry. Not this time.”"
   },
-  {
-	"text": "Lucia nodded hard, but tears still pattered into the snow."
-  },
-  {
-	"text": "Battle mages rushed in to check the barrier, confirming that the rift was closing. Someone shouted “We did it!”, the sound carrying across the wall."
-  },
-  {
-	"text": "The soldiers didn’t cheer. They just stood there, as if they could finally lower their lives from their throats."
-  },
-  {
-	"text": "I held Alicia a little tighter, as if loosening my grip would let time steal her away again."
-  },
+
+  { "text": "Lucia nods fiercely, tears still falling into the snow." },
+  { "text": "Battle mages rush to inspect the barrier. Someone shouts, “We did it!” The cry echoes along the wall." },
+  { "text": "The soldiers don’t cheer. They simply stand—like men finally allowed to lower their lives from their throats." },
+
+  { "text": "I hold Alicia a little tighter, afraid that if I loosen my grip, time will steal her again." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“Let’s go home.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "She froze for a moment, as if the word ‘home’ had never belonged to her."
+	"text": "She blinks, as if the word ‘home’ has never belonged to her."
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“…Okay.”"
   },
+
   {
-	"event": [
-	  { "action": "set_background", "target": "town_snow_street" }
-	],
-	"text": "They walked back toward the town along the snowy road. A pale golden line began to appear on the horizon, as if dawn were being gently pried open."
+	"event": [{ "action": "set_background", "target": "town_snow_street" }],
+	"text": "They walk back along the snow-covered road. A pale gold line breaks at the horizon—dawn gently pried open."
   },
-  {
-	"text": "People peeked out from the streets, doors opening a crack as they confirmed the monsters were truly gone."
-  },
-  {
-	"text": "As they passed the fountain square, a child ran up clutching a bag of freshly baked bread, panting, and shoved it into Alicia’s arms."
-  },
-  {
-	"text": "The child looked up at her, eyes shining like stars:"
-  },
-  {
-	"text": "“Big sister, you’re amazing! I want to be like you someday!”"
-  },
+
+  { "text": "Doors crack open. Faces peek out. People confirm the monster is truly gone." },
+  { "text": "At the fountain square, a child runs up, pressing a warm bag of bread into Alicia’s arms." },
+  { "text": "The child looks up, eyes bright as stars:" },
+  { "text": "“You were so cool! I want to be like you!”" },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "Alicia looked down at the steaming bag of bread, her fingers slowly tightening."
+	"text": "Alicia looks down at the steaming bread, fingers tightening slowly."
   },
-  {
-	"text": "Her lips twitched, as if she wanted to smile but feared it would shatter if she did. In the end, she smiled anyway—for the first time, a real smile."
-  },
+
+  { "text": "Her lips tremble between smile and break—but she smiles anyway. A real one." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Then the first thing you need to learn—don’t overdo it.”"
+	"text": "“Then first… learn not to be reckless.”"
   },
+
   {
-	"text": "I glanced at her sideways, as if seeing someone who had finally stepped out of the snow."
+	"event": [{ "action": "set_background", "target": "tavern" }],
+	"text": "The tavern door opens. The hearth still burns. Familiar wood-scent greets them."
   },
-  {
-	"event": [
-	  { "action": "set_background", "target": "tavern" }
-	],
-	"text": "The tavern door was pushed open. The hearth fire was still burning. The familiar scent of wood rushed out to meet us."
-  },
-  {
-	"text": "This time, there was no crushing sense of countdown, no feeling of ‘next time.’ Only real exhaustion, and real warmth."
-  },
+
+  { "text": "This time, there is no countdown pressing against the air. No sense of ‘next time.’ Only real exhaustion—and real warmth." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "I set her down on a chair and hurried to fetch hot water and clean cloth."
+	"text": "I set her gently into a chair and rush for warm water and clean cloth."
   },
-  {
-	"text": "Lucia helped in a fluster, muttering nonstop about how she could possibly push herself that hard."
-  },
+
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "“Mentor, if you ever rush out alone again—I’m really going to be angry!”"
+	"text": "“If you ever charge out alone again—I really will get angry!”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "Alicia closed her eyes and gave a soft “mm,” like she was admitting fault."
+	"text": "She hums softly, eyes closed, like she’s admitting fault."
   },
-  {
-	"text": "As I bandaged her, my fingers brushed the circular mark below her heart. It no longer darkened, no longer burned."
-  },
-  {
-	"text": "It seemed to have finally lost its grip on time, quietly fading away."
-  },
+
+  { "text": "When I finish bandaging her, I touch the ring-shaped mark beneath her collarbone. It no longer burns. No longer darkens." },
+  { "text": "It fades quietly—like it has finally lost its grip on time." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“Is it… really over?”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "She opened her eyes and slowly nodded."
+	"text": "She opens her eyes and nods slowly."
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“It’s over.”"
   },
-  {
-	"text": "She paused, as if finally setting down a weight she’d carried hundreds of times."
-  },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“I don’t have to go back to three days ago anymore.”"
+	"text": "“I don’t have to go back three days anymore.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“And I don’t have to pretend it’s the first time I’ve met you.”"
+	"text": "“And I don’t have to pretend it’s the first time meeting you.”"
   },
-  {
-	"text": "The room fell silent for a few seconds. The fire popped softly, as if bearing witness for them."
-  },
+
+  { "text": "The room falls quiet. The hearth pops softly, like a witness." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“Then what now?”"
+	"text": "“So what now?”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "Alicia looked at him. The bloodshot lines in her eyes were still there, but the manic brightness was gone. In its place was something long-lost and warm."
+	"text": "“Now… I want to learn how to live.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Now—I want to learn how to live.”"
+	"text": "“Not the world-saving kind of life.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Not the kind of life that saves the world.”"
+	"text": "“The kind where I can daydream, eat, and have you complain that the soup’s too salty.”"
   },
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“The kind where I can space out, eat meals, and get scolded by you for making the soup too salty.”"
-  },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "I laughed out loud, my eyes burning red: “If you dare put the salt back on the left side again—I’ll really complain.”"
+	"text": "I laugh, eyes stinging. “If you put the salt on the left side of the counter again—I’ll absolutely complain.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "She laughed too, softly—yet it felt like it melted the entire winter just a little."
+	"text": "She laughs too—soft, but enough to melt the winter."
   },
-  {
-	"text": "Lucia sniffed beside them, then suddenly put on a stern face on purpose."
-  },
+
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "“What about me? Don’t I get a part too?”"
+	"text": "“And what about me? Do I get a part in this future too?”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "Alicia reached out and ruffled her hair, the motion awkward but sincere:"
+	"text": "She ruffles Lucia’s hair, awkward but sincere. “Of course. From now on… together.”"
   },
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Of course you do. From now on… we do it together.”"
-  },
-  {
-	"text": "Late into the night, the tavern lights were not extinguished as early as usual."
-  },
-  {
-	"text": "They finished eating bread that had gone cold, and drank wine that should have been sold long ago."
-  },
-  {
-	"text": "No one mentioned ‘the loop.’ No one mentioned ‘next time.’"
-  },
-  {
-	"text": "Because this time, time itself was finally willing to move forward."
-  },
-  {
-	"event": [
-	  { "action": "show_name", "target": "Player" }
-	],
-	"text": "I placed the brass dice back into the deepest drawer of the counter and closed it."
-  },
-  {
-	"text": "The dice no longer rolled. It lay still, like an ordinary piece of metal."
-  },
-  {
-	"text": "Outside the window, the snow fell softly, like a blessing."
-  },
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "Alicia leaned back in the chair, eyes half-closed, her voice drowsy and soft:"
-  },
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Tomorrow… I want to try being the boss lady.”"
-  },
+
+  { "text": "That night, the tavern lights don’t go out early." },
+  { "text": "They finish cold bread and overdue wine beside the fire." },
+  { "text": "No one says ‘loop.’ No one says ‘next time.’" },
+  { "text": "Because this time—time finally moves forward." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“Are you sure? You’ll scare the customers away.”"
+	"text": "I place the brass die into the deepest drawer behind the counter and close it."
   },
+
+  { "text": "The die does not roll again. It rests like ordinary metal." },
+  { "text": "Snow falls lightly outside—like a blessing." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Then I’ll keep just one customer.”"
+	"text": "Half-asleep in her chair, she murmurs softly:"
   },
+
   {
-	"text": "She fell asleep right after saying that, her forehead gently resting against the table, finally safe."
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Tomorrow… I think I’ll try being the innkeeper’s wife.”"
   },
+
   {
-	"text": "I didn’t move. I stayed beside her and pulled her cloak over her."
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“You sure? You’ll scare off the customers.”"
   },
+
   {
-	"text": "The firelight reflected on her face—no longer like snow, no longer like a blade."
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Then I’ll keep just one.”"
   },
-  {
-	"text": "Like home."
-  },
+
+  { "text": "She falls asleep mid-sentence, forehead resting gently against the table—safe at last." },
+  { "text": "I stay beside her, pulling her cloak up over her shoulders." },
+  { "text": "The firelight on her face no longer looks like snow. No longer like steel." },
+  { "text": "It looks like home." },
+
   {
 	"event": [
-	  { "action": "change_scene", "target": "scene_end_happy" }
+	  {
+		"action": "game_over",
+		"message": "The world did not reset.\n\nThis time,\ntomorrow will truly arrive.\n\nThe die is silent.\nTime moves forward.\n\n—— TRUE END ——"
+	  }
 	]
   }
-]
+]  

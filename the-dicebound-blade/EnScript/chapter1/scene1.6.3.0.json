@@ -5,111 +5,111 @@
 	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "I raised a hand to stop Lucia and whispered, “Don’t move. I’ll hold them off—find a way to reach the mentor.”"
+	"text": "I reached out and stopped Lucia, lowering my voice. “Don’t move. I’ll hold them off—you find a way to get close to the mentor.”"
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "Her eyes widened, lips pale. “Are you insane?!”"
+	"text": "Her eyes widened, lips turning pale. “Are you insane?!”"
   },
   {
-	"text": "I took a deep breath and stepped out of the shadows. The blue light from the floor reflected across my face as I raised my empty hand."
+	"text": "I took a deep breath and stepped out of the shadows. Blue light reflected from the ground onto my face as I raised my empty hand."
   },
   {
 	"event": [
 	  { "action": "remove_character", "target": "Lucia" },
 	  { "action": "spawn_character", "target": "EnemyLeader", "pos": [450, 0] }
 	],
-	"text": "Lucia retreated back into the darkness, leaving me face-to-face with the cult leader."
+	"text": "Lucia retreated into the darkness, leaving only the leader and me facing each other."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Don’t misunderstand,” I said, forcing my voice to stay calm. “We’re not enemies. I only want to know—if she’s still alive.”"
+	"text": "“Don’t misunderstand,” I tried to steady my voice. “We’re not enemies. I just want to confirm—whether she’s still alive.”"
   },
   {
 	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "The robed leader slowly turned his head, his voice grinding like stone against metal. “Alive or dead, it makes no difference. Mortal, do not meddle with the order of echoes.”"
+	"text": "The black-robed leader slowly turned his head, his voice like stone grinding against iron. “Alive or dead is irrelevant to fate. Mortal, do not test the order of the Echo.”"
   },
   {
-	"text": "🎲 [Charisma Check: Failed] Your voice trembles slightly—he catches the hesitation beneath your words."
+	"text": "🎲【Charisma Check: Failed】Your voice trembles slightly, and he detects a hint of hesitation."
   },
   {
 	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "“Stalling?” He sneered. “You can’t even lie properly.”"
+	"text": "“Stalling?” he sneers. “You can’t even lie properly.”"
   },
   {
 	"event": { "action": "shake", "target": "Player" },
-	"text": "The blue light surged, the runes on the ground pulsing like a heartbeat."
+	"text": "Blue light suddenly gathers, the runes of the ritual pulsing like a heartbeat."
   },
   {
-	"text": "My chest tightened. The air warped, heat waves rolling outward."
+	"text": "My heart tightens. The air begins to warp, heat surging outward."
   },
   {
-	"text": "A whip of light lashed out, striking me square in the chest."
+	"text": "A whip of light lashes out and strikes my chest."
   },
   {
 	"event": { "action": "hp_lost", "amount": 10 },
-	"text": "Pain burst through my chest, flinging me backward. The taste of iron filled my mouth."
+	"text": "Blazing pain spreads from my chest. I’m thrown to the ground, the taste of blood rising in my throat."
   },
   {
 	"event": [
 	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] }
 	],
-	"text": "Lucia charged from the shadows, her staff blazing with light, placing herself between me and the enemy."
+	"text": "Lucia bursts from the shadows, her staff flaring brightly as she shields me behind her."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“Stop!” she shouted, her voice almost drowned out by the roar of the flames."
+	"text": "“Stop!” she shouts, her incantation nearly drowning out the roar."
   },
   {
-	"text": "A golden wall of light flared before us, blocking the next wave of attacks."
+	"text": "A golden wall of light unfolds before us, blocking the next strike."
   },
   {
-	"text": "But the ritual’s glow began to spiral out of control—blue fire spreading along the floor as if to devour the entire chamber."
+	"text": "But the ritual’s glow begins to spiral out of control. Blue flames crawl along the floor, threatening to consume the entire chamber."
   },
   {
 	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "The leader’s laughter echoed within the flames. “The Cycle must be fulfilled! Even if it demands flesh as the price!”"
+	"text": "The leader’s laughter echoes through the blazing light. “The cycle must be completed! Even if flesh itself must be the offering!”"
   },
   {
-	"text": "He raised both hands, the runes beneath him blazing ever brighter."
+	"text": "He raises both hands, the runes blazing brighter."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "Lucia shouted back, “Over my dead body!”"
+	"text": "“In your dreams!” Lucia cries out."
   },
   {
-	"text": "Her spell ripped through the air, the barrier expanding and separating me from Alicia."
+	"text": "Her spell tears through the air, the light barrier expanding and separating me from Alicia."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Lucia! Unlock it!” I screamed."
+	"text": "“Lucia! Unlock it!” I roar."
   },
   {
-	"text": "Her staff flared with brilliant light. The runes on the chains cracked and began to shatter."
+	"text": "Her staff erupts with dazzling light, the runes along the chains beginning to fracture."
   },
   {
-	"text": "The leader sensed the disturbance, but the ritual was already collapsing—energy surging out of control."
+	"text": "The leader senses the disruption—but the ritual is already unstable. Backlash energy surges like a tidal wave."
   },
   {
 	"event": { "action": "shake", "target": "Player" },
-	"text": "Blue light exploded, the shockwave consuming everything around us."
+	"text": "Blue light explodes outward, the shockwave overturning everything."
   },
   {
 	"event": [
 	  { "action": "remove_character", "target": "EnemyLeader" },
 	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] }
 	],
-	"text": "When I forced my eyes open, the cultists were gone—only Alicia and Lucia remained, lying unconscious among the rubble."
+	"text": "When I force my eyes open, the robed figures are gone. Alicia and Lucia lie unconscious beside the shattered stone."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“...Thank you...” she murmured faintly in her sleep."
+	"text": "“…Thank you…” she murmurs faintly in her unconscious state."
   },
   {
-	"text": "Wind poured in through the collapsed entrance. Snowflakes drifted down onto her face, as if gently covering her from the world."
+	"text": "Wind pours in through the collapsed entrance, snowflakes settling on her face as if to cover everything."
   },
   {
-	"text": "I gave a bitter smile. Fate was never fair."
+	"text": "I let out a bitter smile. Fate has never been fair."
   },
   {
 	"event": [

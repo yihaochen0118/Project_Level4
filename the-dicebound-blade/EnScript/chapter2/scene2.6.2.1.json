@@ -2,80 +2,91 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" },
+	  { "action": "unlock", "target": "2_6_2" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "I stay where I am, no longer pushing forward."
+	"text": "I stay, but don’t push forward."
   },
   {
-	"text": "I don’t touch her battlefield—I only do the work she said ‘wouldn’t get in the way’: hauling supplies, passing medicine, running errands, dragging the fallen back behind the line."
+	"text": "I don’t touch her battlefield—I only do the work she called “not getting in the way”: moving supplies, passing medicine, running errands, dragging the fallen to the rear."
   },
   {
-	"text": "The snow falls thicker and thicker. Mud and ice churn underfoot, every step like plunging into cold water. But the people at the North Gate don’t stop."
+	"text": "The snow falls heavier. Mud and ice churn together underfoot, every step like sinking into freezing water. But the people at the north gate don’t stop."
   },
-
   {
-	"text": "The moment the medicine chest is opened, the sharp scent of disinfectant overwhelms the smell of blood. Lucia crouches in a makeshift shelter, her fingers red from the cold, still wrapping bandages tight, loop after loop."
+	"text": "The moment the medical kit opens, the sharp scent of disinfectant cuts through the blood in the air. Lucia kneels inside a makeshift shelter, fingers red with cold, yet she wraps each bandage tight and steady."
   },
   {
 	"event": [{ "action": "spawn_character", "target": "Lucia", "pos": [450, 0] }],
-	"text": "She looks up and sees me—relief flickers in her eyes for a split second, then tightens again."
+	"text": "She looks up and sees me. Relief flickers in her eyes—then tightens again at once."
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "“You actually stayed…”"
+	"text": "“So you really stayed…”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“I’m just moving supplies. I won’t go forward.”"
+	"text": "“I’m just carrying things. I’m not stepping forward.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "“Then take these to the left shield line, behind the formation.”"
+	"text": "“Then take these to the shield line on the left.”"
   },
   {
-	"text": "She stuffs a pouch of clotting powder into my arms, moving fast—like if she slows down, she might start thinking too much."
-  },
-
-  {
-	"text": "I run past the temporary supply piles and see a different kind of struggle: someone bracing crates with their shoulder, someone retying ropes stiff with ice, someone shielding the wounded from the wind with torn blankets."
+	"text": "She shoves a pouch of clotting powder into my arms, quick—like if she slowed down, she’d start thinking too much."
   },
   {
-	"text": "No one shouts about heroes—only short, urgent calls of “Here,” “More,” “Hurry.”"
+	"text": "I run past the supply piles and see a different kind of struggle: someone bracing a crate with their shoulder, someone retieing ropes stiff with frost, someone shielding a wounded man with a torn blanket."
   },
-
+  {
+	"text": "No one shouts about heroes. Just short commands: “Here.” “Again.” “Hurry.”"
+  },
   {
 	"event": [{ "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }],
-	"text": "From a distance, I see Alicia standing on the stone steps. She makes no unnecessary movements, yet holds the entire line together."
+	"text": "From a distance, I see Alicia standing on the stone steps. She makes no wasted motion, yet the entire defense line tightens under her hands."
   },
   {
-	"text": "She points to the left wing and shields fill the gap at once; she raises a hand and the archers on the right reposition. Not a single word wasted."
+	"text": "She points to the left flank—shields shift at once. She raises a hand—the archers on the right reposition. Not a word wasted."
   },
   {
-	"text": "That kind of proficiency isn’t ease—it’s fear compressed to its thinnest layer, so thin it becomes invisible."
-  },
-
-  {
-	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "I hand the medicine to a guard, turn back toward her, and can’t help calling out, “Alicia!”"
-  },
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "She looks at me, her gaze flicking first to the medicine pouch in my hands, then to my position on the ground—confirming I haven’t crossed the line."
-  },
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“You’re doing the right thing.”"
+	"text": "That fluency isn’t ease—it’s fear pressed thin. So thin it can’t be seen."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“I’m not getting in the way.”"
+	"text": "I hand over the medicine and can’t help calling out, “Alicia!”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“You already are—in my head.”"
+	"text": "Her gaze lands on me, then quickly drops to the pouch in my hand, then to the ground at my feet—confirming I haven’t crossed the line."
   },
   {
-	"text": "She says it plainly, briefly—like she’s holding her emotions down and only allowing herself this much."
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Good.”"
+  },
+  {
+	"event": [
+	  { "action": "add_item", "target": "keeper_badge" }
+	],
+	"text": "She steps closer and pulls an old bronze badge from inside her cloak, pressing it into my hand."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Keep it. Guarding the fire is harder than wielding a sword.”"
+  },
+  {
+	"event": [{ "action": "hide_name" }],
+	"text": "The badge is cold at first, then slowly warms in my palm."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“I’m not in the way.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You’re already in my way—here.”"
+  },
+  {
+	"text": "She says it plainly, briefly. Like she’s holding something down and will only let it surface this far."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -83,7 +94,7 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“It hasn’t started yet—”"
+	"text": "“It hasn’t even started—”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -91,12 +102,11 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“I need you to hold the inn. Keep the fire lit. Bolt the door. If Lucia comes back, give her hot water.”"
+	"text": "“I need you to keep the inn secure. Keep the fire burning. Bolt the door. If Lucia comes back, give her hot water.”"
   },
   {
-	"text": "When she says the words “hot water,” her tone softens just a little—like she’s finally allowing herself to admit that someone will be afraid, will be cold, will reach their limit."
+	"text": "When she says “hot water,” her voice softens just slightly—as if she finally allows herself to admit someone might be afraid, cold, or unable to hold on."
   },
-
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“Will you come back?”"
@@ -110,26 +120,23 @@
 	"text": "“I’ll try.”"
   },
   {
-	"text": "Not a promise—just all the honesty she can give."
-  },
-
-  {
-	"text": "She lifts a hand and gestures me backward, placing me back into a ‘safe position.’ Then she turns to resume her deployment, her back clean and taut, like a bow drawn to full tension."
+	"text": "Not a promise—just the fullest honesty she can offer."
   },
   {
-	"text": "I stand there and realize my palms are slick with sweat. When the wind hits, the cold stings."
-  },
-
-  {
-	"text": "I leave the North Gate as she told me to. I keep looking back, watching the defensive line in the snow and fog tighten into a single stretched black thread."
+	"text": "She gestures me back again, placing me in the “safe position.” Then she turns and resumes directing the line, her silhouette clean and taut like a drawn bow."
   },
   {
-	"text": "When I return to the inn, the fire is still burning—but I can’t sit still."
+	"text": "I stand there, suddenly aware that my palms are slick with sweat. The wind cuts across them, cold and sharp."
   },
   {
-	"text": "That night, I don’t sleep. Every time the wind grows louder, I think it’s starting at the North Gate."
+	"text": "I leave the north gate as she told me to. Looking back along the way, the defensive line grows into a thin, dark thread in the snow-fog."
   },
-
+  {
+	"text": "When I reach the inn, the fire is still burning. But I can’t sit still."
+  },
+  {
+	"text": "That night, I don’t sleep. Every time the wind rises, I think it’s begun at the north gate."
+  },
   {
 	"event": [
 	  { "action": "change_scene", "target": "scene3.0" }

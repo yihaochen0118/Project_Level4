@@ -4,28 +4,28 @@
 	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "The firelight flickered in her eyes, the air still thick with the scent of wine."
+	"text": "Firelight flickers within her pupils, and the lingering scent of wine hangs in the air."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“And you?” I asked quietly. “What would you change?”"
+	"text": "“What about you? What would you want to change?” I ask in return."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She was silent for a long time, simply looking at me—so long that I nearly forgot to breathe."
+	"text": "She falls silent for a moment, simply looking at me. That gaze lingers—long enough to make one nearly forget to breathe."
   },
   {
-	"text": "Her gray-blue eyes seemed glazed with frost. Through the fire’s glow, nothing seemed able to reach her."
+	"text": "Her gray-blue eyes seem frosted over, and even through the firelight, it feels as though nothing can truly reach them."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Some questions,” she murmured, “are already too late once spoken.”"
+	"text": "“Some questions,” she says softly, “are already too late the moment they’re asked.”"
   },
   {
-	"text": "She took another slow sip of wine. The motion was calm, but carried a chill that pushed everything else away."
+	"text": "She takes another small sip of wine. The gesture is calm, yet edged with a chill that keeps others at a distance."
   },
   {
-	"text": "The fireplace popped softly, as if to echo the silence that followed."
+	"text": "The hearth suddenly cracks with a sharp pop, as if answering that silence."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.4" }]

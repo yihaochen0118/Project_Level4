@@ -2,57 +2,58 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_market_day" },
+	  { "action": "unlock", "target": "1_5_2" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "Stalls lined both sides of the street — grilled fish, spices, and flowers mingled with the scent of cooking smoke."
+	"text": "Market stalls line both sides of the street, the scents of grilled fish, spices, and fresh flowers mingling with drifting smoke."
   },
   {
-	"text": "The rhythmic clang of the blacksmith’s hammer echoed through the air, blending with chatter and the wind into a warm kind of bustle."
+	"text": "The steady rhythm of hammering from the blacksmith blends with voices and wind, forming a warm, lively chorus."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“I thought you could barely walk, but look at you—you’re faster than me.”"
+	"text": "“I thought you could barely walk. Didn’t expect you to move faster than me.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
 	"text": "“I’m just hungry.”"
   },
   {
-	"text": "I looked toward a grilled fish stall. “That smell should be illegal.”"
+	"text": "I glance toward a grilled fish stall nearby. “That smell is unfair.”"
   },
   {
-	"text": "Alicia sighed in mild exasperation but still followed me to the stand."
+	"text": "Alicia sighs in mock exasperation, yet follows me over to the stand."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
 	"text": "“Two skewers of fish.”"
   },
   {
-	"text": "She pulled out a few coins. “One’s for him.”"
+	"text": "She pulls out a few coins. “One for him.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“My treat this time.”"
+	"text": "“This one’s on me.”"
   },
   {
-	"text": "I paid before she could stop me. The vendor handed over the skewers with a smile, and the smoky aroma filled the air."
+	"text": "I pay first. The vendor grins and hands over the skewers, the scent of charcoal thick in the air."
   },
   {
-	"text": "Alicia blinked, accepting her skewer, and glanced at me curiously."
+	"text": "Alicia pauses, then accepts the fish, glancing at me."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Since when did you become so considerate?”"
+	"text": "“Since when did you become so attentive?”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Well, someone did save my life. Figured I should return the favor somehow.”"
+	"text": "“Someone saved my life the other day. Figured I should return the favor somehow.”"
   },
   {
-	"text": "She gave a quiet laugh and said nothing more."
+	"text": "She lets out a soft laugh and says nothing more."
   },
   {
-	"text": "Sunlight brushed across her face; the scent of grilled fish drifted on the breeze — a fleeting, yet unmistakably peaceful moment."
+	"text": "Sunlight brushes her profile as the aroma of grilled fish and the murmur of the crowd wrap around us—brief, but unmistakably real peace."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.6" }]

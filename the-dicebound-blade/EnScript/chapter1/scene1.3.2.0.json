@@ -4,39 +4,39 @@
 	  { "action": "spawn_character", "target": "Alicia", "pos": [450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "The fireplace crackled softly, filling the air with the scent of warm wine."
+	"text": "The hearth crackles softly, and the scent of warmed wine lingers in the air."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“I suppose I’ll just keep living as usual,” I said absently. “Running the inn, fixing doors, dealing with drunks… life has to go on somehow.”"
+	"text": "“I’ll probably just keep living as usual,” I say absentmindedly. “Running the inn, fixing doors, dealing with drunkards. Life has to go on.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She looked at me—expression unreadable, somewhere between thought and quiet judgment."
+	"text": "She looks at me, her expression complicated—half thoughtful, half scrutinizing."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Avoidance isn’t peace,” she said softly. Her tone was gentle, yet sharp enough to pierce the still air like a fine needle."
+	"text": "“Avoidance isn’t peace,” she says softly. The tone is light, yet it pierces the air like a fine needle."
   },
   {
-	"text": "She tapped the rim of her cup with her fingertip. The faint sound echoed clearly through the quiet inn."
+	"text": "She taps the rim of her glass with her fingertip, producing a faint sound that seems unusually clear in the quiet inn."
   },
   {
-	"text": "“Sometimes people think they’re living,” she murmured, “but really, they’re just being carried along by time.”"
+	"text": "“Sometimes people think they’re living,” she says, gazing into the firelight, her voice calm, “when in truth they’re just being pushed along by time.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Maybe being carried along is easier,” I replied quietly."
+	"text": "“Maybe being pushed along is easier,” I reply quietly."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Then so be it.” She smiled faintly and turned her gaze away. The smile was gentle—but held a distance that could never quite be crossed."
+	"text": "“Then let it be so.” She smiles faintly and withdraws her gaze. The smile is gentle, yet separated by a distance that cannot be crossed."
   },
   {
-	"text": "For a fleeting moment, I felt she wasn’t talking to me at all—but to some memory long gone, something that could never return."
+	"text": "In that moment, I suddenly feel that she isn’t speaking to me at all—but recalling something, a past long beyond redemption."
   },
   {
-	"text": "The firelight traced her profile, shadows weaving across her face like the edges of an unreachable dream."
+	"text": "Firelight washes over her profile, light and shadow intertwining like a dream no one can pass through."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.4" }]

@@ -2,35 +2,28 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern_night" },
+	  { "action": "unlock", "target": "3_7_2" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "I don’t follow her out. The moment the door closes, I regret it—but I push the bar in deeper anyway, like I’m wrestling my own impulse into place."
+	"text": "I don’t follow her out. The moment the door closes, I regret it—but I slide the bolt in deeper anyway, like I’m wrestling with my own impulse."
   },
-  {
-	"text": "The fire in the hearth flickers. I stare at the light, forcing myself to believe: she doesn’t need me. She never has. She never needs anyone."
-  },
-  {
-	"text": "But the silence is torture. Every crack of burning wood sounds like fighting somewhere far away; every gust of wind feels like footsteps stopping outside the door."
-  },
-  {
-	"text": "I stand up, then sit down. Sit down, then stand again. In the end, I wipe the table three times and set the glasses back to the exact same angle."
-  },
-  {
-	"text": "I don’t know what I’m waiting for—until soft footsteps come from the stairs."
-  },
-  {
-	"text": "They’re steady. Familiar. Like someone who’s walked this path hundreds of times."
-  },
+
+  { "text": "The hearth flickers. I stare at the flame, trying to convince myself: she doesn’t need me. She never has." },
+  { "text": "But the silence is unbearable. Every crack of burning wood sounds like distant combat; every gust of wind like someone pausing outside the door." },
+  { "text": "I stand, sit, stand again. I wipe the table three times. I realign the glasses to the same exact angle." },
+  { "text": "I don’t know what I’m waiting for—until I hear soft footsteps on the stairs." },
+  { "text": "The steps are steady. Familiar. Like someone who’s walked this path a hundred times." },
+
   {
 	"event": [
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
 	  { "action": "show_name", "target": "Alicia" }
 	],
-	"text": "Alicia emerges from the shadow of the stairwell. Snow clings to the edge of her cloak. There’s a fresh cut across her knuckles."
+	"text": "Alicia steps out from the stairwell shadows. Snow clings to the edge of her cloak. There’s a fresh cut across her knuckles."
   },
-  {
-	"text": "She doesn’t look at me—as if meeting my eyes would create unnecessary emotion."
-  },
+
+  { "text": "She doesn’t look at me—as if eye contact would invite unnecessary emotion." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“You’re back.”"
@@ -39,15 +32,13 @@
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Mm.”"
   },
-  {
-	"text": "She tosses something onto the counter. The soft clink of metal on wood makes my chest tighten."
-  },
-  {
-	"text": "It’s a ring-shaped token, its edge scorched and pitted—as if it’s been torn straight out of fire."
-  },
+
+  { "text": "She tosses something onto the counter. The metal striking wood is soft—but it tightens my chest." },
+  { "text": "It’s a ring-shaped token, its edge scorched like it was torn straight from fire." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“Is that… from the Echo Circle?”"
+	"text": "“That’s… the Echo Circle’s?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -55,69 +46,71 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“I paid them a visit. Saves them from trying the old routine.”"
+	"text": "“I paid them a visit. Saves them from trying their usual tricks.”"
   },
-  {
-	"text": "She says it like it’s nothing—but her shoulders are visibly tense, the strain of someone who’s already pushed past her limit."
-  },
+
+  { "text": "She says it like it’s nothing—but her shoulders are visibly tense. The fatigue of someone who’s been holding herself upright too long." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“A real nuisance.”"
+	"text": "“Annoying, honestly.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“You went alone again?”"
   },
+
+  { "text": "She finally looks at me. There’s no reproach—just that steady calm that says don’t complicate this." },
+
   {
-	"text": "She finally looks at me, just for a moment. There’s no reproach in her eyes—only a cool clarity that says: don’t complicate this."
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“You staying here was right.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“You did the right thing, staying here.”"
+	"text": "“If you came, I’d have to split my focus protecting you.”"
   },
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“If you’d come, I’d have had to split my focus protecting you.”"
-  },
-  {
-	"text": "She pauses, as if swallowing something even more blunt."
-  },
+
+  { "text": "She pauses—swallowing something more direct." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“I don’t want another variable.”"
   },
-  {
-	"text": "She nudges the token closer. Her fingers tremble slightly. She pulls her hand back at once, like she doesn’t want me to see."
-  },
+
+  { "text": "She nudges the token closer. Her fingers tremble faintly. She pulls her hand back immediately, like she doesn’t want me to notice." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“You’re hurt.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Just a scratch.”"
+	"text": "“Small cut.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Don’t ask how.”"
+	"text": "“Don’t ask about the rest.”"
   },
+
+  { "text": "She adjusts her cloak over her shoulders, like hiding the scent of blood along with the wound." },
+
   {
-	"text": "She pulls her cloak tighter around her shoulders, like she’s trying to hide the smell of blood along with everything else."
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I’ll handle the Echo Circle line.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“I’ll handle the Echo Circle.”"
+	"text": "“You just guard the inn. Guard yourself.”"
   },
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“You just keep the tavern safe. Keep yourself safe.”"
-  },
-  {
-	"text": "Only after saying that does her breathing seem to settle back into her chest. She pockets the token and turns toward the stairs."
-  },
+
+  { "text": "Only after saying that does her breathing settle back into her chest." },
+  { "text": "She takes the token and turns toward the stairs." },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“Are you going out again tomorrow?”"
+	"text": "“You’re going out again tomorrow?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -125,18 +118,18 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“This isn’t over yet.”"
+	"text": "“It’s not over yet.”"
   },
-  {
-	"text": "At the foot of the stairs, she stops—like she’s finally allowing herself a single leak of exhaustion."
-  },
+
+  { "text": "At the foot of the stairs, she stops—like she’s finally allowed herself to exhale a fraction." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“You did well tonight.”"
   },
-  {
-	"text": "It isn’t praise. It’s confirmation: you’re alive, and you weren’t pulled in."
-  },
+
+  { "text": "It isn’t praise. It’s confirmation: you’re alive—and you weren’t pulled into it." },
+
   {
 	"event": [
 	  { "action": "change_scene", "target": "scene3.9" }

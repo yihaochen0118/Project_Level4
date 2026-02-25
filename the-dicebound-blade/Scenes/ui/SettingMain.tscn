@@ -209,13 +209,3 @@ offset_top = 36.0
 offset_right = 825.0
 offset_bottom = 111.0
 text = "BGM启用"
-
-[node name="快捷键设置" type="Control" parent="Panel/TabContainer"]
-visible = false
-layout_mode = 2
-metadata/_tab_index = 3
-
-[node name="其他设置" type="Control" parent="Panel/TabContainer"]
-visible = false
-layout_mode = 2
-metadata/_tab_index = 4

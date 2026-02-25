@@ -1,107 +1,126 @@
 [
   {
 	"event": [
-	  { "action": "hide_talk_ui" },
-	  { "action": "set_background", "target": "tavern_upstairs" },
-	  { "action": "show_talk_ui" }
+	  { "action": "show_talk_ui" },
+	  { "action": "unlock", "target": "2_1_1" }
 	]
   },
 
   {
-	"text": "I chased upstairs. The corridor was eerily quiet. Her door wasn’t locked, as if she had known I would come."
-  },
-
-  {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"…Who are you, really? And why didn’t you step in just now?\""
+	"text": "“What’s wrong with you today?” I lower my voice. “You’re not cold. You just look like… you’re about to break.”"
   },
 
   {
 	"event": { "action": "hide_name" },
-	"text": "A faint sigh came from inside the room, like she was letting something heavy slip from her chest."
+	"text": "Alicia’s fingers pause slightly. For a brief moment, it seems like she’s trying to pretend nothing is wrong—but in the end, she can’t quite hold it together."
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"Who I am isn’t something you need to know right now.\""
+	"text": "“Don’t ask that in front of her.”"
   },
 
   {
-	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"Then at least tell me this: why did you just watch while I got beaten? I saw your sword. Aren’t you a swordsman? Where was your responsibility?\""
-  },
-
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "She was silent for two seconds, then said plainly, \"Because I’m too tired.\""
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“Master… I’m not an outsider.”"
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"It’s not that you weren’t worth saving. I just couldn’t hold on.\""
+	"text": "“You are.”"
   },
 
   {
 	"event": { "action": "hide_name" },
-	"text": "The door opened slightly. She stood behind it, her face pale, dark circles heavy beneath her eyes as if she hadn’t slept for days. Her grip on the sword, however, remained steady."
+	"text": "The words are cold, but her voice drops slightly afterward, as if restraining regret."
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"I’ve handled things like this before. Many times.\""
-  },
-
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"But today, I don’t have the strength. If you want an explanation, this is it: I’m so exhausted that even lifting my hand hurts.\""
-  },
-
-  {
-	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"…So you’re asking me to understand you?\""
-  },
-
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"Yes.\" She nodded once. \"You can blame me if you want, but don’t be reckless. If you had gone up against him tonight, you would have died.\""
-  },
-
-  {
-	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"How do you know I would have died?\""
-  },
-
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"I’ve seen it,\" she said calmly. \"That’s why I didn’t bother pretending this was our ‘first meeting.’\""
-  },
-
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"Listen. Don’t go out. Tonight is dangerous.\""
-  },
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"You don’t have to understand the reason. Just do as I say.\""
+	"text": "“…I’m just too tired.”"
   },
 
   {
 	"event": { "action": "hide_name" },
-	"text": "Her tone wasn’t harsh—if anything, it was almost gentle, like she was leaving a way out for someone who didn’t know any better."
+	"text": "Lucia freezes, her eyes reddening instantly—because perhaps this is the one admission she had been waiting for."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“I knew it… your hands were shaking this morning.”"
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"Go downstairs,\" she added. \"Apply some medicine. Don’t push yourself.\""
+	"text": "“Don’t cry.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“And don’t push your worry onto someone else.”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Player" }],
+	"text": "“So this morning—you didn’t step in because you were tired?”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "She glances at the bandage at the corner of my mouth and pauses for two seconds."
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“…Yes.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“It’s not that I didn’t want to.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“I was just afraid that if I reached out once more, I wouldn’t be able to pull my hand back.”"
   },
 
   {
 	"event": { "action": "hide_name" },
-	"text": "The door closed slowly—not to drive me away, but because she truly didn’t have the strength left to keep talking."
+	"text": "The words are startlingly direct—so direct they don’t sound like her. The moment she finishes, it’s as if she realizes she’s revealed too much, and she quickly forces her emotions back down."
   },
 
   {
-	"text": "I stood in the corridor, realizing for the first time that her earlier coldness might not have been indifference, but exhaustion stretched to its limit."
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Two rooms.”"
+  },
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Lucia, you’ll stay next to me.”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Lucia" }],
+	"text": "“Okay! I—I’ll sort your things… and I’ll make sure you take your medicine on time!”"
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "Lucia seems to finally breathe again and immediately gets busy—organizing the bottles, laying out clean cloths, even placing a bowl of hot soup by Alicia’s side."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“…Thank you.”"
+  },
+
+  {
+	"event": { "action": "hide_name" },
+	"text": "Her voice is so soft it’s almost inaudible—but it is, unmistakably, a thank you."
+  },
+
+  {
+	"text": "Alicia lifts the bowl of hot soup but doesn’t drink. She only cups the rim in her hands, as if borrowing a bit of warmth to keep herself from falling apart."
+  },
+  {
+	"text": "She is still distant—but that distance now feels less like arrogance, and more like a shell she needs in order to survive."
   },
 
   {

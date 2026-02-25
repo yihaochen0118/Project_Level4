@@ -73,6 +73,7 @@ func _update_equipment_buttons():
 
 func _on_item_pressed(item_name: String):
 	print("🎯 使用装备: ", item_name)
+	SdMgr.play_sfx(preload("res://images/Sound/item_beUsed.mp3"))
 	PlayerData.use_item(item_name)
 
 

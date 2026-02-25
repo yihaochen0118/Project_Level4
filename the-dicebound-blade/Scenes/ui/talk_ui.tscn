@@ -41,9 +41,9 @@ text = "awe"
 [node name="NameLabel" type="Label" parent="NinePatchRect"]
 layout_mode = 0
 offset_left = 246.0
-offset_top = 57.0
+offset_top = 63.0
 offset_right = 398.0
-offset_bottom = 135.0
+offset_bottom = 141.0
 theme_override_colors/font_color = Color(0.1882353, 0.27058825, 0.92941177, 1)
 theme_override_fonts/font = SubResource("SystemFont_ypu5u")
 theme_override_font_sizes/font_size = 32

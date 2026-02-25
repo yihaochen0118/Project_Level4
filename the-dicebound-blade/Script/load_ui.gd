@@ -77,6 +77,7 @@ func load_save_slots():
 
 func _on_save_selected(path: String):
 	print("🗂️ 读取存档: ", path)
+	SdMgr.play_sfx(preload("res://images/Sound/load_selected.mp3"))  # ← 加这里
 	var file = FileAccess.open(path, FileAccess.READ)
 	if not file:
 		push_error("❌ 无法打开存档: " + path)
@@ -98,4 +99,5 @@ func _input(event):
 
 
 func _on_back_pressed():
+	SdMgr.play_sfx(preload("res://images/Sound/Back.mp3"))  # ← 加这里
 	queue_free()

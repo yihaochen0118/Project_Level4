@@ -7,107 +7,108 @@
 	]
   },
 
-  {
-	"text": "I chased upstairs. The corridor was eerily quiet. Her door wasn’t locked, as if she had known I would come."
+  { 
+	"text": "I hurry upstairs. The corridor is unnervingly quiet. Her door isn’t locked—as if she already knew I would come." 
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"…Who are you, really? And why didn’t you step in back there?\""
+	"text": "“…Who are you, really? And why didn’t you step in just now?”"
   },
 
-  {
-	"event": { "action": "hide_name" },
-	"text": "A faint sigh drifted from inside the room, like she was exhaling something that had been weighing on her chest."
+  { 
+	"event": { "action": "hide_name" }, 
+	"text": "A soft sigh comes from inside, like something heavy being forced out of her chest." 
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"Who I am isn’t something you need to know right now.\""
+	"text": "“Who I am isn’t something you need to know right now.”"
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"Then at least tell me this: why did you just watch while I was beaten? I saw your sword. Aren’t you a swordsman? Where was your responsibility?\""
+	"text": "“Then at least tell me this: why did you just stand there while I was getting beaten? I saw your sword—you’re a swordswoman, aren’t you? What about your responsibility?”"
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "She stayed silent for two seconds, then said plainly, \"Because I’m exhausted.\""
+	"text": "She falls silent for two seconds, then answers plainly: “Because I’m too tired.”"
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"It’s not that you weren’t worth saving. I just… couldn’t keep going.\""
+	"text": "“It’s not that you weren’t worth saving. I just truly couldn’t keep going.”"
   },
 
-  {
-	"event": { "action": "hide_name" },
-	"text": "The door opened a crack. She stood behind it, her face pale, dark circles heavy beneath her eyes as if she hadn’t slept for days. Yet the hand on her sword was still steady."
-  },
-
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"I’ve dealt with things like this before. Over and over.\""
+  { 
+	"event": { "action": "hide_name" }, 
+	"text": "The door opens slightly. She stands behind it, face pale, dark circles heavy as if she hasn’t slept for days. Yet the hand holding her sword is still steady." 
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"But today, I don’t have the strength. If you want an explanation, this is it: I’m so tired that even lifting my hand hurts.\""
+	"text": "“I used to step in for things like that. Many times.”"
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“But today, I don’t have the strength. If you want an explanation, that’s the only one: I’m so tired that even lifting my hand feels painful.”"
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"…So you want me to understand you?\""
+	"text": "“…So you want me to understand you?”"
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"Yes.\" She nodded once. \"You can blame me if you want, but don’t be reckless. If you had gone up against him tonight, you would have died.\""
+	"text": "“Yes.” She nods. “You can blame me. Just don’t act recklessly. If you had gone head-to-head with him today, you would have died.”"
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "\"How do you know I would have died?\""
+	"text": "“How do you know I would’ve died?”"
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"I’ve seen it,\" she said calmly. \"That’s why I couldn’t be bothered to pretend this was our ‘first meeting.’\""
+	"text": "“I’ve seen it.” She says it calmly. “That’s why I can’t be bothered pretending this is our first time meeting.”"
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"Listen. Don’t go out. Tonight is dangerous.\""
-  },
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"You don’t need to understand the reason. You just need to do as I say.\""
-  },
-
-  {
-	"event": { "action": "hide_name" },
-	"text": "Her tone wasn’t harsh—if anything, it was almost gentle, like she was leaving a way to survive for someone who didn’t know better."
+	"text": "“Listen. Don’t go outside. Tonight is dangerous.”"
   },
 
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "\"Go downstairs,\" she added. \"Apply some medicine. Don’t push yourself.\""
+	"text": "“You don’t have to understand the reason. You just have to do as I say.”"
+  },
+
+  { 
+	"event": { "action": "hide_name" }, 
+	"text": "Her tone isn’t harsh—if anything, it’s gentle. Like someone trying to leave a way out for a person who doesn’t know the full truth." 
   },
 
   {
-	"event": { "action": "hide_name" },
-	"text": "The door closed slowly—not as a rejection meant to drive me away, but because she truly didn’t have the strength left to continue the conversation."
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Go downstairs,” she adds. “Put medicine on it. Don’t push yourself.”"
   },
 
-  {
-	"text": "I stood in the corridor, realizing for the first time that her earlier coldness might not have been indifference—but exhaustion stretched to its breaking point."
+  { 
+	"event": { "action": "hide_name" }, 
+	"text": "The door closes slowly. It doesn’t feel like rejection—more like she truly doesn’t have the strength to keep the conversation going." 
+  },
+
+  { 
+	"text": "I stand in the corridor, realizing for the first time: her indifference earlier might not have been apathy—she might simply have been on the verge of breaking." 
   },
 
   {
 	"event": [
 	  { "action": "hide_talk_ui" },
-	  { "action": "change_scene", "target": "scene2.1" }
+	  { "action": "change_scene", "target": "scene2.2" }
 	]
   }
 ]

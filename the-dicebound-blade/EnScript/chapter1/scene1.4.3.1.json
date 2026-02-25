@@ -7,73 +7,75 @@
 	  { "action": "set_background", "target": "forest_path" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "The monster let out a deep growl, the rocky plates on its limbs glinting coldly. Its breath was hot and heavy, as if it could crush the whole forest beneath it."
+	"text": "The beast lets out a low growl, the rocky armor along its limbs gleaming with a cold sheen. Its breath is heavy and scorching, as though it could crush the entire forest under its weight."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "I forced myself to stay calm, eyes fixed on its movements. It was fast and heavy, but each time it landed, its right foreleg hesitated slightly."
+	"text": "I force myself to stay calm. Instead of moving recklessly, I watch it carefully. It moves fast despite its weight—but each time it lands, its right foreleg hesitates for just a fraction of a second."
   },
   {
-	"text": "In that moment, I understood—that was its weak point."
+	"text": "In that instant, I understand—that’s the weakness."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Alicia! Its right leg—there’s a crack there!” I shouted."
+	"text": "“Alicia! Its right leg—there’s a crack!” I shout."
   },
   {
 	"event": { "action": "shake", "target": "Monster1" },
-	"text": "She reacted instantly, twisting her stance as her body flashed like silver light. Her blade struck cleanly at the crack. With a muffled impact, the creature froze mid-motion before collapsing, dissolving into a cloud of gray smoke."
+	"text": "She reacts immediately, pivoting in one fluid motion. Like a streak of silver, she drives her blade straight into the fracture. With a dull impact, the beast freezes, then collapses and dissolves into a wisp of green smoke."
   },
   {
-	"event": [{ "action": "remove_character", "target": "Monster1" }],
-	"text": "I exhaled heavily, my legs still trembling. Alicia sheathed her sword, scanning the ground to ensure the creature was truly gone before turning back to me."
+	"event": [
+	  { "action": "remove_character", "target": "Monster1" }
+	],
+	"text": "I exhale deeply, my legs still trembling. Alicia slides her sword back into its sheath and scans the ground to ensure the creature is truly gone before turning back to me."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“That shout just saved my life,” she said with a faint smile. “Sharp eyes you’ve got there.”"
+	"text": "“That shout just saved me a lot of trouble.” There’s a hint of a smile in her voice. “Sharp eyes.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“I… just got lucky.” I scratched my head awkwardly."
+	"text": "“I… just got lucky.” I rub the back of my neck."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Luck doesn’t tell you where a crack is.” She chuckled softly. “Next time you notice something like that, tell me sooner.”"
+	"text": "“Luck doesn’t point out cracks in armor.” She chuckles softly. “Next time you notice something like that, tell me sooner.”"
   },
   {
-	"text": "The wind swept through the forest, carrying away the lingering smoke. Alicia’s gaze fell on the scorched earth, her expression turning solemn."
+	"text": "A breeze sweeps through the trees, carrying away the lingering smoke. Alicia’s gaze falls to the scorched earth, her expression turning more solemn."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“These creatures aren’t natural,” she said quietly. “They’re ‘Residual Dreams’—the traces left behind by the dead.”"
+	"text": "“These creatures aren’t natural,” she says quietly. “They’re ‘Lingering Dreams’—traces left behind by the dead.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Residual Dreams?” I frowned."
+	"text": "“Lingering Dreams?” I frown."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "“Yes. In places where wars were fought and lives were lost, the ground absorbs their final emotions. Over time, those emotions take form.”"
+	"text": "“Yes. In places where battles were fought and people died, their final emotions sink into the ground. Over time, they become things like this.”"
   },
   {
-	"text": "Her gaze softened as she looked at me. “You did well back there. Thank you.”"
+	"text": "She looks back at me, her voice gentler now. “You did well just now. Thank you.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "I smiled sheepishly. “That’s because you’re a good teacher.”"
+	"text": "I smile sheepishly. “That’s because you taught me well.”"
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "She laughed lightly. “I didn’t teach you that.”"
+	"text": "She laughs lightly. “I never taught you that.”"
   },
   {
-	"text": "She extended her hand, and I instinctively took it—the warmth of her palm still carried the heat of battle."
+	"text": "She extends her hand, and I take it instinctively—her palm still warm from the afterglow of battle."
   },
   {
-	"text": "“You sure get comfortable fast. Come on, the market’s just ahead.”"
+	"text": "“You’re surprisingly quick to get comfortable,” she teases. “Come on. The market’s just ahead.”"
   },
   {
-	"text": "Alicia smiled again, a soft, fleeting smile like sunlight filtering through the trees—warm and hard to look away from."
+	"text": "Alicia smiles again, the expression faint but bright—like sunlight slipping through leaves and settling quietly in the heart."
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.5" }]

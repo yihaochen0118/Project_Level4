@@ -3,13 +3,14 @@
 	"event": [
 	  { "action": "set_background", "target": "underground_entrance" },
 	  { "action": "show_talk_ui" },
+	  { "action": "unlock", "target": "2_5_1" },
 	  { "action": "show_name", "target": "Player" }
 	],
-	"text": "I lower my voice and press on: “What is this place, exactly? And why do you seem so familiar with it?”"
+	"text": "I lowered my voice and pressed on, “Where exactly is this? Why do you seem so familiar with it?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "Alicia doesn’t answer right away. She turns the token in her palm, as if weighing whether the words are worth letting out."
+	"text": "Alicia didn’t answer immediately. She turned the token in her palm, as if weighing whether to let the words out."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -21,11 +22,11 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "She draws a shallow breath. “More than once.”"
+	"text": "She drew a soft breath. “More than once.”"
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "The residual glow of the underground chamber reflects in her eyes, like a thread about to snap. Her shoulders loosen for a brief instant, then tense again."
+	"text": "The fading glow of the basement reflected in her eyes like a thread about to snap. Her shoulders loosened for a brief second, then tensed again."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
@@ -37,7 +38,7 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“Then when you said ‘we’ll need it again tomorrow’—you’re coming back?”"
+	"text": "“Then when you said ‘we’ll need it tomorrow’—you’re coming back?”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -45,17 +46,17 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“I need to confirm whether this time… it happened ‘early.’”"
+	"text": "“I need to confirm whether this time it’s ‘earlier.’”"
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "She speaks plainly, but stops at what’s merely sufficient—deliberately skirting a deeper truth."
+	"text": "She spoke plainly, but stopped at just enough of an answer—deliberately avoiding a deeper truth."
   },
   {
 	"event": [
 	  { "action": "show_name", "target": "Lucia" }
 	],
-	"text": "Lucia cuts in softly, “Master… please stop forcing yourself, okay? You don’t look well at all.”"
+	"text": "Lucia cut in softly, “Mentor… please stop pushing yourself, okay? You don’t look well.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -67,11 +68,11 @@
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "Lucia pulls the cloak tighter around her shoulders, the motion practiced—like she’s done this kind of tending many times before."
+	"text": "Lucia pulled the cloak tighter around her shoulders, the motion so practiced it was clear she’d done this many times before."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "She finally pulls her gaze away from the formation marks and looks at me. “Let’s go back.”"
+	"text": "At last, she shifted her gaze away from the formation and looked at me. “Let’s go back.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -87,7 +88,21 @@
   },
   {
 	"event": [{ "action": "hide_name" }],
-	"text": "She turns and heads out. Her steps are steady—but they feel like they’re being held together by her last bit of strength."
+	"text": "She turned and walked toward the exit. Her steps were steady—but like steadiness forced out of the last breath she had."
+  },
+  {
+	"event": [
+	  { "action": "add_item", "target": "time_mark_stone" }
+	],
+	"text": "At the edge of the formation lay an unremarkable gray fragment of stone. When I picked it up, a faint tremor pulsed through my fingertips."
+  },
+  {
+	"event": { "action": "show_name", "target": "Player" },
+	"text": "“…That stone wasn’t here just now.”"
+  },
+  {
+	"event": { "action": "hide_name" },
+	"text": "Fine etched marks surfaced across the stone’s surface, as if traced over countless times."
   },
   {
 	"event": [

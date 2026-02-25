@@ -5,117 +5,117 @@
 	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "I pressed a hand on Lucia’s shoulder and whispered, “Don’t move. I’ll distract them—you use the chance to save her.”"
+	"text": "I pressed a hand on Lucia’s shoulder and whispered, “Don’t move. I’ll hold them off—you rescue her while they’re distracted.”"
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "Lucia’s eyes widened, her voice trembling. “Are you crazy? That’s a ritual circle!”"
+	"text": "Lucia’s eyes widened, her voice trembling. “Are you insane? That’s a ritual circle!”"
   },
   {
-	"text": "I didn’t answer. I drew a deep breath and slowly stepped out of the shadows. Blue light flowed along the floor, and the air was thick with damp chill."
+	"text": "I didn’t answer. I simply took a deep breath and stepped slowly out of the shadows. Blue light flowed across the ground, the air thick with damp cold."
   },
   {
 	"event": [
 	  { "action": "remove_character", "target": "Lucia" },
 	  { "action": "spawn_character", "target": "EnemyLeader", "pos": [450, 0] }
 	],
-	"text": "I stepped into the glowing circle, facing the robed leader directly."
+	"text": "I stepped into the glow of the circle, facing the black-robed leader head-on."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Forgive the intrusion,” I said, raising both hands and keeping my tone as calm as I could. “I mean no harm—I just want to know… why is she here?”"
+	"text": "“Apologies for the interruption,” I raised both hands, keeping my tone steady. “I mean no offense. I only wish to know—why is she here?”"
   },
   {
 	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "The leader lifted his head, his mask reflecting the circle’s light. “Outsider, you should not be here. This place belongs to the Echo.”"
+	"text": "The leader lifted his head, his mask reflecting the ritual’s light. “Outsider, you should not be here. This place belongs to the ‘Echo.’”"
   },
   {
-	"text": "🎲 [Charisma Check: Success] Your tone is steady enough to make him hesitate for a moment."
+	"text": "🎲【Charisma Check: Success】Your voice is firm, causing him to pause slightly."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“‘The Echo’? She’s the town’s healer. Did you capture her to heal someone—or to sacrifice her?”"
+	"text": "“‘Echo’? She’s the town’s healer. Did you take her to save lives—or to offer her as a sacrifice?”"
   },
   {
 	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "“She understands the art of the Cycle,” he said softly. “We merely help her remember. Mortals know nothing of the price of the soul.”"
+	"text": "“She understands the art of the Cycle. We are merely helping her ‘remember,’” he replied in a low voice. “Mortals cannot comprehend the price of a soul.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Maybe not,” I replied, lifting the brass die in my hand. “But balance—should belong to the one who rolls it.”"
+	"text": "“Maybe not.” I lifted the brass die. “But the balance of fate should be decided by the one who rolls the dice.”"
   },
   {
-	"text": "The leader’s breath faltered slightly. The chanting in the circle wavered."
+	"text": "The leader’s breathing faltered slightly. The chanting within the circle weakened."
   },
   {
 	"event": [
 	  { "action": "spawn_character", "target": "Lucia", "pos": [-450, 0] }
 	],
-	"text": "Lucia seized the moment, moving to the edge of the formation. Light flowed from her fingertips along the chains."
+	"text": "Taking the opportunity, Lucia slipped to the edge of the circle, light flowing from her fingertips along the chains."
   },
   {
-	"text": "I saw her spell begin to take effect—and quickly drew the leader’s attention again."
+	"text": "I saw her spell beginning to take effect and quickly drew the leader’s attention again."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“This ‘Cycle’ you speak of… does it mean rebirth?” I asked."
+	"text": "“This ‘cycle’ you speak of—does it mean rebirth?” I asked."
   },
   {
 	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "“Yes.” His voice deepened. “She abandoned her power—so I will use it properly.”"
+	"text": "“Yes.” He lifted his head, voice low. “She abandoned her own power. Then I shall use that power properly.”"
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“And you?” I stepped closer. “Does that power truly belong to you?”"
+	"text": "“And you?” I stared him down. “Does the power you seek truly belong to you?”"
   },
   {
 	"event": { "action": "shake", "target": "EnemyLeader" },
-	"text": "His expression froze. The glow of the circle began to distort."
+	"text": "He faltered. The light of the ritual circle began to destabilize."
   },
   {
-	"text": "Lucia broke the final seal, and the blue light surged backward. The formation’s energy turned on itself."
+	"text": "Lucia shattered the final seal. Blue light surged backward, the ritual’s energy beginning to recoil."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“Mentor!” Lucia cried, catching Alicia as she fell."
+	"text": "“Mentor!” Lucia rushed forward and caught Alicia as she fell."
   },
   {
-	"text": "A burst of energy flooded the chamber, drowning everything in blue light."
+	"text": "The energy erupted, flooding the basement in blue light."
   },
   {
 	"event": { "action": "show_name", "target": "EnemyLeader" },
-	"text": "The leader roared, “You destroyed the Cycle!”"
+	"text": "The leader screamed, “You’ve destroyed the Cycle!”"
   },
   {
-	"text": "The backlash tore through his sigils. He was consumed by the blue fire and reduced to ash."
+	"text": "The backlash tore through his sigils. He was consumed by the blue light and reduced to ash."
   },
   {
 	"event": [
 	  { "action": "remove_character", "target": "EnemyLeader" },
 	  { "action": "spawn_character", "target": "Lucia", "pos": [450, 0] }
 	],
-	"text": "Dust drifted through the air—only Lucia’s ragged breathing remained."
+	"text": "Dust drifted through the air. Only Lucia’s breathing remained."
   },
   {
 	"event": { "action": "show_name", "target": "Lucia" },
-	"text": "“The mentor’s alive… her breathing’s weak, but she’s still here.” Her voice trembled."
+	"text": "“She’s alive… her breathing is weak, but it’s there.” Her voice trembled."
   },
   {
 	"event": { "action": "show_name", "target": "Player" },
-	"text": "“Come on, this place is about to collapse.”"
+	"text": "“Let’s go. This place is about to collapse.”"
   },
   {
 	"event": [
 	  { "action": "set_background", "target": "Street" }
 	],
-	"text": "We left the underground chamber one after another. Cold wind rushed in through the broken opening, and snowflakes landed on Alicia’s hair."
+	"text": "We left the basement one after the other. Cold wind poured in through the breach, snow settling in Alicia’s hair."
   },
   {
 	"event": { "action": "show_name", "target": "Alicia" },
-	"text": "I held Alicia in my arms as she murmured faintly in her sleep, “...Thank you…”"
+	"text": "I held Alicia in my arms as she murmured softly in her sleep, “…Thank you…”"
   },
   {
-	"text": "The wind swept down the street, scattering the last of the ashes. Silent snow continued to fall."
+	"text": "The wind swept past the street corner, scattering the last of the ashes. Night snow fell silently."
   },
   {
 	"event": [

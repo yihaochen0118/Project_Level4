@@ -2,23 +2,24 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern" },
+	  { "action": "unlock", "target": "3_1_2" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "[3.1.1.0 | Option A: Accept Her]"
+	"text": "【3.1.1.0｜Option A: Agree to Her】"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“…Alright. I’ll come.”"
   },
   {
-	"text": "The moment the words leave my mouth, even I’m startled. Like I’ve just read out a line that was written long before I knew it existed."
+	"text": "The words leave my mouth and even I’m startled. Like I’ve just read a line that was written long before I saw the page."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Mm.”"
   },
   {
-	"text": "She answers with just that one sound, but it’s like she exhales in relief—only to immediately pull that breath back in and pretend she’s calm."
+	"text": "It’s only a single sound, but she exhales with it. Then quickly swallows that relief and straightens herself."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -29,7 +30,7 @@
 	"text": "“What do you want to eat?”"
   },
   {
-	"text": "Her gaze flickers, like the question has brushed against something soft and dangerous."
+	"text": "Her gaze flickers—like the question touched something soft and dangerous."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
@@ -37,72 +38,79 @@
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Just don’t make it too salty.”"
+	"text": "“Just… not too salty.”"
   },
   {
-	"text": "She adds quickly, her words tumbling out:"
+	"text": "She adds quickly, almost tripping over the words:"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Your hand is injured—don’t force it when you’re cutting. The knife is in the second drawer, not the first.”"
+	"text": "“Your hand’s still hurt. Don’t force it while cutting. The knife’s in the second drawer. Not the first.”"
   },
   {
 	"text": "I look up sharply. I’ve never told her about that drawer."
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“Why do you even know that—”"
+	"text": "“How do you even know—”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Because I don’t want to watch you cut your hand again.”"
+	"text": "“Because I don’t want to see you cut yourself again.”"
   },
   {
-	"text": "She says it too naturally, like this sentence has already been spoken many times before."
+	"text": "She says it too naturally. Like she’s said it many times before."
   },
   {
-	"text": "She turns to set out the candles, her movements frighteningly practiced: two on the left, one on the right, leaving space in the center for the plate."
+	"text": "She turns to arrange the candles. Her movements are unsettlingly precise: two on the left, one on the right, leaving space in the center for the plate."
   },
   {
-	"text": "I do as she said and place the salt jar on the left."
+	"text": "I place the salt shaker on the left, just like she expects."
   },
   {
-	"text": "She stares at it for two seconds, as if confirming that the world has finally aligned itself the way she wanted—just once."
+	"text": "She watches it for two full seconds—like confirming the world has finally aligned the way she wanted, at least once."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Good.”"
   },
   {
-	"text": "That “good” doesn’t sound like praise for the salt jar. It sounds like praise for the fact that I’m still here."
+	"text": "That “good” doesn’t sound like it’s about the salt."
   },
   {
-	"text": "The noise of the market outside slowly fades. The tavern is left with only the low murmur of the fire."
+	"text": "The noise from the market outside slowly fades. The tavern is left with only the quiet breathing of the fire."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Don’t let anyone disturb us tonight.”"
+	"text": "“Don’t let anyone interrupt us tonight.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“You say that like—”"
+	"text": "“You’re saying that like—”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Like what—don’t say it.”"
+	"text": "“Like nothing. Don’t finish that sentence.”"
   },
   {
-	"text": "She looks up at me. Her voice softens, but grows more insistent:"
+	"text": "She looks at me. Her voice softens—but her resolve hardens."
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“You just need to sit there and finish this meal with me.”"
+	"text": "“Just sit there.”"
   },
   {
-	"text": "I nod. Her shoulders finally loosen."
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Stay with me until this meal is over.”"
   },
   {
-	"text": "But her fingers are still trembling slightly, like she’s racing against some invisible countdown."
+	"text": "I nod."
+  },
+  {
+	"text": "Her shoulders finally loosen."
+  },
+  {
+	"text": "But her fingers still tremble faintly—like she’s fighting against a countdown only she can hear."
   },
   {
 	"event": [

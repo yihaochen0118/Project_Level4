@@ -2,194 +2,188 @@
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" },
+	  { "action": "unlock","target": "3_8" },
 	  { "action": "show_talk_ui" }
 	],
-	"text": "I still followed her. Not out of bravado, and not out of heroism—just because I couldn’t stand the idea of her doing everything alone, while I stayed behind pretending everything was fine."
+	"text": "I followed anyway. Not to be brave. Not to play hero. I just couldn’t stand the idea of her finishing everything alone while I pretended nothing was happening."
   },
-  {
-	"text": "The night snow was thin, but the footprints were clear. She moved too fast, as if slowing down for even a second would make her miss some fixed point in time."
-  },
-  {
-	"text": "By the time I reached the northern district, she was gone. All I could see was a half-open iron door, gently swaying in the wind."
-  },
+  { "text": "The snow was thin, but footprints were clear. She moved too fast—like missing a single second would throw off some fixed point in time." },
+  { "text": "By the time I reached the northern district, she was gone. Only a half-open iron door swayed in the wind." },
+
   {
 	"event": [
 	  { "action": "set_background", "target": "underground_entrance" }
 	],
-	"text": "Behind the door was a staircase leading downward. Cold air surged up from below, as if someone had lit a blue lamp underground."
+	"text": "Behind it, a stairway led downward. Cold air rose from below, as if someone had lit a blue lantern underground."
   },
-  {
-	"text": "I didn’t go too far down. I stopped where I could still see—no charging in, no getting in the way, just watching. Because she had said it herself: I would be a hindrance."
-  },
-  {
-	"text": "From below came soft footsteps, then the sound of metal brushing against stone. Someone was laughing—not a happy laugh, but the kind that said, ‘I’ve finally been waiting for you.’"
-  },
+  { "text": "I didn’t descend too far. I stopped where I could see—without rushing in, without interfering. She said I would get in the way." },
+  { "text": "Low footsteps echoed below. Then the faint scrape of metal against stone. Someone laughed—not with joy, but with the certainty of someone who’d been waiting." },
+
   {
 	"event": [
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] },
 	  { "action": "show_name", "target": "Alicia" }
 	],
-	"text": "Alicia stepped out of the shadows. Her cloak dragged across the ground, without a single wasted movement."
+	"text": "Alicia stepped out of the shadows, her cloak brushing the floor without wasted motion."
   },
-  {
-	"text": "Her gaze settled on the center of the sigil array. Someone stood there—thicker black robes, a deeper ring-shaped mark on his chest, as if branded into flesh. A necklace hung at his neck, flashing cold light."
-  },
+
+  { "text": "At the center of the sigil stood a man. His black robe thicker. The circular mark on his chest darker, almost burned into flesh. A necklace glinted at his throat." },
+
   {
 	"event": [
-	  { "action": "spawn_character", "target": "EchoLeader", "pos": [450, 0] },
-	  { "action": "show_name", "target": "EchoLeader" }
+	  { "action": "spawn_character", "target": "EnemyLeader", "pos": [450, 0] },
+	  { "action": "show_name", "target": "EnemyLeader" }
 	],
-	"text": "“You finally came.” The black-robed leader looked up, his voice carrying a nauseating certainty. “You come every single time.”"
+	"text": "“You finally came.” The leader raised his head, voice sick with certainty. “You always do.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Enough talk.”"
+	"text": "“Enough.”"
   },
+
+  { "text": "Her voice was flat. All emotion pressed into the hilt of her sword." },
+
   {
-	"text": "Her voice was flat—so flat it felt like she had pressed every emotion into the hilt of her sword."
+	"event": [{ "action": "show_name", "target": "EnemyLeader" }],
+	"text": "“You want the necklace? Do you think you can take it?”"
   },
-  {
-	"event": [{ "action": "show_name", "target": "EchoLeader" }],
-	"text": "“You want the necklace? Can you really take it?”"
-  },
-  {
-	"text": "He raised his hand. The sigils flared for a moment, and the air tightened like it was being twisted. My ears rang, and I nearly lost my footing."
-  },
-  {
-	"text": "But Alicia didn’t even frown. She simply stepped forward half a pace—as if stepping into a rhythm she already knew by heart."
-  },
+
+  { "text": "He lifted a hand. The sigil flared. The air tightened. My ears rang; I nearly lost my footing." },
+  { "text": "Alicia didn’t even blink. She stepped forward half a pace—like entering a rhythm she already knew." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“I’ve seen this trick before.”"
+	"text": "“I’ve seen this before.”"
   },
+
+  { "text": "Her blade flashed—a clean, merciless line. Not a flourish. Not a spectacle. Just direct intent." },
+  { "text": "The leader’s charm shattered first. The sigil cracked with a shriek. He stumbled back—but she already knew where he would retreat." },
+
   {
-	"text": "The next second, swordlight flashed like a cold line pulled straight from her hand. Not a slash, not a flourish, but a clean, almost cruelly direct strike."
-  },
-  {
-	"text": "The black-robed leader’s talisman shattered first. The sigil array crackled sharply as it collapsed. He instinctively retreated—but she already knew where he would go."
-  },
-  {
-	"event": [{ "action": "show_name", "target": "EchoLeader" }],
+	"event": [{ "action": "show_name", "target": "EnemyLeader" }],
 	"text": "“You—!”"
   },
-  {
-	"text": "He raised his arm to block, but his wrist lost strength as if cut by an invisible thread. The necklace swayed, its silver light flickering against his throat."
-  },
-  {
-	"text": "Alicia reached out—not to kill him, but to take."
-  },
+
+  { "text": "He tried to block. Too slow. The necklace swung at his throat, silver flickering." },
+  { "text": "She didn’t go for the kill." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Give it to me.”"
+	"text": "“Give it.”"
   },
+
+  { "text": "Her fingers hooked the chain. For a heartbeat, something like pain flashed in her eyes." },
+  { "text": "Then she pulled." },
+  { "text": "The chain snapped with a soft sound—soft enough to feel like fate tearing quietly." },
+
   {
-	"text": "The moment her fingers hooked the necklace, I saw something flash in her eyes—extremely brief, almost like pain."
+	"event": [{ "action": "remove_character", "target": "EnemyLeader" }],
+	"text": "The leader staggered. The sigil died. His mouth moved, but only ash-tinted breath escaped."
   },
-  {
-	"text": "Then—she pulled."
-  },
-  {
-	"text": "The sound of the chain snapping was very soft. But that softness felt like something fate itself had been torn apart."
-  },
-  {
-	"event": [{ "action": "remove_character", "target": "EchoLeader" }],
-	"text": "The black-robed leader staggered back. The sigils went dark all at once. He tried to say something, but only breathed out a mouthful of ash-scented air."
-  },
-  {
-	"text": "Alicia didn’t pursue him. She simply clenched the necklace, as if confirming it was truly in her hand."
-  },
+
+  { "text": "Alicia didn’t pursue. She clenched the necklace in her fist, as if confirming it was real." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“I finally got it.”"
+	"text": "“Finally.”"
   },
-  {
-	"text": "There was no sense of victory in her voice—only the exhaustion of someone who could finally move on to the next step."
-  },
-  {
-	"text": "I should have backed away, but my feet felt nailed to the steps. She suddenly looked up, her gaze landing precisely where I was hiding."
-  },
+
+  { "text": "There was no triumph in her voice. Only exhaustion—like she could finally move to the next step." },
+
+  { "text": "I should have retreated. Instead, I froze." },
+  { "text": "She looked up. Directly at where I was hiding." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Come out.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "My throat was dry. “...I didn’t mean to get in the way.”"
+	"text": "“…I didn’t mean to interfere.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“You already did.”"
   },
-  {
-	"text": "She said it bluntly, but the next line sounded more like suppressed anger:"
-  },
+
+  { "text": "She said it bluntly. Then added, voice tight:" },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“But you’re still alive—consider yourself lucky.”"
+	"text": "“But you’re alive. Consider that luck.”"
   },
-  {
-	"text": "She walked up to me, her cloak brushing snow from the steps. She tucked the necklace inside her clothes, pressing a hand to her chest as if afraid it might disappear."
-  },
+
+  { "text": "She approached. Snow brushed from her cloak across the steps." },
+  { "text": "She tucked the necklace beneath her clothes, palm pressed over it like it might vanish." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“Back to the inn.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "“And them… that’s it?”"
+	"text": "“They’ll just let this go?”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“They won’t pursue us tonight.”"
+	"text": "“Not tonight.”"
   },
-  {
-	"text": "She paused, as if rapidly running through every possibility in her head, then added something more practical:"
-  },
+
+  { "text": "She paused, calculating probabilities in silence." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Tomorrow, I’ll clean up whatever’s left.”"
+	"text": "“Tomorrow I’ll clean up what’s left.”"
   },
+
   {
 	"event": [
 	  { "action": "set_background", "target": "town_snow_street" }
 	],
-	"text": "When we left the underground, the snow had grown heavier. She walked ahead, I followed behind. Neither of us spoke."
+	"text": "When we emerged, the snowfall had thickened. She walked ahead. I followed. Neither of us spoke."
   },
-  {
-	"text": "Only when the inn’s lights appeared through the fog did she seem to finally let out a breath."
-  },
+
+  { "text": "Only when the inn’s light appeared through the fog did her shoulders loosen slightly." },
+
   {
 	"event": [
 	  { "action": "set_background", "target": "tavern_night" }
 	],
-	"text": "The door closed, shutting the wind outside. The fireplace glow lit her face, but she still didn’t seem warmed."
+	"text": "The door closed. The wind was shut outside. The hearthlight touched her face—but didn’t warm it."
+  },
+
+  {
+	"event": [{ "action": "show_name", "target": "Alicia" }],
+	"text": "“Don’t ask for details.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Don’t ask me for details.”"
+	"text": "“Just remember—I got what I needed.”"
   },
+
+  { "text": "She turned toward the stairs. Every step light, every step hurried." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Just remember this—I got what I needed.”"
-  },
-  {
-	"text": "She turned and went upstairs. Her steps were light, but every one of them felt like she was racing against time."
-  },
-  {
-	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“And—next time, don’t follow.”"
+	"text": "“And next time—don’t follow.”"
   },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "I said quietly, “Then next time, don’t go alone.”"
+	"text": "“…Then next time, don’t go alone.”"
   },
-  {
-	"text": "She stopped halfway up the stairs, without turning back."
-  },
+
+  { "text": "She stopped halfway up the stairs. Didn’t turn back." },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“I’ll try.”"
   },
+
   {
 	"event": [
 	  { "action": "change_scene", "target": "scene3.9" }

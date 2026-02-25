@@ -5,36 +5,44 @@
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
 	]
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
-	"text": "Half-jokingly, I said, “Don’t tell me you two are sharing one room?”"
+	"text": "I joke lightly, “What, are you two going to squeeze into one room?”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "Alicia blinked in surprise, then let out a soft laugh."
+	"text": "Alicia is taken aback for a moment, then lets out a soft laugh."
   },
+
   {
-	"text": "“You’re quite bold, aren’t you?” She shook her head, amusement flickering at the corners of her lips. “Don’t worry—we won’t disturb your business.”"
+	"text": "“You’re quite bold to say that.” She shakes her head, unable to hide the smile at the corner of her lips. “Don’t worry, we won’t interfere with your business.”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Lucia" }],
-	"text": "Lucia suddenly caught on and giggled. “Master! Lucia wants to share a room with you!”"
+	"text": "Lucia finally catches on and giggles. “Master! Lucia wants to share a room with you!”"
   },
+
   {
 	"event": [{ "action": "show_name", "target": "Alicia" }],
-	"text": "“Ahem. Upstairs, now.” Alicia coughed lightly and reached over to grab the herb basket."
+	"text": "“Ahem, upstairs.” Alicia clears her throat lightly, reaching out to pick up the basket of herbs."
   },
+
   {
 	"event": [{ "action": "remove_character", "target": "Lucia" }],
-	"text": "Before heading up, she glanced back at me—her eyes no longer cold, but touched with a hint of warmth and teasing light."
+	"text": "She glances back at me once. That look is no longer cold, but carries a hint of warmth and playful teasing."
   },
+
   {
 	"event": [
 	  { "action": "remove_character", "target": "Alicia" },
 	  { "action": "remove_character", "target": "Lucia" }
 	],
-	"text": "The fire crackled softly, and a faint scent of herbs lingered in the air."
+	"text": "The hearth crackles softly, and a faint scent of herbs still lingers in the air."
   },
+
   {
 	"event": [{ "action": "change_scene", "target": "scene1.3" }]
   }
