@@ -157,7 +157,7 @@
 		{
 		  "text": "选项 B：引开注意力，让露西亚有机会救人。【敏捷检定（DEX DC 12）】",
 		  "dc": 12,
-		  "check": "dexterity"
+		  "check": "constitution"
 		},
 		{
 		  "text": "选项 C：尝试与他们对话——也许能拖延时间。【魅力检定（CHA DC 13）】",

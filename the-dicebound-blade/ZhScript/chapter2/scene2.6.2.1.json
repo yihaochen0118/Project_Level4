@@ -57,6 +57,20 @@
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“做得对。”"
   },
+{
+  "event": [
+	{ "action": "add_item", "target": "keeper_badge" }
+  ],
+  "text": "她走近一步，从斗篷内侧取出一枚旧铜徽章，塞进我手里。"
+},
+{
+  "event": [{ "action": "show_name", "target": "Alicia" }],
+  "text": "“留着。守住火的人，比挥剑的人更难。”"
+},
+{
+  "event": [{ "action": "hide_name" }],
+  "text": "徽章冰凉，却在掌心慢慢回温。"
+},
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“我没碍事。”"

@@ -104,7 +104,7 @@
 		  {
 			"text": "选项 A：迅速闪避 【敏捷检定（DEX DC 10）】",
 			"dc": 10,
-			"check": "dexterity"
+			"check": "constitution"
 		  },
 		  {
 			"text": "选项 B：用背包抵挡攻击 【力量检定（STR DC 12）】",

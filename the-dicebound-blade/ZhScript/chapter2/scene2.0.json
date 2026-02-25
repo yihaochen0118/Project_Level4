@@ -157,7 +157,7 @@
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "追上楼质问她“你到底是谁？”【洞察检定（DC 6）】", "dc": 6, "check": "insight" },
+		  { "text": "追上楼质问她“你到底是谁？”【洞察检定（DC 6）】", "dc": 6, "check": "intelligence" },
 		  { "text": "忍下屈辱，先处理伤口与店内秩序【无检定（DC 0）】", "dc": 0, "check": "dexterity" },
 		]
 	  },

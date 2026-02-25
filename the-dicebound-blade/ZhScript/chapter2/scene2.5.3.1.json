@@ -31,6 +31,20 @@
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“……什么——”"
   },
+{
+  "event": [
+	{ "action": "add_item", "target": "echo_residue" }
+  ],
+  "text": "脚踝处的寒意退去时，有什么东西从靴底滚落。"
+},
+{
+  "event": { "action": "show_name", "target": "Player" },
+  "text": "“……这是？”"
+},
+{
+  "event": { "action": "hide_name" },
+  "text": "那是一小块暗蓝色的晶屑，内部像封着一瞬闪烁的残光。"
+},
   {
 	"event": [
 	  { "action": "show_name", "target": "Alicia" },

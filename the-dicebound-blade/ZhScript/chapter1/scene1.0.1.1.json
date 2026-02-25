@@ -96,6 +96,16 @@
 {
   "text": "我望着她，忽然有种错觉——这一切，似乎从一开始就注定要发生。"
 },
+{
+  "event": [
+	{ "action": "add_item", "target": "soul_fragment" }
+  ],
+  "text": "她起身时，一枚淡蓝色的晶片从斗篷边缘滑落。我弯腰拾起，那晶片在指尖微微发热。"
+},
+{
+  "event": { "action": "show_name", "target": "Alicia" },
+  "text": "“……留着吧。”"
+},
   {
 	"event": [{ "action": "change_scene", "target": "scene1.1" }]
   }

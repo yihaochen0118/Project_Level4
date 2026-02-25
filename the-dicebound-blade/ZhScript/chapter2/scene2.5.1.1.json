@@ -90,6 +90,20 @@
 	"event": [{ "action": "hide_name" }],
 	"text": "她说完就转身往外走，脚步很稳，却像靠最后一口气撑出来的稳。"
   },
+{
+  "event": [
+	{ "action": "add_item", "target": "time_mark_stone" }
+  ],
+  "text": "地面阵纹边缘有一块不起眼的灰色碎石。拾起时，它在指尖传来一瞬微弱的震颤。"
+},
+{
+  "event": { "action": "show_name", "target": "Player" },
+  "text": "“……刚才这里没有这块石头。”"
+},
+{
+  "event": { "action": "hide_name" },
+  "text": "石头表面浮现出细微刻痕，像被重复描摹过无数次。"
+},
   {
 	"event": [
 	  { "action": "change_scene", "target": "scene2.6" }

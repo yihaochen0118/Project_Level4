@@ -89,7 +89,7 @@
 		"action": "show_option_ui",
 		"options": [
 		  { "text": "选项 A：听她的，转身离开北门，回旅店等消息【无检定（DC 0）】", "dc": 0, "check": "dexterity" },
-		  { "text": "选项 B：坚持留下来做“不会碍事”的工作（搬物资/递药/跑腿）【charisma（DC 12）】", "dc": 12, "check": "charisma" }
+		  { "text": "选项 B：坚持留下来做“不会碍事”的工作（搬物资/递药/跑腿）【constitution（DC 12）】", "dc": 12, "check": "constitution" }
 		]
 	  },
 	  { "action": "hide_talk_ui" }

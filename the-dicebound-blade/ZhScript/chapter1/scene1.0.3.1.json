@@ -72,8 +72,19 @@
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "“好。”"
   },
+{
+  "event": [{ "action": "add_item", "target": "tactical_ring" }],
+  "text": "她摘下手指上的银色指环，轻轻抛给我。"
+},
+{
+  "event": [{ "action": "show_name", "target": "Alicia" }],
+  "text": "“你反应不错。这东西给你，或许以后有这种情况还能帮上你。”"
+},
+{
+  "text": "指环内侧刻着复杂的细小回路，隐隐泛着蓝光。"
+},
   {
-	"text": "我放下剑，走向柜台。炉火重新跳动，空气里的寒意也渐渐散去。"
+	"text": "我放下剑拿起戒指，走向柜台。炉火重新跳动，空气里的寒意也渐渐散去。"
   },
   {
 	"event": [{ "action": "change_scene", "target": "scene1.1" }]

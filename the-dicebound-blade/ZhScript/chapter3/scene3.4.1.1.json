@@ -41,7 +41,20 @@
 	"event": [{ "action": "show_name", "target": "Alicia" }],
 	"text": "“我……真的很爱你。”"
   },
-
+{
+  "event": [
+	{ "action": "add_item", "target": "silver_thread_ribbon" }
+  ],
+  "text": "她松手时，一缕银色发带从腕间滑落，静静落在枕边。"
+},
+{
+  "event": { "action": "show_name", "target": "Player" },
+  "text": "“……这不是梦吧。”"
+},
+{
+  "event": { "action": "hide_name" },
+  "text": "发带还带着她的体温。"
+},
   { "text": "她的声音含着困意，像在梦里说真话。说完，她手指松开，呼吸慢慢变得均匀。." },
 
   {

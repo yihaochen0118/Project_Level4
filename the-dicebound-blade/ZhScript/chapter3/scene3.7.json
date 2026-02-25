@@ -109,7 +109,7 @@
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "选项 A：跟上去 【DC 10 Dexterity】", "dc": 10, "check": "charisma" },
+		  { "text": "选项 A：跟上去 【DC 10 Constitution】", "dc": 10, "check": "constitution" },
 		  { "text": "选项 B：留在旅店 【DC 0】", "dc": 0, "check": "dexterity" }
 		]
 	  },

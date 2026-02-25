@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmvxt4i2yrx6b"]
+
+[ext_resource type="Script" uid="uid://dy8ds6ce5xbno" path="res://Scenes/item/tactical_ring.gd" id="1_w3qf0"]
+
+[node name="Item1" type="Node2D"]
+script = ExtResource("1_w3qf0")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = 962.0
+offset_top = 439.0
+offset_right = 1090.0
+offset_bottom = 567.0

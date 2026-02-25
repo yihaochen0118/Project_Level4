@@ -88,7 +88,7 @@
 		"action": "show_option_ui",
 		"options": [
 		  { "text": "选项 A：上前劝阻 【魅力检定（DC 4）】", "dc": 4, "check": "charisma" },
-		  { "text": "选项 B：静观其变，等待事态发展 【无检定（DC 0）】", "dc": 0, "check": "dexterity" },
+		  { "text": "选项 B：静观其变，等待事态发展 【无检定（DC 0）】", "dc": 0, "check": "intelligence" },
 		  { "text": "选项 C：悄悄准备防身的短剑 【力量检定（DC 6）】", "dc": 6, "check": "strength" }
 		]
 	  },
