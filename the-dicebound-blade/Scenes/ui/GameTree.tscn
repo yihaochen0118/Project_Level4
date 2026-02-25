@@ -8,7 +8,7 @@
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
 offset_right = 1962.0
-offset_bottom = 1088.0
+offset_bottom = 3720.0
 
 [node name="GameTree" type="Control" parent="ScrollContainer"]
 custom_minimum_size = Vector2(1960, 3200)
@@ -959,7 +959,7 @@ offset_bottom = 2695.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_unlocked = "BE 3"
 metadata/hint_locked = "???"
 
 [node name="BadEndding2" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
@@ -971,7 +971,7 @@ offset_bottom = 2855.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_unlocked = "Help Alicia attract the Boss's attention"
 metadata/hint_locked = "???"
 
 [node name="BadEndding1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
@@ -983,7 +983,7 @@ offset_bottom = 2855.0
 texture = ExtResource("3_kpcvo")
 expand_mode = 1
 metadata/hint_image = ""
-metadata/hint_unlocked = "艾莉西亚的战死"
+metadata/hint_unlocked = "loudly proclaiming my love for Alicia"
 metadata/hint_locked = "???"
 
 [node name="3_11_1" type="TextureRect" parent="ScrollContainer/GameTree/Marks"]
