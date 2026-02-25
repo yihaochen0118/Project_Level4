@@ -8,7 +8,7 @@
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
 offset_right = 1962.0
-offset_bottom = 3720.0
+offset_bottom = 1088.0
 
 [node name="GameTree" type="Control" parent="ScrollContainer"]
 custom_minimum_size = Vector2(1960, 3200)
