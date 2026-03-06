@@ -18,7 +18,7 @@
   },
   {
 	"event": [
-	  { "action": "hp_lost", "amount": 10 },
+	  { "action": "hp_lost", "amount": 50 },
 	  { "action": "shake", "target": "Player" },
 	  { "action": "set_flag", "flag": "injuredByMonster1", "value": true }
 	],

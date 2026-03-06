@@ -58,8 +58,16 @@ func get_stat(stat: String) -> int:
 # --------------------
 func change_hp(amount: int):
 	hp = clamp(hp + amount, 0, max_hp)
+
 	print("当前 HP: %d / %d" % [hp, max_hp])
 	emit_signal("hp_changed", hp, max_hp)
+
+	# 💀 HP归零 → Game Over
+	if hp <= 0:
+		EventMgr.handle_event({
+			"action": "game_over",
+			"message": "GAME OVER \nYou collapsed due to the severity of your injuries.。"
+		})
 
 func reset_dice_uses():
 	dice_uses = DEFAULT_DICE_MAX_USES.duplicate(true)

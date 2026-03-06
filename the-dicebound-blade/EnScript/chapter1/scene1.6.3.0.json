@@ -47,7 +47,7 @@
 	"text": "A whip of light lashes out and strikes my chest."
   },
   {
-	"event": { "action": "hp_lost", "amount": 10 },
+	"event": { "action": "hp_lost", "amount": 30 },
 	"text": "Blazing pain spreads from my chest. I’m thrown to the ground, the taste of blood rising in my throat."
   },
   {

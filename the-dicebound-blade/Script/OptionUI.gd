@@ -8,7 +8,7 @@ func set_options(options: Array):
 
 	for i in range(buttons.size()):
 		if i < options.size():
-			var option_data = options[i]   # { "text": "...", "dc": 12 }
+			var option_data = options[i]
 			buttons[i].text = option_data["text"]
 			buttons[i].show()
 
@@ -28,5 +28,6 @@ func set_options(options: Array):
 			buttons[i].hide()
 
 func _on_button_pressed(index: int, text: String, dc: int, check: String):
+	SdMgr.play_sfx(preload("res://images/Sound/chooseoption.wav"))
 	hide()
 	emit_signal("option_selected", index, text, dc, check)

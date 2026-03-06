@@ -32,7 +32,7 @@
   {
 	"event": [
 	  { "action": "shake", "target": "Player" },
-	  { "action": "hp_lost", "amount": 10 }
+	  { "action": "hp_lost", "amount": 30 }
 	],
 	"text": "Before I can react, a lash of energy strikes the wall beside me, sparks exploding outward. Fragments of stone slam into my shoulder, the pain nearly stealing my voice."
   },

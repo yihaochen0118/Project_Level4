@@ -316,3 +316,4 @@ func _handle_game_over(event: Dictionary) -> void:
 
 	if popup.has_method("show_game_over"):
 		popup.show_game_over(message)
+	ui_root.is_waiting_choice = true

@@ -19,7 +19,7 @@
 	"text": "I twist to dodge—but my foot catches on loose stone. My blade slices through half an arc and misses. Blue light erupts in front of me."
   },
   {
-	"event": { "action": "hp_lost", "amount": 15 },
+	"event": { "action": "hp_lost", "amount": 30 },
 	"text": "A searing pain rips through my arm, like being branded with heated iron. I stagger back, blood dripping from my sleeve onto the ground."
   },
   {

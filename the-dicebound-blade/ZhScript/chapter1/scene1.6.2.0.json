@@ -32,7 +32,7 @@
   {
 	"event": [
 	  { "action": "shake", "target": "Player" },
-	  { "action": "hp_lost", "amount": 10 }
+	  { "action": "hp_lost", "amount": 30 }
 	],
 	"text": "我还未来得及反应，一道能量鞭抽在墙边，火星飞溅。碎石击中我的肩膀，疼得我几乎失声。"
   },

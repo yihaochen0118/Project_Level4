@@ -47,7 +47,7 @@
 	"text": "一道光鞭猛然抽出，击中我的胸口。"
   },
   {
-	"event": { "action": "hp_lost", "amount": 10 },
+	"event": { "action": "hp_lost", "amount": 30 },
 	"text": "炽痛从胸口传开，我被掀翻在地，喉咙里涌出血腥味。"
   },
   {

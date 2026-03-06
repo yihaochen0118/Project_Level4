@@ -16,7 +16,11 @@ var check: String = ""
 var original_z_index = {}
 var original_position = {}
 
-
+var dice_sounds = [
+	preload("res://images/Sound/dice1.wav"),
+	preload("res://images/Sound/dice2.wav"),
+	preload("res://images/Sound/dice3.wav")
+]
 # ==============================
 # 🚀 初始化
 # ==============================
@@ -30,6 +34,7 @@ func _ready():
 				original_z_index[btn] = btn.z_index
 				original_position[btn] = btn.position
 		# 背景淡入
+	randomize()
 	_fade_dim(true)
 
 # ==============================
@@ -76,8 +81,15 @@ func _on_pressed(btn: Button):
 	tween.tween_property(btn, "scale", Vector2(0.95, 0.95), 0.08)
 
 func _on_released(btn: Button):
-	if btn.disabled: return
+	if btn.disabled:
+		return
+	
 	var tween = create_tween()
+	
+	# 随机选择一个声音
+	var random_sound = dice_sounds[randi() % dice_sounds.size()]
+	SdMgr.play_sfx(random_sound)
+	
 	tween.tween_property(btn, "scale", Vector2(1.1, 1.1), 0.1)
 
 
