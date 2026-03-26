@@ -5,7 +5,9 @@
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
 	]
   },
-
+ {
+	"text": "Successed",
+  },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "I joke lightly, “What, are you two going to squeeze into one room?”"

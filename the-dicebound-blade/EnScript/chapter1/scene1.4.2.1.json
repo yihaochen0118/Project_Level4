@@ -8,6 +8,8 @@
 	  { "action": "show_talk_ui" }
 	],
 	"text": "The ground suddenly trembles as a beast covered in rocky armor bursts from the earth. Its eyes glow green, and its low roar sends birds scattering through the forest."
+  }, {
+	"text": "Successed",
   },
   {
 	"event": { "action": "show_name", "target": "Player" },

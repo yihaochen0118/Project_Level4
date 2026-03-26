@@ -5,6 +5,9 @@
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
 	]
   },
+ {
+	"text": "Successed",
+  },
   {
 	"text": "I step forward, keeping my voice as gentle as possible.",
 	"event": [{ "action": "show_name", "target": "Player" }]

@@ -137,7 +137,7 @@
 		"action": "show_option_ui",
 		"options": [
 		  { "text": "Option A: Proactively ask Alicia if she’d like to book a room for Lucia", "dc": 0, "check": "charisma" },
-		  { "text": "Option B: Tease, “So, are you two going to share one room?”", "dc": 5, "check": "charisma" }
+		  { "text": "Option B: Tease, “So, are you two going to share one room?”", "dc": 8, "check": "charisma" }
 		]
 	  },
 	  { "action": "hide_talk_ui" }

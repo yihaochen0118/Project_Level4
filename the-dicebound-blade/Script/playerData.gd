@@ -20,7 +20,7 @@ var max_hp: int = 100
 func _ready():
 	load_progress()   # 启动时读取一次永久进度（不受存档影响）
 	
-# 六大能力值（基于 D&D 风格）
+
 var stats = {
 	"strength": 2,      # 力量（Strength）：近战、威慑、体能对抗
 	"constitution": 3,  # 体质（Constitution）：耐力、生命力、抵抗力

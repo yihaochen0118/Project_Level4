@@ -102,7 +102,7 @@
 		"action": "show_option_ui",
 		"options": [
 		  {
-			"text": "选项 A：迅速闪避 【敏捷检定（DEX DC 10）】",
+			"text": "选项 A：迅速闪避 【敏捷检定（CONS DC 10）】",
 			"dc": 10,
 			"check": "constitution"
 		  },

@@ -131,7 +131,7 @@
 		"action": "show_option_ui",
 		"options": [
 		  { "text": "选项 A：主动询问艾莉西亚是否要为露西亚订房", "dc": 0, "check": "charisma" },
-		  { "text": "选项 B：开玩笑地问“你们要挤一间房嘛？”", "dc": 5, "check": "charisma" }
+		  { "text": "选项 B：开玩笑地问“你们要挤一间房嘛？”", "dc": 8, "check": "charisma" }
 		]
 	  },
 	  { "action": "hide_talk_ui" }

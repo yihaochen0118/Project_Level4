@@ -104,8 +104,8 @@
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "选项 A：大声宣誓对Alicia的爱【DC 10 charisma】", "dc": 10, "check": "charisma" },
-		  { "text": "选项 B：向怪物大喊并且丢石头以帮助Alicia吸引注意力让怪物露出破绽【DC 10 dexterity】", "dc": 10, "check": "strength" },
+		  { "text": "选项 A：大声宣誓对Alicia的爱【DC 15 charisma】", "dc": 15, "check": "charisma" },
+		  { "text": "选项 B：向怪物大喊并且丢石头以帮助Alicia吸引注意力让怪物露出破绽【DC 15 strength】", "dc": 15, "check": "strength" },
 		{ "text": "选项 C：什么都不做【DC 0】", "dc": 0, "check": "dexterity" }
 		]
 	  },

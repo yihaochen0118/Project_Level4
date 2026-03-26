@@ -7,6 +7,8 @@
 	  { "action": "show_talk_ui" }
 	],
 	"text": "The air suddenly freezes. The chanting stops abruptly, and several gazes gather from the shadows—cold and eerie. The blue glow of the ritual circle flickers across the ground like an awakening eye."
+  }, {
+	"text": "Successed",
   },
   {
 	"event": [

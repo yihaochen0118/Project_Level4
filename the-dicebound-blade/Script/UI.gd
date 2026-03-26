@@ -262,11 +262,11 @@ func perform_check(index: int, dc: int, check: String):
 		if total >= dc:
 			success = 1
 
-		var outcome_text = "失败"
+		var outcome_text = "faild"
 		if success == 1:
-			outcome_text = "成功"
+			outcome_text = "successed"
 
-		print("骰子结果: d%d=%d + %d (%s修正) = %d vs DC %d → %s" %
+		print("Dice result: d%d=%d + %d (%sModification) = %d vs DC %d → %s" %
 			[sides, result, modifier, check, total, dc, outcome_text])
 
 		var branch_name = "%s.%d.%d" % [current_scene_name, index + 1, success]

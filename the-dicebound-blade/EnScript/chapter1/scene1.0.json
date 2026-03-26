@@ -87,7 +87,7 @@
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "Option A: Step forward to persuade him 【Charisma Check (DC 4)】", "dc": 4, "check": "charisma" },
+		  { "text": "Option A: Step forward to persuade him 【Charisma Check (DC 6)】", "dc": 6, "check": "charisma" },
 		  { "text": "Option B: Stay and observe, waiting for the situation to unfold 【No Check (DC 0)】", "dc": 0, "check": "intelligence" },
 		  { "text": "Option C: Quietly prepare your short sword for defense 【Strength Check (DC 6)】", "dc": 6, "check": "strength" }
 		]

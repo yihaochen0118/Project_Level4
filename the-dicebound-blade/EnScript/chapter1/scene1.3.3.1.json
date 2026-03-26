@@ -5,6 +5,8 @@
 	  { "action": "show_talk_ui" }
 	],
 	"text": "The firelight flickers in her eyes, casting a soft ring of gold. Outside, the wind hums low, like an old song no one can quite remember."
+  }, {
+	"text": "Successed",
   },
   {
 	"event": { "action": "show_name", "target": "Player" },

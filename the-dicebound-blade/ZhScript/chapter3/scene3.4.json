@@ -84,8 +84,8 @@
 		"action": "show_option_ui",
 		"options": [
 		  {
-			"text": "选项 A：把她抱回房间，让她好好睡（你会很小心，不惊动她）【敏捷检定（DC 10）】",
-			"dc": 10,
+			"text": "选项 A：把她抱回房间，让她好好睡（你会很小心，不惊动她）【strength DC 12）】",
+			"dc": 12,
 			"check": "strength"
 		  },
 		  {

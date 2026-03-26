@@ -82,8 +82,8 @@
 		"action": "show_option_ui",
 		"options": [
 		  {
-			"text": "Option A: Carry her upstairs so she can sleep properly (you will move carefully, without waking her)【Strength Check (DC 10)】",
-			"dc": 10,
+			"text": "Option A: Carry her upstairs so she can sleep properly (you will move carefully, without waking her)【Strength Check (DC 12)】",
+			"dc": 12,
 			"check": "strength"
 		  },
 		  {

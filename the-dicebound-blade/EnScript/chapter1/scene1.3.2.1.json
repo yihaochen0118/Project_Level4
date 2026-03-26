@@ -5,6 +5,8 @@
 	  { "action": "show_talk_ui" }
 	],
 	"text": "The flames flicker softly, and the air carries the scent of wine and burning wood. She watches me quietly, as if waiting for an answer."
+  }, {
+	"text": "Successed",
   },
   {
 	"event": { "action": "show_name", "target": "Player" },

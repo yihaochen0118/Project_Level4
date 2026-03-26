@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://dpo6pv4jbf27w"]
+[gd_scene load_steps=6 format=3 uid="uid://dpo6pv4jbf27w"]
 
 [ext_resource type="Script" uid="uid://dk15tr31yvu73" path="res://Script/start.gd" id="1_og4jd"]
 [ext_resource type="Texture2D" uid="uid://35gfti1fitws" path="res://images/background/mainPage.jpg" id="2_nt0jr"]
+[ext_resource type="Texture2D" uid="uid://b3fgg0yjr1nkh" path="res://images/else/logo.png" id="3_37b1d"]
+[ext_resource type="VideoStream" uid="uid://dqg5dnswq8tlq" path="res://vedio/BackGround.ogv" id="3_lmkek"]
 [ext_resource type="AudioStream" uid="uid://baep7kc2qf6iq" path="res://Scenes/music/LostMyPieces——Piano Ver..ogg" id="3_y4ycm"]
-[ext_resource type="VideoStream" uid="uid://dqg5dnswq8tlq" path="res://vedio/BackGround.ogv" id="4_1lxxj"]
 
 [node name="Start" type="Control"]
 layout_mode = 3
@@ -12,16 +13,18 @@ script = ExtResource("1_og4jd")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
-offset_right = 3266.6665
-offset_bottom = 1800.0
+offset_right = 3265.0
+offset_bottom = 1798.3333
 scale = Vector2(0.6, 0.6)
 texture = ExtResource("2_nt0jr")
 
 [node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
 layout_mode = 0
-offset_right = 1959.0
-offset_bottom = 1078.0
-stream = ExtResource("4_1lxxj")
+offset_left = 5.0
+offset_top = 2.0
+offset_right = 1962.0
+offset_bottom = 1083.0
+stream = ExtResource("3_lmkek")
 autoplay = true
 expand = true
 loop = true
@@ -69,3 +72,12 @@ offset_right = 1948.0
 offset_bottom = 1058.0
 horizontal_alignment = 2
 vertical_alignment = 1
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -135.0
+offset_top = -59.0
+offset_right = 448.0
+offset_bottom = 268.0
+texture = ExtResource("3_37b1d")
+expand_mode = 1

@@ -124,7 +124,7 @@
 		"options": [
 		  { "text": "Option A: Press her—“Where exactly is this? Why do you seem so familiar with it?” [charisma Check (INS DC 13)]", "dc": 13, "check": "charisma" },
 		  { "text": "Option B: Stop pressing and escort them back to the inn first [No Check (DC 0)]", "dc": 0, "check": "dexterity" },
-		  { "text": "Option C: Make an excuse to stay and observe the surroundings [intellgent Check (PER DC 12)]", "dc": 12, "check": "intellgent" }
+		  { "text": "Option C: Make an excuse to stay and observe the surroundings [intelligence Check DC 16)]", "dc": 16, "check": "intellgent" }
 		]
 	  },
 	  { "action": "hide_talk_ui" }

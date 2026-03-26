@@ -5,6 +5,9 @@
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
 	]
   },
+ {
+	"text": "Successed",
+  },
   { "text": "The drunk’s footsteps draw closer and closer, the cups on the table trembling lightly as the smell of alcohol thickens in the air." },
   { "text": "I do not step back. Instead, I slowly rest my hand on the hilt of my short sword, my fingertips pressing down slightly." },
   {

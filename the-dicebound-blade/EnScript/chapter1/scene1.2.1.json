@@ -5,7 +5,9 @@
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
 	]
   },
-
+ {
+	"text": "Successed",
+  },
   {
 	"event": [{ "action": "show_name", "target": "Player" }],
 	"text": "I open the ledger and look up. “Are you booking a room for Lucia as well?”"

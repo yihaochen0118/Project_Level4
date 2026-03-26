@@ -8,6 +8,8 @@
 	  { "action": "show_talk_ui" }
 	],
 	"text": "The beast lets out a low growl, the rocky armor along its limbs gleaming with a cold sheen. Its breath is heavy and scorching, as though it could crush the entire forest under its weight."
+  }, {
+	"text": "Successed",
   },
   {
 	"event": { "action": "show_name", "target": "Player" },

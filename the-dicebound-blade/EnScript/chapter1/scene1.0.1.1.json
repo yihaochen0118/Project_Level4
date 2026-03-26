@@ -5,6 +5,9 @@
 	  { "action": "spawn_character", "target": "Alicia", "pos": [-450, 0] }
 	]
   },
+ {
+	"text": "Successed",
+  },
   {
 	"text": "I take a deep breath and steady my voice."
   },

@@ -116,8 +116,8 @@
 	  {
 		"action": "show_option_ui",
 		"options": [
-		  { "text": "Option A: Loudly declare your love for Alicia 【DC 10 Charisma】", "dc": 10, "check": "charisma" },
-		  { "text": "Option B: Shout at the monster and throw a stone to draw its attention and create an opening 【DC 10 Strength】", "dc": 10, "check": "strength" },
+		  { "text": "Option A: Loudly declare your love for Alicia 【DC 15 Charisma】", "dc": 15, "check": "charisma" },
+		  { "text": "Option B: Shout at the monster and throw a stone to draw its attention and create an opening 【DC 15 Strength】", "dc": 15, "check": "strength" },
 		  { "text": "Option C: Do nothing 【DC 0】", "dc": 0, "check": "dexterity" }
 		]
 	  },

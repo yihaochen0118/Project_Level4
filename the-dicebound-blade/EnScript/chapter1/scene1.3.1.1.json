@@ -5,6 +5,8 @@
 	  { "action": "show_talk_ui" }
 	],
 	"text": "Firelight sways along the walls, and the night wraps the entire inn in a quiet layer of gold. Her gaze rests on me, carrying a faint trace of inquiry."
+  }, {
+	"text": "Successed",
   },
   {
 	"event": { "action": "show_name", "target": "Player" },

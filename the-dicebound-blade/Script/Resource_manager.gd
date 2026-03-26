@@ -52,7 +52,7 @@ var backgrounds = {
 	"GameTree": "res://Scenes/ui/Gametree.tscn",
 }
 
-# 角色场景路径
+
 var characters = {
 	"Alicia": "res://Scenes/Characters/Alicia.tscn",
 	"Monster1": "res://Scenes/Characters/Monster1.tscn",
@@ -112,18 +112,18 @@ func get_ui(name: String) -> String:
 	return ui.get(name, "")
 	
 func get_dialogue(scene_name: String) -> String:
-	print("📖 请求剧情文件:", scene_name, "语言:", current_lang)
+	print("📖 Requesting dialogue file:", scene_name, "Language:", current_lang)
 
 	if dialogues.has(scene_name):
 		var entry = dialogues[scene_name]
 		if entry.has(current_lang):
-			print("✅ 命中语言文件:", entry[current_lang])
+			print("✅ Matched language file:", entry[current_lang])
 			return entry[current_lang]
 		elif entry.has("zh"):
-			print("⚙️ 找不到 %s 版，回退到中文: %s" % [current_lang, entry["zh"]])
+			print("⚙️ Could not find %s version, falling back to Chinese: %s" % [current_lang, entry["zh"]])
 			return entry["zh"]
 
-	push_warning("⚠️ 未找到剧情文件: %s（语言: %s）" % [scene_name, current_lang])
+	push_warning("⚠️ Dialogue file not found: %s (Language: %s)" % [scene_name, current_lang])
 	return ""
 	
 	# ==================================================

@@ -177,35 +177,35 @@ func _shake_character(name: String, amount: float = 10.0, d1: float = 0.05, d2: 
 	tween.tween_property(target, "position:x", x, d1)
 
 func _change_scene(scene_name: String) -> void:
-	# ✅ 获取对话文件路径
+	# ✅ Get dialogue file path / 获取对话文件路径
 	var path = ResMgr.get_dialogue(scene_name)
 	if path == "":
-		push_error("找不到对话脚本: %s" % scene_name)
+		push_error("Dialogue script not found / 找不到对话脚本: %s" % scene_name)
 		return
 
-	# ✅ 获取当前场景根节点
+	# ✅ Get current scene root / 获取当前场景根节点
 	var root = get_tree().current_scene
 	if not root:
-		push_error("❌ 当前没有加载任何场景")
+		push_error("❌ No scene is currently loaded / 当前没有加载任何场景")
 		return
 
-	# ✅ 清空所有角色立绘
+	# ✅ Clear all character portraits / 清空所有角色立绘
 	if root.has_node("Charact"):
 		var char_root = root.get_node("Charact")
 		for node in char_root.get_children():
 			node.queue_free()
-		print("🗑️ 切换到 %s 前清空所有立绘" % scene_name)
+		print("🗑️ Cleared all character portraits before switching to %s / 切换到 %s 前清空所有立绘" % [scene_name, scene_name])
 
-	# ✅ 获取 UI 节点
+	# ✅ Get UI node / 获取 UI 节点
 	var ui = root.get_node("UI") if root.has_node("UI") else null
 	if not ui:
-		push_error("⚠️ 当前场景缺少 UI 节点")
+		push_error("⚠️ Current scene is missing the UI node / 当前场景缺少 UI 节点")
 		return
 
-	# ✅ 更新当前对话名（存到 UI.gd 里的 current_scene_name）
+	# ✅ Update current scene name / 更新当前对话名
 	ui.current_scene_name = scene_name
 
-	# ✅ 加载新剧情
+	# ✅ Load new dialogue / 加载新剧情
 	ui.load_dialogues(path)
 	ui.show_next_line()
 
